@@ -1,0 +1,6 @@
+---
+import SectionView from '../../views/SectionView.astro';
+import { sectionPaths } from '../../lib/paths';
+export const getStaticPaths = () => sectionPaths('en');
+---
+<SectionView {...Astro.props} />

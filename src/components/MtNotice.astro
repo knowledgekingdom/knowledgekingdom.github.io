@@ -1,0 +1,15 @@
+---
+// Shown on Bulgarian pages whose text was machine-translated.
+import Icon from './Icon.astro';
+import { t, langFromPath, localize, stripLang } from '../i18n/ui';
+interface Props { show?: boolean }
+const { show = true } = Astro.props;
+const lang = langFromPath(Astro.url.pathname);
+const original = localize(stripLang(Astro.url.pathname), 'en');
+---
+{lang === 'bg' && show && (
+  <p class="mt-notice" data-pagefind-ignore>
+    <Icon name="info" />
+    <span>{t(lang, 'mt.note')} <a href={original} hreflang="en" lang="en">{t(lang, 'mt.link')}</a></span>
+  </p>
+)}

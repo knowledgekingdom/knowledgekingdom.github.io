@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import { getRoadmap, getChapters, getBook } from '../lib/book';
+import { t, langFromPath, localize, statusText } from '../i18n/ui';
+
+const lang = langFromPath(Astro.url.pathname);
+const book = getBook(lang);
+const roadmap = getRoadmap(lang);
+const chapters = await getChapters(lang);
+const bySlug = new Map(chapters.map((c) => [c.data.number, c.data.slug]));
+const entries = new Map(roadmap.chapters.map((c) => [c.number, c]));
+const written = roadmap.chapters.filter((c) => bySlug.has(c.number)).length;
+const total = roadmap.chapters.length;
+---
+<Base title={t(lang, 'roadmap.title')} description={t(lang, 'roadmap.lede', { title: book.title, written, total })}>
+  <main id="main" class="container" style="padding-top:clamp(2rem,6vw,4rem);padding-bottom:4rem" data-part="1">
+    <header class="page-head">
+      <span class="kicker">{t(lang, 'roadmap.kicker')}</span>
+      <h1>{t(lang, 'roadmap.title')}</h1>
+      <p class="standfirst">{t(lang, 'roadmap.lede', { title: book.title, written, total })}</p>
+    </header>
+    {roadmap.groups.map((g) => (
+      <section class="roadmap-group">
+        <h2>{g.title}</h2>
+        <ol>
+          {g.chapters.map((n) => {
+            const c = entries.get(n)!;
+            const slug = bySlug.get(n);
+            return (
+              <li class={slug ? 'is-written' : 'is-planned'}>
+                <span class="n">{String(n).padStart(3, '0')}</span>
+                <span class="t">{slug ? <a href={localize(`/${slug}/`, lang)}>{c.title}</a> : c.title}</span>
+                <span class="st">{statusText(lang, c.status)}</span>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+    ))}
+  </main>
+</Base>

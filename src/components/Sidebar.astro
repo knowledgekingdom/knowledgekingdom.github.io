@@ -1,0 +1,60 @@
+---
+// Parts → Chapters only. Only the current chapter's sections are expanded,
+// so page weight stays flat as the book grows to thousands of sections.
+import { getBook, getChapters, sectionsOf, sectionUrl, chapterUrl, type Section } from '../lib/book';
+import { t, langFromPath, localize, type UIKey } from '../i18n/ui';
+
+interface Props { currentChapter?: number; currentUrl: string }
+const { currentChapter, currentUrl } = Astro.props;
+const lang = langFromPath(Astro.url.pathname);
+const book = getBook(lang);
+const chapters = await getChapters(lang);
+const current: Section[] = currentChapter ? await sectionsOf(currentChapter, lang) : [];
+const regular = current.filter((s) => s.data.type === 'section');
+const special = current.filter((s) => s.data.type !== 'section');
+---
+<nav class="sidebar" id="sidebar" aria-label={t(lang, 'nav.bookContents')} data-pagefind-ignore>
+  <div class="sidebar-inner">
+    {book.parts.map((part) => (
+      <>
+        <h2><a href={localize(`/${part.slug}/`, lang)}>{t(lang, 'part', { n: part.roman })} · {part.title}</a></h2>
+        <ul>
+          {chapters.filter((c) => c.data.part === part.number).map((c) => {
+            const isCurrent = c.data.number === currentChapter;
+            const url = chapterUrl(c, lang);
+            return (
+              <li class:list={['sb-chapter', { 'is-current': isCurrent }]}>
+                <a href={url} aria-current={currentUrl === url ? 'page' : undefined}>
+                  <span class="n">{c.data.label}</span><span>{c.data.title}</span>
+                </a>
+                {isCurrent && (
+                  <ul class="sb-sections">
+                    {regular.map((s) => (
+                      <li>
+                        <a href={sectionUrl(s, lang)} aria-current={currentUrl === sectionUrl(s, lang) ? 'page' : undefined}>
+                          <span class="n">{s.data.number ?? '·'}</span><span>{s.data.title}</span>
+                        </a>
+                      </li>
+                    ))}
+                    {special.map((s, i) => (
+                      <li class:list={{ 'sb-special': i === 0 }}>
+                        <a href={sectionUrl(s, lang)} aria-current={currentUrl === sectionUrl(s, lang) ? 'page' : undefined}>
+                          <span class="n">·</span><span>{t(lang, `special.${s.data.type}` as UIKey)}</span>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </>
+    ))}
+    <div class="sb-extra">
+      <a href={localize('/about/', lang)}>{t(lang, 'nav.aboutBook')}</a>
+      <a href={localize('/roadmap/', lang)}>{t(lang, 'nav.comingChapters')}</a>
+    </div>
+  </div>
+</nav>
+<div class="scrim" hidden></div>

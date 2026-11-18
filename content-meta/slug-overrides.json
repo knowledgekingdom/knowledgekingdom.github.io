@@ -1,0 +1,6 @@
+{
+  "_help": "Manual slug overrides. chapters: {\"001\": \"slug\"}; sections: {\"001|normalized title\": \"slug\"} (keys as in slugs.json); redirects: [{\"from\": \"/old/\", \"to\": \"/new/\"}].",
+  "chapters": {},
+  "sections": {},
+  "redirects": []
+}

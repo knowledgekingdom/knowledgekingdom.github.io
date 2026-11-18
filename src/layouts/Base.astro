@@ -1,0 +1,174 @@
+---
+import '@fontsource-variable/source-serif-4/opsz.css';
+import '@fontsource-variable/source-serif-4/opsz-italic.css';
+import '@fontsource-variable/inter';
+// Preload the main text font for this language so headings render without waiting (LCP).
+import serifLatin from '@fontsource-variable/source-serif-4/files/source-serif-4-latin-opsz-normal.woff2?url';
+import serifCyrillic from '@fontsource-variable/source-serif-4/files/source-serif-4-cyrillic-opsz-normal.woff2?url';
+import '../styles/palettes.css';
+import '../styles/global.css';
+import '../styles/components.css';
+import Icon from '../components/Icon.astro';
+import PalettePicker from '../components/PalettePicker.astro';
+import Search from '../components/Search.astro';
+import { site, footerText } from '../site.config';
+import { getBook } from '../lib/book';
+import { t, langFromPath, localize, stripLang, htmlLang } from '../i18n/ui';
+
+interface Props {
+  title?: string;
+  description?: string;
+  part?: number | null;
+  hasSidebar?: boolean;
+  /** Open Graph type: 'article' for reading pages, 'website' otherwise. */
+  ogType?: 'website' | 'article';
+  /** Keep this page out of search engines (e.g. /random/). */
+  noindex?: boolean;
+}
+const { title, description = site.description, part = null, hasSidebar = false, ogType = 'website', noindex = false } = Astro.props;
+const path = Astro.url.pathname;
+const lang = langFromPath(path);
+const other = lang === 'en' ? 'bg' : 'en';
+const book = getBook(lang);
+const bookTitle = book.title;
+const L = (p: string) => localize(p, lang);
+const switchHref = localize(stripLang(path), other);
+const fullTitle = title ? `${title} · ${bookTitle}` : `${bookTitle} — ${book.subtitle}`;
+const canonical = new URL(path, Astro.site);
+const altEn = new URL(localize(stripLang(path), 'en'), Astro.site);
+const altBg = new URL(localize(stripLang(path), 'bg'), Astro.site);
+// Link-preview image: the chapter's card for chapter pages, the homepage card otherwise (public/og/).
+const chapterLabel = stripLang(path).match(/^\/(\d{3})-/)?.[1];
+const ogImage = new URL(`/og/${chapterLabel ?? 'home'}-${lang}.jpg`, Astro.site);
+const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
+---
+<!doctype html>
+<html lang={htmlLang[lang]} data-palette={site.palette}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="alternate" hreflang="en" href={altEn} />
+    <link rel="alternate" hreflang="bg" href={altBg} />
+    <link rel="alternate" hreflang="x-default" href={altEn} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
+    <meta property="og:site_name" content={bookTitle} />
+    <meta property="og:title" content={title ?? bookTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content={ogLocale[lang]} />
+    <meta property="og:locale:alternate" content={ogLocale[other]} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="sitemap" href="/sitemap.xml" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#12161b" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href={lang === 'bg' ? serifCyrillic : serifLatin} as="font" type="font/woff2" crossorigin />
+    <script is:inline define:vars={{ allowPalette: site.paletteSwitcher }}>
+      try {
+        const d = document.documentElement;
+        const t = localStorage.getItem('kk-theme');
+        if (t === 'light' || t === 'dark') d.dataset.theme = t;
+        const q = allowPalette && new URLSearchParams(location.search).get('palette');
+        if (q) localStorage.setItem('kk-palette', q);
+        const p = allowPalette && (q || localStorage.getItem('kk-palette'));
+        if (p && /^[a-z]+$/.test(p)) d.dataset.palette = p;
+      } catch (e) {}
+    </script>
+    {site.goatcounter && import.meta.env.PROD && (
+      <script is:inline async data-goatcounter={`https://${site.goatcounter}.goatcounter.com/count`} src="https://gc.zgo.at/count.js"></script>
+    )}
+  </head>
+  <body data-part={part ?? undefined}>
+    <a class="skip-link" href="#main">{t(lang, 'skip')}</a>
+    <header class="site-header">
+      <div class="inner">
+        {hasSidebar && (
+          <button class="icon-btn nav-toggle" type="button" aria-controls="sidebar" aria-expanded="false" data-nav-toggle>
+            <Icon name="menu" /><span class="visually-hidden">{t(lang, 'nav.openContents')}</span>
+          </button>
+        )}
+        <a class="brand" href={L('/')}><span>{bookTitle}</span></a>
+        <nav class="header-nav" aria-label={t(lang, 'nav.site')}>
+          <a class="hide-sm" href={L('/about/')} aria-current={stripLang(path) === '/about/' ? 'page' : undefined}>{t(lang, 'nav.about')}</a>
+          <a class="hide-sm" href={L('/roadmap/')} aria-current={stripLang(path) === '/roadmap/' ? 'page' : undefined}>{t(lang, 'nav.roadmap')}</a>
+          <a class="hide-sm" href={L('/random/')}>{t(lang, 'nav.random')}</a>
+          <Search />
+          {site.paletteSwitcher && <PalettePicker />}
+          <button class="icon-btn" type="button" data-theme-toggle aria-label={t(lang, 'nav.toggleTheme')}>
+            <Icon name="moon" class="theme-icon-moon" /><Icon name="sun" class="theme-icon-sun" />
+          </button>
+          <a class="icon-btn lang-switch" href={switchHref} hreflang={other} lang={other} data-lang-switch
+             aria-label={t(lang, 'nav.switchLang')} title={t(lang, 'nav.switchLang')}>
+            <Icon name="globe" /><span>{t(lang, 'nav.switchLangShort')}</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <slot />
+    <footer class="site-footer">
+      <div class="inner">
+        <p style="margin:0">{footerText()}</p>
+        <nav aria-label={t(lang, 'nav.footer')}>
+          <a href={L('/about/')}>{t(lang, 'nav.about')}</a>
+          <a href={L('/roadmap/')}>{t(lang, 'nav.roadmap')}</a>
+          <a href={switchHref} hreflang={other} lang={other}>{other === 'bg' ? 'Български' : 'English'}</a>
+          <span>{book.edition ? `${t(lang, 'edition', { n: book.edition })} · ${book.editionDate}` : ''}</span>
+        </nav>
+      </div>
+    </footer>
+    <style is:global>
+      .theme-icon-sun { display: none; }
+      :root[data-theme='dark'] .theme-icon-sun { display: block; }
+      :root[data-theme='dark'] .theme-icon-moon { display: none; }
+      @media (prefers-color-scheme: dark) {
+        :root:not([data-theme='light']) .theme-icon-sun { display: block; }
+        :root:not([data-theme='light']) .theme-icon-moon { display: none; }
+      }
+    </style>
+    <script>
+      const root = document.documentElement;
+      const isDark = () =>
+        root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      document.querySelector('[data-theme-toggle]')?.addEventListener('click', () => {
+        const next = isDark() ? 'light' : 'dark';
+        const apply = () => { root.dataset.theme = next; };
+        const vt = (document as any).startViewTransition;
+        if (vt && !matchMedia('(prefers-reduced-motion: reduce)').matches) vt.call(document, apply); else apply();
+        try { localStorage.setItem('kk-theme', next); } catch (e) {}
+      });
+
+      // Mobile contents drawer
+      const toggle = document.querySelector<HTMLButtonElement>('[data-nav-toggle]');
+      const sidebar = document.getElementById('sidebar');
+
+      // Keep the current chapter in view inside the (independently scrolling) sidebar.
+      const inner = sidebar?.querySelector<HTMLElement>('.sidebar-inner');
+      const here = sidebar?.querySelector<HTMLElement>('.sb-sections [aria-current="page"], .sb-chapter.is-current');
+      if (inner && here) {
+        const top = here.getBoundingClientRect().top - inner.getBoundingClientRect().top;
+        if (top > inner.clientHeight * 0.6) inner.scrollTop = top - inner.clientHeight * 0.3;
+      }
+      const scrim = document.querySelector<HTMLElement>('.scrim');
+      const setOpen = (open: boolean) => {
+        if (!toggle || !sidebar) return;
+        sidebar.dataset.open = String(open);
+        toggle.setAttribute('aria-expanded', String(open));
+        if (scrim) scrim.hidden = !open;
+        if (open) sidebar.querySelector<HTMLElement>('[aria-current="page"], a')?.focus();
+      };
+      toggle?.addEventListener('click', () => setOpen(sidebar?.dataset.open !== 'true'));
+      scrim?.addEventListener('click', () => setOpen(false));
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && sidebar?.dataset.open === 'true') { setOpen(false); toggle?.focus(); }
+      });
+    </script>
+  </body>
+</html>

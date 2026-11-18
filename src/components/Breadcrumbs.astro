@@ -1,0 +1,14 @@
+---
+import { t, langFromPath } from '../i18n/ui';
+interface Crumb { href?: string; label: string }
+interface Props { items: Crumb[] }
+const { items } = Astro.props;
+const lang = langFromPath(Astro.url.pathname);
+---
+<nav class="breadcrumbs" aria-label={t(lang, 'nav.breadcrumb')} data-pagefind-ignore>
+  <ol>
+    {items.map((c, i) => (
+      <li>{c.href && i < items.length - 1 ? <a href={c.href}>{c.label}</a> : <span aria-current="page">{c.label}</span>}</li>
+    ))}
+  </ol>
+</nav>

@@ -1,0 +1,23 @@
+---
+import { neighbours } from '../lib/book';
+import { t, langFromPath } from '../i18n/ui';
+interface Props { url: string }
+const lang = langFromPath(Astro.url.pathname);
+const { prev, next } = neighbours(Astro.props.url, lang);
+const label = (e: { kind: string; title: string; chapter?: number }) =>
+  e.kind === 'chapter' ? `${String(e.chapter).padStart(3, '0')} · ${e.title}` : e.title;
+---
+{(prev || next) && (
+  <nav class="pager" aria-label={t(lang, 'nav.bookOrder')} data-pagefind-ignore>
+    {prev && (
+      <a href={prev.url} rel="prev">
+        <span class="dir">{t(lang, 'pager.prev')}</span><span class="ttl">{label(prev)}</span>
+      </a>
+    )}
+    {next && (
+      <a class="next" href={next.url} rel="next">
+        <span class="dir">{t(lang, 'pager.next')}</span><span class="ttl">{label(next)}</span>
+      </a>
+    )}
+  </nav>
+)}

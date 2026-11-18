@@ -1,0 +1,97 @@
+---
+// Part landings (/part-1-…/) and chapter landings (/001-…/), both languages.
+import { render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Reading from '../layouts/Reading.astro';
+import ChapterCard from '../components/ChapterCard.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Icon from '../components/Icon.astro';
+import MtNotice from '../components/MtNotice.astro';
+import {
+  getBook, getChapters, sectionsOf, sectionUrl, partByNumber, isTranslated, type Chapter, type Part,
+} from '../lib/book';
+import { t, langFromPath, localize, formatMinutes, statusText, type UIKey } from '../i18n/ui';
+
+type Props = { kind: 'part'; part: Part } | { kind: 'chapter'; chapter: Chapter };
+const props = Astro.props as Props;
+const lang = langFromPath(Astro.url.pathname);
+const L = (p: string) => localize(p, lang);
+const book = getBook(lang);
+
+let partChapters: Chapter[] = [];
+let ch: Chapter | undefined;
+let Content: any;
+let secs: Awaited<ReturnType<typeof sectionsOf>> = [];
+if (props.kind === 'part') {
+  partChapters = (await getChapters(lang)).filter((c) => c.data.part === props.part.number);
+} else {
+  ch = props.chapter;
+  ({ Content } = await render(ch));
+  secs = await sectionsOf(ch.data.number, lang);
+}
+const regular = secs.filter((s) => s.data.type === 'section');
+const special = secs.filter((s) => s.data.type !== 'section');
+const part = ch ? partByNumber(ch.data.part, lang) : undefined;
+---
+{props.kind === 'part' ? (
+  <Base title={`${t(lang, 'part', { n: props.part.roman })}: ${props.part.title}`} part={props.part.number}
+        description={`${t(lang, 'part', { n: props.part.roman })} · ${book.title}: ${props.part.title}. ${t(lang, 'nChapters', { n: partChapters.length })}.`}>
+    <main id="main" class="container" style="padding-top:clamp(2rem,6vw,4rem);padding-bottom:4rem">
+      <Breadcrumbs items={[{ href: L('/'), label: book.title }, { label: t(lang, 'part', { n: props.part.roman }) }]} />
+      <header class="part-head">
+        <span class="part-numeral" aria-hidden="true" style={`view-transition-name: part-${props.part.number}`}>{props.part.roman}</span>
+        <span class="kicker">{t(lang, 'part', { n: props.part.roman })}</span>
+        <h1 class="part-title">{props.part.title}</h1>
+        <span class="meta">{t(lang, 'nChapters', { n: partChapters.length })} · {formatMinutes(lang, partChapters.reduce((n, c) => n + c.data.readingTime, 0))}</span>
+      </header>
+      <div class="card-grid">{partChapters.map((c) => <ChapterCard chapter={c} headingLevel="h2" />)}</div>
+    </main>
+  </Base>
+) : ch && (
+  <Reading title={`${ch.data.label} ${ch.data.title}`} description={ch.data.description} part={ch.data.part} chapter={ch.data.number}>
+    <article class="column" data-pagefind-meta={`chapter:${ch.data.label} · ${ch.data.title}`}>
+      <Breadcrumbs items={[
+        ...(part ? [{ href: L(`/${part.slug}/`), label: `${t(lang, 'part', { n: part.roman })} · ${part.title}` }] : []),
+        { label: `${ch.data.label} ${ch.data.title}` },
+      ]} />
+      <header class="chapter-hero">
+        <span class="chapter-number" aria-hidden="true" style={`view-transition-name: ch-${ch.data.label}`}>{ch.data.label}</span>
+        <h1><span class="visually-hidden">{t(lang, 'chapter', { n: ch.data.label })}: </span>{ch.data.title}</h1>
+        <p class="standfirst" set:html={ch.data.standfirstHtml} />
+        <div class="chapter-meta" data-pagefind-ignore>
+          {ch.data.status && <span class="badge">{statusText(lang, ch.data.status)} · {t(lang, 'edition', { n: ch.data.edition ?? '' })}</span>}
+          <span class="meta">{t(lang, 'nSections', { n: ch.data.sectionCount })}<span class="meta-sep">·</span>{formatMinutes(lang, ch.data.readingTime)} {t(lang, 'total')}</span>
+        </div>
+      </header>
+      <MtNotice show={isTranslated(ch)} />
+
+      {ch.data.openingTitle && (
+        <>
+          <div class="opening-head" data-pagefind-ignore><span class="kicker">{t(lang, 'opening')}<span class="meta-sep">·</span>{formatMinutes(lang, ch.data.openingReadingTime)}</span></div>
+          <h2 class="opening-title">{ch.data.openingTitle}</h2>
+        </>
+      )}
+      <div class="prose"><Content /></div>
+
+      <section class="contents" aria-labelledby="in-this-chapter" data-pagefind-ignore>
+        <h2 id="in-this-chapter">{t(lang, 'inThisChapter')}</h2>
+        <ol>
+          {regular.map((s) => (
+            <li><a href={sectionUrl(s, lang)}>
+              <span class="n">{s.data.number ?? '·'}</span><span class="t">{s.data.title}</span><span class="rt">{formatMinutes(lang, s.data.readingTime)}</span>
+            </a></li>
+          ))}
+        </ol>
+        <div class="study-grid">
+          {special.map((s) => (
+            <a class="study-card" href={sectionUrl(s, lang)}>
+              <Icon name={s.data.type} class="icon" />
+              <strong>{t(lang, `special.${s.data.type}` as UIKey)}</strong>
+              <span>{t(lang, `blurb.${s.data.type}` as UIKey)}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    </article>
+  </Reading>
+)}

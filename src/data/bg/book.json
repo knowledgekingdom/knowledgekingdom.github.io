@@ -1,0 +1,3661 @@
+{
+  "title": "Knowledge Kingdom",
+  "titleDisplay": "KNOWLEDGE KINGDOM",
+  "subtitle": "Илюстрован пътеводител за разбирането на света",
+  "edition": 25,
+  "editionDate": "ноември 2026",
+  "statusNote": "дългоформов проект на глава. Фактическите и редакционните проверки на качеството остават част от окончателния процес на публикуване.",
+  "parts": [
+    {
+      "number": 1,
+      "roman": "I",
+      "title": "Инструментите на разбирането",
+      "slug": "part-1-the-tools-of-understanding",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "number": 2,
+      "roman": "II",
+      "title": "Човешката история",
+      "slug": "part-2-the-human-story",
+      "chapters": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    }
+  ],
+  "readingOrder": [
+    {
+      "url": "/about/",
+      "title": "Бележка към читателя",
+      "kind": "about"
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/",
+      "title": "Как да разберем кое е вярно",
+      "kind": "chapter",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/what-does-it-mean-to-know-something/",
+      "title": "Какво означава да знаеш нещо?",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/four-statements-that-sound-similar-but-do-different-work/",
+      "title": "Четири твърдения, които звучат сходно, но вършат различна работа",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/seeing-measuring-remembering-why-observation-is-not-simple/",
+      "title": "Да видиш, да измериш, да запомниш: защо наблюдението не е просто",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/the-right-evidence-for-the-right-question/",
+      "title": "Правилните доказателства за правилния въпрос",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/following-a-claim-upstream/",
+      "title": "Проследяване на твърдение до източника му",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/from-a-pattern-to-a-cause/",
+      "title": "От закономерност към причина",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/what-science-can-offer-and-what-it-cannot-settle-alone/",
+      "title": "Какво може да предложи науката — и какво не може да реши сама",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/reading-a-research-headline-without-being-fooled/",
+      "title": "Как да четем заглавие за научно изследване, без да бъдем заблудени",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/experts-when-to-trust-them-when-to-question-them/",
+      "title": "Експертите: кога да им вярваме и кога да ги поставяме под въпрос",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/probability-is-the-language-of-reasonable-uncertainty/",
+      "title": "Вероятността е езикът на разумната несигурност",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/cognitive-bias-when-our-own-minds-become-part-of-the-problem/",
+      "title": "Когнитивни изкривявания: когато собственият ни ум става част от проблема",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim-and-a/",
+      "title": "Три разследвания: снимка, историческо твърдение и политическо обещание",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/when-evidence-and-values-collide/",
+      "title": "Когато доказателствата и ценностите се сблъскат",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/a-three-speed-method-for-checking-claims/",
+      "title": "Метод на три скорости за проверка на твърдения",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/the-danger-of-becoming-certain-that-nobody-knows-anything/",
+      "title": "Опасността да сме сигурни, че никой нищо не знае",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/summary/",
+      "title": "Главата в десет принципа",
+      "kind": "summary",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/sources/",
+      "title": "Препоръчани източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 1
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/",
+      "title": "Логика, аргументи и често срещани заблуди",
+      "kind": "chapter",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/the-anatomy-of-a-reasoned-claim/",
+      "title": "Анатомия на обосновано твърдение",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/valid-is-not-the-same-as-true/",
+      "title": "Валидно не означава вярно",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/necessary-sufficient-and-merely-associated/",
+      "title": "Необходимо, достатъчно и просто свързано",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/three-ways-to-reason-about-the-unknown/",
+      "title": "Три начина да разсъждаваме за неизвестното",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/from-one-cause-to-a-chain-of-causes/",
+      "title": "От една причина към верига от причини",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/facts-definitions-predictions-and-values/",
+      "title": "Факти, определения, прогнози и ценности",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/why-fallacies-are-more-than-a-list-of-latin-names/",
+      "title": "Защо заблудите са нещо повече от списък с латински имена",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/straw-men-steel-men-and-the-temptation-to-win/",
+      "title": "Сламени човеци, стоманени човеци и изкушението да спечелиш",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/when-the-speaker-becomes-the-target/",
+      "title": "Когато говорещият стане мишена",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/false-choices-slippery-slopes-and-arguments-from-fear/",
+      "title": "Фалшиви избори, хлъзгави наклони и аргументи от страх",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/popularity-authority-tradition-and-novelty/",
+      "title": "Популярност, авторитет, традиция и новост",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/bad-generalizations-and-selective-evidence/",
+      "title": "Лоши обобщения и избирателни доказателства",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/circular-arguments-moving-goalposts-and-the-burden-of-proof/",
+      "title": "Кръгови аргументи, местене на целта и тежестта на доказване",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/the-fallacy-fallacy-and-why-disagreement-remains-difficult/",
+      "title": "Заблудата за заблудата — и защо несъгласието остава трудно",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/a-practical-method-for-analyzing-any-argument/",
+      "title": "Практичен метод за анализ на всеки аргумент",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/case-study-the-city-center-car-restriction/",
+      "title": "Пример: ограничаването на колите в центъра на града",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/case-study-a-dramatic-historical-claim/",
+      "title": "Пример: драматично историческо твърдение",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/case-study-a-local-business-investment/",
+      "title": "Пример: инвестиция в местен бизнес",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/reasoning-well-in-conversation/",
+      "title": "Добрите разсъждения в разговор",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/summary/",
+      "title": "Запомнете тази глава",
+      "kind": "summary",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/sources/",
+      "title": "Препоръчани източници",
+      "kind": "sources",
+      "chapter": 2
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/",
+      "title": "Вероятност, риск и всекидневни числа",
+      "kind": "chapter",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/why-certainty-is-the-wrong-standard/",
+      "title": "Защо сигурността е грешният критерий",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/begin-with-what-is-being-counted/",
+      "title": "Започнете с това, което се брои",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/three-simple-rules-for-combining-chances/",
+      "title": "Три прости правила за комбиниране на вероятности",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/conditional-probability-the-question-after-given-that/",
+      "title": "Условна вероятност: въпросът след „при условие че“",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/the-fraud-alarm-counted-properly/",
+      "title": "Алармата за измама, преброена правилно",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/the-size-of-a-risk-matters-as-much-as-its-direction/",
+      "title": "Размерът на риска е толкова важен, колкото и посоката му",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/expected-value-the-average-you-may-never-personally-see/",
+      "title": "Очаквана стойност: средното, което може никога да не видите лично",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/why-sensible-people-buy-insurance/",
+      "title": "Защо разумните хора купуват застраховка",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/variability-two-roads-with-the-same-average/",
+      "title": "Вариативност: два пътя с една и съща средна стойност",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/small-samples-streaks-and-the-human-search-for-patterns/",
+      "title": "Малки извадки, серии и човешкото търсене на закономерности",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/where-confidence-comes-from-and-where-it-should-stop/",
+      "title": "Откъде идва увереността — и къде трябва да спре",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/forecasts-should-be-judged-as-forecasts/",
+      "title": "Прогнозите трябва да се оценяват като прогнози",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/compounding-why-time-multiplies-small-differences/",
+      "title": "Сложната лихва: защо времето умножава малките разлики",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/three-kinds-of-uncertainty-three-different-responses/",
+      "title": "Три вида несигурност, три различни отговора",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/decision-trees-putting-consequences-next-to-chances/",
+      "title": "Дървета на решенията: последствията до шансовете",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/how-statistics-become-misleading-without-any-false/",
+      "title": "Как статистиката подвежда без нито една грешна сметка",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/talking-about-uncertainty-without-sounding-weak/",
+      "title": "Да говорим за несигурност, без да звучим слаби",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/a-practical-checklist-for-everyday-numerical-claims/",
+      "title": "Практичен списък за проверка на всекидневни числови твърдения",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/summary/",
+      "title": "Запомнете тази глава",
+      "kind": "summary",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/sources/",
+      "title": "Препоръчани източници",
+      "kind": "sources",
+      "chapter": 3
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/",
+      "title": "Историческото време и проблемът с източниците",
+      "kind": "chapter",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/history-begins-with-the-problem-of-time/",
+      "title": "Историята започва с проблема за времето",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/bce-ce-calendars-and-the-missing-year-zero/",
+      "title": "Пр.н.е., н.е., календари и липсващата нулева година",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/periods-are-questions-not-fences/",
+      "title": "Периодите са въпроси, а не огради",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/the-past-leaves-traces-not-finished-stories/",
+      "title": "Миналото оставя следи, а не завършени истории",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/primary-source-is-a-relationship-to-a-question/",
+      "title": "„Първичен източник“ е отношение към въпрос",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/eyewitnesses-memory-and-testimony/",
+      "title": "Очевидци, памет и свидетелства",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/who-made-the-archives-and-who-is-absent/",
+      "title": "Кой е създал архивите — и кой липсва в тях?",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/translation-quotations-and-the-danger-of-a-perfect-sentence/",
+      "title": "Преводи, цитати и опасността на съвършеното изречение",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/archaeology-reading-what-people-left-behind/",
+      "title": "Археология: да четем това, което хората са оставили след себе си",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/how-historians-and-archaeologists-date-things/",
+      "title": "Как историците и археолозите датират нещата",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/place-is-evidence-too/",
+      "title": "Мястото също е доказателство",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/historical-causes-sparks-structures-and-choices/",
+      "title": "Исторически причини: искри, структури и избори",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/comparing-societies-without-flattening-them/",
+      "title": "Да сравняваме общества, без да ги изравняваме",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/case-study-magna-cartas-many-lives/",
+      "title": "Пример: многото животи на Магна харта",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted-to/",
+      "title": "Пример: Голямо Зимбабве и историите, в които хората искаха да вярват",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/case-study-how-bulgaria-became-independent/",
+      "title": "Пример: как България става независима",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/case-study-when-evidence-is-overwhelming-but-denial-persists/",
+      "title": "Пример: когато доказателствата са неопровержими, но отричането продължава",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/why-historians-disagree-without-everything-becoming-opinion/",
+      "title": "Защо историците спорят, без всичко да се превръща в мнение",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/a-historians-working-method-from-question-to-account/",
+      "title": "Работният метод на историка: от въпроса до разказа",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/reading-history-as-a-conversation-across-time/",
+      "title": "Историята като разговор през времето",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/summary/",
+      "title": "Запомнете тази глава",
+      "kind": "summary",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/sources/",
+      "title": "Препоръчани източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 4
+    },
+    {
+      "url": "/005-geography-maps-and-scale/",
+      "title": "География, карти и мащаб",
+      "kind": "chapter",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/what-exactly-does-geography-study/",
+      "title": "Какво точно изучава географията?",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/the-impossible-promise-of-a-perfect-map/",
+      "title": "Невъзможното обещание за съвършена карта",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/finding-any-place-coordinates-orientation-and-the-grid/",
+      "title": "Как да намерим всяко място: координати, ориентация и мрежа",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/scale-why-a-small-map-hides-big-things/",
+      "title": "Мащаб: защо малката карта крие големи неща",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/earths-moving-shell-plates-mountains-and-earthquakes/",
+      "title": "Подвижната обвивка на Земята: плочи, планини и земетресения",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/",
+      "title": "Водата дава на ландшафта неговото кръвообращение",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/why-climate-varies-sunlight-air-altitude-and-water/",
+      "title": "Защо климатът е различен: слънчева светлина, въздух, надморска височина и вода",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/",
+      "title": "Океаните: големите магистрали и двигатели на климата",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/soils-ecosystems-and-why-fertile-land-is-not-enough/",
+      "title": "Почви, екосистеми и защо плодородната земя не е достатъчна",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/people-cities-and-the-uneven-map-of-opportunity/",
+      "title": "Хора, градове и неравната карта на възможностите",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/the-political-map-borders-sovereignty-and-contested-space/",
+      "title": "Политическата карта: граници, суверенитет и спорни пространства",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/regional-case-study-bulgaria-and-the-balkans/",
+      "title": "Регионален пример: България и Балканите",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography-of/",
+      "title": "Регионален пример: Нил и географията на сътрудничеството",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/regional-case-study-the-andes-pacific-coasts-and-ocean/",
+      "title": "Регионален пример: Андите, тихоокеанските брегове и продуктивността на океана",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways-and/",
+      "title": "Регионален пример: водните пътища и архипелазите на Югоизточна Азия",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/regional-case-study-the-sahel-the-sahara-and-transitions/",
+      "title": "Регионален пример: Сахел, Сахара и преходите вместо линиите",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/a-mental-atlas-regions-that-connect-the-global-story/",
+      "title": "Мислен атлас: региони, които свързват глобалната история",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/reading-thematic-maps-without-being-fooled/",
+      "title": "Как да четем тематични карти, без да бъдем заблудени",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history-but/",
+      "title": "Защо географията е важна за войните, икономиките и историята — но никога сама",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/a-geographical-investigation-you-can-conduct-yourself/",
+      "title": "Географско изследване, което можете да проведете сами",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/summary/",
+      "title": "Запомнете тази глава",
+      "kind": "summary",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/sources/",
+      "title": "Препоръчани източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 5
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/",
+      "title": "Как да четем данни, графики и статистика",
+      "kind": "chapter",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/a-number-is-an-answer-to-a-question/",
+      "title": "Числото е отговор на въпрос",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/the-denominator-the-missing-half-of-a-statistic/",
+      "title": "Знаменателят: липсващата половина на статистиката",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/sampling-who-gets-counted-and-who-never-had-a-chance/",
+      "title": "Извадки: кой бива преброен и кой никога не е имал шанс?",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/surveys-are-conversations-disguised-as-numbers/",
+      "title": "Анкетите са разговори, преоблечени като числа",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/mean-median-mode-and-the-people-behind-the-average/",
+      "title": "Средна стойност, медиана, мода — и хората зад средното",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/spread-outliers-and-why-the-middle-is-never-the-whole-story/",
+      "title": "Разсейване, крайни стойности и защо средата никога не е цялата история",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/count-rate-or-standardized-comparison/",
+      "title": "Брой, честота или стандартизирано сравнение?",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/reading-graphs-as-arguments/",
+      "title": "Графиките като аргументи",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/time-series-where-the-chosen-starting-point-becomes-the/",
+      "title": "Времеви редове: когато избраната начална точка става историята",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/index-numbers-and-the-invisible-change-of-units/",
+      "title": "Индекси и невидимата смяна на единиците",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/percentages-percentage-points-and-changing-baselines/",
+      "title": "Проценти, процентни пунктове и променящи се бази",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/correlation-a-relationship-not-a-mechanism/",
+      "title": "Корелация: връзка, а не механизъм",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/simpsons-paradox-when-every-subgroup-tells-the-opposite/",
+      "title": "Парадоксът на Симпсън: когато всяка подгрупа разказва обратното",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/prediction-is-not-the-same-as-explanation/",
+      "title": "Прогнозата не е същото като обяснението",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/experiments-comparison-groups-and-plausible-alternatives/",
+      "title": "Експерименти, контролни групи и правдоподобни алтернативи",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/confidence-intervals-being-precise-about-imprecision/",
+      "title": "Доверителни интервали: прецизност относно неточността",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/what-a-p-value-does-and-does-not-say/",
+      "title": "Какво казва p-стойността — и какво не казва",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/missing-data-revised-data-and-the-temptation-to-clean-away/",
+      "title": "Липсващи данни, ревизирани данни и изкушението да изчистим реалността",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/how-statistics-can-change-the-meaning-of-a-political-debate/",
+      "title": "Как статистиката може да промени смисъла на един политически дебат",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/three-extended-case-studies-shop-school-and-city/",
+      "title": "Три разширени примера: магазин, училище и град",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/the-seven-minute-statistical-audit/",
+      "title": "Седемминутният статистически одит",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/summary/",
+      "title": "Запомнете тази глава",
+      "kind": "summary",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/sources/",
+      "title": "Препоръчани източници",
+      "kind": "sources",
+      "chapter": 6
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/",
+      "title": "Системно мислене и обратни връзки",
+      "kind": "chapter",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/what-is-a-system-and-what-is-not/",
+      "title": "Какво е система — и какво не е?",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/from-event-to-pattern-to-structure/",
+      "title": "От събитие към закономерност и структура",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/stocks-and-flows-the-bathtub-beneath-the-headlines/",
+      "title": "Запаси и потоци: ваната под заглавията",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/why-stocks-produce-inertia-resilience-and-surprise/",
+      "title": "Защо запасите пораждат инерция, устойчивост и изненади",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/reinforcing-feedback-when-change-feeds-more-change/",
+      "title": "Подсилваща обратна връзка: когато промяната храни още промяна",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/balancing-feedback-how-a-system-pushes-back/",
+      "title": "Балансираща обратна връзка: как системата отвръща",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/delays-why-sensible-corrections-can-cause-oscillations/",
+      "title": "Закъснения: защо разумните корекции могат да предизвикат колебания",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/nonlinearity-thresholds-and-tipping-points/",
+      "title": "Нелинейност, прагове и повратни точки",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/networks-bottlenecks-and-the-weakest-link/",
+      "title": "Мрежи, тесни места и най-слабото звено",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/shared-resources-why-reasonable-choices-can-produce/",
+      "title": "Общи ресурси: защо разумните избори могат да доведат до обща загуба",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/ecosystems-and-climate-feedback-on-a-planetary-scale/",
+      "title": "Екосистеми и климат: обратни връзки в планетарен мащаб",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/epidemics-the-number-of-cases-is-not-the-whole-system/",
+      "title": "Епидемии: броят на случаите не е цялата система",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/economic-cycles-stocks-expectations-and-delayed-adjustment/",
+      "title": "Икономически цикли: запаси, очаквания и забавено приспособяване",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/a-small-business-case-improving-a-store-without-causing-new/",
+      "title": "Пример от малкия бизнес: да подобриш магазин, без да създадеш нови проблеми",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/politics-and-the-security-dilemma/",
+      "title": "Политиката и дилемата на сигурността",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/unintended-consequences-and-the-limits-of-incentives/",
+      "title": "Непредвидени последствия и границите на стимулите",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/where-to-intervene-symptoms-rules-information-and-goals/",
+      "title": "Къде да се намесим: симптоми, правила, информация и цели",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/mapping-a-system-without-inventing-certainty/",
+      "title": "Как да начертаем система, без да измисляме сигурност",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/a-practical-systems-thinking-toolkit/",
+      "title": "Практичен инструментариум за системно мислене",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/the-deeper-lesson-the-world-reacts-to-our-attempts-to-change/",
+      "title": "По-дълбокият урок: светът реагира на опитите ни да го променим",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/summary/",
+      "title": "Запомнете тази глава",
+      "kind": "summary",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/sources/",
+      "title": "Препоръчани източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 7
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/",
+      "title": "Как да учим и да помним",
+      "kind": "chapter",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/four-stages-attention-encoding-retrieval-and-use/",
+      "title": "Четири етапа: внимание, кодиране, извличане и използване",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/why-rereading-can-create-an-illusion-of-mastery/",
+      "title": "Защо препрочитането може да създаде илюзия за овладяване",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/spacing-forgetting-a-little-can-help-you-learn-more/",
+      "title": "Разпределено учене: малко забравяне може да ви помогне да научите повече",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/understanding-needs-connection-not-just-repetition/",
+      "title": "Разбирането изисква връзки, а не само повторение",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/interleaving-mix-topics-for-a-reason/",
+      "title": "Редуване: смесвайте теми с причина",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/the-difference-between-knowing-a-fact-and-having-a-model/",
+      "title": "Разликата между това да знаеш факт и да имаш модел",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/explain-it-aloud-the-conversation-test/",
+      "title": "Обяснете на глас: тестът на разговора",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/a-realistic-thirty-minute-session/",
+      "title": "Реалистична тридесетминутна сесия",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/notes-should-help-future-thinking/",
+      "title": "Бележките трябва да помагат на бъдещото мислене",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/feedback-turn-errors-into-information/",
+      "title": "Обратна връзка: превърнете грешките в информация",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/make-room-for-rest-sleep-and-enjoyment/",
+      "title": "Оставете място за почивка, сън и удоволствие",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/your-first-ninety-days-from-facts-to-conversation/",
+      "title": "Първите ви деветдесет дни: от факти към разговор",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/summary/",
+      "title": "Запомнете тази глава",
+      "kind": "summary",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/sources/",
+      "title": "Препоръчани източници",
+      "kind": "sources",
+      "chapter": 8
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/",
+      "title": "Човешката еволюция и първите миграции",
+      "kind": "chapter",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/what-evolution-actually-means/",
+      "title": "Какво всъщност означава еволюция",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/africa-the-long-beginning/",
+      "title": "Африка: дългото начало",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/hands-stones-and-the-technology-nobody-photographed/",
+      "title": "Ръце, камъни и технологията, която никой не е снимал",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/the-travelers-before-us-homo-erectus-and-the-first-great/",
+      "title": "Пътешествениците преди нас: Homo erectus и първото голямо разселване",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/how-we-know-how-old-something-is/",
+      "title": "Как разбираме колко е старо нещо",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/the-emergence-of-homo-sapiens-was-not-a-single-moment/",
+      "title": "Появата на Homo sapiens не е един-единствен момент",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/",
+      "title": "Неандерталци, денисовци и нашите сложни роднини",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process-not-an/",
+      "title": "Разширяващият се човешки свят: миграцията като процес, а не като стрела",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/crossing-water-the-settlement-of-sahul/",
+      "title": "Прекосяване на водата: заселването на Сахул",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/toward-the-americas-ice-land-coast-and-unanswered-questions/",
+      "title": "Към Америките: лед, суша, брегове и въпроси без отговор",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/language-images-stories-and-the-world-inside-the-mind/",
+      "title": "Език, образи, истории и светът вътре в ума",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/daily-life-without-cities-risk-food-kinship-and-care/",
+      "title": "Всекидневието без градове: риск, храна, родство и грижа",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/climate-shaped-opportunities-but-people-made-histories/",
+      "title": "Климатът оформя възможностите, но хората правят историята",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/five-misconceptions-that-distort-prehistoric-history/",
+      "title": "Пет погрешни представи, които изкривяват праисторията",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/a-timeline-that-changes-the-scale-of-everything/",
+      "title": "Хронология, която променя мащаба на всичко",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/what-we-can-say-with-confidence-and-what-remains-open/",
+      "title": "Какво можем да кажем със сигурност — и какво остава отворено",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/summary/",
+      "title": "Запомнете тази глава",
+      "kind": "summary",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/sources/",
+      "title": "Препоръчани източници",
+      "kind": "sources",
+      "chapter": 9
+    },
+    {
+      "url": "/010-the-agricultural-revolution/",
+      "title": "Земеделската революция",
+      "kind": "chapter",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/before-fields-foragers-were-already-managing-the-world/",
+      "title": "Преди нивите: събирачите вече са управлявали света",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/cultivation-is-not-the-same-as-domestication/",
+      "title": "Отглеждането не е същото като опитомяването",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/why-did-people-begin-farming-five-explanations-that-interact/",
+      "title": "Защо хората започват да се занимават със земеделие? Пет взаимосвързани обяснения",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/southwest-asia-an-early-complicated-transition/",
+      "title": "Югозападна Азия: ранен и сложен преход",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/the-animal-partnership-herding-changes-the-clock/",
+      "title": "Партньорството с животните: скотовъдството променя часовника",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/china-more-than-a-single-rice-story/",
+      "title": "Китай: повече от една история за ориза",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/new-guinea-a-revolution-without-grain-fields/",
+      "title": "Нова Гвинея: революция без житни ниви",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/the-americas-maize-squash-potatoes-and-varied-histories/",
+      "title": "Америките: царевица, тикви, картофи и различни истории",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/africa-local-crops-and-imported-combinations/",
+      "title": "Африка: местни култури и внесени комбинации",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/toward-europe-the-aegean-the-balkans-and-the-danube/",
+      "title": "Към Европа: Егея, Балканите и Дунав",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/the-village-becomes-a-social-institution/",
+      "title": "Селото става социална институция",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/the-granary-storing-tomorrows-food/",
+      "title": "Житницата: съхраняване на утрешната храна",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/the-new-calendar-of-labor/",
+      "title": "Новият календар на труда",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/did-farming-create-inequality/",
+      "title": "Създава ли земеделието неравенство?",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/the-human-body-pays-a-price-and-sometimes-benefits/",
+      "title": "Човешкото тяло плаща цена — а понякога и печели",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/farming-remakes-landscapes/",
+      "title": "Земеделието преобразява ландшафтите",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/from-food-production-to-crafts-exchange-and-authority/",
+      "title": "От производство на храна към занаяти, размяна и власт",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/a-counterfactual-what-if-no-one-had-farmed/",
+      "title": "Контрафактически въпрос: какво щеше да стане, ако никой не се беше заел със земеделие?",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/how-archaeologists-know-a-detective-story-in-tiny-traces/",
+      "title": "Как знаят археолозите: детективска история в мънички следи",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/a-timeline-without-false-precision/",
+      "title": "Хронология без фалшива точност",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/five-myths-to-retire/",
+      "title": "Пет мита, които да оставим в миналото",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/summary/",
+      "title": "Запомнете тази глава",
+      "kind": "summary",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/sources/",
+      "title": "Препоръчани източници",
+      "kind": "sources",
+      "chapter": 10
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/",
+      "title": "Месопотамия и първите държави",
+      "kind": "chapter",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/a-landscape-that-demanded-ingenuity/",
+      "title": "Ландшафт, който изисква изобретателност",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/before-sumer-villages-temples-and-the-ubaid-world/",
+      "title": "Преди Шумер: села, храмове и светът на Убайд",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/uruk-when-settlement-became-something-larger/",
+      "title": "Урук: когато селището се превръща в нещо по-голямо",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/what-is-a-city-and-what-is-a-state/",
+      "title": "Какво е град и какво е държава?",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/the-canal-and-the-argument-over-water/",
+      "title": "Каналът и спорът за водата",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/the-mathematics-of-a-storehouse/",
+      "title": "Математиката на един склад",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/temples-worship-work-and-legitimacy/",
+      "title": "Храмове: поклонение, труд и легитимност",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/an-ordinary-persons-city-and-the-limits-of-our-sources/",
+      "title": "Градът на обикновения човек — и границите на нашите източници",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/seals-tokens-and-the-problem-of-trust/",
+      "title": "Печати, жетони и проблемът с доверието",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/the-invention-of-writing-was-not-a-single-flash-of-genius/",
+      "title": "Изобретяването на писмеността не е еднократно хрумване на гений",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/a-school-for-scribes/",
+      "title": "Училище за писари",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/trade-a-city-cannot-eat-clay/",
+      "title": "Търговия: един град не може да яде глина",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/sumer-was-not-one-unified-country/",
+      "title": "Шумер не е една обединена страна",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/why-were-the-first-cities-sometimes-at-war/",
+      "title": "Защо първите градове понякога воюват помежду си?",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/kingship-office-force-and-sacred-authority/",
+      "title": "Царската власт: длъжност, сила и свещен авторитет",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/the-royal-cemetery-of-ur-splendid-objects-difficult/",
+      "title": "Царското гробище в Ур: великолепни предмети, трудни въпроси",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/women-power-and-the-case-of-enheduanna/",
+      "title": "Жените, властта и случаят с Енхедуана",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/sargon-and-the-ambitions-of-empire/",
+      "title": "Саргон и амбициите на империята",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/why-empires-fracture-the-end-of-akkadian-rule/",
+      "title": "Защо империите се разпадат: краят на акадското владичество",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/ur-iii-a-state-that-counted-almost-everything/",
+      "title": "Ур III: държава, която брои почти всичко",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/babylon-and-hammurabi-what-the-famous-code-really-tells-us/",
+      "title": "Вавилон и Хамурапи: какво всъщност ни казва прочутият „кодекс“",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/literature-numbers-and-the-long-memory-of-mesopotamia/",
+      "title": "Литература, числа и дългата памет на Месопотамия",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/was-mesopotamia-the-cradle-of-civilization/",
+      "title": "Била ли е Месопотамия „люлката на цивилизацията“?",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/how-historians-turn-a-broken-tablet-into-an-argument/",
+      "title": "Как историците превръщат счупена плочка в аргумент",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/the-legacy-living-with-institutions/",
+      "title": "Наследството: да живеем с институции",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/",
+      "title": "Хронология без фалшива точност",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/summary/",
+      "title": "Запомнете тази глава",
+      "kind": "summary",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/sources/",
+      "title": "Препоръчани източници",
+      "kind": "sources",
+      "chapter": 11
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/",
+      "title": "Древен Египет и Нил",
+      "kind": "chapter",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/a-river-flowing-toward-the-north/",
+      "title": "Река, която тече на север",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/a-year-measured-in-water/",
+      "title": "Година, измервана във вода",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/before-the-pharaohs-the-valley-was-already-changing/",
+      "title": "Преди фараоните: долината вече се променя",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/narmer-menes-and-the-meaning-of-unification/",
+      "title": "Нармер, Менес и смисълът на обединението",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/what-did-a-pharaoh-actually-rule/",
+      "title": "Над какво всъщност е властвал фараонът?",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/the-old-kingdom-durable-stone-and-fragile-politics/",
+      "title": "Старото царство: траен камък и крехка политика",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/why-kings-built-for-the-dead/",
+      "title": "Защо царете строят за мъртвите",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/the-first-great-fragmentation/",
+      "title": "Първото голямо разпокъсване",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/the-middle-kingdom-reunification-and-a-different-political/",
+      "title": "Средното царство: повторно обединение и различна политическа култура",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/a-new-kingdom-that-looked-outward/",
+      "title": "Ново царство, което гледа навън",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/hatshepsut-and-the-question-of-legitimate-rule/",
+      "title": "Хатшепсут и въпросът за законното управление",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/amarna-when-a-ruler-tried-to-change-the-gods/",
+      "title": "Амарна: когато един владетел се опитва да промени боговете",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/ramesses-ii-kadesh-and-what-victory-looks-like/",
+      "title": "Рамзес II, Кадеш и как изглежда победата",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/nubia-was-not-egypts-passive-southern-backdrop/",
+      "title": "Нубия не е пасивен южен фон на Египет",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/a-village-where-workmen-left-records/",
+      "title": "Село, в което работниците са оставили записи",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/women-marriage-property-and-social-difference/",
+      "title": "Жени, брак, собственост и социални различия",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/writing-sacred-images-ordinary-administration/",
+      "title": "Писменост: свещени образи, обикновена администрация",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/knowledge-measurement-and-techniques/",
+      "title": "Знания, измерване и техники",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/after-the-new-kingdom-fragmentation-and-new-rulers/",
+      "title": "След Новото царство: разпокъсване и нови владетели",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/reconstructing-egypt-what-sources-can-and-cannot-tell-us/",
+      "title": "Възстановяване на Египет: какво могат и какво не могат да ни кажат източниците",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/why-ancient-egypt-matters-beyond-the-pyramids/",
+      "title": "Защо Древен Египет има значение отвъд пирамидите",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "title": "Основна хронология",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/summary/",
+      "title": "Запомнете тази глава",
+      "kind": "summary",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/sources/",
+      "title": "Препоръчани източници",
+      "kind": "sources",
+      "chapter": 12
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/",
+      "title": "Цивилизацията в долината на Инд",
+      "kind": "chapter",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/begin-with-a-map-not-a-legend/",
+      "title": "Започнете с карта, а не с легенда",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/the-dates-development-rather-than-a-sudden-birth/",
+      "title": "Датите: развитие, а не внезапно раждане",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/discovering-a-civilization-twice/",
+      "title": "Да откриеш цивилизация два пъти",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/harappa-a-city-that-grew-in-stages/",
+      "title": "Харапа: град, който расте на етапи",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/mohenjo-daro-a-city-built-around-water/",
+      "title": "Мохенджо-даро: град, построен около водата",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/dholavira-another-way-to-build-a-city/",
+      "title": "Долавира: друг начин да построиш град",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/what-made-the-cities-possible-farms-and-countryside/",
+      "title": "Какво прави градовете възможни: ниви и селски райони",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/bricks-proportions-weights-and-the-problem-of-trust/",
+      "title": "Тухли, пропорции, теглилки и проблемът с доверието",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/the-seals-small-objects-with-large-questions/",
+      "title": "Печатите: малки предмети с големи въпроси",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/writing-that-we-still-cannot-read/",
+      "title": "Писменост, която все още не можем да прочетем",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/was-there-a-king-a-council-or-something-else/",
+      "title": "Имало ли е цар, съвет или нещо друго?",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/craftspeople-materials-and-technical-intelligence/",
+      "title": "Занаятчии, материали и техническа изобретателност",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/trade-overland-and-across-the-sea/",
+      "title": "Търговия по суша и по море",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/homes-food-health-and-everyday-lives/",
+      "title": "Домове, храна, здраве и всекидневен живот",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/identity-belief-and-ritual-what-artifacts-can-and-cannot-say/",
+      "title": "Идентичност, вяра и ритуал: какво могат — и какво не могат — да кажат предметите",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/the-temptation-of-the-peaceful-civilization/",
+      "title": "Изкушението на „мирната цивилизация“",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/rivers-move-monsoons-vary-societies-respond/",
+      "title": "Реките се местят, мусоните се променят, обществата отговарят",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/after-1900-bce-transformation-not-disappearance/",
+      "title": "След 1900 г. пр.н.е.: преобразяване, а не изчезване",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/ancient-dna-powerful-evidence-with-careful-limits/",
+      "title": "Древна ДНК: мощно доказателство с внимателни граници",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/compare-three-urban-civilizations-without-ranking-them/",
+      "title": "Сравнете три градски цивилизации, без да ги подреждате по ранг",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/what-would-actually-decipher-the-script/",
+      "title": "Какво всъщност би разчело писмеността?",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/a-civilizations-importance-does-not-depend-on-decipherment/",
+      "title": "Значението на една цивилизация не зависи от разчитането ѝ",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/essential-timeline-chapter-013/",
+      "title": "Основна хронология",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/summary/",
+      "title": "Запомнете тази глава",
+      "kind": "summary",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/sources/",
+      "title": "Препоръчани източници",
+      "kind": "sources",
+      "chapter": 13
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/",
+      "title": "Древен Китай: династии и държавно управление",
+      "kind": "chapter",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/start-with-geography-more-than-one-river-valley/",
+      "title": "Започнете с географията: повече от една речна долина",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/farmers-potters-and-the-beginnings-of-complex-societies/",
+      "title": "Земеделци, грънчари и началото на сложните общества",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/liangzhu-another-route-to-complexity/",
+      "title": "Лянджу: друг път към сложността",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/dates-dynasties-and-the-limits-of-a-familiar-timeline/",
+      "title": "Дати, династии и границите на една позната хронология",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/erlitou-a-city-without-an-identified-king/",
+      "title": "Ерлитоу: град без установен цар",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/shang-power-a-king-among-other-powers/",
+      "title": "Властта на Шан: цар сред други сили",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/anyang-where-archaeology-meets-writing/",
+      "title": "Анян: където археологията среща писмеността",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/oracle-bones-questions-written-for-ancestors/",
+      "title": "Гадателни кости: въпроси, написани за предците",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/ancestors-shangdi-and-the-work-of-kingship/",
+      "title": "Предци, Шанди и работата на царя",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/bronze-technology-that-turned-resources-into-authority/",
+      "title": "Бронз: технология, която превръща ресурсите във власт",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/fu-hao-a-woman-visible-in-an-unusually-rich-record/",
+      "title": "Фу Хао: жена, видима в необичайно богат запис",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/beyond-the-capital-sanxingdui-and-the-many-bronze-age-worlds/",
+      "title": "Отвъд столицата: Санксиндуй и многото светове на бронзовата епоха",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-economy-beneath-the-bronze/",
+      "title": "Икономиката под бронза",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-zhou-conquest-a-new-ruling-house/",
+      "title": "Завоеванието на Джоу: нов управляващ дом",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-mandate-of-heaven-legitimacy-with-conditions/",
+      "title": "Небесният мандат: легитимност с условия",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/western-zhou-rule-kinship-bronze-inscriptions-and-regional/",
+      "title": "Управлението на Западна Джоу: родство, бронзови надписи и регионална власт",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/bronze-bells-ceremonial-order-and-political-memory/",
+      "title": "Бронзови камбани, церемониален ред и политическа памет",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/how-the-zhou-center-weakened/",
+      "title": "Как отслабва центърът на Джоу",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-roots-of-chinese-political-thought/",
+      "title": "Корените на китайската политическа мисъл",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/three-early-civilizations-three-kinds-of-evidence/",
+      "title": "Три ранни цивилизации, три вида доказателства",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/how-to-recognize-exaggeration-about-ancient-china/",
+      "title": "Как да разпознаем преувеличенията за Древен Китай",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/a-day-in-the-life-constructing-an-evidence-based/",
+      "title": "Един ден от живота: реконструкция, основана на доказателства",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/chariots-warfare-and-the-limits-of-military-evidence/",
+      "title": "Колесници, войни и границите на военните доказателства",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-households-outside-the-royal-archive/",
+      "title": "Домакинствата извън царския архив",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/a-working-toolkit-how-to-investigate-an-early-chinese-claim/",
+      "title": "Работен инструментариум: как да проучим твърдение за ранен Китай",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/practice/",
+      "title": "Упражнения: обяснете, изчислете, спорете, проучете",
+      "kind": "practice",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/flashcards/",
+      "title": "Карти за учене: 28 въпроса за разпределено припомняне",
+      "kind": "flashcards",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/sources/",
+      "title": "Препоръчани източници и насоки за допълнително четене",
+      "kind": "sources",
+      "chapter": 14
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/",
+      "title": "Персия и политиката на империята",
+      "kind": "chapter",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-iranian-plateau-geography-without-destiny/",
+      "title": "Иранското плато: география без предопределение",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/a-new-dynasty-built-on-older-imperial-worlds/",
+      "title": "Нова династия, изградена върху по-стари имперски светове",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/cyrus-from-regional-ruler-to-imperial-founder/",
+      "title": "Кир: от регионален владетел до основател на империя",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/lydia-croesus-and-the-dangers-of-a-perfect-story/",
+      "title": "Лидия, Крез и опасностите на съвършения разказ",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/babylon-539-bce-conquest-as-a-change-of-language/",
+      "title": "Вавилон, 539 г. пр.н.е.: завоеванието като смяна на езика",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-cyrus-cylinder-what-it-says-and-what-it-does-not/",
+      "title": "Цилиндърът на Кир: какво казва и какво не казва",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/conquest-accommodation-and-the-myth-of-complete-tolerance/",
+      "title": "Завоевание, приспособяване и митът за пълната търпимост",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/cambyses-and-egypt-a-pharaoh-beneath-a-persian-crown/",
+      "title": "Камбиз и Египет: фараон под персийска корона",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-crisis-of-522-bce-and-dariuss-account-of-legitimacy/",
+      "title": "Кризата от 522 г. пр.н.е. и разказът на Дарий за легитимността",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/satraps-ruling-across-distance/",
+      "title": "Сатрапи: управление от разстояние",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/taxes-and-tribute-numbers-categories-and-political/",
+      "title": "Данъци и дан: числа, категории и политическо пазарене",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/roads-messengers-and-the-speed-of-decisions/",
+      "title": "Пътища, пратеници и скоростта на решенията",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon-and/",
+      "title": "Многото царски центрове: Пасаргади, Суза, Вавилон и Персеполис",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/clay-tablets-below-the-monuments-seeing-the-empire-at-work/",
+      "title": "Глинени плочки под паметниците: империята в действие",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/many-languages-one-political-order/",
+      "title": "Много езици, един политически ред",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/religion-and-kingship-ahuramazda-without-anachronism/",
+      "title": "Религия и царска власт: Ахурамазда без анахронизми",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/who-had-power-at-court-and-who-was-left-outside-the-story/",
+      "title": "Кой е имал власт в двора — и кой е останал извън историята?",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-army-a-coalition-held-together-by-supply-and-authority/",
+      "title": "Армията: коалиция, крепена от снабдяване и авторитет",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-greek-wars-a-frontier-becomes-the-famous-story/",
+      "title": "Гръцките войни: една граница се превръща в прочута история",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/provincial-resistance-why-governing-egypt-was-not-a-one-time/",
+      "title": "Съпротива в провинциите: защо управлението на Египет не е еднократно събитие",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-empire-after-xerxes-not-just-a-long-decline/",
+      "title": "Империята след Ксеркс: не просто дълъг упадък",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/alexanders-conquest-military-victory-and-administrative/",
+      "title": "Завоеванието на Александър: военна победа и административно наследство",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/imperial-achievement-without-imperial-romance/",
+      "title": "Имперски постижения без имперска романтика",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/comparison-persia-beside-earlier-civilizations/",
+      "title": "Сравнение: Персия до по-ранните цивилизации",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/a-source-workshop-hearing-four-different-voices/",
+      "title": "Работилница за източници: четири различни гласа",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-question-that-travels-forward/",
+      "title": "Въпросът, който пътува напред",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/practice/",
+      "title": "Упражнения: обяснете, изчислете, спорете, проучете",
+      "kind": "practice",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/flashcards/",
+      "title": "Карти за учене: 28 въпроса за разпределено припомняне",
+      "kind": "flashcards",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/sources/",
+      "title": "Препоръчани източници и насоки за допълнително четене",
+      "kind": "sources",
+      "chapter": 15
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/",
+      "title": "Гръцкият свят и неговите политически експерименти",
+      "kind": "chapter",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/a-sea-of-communities-not-one-greek-nation-state/",
+      "title": "Море от общности, а не една гръцка национална държава",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/before-the-polis-palaces-collapse-and-the-limits-of-memory/",
+      "title": "Преди полиса: дворци, срив и границите на паметта",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/from-settlements-to-the-polis/",
+      "title": "От селища към полиса",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/the-alphabet-oral-performance-and-a-shared-cultural-world/",
+      "title": "Азбуката, устното изпълнение и общият културен свят",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/overseas-settlements-movement-trade-and-conflict/",
+      "title": "Отвъдморски селища: движение, търговия и конфликт",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/aristocracy-written-law-and-the-rise-of-tyrants/",
+      "title": "Аристокрация, писани закони и възходът на тираните",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/spartas-social-bargain-citizenship-supported-by-dependency/",
+      "title": "Социалната сделка на Спарта: гражданство, крепено от зависимост",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/spartas-government-was-not-simply-one-man-rule/",
+      "title": "Управлението на Спарта не е просто еднолична власт",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/athens-before-democracy-land-debt-and-solons-reforms/",
+      "title": "Атина преди демокрацията: земя, дългове и реформите на Солон",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/cleisthenes-and-a-new-political-structure/",
+      "title": "Клистен и една нова политическа структура",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/how-athenian-democracy-worked-in-practice/",
+      "title": "Как работи атинската демокрация на практика",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/who-was-left-outside-the-assembly/",
+      "title": "Кой остава извън Народното събрание?",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/ostracism-public-opinion-and-the-dangers-of-popular-power/",
+      "title": "Остракизъм, обществено мнение и опасностите на народната власт",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/the-persian-wars-shared-danger-divided-greece/",
+      "title": "Гръко-персийските войни: обща опасност, разделена Гърция",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/the-delian-league-an-alliance-becoming-an-empire/",
+      "title": "Делоският съюз: съюз, който се превръща в империя",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/pericles-public-buildings-and-political-choices/",
+      "title": "Перикъл, обществените сгради и политическите избори",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/work-households-slavery-and-economic-power/",
+      "title": "Труд, домакинства, робство и икономическа власт",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/religion-theater-and-the-public-imagination/",
+      "title": "Религия, театър и общественото въображение",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/philosophers-and-teachers-argument-becomes-a-public-craft/",
+      "title": "Философи и учители: спорът става обществен занаят",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/herodotus-and-thucydides-two-historians-two-kinds-of/",
+      "title": "Херодот и Тукидид: двама историци, два вида обяснение",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/the-peloponnesian-war-a-conflict-that-consumed-a-generation/",
+      "title": "Пелопонеската война: конфликт, който погълна едно поколение",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/mytilene-and-melos-what-an-empire-says-about-justice/",
+      "title": "Митилена и Мелос: какво казва една империя за справедливостта",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/the-sicilian-expedition-when-confidence-overwhelms-judgment/",
+      "title": "Сицилианската експедиция: когато увереността надделява над преценката",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/oligarchic-coups-defeat-and-democratic-restoration/",
+      "title": "Олигархични преврати, поражение и възстановяване на демокрацията",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/socrates-on-trial-democracy-religion-and-public-fear/",
+      "title": "Съдът над Сократ: демокрация, религия и обществен страх",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/beyond-athens-versus-sparta-corinth-thebes-and-macedonia/",
+      "title": "Отвъд Атина срещу Спарта: Коринт, Тива и Македония",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/three-sources-and-one-argument-a-practical-evidence-workshop/",
+      "title": "Три източника и един аргумент: практическа работилница за доказателства",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/comparison-three-answers-to-the-problem-of-government/",
+      "title": "Сравнение: три отговора на проблема за управлението",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/the-argument-that-survived-the-city-state/",
+      "title": "Аргументът, който надживя града-държава",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/practice/",
+      "title": "Упражнения: обяснете, изчислете, спорете, проучете",
+      "kind": "practice",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/flashcards/",
+      "title": "Карти за учене: 28 въпроса за разпределено припомняне",
+      "kind": "flashcards",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/sources/",
+      "title": "Препоръчани източници и насоки за допълнително четене",
+      "kind": "sources",
+      "chapter": 16
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/",
+      "title": "Рим: република, империя и наследство",
+      "kind": "chapter",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/italy-before-roman-supremacy/",
+      "title": "Италия преди римското надмощие",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/foundation-stories-and-the-problem-of-early-evidence/",
+      "title": "Легендите за основаването и проблемът с ранните доказателства",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/from-kings-to-republic-what-changed-around-509-bce/",
+      "title": "От царе към република: какво се променя около 509 г. пр.н.е.?",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/how-the-roman-republic-actually-governed/",
+      "title": "Как всъщност се управлява Римската република",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/plebeians-patricians-and-the-long-struggle-over-inclusion/",
+      "title": "Плебеи, патриции и дългата борба за включване",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/law-household-power-and-civic-obligation/",
+      "title": "Закон, власт в домакинството и граждански задължения",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/an-alliance-system-became-a-path-to-domination/",
+      "title": "Една система от съюзи се превръща в път към господство",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-hellenistic-bridge-the-mediterranean-after-alexander/",
+      "title": "Елинистичният мост: Средиземноморието след Александър",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/carthage-and-the-punic-wars-the-cost-of-mediterranean/",
+      "title": "Картаген и Пуническите войни: цената на средиземноморската хегемония",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/conquest-land-and-the-pressures-of-imperial-wealth/",
+      "title": "Завоевания, земя и натискът на имперското богатство",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/soldiers-generals-and-the-failure-of-republican-restraint/",
+      "title": "Войници, пълководци и провалът на републиканската сдържаност",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/caesar-pompey-and-the-civil-wars/",
+      "title": "Цезар, Помпей и гражданските войни",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/augustus-monarchy-in-republican-clothing/",
+      "title": "Август: монархия в републиканска дреха",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-emperors-and-the-problem-of-succession/",
+      "title": "Императорите и проблемът с наследяването",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/roads-armies-frontiers-and-the-scale-of-empire/",
+      "title": "Пътища, армии, граници и мащабът на империята",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-balkans-inside-roman-history/",
+      "title": "Балканите в римската история",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-economy-grain-money-taxes-and-unequal-opportunity/",
+      "title": "Икономиката: зърно, пари, данъци и неравни възможности",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/social-worlds-citizenship-slavery-women-and-religious/",
+      "title": "Социални светове: гражданство, робство, жени и религиозни различия",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/citizenship-as-a-changing-imperial-policy/",
+      "title": "Гражданството като променяща се имперска политика",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/belief-violence-and-the-rise-of-christianity/",
+      "title": "Вяра, насилие и възходът на християнството",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-third-century-crisis-and-the-problem-of-resilience/",
+      "title": "Кризата на III век и проблемът за устойчивостта",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/why-the-western-imperial-court-disappeared/",
+      "title": "Защо западният императорски двор изчезва",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-eastern-roman-empire-and-the-afterlife-of-rome/",
+      "title": "Източната Римска империя и задгробният живот на Рим",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/roman-evidence-what-survives-and-who-produced-it/",
+      "title": "Римски доказателства: какво е оцеляло и кой го е създал?",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/rome-in-comparison-what-can-empire-teach-us/",
+      "title": "Рим в сравнение: какво може да ни научи една империя?",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-historians-verdict-not-one-rise-and-one-fall/",
+      "title": "Присъдата на историка: не един възход и едно падение",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/practice/",
+      "title": "Упражнения: хронология, системи, източници, решения",
+      "kind": "practice",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/flashcards/",
+      "title": "Карти за учене: 30 въпроса за разпределено припомняне",
+      "kind": "flashcards",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/sources/",
+      "title": "Препоръчани източници и насоки за допълнително четене",
+      "kind": "sources",
+      "chapter": 17
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/",
+      "title": "Африка: царства, мрежи и градове",
+      "kind": "chapter",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/a-historians-map-environments-as-connections-and-constraints/",
+      "title": "Картата на историка: средата като връзки и ограничения",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/what-counts-as-evidence-when-archives-are-unequal/",
+      "title": "Какво се брои за доказателство, когато архивите са неравни?",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/the-nile-south-of-egypt-kerma-kush-and-changing-power/",
+      "title": "Нил на юг от Египет: Керма, Куш и променящата се власт",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/aksum-highlands-coins-and-the-red-sea/",
+      "title": "Аксум: планини, монети и Червено море",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/ethiopian-christian-kingdoms-and-lalibela/",
+      "title": "Етиопските християнски царства и Лалибела",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/languages-farming-and-the-long-bantu-expansions/",
+      "title": "Езици, земеделие и дългите разселвания на банту",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/west-africa-before-the-great-sahelian-empires/",
+      "title": "Западна Африка преди големите сахелски империи",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/crossing-the-sahara-merchants-animals-and-risk/",
+      "title": "Прекосяване на Сахара: търговци, животни и риск",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/ancient-ghana-a-kingdom-not-the-modern-country/",
+      "title": "Древна Гана: царство, а не съвременната държава",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/mali-sundiata-and-the-making-of-imperial-authority/",
+      "title": "Мали, Сундиата и изграждането на имперската власт",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/mansa-musa-and-the-danger-of-dramatic-numbers/",
+      "title": "Манса Муса и опасността на драматичните числа",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/timbuktu-and-djenne-cities-of-commerce-and-learning/",
+      "title": "Тимбукту и Дженне: градове на търговията и знанието",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/songhai-administration-and-the-fragility-of-empires/",
+      "title": "Сонгай, администрацията и крехкостта на империите",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/the-swahili-coast-african-cities-on-the-indian-ocean/",
+      "title": "Суахилийското крайбрежие: африкански градове на Индийския океан",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/kilwa-and-the-networks-behind-stone-houses/",
+      "title": "Килуа и мрежите зад каменните къщи",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/southern-africa-mapungubwe-and-great-zimbabwe/",
+      "title": "Южна Африка: Мапунгубве и Голямо Зимбабве",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/power-after-great-zimbabwe-changing-centers/",
+      "title": "Властта след Голямо Зимбабве: променящи се центрове",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/ife-artistry-authority-and-the-yoruba-world/",
+      "title": "Ифе: изкуство, власт и светът на йоруба",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/benin-court-institutions-brass-and-historical-memory/",
+      "title": "Бенин: дворцови институции, месинг и историческа памет",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/kongo-and-central-african-political-worlds/",
+      "title": "Конго и политическите светове на Централна Африка",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/religion-scholarship-and-multiple-traditions/",
+      "title": "Религия, учености и множество традиции",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/women-households-and-the-limits-of-royal-narratives/",
+      "title": "Жени, домакинства и границите на царските разкази",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/african-trade-in-a-connected-world-a-network-model/",
+      "title": "Африканската търговия в един свързан свят: мрежови модел",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/why-the-continents-histories-are-not-a-ladder-of-development/",
+      "title": "Защо историите на континента не са стълба на „развитието“",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/a-historians-workshop-three-contested-claims/",
+      "title": "Работилница на историка: три спорни твърдения",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/africa-in-the-larger-story-of-world-history/",
+      "title": "Африка в голямата история на света",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 18
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/",
+      "title": "Америките преди европейското завоевание",
+      "kind": "chapter",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/a-hemisphere-of-contrasting-environments/",
+      "title": "Полукълбо от контрастни среди",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/how-do-we-know-stones-inscriptions-and-living-knowledge/",
+      "title": "Откъде знаем? Камъни, надписи и живо знание",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/farmers-towns-and-the-long-invention-of-complexity/",
+      "title": "Земеделци, градове и дългото изобретяване на сложността",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/caral-supe-an-early-center-in-coastal-peru/",
+      "title": "Карал-Супе: ранен център на перуанското крайбрежие",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-olmec-world-and-the-danger-of-mother-civilization/",
+      "title": "Светът на олмеките и опасността от „майката на цивилизациите“",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/teotihuacan-a-planned-metropolis-with-unanswered-questions/",
+      "title": "Теотиуакан: планиран мегаполис с въпроси без отговор",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-maya-many-kingdoms-one-remarkable-cultural-world/",
+      "title": "Маите: много царства, един забележителен културен свят",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/reading-maya-writing-and-keeping-calendars-straight/",
+      "title": "Четене на писмеността на маите и подреждане на календарите",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/central-mexico-after-teotihuacan-changing-centers-of-power/",
+      "title": "Централно Мексико след Теотиуакан: променящи се центрове на властта",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/tenochtitlan-and-the-triple-alliance/",
+      "title": "Теночтитлан и Тройният съюз",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-andean-world-mountains-coast-and-vertical-economies/",
+      "title": "Андийският свят: планини, крайбрежие и вертикални икономики",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/chavin-moche-and-nazca-no-single-andean-template/",
+      "title": "Чавин, Моче и Наска: няма един-единствен андийски модел",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/tiwanaku-wari-and-chimu-power-before-the-inka/",
+      "title": "Тиуанаку, Уари и Чиму: властта преди инките",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-inka-a-rapidly-expanding-empire/",
+      "title": "Инките: бързо разширяваща се империя",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-road-and-the-storehouse-infrastructure-as-government/",
+      "title": "Пътят и складът: инфраструктурата като управление",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/khipus-administration-and-the-limits-of-a-written-archive/",
+      "title": "Кипу, администрация и границите на писмения архив",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/what-about-ordinary-people-in-the-empires/",
+      "title": "А обикновените хора в империите?",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-north-american-southwest-chaco-and-ancestral-pueblo/",
+      "title": "Северноамериканският Югозапад: Чако и общностите на древните пуебло",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-mississippi-basin-poverty-point-and-cahokia/",
+      "title": "Басейнът на Мисисипи: Поварти Пойнт и Кахокия",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/forests-coasts-and-political-diversity-beyond-the-famous/",
+      "title": "Гори, крайбрежия и политическо разнообразие отвъд прочутите градове",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-caribbean-and-circum-caribbean-worlds/",
+      "title": "Карибите и околокарибските светове",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/amazonia-the-rainforest-was-not-an-untouched-blank/",
+      "title": "Амазония: дъждовната гора не е недокоснато бяло петно",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/exchange-movement-and-the-limits-of-isolation/",
+      "title": "Размяна, движение и границите на „изолацията“",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/political-systems-compared-an-empire-is-not-a-civilization/",
+      "title": "Сравнение на политическите системи: империята не е цивилизация",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/why-cities-and-political-orders-changed/",
+      "title": "Защо се променят градовете и политическите порядки",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/contact-conquest-and-indigenous-agency/",
+      "title": "Контакт, завоевание и действията на коренните народи",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/evidence-workshop-four-claims-to-test/",
+      "title": "Работилница за доказателства: четири твърдения за проверка",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-main-argument-many-routes-to-complexity/",
+      "title": "Основният аргумент: много пътища към сложността",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 19
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/",
+      "title": "Възходът на исляма и халифатите",
+      "kind": "chapter",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/arabia-was-connected-not-isolated/",
+      "title": "Арабия е свързана, а не изолирана",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-world-at-the-edge-of-two-exhausted-empires/",
+      "title": "Светът на ръба на две изтощени империи",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/how-do-we-know-the-story/",
+      "title": "Откъде знаем историята?",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/muhammad-before-the-hijra-mecca-and-the-first-revelations/",
+      "title": "Мохамед преди хиджра: Мека и първите откровения",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-hijra-of-622-a-new-political-setting/",
+      "title": "Хиджра от 622 г.: нова политическа среда",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/conflict-diplomacy-and-the-growth-of-the-community/",
+      "title": "Конфликт, дипломация и растежът на общността",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/worship-and-ethical-life-more-than-the-history-of-rulers/",
+      "title": "Поклонение и етичен живот: повече от историята на владетелите",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-succession-problem-after-632/",
+      "title": "Проблемът с наследяването след 632 г.",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/umar-and-the-astonishing-conquests/",
+      "title": "Омар и поразителните завоевания",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/governing-conquest-garrisons-taxes-and-continuity/",
+      "title": "Управление на завоеванията: гарнизони, данъци и приемственост",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-reign-of-uthman-expansion-and-accusations-of-favoritism/",
+      "title": "Управлението на Осман: разширение и обвинения във фаворитизъм",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-first-fitna-a-crisis-inside-the-community/",
+      "title": "Първата фитна: криза в общността",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/sunni-and-shia-histories-the-need-for-precision/",
+      "title": "Сунитски и шиитски истории: нуждата от точност",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-umayyad-dynasty-an-empire-ruled-from-damascus/",
+      "title": "Династията на Омаядите: империя, управлявана от Дамаск",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/from-regional-rule-to-imperial-institutions/",
+      "title": "От регионална власт към имперски институции",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-empire-reaches-spain-and-central-asia/",
+      "title": "Империята достига Испания и Централна Азия",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/conversion-identity-and-the-status-of-non-arab-muslims/",
+      "title": "Обръщане, идентичност и положението на неарабските мюсюлмани",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-abbasid-revolution-and-a-new-capital/",
+      "title": "Абасидската революция и една нова столица",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-abbasid-economy-networks-rather-than-a-single-market/",
+      "title": "Абасидската икономика: мрежи, а не един общ пазар",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/translation-mathematics-and-the-making-of-knowledge/",
+      "title": "Преводи, математика и създаването на знание",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-growth-of-islamic-law-and-institutions/",
+      "title": "Развитието на ислямското право и институции",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/hadith-memory-and-the-problem-of-transmission/",
+      "title": "Хадиси, памет и проблемът с предаването",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/theology-philosophy-and-disagreements-within-islam/",
+      "title": "Богословие, философия и несъгласия в исляма",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/women-households-slavery-and-the-unequal-everyday-world/",
+      "title": "Жени, домакинства, робство и неравното всекидневие",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/architecture-literature-and-a-changing-cultural-world/",
+      "title": "Архитектура, литература и един променящ се културен свят",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/a-politically-fragmented-but-connected-muslim-world/",
+      "title": "Политически разпокъсан, но свързан мюсюлмански свят",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/a-historical-source-workshop-three-kinds-of-evidence/",
+      "title": "Работилница за исторически източници: три вида доказателства",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/worked-reasoning-how-large-can-a-province-be-governed/",
+      "title": "Разсъждение стъпка по стъпка: колко голяма провинция може да се управлява?",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-central-argument-faith-institutions-and-a-connected/",
+      "title": "Централният аргумент: вяра, институции и свързан свят",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 20
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/",
+      "title": "Средновековна Евразия и Пътят на коприната",
+      "kind": "chapter",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-geography-of-exchange-why-roads-followed-constraints/",
+      "title": "Географията на размяната: защо пътищата следват ограниченията",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-silk-roads-were-networks-not-an-ancient-express-delivery/",
+      "title": "Пътят на коприната е мрежа, а не древна експресна доставка",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/how-historians-reconstruct-a-world-that-left-scattered/",
+      "title": "Как историците възстановяват свят, оставил разпилени доказателства",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-sogdians-intermediaries-who-made-a-network-work/",
+      "title": "Согдийците: посредниците, които карат мрежата да работи",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/oasis-towns-small-patches-of-water-with-large-consequences/",
+      "title": "Градовете в оазисите: малки петна вода с големи последствия",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space-between/",
+      "title": "Степните общества не са празно пространство между цивилизациите",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/sui-and-tang-china-reunification-and-cosmopolitan-exchange/",
+      "title": "Китай при Суй и Тан: повторно обединение и космополитна размяна",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/tibet-and-the-struggle-for-the-high-corridors/",
+      "title": "Тибет и борбата за високите коридори",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/buddhism-as-a-network-of-teachers-patrons-and-texts/",
+      "title": "Будизмът като мрежа от учители, покровители и текстове",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/a-caravan-of-religions-diversity-without-a-single-verdict/",
+      "title": "Керван от религии: разнообразие без една-единствена присъда",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-islamic-world-as-a-bridge-and-a-set-of-regions/",
+      "title": "Ислямският свят като мост и съвкупност от региони",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/samarkand-bukhara-and-merv-cities-built-on-much-more-than/",
+      "title": "Самарканд, Бухара и Мерв: градове, изградени върху много повече от минаващи кервани",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-indian-subcontinent-a-source-and-a-destination-not-a-gap/",
+      "title": "Индийският субконтинент: източник и цел, а не празно място на картата",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-indian-ocean-a-second-map-of-medieval-connectivity/",
+      "title": "Индийският океан: втора карта на средновековната свързаност",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/srivijaya-and-southeast-asia-sea-lanes-created-regional/",
+      "title": "Шривиджая и Югоизточна Азия: морските пътища създават регионални центрове",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/song-china-markets-innovation-and-the-limits-of-simple/",
+      "title": "Китай при Сун: пазари, иновации и границите на простия прогрес",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/byzantium-the-caucasus-and-the-western-ends-of-the-networks/",
+      "title": "Византия, Кавказ и западните краища на мрежите",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/rus-rivers-and-the-black-sea-baltic-connection/",
+      "title": "Рус, реките и връзката между Черно море и Балтика",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem-of/",
+      "title": "Пренос на технологии: хартия, печат и проблемът с митовете за изобретенията",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/knowledge-traveled-in-books-people-and-arguments/",
+      "title": "Знанието пътува в книги, хора и спорове",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/commerce-needed-trust-but-power-still-mattered/",
+      "title": "Търговията се нуждае от доверие, но властта все още има значение",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same-as/",
+      "title": "Колко далеч наистина стига пътешественикът? Разстоянието не е същото като връзката",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/climate-disease-and-environmental-uncertainty/",
+      "title": "Климат, болести и несигурност на средата",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/a-turning-point-around-1200-the-world-before-the-mongols/",
+      "title": "Повратна точка около 1200 г.: светът преди монголите",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/source-workshop-a-silk-textile-a-pilgrim-and-an-emperor/",
+      "title": "Работилница за източници: копринена тъкан, поклонник и император",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/case-study-follow-one-idea-from-source-to-new-society/",
+      "title": "Пример: проследете една идея от източника до новото общество",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/comparing-the-systems-three-kinds-of-power/",
+      "title": "Сравнение на системите: три вида власт",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/what-changed-and-what-did-not/",
+      "title": "Какво се променя и какво не?",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-historians-final-map-a-connected-world-with-changing/",
+      "title": "Последната карта на историка: свързан свят с променящи се центрове",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 21
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/",
+      "title": "Монголите и свързаният свят",
+      "kind": "chapter",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-land-that-trained-mobility/",
+      "title": "Земята, която учи на подвижност",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/temujin-from-insecurity-to-political-leadership/",
+      "title": "Темуджин: от несигурност към политическо лидерство",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-assembly-of-1206-founding-a-new-order/",
+      "title": "Събранието от 1206 г.: основаване на нов ред",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/why-mongol-armies-were-effective-and-where-they-were-not/",
+      "title": "Защо монголските армии са ефективни — и къде не са",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-supply-problem-horses-are-not-fuel-free-machines/",
+      "title": "Проблемът със снабдяването: конете не са машини без гориво",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-first-imperial-fronts-western-xia-and-the-jin/",
+      "title": "Първите имперски фронтове: Западна Ся и Дзин",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-khwarazmian-campaign-how-a-frontier-dispute-became/",
+      "title": "Хорезъмската кампания: как граничен спор се превръща в катастрофа",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-cost-of-conquest-destruction-displacement-and/",
+      "title": "Цената на завоеванието: разрушения, разселване и несигурност",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/after-1227-the-empire-was-a-family-arrangement-and-a/",
+      "title": "След 1227 г.: империята е семейно споразумение и политическо съперничество",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-european-campaigns-rus-poland-hungary-and-beyond/",
+      "title": "Европейските походи: Рус, Полша, Унгария и отвъд",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-golden-horde-and-the-question-of-indirect-rule/",
+      "title": "Златната орда и въпросът за непрякото управление",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-fall-of-baghdad-and-the-ilkhanate/",
+      "title": "Падането на Багдад и Илханатът",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/kublai-khan-and-the-yuan-a-dynasty-ruling-china/",
+      "title": "Кублай хан и Юан: династия, управляваща Китай",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/four-great-realms-many-local-realities/",
+      "title": "Четири големи държави, много местни реалности",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-great-relay-system-messages-and-imperial-power/",
+      "title": "Голямата пощенска система: послания и имперска власт",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/merchants-passports-taxes-and-the-so-called-mongol-peace/",
+      "title": "Търговци, пропуски, данъци и така нареченият Монголски мир",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/cities-artisans-and-forced-mobility/",
+      "title": "Градове, занаятчии и принудително преселване",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/women-dynastic-power-and-the-work-of-governing/",
+      "title": "Жени, династическа власт и работата по управлението",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/religion-accommodation-patronage-and-political-limits/",
+      "title": "Религия: приспособяване, покровителство и политически граници",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/travelers-and-eyewitnesses-marco-polo-rubruck-and-other/",
+      "title": "Пътешественици и очевидци: Марко Поло, Рубрук и други наблюдатели",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/source-workshop-the-secret-history-and-persian-chronicles/",
+      "title": "Работилница за източници: „Тайната история“ и персийските хроники",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-black-death-a-network-can-spread-danger/",
+      "title": "Черната смърт: една мрежа може да разпространява и опасност",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/why-the-empire-fragmented/",
+      "title": "Защо империята се разпада",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/environmental-and-economic-limits-of-imperial-reach/",
+      "title": "Природни и икономически граници на имперския обхват",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-historians-comparison-mongols-romans-and-persians/",
+      "title": "Сравнението на историка: монголи, римляни и перси",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/case-study-a-merchant-a-village-and-a-governor/",
+      "title": "Пример: търговец, село и управител",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/case-study-one-object-many-possible-routes/",
+      "title": "Пример: един предмет, много възможни пътища",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/what-did-the-mongol-conquests-change/",
+      "title": "Какво промениха монголските завоевания?",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-connected-world-after-the-khans/",
+      "title": "Свързаният свят след хановете",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 22
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.astro/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+~$*.docx
+.env
+.claude/settings.local.json
+.venv-translate/
+.cache/
+
+# Private: the manuscript still contains editorial notes, and the site is built
+# from the generated pages, so the .docx never needs to be in the repository.
+manuscript/*
+!manuscript/.gitkeep
+knowledge-kingdom-website-plan.md

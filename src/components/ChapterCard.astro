@@ -1,0 +1,15 @@
+---
+import { excerpt, chapterUrl, type Chapter } from '../lib/book';
+import { t, langFromPath, formatMinutes } from '../i18n/ui';
+interface Props { chapter: Chapter; headingLevel?: 'h3' | 'h2' }
+const { chapter, headingLevel = 'h3' } = Astro.props;
+const lang = langFromPath(Astro.url.pathname);
+const d = chapter.data;
+const H = headingLevel;
+---
+<a class="chapter-card" href={chapterUrl(chapter, lang)} data-part={d.part}>
+  <span class="num" aria-hidden="true" style={`view-transition-name: ch-${d.label}`}>{d.label}</span>
+  <H><span class="visually-hidden">{t(lang, 'chapter', { n: d.label })}: </span>{d.title}</H>
+  <p>{excerpt(d.standfirst, 150)}</p>
+  <span class="meta">{t(lang, 'nSections', { n: d.sectionCount })}<span class="meta-sep">·</span>{formatMinutes(lang, d.readingTime)}</span>
+</a>

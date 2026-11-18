@@ -1,0 +1,68 @@
+---
+import { t, langFromPath } from '../i18n/ui';
+
+interface Exercise { n: number; html: string[]; answer: string | null }
+interface Group { title: string | null; intro: string[]; exercises: Exercise[] }
+interface Props { groups: Group[]; answerIntro?: string }
+const { groups, answerIntro } = Astro.props;
+const lang = langFromPath(Astro.url.pathname);
+const total = groups.reduce((n, g) => n + g.exercises.length, 0);
+const hasAnswers = groups.some((g) => g.exercises.some((e) => e.answer));
+const groupId = (g: Group, i: number) => (g.title ? `group-${i + 1}` : `exercises`);
+---
+<div class="practice" data-practice>
+  <div class="practice-bar" data-pagefind-ignore>
+    <span class="meta">{t(lang, 'practice.count', { n: total })}</span>
+    {hasAnswers && (
+      <button type="button" class="link-btn" data-toggle-all
+              data-expand={t(lang, 'practice.expandAll')} data-collapse={t(lang, 'practice.collapseAll')}>
+        {t(lang, 'practice.expandAll')}
+      </button>
+    )}
+  </div>
+  <p class="practice-intro" data-pagefind-ignore>{t(lang, 'practice.intro')}{answerIntro && <> <span set:html={answerIntro} /></>}</p>
+
+  {groups.map((g, gi) => (
+    <section class="practice-group" aria-labelledby={g.title ? groupId(g, gi) : undefined}>
+      {g.title && <h2 id={groupId(g, gi)}>{g.title}</h2>}
+      {g.intro.map((p) => <p class="group-intro" set:html={p} />)}
+      <ol class="exercises">
+        {g.exercises.map((ex) => (
+          <li class="exercise" id={`exercise-${ex.n}`}>
+            <a class="ex-n" href={`#exercise-${ex.n}`} aria-label={t(lang, 'practice.exercise', { n: ex.n })}>{ex.n}</a>
+            <div class="ex-body">
+              {ex.html.map((p) => <p set:html={p} />)}
+              {ex.answer && (
+                <details class="model-answer">
+                  <summary data-pagefind-ignore>
+                    <span class="when-closed">{t(lang, 'practice.show')}</span>
+                    <span class="when-open">{t(lang, 'practice.hide')}</span>
+                  </summary>
+                  <div class="answer" set:html={ex.answer} />
+                </details>
+              )}
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
+  ))}
+</div>
+
+<script>
+  for (const root of document.querySelectorAll<HTMLElement>('[data-practice]')) {
+    const btn = root.querySelector<HTMLButtonElement>('[data-toggle-all]');
+    const all = () => [...root.querySelectorAll<HTMLDetailsElement>('details.model-answer')];
+    const sync = () => {
+      if (!btn) return;
+      const open = all().every((d) => d.open);
+      btn.textContent = open ? btn.dataset.collapse! : btn.dataset.expand!;
+    };
+    btn?.addEventListener('click', () => {
+      const open = !all().every((d) => d.open);
+      all().forEach((d) => (d.open = open));
+      sync();
+    });
+    all().forEach((d) => d.addEventListener('toggle', sync));
+  }
+</script>

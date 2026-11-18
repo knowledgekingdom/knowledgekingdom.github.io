@@ -1,0 +1,4240 @@
+{
+  "editions": {
+    "25": {
+      "date": "November 2026",
+      "counts": {
+        "Parts": 2,
+        "Chapters": 22,
+        "Section pages (incl. special pages)": 579,
+        "Heading 1": 26,
+        "Heading 2": 656,
+        "Heading 3": 28,
+        "Figures": 210,
+        "Tables (total in docx)": 24,
+        "Flashcard tables": 22,
+        "Flashcards": 562,
+        "Source Note paragraphs": 420,
+        "Numbered sources": 410,
+        "Exercises": 540,
+        "Model answers": 540,
+        "Roadmap chapters": 120
+      }
+    }
+  },
+  "sections": {
+    "001|@flashcards": {
+      "hash": "c085365b02b0b06d",
+      "title": "001 · Flashcard prompts",
+      "url": "/001-how-to-know-what-is-true/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|@opening": {
+      "hash": "5e397954d753a5b8",
+      "title": "How to Know What Is True",
+      "url": "/001-how-to-know-what-is-true/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|@practice": {
+      "hash": "8213a52737f67f5f",
+      "title": "001 · Practice laboratory",
+      "url": "/001-how-to-know-what-is-true/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|@sources": {
+      "hash": "50f0cb2448cfa970",
+      "title": "001 · Recommended sources and further reading",
+      "url": "/001-how-to-know-what-is-true/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|@summary": {
+      "hash": "eb95fd296c92c12e",
+      "title": "001 · The chapter in ten principles",
+      "url": "/001-how-to-know-what-is-true/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|a three speed method for checking claims": {
+      "hash": "e774c2cb2b61fbec",
+      "title": "001 · A three-speed method for checking claims",
+      "url": "/001-how-to-know-what-is-true/a-three-speed-method-for-checking-claims/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|cognitive bias when our own minds become part of the problem": {
+      "hash": "93af2e2db50ffa2c",
+      "title": "001 · Cognitive bias: when our own minds become part of the problem",
+      "url": "/001-how-to-know-what-is-true/cognitive-bias-when-our-own-minds-become-part-of-the-problem/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|experts when to trust them when to question them": {
+      "hash": "a02df3226bd8e281",
+      "title": "001 · Experts: when to trust them, when to question them",
+      "url": "/001-how-to-know-what-is-true/experts-when-to-trust-them-when-to-question-them/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|following a claim upstream": {
+      "hash": "baa141d3d3868f2d",
+      "title": "001 · Following a claim upstream",
+      "url": "/001-how-to-know-what-is-true/following-a-claim-upstream/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|four statements that sound similar but do different work": {
+      "hash": "643eb89370806ba8",
+      "title": "001 · Four statements that sound similar but do different work",
+      "url": "/001-how-to-know-what-is-true/four-statements-that-sound-similar-but-do-different-work/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|from a pattern to a cause": {
+      "hash": "ac1b4ee608738946",
+      "title": "001 · From a pattern to a cause",
+      "url": "/001-how-to-know-what-is-true/from-a-pattern-to-a-cause/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|probability is the language of reasonable uncertainty": {
+      "hash": "d82e456a6faaa63b",
+      "title": "001 · Probability is the language of reasonable uncertainty",
+      "url": "/001-how-to-know-what-is-true/probability-is-the-language-of-reasonable-uncertainty/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|reading a research headline without being fooled": {
+      "hash": "ce0135cbcd7ca7ee",
+      "title": "001 · Reading a research headline without being fooled",
+      "url": "/001-how-to-know-what-is-true/reading-a-research-headline-without-being-fooled/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|seeing measuring remembering why observation is not simple": {
+      "hash": "485ea8ab22c4cd44",
+      "title": "001 · Seeing, measuring, remembering: why observation is not simple",
+      "url": "/001-how-to-know-what-is-true/seeing-measuring-remembering-why-observation-is-not-simple/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|the danger of becoming certain that nobody knows anything": {
+      "hash": "aaeb90dfec0c9749",
+      "title": "001 · The danger of becoming certain that nobody knows anything",
+      "url": "/001-how-to-know-what-is-true/the-danger-of-becoming-certain-that-nobody-knows-anything/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|the right evidence for the right question": {
+      "hash": "9f5d7b954ca5b762",
+      "title": "001 · The right evidence for the right question",
+      "url": "/001-how-to-know-what-is-true/the-right-evidence-for-the-right-question/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|three investigations a photograph a historical claim and a policy promise": {
+      "hash": "cc9b12988a3b6164",
+      "title": "001 · Three investigations: a photograph, a historical claim, and a policy promise",
+      "url": "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim-and-a/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|what does it mean to know something": {
+      "hash": "1342048649e97b9c",
+      "title": "001 · What does it mean to know something?",
+      "url": "/001-how-to-know-what-is-true/what-does-it-mean-to-know-something/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|what science can offer and what it cannot settle alone": {
+      "hash": "34fee87cacf19ae1",
+      "title": "001 · What science can offer—and what it cannot settle alone",
+      "url": "/001-how-to-know-what-is-true/what-science-can-offer-and-what-it-cannot-settle-alone/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "001|when evidence and values collide": {
+      "hash": "14d019d282d30565",
+      "title": "001 · When evidence and values collide",
+      "url": "/001-how-to-know-what-is-true/when-evidence-and-values-collide/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|@flashcards": {
+      "hash": "cc33897ed2cadb1b",
+      "title": "002 · Flashcard prompts",
+      "url": "/002-logic-arguments-and-common-fallacies/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|@opening": {
+      "hash": "19db5fdc8606c186",
+      "title": "Logic, Arguments, and Common Fallacies",
+      "url": "/002-logic-arguments-and-common-fallacies/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|@practice": {
+      "hash": "a794487062812c8f",
+      "title": "002 · Practice laboratory",
+      "url": "/002-logic-arguments-and-common-fallacies/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|@sources": {
+      "hash": "99cab85efb22d019",
+      "title": "002 · Recommended sources",
+      "url": "/002-logic-arguments-and-common-fallacies/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|@summary": {
+      "hash": "edf2b4172e469000",
+      "title": "002 · Remember this chapter",
+      "url": "/002-logic-arguments-and-common-fallacies/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|a practical method for analyzing any argument": {
+      "hash": "26a5afd8da9b8058",
+      "title": "002 · A practical method for analyzing any argument",
+      "url": "/002-logic-arguments-and-common-fallacies/a-practical-method-for-analyzing-any-argument/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|bad generalizations and selective evidence": {
+      "hash": "d8775ccde6767b7e",
+      "title": "002 · Bad generalizations and selective evidence",
+      "url": "/002-logic-arguments-and-common-fallacies/bad-generalizations-and-selective-evidence/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|case study a dramatic historical claim": {
+      "hash": "cd029060aa08ccd8",
+      "title": "002 · Case study: a dramatic historical claim",
+      "url": "/002-logic-arguments-and-common-fallacies/case-study-a-dramatic-historical-claim/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|case study a local business investment": {
+      "hash": "0f5bd4ac6afef10b",
+      "title": "002 · Case study: a local business investment",
+      "url": "/002-logic-arguments-and-common-fallacies/case-study-a-local-business-investment/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|case study the city center car restriction": {
+      "hash": "e2e46d50f7094f48",
+      "title": "002 · Case study: the city-center car restriction",
+      "url": "/002-logic-arguments-and-common-fallacies/case-study-the-city-center-car-restriction/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|circular arguments moving goalposts and the burden of proof": {
+      "hash": "3decec5d36716d8e",
+      "title": "002 · Circular arguments, moving goalposts, and the burden of proof",
+      "url": "/002-logic-arguments-and-common-fallacies/circular-arguments-moving-goalposts-and-the-burden-of-proof/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|facts definitions predictions and values": {
+      "hash": "7c39090121ae5af0",
+      "title": "002 · Facts, definitions, predictions and values",
+      "url": "/002-logic-arguments-and-common-fallacies/facts-definitions-predictions-and-values/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|false choices slippery slopes and arguments from fear": {
+      "hash": "54df6c66c15a9462",
+      "title": "002 · False choices, slippery slopes, and arguments from fear",
+      "url": "/002-logic-arguments-and-common-fallacies/false-choices-slippery-slopes-and-arguments-from-fear/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|from one cause to a chain of causes": {
+      "hash": "8696b946ab82f6c1",
+      "title": "002 · From one cause to a chain of causes",
+      "url": "/002-logic-arguments-and-common-fallacies/from-one-cause-to-a-chain-of-causes/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|necessary sufficient and merely associated": {
+      "hash": "e77216cb6dd35c89",
+      "title": "002 · Necessary, sufficient, and merely associated",
+      "url": "/002-logic-arguments-and-common-fallacies/necessary-sufficient-and-merely-associated/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|popularity authority tradition and novelty": {
+      "hash": "1b8dea249a1a95c7",
+      "title": "002 · Popularity, authority, tradition, and novelty",
+      "url": "/002-logic-arguments-and-common-fallacies/popularity-authority-tradition-and-novelty/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|reasoning well in conversation": {
+      "hash": "031d824a4d791280",
+      "title": "002 · Reasoning well in conversation",
+      "url": "/002-logic-arguments-and-common-fallacies/reasoning-well-in-conversation/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|straw men steel men and the temptation to win": {
+      "hash": "cd2fd690ed48eefd",
+      "title": "002 · Straw men, steel men, and the temptation to win",
+      "url": "/002-logic-arguments-and-common-fallacies/straw-men-steel-men-and-the-temptation-to-win/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|the anatomy of a reasoned claim": {
+      "hash": "bf1e39feb426ead4",
+      "title": "002 · The anatomy of a reasoned claim",
+      "url": "/002-logic-arguments-and-common-fallacies/the-anatomy-of-a-reasoned-claim/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|the fallacy fallacy and why disagreement remains difficult": {
+      "hash": "a1b01b7c521b8fe7",
+      "title": "002 · The fallacy fallacy—and why disagreement remains difficult",
+      "url": "/002-logic-arguments-and-common-fallacies/the-fallacy-fallacy-and-why-disagreement-remains-difficult/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|three ways to reason about the unknown": {
+      "hash": "b1e0d5c547914a84",
+      "title": "002 · Three ways to reason about the unknown",
+      "url": "/002-logic-arguments-and-common-fallacies/three-ways-to-reason-about-the-unknown/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|valid is not the same as true": {
+      "hash": "7b686b9b2d8c7a9e",
+      "title": "002 · Valid is not the same as true",
+      "url": "/002-logic-arguments-and-common-fallacies/valid-is-not-the-same-as-true/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|when the speaker becomes the target": {
+      "hash": "7e25624e48129294",
+      "title": "002 · When the speaker becomes the target",
+      "url": "/002-logic-arguments-and-common-fallacies/when-the-speaker-becomes-the-target/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "002|why fallacies are more than a list of latin names": {
+      "hash": "868d65d0afe63703",
+      "title": "002 · Why fallacies are more than a list of Latin names",
+      "url": "/002-logic-arguments-and-common-fallacies/why-fallacies-are-more-than-a-list-of-latin-names/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|@flashcards": {
+      "hash": "fbbb95c64df53143",
+      "title": "003 · Flashcard prompts",
+      "url": "/003-probability-risk-and-everyday-numbers/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|@opening": {
+      "hash": "a75af8327c9d3f19",
+      "title": "Probability, Risk, and Everyday Numbers",
+      "url": "/003-probability-risk-and-everyday-numbers/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|@practice": {
+      "hash": "8aba2e211218c971",
+      "title": "003 · Practice laboratory",
+      "url": "/003-probability-risk-and-everyday-numbers/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|@sources": {
+      "hash": "86658b8e9b97a80b",
+      "title": "003 · Recommended sources",
+      "url": "/003-probability-risk-and-everyday-numbers/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|@summary": {
+      "hash": "c84f7cc55c0fe174",
+      "title": "003 · Remember this chapter",
+      "url": "/003-probability-risk-and-everyday-numbers/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|a practical checklist for everyday numerical claims": {
+      "hash": "7e6e48ffdab95aa1",
+      "title": "003 · A practical checklist for everyday numerical claims",
+      "url": "/003-probability-risk-and-everyday-numbers/a-practical-checklist-for-everyday-numerical-claims/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|begin with what is being counted": {
+      "hash": "aeff8e9326e9d0d1",
+      "title": "003 · Begin with what is being counted",
+      "url": "/003-probability-risk-and-everyday-numbers/begin-with-what-is-being-counted/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|compounding why time multiplies small differences": {
+      "hash": "c126ff21d4de8636",
+      "title": "003 · Compounding: why time multiplies small differences",
+      "url": "/003-probability-risk-and-everyday-numbers/compounding-why-time-multiplies-small-differences/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|conditional probability the question after given that": {
+      "hash": "120758cc5c2af0d6",
+      "title": "003 · Conditional probability: the question after “given that”",
+      "url": "/003-probability-risk-and-everyday-numbers/conditional-probability-the-question-after-given-that/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|decision trees putting consequences next to chances": {
+      "hash": "b4fb0af0a1441667",
+      "title": "003 · Decision trees: putting consequences next to chances",
+      "url": "/003-probability-risk-and-everyday-numbers/decision-trees-putting-consequences-next-to-chances/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|expected value the average you may never personally see": {
+      "hash": "192d4f169d5e31a7",
+      "title": "003 · Expected value: the average you may never personally see",
+      "url": "/003-probability-risk-and-everyday-numbers/expected-value-the-average-you-may-never-personally-see/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|forecasts should be judged as forecasts": {
+      "hash": "be73d77e97ba2cb7",
+      "title": "003 · Forecasts should be judged as forecasts",
+      "url": "/003-probability-risk-and-everyday-numbers/forecasts-should-be-judged-as-forecasts/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|how statistics become misleading without any false arithmetic": {
+      "hash": "45a3096057f621a7",
+      "title": "003 · How statistics become misleading without any false arithmetic",
+      "url": "/003-probability-risk-and-everyday-numbers/how-statistics-become-misleading-without-any-false/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|small samples streaks and the human search for patterns": {
+      "hash": "d99e25ec73255752",
+      "title": "003 · Small samples, streaks, and the human search for patterns",
+      "url": "/003-probability-risk-and-everyday-numbers/small-samples-streaks-and-the-human-search-for-patterns/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|talking about uncertainty without sounding weak": {
+      "hash": "7a87e001198880e9",
+      "title": "003 · Talking about uncertainty without sounding weak",
+      "url": "/003-probability-risk-and-everyday-numbers/talking-about-uncertainty-without-sounding-weak/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|the fraud alarm counted properly": {
+      "hash": "cb0c0137e350ad91",
+      "title": "003 · The fraud alarm, counted properly",
+      "url": "/003-probability-risk-and-everyday-numbers/the-fraud-alarm-counted-properly/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|the size of a risk matters as much as its direction": {
+      "hash": "d3648e3b59380a9a",
+      "title": "003 · The size of a risk matters as much as its direction",
+      "url": "/003-probability-risk-and-everyday-numbers/the-size-of-a-risk-matters-as-much-as-its-direction/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|three kinds of uncertainty three different responses": {
+      "hash": "ad3ff556ac33de30",
+      "title": "003 · Three kinds of uncertainty, three different responses",
+      "url": "/003-probability-risk-and-everyday-numbers/three-kinds-of-uncertainty-three-different-responses/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|three simple rules for combining chances": {
+      "hash": "601f11396b6f33be",
+      "title": "003 · Three simple rules for combining chances",
+      "url": "/003-probability-risk-and-everyday-numbers/three-simple-rules-for-combining-chances/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|variability two roads with the same average": {
+      "hash": "828b573af471c017",
+      "title": "003 · Variability: two roads with the same average",
+      "url": "/003-probability-risk-and-everyday-numbers/variability-two-roads-with-the-same-average/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|where confidence comes from and where it should stop": {
+      "hash": "b4963fd36fc0bebb",
+      "title": "003 · Where confidence comes from—and where it should stop",
+      "url": "/003-probability-risk-and-everyday-numbers/where-confidence-comes-from-and-where-it-should-stop/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|why certainty is the wrong standard": {
+      "hash": "3e361fce35bfb87d",
+      "title": "003 · Why certainty is the wrong standard",
+      "url": "/003-probability-risk-and-everyday-numbers/why-certainty-is-the-wrong-standard/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "003|why sensible people buy insurance": {
+      "hash": "941f6d21f829e8ca",
+      "title": "003 · Why sensible people buy insurance",
+      "url": "/003-probability-risk-and-everyday-numbers/why-sensible-people-buy-insurance/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|@flashcards": {
+      "hash": "a1b7f2ef9cfa5068",
+      "title": "004 · Flashcard prompts",
+      "url": "/004-historical-time-and-the-problem-of-sources/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|@opening": {
+      "hash": "b242d1e63cd85c7e",
+      "title": "Historical Time and the Problem of Sources",
+      "url": "/004-historical-time-and-the-problem-of-sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|@practice": {
+      "hash": "e878fb60ba1fde07",
+      "title": "004 · Practice laboratory",
+      "url": "/004-historical-time-and-the-problem-of-sources/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|@sources": {
+      "hash": "e9e91caac6aebc3c",
+      "title": "004 · Recommended sources and further reading",
+      "url": "/004-historical-time-and-the-problem-of-sources/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|@summary": {
+      "hash": "040edfaf53f39506",
+      "title": "004 · Remember this chapter",
+      "url": "/004-historical-time-and-the-problem-of-sources/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|a historians working method from question to account": {
+      "hash": "d4ef720f3d11ce92",
+      "title": "004 · A historian's working method: from question to account",
+      "url": "/004-historical-time-and-the-problem-of-sources/a-historians-working-method-from-question-to-account/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|archaeology reading what people left behind": {
+      "hash": "391ea44a9a764a55",
+      "title": "004 · Archaeology: reading what people left behind",
+      "url": "/004-historical-time-and-the-problem-of-sources/archaeology-reading-what-people-left-behind/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|bce ce calendars and the missing year zero": {
+      "hash": "ee1bddd58d472bd8",
+      "title": "004 · BCE, CE, calendars, and the missing year zero",
+      "url": "/004-historical-time-and-the-problem-of-sources/bce-ce-calendars-and-the-missing-year-zero/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|case study great zimbabwe and the stories people wanted to believe": {
+      "hash": "8d5e897c98117cf4",
+      "title": "004 · Case study: Great Zimbabwe and the stories people wanted to believe",
+      "url": "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted-to/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|case study how bulgaria became independent": {
+      "hash": "461b4b0e1ff8d3a6",
+      "title": "004 · Case study: how Bulgaria became independent",
+      "url": "/004-historical-time-and-the-problem-of-sources/case-study-how-bulgaria-became-independent/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|case study magna cartas many lives": {
+      "hash": "a736d4d9d985067a",
+      "title": "004 · Case study: Magna Carta's many lives",
+      "url": "/004-historical-time-and-the-problem-of-sources/case-study-magna-cartas-many-lives/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|case study when evidence is overwhelming but denial persists": {
+      "hash": "fce9982026dde86e",
+      "title": "004 · Case study: when evidence is overwhelming but denial persists",
+      "url": "/004-historical-time-and-the-problem-of-sources/case-study-when-evidence-is-overwhelming-but-denial-persists/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|comparing societies without flattening them": {
+      "hash": "6c9b577686c7e243",
+      "title": "004 · Comparing societies without flattening them",
+      "url": "/004-historical-time-and-the-problem-of-sources/comparing-societies-without-flattening-them/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|eyewitnesses memory and testimony": {
+      "hash": "9cac1b77cdbb8f65",
+      "title": "004 · Eyewitnesses, memory, and testimony",
+      "url": "/004-historical-time-and-the-problem-of-sources/eyewitnesses-memory-and-testimony/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|historical causes sparks structures and choices": {
+      "hash": "0f5b9cf24e0954da",
+      "title": "004 · Historical causes: sparks, structures, and choices",
+      "url": "/004-historical-time-and-the-problem-of-sources/historical-causes-sparks-structures-and-choices/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|history begins with the problem of time": {
+      "hash": "d6f8011286b2bfa4",
+      "title": "004 · History begins with the problem of time",
+      "url": "/004-historical-time-and-the-problem-of-sources/history-begins-with-the-problem-of-time/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|how historians and archaeologists date things": {
+      "hash": "0526b59999cb13ba",
+      "title": "004 · How historians and archaeologists date things",
+      "url": "/004-historical-time-and-the-problem-of-sources/how-historians-and-archaeologists-date-things/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|periods are questions not fences": {
+      "hash": "274f28f0770c0f12",
+      "title": "004 · Periods are questions, not fences",
+      "url": "/004-historical-time-and-the-problem-of-sources/periods-are-questions-not-fences/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|place is evidence too": {
+      "hash": "bd8c573176ea9cf5",
+      "title": "004 · Place is evidence too",
+      "url": "/004-historical-time-and-the-problem-of-sources/place-is-evidence-too/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|primary source is a relationship to a question": {
+      "hash": "60b9577d1d4b4d44",
+      "title": "004 · “Primary source” is a relationship to a question",
+      "url": "/004-historical-time-and-the-problem-of-sources/primary-source-is-a-relationship-to-a-question/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|reading history as a conversation across time": {
+      "hash": "4249bb2a714a2738",
+      "title": "004 · Reading history as a conversation across time",
+      "url": "/004-historical-time-and-the-problem-of-sources/reading-history-as-a-conversation-across-time/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|the past leaves traces not finished stories": {
+      "hash": "c749e30374a5abd3",
+      "title": "004 · The past leaves traces, not finished stories",
+      "url": "/004-historical-time-and-the-problem-of-sources/the-past-leaves-traces-not-finished-stories/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|translation quotations and the danger of a perfect sentence": {
+      "hash": "ce66166c7e89f00d",
+      "title": "004 · Translation, quotations, and the danger of a perfect sentence",
+      "url": "/004-historical-time-and-the-problem-of-sources/translation-quotations-and-the-danger-of-a-perfect-sentence/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|who made the archives and who is absent": {
+      "hash": "9db2afbecce59f24",
+      "title": "004 · Who made the archives—and who is absent?",
+      "url": "/004-historical-time-and-the-problem-of-sources/who-made-the-archives-and-who-is-absent/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "004|why historians disagree without everything becoming opinion": {
+      "hash": "3544dfd847744714",
+      "title": "004 · Why historians disagree without everything becoming opinion",
+      "url": "/004-historical-time-and-the-problem-of-sources/why-historians-disagree-without-everything-becoming-opinion/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|@flashcards": {
+      "hash": "17dac3315ba9e37c",
+      "title": "005 · Flashcard prompts",
+      "url": "/005-geography-maps-and-scale/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|@opening": {
+      "hash": "2a89fb8b3bf5da4b",
+      "title": "Geography, Maps, and Scale",
+      "url": "/005-geography-maps-and-scale/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|@practice": {
+      "hash": "bea84b0188f9ba0b",
+      "title": "005 · Practice laboratory",
+      "url": "/005-geography-maps-and-scale/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|@sources": {
+      "hash": "7d2b746c1abbab2e",
+      "title": "005 · Recommended sources and further reading",
+      "url": "/005-geography-maps-and-scale/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|@summary": {
+      "hash": "100213c984475294",
+      "title": "005 · Remember this chapter",
+      "url": "/005-geography-maps-and-scale/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|a geographical investigation you can conduct yourself": {
+      "hash": "e090935a877474d1",
+      "title": "005 · A geographical investigation you can conduct yourself",
+      "url": "/005-geography-maps-and-scale/a-geographical-investigation-you-can-conduct-yourself/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|a mental atlas regions that connect the global story": {
+      "hash": "95e7d8281374c3db",
+      "title": "005 · A mental atlas: regions that connect the global story",
+      "url": "/005-geography-maps-and-scale/a-mental-atlas-regions-that-connect-the-global-story/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|earths moving shell plates mountains and earthquakes": {
+      "hash": "6d4f3881284d20e2",
+      "title": "005 · Earth's moving shell: plates, mountains, and earthquakes",
+      "url": "/005-geography-maps-and-scale/earths-moving-shell-plates-mountains-and-earthquakes/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|finding any place coordinates orientation and the grid": {
+      "hash": "f3da88dac9bce55c",
+      "title": "005 · Finding any place: coordinates, orientation, and the grid",
+      "url": "/005-geography-maps-and-scale/finding-any-place-coordinates-orientation-and-the-grid/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|oceans the great highways and climate engines": {
+      "hash": "0986b117ab6e0abc",
+      "title": "005 · Oceans: the great highways and climate engines",
+      "url": "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|people cities and the uneven map of opportunity": {
+      "hash": "15e2124eb1f5eb08",
+      "title": "005 · People, cities, and the uneven map of opportunity",
+      "url": "/005-geography-maps-and-scale/people-cities-and-the-uneven-map-of-opportunity/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|reading thematic maps without being fooled": {
+      "hash": "3e45e91d4d2057e6",
+      "title": "005 · Reading thematic maps without being fooled",
+      "url": "/005-geography-maps-and-scale/reading-thematic-maps-without-being-fooled/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|regional case study bulgaria and the balkans": {
+      "hash": "2f1516a7e5bccde2",
+      "title": "005 · Regional case study: Bulgaria and the Balkans",
+      "url": "/005-geography-maps-and-scale/regional-case-study-bulgaria-and-the-balkans/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|regional case study southeast asias waterways and archipelagos": {
+      "hash": "c6f74f256ca37646",
+      "title": "005 · Regional case study: Southeast Asia's waterways and archipelagos",
+      "url": "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways-and/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|regional case study the andes pacific coasts and ocean productivity": {
+      "hash": "3f37d9e8ac2bb6cc",
+      "title": "005 · Regional case study: the Andes, Pacific coasts, and ocean productivity",
+      "url": "/005-geography-maps-and-scale/regional-case-study-the-andes-pacific-coasts-and-ocean/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|regional case study the nile and the geography of cooperation": {
+      "hash": "6d73888e6814c0a3",
+      "title": "005 · Regional case study: the Nile and the geography of cooperation",
+      "url": "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography-of/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|regional case study the sahel the sahara and transitions rather than lines": {
+      "hash": "0a44947d1cf1ced3",
+      "title": "005 · Regional case study: the Sahel, the Sahara, and transitions rather than lines",
+      "url": "/005-geography-maps-and-scale/regional-case-study-the-sahel-the-sahara-and-transitions/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|scale why a small map hides big things": {
+      "hash": "9222c4e3cafbef1a",
+      "title": "005 · Scale: why a small map hides big things",
+      "url": "/005-geography-maps-and-scale/scale-why-a-small-map-hides-big-things/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|soils ecosystems and why fertile land is not enough": {
+      "hash": "8318e42df017b804",
+      "title": "005 · Soils, ecosystems, and why fertile land is not enough",
+      "url": "/005-geography-maps-and-scale/soils-ecosystems-and-why-fertile-land-is-not-enough/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|the impossible promise of a perfect map": {
+      "hash": "68dffa2663b3e2b3",
+      "title": "005 · The impossible promise of a perfect map",
+      "url": "/005-geography-maps-and-scale/the-impossible-promise-of-a-perfect-map/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|the political map borders sovereignty and contested space": {
+      "hash": "23ea8a1ecd884b6a",
+      "title": "005 · The political map: borders, sovereignty, and contested space",
+      "url": "/005-geography-maps-and-scale/the-political-map-borders-sovereignty-and-contested-space/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|water gives the landscape its circulation": {
+      "hash": "e8d14170acb835e5",
+      "title": "005 · Water gives the landscape its circulation",
+      "url": "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|what exactly does geography study": {
+      "hash": "76439cf2bded22fe",
+      "title": "005 · What exactly does geography study?",
+      "url": "/005-geography-maps-and-scale/what-exactly-does-geography-study/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|why climate varies sunlight air altitude and water": {
+      "hash": "0c6145b1c8c21988",
+      "title": "005 · Why climate varies: sunlight, air, altitude, and water",
+      "url": "/005-geography-maps-and-scale/why-climate-varies-sunlight-air-altitude-and-water/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "005|why geography matters for wars economies and history but never alone": {
+      "hash": "b2f969a9b043f6a5",
+      "title": "005 · Why geography matters for wars, economies, and history—but never alone",
+      "url": "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history-but/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|@flashcards": {
+      "hash": "45e37530c9c07624",
+      "title": "006 · Flashcard prompts",
+      "url": "/006-reading-data-charts-and-statistics/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|@opening": {
+      "hash": "35ababb7e1ed1f99",
+      "title": "Reading Data, Charts, and Statistics",
+      "url": "/006-reading-data-charts-and-statistics/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|@practice": {
+      "hash": "37164ba016aa1c17",
+      "title": "006 · Practice laboratory",
+      "url": "/006-reading-data-charts-and-statistics/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|@sources": {
+      "hash": "c384bde7d6f19a62",
+      "title": "006 · Recommended sources",
+      "url": "/006-reading-data-charts-and-statistics/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|@summary": {
+      "hash": "0b92d2ffe401d4ce",
+      "title": "006 · Remember this chapter",
+      "url": "/006-reading-data-charts-and-statistics/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|a number is an answer to a question": {
+      "hash": "9f6cd773a950b071",
+      "title": "006 · A number is an answer to a question",
+      "url": "/006-reading-data-charts-and-statistics/a-number-is-an-answer-to-a-question/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|confidence intervals being precise about imprecision": {
+      "hash": "e70a8817923cc320",
+      "title": "006 · Confidence intervals: being precise about imprecision",
+      "url": "/006-reading-data-charts-and-statistics/confidence-intervals-being-precise-about-imprecision/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|correlation a relationship not a mechanism": {
+      "hash": "1e0d3a86091dbc23",
+      "title": "006 · Correlation: a relationship, not a mechanism",
+      "url": "/006-reading-data-charts-and-statistics/correlation-a-relationship-not-a-mechanism/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|count rate or standardized comparison": {
+      "hash": "714eb095580a6153",
+      "title": "006 · Count, rate, or standardized comparison?",
+      "url": "/006-reading-data-charts-and-statistics/count-rate-or-standardized-comparison/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|experiments comparison groups and plausible alternatives": {
+      "hash": "26f2fdb6143a9c58",
+      "title": "006 · Experiments, comparison groups, and plausible alternatives",
+      "url": "/006-reading-data-charts-and-statistics/experiments-comparison-groups-and-plausible-alternatives/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|how statistics can change the meaning of a political debate": {
+      "hash": "35ee7bed979d125d",
+      "title": "006 · How statistics can change the meaning of a political debate",
+      "url": "/006-reading-data-charts-and-statistics/how-statistics-can-change-the-meaning-of-a-political-debate/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|index numbers and the invisible change of units": {
+      "hash": "5b51985e18db0353",
+      "title": "006 · Index numbers and the invisible change of units",
+      "url": "/006-reading-data-charts-and-statistics/index-numbers-and-the-invisible-change-of-units/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|mean median mode and the people behind the average": {
+      "hash": "42ff04a1a06fcf1c",
+      "title": "006 · Mean, median, mode—and the people behind the average",
+      "url": "/006-reading-data-charts-and-statistics/mean-median-mode-and-the-people-behind-the-average/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|missing data revised data and the temptation to clean away reality": {
+      "hash": "e02218d250badfab",
+      "title": "006 · Missing data, revised data, and the temptation to clean away reality",
+      "url": "/006-reading-data-charts-and-statistics/missing-data-revised-data-and-the-temptation-to-clean-away/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|percentages percentage points and changing baselines": {
+      "hash": "208ce13038456035",
+      "title": "006 · Percentages, percentage points, and changing baselines",
+      "url": "/006-reading-data-charts-and-statistics/percentages-percentage-points-and-changing-baselines/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|prediction is not the same as explanation": {
+      "hash": "eefaf42cca4ad92e",
+      "title": "006 · Prediction is not the same as explanation",
+      "url": "/006-reading-data-charts-and-statistics/prediction-is-not-the-same-as-explanation/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|reading graphs as arguments": {
+      "hash": "742770edef26c2f1",
+      "title": "006 · Reading graphs as arguments",
+      "url": "/006-reading-data-charts-and-statistics/reading-graphs-as-arguments/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|sampling who gets counted and who never had a chance": {
+      "hash": "dcc2666e5dd6576d",
+      "title": "006 · Sampling: who gets counted, and who never had a chance?",
+      "url": "/006-reading-data-charts-and-statistics/sampling-who-gets-counted-and-who-never-had-a-chance/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|simpsons paradox when every subgroup tells the opposite story": {
+      "hash": "04472dce14427c77",
+      "title": "006 · Simpson's paradox: when every subgroup tells the opposite story",
+      "url": "/006-reading-data-charts-and-statistics/simpsons-paradox-when-every-subgroup-tells-the-opposite/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|spread outliers and why the middle is never the whole story": {
+      "hash": "e5d3deb39321653c",
+      "title": "006 · Spread, outliers, and why the middle is never the whole story",
+      "url": "/006-reading-data-charts-and-statistics/spread-outliers-and-why-the-middle-is-never-the-whole-story/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|surveys are conversations disguised as numbers": {
+      "hash": "8679709c78feb960",
+      "title": "006 · Surveys are conversations disguised as numbers",
+      "url": "/006-reading-data-charts-and-statistics/surveys-are-conversations-disguised-as-numbers/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|the denominator the missing half of a statistic": {
+      "hash": "892b443700234d71",
+      "title": "006 · The denominator: the missing half of a statistic",
+      "url": "/006-reading-data-charts-and-statistics/the-denominator-the-missing-half-of-a-statistic/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|the seven minute statistical audit": {
+      "hash": "cb534e7c6a72cda3",
+      "title": "006 · The seven-minute statistical audit",
+      "url": "/006-reading-data-charts-and-statistics/the-seven-minute-statistical-audit/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|three extended case studies shop school and city": {
+      "hash": "75d7cb9d4659fed8",
+      "title": "006 · Three extended case studies: shop, school, and city",
+      "url": "/006-reading-data-charts-and-statistics/three-extended-case-studies-shop-school-and-city/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|time series where the chosen starting point becomes the story": {
+      "hash": "54462cf94f07c583",
+      "title": "006 · Time series: where the chosen starting point becomes the story",
+      "url": "/006-reading-data-charts-and-statistics/time-series-where-the-chosen-starting-point-becomes-the/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "006|what a p value does and does not say": {
+      "hash": "d962f77e740174ab",
+      "title": "006 · What a p-value does—and does not—say",
+      "url": "/006-reading-data-charts-and-statistics/what-a-p-value-does-and-does-not-say/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|@flashcards": {
+      "hash": "37cb7727af422cb1",
+      "title": "007 · Flashcard prompts",
+      "url": "/007-systems-thinking-and-feedback-loops/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|@opening": {
+      "hash": "8f8a198bda70513f",
+      "title": "Systems Thinking and Feedback Loops",
+      "url": "/007-systems-thinking-and-feedback-loops/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|@practice": {
+      "hash": "357f1d0a3165822d",
+      "title": "007 · Practice laboratory",
+      "url": "/007-systems-thinking-and-feedback-loops/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|@sources": {
+      "hash": "c7cd8c08f1b8ef2c",
+      "title": "007 · Recommended sources and further reading",
+      "url": "/007-systems-thinking-and-feedback-loops/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|@summary": {
+      "hash": "3a61bea529e8a6ba",
+      "title": "007 · Remember this chapter",
+      "url": "/007-systems-thinking-and-feedback-loops/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|a practical systems thinking toolkit": {
+      "hash": "981c281f6768018c",
+      "title": "007 · A practical systems-thinking toolkit",
+      "url": "/007-systems-thinking-and-feedback-loops/a-practical-systems-thinking-toolkit/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|a small business case improving a store without causing new problems": {
+      "hash": "c122c0a2e199eda9",
+      "title": "007 · A small-business case: improving a store without causing new problems",
+      "url": "/007-systems-thinking-and-feedback-loops/a-small-business-case-improving-a-store-without-causing-new/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|balancing feedback how a system pushes back": {
+      "hash": "dab4b95cf797cbe1",
+      "title": "007 · Balancing feedback: how a system pushes back",
+      "url": "/007-systems-thinking-and-feedback-loops/balancing-feedback-how-a-system-pushes-back/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|delays why sensible corrections can cause oscillations": {
+      "hash": "ac66ee862f460d7c",
+      "title": "007 · Delays: why sensible corrections can cause oscillations",
+      "url": "/007-systems-thinking-and-feedback-loops/delays-why-sensible-corrections-can-cause-oscillations/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|economic cycles stocks expectations and delayed adjustment": {
+      "hash": "0b8578066e972b0a",
+      "title": "007 · Economic cycles: stocks, expectations and delayed adjustment",
+      "url": "/007-systems-thinking-and-feedback-loops/economic-cycles-stocks-expectations-and-delayed-adjustment/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|ecosystems and climate feedback on a planetary scale": {
+      "hash": "ca1d201a9e44e8d7",
+      "title": "007 · Ecosystems and climate: feedback on a planetary scale",
+      "url": "/007-systems-thinking-and-feedback-loops/ecosystems-and-climate-feedback-on-a-planetary-scale/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|epidemics the number of cases is not the whole system": {
+      "hash": "ed605f706a3989f3",
+      "title": "007 · Epidemics: the number of cases is not the whole system",
+      "url": "/007-systems-thinking-and-feedback-loops/epidemics-the-number-of-cases-is-not-the-whole-system/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|from event to pattern to structure": {
+      "hash": "69aface599fe7542",
+      "title": "007 · From event to pattern to structure",
+      "url": "/007-systems-thinking-and-feedback-loops/from-event-to-pattern-to-structure/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|mapping a system without inventing certainty": {
+      "hash": "d600f89d5be9de7b",
+      "title": "007 · Mapping a system without inventing certainty",
+      "url": "/007-systems-thinking-and-feedback-loops/mapping-a-system-without-inventing-certainty/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|networks bottlenecks and the weakest link": {
+      "hash": "1734c283506244c7",
+      "title": "007 · Networks, bottlenecks and the weakest link",
+      "url": "/007-systems-thinking-and-feedback-loops/networks-bottlenecks-and-the-weakest-link/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|nonlinearity thresholds and tipping points": {
+      "hash": "c2cb520f545dda52",
+      "title": "007 · Nonlinearity, thresholds and tipping points",
+      "url": "/007-systems-thinking-and-feedback-loops/nonlinearity-thresholds-and-tipping-points/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|politics and the security dilemma": {
+      "hash": "8f478d4818126cde",
+      "title": "007 · Politics and the security dilemma",
+      "url": "/007-systems-thinking-and-feedback-loops/politics-and-the-security-dilemma/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|reinforcing feedback when change feeds more change": {
+      "hash": "f05cc04a56449a1f",
+      "title": "007 · Reinforcing feedback: when change feeds more change",
+      "url": "/007-systems-thinking-and-feedback-loops/reinforcing-feedback-when-change-feeds-more-change/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|shared resources why reasonable choices can produce collective loss": {
+      "hash": "107ccac429e17cea",
+      "title": "007 · Shared resources: why reasonable choices can produce collective loss",
+      "url": "/007-systems-thinking-and-feedback-loops/shared-resources-why-reasonable-choices-can-produce/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|stocks and flows the bathtub beneath the headlines": {
+      "hash": "89ed02658473cd30",
+      "title": "007 · Stocks and flows: the bathtub beneath the headlines",
+      "url": "/007-systems-thinking-and-feedback-loops/stocks-and-flows-the-bathtub-beneath-the-headlines/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|the deeper lesson the world reacts to our attempts to change it": {
+      "hash": "82f7927c8dc4da6c",
+      "title": "007 · The deeper lesson: the world reacts to our attempts to change it",
+      "url": "/007-systems-thinking-and-feedback-loops/the-deeper-lesson-the-world-reacts-to-our-attempts-to-change/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|unintended consequences and the limits of incentives": {
+      "hash": "279a7e38489adbe2",
+      "title": "007 · Unintended consequences and the limits of incentives",
+      "url": "/007-systems-thinking-and-feedback-loops/unintended-consequences-and-the-limits-of-incentives/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|what is a system and what is not": {
+      "hash": "5836121950a055cb",
+      "title": "007 · What is a system—and what is not?",
+      "url": "/007-systems-thinking-and-feedback-loops/what-is-a-system-and-what-is-not/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|where to intervene symptoms rules information and goals": {
+      "hash": "1b02fa103ed7e040",
+      "title": "007 · Where to intervene: symptoms, rules, information and goals",
+      "url": "/007-systems-thinking-and-feedback-loops/where-to-intervene-symptoms-rules-information-and-goals/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "007|why stocks produce inertia resilience and surprise": {
+      "hash": "2ab0ceb6c853f125",
+      "title": "007 · Why stocks produce inertia, resilience and surprise",
+      "url": "/007-systems-thinking-and-feedback-loops/why-stocks-produce-inertia-resilience-and-surprise/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|@flashcards": {
+      "hash": "f14bc3a11011c702",
+      "title": "008 · Flashcard prompts",
+      "url": "/008-how-to-learn-and-remember/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|@opening": {
+      "hash": "03bebea2f8d7f684",
+      "title": "How to Learn and Remember",
+      "url": "/008-how-to-learn-and-remember/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|@practice": {
+      "hash": "055bb7961d5c015e",
+      "title": "008 · Practice laboratory",
+      "url": "/008-how-to-learn-and-remember/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|@sources": {
+      "hash": "ed1913dd65419eec",
+      "title": "008 · Recommended sources",
+      "url": "/008-how-to-learn-and-remember/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|@summary": {
+      "hash": "fd8aa7d37cdac32e",
+      "title": "008 · Remember this chapter",
+      "url": "/008-how-to-learn-and-remember/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|a realistic thirty minute session": {
+      "hash": "d3ad528facdcd945",
+      "title": "008 · A realistic thirty-minute session",
+      "url": "/008-how-to-learn-and-remember/a-realistic-thirty-minute-session/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|explain it aloud the conversation test": {
+      "hash": "778e1bf0ecc900a5",
+      "title": "008 · Explain it aloud: the conversation test",
+      "url": "/008-how-to-learn-and-remember/explain-it-aloud-the-conversation-test/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|feedback turn errors into information": {
+      "hash": "fcc605471b823027",
+      "title": "008 · Feedback: turn errors into information",
+      "url": "/008-how-to-learn-and-remember/feedback-turn-errors-into-information/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|four stages attention encoding retrieval and use": {
+      "hash": "a88534822a464cdf",
+      "title": "008 · Four stages: attention, encoding, retrieval, and use",
+      "url": "/008-how-to-learn-and-remember/four-stages-attention-encoding-retrieval-and-use/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|interleaving mix topics for a reason": {
+      "hash": "9b2497305d4a8e04",
+      "title": "008 · Interleaving: mix topics for a reason",
+      "url": "/008-how-to-learn-and-remember/interleaving-mix-topics-for-a-reason/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|make room for rest sleep and enjoyment": {
+      "hash": "a72c3c3f114abb77",
+      "title": "008 · Make room for rest, sleep, and enjoyment",
+      "url": "/008-how-to-learn-and-remember/make-room-for-rest-sleep-and-enjoyment/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|notes should help future thinking": {
+      "hash": "2bfd2159f9edaf04",
+      "title": "008 · Notes should help future thinking",
+      "url": "/008-how-to-learn-and-remember/notes-should-help-future-thinking/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|spacing forgetting a little can help you learn more": {
+      "hash": "21b3154a5da306a3",
+      "title": "008 · Spacing: forgetting a little can help you learn more",
+      "url": "/008-how-to-learn-and-remember/spacing-forgetting-a-little-can-help-you-learn-more/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|the difference between knowing a fact and having a model": {
+      "hash": "f6312a5aaca2f9ac",
+      "title": "008 · The difference between knowing a fact and having a model",
+      "url": "/008-how-to-learn-and-remember/the-difference-between-knowing-a-fact-and-having-a-model/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|understanding needs connection not just repetition": {
+      "hash": "9a372443349795dc",
+      "title": "008 · Understanding needs connection, not just repetition",
+      "url": "/008-how-to-learn-and-remember/understanding-needs-connection-not-just-repetition/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|why rereading can create an illusion of mastery": {
+      "hash": "ba7fc664cec1b279",
+      "title": "008 · Why rereading can create an illusion of mastery",
+      "url": "/008-how-to-learn-and-remember/why-rereading-can-create-an-illusion-of-mastery/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "008|your first ninety days from facts to conversation": {
+      "hash": "0139b374317ee431",
+      "title": "008 · Your first ninety days: from facts to conversation",
+      "url": "/008-how-to-learn-and-remember/your-first-ninety-days-from-facts-to-conversation/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|@flashcards": {
+      "hash": "7c63af2c7476293f",
+      "title": "009 · Flashcard prompts",
+      "url": "/009-human-evolution-and-the-first-migrations/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|@opening": {
+      "hash": "beb4e034e9b56273",
+      "title": "Human Evolution and the First Migrations",
+      "url": "/009-human-evolution-and-the-first-migrations/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|@practice": {
+      "hash": "d0afa0aedcd6de5f",
+      "title": "009 · Practice laboratory",
+      "url": "/009-human-evolution-and-the-first-migrations/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|@sources": {
+      "hash": "00b1afd2fe205015",
+      "title": "009 · Recommended sources",
+      "url": "/009-human-evolution-and-the-first-migrations/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|@summary": {
+      "hash": "6a79113ac882ca46",
+      "title": "009 · Remember this chapter",
+      "url": "/009-human-evolution-and-the-first-migrations/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|a timeline that changes the scale of everything": {
+      "hash": "f070252d3ba6d769",
+      "title": "009 · A timeline that changes the scale of everything",
+      "url": "/009-human-evolution-and-the-first-migrations/a-timeline-that-changes-the-scale-of-everything/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|africa the long beginning": {
+      "hash": "05e2e84ced341420",
+      "title": "009 · Africa: the long beginning",
+      "url": "/009-human-evolution-and-the-first-migrations/africa-the-long-beginning/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|climate shaped opportunities but people made histories": {
+      "hash": "34fa5fdfac2a860e",
+      "title": "009 · Climate shaped opportunities, but people made histories",
+      "url": "/009-human-evolution-and-the-first-migrations/climate-shaped-opportunities-but-people-made-histories/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|crossing water the settlement of sahul": {
+      "hash": "8b79c53ae262ca3f",
+      "title": "009 · Crossing water: the settlement of Sahul",
+      "url": "/009-human-evolution-and-the-first-migrations/crossing-water-the-settlement-of-sahul/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|daily life without cities risk food kinship and care": {
+      "hash": "5db7497da674c815",
+      "title": "009 · Daily life without cities: risk, food, kinship, and care",
+      "url": "/009-human-evolution-and-the-first-migrations/daily-life-without-cities-risk-food-kinship-and-care/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|five misconceptions that distort prehistoric history": {
+      "hash": "ca3a4130782bc288",
+      "title": "009 · Five misconceptions that distort prehistoric history",
+      "url": "/009-human-evolution-and-the-first-migrations/five-misconceptions-that-distort-prehistoric-history/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|hands stones and the technology nobody photographed": {
+      "hash": "1262e978239cb95e",
+      "title": "009 · Hands, stones, and the technology nobody photographed",
+      "url": "/009-human-evolution-and-the-first-migrations/hands-stones-and-the-technology-nobody-photographed/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|how we know how old something is": {
+      "hash": "11986c75f235e857",
+      "title": "009 · How we know how old something is",
+      "url": "/009-human-evolution-and-the-first-migrations/how-we-know-how-old-something-is/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|language images stories and the world inside the mind": {
+      "hash": "ace9ced27b2dd4dd",
+      "title": "009 · Language, images, stories, and the world inside the mind",
+      "url": "/009-human-evolution-and-the-first-migrations/language-images-stories-and-the-world-inside-the-mind/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|neanderthals denisovans and our complicated relatives": {
+      "hash": "db9ee2f407c457d7",
+      "title": "009 · Neanderthals, Denisovans, and our complicated relatives",
+      "url": "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|the emergence of homo sapiens was not a single moment": {
+      "hash": "8e73f2187904594a",
+      "title": "009 · The emergence of Homo sapiens was not a single moment",
+      "url": "/009-human-evolution-and-the-first-migrations/the-emergence-of-homo-sapiens-was-not-a-single-moment/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|the expanding human world migration as a process not an arrow": {
+      "hash": "e37f0eb746b40cdb",
+      "title": "009 · The expanding human world: migration as a process, not an arrow",
+      "url": "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process-not-an/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|the travelers before us homo erectus and the first great dispersal": {
+      "hash": "a16d1ae55409017a",
+      "title": "009 · The travelers before us: Homo erectus and the first great dispersal",
+      "url": "/009-human-evolution-and-the-first-migrations/the-travelers-before-us-homo-erectus-and-the-first-great/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|toward the americas ice land coast and unanswered questions": {
+      "hash": "ba048dffaf4b82c4",
+      "title": "009 · Toward the Americas: ice, land, coast, and unanswered questions",
+      "url": "/009-human-evolution-and-the-first-migrations/toward-the-americas-ice-land-coast-and-unanswered-questions/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|what evolution actually means": {
+      "hash": "54f26ef6dd695f8a",
+      "title": "009 · What evolution actually means",
+      "url": "/009-human-evolution-and-the-first-migrations/what-evolution-actually-means/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "009|what we can say with confidence and what remains open": {
+      "hash": "531bb2f230be2afe",
+      "title": "009 · What we can say with confidence—and what remains open",
+      "url": "/009-human-evolution-and-the-first-migrations/what-we-can-say-with-confidence-and-what-remains-open/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|@flashcards": {
+      "hash": "da9e7b42c0dd3ac6",
+      "title": "010 · Flashcard prompts",
+      "url": "/010-the-agricultural-revolution/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|@opening": {
+      "hash": "4b06407345a15a68",
+      "title": "The Agricultural Revolution",
+      "url": "/010-the-agricultural-revolution/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|@practice": {
+      "hash": "577d4044d1d97bc7",
+      "title": "010 · Practice laboratory",
+      "url": "/010-the-agricultural-revolution/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|@sources": {
+      "hash": "485d97a16f43bc5e",
+      "title": "010 · Recommended sources",
+      "url": "/010-the-agricultural-revolution/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|@summary": {
+      "hash": "a46b627eb0a4e7e3",
+      "title": "010 · Remember this chapter",
+      "url": "/010-the-agricultural-revolution/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|a counterfactual what if no one had farmed": {
+      "hash": "babff03b41c2773f",
+      "title": "010 · A counterfactual: what if no one had farmed?",
+      "url": "/010-the-agricultural-revolution/a-counterfactual-what-if-no-one-had-farmed/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|a timeline without false precision": {
+      "hash": "0e078fe01763fbee",
+      "title": "010 · A timeline without false precision",
+      "url": "/010-the-agricultural-revolution/a-timeline-without-false-precision/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|africa local crops and imported combinations": {
+      "hash": "08f8b7fe5a03c69f",
+      "title": "010 · Africa: local crops and imported combinations",
+      "url": "/010-the-agricultural-revolution/africa-local-crops-and-imported-combinations/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|before fields foragers were already managing the world": {
+      "hash": "efaa3ad9e9b55bb6",
+      "title": "010 · Before fields: foragers were already managing the world",
+      "url": "/010-the-agricultural-revolution/before-fields-foragers-were-already-managing-the-world/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|china more than a single rice story": {
+      "hash": "77c33b2c530facff",
+      "title": "010 · China: more than a single rice story",
+      "url": "/010-the-agricultural-revolution/china-more-than-a-single-rice-story/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|cultivation is not the same as domestication": {
+      "hash": "4b8d335efd4be192",
+      "title": "010 · Cultivation is not the same as domestication",
+      "url": "/010-the-agricultural-revolution/cultivation-is-not-the-same-as-domestication/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|did farming create inequality": {
+      "hash": "093bc72ef7f3219e",
+      "title": "010 · Did farming create inequality?",
+      "url": "/010-the-agricultural-revolution/did-farming-create-inequality/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|farming remakes landscapes": {
+      "hash": "cff6e2e700a05020",
+      "title": "010 · Farming remakes landscapes",
+      "url": "/010-the-agricultural-revolution/farming-remakes-landscapes/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|five myths to retire": {
+      "hash": "7d998af3e861b14b",
+      "title": "010 · Five myths to retire",
+      "url": "/010-the-agricultural-revolution/five-myths-to-retire/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|from food production to crafts exchange and authority": {
+      "hash": "1cd056eb229ca95b",
+      "title": "010 · From food production to crafts, exchange and authority",
+      "url": "/010-the-agricultural-revolution/from-food-production-to-crafts-exchange-and-authority/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|how archaeologists know a detective story in tiny traces": {
+      "hash": "d35455dc04878bb7",
+      "title": "010 · How archaeologists know: a detective story in tiny traces",
+      "url": "/010-the-agricultural-revolution/how-archaeologists-know-a-detective-story-in-tiny-traces/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|new guinea a revolution without grain fields": {
+      "hash": "6754bc6a2ce34e97",
+      "title": "010 · New Guinea: a revolution without grain fields",
+      "url": "/010-the-agricultural-revolution/new-guinea-a-revolution-without-grain-fields/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|southwest asia an early complicated transition": {
+      "hash": "d22d23b8c9e556f9",
+      "title": "010 · Southwest Asia: an early, complicated transition",
+      "url": "/010-the-agricultural-revolution/southwest-asia-an-early-complicated-transition/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|the americas maize squash potatoes and varied histories": {
+      "hash": "b77ba167ca834725",
+      "title": "010 · The Americas: maize, squash, potatoes, and varied histories",
+      "url": "/010-the-agricultural-revolution/the-americas-maize-squash-potatoes-and-varied-histories/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|the animal partnership herding changes the clock": {
+      "hash": "d426b865fa7829da",
+      "title": "010 · The animal partnership: herding changes the clock",
+      "url": "/010-the-agricultural-revolution/the-animal-partnership-herding-changes-the-clock/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|the granary storing tomorrows food": {
+      "hash": "d276f63c7db0a7ac",
+      "title": "010 · The granary: storing tomorrow's food",
+      "url": "/010-the-agricultural-revolution/the-granary-storing-tomorrows-food/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|the human body pays a price and sometimes benefits": {
+      "hash": "d8022890767c1732",
+      "title": "010 · The human body pays a price—and sometimes benefits",
+      "url": "/010-the-agricultural-revolution/the-human-body-pays-a-price-and-sometimes-benefits/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|the new calendar of labor": {
+      "hash": "55686367c4d8a064",
+      "title": "010 · The new calendar of labor",
+      "url": "/010-the-agricultural-revolution/the-new-calendar-of-labor/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|the village becomes a social institution": {
+      "hash": "dd0af00c8aa444c9",
+      "title": "010 · The village becomes a social institution",
+      "url": "/010-the-agricultural-revolution/the-village-becomes-a-social-institution/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|toward europe the aegean the balkans and the danube": {
+      "hash": "71c131819d94c32c",
+      "title": "010 · Toward Europe: the Aegean, the Balkans, and the Danube",
+      "url": "/010-the-agricultural-revolution/toward-europe-the-aegean-the-balkans-and-the-danube/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "010|why did people begin farming five explanations that interact": {
+      "hash": "19794a424ad4e87f",
+      "title": "010 · Why did people begin farming? Five explanations that interact",
+      "url": "/010-the-agricultural-revolution/why-did-people-begin-farming-five-explanations-that-interact/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|@flashcards": {
+      "hash": "af34efc57bc1b6f3",
+      "title": "011 · Flashcard prompts",
+      "url": "/011-mesopotamia-and-the-first-states/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|@opening": {
+      "hash": "5d1575133d783742",
+      "title": "Mesopotamia and the First States",
+      "url": "/011-mesopotamia-and-the-first-states/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|@practice": {
+      "hash": "b700723f06bc3c4a",
+      "title": "011 · Practice laboratory",
+      "url": "/011-mesopotamia-and-the-first-states/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|@sources": {
+      "hash": "a0d1b64b09098b66",
+      "title": "011 · Recommended sources",
+      "url": "/011-mesopotamia-and-the-first-states/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|@summary": {
+      "hash": "e02bd53c814a6c4b",
+      "title": "011 · Remember this chapter",
+      "url": "/011-mesopotamia-and-the-first-states/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|a landscape that demanded ingenuity": {
+      "hash": "ef0bc863427513f9",
+      "title": "011 · A landscape that demanded ingenuity",
+      "url": "/011-mesopotamia-and-the-first-states/a-landscape-that-demanded-ingenuity/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|a school for scribes": {
+      "hash": "8db08ab0b68fa553",
+      "title": "011 · A school for scribes",
+      "url": "/011-mesopotamia-and-the-first-states/a-school-for-scribes/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|a timeline without false precision": {
+      "hash": "0d8bc721edfd6a98",
+      "title": "011 · A timeline without false precision",
+      "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|an ordinary persons city and the limits of our sources": {
+      "hash": "e05099b23de12b87",
+      "title": "011 · An ordinary person's city—and the limits of our sources",
+      "url": "/011-mesopotamia-and-the-first-states/an-ordinary-persons-city-and-the-limits-of-our-sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|babylon and hammurabi what the famous code really tells us": {
+      "hash": "34768a836a5b35c5",
+      "title": "011 · Babylon and Hammurabi: what the famous 'code' really tells us",
+      "url": "/011-mesopotamia-and-the-first-states/babylon-and-hammurabi-what-the-famous-code-really-tells-us/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|before sumer villages temples and the ubaid world": {
+      "hash": "49adb6300b981a4c",
+      "title": "011 · Before Sumer: villages, temples, and the Ubaid world",
+      "url": "/011-mesopotamia-and-the-first-states/before-sumer-villages-temples-and-the-ubaid-world/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|how historians turn a broken tablet into an argument": {
+      "hash": "4885c43cd86f548f",
+      "title": "011 · How historians turn a broken tablet into an argument",
+      "url": "/011-mesopotamia-and-the-first-states/how-historians-turn-a-broken-tablet-into-an-argument/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|kingship office force and sacred authority": {
+      "hash": "0278ccad026bd55d",
+      "title": "011 · Kingship: office, force, and sacred authority",
+      "url": "/011-mesopotamia-and-the-first-states/kingship-office-force-and-sacred-authority/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|literature numbers and the long memory of mesopotamia": {
+      "hash": "d0f8fa6da4eaff52",
+      "title": "011 · Literature, numbers, and the long memory of Mesopotamia",
+      "url": "/011-mesopotamia-and-the-first-states/literature-numbers-and-the-long-memory-of-mesopotamia/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|sargon and the ambitions of empire": {
+      "hash": "1dcf13c903712220",
+      "title": "011 · Sargon and the ambitions of empire",
+      "url": "/011-mesopotamia-and-the-first-states/sargon-and-the-ambitions-of-empire/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|seals tokens and the problem of trust": {
+      "hash": "c3011f3a65fb7449",
+      "title": "011 · Seals, tokens, and the problem of trust",
+      "url": "/011-mesopotamia-and-the-first-states/seals-tokens-and-the-problem-of-trust/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|sumer was not one unified country": {
+      "hash": "8495f211ec037f1e",
+      "title": "011 · Sumer was not one unified country",
+      "url": "/011-mesopotamia-and-the-first-states/sumer-was-not-one-unified-country/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|temples worship work and legitimacy": {
+      "hash": "7e0443bfabff8614",
+      "title": "011 · Temples: worship, work, and legitimacy",
+      "url": "/011-mesopotamia-and-the-first-states/temples-worship-work-and-legitimacy/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|the canal and the argument over water": {
+      "hash": "8fe21a8c6346d0bc",
+      "title": "011 · The canal and the argument over water",
+      "url": "/011-mesopotamia-and-the-first-states/the-canal-and-the-argument-over-water/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|the invention of writing was not a single flash of genius": {
+      "hash": "91e05d356a788bd9",
+      "title": "011 · The invention of writing was not a single flash of genius",
+      "url": "/011-mesopotamia-and-the-first-states/the-invention-of-writing-was-not-a-single-flash-of-genius/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|the legacy living with institutions": {
+      "hash": "b1e0cd348df691ec",
+      "title": "011 · The legacy: living with institutions",
+      "url": "/011-mesopotamia-and-the-first-states/the-legacy-living-with-institutions/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|the mathematics of a storehouse": {
+      "hash": "018ca75407253fe3",
+      "title": "011 · The mathematics of a storehouse",
+      "url": "/011-mesopotamia-and-the-first-states/the-mathematics-of-a-storehouse/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|the royal cemetery of ur splendid objects difficult questions": {
+      "hash": "e4d33e348aec41e5",
+      "title": "011 · The royal cemetery of Ur: splendid objects, difficult questions",
+      "url": "/011-mesopotamia-and-the-first-states/the-royal-cemetery-of-ur-splendid-objects-difficult/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|trade a city cannot eat clay": {
+      "hash": "7ac1ada0dc02b7f1",
+      "title": "011 · Trade: a city cannot eat clay",
+      "url": "/011-mesopotamia-and-the-first-states/trade-a-city-cannot-eat-clay/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|ur iii a state that counted almost everything": {
+      "hash": "29e9003844106b00",
+      "title": "011 · Ur III: a state that counted almost everything",
+      "url": "/011-mesopotamia-and-the-first-states/ur-iii-a-state-that-counted-almost-everything/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|uruk when settlement became something larger": {
+      "hash": "23d83b2e867ef735",
+      "title": "011 · Uruk: when settlement became something larger",
+      "url": "/011-mesopotamia-and-the-first-states/uruk-when-settlement-became-something-larger/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|was mesopotamia the cradle of civilization": {
+      "hash": "ae51b58ab03fe80a",
+      "title": "011 · Was Mesopotamia the 'cradle of civilization'?",
+      "url": "/011-mesopotamia-and-the-first-states/was-mesopotamia-the-cradle-of-civilization/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|what is a city and what is a state": {
+      "hash": "a6fbe978de037506",
+      "title": "011 · What is a city, and what is a state?",
+      "url": "/011-mesopotamia-and-the-first-states/what-is-a-city-and-what-is-a-state/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|why empires fracture the end of akkadian rule": {
+      "hash": "83ca12b9b70d1c81",
+      "title": "011 · Why empires fracture: the end of Akkadian rule",
+      "url": "/011-mesopotamia-and-the-first-states/why-empires-fracture-the-end-of-akkadian-rule/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|why were the first cities sometimes at war": {
+      "hash": "aaf9d505629b6897",
+      "title": "011 · Why were the first cities sometimes at war?",
+      "url": "/011-mesopotamia-and-the-first-states/why-were-the-first-cities-sometimes-at-war/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "011|women power and the case of enheduanna": {
+      "hash": "a98a59475756ff26",
+      "title": "011 · Women, power, and the case of Enheduanna",
+      "url": "/011-mesopotamia-and-the-first-states/women-power-and-the-case-of-enheduanna/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|@flashcards": {
+      "hash": "431cbace87e5c167",
+      "title": "012 · Flashcard prompts",
+      "url": "/012-ancient-egypt-and-the-nile/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|@opening": {
+      "hash": "60556af8dcff0634",
+      "title": "Ancient Egypt and the Nile",
+      "url": "/012-ancient-egypt-and-the-nile/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|@practice": {
+      "hash": "f56482e46bfadd51",
+      "title": "012 · Practice laboratory",
+      "url": "/012-ancient-egypt-and-the-nile/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|@sources": {
+      "hash": "e7eb882468292f1e",
+      "title": "012 · Recommended sources",
+      "url": "/012-ancient-egypt-and-the-nile/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|@summary": {
+      "hash": "0d76ae791c929391",
+      "title": "012 · Remember this chapter",
+      "url": "/012-ancient-egypt-and-the-nile/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|a new kingdom that looked outward": {
+      "hash": "ed97be7095eef458",
+      "title": "012 · A New Kingdom that looked outward",
+      "url": "/012-ancient-egypt-and-the-nile/a-new-kingdom-that-looked-outward/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|a river flowing toward the north": {
+      "hash": "8a29ced494d6afe4",
+      "title": "012 · A river flowing toward the north",
+      "url": "/012-ancient-egypt-and-the-nile/a-river-flowing-toward-the-north/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|a village where workmen left records": {
+      "hash": "90267cf248d23c27",
+      "title": "012 · A village where workmen left records",
+      "url": "/012-ancient-egypt-and-the-nile/a-village-where-workmen-left-records/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|a year measured in water": {
+      "hash": "2f77dac7e3e4ecc5",
+      "title": "012 · A year measured in water",
+      "url": "/012-ancient-egypt-and-the-nile/a-year-measured-in-water/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|after the new kingdom fragmentation and new rulers": {
+      "hash": "38a65214872215e6",
+      "title": "012 · After the New Kingdom: fragmentation and new rulers",
+      "url": "/012-ancient-egypt-and-the-nile/after-the-new-kingdom-fragmentation-and-new-rulers/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|amarna when a ruler tried to change the gods": {
+      "hash": "e5feb67073197d8f",
+      "title": "012 · Amarna: when a ruler tried to change the gods",
+      "url": "/012-ancient-egypt-and-the-nile/amarna-when-a-ruler-tried-to-change-the-gods/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|before the pharaohs the valley was already changing": {
+      "hash": "2556ad9657daa41a",
+      "title": "012 · Before the pharaohs: the valley was already changing",
+      "url": "/012-ancient-egypt-and-the-nile/before-the-pharaohs-the-valley-was-already-changing/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|essential timeline chapter 012": {
+      "hash": "09d04e4fe7130898",
+      "title": "012 · Essential timeline",
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|hatshepsut and the question of legitimate rule": {
+      "hash": "d987fb5fa4debac7",
+      "title": "012 · Hatshepsut and the question of legitimate rule",
+      "url": "/012-ancient-egypt-and-the-nile/hatshepsut-and-the-question-of-legitimate-rule/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|knowledge measurement and techniques": {
+      "hash": "3a18207bc5358f72",
+      "title": "012 · Knowledge, measurement, and techniques",
+      "url": "/012-ancient-egypt-and-the-nile/knowledge-measurement-and-techniques/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|narmer menes and the meaning of unification": {
+      "hash": "d2fb04b8f0e9a906",
+      "title": "012 · Narmer, Menes, and the meaning of unification",
+      "url": "/012-ancient-egypt-and-the-nile/narmer-menes-and-the-meaning-of-unification/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|nubia was not egypts passive southern backdrop": {
+      "hash": "7d786afce334547d",
+      "title": "012 · Nubia was not Egypt's passive southern backdrop",
+      "url": "/012-ancient-egypt-and-the-nile/nubia-was-not-egypts-passive-southern-backdrop/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|ramesses ii kadesh and what victory looks like": {
+      "hash": "72cedf116753aba4",
+      "title": "012 · Ramesses II, Kadesh, and what victory looks like",
+      "url": "/012-ancient-egypt-and-the-nile/ramesses-ii-kadesh-and-what-victory-looks-like/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|reconstructing egypt what sources can and cannot tell us": {
+      "hash": "bf81edb643b98b95",
+      "title": "012 · Reconstructing Egypt: what sources can and cannot tell us",
+      "url": "/012-ancient-egypt-and-the-nile/reconstructing-egypt-what-sources-can-and-cannot-tell-us/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|the first great fragmentation": {
+      "hash": "1f68b32963057a24",
+      "title": "012 · The first great fragmentation",
+      "url": "/012-ancient-egypt-and-the-nile/the-first-great-fragmentation/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|the middle kingdom reunification and a different political culture": {
+      "hash": "8ca480d5908ad795",
+      "title": "012 · The Middle Kingdom: reunification and a different political culture",
+      "url": "/012-ancient-egypt-and-the-nile/the-middle-kingdom-reunification-and-a-different-political/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|the old kingdom durable stone and fragile politics": {
+      "hash": "60073f4c6cb62745",
+      "title": "012 · The Old Kingdom: durable stone and fragile politics",
+      "url": "/012-ancient-egypt-and-the-nile/the-old-kingdom-durable-stone-and-fragile-politics/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|what did a pharaoh actually rule": {
+      "hash": "731f4421d3cb0db0",
+      "title": "012 · What did a pharaoh actually rule?",
+      "url": "/012-ancient-egypt-and-the-nile/what-did-a-pharaoh-actually-rule/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|why ancient egypt matters beyond the pyramids": {
+      "hash": "ce930ef358fbdd37",
+      "title": "012 · Why ancient Egypt matters beyond the pyramids",
+      "url": "/012-ancient-egypt-and-the-nile/why-ancient-egypt-matters-beyond-the-pyramids/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|why kings built for the dead": {
+      "hash": "e009be870a71012a",
+      "title": "012 · Why kings built for the dead",
+      "url": "/012-ancient-egypt-and-the-nile/why-kings-built-for-the-dead/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|women marriage property and social difference": {
+      "hash": "9a43f8c81a0297a0",
+      "title": "012 · Women, marriage, property, and social difference",
+      "url": "/012-ancient-egypt-and-the-nile/women-marriage-property-and-social-difference/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "012|writing sacred images ordinary administration": {
+      "hash": "4f5b5abf734eaa60",
+      "title": "012 · Writing: sacred images, ordinary administration",
+      "url": "/012-ancient-egypt-and-the-nile/writing-sacred-images-ordinary-administration/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|@flashcards": {
+      "hash": "0c2958f873eee18c",
+      "title": "013 · Flashcard prompts",
+      "url": "/013-the-indus-valley-civilization/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|@opening": {
+      "hash": "b1b52dc88be09ccd",
+      "title": "The Indus Valley Civilization",
+      "url": "/013-the-indus-valley-civilization/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|@practice": {
+      "hash": "b40c8ccdecf54697",
+      "title": "013 · Practice laboratory",
+      "url": "/013-the-indus-valley-civilization/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|@sources": {
+      "hash": "40d20d79936ec604",
+      "title": "013 · Recommended sources",
+      "url": "/013-the-indus-valley-civilization/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|@summary": {
+      "hash": "50fae5313bd82d4c",
+      "title": "013 · Remember this chapter",
+      "url": "/013-the-indus-valley-civilization/summary/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|a civilizations importance does not depend on decipherment": {
+      "hash": "d3f99755e8a6f49b",
+      "title": "013 · A civilization's importance does not depend on decipherment",
+      "url": "/013-the-indus-valley-civilization/a-civilizations-importance-does-not-depend-on-decipherment/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|after 1900 bce transformation not disappearance": {
+      "hash": "178874d5123610f4",
+      "title": "013 · After 1900 BCE: transformation, not disappearance",
+      "url": "/013-the-indus-valley-civilization/after-1900-bce-transformation-not-disappearance/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|ancient dna powerful evidence with careful limits": {
+      "hash": "2592b61f7986c5e8",
+      "title": "013 · Ancient DNA: powerful evidence with careful limits",
+      "url": "/013-the-indus-valley-civilization/ancient-dna-powerful-evidence-with-careful-limits/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|begin with a map not a legend": {
+      "hash": "4b2302dc9d5cccc3",
+      "title": "013 · Begin with a map, not a legend",
+      "url": "/013-the-indus-valley-civilization/begin-with-a-map-not-a-legend/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|bricks proportions weights and the problem of trust": {
+      "hash": "ddfb84aa4864151d",
+      "title": "013 · Bricks, proportions, weights and the problem of trust",
+      "url": "/013-the-indus-valley-civilization/bricks-proportions-weights-and-the-problem-of-trust/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|compare three urban civilizations without ranking them": {
+      "hash": "5ed6c044dc9c4d11",
+      "title": "013 · Compare three urban civilizations without ranking them",
+      "url": "/013-the-indus-valley-civilization/compare-three-urban-civilizations-without-ranking-them/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|craftspeople materials and technical intelligence": {
+      "hash": "013b00a7cfcafc82",
+      "title": "013 · Craftspeople, materials and technical intelligence",
+      "url": "/013-the-indus-valley-civilization/craftspeople-materials-and-technical-intelligence/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|dholavira another way to build a city": {
+      "hash": "b95dbcc191784bf1",
+      "title": "013 · Dholavira: another way to build a city",
+      "url": "/013-the-indus-valley-civilization/dholavira-another-way-to-build-a-city/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|discovering a civilization twice": {
+      "hash": "e8b2a587395d3a69",
+      "title": "013 · Discovering a civilization twice",
+      "url": "/013-the-indus-valley-civilization/discovering-a-civilization-twice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|essential timeline chapter 013": {
+      "hash": "aacbf48afe4f629f",
+      "title": "013 · Essential timeline",
+      "url": "/013-the-indus-valley-civilization/essential-timeline-chapter-013/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|harappa a city that grew in stages": {
+      "hash": "6b8b9fc51a2fd1f2",
+      "title": "013 · Harappa: a city that grew in stages",
+      "url": "/013-the-indus-valley-civilization/harappa-a-city-that-grew-in-stages/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|homes food health and everyday lives": {
+      "hash": "7e0de77c9d7cd0bc",
+      "title": "013 · Homes, food, health and everyday lives",
+      "url": "/013-the-indus-valley-civilization/homes-food-health-and-everyday-lives/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|identity belief and ritual what artifacts can and cannot say": {
+      "hash": "b25e5209bd29c89a",
+      "title": "013 · Identity, belief and ritual: what artifacts can—and cannot—say",
+      "url": "/013-the-indus-valley-civilization/identity-belief-and-ritual-what-artifacts-can-and-cannot-say/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|mohenjo daro a city built around water": {
+      "hash": "09d7a4575c266834",
+      "title": "013 · Mohenjo-daro: a city built around water",
+      "url": "/013-the-indus-valley-civilization/mohenjo-daro-a-city-built-around-water/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|rivers move monsoons vary societies respond": {
+      "hash": "79020656b520b1dc",
+      "title": "013 · Rivers move, monsoons vary, societies respond",
+      "url": "/013-the-indus-valley-civilization/rivers-move-monsoons-vary-societies-respond/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|the dates development rather than a sudden birth": {
+      "hash": "68cb37ee61b9ef3e",
+      "title": "013 · The dates: development rather than a sudden birth",
+      "url": "/013-the-indus-valley-civilization/the-dates-development-rather-than-a-sudden-birth/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|the seals small objects with large questions": {
+      "hash": "1869a49df98e38fd",
+      "title": "013 · The seals: small objects with large questions",
+      "url": "/013-the-indus-valley-civilization/the-seals-small-objects-with-large-questions/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|the temptation of the peaceful civilization": {
+      "hash": "24a2d5492b738c13",
+      "title": "013 · The temptation of the 'peaceful civilization'",
+      "url": "/013-the-indus-valley-civilization/the-temptation-of-the-peaceful-civilization/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|trade overland and across the sea": {
+      "hash": "7632e5581f790066",
+      "title": "013 · Trade overland and across the sea",
+      "url": "/013-the-indus-valley-civilization/trade-overland-and-across-the-sea/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|was there a king a council or something else": {
+      "hash": "4b539d9c9551a37b",
+      "title": "013 · Was there a king, a council, or something else?",
+      "url": "/013-the-indus-valley-civilization/was-there-a-king-a-council-or-something-else/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|what made the cities possible farms and countryside": {
+      "hash": "c92750131a81f6a6",
+      "title": "013 · What made the cities possible: farms and countryside",
+      "url": "/013-the-indus-valley-civilization/what-made-the-cities-possible-farms-and-countryside/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|what would actually decipher the script": {
+      "hash": "2c08ce3cdc7e0c9c",
+      "title": "013 · What would actually decipher the script?",
+      "url": "/013-the-indus-valley-civilization/what-would-actually-decipher-the-script/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "013|writing that we still cannot read": {
+      "hash": "76927cfbc03e9a03",
+      "title": "013 · Writing that we still cannot read",
+      "url": "/013-the-indus-valley-civilization/writing-that-we-still-cannot-read/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|@flashcards": {
+      "hash": "9c10689df7c16532",
+      "title": "014 · Flashcards: 28 prompts for spaced recall",
+      "url": "/014-ancient-china-dynasties-and-statecraft/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|@opening": {
+      "hash": "7a2e576c4f552e38",
+      "title": "Ancient China: Dynasties and Statecraft",
+      "url": "/014-ancient-china-dynasties-and-statecraft/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|@practice": {
+      "hash": "bdda2ab5c6970110",
+      "title": "014 · Practice laboratory: explain, calculate, debate, investigate",
+      "url": "/014-ancient-china-dynasties-and-statecraft/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|@sources": {
+      "hash": "b1870d7edff0b326",
+      "title": "014 · Recommended sources and directions for further reading",
+      "url": "/014-ancient-china-dynasties-and-statecraft/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|a day in the life constructing an evidence based reconstruction": {
+      "hash": "46979acc7cb15070",
+      "title": "014 · A day in the life: constructing an evidence-based reconstruction",
+      "url": "/014-ancient-china-dynasties-and-statecraft/a-day-in-the-life-constructing-an-evidence-based/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|a working toolkit how to investigate an early chinese claim": {
+      "hash": "2719ea704318fa8d",
+      "title": "014 · A working toolkit: how to investigate an early Chinese claim",
+      "url": "/014-ancient-china-dynasties-and-statecraft/a-working-toolkit-how-to-investigate-an-early-chinese-claim/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|ancestors shangdi and the work of kingship": {
+      "hash": "0a10cd16cce7b7e6",
+      "title": "014 · Ancestors, Shangdi and the work of kingship",
+      "url": "/014-ancient-china-dynasties-and-statecraft/ancestors-shangdi-and-the-work-of-kingship/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|anyang where archaeology meets writing": {
+      "hash": "8f170b8eca9dc883",
+      "title": "014 · Anyang: where archaeology meets writing",
+      "url": "/014-ancient-china-dynasties-and-statecraft/anyang-where-archaeology-meets-writing/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|beyond the capital sanxingdui and the many bronze age worlds": {
+      "hash": "f4c2f4f8d9ac92fc",
+      "title": "014 · Beyond the capital: Sanxingdui and the many Bronze Age worlds",
+      "url": "/014-ancient-china-dynasties-and-statecraft/beyond-the-capital-sanxingdui-and-the-many-bronze-age-worlds/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|bronze bells ceremonial order and political memory": {
+      "hash": "64876b66fd0797a4",
+      "title": "014 · Bronze bells, ceremonial order and political memory",
+      "url": "/014-ancient-china-dynasties-and-statecraft/bronze-bells-ceremonial-order-and-political-memory/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|bronze technology that turned resources into authority": {
+      "hash": "887ae84a2449b2ff",
+      "title": "014 · Bronze: technology that turned resources into authority",
+      "url": "/014-ancient-china-dynasties-and-statecraft/bronze-technology-that-turned-resources-into-authority/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|chariots warfare and the limits of military evidence": {
+      "hash": "4a370f1744ae8bc7",
+      "title": "014 · Chariots, warfare and the limits of military evidence",
+      "url": "/014-ancient-china-dynasties-and-statecraft/chariots-warfare-and-the-limits-of-military-evidence/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|dates dynasties and the limits of a familiar timeline": {
+      "hash": "89d3ede7026be08c",
+      "title": "014 · Dates, dynasties and the limits of a familiar timeline",
+      "url": "/014-ancient-china-dynasties-and-statecraft/dates-dynasties-and-the-limits-of-a-familiar-timeline/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|erlitou a city without an identified king": {
+      "hash": "15d8a30fa58a9545",
+      "title": "014 · Erlitou: a city without an identified king",
+      "url": "/014-ancient-china-dynasties-and-statecraft/erlitou-a-city-without-an-identified-king/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|farmers potters and the beginnings of complex societies": {
+      "hash": "ddb004ba73234e8f",
+      "title": "014 · Farmers, potters and the beginnings of complex societies",
+      "url": "/014-ancient-china-dynasties-and-statecraft/farmers-potters-and-the-beginnings-of-complex-societies/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|fu hao a woman visible in an unusually rich record": {
+      "hash": "eddda335610cefe4",
+      "title": "014 · Fu Hao: a woman visible in an unusually rich record",
+      "url": "/014-ancient-china-dynasties-and-statecraft/fu-hao-a-woman-visible-in-an-unusually-rich-record/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|how the zhou center weakened": {
+      "hash": "b04d625cefc6f0df",
+      "title": "014 · How the Zhou center weakened",
+      "url": "/014-ancient-china-dynasties-and-statecraft/how-the-zhou-center-weakened/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|how to recognize exaggeration about ancient china": {
+      "hash": "011a5a993cf51070",
+      "title": "014 · How to recognize exaggeration about ancient China",
+      "url": "/014-ancient-china-dynasties-and-statecraft/how-to-recognize-exaggeration-about-ancient-china/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|liangzhu another route to complexity": {
+      "hash": "b9e68cec0e9daf17",
+      "title": "014 · Liangzhu: another route to complexity",
+      "url": "/014-ancient-china-dynasties-and-statecraft/liangzhu-another-route-to-complexity/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|oracle bones questions written for ancestors": {
+      "hash": "28dd296aa32c427f",
+      "title": "014 · Oracle bones: questions written for ancestors",
+      "url": "/014-ancient-china-dynasties-and-statecraft/oracle-bones-questions-written-for-ancestors/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|shang power a king among other powers": {
+      "hash": "e3547a528b507094",
+      "title": "014 · Shang power: a king among other powers",
+      "url": "/014-ancient-china-dynasties-and-statecraft/shang-power-a-king-among-other-powers/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|start with geography more than one river valley": {
+      "hash": "65a226a3949769b9",
+      "title": "014 · Start with geography: more than one river valley",
+      "url": "/014-ancient-china-dynasties-and-statecraft/start-with-geography-more-than-one-river-valley/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|the economy beneath the bronze": {
+      "hash": "1e7fe54181ee75f6",
+      "title": "014 · The economy beneath the bronze",
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-economy-beneath-the-bronze/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|the households outside the royal archive": {
+      "hash": "89d67a6128d48402",
+      "title": "014 · The households outside the royal archive",
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-households-outside-the-royal-archive/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|the mandate of heaven legitimacy with conditions": {
+      "hash": "1d4d9cac0be1dc3d",
+      "title": "014 · The Mandate of Heaven: legitimacy with conditions",
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-mandate-of-heaven-legitimacy-with-conditions/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|the roots of chinese political thought": {
+      "hash": "ea2dfa1935456701",
+      "title": "014 · The roots of Chinese political thought",
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-roots-of-chinese-political-thought/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|the zhou conquest a new ruling house": {
+      "hash": "9d72c740f1885f8d",
+      "title": "014 · The Zhou conquest: a new ruling house",
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-zhou-conquest-a-new-ruling-house/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|three early civilizations three kinds of evidence": {
+      "hash": "b049ad70e17897f3",
+      "title": "014 · Three early civilizations, three kinds of evidence",
+      "url": "/014-ancient-china-dynasties-and-statecraft/three-early-civilizations-three-kinds-of-evidence/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "014|western zhou rule kinship bronze inscriptions and regional power": {
+      "hash": "b23dc4b453fdb7c4",
+      "title": "014 · Western Zhou rule: kinship, bronze inscriptions and regional power",
+      "url": "/014-ancient-china-dynasties-and-statecraft/western-zhou-rule-kinship-bronze-inscriptions-and-regional/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|@flashcards": {
+      "hash": "7178a692a31c5bc1",
+      "title": "015 · Flashcards: 28 prompts for spaced recall",
+      "url": "/015-persia-and-the-politics-of-empire/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|@opening": {
+      "hash": "d16703b2c1b82791",
+      "title": "Persia and the Politics of Empire",
+      "url": "/015-persia-and-the-politics-of-empire/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|@practice": {
+      "hash": "95559c9a777ea462",
+      "title": "015 · Practice laboratory: explain, calculate, debate, investigate",
+      "url": "/015-persia-and-the-politics-of-empire/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|@sources": {
+      "hash": "d831aab3a76ad1b8",
+      "title": "015 · Recommended sources and directions for further reading",
+      "url": "/015-persia-and-the-politics-of-empire/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|a new dynasty built on older imperial worlds": {
+      "hash": "9a5b3d2922935efd",
+      "title": "015 · A new dynasty built on older imperial worlds",
+      "url": "/015-persia-and-the-politics-of-empire/a-new-dynasty-built-on-older-imperial-worlds/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|a source workshop hearing four different voices": {
+      "hash": "beb6722747112b4c",
+      "title": "015 · A source workshop: hearing four different voices",
+      "url": "/015-persia-and-the-politics-of-empire/a-source-workshop-hearing-four-different-voices/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|alexanders conquest military victory and administrative inheritance": {
+      "hash": "34acaac49e7b14c5",
+      "title": "015 · Alexander's conquest: military victory and administrative inheritance",
+      "url": "/015-persia-and-the-politics-of-empire/alexanders-conquest-military-victory-and-administrative/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|babylon 539 bce conquest as a change of language": {
+      "hash": "13716c623d4a6860",
+      "title": "015 · Babylon, 539 BCE: conquest as a change of language",
+      "url": "/015-persia-and-the-politics-of-empire/babylon-539-bce-conquest-as-a-change-of-language/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|cambyses and egypt a pharaoh beneath a persian crown": {
+      "hash": "8bd571e39c94e9bc",
+      "title": "015 · Cambyses and Egypt: a pharaoh beneath a Persian crown",
+      "url": "/015-persia-and-the-politics-of-empire/cambyses-and-egypt-a-pharaoh-beneath-a-persian-crown/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|clay tablets below the monuments seeing the empire at work": {
+      "hash": "e0a605cd1093891f",
+      "title": "015 · Clay tablets below the monuments: seeing the empire at work",
+      "url": "/015-persia-and-the-politics-of-empire/clay-tablets-below-the-monuments-seeing-the-empire-at-work/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|comparison persia beside earlier civilizations": {
+      "hash": "36bf49c05c257c8f",
+      "title": "015 · Comparison: Persia beside earlier civilizations",
+      "url": "/015-persia-and-the-politics-of-empire/comparison-persia-beside-earlier-civilizations/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|conquest accommodation and the myth of complete tolerance": {
+      "hash": "e0a28de69dd5a9d2",
+      "title": "015 · Conquest, accommodation and the myth of complete tolerance",
+      "url": "/015-persia-and-the-politics-of-empire/conquest-accommodation-and-the-myth-of-complete-tolerance/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|cyrus from regional ruler to imperial founder": {
+      "hash": "00fa1d3bd1b5aa3a",
+      "title": "015 · Cyrus: from regional ruler to imperial founder",
+      "url": "/015-persia-and-the-politics-of-empire/cyrus-from-regional-ruler-to-imperial-founder/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|imperial achievement without imperial romance": {
+      "hash": "e92f1a16a1e408b5",
+      "title": "015 · Imperial achievement without imperial romance",
+      "url": "/015-persia-and-the-politics-of-empire/imperial-achievement-without-imperial-romance/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|lydia croesus and the dangers of a perfect story": {
+      "hash": "0e6e096eae450406",
+      "title": "015 · Lydia, Croesus and the dangers of a perfect story",
+      "url": "/015-persia-and-the-politics-of-empire/lydia-croesus-and-the-dangers-of-a-perfect-story/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|many languages one political order": {
+      "hash": "1c165d8413b8959a",
+      "title": "015 · Many languages, one political order",
+      "url": "/015-persia-and-the-politics-of-empire/many-languages-one-political-order/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|provincial resistance why governing egypt was not a one time event": {
+      "hash": "4eb1fb8d4bc7e767",
+      "title": "015 · Provincial resistance: why governing Egypt was not a one-time event",
+      "url": "/015-persia-and-the-politics-of-empire/provincial-resistance-why-governing-egypt-was-not-a-one-time/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|religion and kingship ahuramazda without anachronism": {
+      "hash": "fa1458862126d2cd",
+      "title": "015 · Religion and kingship: Ahuramazda without anachronism",
+      "url": "/015-persia-and-the-politics-of-empire/religion-and-kingship-ahuramazda-without-anachronism/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|roads messengers and the speed of decisions": {
+      "hash": "0fabb20c2645219c",
+      "title": "015 · Roads, messengers and the speed of decisions",
+      "url": "/015-persia-and-the-politics-of-empire/roads-messengers-and-the-speed-of-decisions/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|satraps ruling across distance": {
+      "hash": "bce6aeb169aca52e",
+      "title": "015 · Satraps: ruling across distance",
+      "url": "/015-persia-and-the-politics-of-empire/satraps-ruling-across-distance/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|taxes and tribute numbers categories and political bargaining": {
+      "hash": "199d535f0e77fa7d",
+      "title": "015 · Taxes and tribute: numbers, categories and political bargaining",
+      "url": "/015-persia-and-the-politics-of-empire/taxes-and-tribute-numbers-categories-and-political/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|the army a coalition held together by supply and authority": {
+      "hash": "dd593acf59db01c9",
+      "title": "015 · The army: a coalition held together by supply and authority",
+      "url": "/015-persia-and-the-politics-of-empire/the-army-a-coalition-held-together-by-supply-and-authority/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|the crisis of 522 bce and dariuss account of legitimacy": {
+      "hash": "3fa2b9b751bb4a43",
+      "title": "015 · The crisis of 522 BCE and Darius's account of legitimacy",
+      "url": "/015-persia-and-the-politics-of-empire/the-crisis-of-522-bce-and-dariuss-account-of-legitimacy/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|the cyrus cylinder what it says and what it does not": {
+      "hash": "2ba8b1d69a412133",
+      "title": "015 · The Cyrus Cylinder: what it says, and what it does not",
+      "url": "/015-persia-and-the-politics-of-empire/the-cyrus-cylinder-what-it-says-and-what-it-does-not/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|the empire after xerxes not just a long decline": {
+      "hash": "cd95c213e2ab2627",
+      "title": "015 · The empire after Xerxes: not just a long decline",
+      "url": "/015-persia-and-the-politics-of-empire/the-empire-after-xerxes-not-just-a-long-decline/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|the greek wars a frontier becomes the famous story": {
+      "hash": "037dd3cf5c83060b",
+      "title": "015 · The Greek wars: a frontier becomes the famous story",
+      "url": "/015-persia-and-the-politics-of-empire/the-greek-wars-a-frontier-becomes-the-famous-story/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|the iranian plateau geography without destiny": {
+      "hash": "83ae2787cc128501",
+      "title": "015 · The Iranian plateau: geography without destiny",
+      "url": "/015-persia-and-the-politics-of-empire/the-iranian-plateau-geography-without-destiny/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|the many royal centers pasargadae susa babylon and persepolis": {
+      "hash": "bcd88c410e080941",
+      "title": "015 · The many royal centers: Pasargadae, Susa, Babylon and Persepolis",
+      "url": "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon-and/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|the question that travels forward": {
+      "hash": "12b5551ba561284b",
+      "title": "015 · The question that travels forward",
+      "url": "/015-persia-and-the-politics-of-empire/the-question-that-travels-forward/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "015|who had power at court and who was left outside the story": {
+      "hash": "ec7a812e1b328a18",
+      "title": "015 · Who had power at court—and who was left outside the story?",
+      "url": "/015-persia-and-the-politics-of-empire/who-had-power-at-court-and-who-was-left-outside-the-story/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|@flashcards": {
+      "hash": "f2210101418dad43",
+      "title": "016 · Flashcards: 28 prompts for spaced recall",
+      "url": "/016-the-greek-world-and-its-political-experiments/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|@opening": {
+      "hash": "4614890b088ed7b3",
+      "title": "The Greek World and Its Political Experiments",
+      "url": "/016-the-greek-world-and-its-political-experiments/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|@practice": {
+      "hash": "b2e4d501a75ba204",
+      "title": "016 · Practice laboratory: explain, calculate, debate, investigate",
+      "url": "/016-the-greek-world-and-its-political-experiments/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|@sources": {
+      "hash": "089a64fdc9d503ec",
+      "title": "016 · Recommended sources and directions for further reading",
+      "url": "/016-the-greek-world-and-its-political-experiments/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|a sea of communities not one greek nation state": {
+      "hash": "38415681cf882d79",
+      "title": "016 · A sea of communities, not one Greek nation-state",
+      "url": "/016-the-greek-world-and-its-political-experiments/a-sea-of-communities-not-one-greek-nation-state/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|aristocracy written law and the rise of tyrants": {
+      "hash": "d1c05c2a872dacde",
+      "title": "016 · Aristocracy, written law and the rise of tyrants",
+      "url": "/016-the-greek-world-and-its-political-experiments/aristocracy-written-law-and-the-rise-of-tyrants/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|athens before democracy land debt and solons reforms": {
+      "hash": "db20be2584e38a4e",
+      "title": "016 · Athens before democracy: land, debt and Solon's reforms",
+      "url": "/016-the-greek-world-and-its-political-experiments/athens-before-democracy-land-debt-and-solons-reforms/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|before the polis palaces collapse and the limits of memory": {
+      "hash": "d7bc4f4d703bb649",
+      "title": "016 · Before the polis: palaces, collapse and the limits of memory",
+      "url": "/016-the-greek-world-and-its-political-experiments/before-the-polis-palaces-collapse-and-the-limits-of-memory/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|beyond athens versus sparta corinth thebes and macedonia": {
+      "hash": "6ab2e34b91ae115c",
+      "title": "016 · Beyond Athens versus Sparta: Corinth, Thebes and Macedonia",
+      "url": "/016-the-greek-world-and-its-political-experiments/beyond-athens-versus-sparta-corinth-thebes-and-macedonia/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|cleisthenes and a new political structure": {
+      "hash": "e10339495a5558d9",
+      "title": "016 · Cleisthenes and a new political structure",
+      "url": "/016-the-greek-world-and-its-political-experiments/cleisthenes-and-a-new-political-structure/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|comparison three answers to the problem of government": {
+      "hash": "49a1c28e76281511",
+      "title": "016 · Comparison: three answers to the problem of government",
+      "url": "/016-the-greek-world-and-its-political-experiments/comparison-three-answers-to-the-problem-of-government/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|from settlements to the polis": {
+      "hash": "3d20015398531123",
+      "title": "016 · From settlements to the polis",
+      "url": "/016-the-greek-world-and-its-political-experiments/from-settlements-to-the-polis/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|herodotus and thucydides two historians two kinds of explanation": {
+      "hash": "e8c3e13b4dcc9cff",
+      "title": "016 · Herodotus and Thucydides: two historians, two kinds of explanation",
+      "url": "/016-the-greek-world-and-its-political-experiments/herodotus-and-thucydides-two-historians-two-kinds-of/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|how athenian democracy worked in practice": {
+      "hash": "c5d4169f1948a9e2",
+      "title": "016 · How Athenian democracy worked in practice",
+      "url": "/016-the-greek-world-and-its-political-experiments/how-athenian-democracy-worked-in-practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|mytilene and melos what an empire says about justice": {
+      "hash": "066fa82baa94c1b0",
+      "title": "016 · Mytilene and Melos: what an empire says about justice",
+      "url": "/016-the-greek-world-and-its-political-experiments/mytilene-and-melos-what-an-empire-says-about-justice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|oligarchic coups defeat and democratic restoration": {
+      "hash": "800193d93921afe5",
+      "title": "016 · Oligarchic coups, defeat and democratic restoration",
+      "url": "/016-the-greek-world-and-its-political-experiments/oligarchic-coups-defeat-and-democratic-restoration/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|ostracism public opinion and the dangers of popular power": {
+      "hash": "18943d189c893a49",
+      "title": "016 · Ostracism, public opinion and the dangers of popular power",
+      "url": "/016-the-greek-world-and-its-political-experiments/ostracism-public-opinion-and-the-dangers-of-popular-power/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|overseas settlements movement trade and conflict": {
+      "hash": "fa96ee6edd5eb66c",
+      "title": "016 · Overseas settlements: movement, trade and conflict",
+      "url": "/016-the-greek-world-and-its-political-experiments/overseas-settlements-movement-trade-and-conflict/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|pericles public buildings and political choices": {
+      "hash": "2b2ba6e49297b4b3",
+      "title": "016 · Pericles, public buildings and political choices",
+      "url": "/016-the-greek-world-and-its-political-experiments/pericles-public-buildings-and-political-choices/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|philosophers and teachers argument becomes a public craft": {
+      "hash": "f43f7868130e4995",
+      "title": "016 · Philosophers and teachers: argument becomes a public craft",
+      "url": "/016-the-greek-world-and-its-political-experiments/philosophers-and-teachers-argument-becomes-a-public-craft/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|religion theater and the public imagination": {
+      "hash": "be9cd6926f20d1b1",
+      "title": "016 · Religion, theater and the public imagination",
+      "url": "/016-the-greek-world-and-its-political-experiments/religion-theater-and-the-public-imagination/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|socrates on trial democracy religion and public fear": {
+      "hash": "817c059c68ae7673",
+      "title": "016 · Socrates on trial: democracy, religion and public fear",
+      "url": "/016-the-greek-world-and-its-political-experiments/socrates-on-trial-democracy-religion-and-public-fear/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|spartas government was not simply one man rule": {
+      "hash": "51a77beafd28c02f",
+      "title": "016 · Sparta's government was not simply one-man rule",
+      "url": "/016-the-greek-world-and-its-political-experiments/spartas-government-was-not-simply-one-man-rule/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|spartas social bargain citizenship supported by dependency": {
+      "hash": "ab25d1efebc0dbb5",
+      "title": "016 · Sparta's social bargain: citizenship supported by dependency",
+      "url": "/016-the-greek-world-and-its-political-experiments/spartas-social-bargain-citizenship-supported-by-dependency/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|the alphabet oral performance and a shared cultural world": {
+      "hash": "3cbe6522407c152a",
+      "title": "016 · The alphabet, oral performance and a shared cultural world",
+      "url": "/016-the-greek-world-and-its-political-experiments/the-alphabet-oral-performance-and-a-shared-cultural-world/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|the argument that survived the city state": {
+      "hash": "97333aee5343aec7",
+      "title": "016 · The argument that survived the city-state",
+      "url": "/016-the-greek-world-and-its-political-experiments/the-argument-that-survived-the-city-state/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|the delian league an alliance becoming an empire": {
+      "hash": "6b5e5ad9c5121bb8",
+      "title": "016 · The Delian League: an alliance becoming an empire",
+      "url": "/016-the-greek-world-and-its-political-experiments/the-delian-league-an-alliance-becoming-an-empire/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|the peloponnesian war a conflict that consumed a generation": {
+      "hash": "d68717658b7957a2",
+      "title": "016 · The Peloponnesian War: a conflict that consumed a generation",
+      "url": "/016-the-greek-world-and-its-political-experiments/the-peloponnesian-war-a-conflict-that-consumed-a-generation/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|the persian wars shared danger divided greece": {
+      "hash": "3b68cdf5e4b55ef8",
+      "title": "016 · The Persian Wars: shared danger, divided Greece",
+      "url": "/016-the-greek-world-and-its-political-experiments/the-persian-wars-shared-danger-divided-greece/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|the sicilian expedition when confidence overwhelms judgment": {
+      "hash": "75f1c057445fee99",
+      "title": "016 · The Sicilian expedition: when confidence overwhelms judgment",
+      "url": "/016-the-greek-world-and-its-political-experiments/the-sicilian-expedition-when-confidence-overwhelms-judgment/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|three sources and one argument a practical evidence workshop": {
+      "hash": "22d63fe73643fb24",
+      "title": "016 · Three sources and one argument: a practical evidence workshop",
+      "url": "/016-the-greek-world-and-its-political-experiments/three-sources-and-one-argument-a-practical-evidence-workshop/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|who was left outside the assembly": {
+      "hash": "cd36b084800af7bd",
+      "title": "016 · Who was left outside the Assembly?",
+      "url": "/016-the-greek-world-and-its-political-experiments/who-was-left-outside-the-assembly/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "016|work households slavery and economic power": {
+      "hash": "f13c69ee7564e49f",
+      "title": "016 · Work, households, slavery and economic power",
+      "url": "/016-the-greek-world-and-its-political-experiments/work-households-slavery-and-economic-power/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|@flashcards": {
+      "hash": "cf3dbe555efc11e7",
+      "title": "017 · Flashcards: 30 prompts for spaced recall",
+      "url": "/017-rome-republic-empire-and-afterlives/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|@opening": {
+      "hash": "0de1fa8c03ba8e3b",
+      "title": "Rome: Republic, Empire, and Afterlives",
+      "url": "/017-rome-republic-empire-and-afterlives/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|@practice": {
+      "hash": "32b1815e62f9532a",
+      "title": "017 · Practice laboratory: chronology, systems, sources, decisions",
+      "url": "/017-rome-republic-empire-and-afterlives/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|@sources": {
+      "hash": "f34fe0c84cda6502",
+      "title": "017 · Recommended sources and directions for further reading",
+      "url": "/017-rome-republic-empire-and-afterlives/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|an alliance system became a path to domination": {
+      "hash": "7a561dba0ce53b0a",
+      "title": "017 · An alliance system became a path to domination",
+      "url": "/017-rome-republic-empire-and-afterlives/an-alliance-system-became-a-path-to-domination/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|augustus monarchy in republican clothing": {
+      "hash": "9b053bb5969744a3",
+      "title": "017 · Augustus: monarchy in republican clothing",
+      "url": "/017-rome-republic-empire-and-afterlives/augustus-monarchy-in-republican-clothing/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|belief violence and the rise of christianity": {
+      "hash": "bf663c7c88890338",
+      "title": "017 · Belief, violence, and the rise of Christianity",
+      "url": "/017-rome-republic-empire-and-afterlives/belief-violence-and-the-rise-of-christianity/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|caesar pompey and the civil wars": {
+      "hash": "386c6cee86059b41",
+      "title": "017 · Caesar, Pompey, and the civil wars",
+      "url": "/017-rome-republic-empire-and-afterlives/caesar-pompey-and-the-civil-wars/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|carthage and the punic wars the cost of mediterranean hegemony": {
+      "hash": "4d97a61b54cc350d",
+      "title": "017 · Carthage and the Punic Wars: the cost of Mediterranean hegemony",
+      "url": "/017-rome-republic-empire-and-afterlives/carthage-and-the-punic-wars-the-cost-of-mediterranean/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|citizenship as a changing imperial policy": {
+      "hash": "60da1d02b78e8060",
+      "title": "017 · Citizenship as a changing imperial policy",
+      "url": "/017-rome-republic-empire-and-afterlives/citizenship-as-a-changing-imperial-policy/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|conquest land and the pressures of imperial wealth": {
+      "hash": "8e2b413b901fa01d",
+      "title": "017 · Conquest, land, and the pressures of imperial wealth",
+      "url": "/017-rome-republic-empire-and-afterlives/conquest-land-and-the-pressures-of-imperial-wealth/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|foundation stories and the problem of early evidence": {
+      "hash": "f48f187cab7ca205",
+      "title": "017 · Foundation stories and the problem of early evidence",
+      "url": "/017-rome-republic-empire-and-afterlives/foundation-stories-and-the-problem-of-early-evidence/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|from kings to republic what changed around 509 bce": {
+      "hash": "ba17829eaac73534",
+      "title": "017 · From kings to republic: what changed around 509 BCE?",
+      "url": "/017-rome-republic-empire-and-afterlives/from-kings-to-republic-what-changed-around-509-bce/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|how the roman republic actually governed": {
+      "hash": "a70d372addd29f2a",
+      "title": "017 · How the Roman Republic actually governed",
+      "url": "/017-rome-republic-empire-and-afterlives/how-the-roman-republic-actually-governed/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|italy before roman supremacy": {
+      "hash": "3ba8831a4568013c",
+      "title": "017 · Italy before Roman supremacy",
+      "url": "/017-rome-republic-empire-and-afterlives/italy-before-roman-supremacy/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|law household power and civic obligation": {
+      "hash": "3f802b5339d5a48b",
+      "title": "017 · Law, household power and civic obligation",
+      "url": "/017-rome-republic-empire-and-afterlives/law-household-power-and-civic-obligation/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|plebeians patricians and the long struggle over inclusion": {
+      "hash": "b044508ba863e367",
+      "title": "017 · Plebeians, patricians and the long struggle over inclusion",
+      "url": "/017-rome-republic-empire-and-afterlives/plebeians-patricians-and-the-long-struggle-over-inclusion/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|roads armies frontiers and the scale of empire": {
+      "hash": "be3c5af4858fc7ee",
+      "title": "017 · Roads, armies, frontiers, and the scale of empire",
+      "url": "/017-rome-republic-empire-and-afterlives/roads-armies-frontiers-and-the-scale-of-empire/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|roman evidence what survives and who produced it": {
+      "hash": "cf1e7527890a129b",
+      "title": "017 · Roman evidence: what survives and who produced it?",
+      "url": "/017-rome-republic-empire-and-afterlives/roman-evidence-what-survives-and-who-produced-it/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|rome in comparison what can empire teach us": {
+      "hash": "71d2b3f59e86ef18",
+      "title": "017 · Rome in comparison: what can empire teach us?",
+      "url": "/017-rome-republic-empire-and-afterlives/rome-in-comparison-what-can-empire-teach-us/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|social worlds citizenship slavery women and religious difference": {
+      "hash": "35664608e6329ca0",
+      "title": "017 · Social worlds: citizenship, slavery, women, and religious difference",
+      "url": "/017-rome-republic-empire-and-afterlives/social-worlds-citizenship-slavery-women-and-religious/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|soldiers generals and the failure of republican restraint": {
+      "hash": "c70073836b7fff9c",
+      "title": "017 · Soldiers, generals, and the failure of republican restraint",
+      "url": "/017-rome-republic-empire-and-afterlives/soldiers-generals-and-the-failure-of-republican-restraint/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|the balkans inside roman history": {
+      "hash": "999d4a8f1aa049e1",
+      "title": "017 · The Balkans inside Roman history",
+      "url": "/017-rome-republic-empire-and-afterlives/the-balkans-inside-roman-history/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|the eastern roman empire and the afterlife of rome": {
+      "hash": "4c46287f416e6dc7",
+      "title": "017 · The eastern Roman Empire and the afterlife of Rome",
+      "url": "/017-rome-republic-empire-and-afterlives/the-eastern-roman-empire-and-the-afterlife-of-rome/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|the economy grain money taxes and unequal opportunity": {
+      "hash": "9bf96422cd9caba3",
+      "title": "017 · The economy: grain, money, taxes, and unequal opportunity",
+      "url": "/017-rome-republic-empire-and-afterlives/the-economy-grain-money-taxes-and-unequal-opportunity/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|the emperors and the problem of succession": {
+      "hash": "d79271b82cef754d",
+      "title": "017 · The emperors and the problem of succession",
+      "url": "/017-rome-republic-empire-and-afterlives/the-emperors-and-the-problem-of-succession/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|the hellenistic bridge the mediterranean after alexander": {
+      "hash": "bea9a42960ae6df8",
+      "title": "017 · The Hellenistic bridge: the Mediterranean after Alexander",
+      "url": "/017-rome-republic-empire-and-afterlives/the-hellenistic-bridge-the-mediterranean-after-alexander/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|the historians verdict not one rise and one fall": {
+      "hash": "3a96710c5668097e",
+      "title": "017 · The historian's verdict: not one rise and one fall",
+      "url": "/017-rome-republic-empire-and-afterlives/the-historians-verdict-not-one-rise-and-one-fall/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|the third century crisis and the problem of resilience": {
+      "hash": "2207eb2d1197c6b5",
+      "title": "017 · The third-century crisis and the problem of resilience",
+      "url": "/017-rome-republic-empire-and-afterlives/the-third-century-crisis-and-the-problem-of-resilience/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "017|why the western imperial court disappeared": {
+      "hash": "33bad95b2ddc79a8",
+      "title": "017 · Why the western imperial court disappeared",
+      "url": "/017-rome-republic-empire-and-afterlives/why-the-western-imperial-court-disappeared/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|@flashcards": {
+      "hash": "4aaebf990c06cdda",
+      "title": "018 · Flashcard prompts",
+      "url": "/018-africa-kingdoms-networks-and-cities/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|@opening": {
+      "hash": "27e6b9cd1c31514d",
+      "title": "Africa: Kingdoms, Networks, and Cities",
+      "url": "/018-africa-kingdoms-networks-and-cities/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|@practice": {
+      "hash": "202351136ad45bac",
+      "title": "018 · Practice laboratory",
+      "url": "/018-africa-kingdoms-networks-and-cities/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|@sources": {
+      "hash": "ce0f6dda3216096f",
+      "title": "018 · Sources and further reading",
+      "url": "/018-africa-kingdoms-networks-and-cities/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|a historians map environments as connections and constraints": {
+      "hash": "96d044b195974eb4",
+      "title": "018 · A historian's map: environments as connections and constraints",
+      "url": "/018-africa-kingdoms-networks-and-cities/a-historians-map-environments-as-connections-and-constraints/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|a historians workshop three contested claims": {
+      "hash": "5925bfbbeb02f551",
+      "title": "018 · A historian's workshop: three contested claims",
+      "url": "/018-africa-kingdoms-networks-and-cities/a-historians-workshop-three-contested-claims/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|africa in the larger story of world history": {
+      "hash": "34ae8bb233f59415",
+      "title": "018 · Africa in the larger story of world history",
+      "url": "/018-africa-kingdoms-networks-and-cities/africa-in-the-larger-story-of-world-history/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|african trade in a connected world a network model": {
+      "hash": "827da4a74da6f768",
+      "title": "018 · African trade in a connected world: a network model",
+      "url": "/018-africa-kingdoms-networks-and-cities/african-trade-in-a-connected-world-a-network-model/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|aksum highlands coins and the red sea": {
+      "hash": "a6422724f2b250ca",
+      "title": "018 · Aksum: highlands, coins and the Red Sea",
+      "url": "/018-africa-kingdoms-networks-and-cities/aksum-highlands-coins-and-the-red-sea/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|ancient ghana a kingdom not the modern country": {
+      "hash": "1d4bcaf83b9534b2",
+      "title": "018 · Ancient Ghana: a kingdom, not the modern country",
+      "url": "/018-africa-kingdoms-networks-and-cities/ancient-ghana-a-kingdom-not-the-modern-country/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|benin court institutions brass and historical memory": {
+      "hash": "e1b65c4e609228b9",
+      "title": "018 · Benin: court institutions, brass and historical memory",
+      "url": "/018-africa-kingdoms-networks-and-cities/benin-court-institutions-brass-and-historical-memory/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|crossing the sahara merchants animals and risk": {
+      "hash": "a013f4ffe62682e8",
+      "title": "018 · Crossing the Sahara: merchants, animals and risk",
+      "url": "/018-africa-kingdoms-networks-and-cities/crossing-the-sahara-merchants-animals-and-risk/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|ethiopian christian kingdoms and lalibela": {
+      "hash": "27c0ee192010d9ec",
+      "title": "018 · Ethiopian Christian kingdoms and Lalibela",
+      "url": "/018-africa-kingdoms-networks-and-cities/ethiopian-christian-kingdoms-and-lalibela/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|ife artistry authority and the yoruba world": {
+      "hash": "820dfd06d15eecc3",
+      "title": "018 · Ife: artistry, authority and the Yoruba world",
+      "url": "/018-africa-kingdoms-networks-and-cities/ife-artistry-authority-and-the-yoruba-world/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|kilwa and the networks behind stone houses": {
+      "hash": "9ed513c53b159390",
+      "title": "018 · Kilwa and the networks behind stone houses",
+      "url": "/018-africa-kingdoms-networks-and-cities/kilwa-and-the-networks-behind-stone-houses/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|kongo and central african political worlds": {
+      "hash": "06c93663ddfd1dbd",
+      "title": "018 · Kongo and Central African political worlds",
+      "url": "/018-africa-kingdoms-networks-and-cities/kongo-and-central-african-political-worlds/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|languages farming and the long bantu expansions": {
+      "hash": "2342fde0e01371f5",
+      "title": "018 · Languages, farming and the long Bantu expansions",
+      "url": "/018-africa-kingdoms-networks-and-cities/languages-farming-and-the-long-bantu-expansions/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|mali sundiata and the making of imperial authority": {
+      "hash": "dab435b85236b49d",
+      "title": "018 · Mali, Sundiata and the making of imperial authority",
+      "url": "/018-africa-kingdoms-networks-and-cities/mali-sundiata-and-the-making-of-imperial-authority/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|mansa musa and the danger of dramatic numbers": {
+      "hash": "32022938861dc65a",
+      "title": "018 · Mansa Musa and the danger of dramatic numbers",
+      "url": "/018-africa-kingdoms-networks-and-cities/mansa-musa-and-the-danger-of-dramatic-numbers/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|power after great zimbabwe changing centers": {
+      "hash": "a70216cbf0bb64e9",
+      "title": "018 · Power after Great Zimbabwe: changing centers",
+      "url": "/018-africa-kingdoms-networks-and-cities/power-after-great-zimbabwe-changing-centers/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|religion scholarship and multiple traditions": {
+      "hash": "4fdf48e472f03744",
+      "title": "018 · Religion, scholarship and multiple traditions",
+      "url": "/018-africa-kingdoms-networks-and-cities/religion-scholarship-and-multiple-traditions/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|songhai administration and the fragility of empires": {
+      "hash": "cfea1a8f28ec6092",
+      "title": "018 · Songhai, administration and the fragility of empires",
+      "url": "/018-africa-kingdoms-networks-and-cities/songhai-administration-and-the-fragility-of-empires/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|southern africa mapungubwe and great zimbabwe": {
+      "hash": "8d59c56e13d1828a",
+      "title": "018 · Southern Africa: Mapungubwe and Great Zimbabwe",
+      "url": "/018-africa-kingdoms-networks-and-cities/southern-africa-mapungubwe-and-great-zimbabwe/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|the nile south of egypt kerma kush and changing power": {
+      "hash": "bc8a455955068716",
+      "title": "018 · The Nile south of Egypt: Kerma, Kush and changing power",
+      "url": "/018-africa-kingdoms-networks-and-cities/the-nile-south-of-egypt-kerma-kush-and-changing-power/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|the swahili coast african cities on the indian ocean": {
+      "hash": "1c384dc896e270a9",
+      "title": "018 · The Swahili coast: African cities on the Indian Ocean",
+      "url": "/018-africa-kingdoms-networks-and-cities/the-swahili-coast-african-cities-on-the-indian-ocean/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|timbuktu and djenné cities of commerce and learning": {
+      "hash": "e599b60f4ae5962f",
+      "title": "018 · Timbuktu and Djenné: cities of commerce and learning",
+      "url": "/018-africa-kingdoms-networks-and-cities/timbuktu-and-djenne-cities-of-commerce-and-learning/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|west africa before the great sahelian empires": {
+      "hash": "7f51a3f754291b7a",
+      "title": "018 · West Africa before the great Sahelian empires",
+      "url": "/018-africa-kingdoms-networks-and-cities/west-africa-before-the-great-sahelian-empires/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|what counts as evidence when archives are unequal": {
+      "hash": "0abc09e9b6b284f6",
+      "title": "018 · What counts as evidence when archives are unequal?",
+      "url": "/018-africa-kingdoms-networks-and-cities/what-counts-as-evidence-when-archives-are-unequal/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|why the continents histories are not a ladder of development": {
+      "hash": "8f98f57a0865e145",
+      "title": "018 · Why the continent's histories are not a ladder of 'development'",
+      "url": "/018-africa-kingdoms-networks-and-cities/why-the-continents-histories-are-not-a-ladder-of-development/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "018|women households and the limits of royal narratives": {
+      "hash": "d2f60324bc218bcd",
+      "title": "018 · Women, households and the limits of royal narratives",
+      "url": "/018-africa-kingdoms-networks-and-cities/women-households-and-the-limits-of-royal-narratives/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|@flashcards": {
+      "hash": "8bf8a2eb03c6ce2a",
+      "title": "019 · Flashcard prompts",
+      "url": "/019-the-americas-before-european-conquest/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|@opening": {
+      "hash": "ad51e230945d124f",
+      "title": "The Americas Before European Conquest",
+      "url": "/019-the-americas-before-european-conquest/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|@practice": {
+      "hash": "f8a5adb25b69eba7",
+      "title": "019 · Practice laboratory",
+      "url": "/019-the-americas-before-european-conquest/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|@sources": {
+      "hash": "45d9b00657fea01b",
+      "title": "019 · Sources and further reading",
+      "url": "/019-the-americas-before-european-conquest/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|a hemisphere of contrasting environments": {
+      "hash": "4dfa00a34701ca70",
+      "title": "019 · A hemisphere of contrasting environments",
+      "url": "/019-the-americas-before-european-conquest/a-hemisphere-of-contrasting-environments/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|amazonia the rainforest was not an untouched blank": {
+      "hash": "789a2751ab9ca54c",
+      "title": "019 · Amazonia: the rainforest was not an untouched blank",
+      "url": "/019-the-americas-before-european-conquest/amazonia-the-rainforest-was-not-an-untouched-blank/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|caral supe an early center in coastal peru": {
+      "hash": "17c741a190f3372a",
+      "title": "019 · Caral-Supe: an early center in coastal Peru",
+      "url": "/019-the-americas-before-european-conquest/caral-supe-an-early-center-in-coastal-peru/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|central mexico after teotihuacan changing centers of power": {
+      "hash": "1ce446b70faf129a",
+      "title": "019 · Central Mexico after Teotihuacan: changing centers of power",
+      "url": "/019-the-americas-before-european-conquest/central-mexico-after-teotihuacan-changing-centers-of-power/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|chavín moche and nazca no single andean template": {
+      "hash": "7e51a7f0c383aeef",
+      "title": "019 · Chavín, Moche and Nazca: no single Andean template",
+      "url": "/019-the-americas-before-european-conquest/chavin-moche-and-nazca-no-single-andean-template/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|contact conquest and indigenous agency": {
+      "hash": "f6c19b7d0871f6d0",
+      "title": "019 · Contact, conquest and Indigenous agency",
+      "url": "/019-the-americas-before-european-conquest/contact-conquest-and-indigenous-agency/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|evidence workshop four claims to test": {
+      "hash": "f4477f6d30dc6cb5",
+      "title": "019 · Evidence workshop: four claims to test",
+      "url": "/019-the-americas-before-european-conquest/evidence-workshop-four-claims-to-test/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|exchange movement and the limits of isolation": {
+      "hash": "66be944fa6d94272",
+      "title": "019 · Exchange, movement and the limits of 'isolation'",
+      "url": "/019-the-americas-before-european-conquest/exchange-movement-and-the-limits-of-isolation/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|farmers towns and the long invention of complexity": {
+      "hash": "9188db61ed59681c",
+      "title": "019 · Farmers, towns and the long invention of complexity",
+      "url": "/019-the-americas-before-european-conquest/farmers-towns-and-the-long-invention-of-complexity/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|forests coasts and political diversity beyond the famous cities": {
+      "hash": "9e98bc0059e05530",
+      "title": "019 · Forests, coasts and political diversity beyond the famous cities",
+      "url": "/019-the-americas-before-european-conquest/forests-coasts-and-political-diversity-beyond-the-famous/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|how do we know stones inscriptions and living knowledge": {
+      "hash": "6b236761beea630c",
+      "title": "019 · How do we know? Stones, inscriptions and living knowledge",
+      "url": "/019-the-americas-before-european-conquest/how-do-we-know-stones-inscriptions-and-living-knowledge/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|khipus administration and the limits of a written archive": {
+      "hash": "0c5c4b20dc97dba4",
+      "title": "019 · Khipus, administration and the limits of a written archive",
+      "url": "/019-the-americas-before-european-conquest/khipus-administration-and-the-limits-of-a-written-archive/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|political systems compared an empire is not a civilization": {
+      "hash": "8404dfe923463eb8",
+      "title": "019 · Political systems compared: an empire is not a civilization",
+      "url": "/019-the-americas-before-european-conquest/political-systems-compared-an-empire-is-not-a-civilization/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|reading maya writing and keeping calendars straight": {
+      "hash": "0ff5033718cf1877",
+      "title": "019 · Reading Maya writing and keeping calendars straight",
+      "url": "/019-the-americas-before-european-conquest/reading-maya-writing-and-keeping-calendars-straight/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|tenochtitlan and the triple alliance": {
+      "hash": "d207d329214417e6",
+      "title": "019 · Tenochtitlan and the Triple Alliance",
+      "url": "/019-the-americas-before-european-conquest/tenochtitlan-and-the-triple-alliance/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|teotihuacan a planned metropolis with unanswered questions": {
+      "hash": "b17d8463f5571da4",
+      "title": "019 · Teotihuacan: a planned metropolis with unanswered questions",
+      "url": "/019-the-americas-before-european-conquest/teotihuacan-a-planned-metropolis-with-unanswered-questions/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|the andean world mountains coast and vertical economies": {
+      "hash": "591a81d70aa557ac",
+      "title": "019 · The Andean world: mountains, coast and vertical economies",
+      "url": "/019-the-americas-before-european-conquest/the-andean-world-mountains-coast-and-vertical-economies/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|the caribbean and circum caribbean worlds": {
+      "hash": "daa7d215441e8eb9",
+      "title": "019 · The Caribbean and circum-Caribbean worlds",
+      "url": "/019-the-americas-before-european-conquest/the-caribbean-and-circum-caribbean-worlds/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|the inka a rapidly expanding empire": {
+      "hash": "bee695d92f5760fb",
+      "title": "019 · The Inka: a rapidly expanding empire",
+      "url": "/019-the-americas-before-european-conquest/the-inka-a-rapidly-expanding-empire/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|the main argument many routes to complexity": {
+      "hash": "d18ed69a37c776aa",
+      "title": "019 · The main argument: many routes to complexity",
+      "url": "/019-the-americas-before-european-conquest/the-main-argument-many-routes-to-complexity/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|the maya many kingdoms one remarkable cultural world": {
+      "hash": "124944662065eb6b",
+      "title": "019 · The Maya: many kingdoms, one remarkable cultural world",
+      "url": "/019-the-americas-before-european-conquest/the-maya-many-kingdoms-one-remarkable-cultural-world/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|the mississippi basin poverty point and cahokia": {
+      "hash": "b49ba0181998ddee",
+      "title": "019 · The Mississippi basin: Poverty Point and Cahokia",
+      "url": "/019-the-americas-before-european-conquest/the-mississippi-basin-poverty-point-and-cahokia/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|the north american southwest chaco and ancestral pueblo communities": {
+      "hash": "f3bd98583ee29bf0",
+      "title": "019 · The North American Southwest: Chaco and ancestral Pueblo communities",
+      "url": "/019-the-americas-before-european-conquest/the-north-american-southwest-chaco-and-ancestral-pueblo/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|the olmec world and the danger of mother civilization": {
+      "hash": "cd4433f58a23f77d",
+      "title": "019 · The Olmec world and the danger of 'mother civilization'",
+      "url": "/019-the-americas-before-european-conquest/the-olmec-world-and-the-danger-of-mother-civilization/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|the road and the storehouse infrastructure as government": {
+      "hash": "9b4608c52d27ce5a",
+      "title": "019 · The road and the storehouse: infrastructure as government",
+      "url": "/019-the-americas-before-european-conquest/the-road-and-the-storehouse-infrastructure-as-government/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|tiwanaku wari and chimú power before the inka": {
+      "hash": "c8d90bb90fa1ed0f",
+      "title": "019 · Tiwanaku, Wari and Chimú: power before the Inka",
+      "url": "/019-the-americas-before-european-conquest/tiwanaku-wari-and-chimu-power-before-the-inka/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|what about ordinary people in the empires": {
+      "hash": "4b6ccecb4da5177f",
+      "title": "019 · What about ordinary people in the empires?",
+      "url": "/019-the-americas-before-european-conquest/what-about-ordinary-people-in-the-empires/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "019|why cities and political orders changed": {
+      "hash": "01fcba893010593a",
+      "title": "019 · Why cities and political orders changed",
+      "url": "/019-the-americas-before-european-conquest/why-cities-and-political-orders-changed/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|@flashcards": {
+      "hash": "3fd8fd66d521dc18",
+      "title": "020 · Flashcard prompts",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|@opening": {
+      "hash": "43716fe66854a714",
+      "title": "The Rise of Islam and the Caliphates",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|@practice": {
+      "hash": "5b9cab721d203a82",
+      "title": "020 · Practice laboratory",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|@sources": {
+      "hash": "7bcfb09df46c1ccc",
+      "title": "020 · Sources and further reading",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|a historical source workshop three kinds of evidence": {
+      "hash": "400a2ac1aec81099",
+      "title": "020 · A historical-source workshop: three kinds of evidence",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/a-historical-source-workshop-three-kinds-of-evidence/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|a politically fragmented but connected muslim world": {
+      "hash": "bff09ac20a0babbd",
+      "title": "020 · A politically fragmented but connected Muslim world",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/a-politically-fragmented-but-connected-muslim-world/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|arabia was connected not isolated": {
+      "hash": "175d29fc3ceb4585",
+      "title": "020 · Arabia was connected, not isolated",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/arabia-was-connected-not-isolated/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|architecture literature and a changing cultural world": {
+      "hash": "991510b8f065a131",
+      "title": "020 · Architecture, literature and a changing cultural world",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/architecture-literature-and-a-changing-cultural-world/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|conflict diplomacy and the growth of the community": {
+      "hash": "8436d91718a1a1e8",
+      "title": "020 · Conflict, diplomacy and the growth of the community",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/conflict-diplomacy-and-the-growth-of-the-community/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|conversion identity and the status of non arab muslims": {
+      "hash": "dd5887769bb93c72",
+      "title": "020 · Conversion, identity and the status of non-Arab Muslims",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/conversion-identity-and-the-status-of-non-arab-muslims/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|from regional rule to imperial institutions": {
+      "hash": "e968eefe85ae9368",
+      "title": "020 · From regional rule to imperial institutions",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/from-regional-rule-to-imperial-institutions/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|governing conquest garrisons taxes and continuity": {
+      "hash": "790d72f53a71a4cc",
+      "title": "020 · Governing conquest: garrisons, taxes and continuity",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/governing-conquest-garrisons-taxes-and-continuity/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|hadith memory and the problem of transmission": {
+      "hash": "c79113dc11ea4932",
+      "title": "020 · Hadith, memory and the problem of transmission",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/hadith-memory-and-the-problem-of-transmission/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|how do we know the story": {
+      "hash": "b8b0757fdfd6d40f",
+      "title": "020 · How do we know the story?",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/how-do-we-know-the-story/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|muhammad before the hijra mecca and the first revelations": {
+      "hash": "03e28a41f4ceb5a1",
+      "title": "020 · Muhammad before the Hijra: Mecca and the first revelations",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/muhammad-before-the-hijra-mecca-and-the-first-revelations/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|sunni and shia histories the need for precision": {
+      "hash": "d1a1070a02a7b856",
+      "title": "020 · Sunni and Shia histories: the need for precision",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/sunni-and-shia-histories-the-need-for-precision/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|the abbasid economy networks rather than a single market": {
+      "hash": "0d92a6184287c604",
+      "title": "020 · The Abbasid economy: networks rather than a single market",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-abbasid-economy-networks-rather-than-a-single-market/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|the abbasid revolution and a new capital": {
+      "hash": "251001f1391d2acf",
+      "title": "020 · The Abbasid revolution and a new capital",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-abbasid-revolution-and-a-new-capital/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|the central argument faith institutions and a connected world": {
+      "hash": "c21602a1a5e4af2c",
+      "title": "020 · The central argument: faith, institutions and a connected world",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-central-argument-faith-institutions-and-a-connected/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|the empire reaches spain and central asia": {
+      "hash": "ca2230d9d58827af",
+      "title": "020 · The empire reaches Spain and Central Asia",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-empire-reaches-spain-and-central-asia/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|the first fitna a crisis inside the community": {
+      "hash": "3987cd427fc5a77f",
+      "title": "020 · The First Fitna: a crisis inside the community",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-first-fitna-a-crisis-inside-the-community/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|the growth of islamic law and institutions": {
+      "hash": "faad333dcc3e874a",
+      "title": "020 · The growth of Islamic law and institutions",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-growth-of-islamic-law-and-institutions/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|the hijra of 622 a new political setting": {
+      "hash": "771e0a6186327b19",
+      "title": "020 · The Hijra of 622: a new political setting",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-hijra-of-622-a-new-political-setting/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|the reign of uthman expansion and accusations of favoritism": {
+      "hash": "40151c2976e82722",
+      "title": "020 · The reign of Uthman: expansion and accusations of favoritism",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-reign-of-uthman-expansion-and-accusations-of-favoritism/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|the succession problem after 632": {
+      "hash": "f0b2436700965a79",
+      "title": "020 · The succession problem after 632",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-succession-problem-after-632/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|the umayyad dynasty an empire ruled from damascus": {
+      "hash": "fee1f46393bdf099",
+      "title": "020 · The Umayyad dynasty: an empire ruled from Damascus",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-umayyad-dynasty-an-empire-ruled-from-damascus/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|the world at the edge of two exhausted empires": {
+      "hash": "5edd850c589e9eef",
+      "title": "020 · The world at the edge of two exhausted empires",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-world-at-the-edge-of-two-exhausted-empires/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|theology philosophy and disagreements within islam": {
+      "hash": "029c716aed13d916",
+      "title": "020 · Theology, philosophy and disagreements within Islam",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/theology-philosophy-and-disagreements-within-islam/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|translation mathematics and the making of knowledge": {
+      "hash": "21f5ceaa951c251b",
+      "title": "020 · Translation, mathematics and the making of knowledge",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/translation-mathematics-and-the-making-of-knowledge/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|umar and the astonishing conquests": {
+      "hash": "2d94028ca0ee59b2",
+      "title": "020 · Umar and the astonishing conquests",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/umar-and-the-astonishing-conquests/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|women households slavery and the unequal everyday world": {
+      "hash": "19c62c7c0694dfa9",
+      "title": "020 · Women, households, slavery and the unequal everyday world",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/women-households-slavery-and-the-unequal-everyday-world/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|worked reasoning how large can a province be governed": {
+      "hash": "93e4e99223d125e6",
+      "title": "020 · Worked reasoning: how large can a province be governed?",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/worked-reasoning-how-large-can-a-province-be-governed/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "020|worship and ethical life more than the history of rulers": {
+      "hash": "cb9f66ca836b0ce6",
+      "title": "020 · Worship and ethical life: more than the history of rulers",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/worship-and-ethical-life-more-than-the-history-of-rulers/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|@flashcards": {
+      "hash": "04c10f9c18dad558",
+      "title": "021 · Flashcard prompts",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|@opening": {
+      "hash": "9b5e2d136bfbf630",
+      "title": "Medieval Eurasia and the Silk Roads",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|@practice": {
+      "hash": "d6d1324749159171",
+      "title": "021 · Practice laboratory",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|@sources": {
+      "hash": "15a6220f1a0ef47a",
+      "title": "021 · Sources and further reading",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|a caravan of religions diversity without a single verdict": {
+      "hash": "81a54f50283bc2d1",
+      "title": "021 · A caravan of religions: diversity without a single verdict",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/a-caravan-of-religions-diversity-without-a-single-verdict/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|a turning point around 1200 the world before the mongols": {
+      "hash": "8fa235b5804daa91",
+      "title": "021 · A turning point around 1200: the world before the Mongols",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/a-turning-point-around-1200-the-world-before-the-mongols/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|buddhism as a network of teachers patrons and texts": {
+      "hash": "e73a0369e508f456",
+      "title": "021 · Buddhism as a network of teachers, patrons and texts",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/buddhism-as-a-network-of-teachers-patrons-and-texts/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|byzantium the caucasus and the western ends of the networks": {
+      "hash": "0069b72a8399e2d1",
+      "title": "021 · Byzantium, the Caucasus and the western ends of the networks",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/byzantium-the-caucasus-and-the-western-ends-of-the-networks/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|case study follow one idea from source to new society": {
+      "hash": "bbf1329bec4c4f55",
+      "title": "021 · Case study: follow one idea from source to new society",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/case-study-follow-one-idea-from-source-to-new-society/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|climate disease and environmental uncertainty": {
+      "hash": "bd3eef79626d2367",
+      "title": "021 · Climate, disease and environmental uncertainty",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/climate-disease-and-environmental-uncertainty/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|commerce needed trust but power still mattered": {
+      "hash": "d194bd4143a8e272",
+      "title": "021 · Commerce needed trust, but power still mattered",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/commerce-needed-trust-but-power-still-mattered/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|comparing the systems three kinds of power": {
+      "hash": "f69e0e03d6923d48",
+      "title": "021 · Comparing the systems: three kinds of power",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/comparing-the-systems-three-kinds-of-power/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|how far did a traveler really go distance is not the same as connection": {
+      "hash": "ff0799bb1ee89bb2",
+      "title": "021 · How far did a traveler really go? Distance is not the same as connection",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same-as/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|how historians reconstruct a world that left scattered evidence": {
+      "hash": "81aed9d3c3e002e9",
+      "title": "021 · How historians reconstruct a world that left scattered evidence",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/how-historians-reconstruct-a-world-that-left-scattered/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|knowledge traveled in books people and arguments": {
+      "hash": "2c00332b015285b5",
+      "title": "021 · Knowledge traveled in books, people and arguments",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/knowledge-traveled-in-books-people-and-arguments/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|oasis towns small patches of water with large consequences": {
+      "hash": "f13450c7c086fb21",
+      "title": "021 · Oasis towns: small patches of water with large consequences",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/oasis-towns-small-patches-of-water-with-large-consequences/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|rus rivers and the black sea baltic connection": {
+      "hash": "1fd059f220c64135",
+      "title": "021 · Rus', rivers and the Black Sea–Baltic connection",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/rus-rivers-and-the-black-sea-baltic-connection/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|samarkand bukhara and merv cities built on much more than passing caravans": {
+      "hash": "f852484339894afc",
+      "title": "021 · Samarkand, Bukhara and Merv: cities built on much more than passing caravans",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/samarkand-bukhara-and-merv-cities-built-on-much-more-than/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|song china markets innovation and the limits of simple progress": {
+      "hash": "a4e97277f175c0ee",
+      "title": "021 · Song China: markets, innovation and the limits of simple progress",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/song-china-markets-innovation-and-the-limits-of-simple/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|source workshop a silk textile a pilgrim and an emperor": {
+      "hash": "5e767d36f7471375",
+      "title": "021 · Source workshop: a silk textile, a pilgrim and an emperor",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/source-workshop-a-silk-textile-a-pilgrim-and-an-emperor/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|srivijaya and southeast asia sea lanes created regional centers": {
+      "hash": "b1cc738b3c3a975c",
+      "title": "021 · Srivijaya and Southeast Asia: sea lanes created regional centers",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/srivijaya-and-southeast-asia-sea-lanes-created-regional/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|steppe societies were not an empty space between civilizations": {
+      "hash": "0e59e71a6984264d",
+      "title": "021 · Steppe societies were not an empty space between civilizations",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space-between/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|sui and tang china reunification and cosmopolitan exchange": {
+      "hash": "b7ae1f32c1b7b499",
+      "title": "021 · Sui and Tang China: reunification and cosmopolitan exchange",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/sui-and-tang-china-reunification-and-cosmopolitan-exchange/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|technology transfer paper printing and the problem of invention myths": {
+      "hash": "97050ced1623dcae",
+      "title": "021 · Technology transfer: paper, printing and the problem of invention myths",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem-of/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|the geography of exchange why roads followed constraints": {
+      "hash": "72c465c4a22f61c1",
+      "title": "021 · The geography of exchange: why roads followed constraints",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-geography-of-exchange-why-roads-followed-constraints/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|the historians final map a connected world with changing centers": {
+      "hash": "fcabc20c1eb4b912",
+      "title": "021 · The historian's final map: a connected world with changing centers",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-historians-final-map-a-connected-world-with-changing/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|the indian ocean a second map of medieval connectivity": {
+      "hash": "4b6b3c1020577a7f",
+      "title": "021 · The Indian Ocean: a second map of medieval connectivity",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-indian-ocean-a-second-map-of-medieval-connectivity/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|the indian subcontinent a source and a destination not a gap on the map": {
+      "hash": "aaecc7ddefcbb3bf",
+      "title": "021 · The Indian subcontinent: a source and a destination, not a gap on the map",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-indian-subcontinent-a-source-and-a-destination-not-a-gap/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|the islamic world as a bridge and a set of regions": {
+      "hash": "e960adc1e13d3a83",
+      "title": "021 · The Islamic world as a bridge and a set of regions",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-islamic-world-as-a-bridge-and-a-set-of-regions/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|the silk roads were networks not an ancient express delivery service": {
+      "hash": "c7fe48e038f9642b",
+      "title": "021 · The Silk Roads were networks, not an ancient express delivery service",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-silk-roads-were-networks-not-an-ancient-express-delivery/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|the sogdians intermediaries who made a network work": {
+      "hash": "054dff229aaa0b96",
+      "title": "021 · The Sogdians: intermediaries who made a network work",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-sogdians-intermediaries-who-made-a-network-work/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|tibet and the struggle for the high corridors": {
+      "hash": "3fa32e5acb4622c3",
+      "title": "021 · Tibet and the struggle for the high corridors",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/tibet-and-the-struggle-for-the-high-corridors/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "021|what changed and what did not": {
+      "hash": "46507eb2c00b4d2a",
+      "title": "021 · What changed, and what did not?",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/what-changed-and-what-did-not/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|@flashcards": {
+      "hash": "54add36fe982ad5c",
+      "title": "022 · Flashcard prompts",
+      "url": "/022-the-mongols-and-the-connected-world/flashcards/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|@opening": {
+      "hash": "fbe1cf9156d2c4cb",
+      "title": "The Mongols and the Connected World",
+      "url": "/022-the-mongols-and-the-connected-world/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|@practice": {
+      "hash": "29ff569ee66e3481",
+      "title": "022 · Practice laboratory",
+      "url": "/022-the-mongols-and-the-connected-world/practice/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|@sources": {
+      "hash": "2ea18d6d86cb7825",
+      "title": "022 · Sources and further reading",
+      "url": "/022-the-mongols-and-the-connected-world/sources/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|after 1227 the empire was a family arrangement and a political contest": {
+      "hash": "d191d9238949ecb4",
+      "title": "022 · After 1227: the empire was a family arrangement and a political contest",
+      "url": "/022-the-mongols-and-the-connected-world/after-1227-the-empire-was-a-family-arrangement-and-a/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|case study a merchant a village and a governor": {
+      "hash": "6f8b943ded0a69e1",
+      "title": "022 · Case study: a merchant, a village and a governor",
+      "url": "/022-the-mongols-and-the-connected-world/case-study-a-merchant-a-village-and-a-governor/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|case study one object many possible routes": {
+      "hash": "81245ade5e82dd00",
+      "title": "022 · Case study: one object, many possible routes",
+      "url": "/022-the-mongols-and-the-connected-world/case-study-one-object-many-possible-routes/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|cities artisans and forced mobility": {
+      "hash": "008f5be34347751c",
+      "title": "022 · Cities, artisans and forced mobility",
+      "url": "/022-the-mongols-and-the-connected-world/cities-artisans-and-forced-mobility/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|environmental and economic limits of imperial reach": {
+      "hash": "1e3b3877738ac86a",
+      "title": "022 · Environmental and economic limits of imperial reach",
+      "url": "/022-the-mongols-and-the-connected-world/environmental-and-economic-limits-of-imperial-reach/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|four great realms many local realities": {
+      "hash": "fad8a8290c95e094",
+      "title": "022 · Four great realms, many local realities",
+      "url": "/022-the-mongols-and-the-connected-world/four-great-realms-many-local-realities/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|kublai khan and the yuan a dynasty ruling china": {
+      "hash": "6bc905f4e7d9f752",
+      "title": "022 · Kublai Khan and the Yuan: a dynasty ruling China",
+      "url": "/022-the-mongols-and-the-connected-world/kublai-khan-and-the-yuan-a-dynasty-ruling-china/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|merchants passports taxes and the so called mongol peace": {
+      "hash": "e28bc50f10926b3f",
+      "title": "022 · Merchants, passports, taxes and the so-called Mongol Peace",
+      "url": "/022-the-mongols-and-the-connected-world/merchants-passports-taxes-and-the-so-called-mongol-peace/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|religion accommodation patronage and political limits": {
+      "hash": "5fb59b0beec6662d",
+      "title": "022 · Religion: accommodation, patronage and political limits",
+      "url": "/022-the-mongols-and-the-connected-world/religion-accommodation-patronage-and-political-limits/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|source workshop the secret history and persian chronicles": {
+      "hash": "d466d5ba78a7af69",
+      "title": "022 · Source workshop: the Secret History and Persian chronicles",
+      "url": "/022-the-mongols-and-the-connected-world/source-workshop-the-secret-history-and-persian-chronicles/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|temüjin from insecurity to political leadership": {
+      "hash": "72f6f4121c309a54",
+      "title": "022 · Temüjin: from insecurity to political leadership",
+      "url": "/022-the-mongols-and-the-connected-world/temujin-from-insecurity-to-political-leadership/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the assembly of 1206 founding a new order": {
+      "hash": "c93ebf4a75475fe7",
+      "title": "022 · The assembly of 1206: founding a new order",
+      "url": "/022-the-mongols-and-the-connected-world/the-assembly-of-1206-founding-a-new-order/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the black death a network can spread danger": {
+      "hash": "4a9d54386612860b",
+      "title": "022 · The Black Death: a network can spread danger",
+      "url": "/022-the-mongols-and-the-connected-world/the-black-death-a-network-can-spread-danger/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the connected world after the khans": {
+      "hash": "d759715c80842af1",
+      "title": "022 · The connected world after the khans",
+      "url": "/022-the-mongols-and-the-connected-world/the-connected-world-after-the-khans/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the cost of conquest destruction displacement and uncertainty": {
+      "hash": "813ba59f30dcb481",
+      "title": "022 · The cost of conquest: destruction, displacement and uncertainty",
+      "url": "/022-the-mongols-and-the-connected-world/the-cost-of-conquest-destruction-displacement-and/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the european campaigns rus poland hungary and beyond": {
+      "hash": "1cde673ebc748322",
+      "title": "022 · The European campaigns: Rus', Poland, Hungary and beyond",
+      "url": "/022-the-mongols-and-the-connected-world/the-european-campaigns-rus-poland-hungary-and-beyond/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the fall of baghdad and the ilkhanate": {
+      "hash": "040e409a3755be6f",
+      "title": "022 · The fall of Baghdad and the Ilkhanate",
+      "url": "/022-the-mongols-and-the-connected-world/the-fall-of-baghdad-and-the-ilkhanate/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the first imperial fronts western xia and the jin": {
+      "hash": "2560394911d25701",
+      "title": "022 · The first imperial fronts: Western Xia and the Jin",
+      "url": "/022-the-mongols-and-the-connected-world/the-first-imperial-fronts-western-xia-and-the-jin/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the golden horde and the question of indirect rule": {
+      "hash": "85e61f25adbd1a20",
+      "title": "022 · The Golden Horde and the question of indirect rule",
+      "url": "/022-the-mongols-and-the-connected-world/the-golden-horde-and-the-question-of-indirect-rule/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the great relay system messages and imperial power": {
+      "hash": "0cb0217dcad42f45",
+      "title": "022 · The great relay system: messages and imperial power",
+      "url": "/022-the-mongols-and-the-connected-world/the-great-relay-system-messages-and-imperial-power/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the historians comparison mongols romans and persians": {
+      "hash": "21323aa0a7a9baec",
+      "title": "022 · The historian's comparison: Mongols, Romans and Persians",
+      "url": "/022-the-mongols-and-the-connected-world/the-historians-comparison-mongols-romans-and-persians/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the khwarazmian campaign how a frontier dispute became catastrophe": {
+      "hash": "103823516d6fd89c",
+      "title": "022 · The Khwarazmian campaign: how a frontier dispute became catastrophe",
+      "url": "/022-the-mongols-and-the-connected-world/the-khwarazmian-campaign-how-a-frontier-dispute-became/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the land that trained mobility": {
+      "hash": "af5f2e31d0fca628",
+      "title": "022 · The land that trained mobility",
+      "url": "/022-the-mongols-and-the-connected-world/the-land-that-trained-mobility/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|the supply problem horses are not fuel free machines": {
+      "hash": "0eece4983c734ea3",
+      "title": "022 · The supply problem: horses are not fuel-free machines",
+      "url": "/022-the-mongols-and-the-connected-world/the-supply-problem-horses-are-not-fuel-free-machines/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|travelers and eyewitnesses marco polo rubruck and other observers": {
+      "hash": "1a8d3d534dbafee4",
+      "title": "022 · Travelers and eyewitnesses: Marco Polo, Rubruck and other observers",
+      "url": "/022-the-mongols-and-the-connected-world/travelers-and-eyewitnesses-marco-polo-rubruck-and-other/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|what did the mongol conquests change": {
+      "hash": "df3acabba43a751e",
+      "title": "022 · What did the Mongol conquests change?",
+      "url": "/022-the-mongols-and-the-connected-world/what-did-the-mongol-conquests-change/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|why mongol armies were effective and where they were not": {
+      "hash": "cfa77b37968b3835",
+      "title": "022 · Why Mongol armies were effective—and where they were not",
+      "url": "/022-the-mongols-and-the-connected-world/why-mongol-armies-were-effective-and-where-they-were-not/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|why the empire fragmented": {
+      "hash": "e5eb4b481fcbb54b",
+      "title": "022 · Why the empire fragmented",
+      "url": "/022-the-mongols-and-the-connected-world/why-the-empire-fragmented/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "022|women dynastic power and the work of governing": {
+      "hash": "74abbc6bda9e24fc",
+      "title": "022 · Women, dynastic power and the work of governing",
+      "url": "/022-the-mongols-and-the-connected-world/women-dynastic-power-and-the-work-of-governing/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    },
+    "@about": {
+      "hash": "9f15558d4d3ddb7e",
+      "title": "A note to the reader",
+      "url": "/about/",
+      "firstSeen": 25,
+      "lastChanged": 25
+    }
+  }
+}

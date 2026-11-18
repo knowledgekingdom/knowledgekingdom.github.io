@@ -1,0 +1,68 @@
+/* ==========================================================================
+   Colour palettes. Each palette sets light (--l-*) and dark (--d-*) values;
+   global.css maps them onto the theme tokens. Parts 1–2 get palette-specific
+   accents; Parts 3+ share the defaults in global.css.
+   All text pairs are checked to WCAG AA (≥ 4.5:1) on paper, panel and card.
+
+   Pick the default in src/site.config.ts (`palette`).
+   ========================================================================== */
+
+/* Tidewater — warm paper, teal & terracotta (the colours of the figures) */
+:root, :root[data-palette='tidewater'] {
+  --l-paper: #f7f3ea; --l-paper-2: #efe8da; --l-card: #fcfaf5;
+  --l-ink: #1f2329; --l-ink-2: #474c54; --l-ink-3: #5f6369;
+  --l-rule: #ddd3c1; --l-rule-strong: #c4b8a2;
+  --l-p1: #13707a; --l-p1-soft: #ddecea;
+  --l-p2: #a0472a; --l-p2-soft: #f3e2d8;
+
+  --d-paper: #12161b; --d-paper-2: #191e25; --d-card: #1a2028;
+  --d-ink: #ebe6da; --d-ink-2: #c3bdb0; --d-ink-3: #9a9588;
+  --d-rule: #2c333c; --d-rule-strong: #3d4550;
+  --d-p1: #6cc0c6; --d-p1-soft: #173a3e;
+  --d-p2: #ec9a76; --d-p2-soft: #43271c;
+}
+
+/* Atlas — parchment, forest green & oxblood, like an old map */
+:root[data-palette='atlas'] {
+  --l-paper: #f1eee4; --l-paper-2: #e7e2d4; --l-card: #f8f6ef;
+  --l-ink: #1e2420; --l-ink-2: #454c46; --l-ink-3: #5a615b;
+  --l-rule: #d8d2c0; --l-rule-strong: #bfb7a1;
+  --l-p1: #2c6649; --l-p1-soft: #dce9e0;
+  --l-p2: #8c2c38; --l-p2-soft: #f1dcdc;
+
+  --d-paper: #111613; --d-paper-2: #18201b; --d-card: #1a221d;
+  --d-ink: #e6e5db; --d-ink-2: #bfc0b4; --d-ink-3: #959a8e;
+  --d-rule: #29322c; --d-rule-strong: #3a453d;
+  --d-p1: #7fc6a1; --d-p1-soft: #193326;
+  --d-p2: #ec8f9a; --d-p2-soft: #3f1e23;
+}
+
+/* Encyclopedia — cream, navy ink & gold, a classic reference set */
+:root[data-palette='encyclopedia'] {
+  --l-paper: #f5f0e4; --l-paper-2: #ebe4d3; --l-card: #fbf8f0;
+  --l-ink: #17202e; --l-ink-2: #3f4859; --l-ink-3: #5f6676;
+  --l-rule: #dcd3bf; --l-rule-strong: #c3b89e;
+  --l-p1: #284a86; --l-p1-soft: #dfe5f1;
+  --l-p2: #8a5d06; --l-p2-soft: #f1e5c8;
+
+  --d-paper: #0f1420; --d-paper-2: #161c2a; --d-card: #182030;
+  --d-ink: #e9e4d6; --d-ink-2: #c0bcb0; --d-ink-3: #979487;
+  --d-rule: #262e40; --d-rule-strong: #364056;
+  --d-p1: #93b3f0; --d-p1-soft: #1c2847;
+  --d-p2: #e2b65a; --d-p2-soft: #3a2f16;
+}
+
+/* Museum — gallery white, charcoal, cobalt & vermilion; crisp and modern */
+:root[data-palette='museum'] {
+  --l-paper: #fbfaf7; --l-paper-2: #f1efea; --l-card: #ffffff;
+  --l-ink: #151515; --l-ink-2: #3f3f3f; --l-ink-3: #626262;
+  --l-rule: #e2dfd8; --l-rule-strong: #c9c5bb;
+  --l-p1: #2443b0; --l-p1-soft: #e2e7f8;
+  --l-p2: #bb3720; --l-p2-soft: #f8e1db;
+
+  --d-paper: #111111; --d-paper-2: #1a1a1a; --d-card: #1c1c1c;
+  --d-ink: #eeeeee; --d-ink-2: #c4c4c4; --d-ink-3: #9a9a9a;
+  --d-rule: #2b2b2b; --d-rule-strong: #3d3d3d;
+  --d-p1: #8ea4ff; --d-p1-soft: #1e2647;
+  --d-p2: #ff8e72; --d-p2-soft: #42221a;
+}

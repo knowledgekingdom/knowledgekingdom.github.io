@@ -1,0 +1,2242 @@
+{
+  "001": {
+    "title": "Recommended sources and further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "Library of Congress. “Getting Started with Primary Sources,” and Teacher's Guides and Analysis Tool. <a href=\"https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/guides/\" rel=\"noopener\">https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/guides/</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "Wineburg, S., and McGrew, S. (2019). “Lateral Reading and the Nature of Expertise.” Teachers College Record. <a href=\"https://journals.sagepub.com/doi/10.1177/016146811912101102\" rel=\"noopener\">https://journals.sagepub.com/doi/10.1177/016146811912101102</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "Breakstone, J., et al. (2021). “Students' Civic Online Reasoning: A National Portrait.” Educational Researcher. <a href=\"https://doi.org/10.3102/0013189X211017495\" rel=\"noopener\">https://doi.org/10.3102/0013189X211017495</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "Caulfield, M. (2019). “SIFT: The Four Moves,” explained in Georgetown University Library's source-evaluation guide. <a href=\"https://guides.library.georgetown.edu/writ1150toolkit/sift\" rel=\"noopener\">https://guides.library.georgetown.edu/writ1150toolkit/sift</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "National Academies of Sciences, Engineering, and Medicine (2019). Reproducibility and Replicability in Science. National Academies Press. <a href=\"https://www.nationalacademies.org/read/25303/chapter/3\" rel=\"noopener\">https://www.nationalacademies.org/read/25303/chapter/3</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "Wasserstein, R. L., and Lazar, N. A. (2016). “The ASA Statement on p-Values: Context, Process, and Purpose.” The American Statistician. <a href=\"https://doi.org/10.1080/00031305.2016.1154108\" rel=\"noopener\">https://doi.org/10.1080/00031305.2016.1154108</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "Stanford Encyclopedia of Philosophy. “Underdetermination of Scientific Theory.” <a href=\"https://plato.stanford.edu/entries/scientific-underdetermination/\" rel=\"noopener\">https://plato.stanford.edu/entries/scientific-underdetermination/</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "National Academies of Sciences, Engineering, and Medicine (2019). “Scientific Methods and Knowledge,” Chapter 2 of Reproducibility and Replicability in Science. <a href=\"https://www.ncbi.nlm.nih.gov/books/NBK547541/\" rel=\"noopener\">https://www.ncbi.nlm.nih.gov/books/NBK547541/</a>"
+      }
+    ],
+    "further": [],
+    "notes": [
+      "Sources above are recommended starting points and support the relevant methodological discussion; the fictional case studies and numerical exercises were constructed for this chapter. The chapter explains established concepts in accessible language and is not a claim that one study or one method resolves every contested research question."
+    ]
+  },
+  "002": {
+    "title": "Recommended sources",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "Stanford Encyclopedia of Philosophy, “Informal Logic.” A scholarly overview of informal argument evaluation, acceptability, relevance and sufficiency. <a href=\"https://plato.stanford.edu/entries/logic-informal/\" rel=\"noopener\">https://plato.stanford.edu/entries/logic-informal/</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "Internet Encyclopedia of Philosophy, “Fallacies.” A comprehensive reference emphasizing that labels must be justified by identifying the actual reasoning error. <a href=\"https://iep.utm.edu/fallacy/\" rel=\"noopener\">https://iep.utm.edu/fallacy/</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "OpenStax, <em>Introduction to Philosophy</em>, Chapter 5, especially “5.3 Arguments,” “5.4 Types of Inferences,” and “5.5 Informal Fallacies.” Free introductory textbook on validity, reasoning types and common errors. <a href=\"https://openstax.org/books/introduction-philosophy/pages/5-introduction\" rel=\"noopener\">https://openstax.org/books/introduction-philosophy/pages/5-introduction</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "Stephen Toulmin, <em>The Uses of Argument</em> (1958; later editions). Influential treatment of claims, grounds, warrants, backing, qualifiers and rebuttals."
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "Anthony Weston, <em>A Rulebook for Arguments</em> (various editions). A compact, accessible introduction to constructing and scrutinizing arguments."
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "David Hume, <em>A Treatise of Human Nature</em>, Book III, Part I, Section I. Classic discussion relevant to the transition from descriptive to normative claims; read alongside modern commentary rather than as a complete contemporary treatment."
+      }
+    ],
+    "further": [],
+    "notes": [
+      "The city-center and solar scenarios are constructed teaching examples, not findings about any specific town or project. The sources above support the chapter's core concepts and provide further study; this is a synthesis, not a scholarly literature review. Later chapters on history, economics and politics will supply their own subject-specific evidence."
+    ]
+  },
+  "003": {
+    "title": "Recommended sources",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "<strong>OpenStax.</strong> <em>Introductory Statistics 2e</em>, especially chapters on probability, random variables, sampling, and confidence intervals. Free open textbook: <a href=\"https://openstax.org/details/books/introductory-statistics-2e\" rel=\"noopener\">https://openstax.org/details/books/introductory-statistics-2e</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "<strong>Diez, Çetinkaya-Rundel and Barr.</strong> <em>OpenIntro Statistics</em>, fourth edition. Chapters on probability, inference, and data collection. Free textbook and companion resources: <a href=\"https://www.openintro.org/book/os/\" rel=\"noopener\">https://www.openintro.org/book/os/</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "<strong>NIST/SEMATECH.</strong> <em>e-Handbook of Statistical Methods</em>. A more advanced and methodical reference for measurement, uncertainty, statistical design, and reliability: <a href=\"https://www.itl.nist.gov/div898/handbook/\" rel=\"noopener\">https://www.itl.nist.gov/div898/handbook/</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "<strong>National Weather Service.</strong> <em>Forecast Terms</em>. A useful official definition of probability of precipitation and its time and location conditions: <a href=\"https://www.weather.gov/ppg/forecast_terms\" rel=\"noopener\">https://www.weather.gov/ppg/forecast_terms</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "<strong>Gigerenzer, Gerd.</strong> <em>Risk Savvy: How to Make Good Decisions</em> (2014). An accessible exploration of communicating risks in natural frequencies and avoiding statistical misunderstandings."
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "<strong>Hacking, Ian.</strong> <em>An Introduction to Probability and Inductive Logic</em> (2001). A readable and careful introduction to interpreting chance, inference, and evidence."
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "<strong>Silver, Nate.</strong> <em>The Signal and the Noise: Why So Many Predictions Fail—but Some Don't</em> (2012). Forecasting, model assumptions, and the difficulty of making predictions in messy fields. Read critically, as with any author's particular examples and interpretations."
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "004": {
+    "title": "Recommended sources and further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "<strong>Library of Congress.</strong> <em>Teacher's Guides and Analysis Tool: Getting Started with Primary Sources.</em> Clear prompts for observation, reflection, and questioning; useful with manuscripts, images, oral accounts, maps, and newspapers. <a href=\"https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/guides/\" rel=\"noopener\">https://www.loc.gov/programs/teachers/getting-started-with-primary-sources/guides/</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "<strong>John Tosh.</strong> <em>The Pursuit of History</em>, revised editions. A readable introduction to historical questions, sources, interpretation, explanation, and research practice."
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "<strong>Martha Howell and Walter Prevenier.</strong> <em>From Reliable Sources: An Introduction to Historical Methods</em> (2001). A thoughtful guide to source criticism, context, and how historians build arguments."
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "<strong>Marc Bloch.</strong> <em>The Historian's Craft</em>. A classic introduction to asking questions of historical traces; read it as a formative statement of method, not a substitute for newer research."
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "<strong>Oxford Radiocarbon Accelerator Unit, University of Oxford.</strong> <em>What is Radiocarbon Dating?</em> Explains sample selection, calibration, conventional BP dates, old wood, and contamination. <a href=\"https://www.arch.ox.ac.uk/oxford-radiocarbon-accelerator-unit\" rel=\"noopener\">https://www.arch.ox.ac.uk/oxford-radiocarbon-accelerator-unit</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "<strong>University of Oxford.</strong> <em>Radiocarbon Calibration.</em> Why an uncalibrated radiocarbon age is not a calendar date, including historical conventions used in reporting. <a href=\"https://c14.arch.ox.ac.uk/calibration\" rel=\"noopener\">https://c14.arch.ox.ac.uk/calibration</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "<strong>UK Parliament.</strong> <em>The Making of Magna Carta.</em> An institutional explanation of the surviving 1215 copies and how they were produced. <a href=\"https://www.parliament.uk/about/living-heritage/evolutionofparliament/2015-parliament-in-the-making/2015-historic-anniversaries/magna-carta/the-making-of-magna-carta-/\" rel=\"noopener\">https://www.parliament.uk/about/living-heritage/evolutionofparliament/2015-parliament-in-the-making/2015-historic-anniversaries/magna-carta/the-making-of-magna-carta-/</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "<strong>J. C. Holt.</strong> <em>Magna Carta</em> (2nd ed., 1992), especially the analysis of the 1215 documents and changing interpretations. Scholarly treatment, not a simple legend."
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "<strong>UNESCO World Heritage Centre.</strong> <em>Great Zimbabwe National Monument.</em> The site's archaeology, period, setting, and historical significance. <a href=\"https://whc.unesco.org/en/list/364/\" rel=\"noopener\">https://whc.unesco.org/en/list/364/</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "<strong>The Metropolitan Museum of Art.</strong> <em>Great Zimbabwe (11th–15th Century).</em> A museum explanation of the site's construction and the problems caused by colonial-era interpretations. <a href=\"https://www.metmuseum.org/essays/great-zimbabwe-11th-15th-century\" rel=\"noopener\">https://www.metmuseum.org/essays/great-zimbabwe-11th-15th-century</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "<strong>Government of Bulgaria, Council of Ministers.</strong> <em>History.</em> Concise official chronology for the treaties of 1878, Unification in 1885, and independence in 1908. <a href=\"https://www.government.bg/en/About-Bulgaria/HISTORY/tabsss1\" rel=\"noopener\">https://www.government.bg/en/About-Bulgaria/HISTORY/tabsss1</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "<strong>National Museum of Military History, Bulgaria.</strong> <em>Declaring the Independence of Bulgaria (1908).</em> Context and historical documents for the declaration and recognition process. <a href=\"https://militarymuseum.bg/en/exhibitions/chronological-exhibition/declaring-the-independence-of-bulgaria-1908/\" rel=\"noopener\">https://militarymuseum.bg/en/exhibitions/chronological-exhibition/declaring-the-independence-of-bulgaria-1908/</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "<strong>United States Holocaust Memorial Museum.</strong> <em>Evidence from the Holocaust at the First Nuremberg Trial.</em> A demonstration of how perpetrator documents and other evidence establish historical events. <a href=\"https://encyclopedia.ushmm.org/content/en/article/evidence-from-the-holocaust\" rel=\"noopener\">https://encyclopedia.ushmm.org/content/en/article/evidence-from-the-holocaust</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "<strong>Royal Observatory of Belgium.</strong> <em>The Gregorian Calendar.</em> Calendar reform and adoption across different places. <a href=\"https://robinfo.oma.be/en/astro-info/calendar/the-gregorian-calendar/\" rel=\"noopener\">https://robinfo.oma.be/en/astro-info/calendar/the-gregorian-calendar/</a>"
+      }
+    ],
+    "further": [],
+    "notes": [
+      "The interpretive examples are explanations, not quotations from historical documents. The fictional town and hypothetical scenarios are explicitly invented for practice. The links above are recommended starting points; a publication-final edition should add page-level citations for precise claims, consult specialist scholarship for disputed issues, and review the historiography as the chapter series develops."
+    ]
+  },
+  "005": {
+    "title": "Recommended sources and further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "U.S. Geological Survey, “How are different map projections used?” A concise explanation of projection trade-offs, preserved properties and distortions. <a href=\"https://www.usgs.gov/faqs/how-are-different-map-projections-used\" rel=\"noopener\">https://www.usgs.gov/faqs/how-are-different-map-projections-used</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "John P. Snyder, <em>Map Projections—A Working Manual</em>, USGS Professional Paper 1395 (1987). Technical depth for readers who want the mathematics of cartography. <a href=\"https://pubs.usgs.gov/publication/pp1395\" rel=\"noopener\">https://pubs.usgs.gov/publication/pp1395</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "U.S. Geological Survey, <em>This Dynamic Earth: The Story of Plate Tectonics</em>, and related educational resources. Accessible geological mechanisms and plate-boundary evidence. <a href=\"https://www.usgs.gov/educational-resources/background-information-3-5\" rel=\"noopener\">https://www.usgs.gov/educational-resources/background-information-3-5</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "NOAA National Weather Service, <em>Global Atmospheric Circulations</em>. Explains idealized Hadley, Ferrel and polar cells, and why real circulation is more complex. <a href=\"https://www.noaa.gov/jetstream/global/global-atmospheric-circulations\" rel=\"noopener\">https://www.noaa.gov/jetstream/global/global-atmospheric-circulations</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "NOAA, <em>Ocean Currents</em>. Currents, heat transport, density, rotation and climate connections. <a href=\"https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-currents\" rel=\"noopener\">https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-currents</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "NOAA National Ocean Service, <em>Upwelling</em>. The mechanism linking winds, nutrient supply and marine productivity. <a href=\"https://oceanservice.noaa.gov/education/tutorial_currents/03coastal4.html\" rel=\"noopener\">https://oceanservice.noaa.gov/education/tutorial_currents/03coastal4.html</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "UN Trade and Development (UNCTAD), <em>Review of Maritime Transport 2024</em>, especially chapters on maritime chokepoints and network vulnerability. Read any numerical share as dated, not as an eternal constant. <a href=\"https://unctad.org/publication/review-maritime-transport-2024\" rel=\"noopener\">https://unctad.org/publication/review-maritime-transport-2024</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "NASA Earth Observatory, <em>The Earth Observatory</em>. Satellite-based explanations of land cover, atmosphere, oceans and environmental change. <a href=\"https://earthobservatory.nasa.gov/\" rel=\"noopener\">https://earthobservatory.nasa.gov/</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "Intergovernmental Panel on Climate Change, <em>Sixth Assessment Report: Synthesis Report</em> (2023). For a deeper treatment of physical hazards, exposure, vulnerability and climate change. <a href=\"https://www.ipcc.ch/report/ar6/syr/\" rel=\"noopener\">https://www.ipcc.ch/report/ar6/syr/</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "National Geographic Society, <em>Geography</em> and <em>MapMaker</em> educational resources. For thematic maps, plate tectonics and physical-human connections. <a href=\"https://education.nationalgeographic.org/\" rel=\"noopener\">https://education.nationalgeographic.org/</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "United Nations Statistics Division, <em>Geographic Information Systems and Cartographic Resources</em>. For geospatial terms and international statistical practice. <a href=\"https://unstats.un.org/unsd/geoinfo/\" rel=\"noopener\">https://unstats.un.org/unsd/geoinfo/</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "Tim Cresswell, <em>Place: An Introduction</em>, revised editions. A readable account of why human geographers treat place as more than a coordinate."
+      }
+    ],
+    "further": [],
+    "notes": [
+      "Simplified numerical examples in this chapter are explicitly illustrative. Diagrams are conceptual rather than survey maps or forecasts. Contested political borders should be researched with named, dated and clearly attributed source maps. The global geographical relationships described here are designed to remain useful even when individual infrastructure, trade or climate statistics change."
+    ]
+  },
+  "006": {
+    "title": "Recommended sources",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "OpenStax, <em>Introductory Statistics 2e</em>, especially Chapters 1–3, 8–9 and 12. Freely available introductory explanations and worked exercises: <a href=\"https://openstax.org/details/books/introductory-statistics-2e\" rel=\"noopener\">https://openstax.org/details/books/introductory-statistics-2e</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "Diez, Çetinkaya-Rundel and Barr, <em>OpenIntro Statistics</em>, 4th edition. A complementary open textbook with emphasis on real data and inference: <a href=\"https://www.openintro.org/book/os/\" rel=\"noopener\">https://www.openintro.org/book/os/</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "American Statistical Association, <em>Statement on Statistical Significance and P-Values</em> (2016). Foundational cautions on interpreting hypothesis tests: <a href=\"https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf\" rel=\"noopener\">https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "American Association for Public Opinion Research (AAPOR), <em>Best Practices for Survey Research</em>. Survey sampling, questionnaire design and reporting: <a href=\"https://aapor.org/standards-and-ethics/best-practices/\" rel=\"noopener\">https://aapor.org/standards-and-ethics/best-practices/</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "NIST/SEMATECH, <em>e-Handbook of Statistical Methods</em>. An accessible technical reference on measurement, variability, modelling and quality control: <a href=\"https://www.itl.nist.gov/div898/handbook/\" rel=\"noopener\">https://www.itl.nist.gov/div898/handbook/</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "Our World in Data, <em>How to Read a Chart</em> and wider data-visualization guidance: <a href=\"https://ourworldindata.org/\" rel=\"noopener\">https://ourworldindata.org/</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "Office for National Statistics (UK), methodology and guidance on measuring inflation and economic statistics: <a href=\"https://www.ons.gov.uk/methodology\" rel=\"noopener\">https://www.ons.gov.uk/methodology</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "OECD, <em>Understanding Economic Statistics</em> and statistical resources for international comparisons: <a href=\"https://www.oecd.org/en/data.html\" rel=\"noopener\">https://www.oecd.org/en/data.html</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "United Nations Statistics Division, global statistical standards and metadata resources: <a href=\"https://unstats.un.org/unsd/\" rel=\"noopener\">https://unstats.un.org/unsd/</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "Statistics Canada, <em>Statistics: Power from Data!</em>, survey design and data literacy resources: <a href=\"https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-eng.htm\" rel=\"noopener\">https://www150.statcan.gc.ca/n1/edu/power-pouvoir/toc-tdm/5214718-eng.htm</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "007": {
+    "title": "Recommended sources and further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "Donella H. Meadows, <em>Thinking in Systems: A Primer</em> (2008). Clear treatment of stocks, flows, reinforcing and balancing feedback, delays and leverage points."
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "Donella H. Meadows, <em>Leverage Points: Places to Intervene in a System</em> (1999), author's archived essay: <a href=\"https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/\" rel=\"noopener\">https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "Government Office for Science / UK Government, <em>An Introductory Systems Thinking Toolkit for Civil Servants</em>. Practical system maps and public-policy applications: <a href=\"https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit\" rel=\"noopener\">https://www.gov.uk/government/publications/systems-thinking-for-civil-servants/toolkit</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "MIT BLOSSOMS, <em>The Surprising World of Complex Systems</em>, teaching video and supporting lesson: <a href=\"https://web.mit.edu/blossoms/videos/lessons/surprising_world_complex_systems/\" rel=\"noopener\">https://web.mit.edu/blossoms/videos/lessons/surprising_world_complex_systems/</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "Elinor Ostrom, <em>Governing the Commons: The Evolution of Institutions for Collective Action</em> (1990). Foundational analysis of shared-resource governance."
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "Intergovernmental Panel on Climate Change (IPCC), <em>Sixth Assessment Report, Working Group I, Chapter 7: The Earth's Energy Budget, Climate Feedbacks, and Climate Sensitivity</em> (2021): <a href=\"https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/\" rel=\"noopener\">https://www.ipcc.ch/report/ar6/wg1/chapter/chapter-7/</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "Robert Jervis, “Cooperation under the Security Dilemma,” <em>World Politics</em> 30(2), 167–214 (1978): <a href=\"https://www.cambridge.org/core/journals/world-politics/article/cooperation-under-the-security-dilemma/C8907431CCEFEFE762BFCA32F091C526\" rel=\"noopener\">https://www.cambridge.org/core/journals/world-politics/article/cooperation-under-the-security-dilemma/C8907431CCEFEFE762BFCA32F091C526</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "OpenStax, <em>Principles of Economics 3e</em>, chapters on externalities, markets and aggregate measures: <a href=\"https://openstax.org/details/books/principles-economics-3e\" rel=\"noopener\">https://openstax.org/details/books/principles-economics-3e</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "N. G. van Kampen and other standard mathematical epidemiology introductions; for accessible public-health model context, see CDC infectious disease modeling resources: <a href=\"https://www.cdc.gov/forecast-outbreak-analytics/index.html\" rel=\"noopener\">https://www.cdc.gov/forecast-outbreak-analytics/index.html</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "National Academies of Sciences, Engineering, and Medicine, reports and resources on systems approaches to health and resilience: <a href=\"https://nap.nationalacademies.org/\" rel=\"noopener\">https://nap.nationalacademies.org/</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "John D. Sterman, <em>Business Dynamics: Systems Thinking and Modeling for a Complex World</em> (2000). Deeper models of inventories, supply chains and feedback."
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "Santa Fe Institute, <em>Complexity Explorer</em>, learning resources on complex systems and networks: <a href=\"https://www.complexityexplorer.org/\" rel=\"noopener\">https://www.complexityexplorer.org/</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "008": {
+    "title": "Recommended sources",
+    "intro": [],
+    "entries": [],
+    "further": [
+      "National Academies of Sciences, Engineering, and Medicine, How People Learn II (2018)  <a href=\"https://www.nationalacademies.org/read/24783/chapter/7\" rel=\"noopener\">[Open resource]</a>",
+      "Dunlosky et al., Improving Students' Learning With Effective Learning Techniques (2013)  <a href=\"https://doi.org/10.1177/1529100612453266\" rel=\"noopener\">[Open resource]</a>",
+      "Donoghue and Hattie, A Meta-Analysis of Ten Learning Techniques (2021)  <a href=\"https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.581216/full\" rel=\"noopener\">[Open resource]</a>",
+      "LearningScientists.org, Six Strategies for Effective Learning  <a href=\"https://www.learningscientists.org/downloadable-materials\" rel=\"noopener\">[Open resource]</a>"
+    ],
+    "notes": []
+  },
+  "009": {
+    "title": "Recommended sources",
+    "intro": [
+      "The works below are selected for reliability and for the different roles they play. Museum introductions are a good entry point; journal articles illustrate how primary research changes the historical picture. A source's publication date matters when interpreting what it could have known."
+    ],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "Smithsonian Human Origins Program, Laetoli Footprint Trails  <a href=\"https://humanorigins.si.edu/evidence/behavior/footprints/laetoli-footprint-trails\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "Smithsonian Human Origins Program, Introduction to Human Evolution  <a href=\"https://humanorigins.si.edu/education/introduction-human-evolution\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "Harmand et al. (2015), 3.3-million-year-old stone tools from Lomekwi 3, Nature  <a href=\"https://doi.org/10.1038/nature14464\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "Smithsonian Human Origins Program, Oldowan tools at 3 million years ago (2023)  <a href=\"https://humanorigins.si.edu/research/whats-hot-human-origins/oldowan-tools-3-million-years-ago\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "Smithsonian Human Origins Program, Homo erectus species profile  <a href=\"https://humanorigins.si.edu/evidence/human-fossils/species/homo-erectus\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "Berna et al. (2012), Microstratigraphic evidence of fire at Wonderwerk Cave, PNAS  <a href=\"https://doi.org/10.1073/pnas.1117620109\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "U.S. Geological Survey (2025), Fossil Footprints and Ice Age Ecosystems of White Sands  <a href=\"https://doi.org/10.3133/fs20253046\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "Hublin et al. (2017), New fossils from Jebel Irhoud, Nature  <a href=\"https://doi.org/10.1038/nature22336\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "Smithsonian Human Origins Program, Homo neanderthalensis  <a href=\"https://humanorigins.si.edu/evidence/human-fossils/species/homo-neanderthalensis\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "Smithsonian Human Origins Program, Ancient DNA and Neanderthals  <a href=\"https://humanorigins.si.edu/evidence/genetics/ancient-dna-and-neanderthals\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "Nature (2024), Earliest modern human genomes constrain timing of Neanderthal admixture  <a href=\"https://doi.org/10.1038/s41586-024-08420-x\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "Bergström et al. (2021), Origins of modern human ancestry, Nature  <a href=\"https://doi.org/10.1038/s41586-021-03244-5\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "Clarkson et al. (2017), Human occupation of northern Australia by 65,000 years ago, Nature  <a href=\"https://doi.org/10.1038/nature22968\" rel=\"noopener\">[Open resource]</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "Oktaviana et al. (2024), Narrative cave art in Indonesia by 51,200 years ago, Nature  <a href=\"https://doi.org/10.1038/s41586-024-07541-7\" rel=\"noopener\">[Open resource]</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "010": {
+    "title": "Recommended sources",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "Smithsonian Human Origins Program, 'Humans Change the World' — <a href=\"https://humanorigins.si.edu/human-characteristics/humans-change-world\" rel=\"noopener\">https://humanorigins.si.edu/human-characteristics/humans-change-world</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "Peter Bogucki (2019), 'Geography and Chronology of the Transition to Agriculture,' Oxford Research Encyclopedia — <a href=\"https://doi.org/10.1093/acrefore/9780199389414.013.165\" rel=\"noopener\">https://doi.org/10.1093/acrefore/9780199389414.013.165</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "Dorian Q. Fuller and colleagues (2014), 'Convergent evolution and parallelism in plant domestication revealed by an expanding archaeological record,' PNAS — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4035951/\" rel=\"noopener\">https://pmc.ncbi.nlm.nih.gov/articles/PMC4035951/</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "PNAS / peer-reviewed archaeobotany, 'Regional diversity on the timing for the initial appearance of cereal cultivation and domestication in southwest Asia' — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC5150421/\" rel=\"noopener\">https://pmc.ncbi.nlm.nih.gov/articles/PMC5150421/</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "UNESCO World Heritage Centre, 'Göbekli Tepe' — <a href=\"https://whc.unesco.org/en/list/1572/\" rel=\"noopener\">https://whc.unesco.org/en/list/1572/</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "Tim Denham (2011), 'Early Agriculture and Plant Domestication in New Guinea and Island Southeast Asia,' Current Anthropology — <a href=\"https://doi.org/10.1086/658682\" rel=\"noopener\">https://doi.org/10.1086/658682</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "Jianping Zhang et al. (2024), 'Rice's trajectory from wild to domesticated in East Asia,' Science — <a href=\"https://pubmed.ncbi.nlm.nih.gov/38781358/\" rel=\"noopener\">https://pubmed.ncbi.nlm.nih.gov/38781358/</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "UNESCO World Heritage Centre, 'Kuk Early Agricultural Site' — <a href=\"https://whc.unesco.org/en/list/887/\" rel=\"noopener\">https://whc.unesco.org/en/list/887/</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "Current Anthropology, early cultivation in New Guinea and Island Southeast Asia — <a href=\"https://www.journals.uchicago.edu/doi/full/10.1086/658682\" rel=\"noopener\">https://www.journals.uchicago.edu/doi/full/10.1086/658682</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "Dolores Piperno (2011), 'The Origins of Plant Cultivation and Domestication in the New World Tropics,' Current Anthropology — <a href=\"https://doi.org/10.1086/659998\" rel=\"noopener\">https://doi.org/10.1086/659998</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "Hofmanová et al. (2016), 'Early farmers from across Europe directly descended from Neolithic Aegeans,' PNAS — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC4922144/\" rel=\"noopener\">https://pmc.ncbi.nlm.nih.gov/articles/PMC4922144/</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "Mathieson et al. (2018), 'The Genomic History of Southeastern Europe,' Nature — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC6091220/\" rel=\"noopener\">https://pmc.ncbi.nlm.nih.gov/articles/PMC6091220/</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "Nature (2023), 'Early contact between late farming and pastoralist societies in southeastern Europe' — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10412445/\" rel=\"noopener\">https://pmc.ncbi.nlm.nih.gov/articles/PMC10412445/</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "UNESCO World Heritage Centre, 'Neolithic Site of Çatalhöyük' — <a href=\"https://whc.unesco.org/en/list/1405/\" rel=\"noopener\">https://whc.unesco.org/en/list/1405/</a>"
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "PNAS (2025), 'Economic inequality is fueled by population scale, land-limited production, and settlement hierarchies across the archaeological record' — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC12037049/\" rel=\"noopener\">https://pmc.ncbi.nlm.nih.gov/articles/PMC12037049/</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "011": {
+    "title": "Recommended sources",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "The Metropolitan Museum of Art, 'Uruk: The First City' — <a href=\"https://www.metmuseum.org/essays/uruk-the-first-city\" rel=\"noopener\">https://www.metmuseum.org/essays/uruk-the-first-city</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "Ira Spar, The Metropolitan Museum of Art, 'The Origins of Writing' — <a href=\"https://www.metmuseum.org/essays/the-origins-of-writing\" rel=\"noopener\">https://www.metmuseum.org/essays/the-origins-of-writing</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "The Metropolitan Museum of Art, 'Art of the First Cities' — <a href=\"https://www.metmuseum.org/exhibitions/listings/2003/art-of-the-first-cities\" rel=\"noopener\">https://www.metmuseum.org/exhibitions/listings/2003/art-of-the-first-cities</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "The Metropolitan Museum of Art, 'Mesopotamia, 8000–2000 B.C.' — <a href=\"https://www.metmuseum.org/toah/ht/02/wam.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/02/wam.html</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "Getty Museum, 'Mesopotamia: Civilization Begins' — <a href=\"https://www.getty.edu/art/exhibitions/mesopotamia/explore.html\" rel=\"noopener\">https://www.getty.edu/art/exhibitions/mesopotamia/explore.html</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "The Metropolitan Museum of Art, 'Early Dynastic Sculpture, 2900–2350 B.C.' — <a href=\"https://www.metmuseum.org/essays/early-dynastic-sculpture-2900-2350-b-c\" rel=\"noopener\">https://www.metmuseum.org/essays/early-dynastic-sculpture-2900-2350-b-c</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "The Metropolitan Museum of Art, 'Administrative account concerning barley and emmer' — <a href=\"https://www.metmuseum.org/art/collection/search/327384\" rel=\"noopener\">https://www.metmuseum.org/art/collection/search/327384</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "The Metropolitan Museum of Art, 'Cuneiform tablet: student exercise tablet' — <a href=\"https://www.metmuseum.org/art/collection/search/321878\" rel=\"noopener\">https://www.metmuseum.org/art/collection/search/321878</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "Joan Aruz and Ronald Wallenfels, eds., The Metropolitan Museum of Art, 'Art of the First Cities: The Third Millennium B.C. from the Mediterranean to the Indus' — <a href=\"https://www.metmuseum.org/met-publications/art-of-the-first-cities-the-third-millennium-bc-from-the-mediterranean-to-the-indus\" rel=\"noopener\">https://www.metmuseum.org/met-publications/art-of-the-first-cities-the-third-millennium-bc-from-the-mediterranean-to-the-indus</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "The Metropolitan Museum of Art, 'The Akkadian Period (ca. 2350–2150 B.C.)' — <a href=\"https://www.metmuseum.org/essays/the-akkadian-period-ca-2350-2150-b-c\" rel=\"noopener\">https://www.metmuseum.org/essays/the-akkadian-period-ca-2350-2150-b-c</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "The Morgan Library &amp; Museum, 'She Who Wrote: Enheduanna and Women of Mesopotamia' — <a href=\"https://www.themorgan.org/blog/she-who-wrote-enheduanna-and-women-mesopotamia\" rel=\"noopener\">https://www.themorgan.org/blog/she-who-wrote-enheduanna-and-women-mesopotamia</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "Sophus Helle, 'The Birth of the Author: Co-Creating Authorship in Enheduana's Exaltation' (2020) — <a href=\"https://doi.org/10.1111/oli.12250\" rel=\"noopener\">https://doi.org/10.1111/oli.12250</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "The Metropolitan Museum of Art, 'List of Rulers of Mesopotamia' — <a href=\"https://www.metmuseum.org/toah/hd/meru/hd_meru.htm\" rel=\"noopener\">https://www.metmuseum.org/toah/hd/meru/hd_meru.htm</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "The Metropolitan Museum of Art, 'Mesopotamia, 8000–2000 B.C.' (chronology and Ur III) — <a href=\"https://www.metmuseum.org/toah/ht/02/wam.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/02/wam.html</a>"
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "The Metropolitan Museum of Art, 'Ur: The Ziggurat' — <a href=\"https://www.metmuseum.org/essays/ur-the-ziggurat\" rel=\"noopener\">https://www.metmuseum.org/essays/ur-the-ziggurat</a>"
+      },
+      {
+        "n": 16,
+        "id": "source-16",
+        "html": "Musée du Louvre, 'The Code of Hammurabi' — <a href=\"https://www.louvre.fr/en/the-code-of-hammurabi\" rel=\"noopener\">https://www.louvre.fr/en/the-code-of-hammurabi</a>"
+      },
+      {
+        "n": 17,
+        "id": "source-17",
+        "html": "Musée du Louvre, collections record for the Hammurabi stele — <a href=\"https://collections.louvre.fr/en/ark:/53355/cl010174436\" rel=\"noopener\">https://collections.louvre.fr/en/ark:/53355/cl010174436</a>"
+      },
+      {
+        "n": 18,
+        "id": "source-18",
+        "html": "Ira Spar, The Metropolitan Museum of Art, 'Flood Stories' — <a href=\"https://www.metmuseum.org/essays/flood-stories\" rel=\"noopener\">https://www.metmuseum.org/essays/flood-stories</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "012": {
+    "title": "Recommended sources",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "The Metropolitan Museum of Art, 'Egypt in the Old Kingdom' — <a href=\"https://www.metmuseum.org/essays/egypt-in-the-old-kingdom-ca-2649-2150-b-c\" rel=\"noopener\">https://www.metmuseum.org/essays/egypt-in-the-old-kingdom-ca-2649-2150-b-c</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "Ancient Egyptian Archives Project, 'Archives in Ancient Egypt, 2500–1000 BCE' (academic research, Merer's diary) — <a href=\"https://www.degruyterbrill.com/document/doi/10.1515/9783110541397-005/html\" rel=\"noopener\">https://www.degruyterbrill.com/document/doi/10.1515/9783110541397-005/html</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "Judith Bunbury, Cambridge University Press, 'The Nile and Ancient Egypt' (academic monograph) — <a href=\"https://www.cambridge.org/core/books/nile-and-ancient-egypt/BA2FE9EF007ACF44726DB6FB253CCEDE\" rel=\"noopener\">https://www.cambridge.org/core/books/nile-and-ancient-egypt/BA2FE9EF007ACF44726DB6FB253CCEDE</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "The Metropolitan Museum of Art, 'Egypt, 8000–2000 B.C.' — <a href=\"https://www.metmuseum.org/toah/ht/02/afe.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/02/afe.html</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "The Metropolitan Museum of Art, 'Telling Time in Ancient Egypt' — <a href=\"https://www.metmuseum.org/essays/telling-time-in-ancient-egypt\" rel=\"noopener\">https://www.metmuseum.org/essays/telling-time-in-ancient-egypt</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "The Metropolitan Museum of Art, 'Egypt, 8000–2000 B.C.' (Predynastic and early dynasties) — <a href=\"https://www.metmuseum.org/toah/ht/02/afe.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/02/afe.html</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "The Metropolitan Museum of Art, 'List of Rulers of Ancient Egypt and Nubia' — <a href=\"https://www.metmuseum.org/toah/hd/phar/hd_phar.htm\" rel=\"noopener\">https://www.metmuseum.org/toah/hd/phar/hd_phar.htm</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "University College London, Digital Egypt for Universities, 'Pyramids' — <a href=\"https://www.ucl.ac.uk/museums-static/digitalegypt/pyramids/index.html\" rel=\"noopener\">https://www.ucl.ac.uk/museums-static/digitalegypt/pyramids/index.html</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "University College London, Digital Egypt for Universities, 'Mummies' — <a href=\"https://www.ucl.ac.uk/museums-static/digitalegypt/mummy/index.html\" rel=\"noopener\">https://www.ucl.ac.uk/museums-static/digitalegypt/mummy/index.html</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "The Metropolitan Museum of Art, 'Egypt in the Middle Kingdom' — <a href=\"https://www.metmuseum.org/essays/egypt-in-the-middle-kingdom-2030-1640-b-c\" rel=\"noopener\">https://www.metmuseum.org/essays/egypt-in-the-middle-kingdom-2030-1640-b-c</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "The Metropolitan Museum of Art, 'The Land of Nubia' — <a href=\"https://www.metmuseum.org/essays/nubia\" rel=\"noopener\">https://www.metmuseum.org/essays/nubia</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "The Metropolitan Museum of Art, 'Egypt, 2000–1000 B.C.' — <a href=\"https://www.metmuseum.org/toah/ht/03/afe.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/03/afe.html</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "The Metropolitan Museum of Art, 'Egypt in the New Kingdom' — <a href=\"https://www.metmuseum.org/essays/egypt-in-the-new-kingdom-ca-1550-1070-b-c\" rel=\"noopener\">https://www.metmuseum.org/essays/egypt-in-the-new-kingdom-ca-1550-1070-b-c</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "The Metropolitan Museum of Art, 'The Amarna Letters' — <a href=\"https://www.metmuseum.org/essays/the-amarna-letters\" rel=\"noopener\">https://www.metmuseum.org/essays/the-amarna-letters</a>"
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "The Metropolitan Museum of Art, 'Hatshepsut: From Queen to Pharaoh' — <a href=\"https://www.metmuseum.org/met-publications/hatshepsut-from-queen-to-pharaoh\" rel=\"noopener\">https://www.metmuseum.org/met-publications/hatshepsut-from-queen-to-pharaoh</a>"
+      },
+      {
+        "n": 16,
+        "id": "source-16",
+        "html": "The Metropolitan Museum of Art, 'Art, Architecture, and the City in the Reign of Amenhotep IV / Akhenaten' — <a href=\"https://www.metmuseum.org/essays/art-architecture-and-the-city-in-the-reign-of-amenhotep-iv-akhenaten-ca-13531336-b-c\" rel=\"noopener\">https://www.metmuseum.org/essays/art-architecture-and-the-city-in-the-reign-of-amenhotep-iv-akhenaten-ca-13531336-b-c</a>"
+      },
+      {
+        "n": 17,
+        "id": "source-17",
+        "html": "The Metropolitan Museum of Art, 'Egypt, 2000–1000 B.C.' (Ramesses II and foreign relations) — <a href=\"https://www.metmuseum.org/toah/ht/03/afe.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/03/afe.html</a>"
+      },
+      {
+        "n": 18,
+        "id": "source-18",
+        "html": "The Metropolitan Museum of Art, 'Egypt in the Third Intermediate Period' — <a href=\"https://www.metmuseum.org/essays/egypt-in-the-third-intermediate-period-1070-712-b-c\" rel=\"noopener\">https://www.metmuseum.org/essays/egypt-in-the-third-intermediate-period-1070-712-b-c</a>"
+      },
+      {
+        "n": 19,
+        "id": "source-19",
+        "html": "University College London, Digital Egypt for Universities, 'Deir el-Medina Ostraca' — <a href=\"https://www.ucl.ac.uk/museums-static/digitalegypt/deirelmedine/ostracaindex.html\" rel=\"noopener\">https://www.ucl.ac.uk/museums-static/digitalegypt/deirelmedine/ostracaindex.html</a>"
+      },
+      {
+        "n": 20,
+        "id": "source-20",
+        "html": "The Metropolitan Museum of Art, 'The Housemistress in New Kingdom Egypt: Hatnefer' — <a href=\"https://www.metmuseum.org/essays/the-housemistress-in-new-kingdom-egypt-hatnefer\" rel=\"noopener\">https://www.metmuseum.org/essays/the-housemistress-in-new-kingdom-egypt-hatnefer</a>"
+      },
+      {
+        "n": 21,
+        "id": "source-21",
+        "html": "The British Museum, 'The Rosetta Stone' — <a href=\"https://www.britishmuseum.org/collection/object/Y_EA24\" rel=\"noopener\">https://www.britishmuseum.org/collection/object/Y_EA24</a>"
+      },
+      {
+        "n": 22,
+        "id": "source-22",
+        "html": "The Metropolitan Museum of Art, 'Egypt, 1000 B.C.–1 A.D.' — <a href=\"https://www.metmuseum.org/toah/ht/04/afe.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/04/afe.html</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "013": {
+    "title": "Recommended sources",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "OpenStax, <em>World History, Volume 1</em>, section 3.4, 'The Indus Valley Civilization' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/3-4-the-indus-valley-civilization\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/3-4-the-indus-valley-civilization</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "UNESCO World Heritage Centre, 'Archaeological Ruins at Moenjodaro' — <a href=\"https://whc.unesco.org/en/list/138\" rel=\"noopener\">https://whc.unesco.org/en/list/138</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "Jonathan Mark Kenoyer, 'The Origin, Context and Function of the Indus Script' (Harappa research resource) — <a href=\"https://www.harappa.com/sites/default/files/pdf/Kenoyer2006_The%20Origin%2C%20Context%20and%20Function%20of%20the%20Indus%20Sc.pdf\" rel=\"noopener\">https://www.harappa.com/sites/default/files/pdf/Kenoyer2006_The%20Origin%2C%20Context%20and%20Function%20of%20the%20Indus%20Sc.pdf</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "Metropolitan Museum of Art, 'Art of the First Cities in the Third Millennium B.C.' — <a href=\"https://www.metmuseum.org/essays/art-of-the-first-cities-in-the-third-millennium-b-c\" rel=\"noopener\">https://www.metmuseum.org/essays/art-of-the-first-cities-in-the-third-millennium-b-c</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "Metropolitan Museum of Art, 'South Asia, 8000–2000 B.C.' — <a href=\"https://www.metmuseum.org/toah/ht/02/ssa.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/02/ssa.html</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "Giosan et al., 'Fluvial landscapes of the Harappan civilization', <em>PNAS</em> (2012) — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC3387054/\" rel=\"noopener\">https://pmc.ncbi.nlm.nih.gov/articles/PMC3387054/</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "Singh et al., 'Counter-intuitive influence of Himalayan river morphodynamics on Indus Civilisation urban settlements', <em>Nature Communications</em> (2017) — <a href=\"https://www.nature.com/articles/s41467-017-01643-9\" rel=\"noopener\">https://www.nature.com/articles/s41467-017-01643-9</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "OpenStax, 'The Indus Valley Civilization' (agriculture, settlement and trade) — <a href=\"https://openstax.org/books/world-history-volume-1/pages/3-4-the-indus-valley-civilization\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/3-4-the-indus-valley-civilization</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "Harappa Archaeological Research Project, 'Recent Indus Discoveries and Highlights from Excavations at Harappa, 1998–2000' — <a href=\"https://www.harappa.com/content/recent-indus-discoveries-and-highlights-excavations-harappa-1998-2000\" rel=\"noopener\">https://www.harappa.com/content/recent-indus-discoveries-and-highlights-excavations-harappa-1998-2000</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "Jonathan Mark Kenoyer, 'Measuring the Harappan World' (Harappa research resource) — <a href=\"https://www.harappa.com/sites/default/files/pdf/Kenoyer%202010%20Measuring%20the%20Harappan%20World.pdf\" rel=\"noopener\">https://www.harappa.com/sites/default/files/pdf/Kenoyer%202010%20Measuring%20the%20Harappan%20World.pdf</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "Harappa Archaeological Research Project, 'Bath Area, Mohenjo-daro' — <a href=\"https://www.harappa.com/slide/bath-area-mohenjo-daro\" rel=\"noopener\">https://www.harappa.com/slide/bath-area-mohenjo-daro</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "UNESCO World Heritage Centre, 'Dholavira: a Harappan City' — <a href=\"https://whc.unesco.org/en/list/1645\" rel=\"noopener\">https://whc.unesco.org/en/list/1645</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "Harappa Archaeological Research Project, 'Room in between L and SD Areas' (bricks and craft remains) — <a href=\"https://www.harappa.com/indus6/surfacesalts19.html\" rel=\"noopener\">https://www.harappa.com/indus6/surfacesalts19.html</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "Metropolitan Museum of Art, 'Stamp seal and modern impression: unicorn and incense burner (?)' — <a href=\"https://www.metmuseum.org/art/collection/search/324062\" rel=\"noopener\">https://www.metmuseum.org/art/collection/search/324062</a>"
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "OpenStax, 'Indus script and archaeological evidence' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/3-4-the-indus-valley-civilization\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/3-4-the-indus-valley-civilization</a>"
+      },
+      {
+        "n": 16,
+        "id": "source-16",
+        "html": "Jonathan Mark Kenoyer, 'The Harappan State: Was it or Wasn't it?' — <a href=\"https://www.harappa.com/content/harappan-state-was-it-or-wasnt-it\" rel=\"noopener\">https://www.harappa.com/content/harappan-state-was-it-or-wasnt-it</a>"
+      },
+      {
+        "n": 17,
+        "id": "source-17",
+        "html": "Harappa Archaeological Research Project, 'What do we know of ancient Indus government?' — <a href=\"https://www.harappa.com/answers/what-do-we-know-ancient-indus-government\" rel=\"noopener\">https://www.harappa.com/answers/what-do-we-know-ancient-indus-government</a>"
+      },
+      {
+        "n": 18,
+        "id": "source-18",
+        "html": "Harappa Archaeological Research Project, 'Excavations at Chanhu-daro 1935–36' — <a href=\"https://www.harappa.com/content/excavations-chanhu-daro-1935-36\" rel=\"noopener\">https://www.harappa.com/content/excavations-chanhu-daro-1935-36</a>"
+      },
+      {
+        "n": 19,
+        "id": "source-19",
+        "html": "Metropolitan Museum of Art, 'Art of the First Cities' (long-distance exchange) — <a href=\"https://www.metmuseum.org/essays/art-of-the-first-cities-in-the-third-millennium-b-c\" rel=\"noopener\">https://www.metmuseum.org/essays/art-of-the-first-cities-in-the-third-millennium-b-c</a>"
+      },
+      {
+        "n": 20,
+        "id": "source-20",
+        "html": "Cambridge University, 'Decline of Bronze Age megacities linked to climate change' — <a href=\"https://www.cam.ac.uk/research/news/decline-of-bronze-age-megacities-linked-to-climate-change\" rel=\"noopener\">https://www.cam.ac.uk/research/news/decline-of-bronze-age-megacities-linked-to-climate-change</a>"
+      },
+      {
+        "n": 21,
+        "id": "source-21",
+        "html": "Shinde et al., 'An Ancient Harappan Genome Lacks Ancestry from Steppe Pastoralists or Iranian Farmers', <em>Cell</em> (2019) — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC6800651/\" rel=\"noopener\">https://pmc.ncbi.nlm.nih.gov/articles/PMC6800651/</a>"
+      },
+      {
+        "n": 22,
+        "id": "source-22",
+        "html": "Narasimhan et al., 'The Formation of Human Populations in South and Central Asia', <em>Science</em> (2019) — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC6822619/\" rel=\"noopener\">https://pmc.ncbi.nlm.nih.gov/articles/PMC6822619/</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "014": {
+    "title": "Recommended sources and directions for further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "Smarthistory, 'Shang dynasty (c. 1600–1050 BCE), an introduction' — <a href=\"https://smarthistory.org/shang-dynasty-introduction/\" rel=\"noopener\">https://smarthistory.org/shang-dynasty-introduction/</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "National Museum of Asian Art, 'Anyang: China's Ancient City of Kings' — <a href=\"https://asia.si.edu/whats-on/exhibitions/anyang-chinas-ancient-city-of-kings/\" rel=\"noopener\">https://asia.si.edu/whats-on/exhibitions/anyang-chinas-ancient-city-of-kings/</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "British Museum, magazine feature on the history of early Chinese writing and oracle bones (Autumn 2020) — <a href=\"https://www.britishmuseum.org/sites/default/files/2020-11/British_Museum_Magazine_Autumn2020_reducedsize.pdf\" rel=\"noopener\">https://www.britishmuseum.org/sites/default/files/2020-11/British_Museum_Magazine_Autumn2020_reducedsize.pdf</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "The Metropolitan Museum of Art, 'China, 8000–2000 B.C.' (Heilbrunn Timeline) — <a href=\"https://www.metmuseum.org/toah/ht/02/eac.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/02/eac.html</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "The Metropolitan Museum of Art, 'China, 2000–1000 B.C.' (Heilbrunn Timeline) — <a href=\"https://www.metmuseum.org/toah/ht/03/eac.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/03/eac.html</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "Smarthistory, 'Neolithic period (c. 7000–1700 BCE), an introduction' — <a href=\"https://smarthistory.org/neolithic-period-china-introduction/\" rel=\"noopener\">https://smarthistory.org/neolithic-period-china-introduction/</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "UNESCO World Heritage Centre, 'Archaeological Ruins of Liangzhu City' — <a href=\"https://whc.unesco.org/en/list/1592/\" rel=\"noopener\">https://whc.unesco.org/en/list/1592/</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "Antiquity, 'The emergence of complex society in China: the case of Liangzhu' — <a href=\"https://www.cambridge.org/core/journals/antiquity/article/abs/emergence-of-complex-society-in-china-the-case-of-liangzhu/0D4FD61E9460755CED69047FAD7FA2AD\" rel=\"noopener\">https://www.cambridge.org/core/journals/antiquity/article/abs/emergence-of-complex-society-in-china-the-case-of-liangzhu/0D4FD61E9460755CED69047FAD7FA2AD</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "The Metropolitan Museum of Art, 'Shang and Zhou Dynasties: The Bronze Age of China' — <a href=\"https://www.metmuseum.org/toah/hd/shzh/hd_shzh.htm\" rel=\"noopener\">https://www.metmuseum.org/toah/hd/shzh/hd_shzh.htm</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "Li Liu and Xingcan Chen, <em>The Archaeology of China: From the Late Paleolithic to the Early Bronze Age</em> (Cambridge University Press, 2012), research monograph."
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "The Metropolitan Museum of Art, 'Shang and Zhou Dynasties: The Bronze Age of China' — <a href=\"https://www.metmuseum.org/de/essays/shang-and-zhou-dynasties-the-bronze-age-of-china\" rel=\"noopener\">https://www.metmuseum.org/de/essays/shang-and-zhou-dynasties-the-bronze-age-of-china</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "National Museum of Asian Art, educational collections on ancient Anyang — <a href=\"https://asia.si.edu/whats-on/exhibitions/anyang-chinas-ancient-city-of-kings/\" rel=\"noopener\">https://asia.si.edu/whats-on/exhibitions/anyang-chinas-ancient-city-of-kings/</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "The Metropolitan Museum of Art, 'Oracle bone' (object record) — <a href=\"https://www.metmuseum.org/art/collection/search/60696\" rel=\"noopener\">https://www.metmuseum.org/art/collection/search/60696</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "National Museum of Asian Art, 'Technology and Production: Ancient Chinese Bronzes' — <a href=\"https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/lesson-plans/technology-and-production-ancient-chinese-bronzes/\" rel=\"noopener\">https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/lesson-plans/technology-and-production-ancient-chinese-bronzes/</a>"
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "Smarthistory, 'War and Sacrifice: The Tomb of Fu Hao' — <a href=\"https://smarthistory.org/tomb-of-fu-hao/\" rel=\"noopener\">https://smarthistory.org/tomb-of-fu-hao/</a>"
+      },
+      {
+        "n": 16,
+        "id": "source-16",
+        "html": "Henan Province heritage account, 'Tomb of Fu Hao' — <a href=\"https://english.henan.gov.cn/2019/10-22/989951.html\" rel=\"noopener\">https://english.henan.gov.cn/2019/10-22/989951.html</a>"
+      },
+      {
+        "n": 17,
+        "id": "source-17",
+        "html": "The Metropolitan Museum of Art, 'China, 2000–1000 B.C.' (Sanxingdui material) — <a href=\"https://www.metmuseum.org/de/toah/ht/03/eac\" rel=\"noopener\">https://www.metmuseum.org/de/toah/ht/03/eac</a>"
+      },
+      {
+        "n": 18,
+        "id": "source-18",
+        "html": "National Museum of Asian Art, 'Zhou dynasty' (educator resources) — <a href=\"https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/explore-by-dynasty/zhou-dynasty/\" rel=\"noopener\">https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/explore-by-dynasty/zhou-dynasty/</a>"
+      },
+      {
+        "n": 19,
+        "id": "source-19",
+        "html": "Smarthistory, 'Zhou dynasty, an introduction' — <a href=\"https://smarthistory.org/zhou-dynasty-intro/\" rel=\"noopener\">https://smarthistory.org/zhou-dynasty-intro/</a>"
+      },
+      {
+        "n": 20,
+        "id": "source-20",
+        "html": "National Museum of Asian Art, 'Ancient Chinese Bronzes' — <a href=\"https://asia.si.edu/ancient-chinese-bronzes/\" rel=\"noopener\">https://asia.si.edu/ancient-chinese-bronzes/</a>"
+      },
+      {
+        "n": 21,
+        "id": "source-21",
+        "html": "National Museum of Asian Art, 'Music in the Bronze Age' — <a href=\"https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/lesson-plans/music-in-the-bronze-age/\" rel=\"noopener\">https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/lesson-plans/music-in-the-bronze-age/</a>"
+      },
+      {
+        "n": 22,
+        "id": "source-22",
+        "html": "National Museum of Asian Art, 'Philosophies of China' — <a href=\"https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/lesson-plans/philosophies-of-china/\" rel=\"noopener\">https://asia.si.edu/education/educator-resources/teaching-china-with-the-smithsonian/lesson-plans/philosophies-of-china/</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "015": {
+    "title": "Recommended sources and directions for further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "The Metropolitan Museum of Art, 'The Achaemenid Persian Empire (550–330 B.C.)' — <a href=\"https://www.metmuseum.org/ko/essays/the-achaemenid-persian-empire-550-330-b-c\" rel=\"noopener\">https://www.metmuseum.org/ko/essays/the-achaemenid-persian-empire-550-330-b-c</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "OpenStax, <em>World History, Volume 1</em>, section 4.3, 'The Persian Empire' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/4-3-the-persian-empire\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/4-3-the-persian-empire</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "UNESCO World Heritage Centre, 'Pasargadae' — <a href=\"https://whc.unesco.org/en/list/1106\" rel=\"noopener\">https://whc.unesco.org/en/list/1106</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "British Museum, collection and educational material on the Cyrus Cylinder (search collection object BM 90920); Yale Peabody Museum's discussion of misconceptions — <a href=\"https://peabody.yale.edu/news/finkel_talk\" rel=\"noopener\">https://peabody.yale.edu/news/finkel_talk</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "The Metropolitan Museum of Art, 'The Cyrus Cylinder and Ancient Persia' — <a href=\"https://www.metmuseum.org/exhibitions/listings/2013/cyrus-cylinder\" rel=\"noopener\">https://www.metmuseum.org/exhibitions/listings/2013/cyrus-cylinder</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "UNESCO World Heritage Centre, 'Bisotun' — <a href=\"https://whc.unesco.org/en/list/1222/\" rel=\"noopener\">https://whc.unesco.org/en/list/1222/</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "Encyclopaedia Iranica, 'Achaemenid Satrapies' — <a href=\"https://www.iranicaonline.org/articles/achaemenid-satrapies/\" rel=\"noopener\">https://www.iranicaonline.org/articles/achaemenid-satrapies/</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "Encyclopaedia Iranica, 'Achaemenid Taxation' — <a href=\"https://www.iranicaonline.org/articles/achaemenid-taxation/\" rel=\"noopener\">https://www.iranicaonline.org/articles/achaemenid-taxation/</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "UNESCO World Heritage Centre, 'Persepolis' — <a href=\"https://whc.unesco.org/en/list/114\" rel=\"noopener\">https://whc.unesco.org/en/list/114</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "University of Chicago, Institute for the Study of Ancient Cultures, <em>Persepolis Fortification Tablets</em> — <a href=\"https://isac.uchicago.edu/publications/persepolis-fortification-tablets\" rel=\"noopener\">https://isac.uchicago.edu/publications/persepolis-fortification-tablets</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "National Endowment for the Humanities, 'Preserving the Cultural Heritage of the Ancient Near East and the Mediterranean World' — <a href=\"https://www.neh.gov/divisions/preservation/featured-project/preserving-the-cultural-heritage-the-ancient-near-east-and-t\" rel=\"noopener\">https://www.neh.gov/divisions/preservation/featured-project/preserving-the-cultural-heritage-the-ancient-near-east-and-t</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "Encyclopaedia Iranica, 'Susa iii. The Achaemenid Period' — <a href=\"https://www.iranicaonline.org/articles/susa-iii-the-achaemenid-period/\" rel=\"noopener\">https://www.iranicaonline.org/articles/susa-iii-the-achaemenid-period/</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "Encyclopaedia Iranica, 'Kingship ii. In the Achaemenid Empire' — <a href=\"https://www.iranicaonline.org/articles/kingship/kingship-ii-in-the-achaemenid-empire/\" rel=\"noopener\">https://www.iranicaonline.org/articles/kingship/kingship-ii-in-the-achaemenid-empire/</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "Encyclopaedia Iranica, 'Egypt i. Persians in Egypt in the Achaemenid Period' — <a href=\"https://www.iranicaonline.org/articles/egypt-i/\" rel=\"noopener\">https://www.iranicaonline.org/articles/egypt-i/</a>"
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "The Metropolitan Museum of Art, 'The Cyrus Cylinder and Ancient Persia' (religious language and royal culture) — <a href=\"https://www.metmuseum.org/exhibitions/listings/2013/cyrus-cylinder\" rel=\"noopener\">https://www.metmuseum.org/exhibitions/listings/2013/cyrus-cylinder</a>"
+      },
+      {
+        "n": 16,
+        "id": "source-16",
+        "html": "OpenStax, <em>World History, Volume 1</em>, section 6.2, 'Ancient Greece' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/6-2-ancient-greece\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/6-2-ancient-greece</a>"
+      },
+      {
+        "n": 17,
+        "id": "source-17",
+        "html": "Encyclopaedia Iranica, 'Achaemenid Dynasty ii. The Empire' — <a href=\"https://www.iranicaonline.org/articles/achaemenid-dynasty/achaemenid-dynasty-ii-the-empire/\" rel=\"noopener\">https://www.iranicaonline.org/articles/achaemenid-dynasty/achaemenid-dynasty-ii-the-empire/</a>"
+      },
+      {
+        "n": 18,
+        "id": "source-18",
+        "html": "Pierre Briant, <em>From Cyrus to Alexander: A History of the Persian Empire</em> (Eisenbrauns, 2002), substantial scholarly history."
+      },
+      {
+        "n": 19,
+        "id": "source-19",
+        "html": "Amélie Kuhrt, <em>The Persian Empire: A Corpus of Sources from the Achaemenid Period</em> (Routledge, 2007), essential source collection."
+      },
+      {
+        "n": 20,
+        "id": "source-20",
+        "html": "Maria Brosius, <em>The Persians: An Introduction</em> (Routledge, 2006), accessible research-based synthesis."
+      },
+      {
+        "n": 21,
+        "id": "source-21",
+        "html": "Herodotus, <em>Histories</em>, especially Books 1, 3, 7–9; important Greek literary evidence requiring source criticism."
+      },
+      {
+        "n": 22,
+        "id": "source-22",
+        "html": "Xenophon, <em>Anabasis</em>, a Greek narrative of Cyrus the Younger's campaign and the mercenaries' return."
+      },
+      {
+        "n": 23,
+        "id": "source-23",
+        "html": "Encyclopaedia Iranica, 'Persepolis' — <a href=\"https://www.iranicaonline.org/articles/persepolis/\" rel=\"noopener\">https://www.iranicaonline.org/articles/persepolis/</a>"
+      },
+      {
+        "n": 24,
+        "id": "source-24",
+        "html": "Encyclopaedia Iranica, 'Epigraphy i. Old Persian and Middle Iranian Epigraphy' — <a href=\"https://www.iranicaonline.org/articles/epigraphy-i/\" rel=\"noopener\">https://www.iranicaonline.org/articles/epigraphy-i/</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "016": {
+    "title": "Recommended sources and directions for further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "The Metropolitan Museum of Art, 'Geometric Art in Ancient Greece' — <a href=\"https://www.metmuseum.org/essays/geometric-art-in-ancient-greece\" rel=\"noopener\">https://www.metmuseum.org/essays/geometric-art-in-ancient-greece</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "The Metropolitan Museum of Art, 'Greek Art in the Archaic Period' — <a href=\"https://www.metmuseum.org/essays/greek-art-in-the-archaic-period\" rel=\"noopener\">https://www.metmuseum.org/essays/greek-art-in-the-archaic-period</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "The Metropolitan Museum of Art, 'Ancient Greek Colonization and Trade and their Influence on Greek Art' — <a href=\"https://www.metmuseum.org/essays/ancient-greek-colonization-and-trade-and-their-influence-on-greek-art\" rel=\"noopener\">https://www.metmuseum.org/essays/ancient-greek-colonization-and-trade-and-their-influence-on-greek-art</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "The Metropolitan Museum of Art, 'The Art of Classical Greece (ca. 480–323 B.C.)' — <a href=\"https://www.metmuseum.org/essays/the-art-of-classical-greece-ca-480-323-b-c\" rel=\"noopener\">https://www.metmuseum.org/essays/the-art-of-classical-greece-ca-480-323-b-c</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "The Metropolitan Museum of Art, ancient Greece chronology — <a href=\"https://www.metmuseum.org/toah/ht/04/eusb.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/04/eusb.html</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "The Athenian Agora Excavations / American School of Classical Studies, official research collections — <a href=\"https://www.agathe.gr/\" rel=\"noopener\">https://www.agathe.gr/</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "Athenian Democracy (Agora institutions and Council of Five Hundred), civic and archaeological educational resource — <a href=\"https://www.athenian-democracy.gr/en/\" rel=\"noopener\">https://www.athenian-democracy.gr/en/</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "UNESCO World Heritage Centre, 'Acropolis, Athens' — <a href=\"https://whc.unesco.org/en/list/404\" rel=\"noopener\">https://whc.unesco.org/en/list/404</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "UNESCO World Heritage Centre, 'Archaeological Site of Olympia' — <a href=\"https://whc.unesco.org/en/list/517\" rel=\"noopener\">https://whc.unesco.org/en/list/517</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "International Olympic Committee, 'What is the origin of the Olympic Games?' — <a href=\"https://www.olympics.com/ioc/faq/history-and-origin-of-the-games/what-is-the-origin-of-the-olympic-games\" rel=\"noopener\">https://www.olympics.com/ioc/faq/history-and-origin-of-the-games/what-is-the-origin-of-the-olympic-games</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "Stanford Encyclopedia of Philosophy, 'Socrates' — <a href=\"https://plato.stanford.edu/entries/socrates/\" rel=\"noopener\">https://plato.stanford.edu/entries/socrates/</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "Stanford Encyclopedia of Philosophy, 'Ancient Political Philosophy' — <a href=\"https://plato.stanford.edu/entries/ancient-political/\" rel=\"noopener\">https://plato.stanford.edu/entries/ancient-political/</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "Perseus Digital Library, Thucydides, <em>History of the Peloponnesian War</em> — <a href=\"https://www.perseus.tufts.edu/hopper/\" rel=\"noopener\">https://www.perseus.tufts.edu/hopper/</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "Herodotus, <em>Histories</em>, translated editions; compare accounts of the Persian Wars with inscriptions and archaeological evidence."
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "Thucydides, <em>History of the Peloponnesian War</em>, especially Books 1–2, 3, 5–7; read speeches as literary historical reconstruction."
+      },
+      {
+        "n": 16,
+        "id": "source-16",
+        "html": "Xenophon, <em>Hellenica</em> and <em>Constitution of the Lacedaemonians</em>; important but interested testimony on postwar Greece and Sparta."
+      },
+      {
+        "n": 17,
+        "id": "source-17",
+        "html": "Aristotle, <em>Athenian Constitution</em> (authorship in the Aristotelian school debated) and <em>Politics</em>; later institutional descriptions requiring source criticism."
+      },
+      {
+        "n": 18,
+        "id": "source-18",
+        "html": "Paul Cartledge, <em>Ancient Greece: A History in Eleven Cities</em> (Oxford University Press, 2009), broad political and cultural survey."
+      },
+      {
+        "n": 19,
+        "id": "source-19",
+        "html": "P. J. Rhodes, <em>A History of the Classical Greek World: 478–323 BC</em> (Wiley-Blackwell, 2006), political history and evidence."
+      },
+      {
+        "n": 20,
+        "id": "source-20",
+        "html": "Mogens Herman Hansen, <em>The Athenian Democracy in the Age of Demosthenes</em> (1991), institutional reconstruction."
+      },
+      {
+        "n": 21,
+        "id": "source-21",
+        "html": "Sarah B. Pomeroy et al., <em>Ancient Greece: A Political, Social, and Cultural History</em> (Oxford University Press), accessible modern synthesis; check edition when citing."
+      },
+      {
+        "n": 22,
+        "id": "source-22",
+        "html": "Josiah Ober, <em>Mass and Elite in Democratic Athens</em> (Princeton University Press, 1989), democracy and political rhetoric."
+      },
+      {
+        "n": 23,
+        "id": "source-23",
+        "html": "Paul Cartledge, <em>The Spartans</em> (2002), social and political interpretation; compare idealized images with current scholarship."
+      },
+      {
+        "n": 24,
+        "id": "source-24",
+        "html": "OpenStax, <em>World History, Volume 1</em>, 'Ancient Greece' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/6-2-ancient-greece\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/6-2-ancient-greece</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "017": {
+    "title": "Recommended sources and directions for further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "OpenStax, <em>World History, Volume 1</em>, 'The Roman Republic' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/6-4-the-roman-republic\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/6-4-the-roman-republic</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "OpenStax, <em>World History, Volume 1</em>, 'The Age of Augustus' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/6-5-the-age-of-augustus\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/6-5-the-age-of-augustus</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "OpenStax, <em>World History, Volume 1</em>, 'The Hellenistic Era' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/6-3-the-hellenistic-era\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/6-3-the-hellenistic-era</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "OpenStax, <em>World History, Volume 1</em>, 'The Roman Economy: Trade, Taxes, and Conquest' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/7-3-the-roman-economy-trade-taxes-and-conquest\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/7-3-the-roman-economy-trade-taxes-and-conquest</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "The Metropolitan Museum of Art, 'Art of the Hellenistic Age and the Hellenistic Tradition' — <a href=\"https://www.metmuseum.org/pt/essays/art-of-the-hellenistic-age-and-the-hellenistic-tradition\" rel=\"noopener\">https://www.metmuseum.org/pt/essays/art-of-the-hellenistic-age-and-the-hellenistic-tradition</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "The Metropolitan Museum of Art, 'The Roman Empire (27 B.C.–393 A.D.)' — <a href=\"https://www.metmuseum.org/pt/essays/the-roman-empire-27-b-c-393-a-d\" rel=\"noopener\">https://www.metmuseum.org/pt/essays/the-roman-empire-27-b-c-393-a-d</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "The Metropolitan Museum of Art, 'List of Rulers of the Roman Empire' — <a href=\"https://www.metmuseum.org/it/toah/hd/roru/hd_roru.htm\" rel=\"noopener\">https://www.metmuseum.org/it/toah/hd/roru/hd_roru.htm</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "The Metropolitan Museum of Art, 'Pergamon and the Hellenistic Kingdoms of the Ancient World' — <a href=\"https://www.metmuseum.org/exhibitions/listings/2016/pergamon\" rel=\"noopener\">https://www.metmuseum.org/exhibitions/listings/2016/pergamon</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "UNESCO Memory of the World, 'Constitutio Antoniniana' — <a href=\"https://www.unesco.org/en/memory-world/constitutio-antoniniana\" rel=\"noopener\">https://www.unesco.org/en/memory-world/constitutio-antoniniana</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "Oxford Classical Dictionary, 'Constitutio Antoniniana' — <a href=\"https://academic.oup.com/edited-volume/61673/chapter-abstract/548724731\" rel=\"noopener\">https://academic.oup.com/edited-volume/61673/chapter-abstract/548724731</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "Papyrus Gissensis 40 research, 'The Text of the Edict' — <a href=\"https://www.constitutio.de/en/constitutio-antoniniana/the-text-of-the-edict\" rel=\"noopener\">https://www.constitutio.de/en/constitutio-antoniniana/the-text-of-the-edict</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "University of St Andrews, Myles Lavan, 'The Spread of Roman Citizenship, 14–212 CE' — <a href=\"https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/12646/Lavan_2016_PandP_SpreadRomanCitizenship_RevisedAAM.pdf?sequence=1\" rel=\"noopener\">https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/12646/Lavan_2016_PandP_SpreadRomanCitizenship_RevisedAAM.pdf?sequence=1</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "Open University, 'Life on the Wall: Vindolanda' — <a href=\"https://www.open.edu/openlearn/history-the-arts/history/life-on-the-wall-vindolanda\" rel=\"noopener\">https://www.open.edu/openlearn/history-the-arts/history/life-on-the-wall-vindolanda</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "English Heritage, 'Women along the Wall' (Hadrian's Wall education resource) — <a href=\"https://www.english-heritage.org.uk/siteassets/home/learn/teaching-resources/resources-library/hadrians_wall_teachers-kit-2022.pdf\" rel=\"noopener\">https://www.english-heritage.org.uk/siteassets/home/learn/teaching-resources/resources-library/hadrians_wall_teachers-kit-2022.pdf</a>"
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "Bulgarian National Archaeological Institute, <em>Roman and Late Antique Thrace</em>, archaeological research — <a href=\"https://publications.naim.bg/index.php/BNAI/issue/download/36/30\" rel=\"noopener\">https://publications.naim.bg/index.php/BNAI/issue/download/36/30</a>"
+      },
+      {
+        "n": 16,
+        "id": "source-16",
+        "html": "Oxford Classical Dictionary, 'annona (grain)' — <a href=\"https://academic.oup.com/edited-volume/61673/chapter-abstract/548063756\" rel=\"noopener\">https://academic.oup.com/edited-volume/61673/chapter-abstract/548063756</a>"
+      },
+      {
+        "n": 17,
+        "id": "source-17",
+        "html": "Mary Beard, <em>SPQR: A History of Ancient Rome</em> (2015), accessible survey with source criticism."
+      },
+      {
+        "n": 18,
+        "id": "source-18",
+        "html": "Harriet I. Flower, <em>Roman Republics</em> (2010), interpretation emphasizing changes within republican political systems."
+      },
+      {
+        "n": 19,
+        "id": "source-19",
+        "html": "Nathan Rosenstein, <em>Rome at War: Farms, Families, and Death in the Middle Republic</em> (2004), military service and rural society."
+      },
+      {
+        "n": 20,
+        "id": "source-20",
+        "html": "Adrian Goldsworthy, <em>The Fall of Carthage: The Punic Wars 265–146 BC</em> (2000), military and political narrative."
+      },
+      {
+        "n": 21,
+        "id": "source-21",
+        "html": "Andrew Lintott, <em>The Constitution of the Roman Republic</em> (1999), magistracies, law and assemblies."
+      },
+      {
+        "n": 22,
+        "id": "source-22",
+        "html": "Clifford Ando, <em>Imperial Rome AD 193 to 284: The Critical Century</em> (2012), the contested third century."
+      },
+      {
+        "n": 23,
+        "id": "source-23",
+        "html": "Peter Heather, <em>The Fall of the Roman Empire: A New History of Rome and the Barbarians</em> (2005), military and political argument to compare critically."
+      },
+      {
+        "n": 24,
+        "id": "source-24",
+        "html": "Bryan Ward-Perkins, <em>The Fall of Rome and the End of Civilization</em> (2005), material-evidence approach to western transformation."
+      },
+      {
+        "n": 25,
+        "id": "source-25",
+        "html": "Chris Wickham, <em>The Inheritance of Rome: A History of Europe from 400 to 1000</em> (2009), post-Roman regional variation."
+      },
+      {
+        "n": 26,
+        "id": "source-26",
+        "html": "Peter Brown, <em>The World of Late Antiquity: AD 150–750</em> (1971), transformation and cultural history."
+      },
+      {
+        "n": 27,
+        "id": "source-27",
+        "html": "Polybius, <em>Histories</em>, especially Book 6 on Roman political institutions; read as second-century BCE analysis."
+      },
+      {
+        "n": 28,
+        "id": "source-28",
+        "html": "Cicero, <em>On the Republic</em> and selected speeches; contemporary elite arguments rather than a neutral constitutional manual."
+      },
+      {
+        "n": 29,
+        "id": "source-29",
+        "html": "Augustus, <em>Res Gestae Divi Augusti</em>, imperial autobiography and public inscription; read as persuasive self-presentation."
+      },
+      {
+        "n": 30,
+        "id": "source-30",
+        "html": "Livy, <em>Ab Urbe Condita</em>, early Roman history; compare later narrative tradition with archaeology."
+      },
+      {
+        "n": 31,
+        "id": "source-31",
+        "html": "Tacitus, <em>Annals</em>, senatorial interpretation of the early emperors; compare against inscriptions and coins."
+      },
+      {
+        "n": 32,
+        "id": "source-32",
+        "html": "Ammianus Marcellinus, <em>Res Gestae</em>, essential late-Roman narrative requiring contextual interpretation."
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "018": {
+    "title": "Sources and further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "UNESCO World Heritage Centre, 'Great Zimbabwe National Monument' — <a href=\"https://whc.unesco.org/en/list/364/\" rel=\"noopener\">https://whc.unesco.org/en/list/364/</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "The Metropolitan Museum of Art, 'Great Zimbabwe (11th–15th Century)' — <a href=\"https://www.metmuseum.org/essays/great-zimbabwe-11th-15th-century\" rel=\"noopener\">https://www.metmuseum.org/essays/great-zimbabwe-11th-15th-century</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "UNESCO World Heritage Centre, 'Aksum' — <a href=\"https://whc.unesco.org/en/list/15/\" rel=\"noopener\">https://whc.unesco.org/en/list/15/</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "The Metropolitan Museum of Art, 'Monumental Architecture of the Aksumite Empire' — <a href=\"https://www.metmuseum.org/essays/monumental-architecture-and-stelae-of-the-aksumite-empire\" rel=\"noopener\">https://www.metmuseum.org/essays/monumental-architecture-and-stelae-of-the-aksumite-empire</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "UNESCO World Heritage Centre, 'Rock-Hewn Churches, Lalibela' — <a href=\"https://whc.unesco.org/en/list/18/\" rel=\"noopener\">https://whc.unesco.org/en/list/18/</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "UNESCO World Heritage Centre, 'Timbuktu' — <a href=\"https://whc.unesco.org/en/list/119/\" rel=\"noopener\">https://whc.unesco.org/en/list/119/</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "UNESCO World Heritage Centre, 'Old Towns of Djenné' — <a href=\"https://whc.unesco.org/en/list/116/\" rel=\"noopener\">https://whc.unesco.org/en/list/116/</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "UNESCO World Heritage Centre, 'Ruins of Kilwa Kisiwani and Ruins of Songo Mnara' — <a href=\"https://whc.unesco.org/en/list/144/\" rel=\"noopener\">https://whc.unesco.org/en/list/144/</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "The Metropolitan Museum of Art, 'The Trans-Saharan Gold Trade (7th–14th Century)' — <a href=\"https://www.metmuseum.org/essays/the-trans-saharan-gold-trade-7th-14th-century\" rel=\"noopener\">https://www.metmuseum.org/essays/the-trans-saharan-gold-trade-7th-14th-century</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "The Metropolitan Museum of Art, 'Western and Central Sudan, 1000–1400 A.D.' — <a href=\"https://www.metmuseum.org/toah/ht/07/afu.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/07/afu.html</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "The Metropolitan Museum of Art, 'Sahel: Art and Empires on the Shores of the Sahara' — <a href=\"https://www.metmuseum.org/exhibitions/sahel-art-empire-sahara\" rel=\"noopener\">https://www.metmuseum.org/exhibitions/sahel-art-empire-sahara</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "The Metropolitan Museum of Art, 'Benin Chronology' — <a href=\"https://www.metmuseum.org/essays/benin-chronology\" rel=\"noopener\">https://www.metmuseum.org/essays/benin-chronology</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "The Metropolitan Museum of Art, 'Recovering the Brilliance of a Benin Bronze' — <a href=\"https://www.metmuseum.org/essays/recovering-benin-bronze\" rel=\"noopener\">https://www.metmuseum.org/essays/recovering-benin-bronze</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "The Metropolitan Museum of Art, 'Nok Terracottas (500 B.C.–200 A.D.)' — <a href=\"https://www.metmuseum.org/essays/nok-terracottas-500-b-c-200-a-d\" rel=\"noopener\">https://www.metmuseum.org/essays/nok-terracottas-500-b-c-200-a-d</a>"
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "OpenStax, World History, Volume 1, 'The Emergence of Farming and the Bantu Migrations' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/9-2-the-emergence-of-farming-and-the-bantu-migrations\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/9-2-the-emergence-of-farming-and-the-bantu-migrations</a>"
+      },
+      {
+        "n": 16,
+        "id": "source-16",
+        "html": "OpenStax, World History, Volume 1, 'Medieval Sub-Saharan Africa' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/15-2-medieval-sub-saharan-africa\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/15-2-medieval-sub-saharan-africa</a>"
+      },
+      {
+        "n": 17,
+        "id": "source-17",
+        "html": "John Iliffe, Africans: The History of a Continent, revised edition (Cambridge University Press), broad comparative synthesis."
+      },
+      {
+        "n": 18,
+        "id": "source-18",
+        "html": "François-Xavier Fauvelle, The Golden Rhinoceros: Histories of the African Middle Ages (Princeton University Press), connected regional histories."
+      },
+      {
+        "n": 19,
+        "id": "source-19",
+        "html": "Toby Green, A Fistful of Shells: West Africa from the Rise of the Slave Trade to the Age of Revolution (University of Chicago Press), economies and power; extends beyond this chapter."
+      },
+      {
+        "n": 20,
+        "id": "source-20",
+        "html": "Nehemia Levtzion and J. F. P. Hopkins, Corpus of Early Arabic Sources for West African History (Cambridge University Press), translated primary texts and context."
+      },
+      {
+        "n": 21,
+        "id": "source-21",
+        "html": "Michael A. Gomez, African Dominion: A New History of Empire in Early and Medieval West Africa (Princeton University Press), political history and interpretation."
+      },
+      {
+        "n": 22,
+        "id": "source-22",
+        "html": "Stephanie Wynne-Jones and Adria LaViolette, eds., The Swahili World (Routledge), archaeology and Indian Ocean connections."
+      },
+      {
+        "n": 23,
+        "id": "source-23",
+        "html": "Shadreck Chirikure, Great Zimbabwe: Reclaiming a 'Confiscated' Past (Routledge), regional archaeology and interpretation."
+      },
+      {
+        "n": 24,
+        "id": "source-24",
+        "html": "Catherine Coquery-Vidrovitch, African Women: A Modern History (Westview), comparative perspectives on women's social roles; largely later period."
+      },
+      {
+        "n": 25,
+        "id": "source-25",
+        "html": "The Metropolitan Museum of Art, Heilbrunn Timeline of Art History, essays on the arts of Ife, Benin and Kongo — <a href=\"https://www.metmuseum.org/toah/\" rel=\"noopener\">https://www.metmuseum.org/toah/</a>"
+      },
+      {
+        "n": 26,
+        "id": "source-26",
+        "html": "UNESCO General History of Africa, multivolume historical series and online resources — <a href=\"https://www.unesco.org/en/general-history-africa\" rel=\"noopener\">https://www.unesco.org/en/general-history-africa</a>"
+      },
+      {
+        "n": 27,
+        "id": "source-27",
+        "html": "D. T. Niane, Sundiata: An Epic of Old Mali (trans. G. D. Pickett), an edited oral-epic tradition to be read as a literary historical source."
+      },
+      {
+        "n": 28,
+        "id": "source-28",
+        "html": "Ibn Battuta, Travels, passages concerning Mali; the traveler's recollections and their compilation require source criticism."
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "019": {
+    "title": "Sources and further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "UNESCO, 'Sacred City of Caral-Supe' — <a href=\"https://whc.unesco.org/en/list/1269/\" rel=\"noopener\">https://whc.unesco.org/en/list/1269/</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "The Metropolitan Museum of Art, 'Olmec Art' — <a href=\"https://www.metmuseum.org/essays/olmec-art\" rel=\"noopener\">https://www.metmuseum.org/essays/olmec-art</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "UNESCO, 'Pre-Hispanic City of Teotihuacan' — <a href=\"https://whc.unesco.org/en/list/414/\" rel=\"noopener\">https://whc.unesco.org/en/list/414/</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "UNESCO, 'Tikal National Park' — <a href=\"https://whc.unesco.org/en/list/64/\" rel=\"noopener\">https://whc.unesco.org/en/list/64/</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "UNESCO, 'Pre-Hispanic City of Chichen-Itza' — <a href=\"https://whc.unesco.org/en/list/483/\" rel=\"noopener\">https://whc.unesco.org/en/list/483/</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "Smithsonian National Museum of the American Indian, 'Infinity of Nations: Mesoamerica/Caribbean' — <a href=\"https://americanindian.si.edu/exhibitions/infinityofnations/mesoamerica-caribbean.html\" rel=\"noopener\">https://americanindian.si.edu/exhibitions/infinityofnations/mesoamerica-caribbean.html</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "The Metropolitan Museum of Art, 'Tenochtitlan' — <a href=\"https://www.metmuseum.org/essays/tenochtitlan\" rel=\"noopener\">https://www.metmuseum.org/essays/tenochtitlan</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "Smithsonian Institution, 'Mexican America: History' — <a href=\"https://www.si.edu/spotlight/mexican-america/history\" rel=\"noopener\">https://www.si.edu/spotlight/mexican-america/history</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "Library of Congress, 'Cortés and the Aztecs' — <a href=\"https://loc.gov/exhibits/exploring-the-early-americas/cortes-and-the-aztecs.html\" rel=\"noopener\">https://loc.gov/exhibits/exploring-the-early-americas/cortes-and-the-aztecs.html</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "The Metropolitan Museum of Art, 'Central and Southern Andes, 1–500 A.D.' — <a href=\"https://www.metmuseum.org/toah/ht/05/sac.html\" rel=\"noopener\">https://www.metmuseum.org/toah/ht/05/sac.html</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "The Metropolitan Museum of Art, 'Wari Imperial Art' — <a href=\"https://www.metmuseum.org/essays/wari-imperial-art\" rel=\"noopener\">https://www.metmuseum.org/essays/wari-imperial-art</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "Smithsonian National Museum of the American Indian, 'The Great Inka Road: Engineering an Empire' — <a href=\"https://americanindian.si.edu/inkaroad/\" rel=\"noopener\">https://americanindian.si.edu/inkaroad/</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "UNESCO, 'Qhapaq Ñan, Andean Road System' — <a href=\"https://whc.unesco.org/en/list/1459/\" rel=\"noopener\">https://whc.unesco.org/en/list/1459/</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "NIST, 'Standardizing an Empire' (khipus and administration) — <a href=\"https://www.nist.gov/nist-museum/standardizing-empire\" rel=\"noopener\">https://www.nist.gov/nist-museum/standardizing-empire</a>"
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "UNESCO, 'Chaco Culture' — <a href=\"https://whc.unesco.org/en/list/353/\" rel=\"noopener\">https://whc.unesco.org/en/list/353/</a>"
+      },
+      {
+        "n": 16,
+        "id": "source-16",
+        "html": "UNESCO, 'Mesa Verde National Park' — <a href=\"https://whc.unesco.org/en/list/27/\" rel=\"noopener\">https://whc.unesco.org/en/list/27/</a>"
+      },
+      {
+        "n": 17,
+        "id": "source-17",
+        "html": "U.S. National Park Service, 'Proto-Historic Period' (Chaco and descendant connections) — <a href=\"https://www.nps.gov/chcu/learn/historyculture/proto-historic-period.htm\" rel=\"noopener\">https://www.nps.gov/chcu/learn/historyculture/proto-historic-period.htm</a>"
+      },
+      {
+        "n": 18,
+        "id": "source-18",
+        "html": "UNESCO, 'Cahokia Mounds State Historic Site' — <a href=\"https://whc.unesco.org/en/list/198/\" rel=\"noopener\">https://whc.unesco.org/en/list/198/</a>"
+      },
+      {
+        "n": 19,
+        "id": "source-19",
+        "html": "U.S. National Park Service, 'Monumental Earthworks of Poverty Point' — <a href=\"https://www.nps.gov/articles/000/monumental-earthworks-of-poverty-point-world-heritage-site.htm\" rel=\"noopener\">https://www.nps.gov/articles/000/monumental-earthworks-of-poverty-point-world-heritage-site.htm</a>"
+      },
+      {
+        "n": 20,
+        "id": "source-20",
+        "html": "UNESCO, 'Taos Pueblo' — <a href=\"https://whc.unesco.org/en/list/492/\" rel=\"noopener\">https://whc.unesco.org/en/list/492/</a>"
+      },
+      {
+        "n": 21,
+        "id": "source-21",
+        "html": "S. Rostain et al., 'Two Thousand Years of Garden Urbanism in the Upper Amazon,' Science 383 (2024): 183–189 — <a href=\"https://pubmed.ncbi.nlm.nih.gov/38207020/\" rel=\"noopener\">https://pubmed.ncbi.nlm.nih.gov/38207020/</a>"
+      },
+      {
+        "n": 22,
+        "id": "source-22",
+        "html": "H. Prümers et al., 'Lidar reveals pre-Hispanic low-density urbanism in the Bolivian Amazon,' Nature 606 (2022): 325–328 — <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9177426/\" rel=\"noopener\">https://pmc.ncbi.nlm.nih.gov/articles/PMC9177426/</a>"
+      },
+      {
+        "n": 23,
+        "id": "source-23",
+        "html": "'Maize monoculture supported pre-Columbian urbanism in southwestern Amazonia,' Nature 639 (2025): 119–123 — <a href=\"https://www.nature.com/articles/s41586-024-08473-y\" rel=\"noopener\">https://www.nature.com/articles/s41586-024-08473-y</a>"
+      },
+      {
+        "n": 24,
+        "id": "source-24",
+        "html": "OpenStax, World History, vol. 1, 'Early Cultures and Civilizations in the Americas' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/8-2-early-cultures-and-civilizations-in-the-americas\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/8-2-early-cultures-and-civilizations-in-the-americas</a>"
+      },
+      {
+        "n": 25,
+        "id": "source-25",
+        "html": "Michael D. Coe and Stephen Houston, The Maya, 9th edition (Thames &amp; Hudson), broad scholarly introduction."
+      },
+      {
+        "n": 26,
+        "id": "source-26",
+        "html": "Charles C. Mann, 1491: New Revelations of the Americas Before Columbus (Vintage), accessible synthesis; evaluate contested claims against current research."
+      },
+      {
+        "n": 27,
+        "id": "source-27",
+        "html": "Michael E. Smith, The Aztecs, 3rd edition (Wiley-Blackwell), accessible archaeological and political overview."
+      },
+      {
+        "n": 28,
+        "id": "source-28",
+        "html": "Terence N. D'Altroy, The Incas, 2nd edition (Wiley-Blackwell), archaeology, society and administration."
+      },
+      {
+        "n": 29,
+        "id": "source-29",
+        "html": "Pauketat, Timothy R., Cahokia: Ancient America's Great City on the Mississippi (Viking), urban history and interpretation."
+      },
+      {
+        "n": 30,
+        "id": "source-30",
+        "html": "Smithsonian National Museum of the American Indian, Native Knowledge 360° resources and living Indigenous perspectives — <a href=\"https://americanindian.si.edu/nk360\" rel=\"noopener\">https://americanindian.si.edu/nk360</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "020": {
+    "title": "Sources and further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "OpenStax, World History vol. 1, 'The Rise and Message of Islam' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/11-1-the-rise-and-message-of-islam\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/11-1-the-rise-and-message-of-islam</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "OpenStax, World History vol. 1, 'The Arab-Islamic Conquests and the First Islamic States' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/11-2-the-arab-islamic-conquests-and-the-first-islamic-states\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/11-2-the-arab-islamic-conquests-and-the-first-islamic-states</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "OpenStax, World History vol. 1, 'Islamization and Religious Rule under Islam' — <a href=\"https://openstax.org/books/world-history-volume-1/pages/11-3-islamization-and-religious-rule-under-islam\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/11-3-islamization-and-religious-rule-under-islam</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "The Metropolitan Museum of Art, 'Arabian Peninsula, 500–1000 A.D.' — <a href=\"https://www.metmuseum.org/fr/toah/ht/06/wap.html\" rel=\"noopener\">https://www.metmuseum.org/fr/toah/ht/06/wap.html</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "The Metropolitan Museum of Art, 'Iraq (Mesopotamia), 500–1000 A.D.' — <a href=\"https://www.metmuseum.org/ja/toah/ht/06/wam.html\" rel=\"noopener\">https://www.metmuseum.org/ja/toah/ht/06/wam.html</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "The Metropolitan Museum of Art, 'Iran, 500–1000 A.D.' — <a href=\"https://www.metmuseum.org/de/toah/ht/06/wai.html\" rel=\"noopener\">https://www.metmuseum.org/de/toah/ht/06/wai.html</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "The Metropolitan Museum of Art, 'The Art of the Umayyad Period (661–750)' — <a href=\"https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750\" rel=\"noopener\">https://www.metmuseum.org/essays/the-art-of-the-umayyad-period-661-750</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "The Metropolitan Museum of Art, 'The Art of the Abbasid Period (750–1258)' — <a href=\"https://www.metmuseum.org/ja/essays/the-art-of-the-abbasid-period-750-1258\" rel=\"noopener\">https://www.metmuseum.org/ja/essays/the-art-of-the-abbasid-period-750-1258</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "University of Birmingham, 'What Is the Birmingham Qur'an?' — <a href=\"https://www.birmingham.ac.uk/facilities/cadbury/birmingham-quran-mingana-collection/birmingham-quran/what-is\" rel=\"noopener\">https://www.birmingham.ac.uk/facilities/cadbury/birmingham-quran-mingana-collection/birmingham-quran/what-is</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "University of Birmingham, 'The Birmingham Qur'an: Frequently Asked Questions' — <a href=\"https://www.birmingham.ac.uk/facilities/cadbury/birmingham-quran-mingana-collection/birmingham-quran/faqs\" rel=\"noopener\">https://www.birmingham.ac.uk/facilities/cadbury/birmingham-quran-mingana-collection/birmingham-quran/faqs</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "Chase F. Robinson (ed.), The New Cambridge History of Islam, vol. 1: The Formation of the Islamic World, Sixth to Eleventh Centuries (Cambridge University Press, 2010)."
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "Fred M. Donner, <em>Muhammad and the Believers: At the Origins of Islam</em> (Harvard University Press, 2010), interpretation of the earliest community."
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "Sean W. Anthony, <em>Muhammad and the Empires of Faith</em> (University of California Press, 2020), traditional and documentary evidence."
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "Robert G. Hoyland, <em>In God's Path: The Arab Conquests and the Creation of an Islamic Empire</em> (Oxford University Press, 2015), conquests and the early state."
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "Hugh Kennedy, <em>The Great Arab Conquests</em> (Da Capo, 2007), narrative military and political history."
+      },
+      {
+        "n": 16,
+        "id": "source-16",
+        "html": "Hugh Kennedy, The Prophet and the Age of the Caliphates, 3rd ed. (Routledge, 2015), regional political development."
+      },
+      {
+        "n": 17,
+        "id": "source-17",
+        "html": "Wilferd Madelung, <em>The Succession to Muhammad</em> (Cambridge University Press, 1997), a scholarly interpretation of leadership disputes; compare multiple perspectives."
+      },
+      {
+        "n": 18,
+        "id": "source-18",
+        "html": "Michael Lecker, <em>The 'Constitution of Medina': Muhammad's First Legal Document</em> (Darwin Press, 2004), historical interpretation of the treaty traditions."
+      },
+      {
+        "n": 19,
+        "id": "source-19",
+        "html": "Cambridge University Press, 'The Kitab al-Umma, or Sahifat al-Madina' — <a href=\"https://www.cambridge.org/core/books/abs/islamic-law-in-context/kitab-alumma-or-sahifat-almadina/8CED59AC00F571302E610A016042EC4B\" rel=\"noopener\">https://www.cambridge.org/core/books/abs/islamic-law-in-context/kitab-alumma-or-sahifat-almadina/8CED59AC00F571302E610A016042EC4B</a>"
+      },
+      {
+        "n": 20,
+        "id": "source-20",
+        "html": "Oxford Reference, 'The Constitution of Medina' — <a href=\"https://academic.oup.com/reference/62361/reference-article-abstract/554576238\" rel=\"noopener\">https://academic.oup.com/reference/62361/reference-article-abstract/554576238</a>"
+      },
+      {
+        "n": 21,
+        "id": "source-21",
+        "html": "Smarthistory, 'Continuity and Innovation: Early Islamic Art and Architecture' — <a href=\"https://smarthistory.org/reframing-art-history/early-islamic-art-and-architecture-umayyads-abbasids/\" rel=\"noopener\">https://smarthistory.org/reframing-art-history/early-islamic-art-and-architecture-umayyads-abbasids/</a>"
+      },
+      {
+        "n": 22,
+        "id": "source-22",
+        "html": "MIT OpenCourseWare, 'The Splendors of the Abbasids' — <a href=\"https://ocw.mit.edu/courses/4-614-religious-architecture-and-islamic-cultures-fall-2002/pages/lecture-notes/abbasids/\" rel=\"noopener\">https://ocw.mit.edu/courses/4-614-religious-architecture-and-islamic-cultures-fall-2002/pages/lecture-notes/abbasids/</a>"
+      },
+      {
+        "n": 23,
+        "id": "source-23",
+        "html": "The Metropolitan Museum of Art, 'The Eastern Mediterranean, 500–1000 A.D.' — <a href=\"https://www.metmuseum.org/de/toah/ht/06/wae\" rel=\"noopener\">https://www.metmuseum.org/de/toah/ht/06/wae</a>"
+      },
+      {
+        "n": 24,
+        "id": "source-24",
+        "html": "The Metropolitan Museum of Art, 'Western North Africa, 500–1000 A.D.' — <a href=\"https://artistproject.metmuseum.org/toah/ht/06/afw.html\" rel=\"noopener\">https://artistproject.metmuseum.org/toah/ht/06/afw.html</a>"
+      },
+      {
+        "n": 25,
+        "id": "source-25",
+        "html": "Smarthistory, 'Arts of the Islamic World: The Early Period' — <a href=\"https://smarthistory.org/arts-of-the-islamic-world-the-early-period/\" rel=\"noopener\">https://smarthistory.org/arts-of-the-islamic-world-the-early-period/</a>"
+      },
+      {
+        "n": 26,
+        "id": "source-26",
+        "html": "OpenStax, World History vol. 2, 'A Connected Islamic World' — <a href=\"https://openstax.org/books/world-history-volume-2/pages/4-1-a-connected-islamic-world\" rel=\"noopener\">https://openstax.org/books/world-history-volume-2/pages/4-1-a-connected-islamic-world</a>"
+      },
+      {
+        "n": 27,
+        "id": "source-27",
+        "html": "Jonathan A. C. Brown, <em>Hadith: Muhammad's Legacy in the Medieval and Modern World</em>, 2nd ed. (Oneworld, 2017), hadith formation and methodology."
+      },
+      {
+        "n": 28,
+        "id": "source-28",
+        "html": "Wael B. Hallaq, <em>An Introduction to Islamic Law</em> (Cambridge University Press, 2009), legal development and institutions."
+      },
+      {
+        "n": 29,
+        "id": "source-29",
+        "html": "Dimitri Gutas, <em>Greek Thought, Arabic Culture</em> (Routledge, 1998), the Abbasid translation movement."
+      },
+      {
+        "n": 30,
+        "id": "source-30",
+        "html": "Peter Adamson, <em>Philosophy in the Islamic World</em> (Oxford University Press, 2016), intellectual history and cross-cultural scholarship."
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "021": {
+    "title": "Sources and further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "UNESCO, About the Silk Roads — <a href=\"https://www.unesco.org/en/silk-roads/about-silk-roads\" rel=\"noopener\">https://www.unesco.org/en/silk-roads/about-silk-roads</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "UNESCO World Heritage Centre, Chang'an–Tianshan Corridor — <a href=\"https://whc.unesco.org/en/list/1442/\" rel=\"noopener\">https://whc.unesco.org/en/list/1442/</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "UNESCO World Heritage Centre, Zarafshan–Karakum Corridor — <a href=\"https://whc.unesco.org/en/list/1675\" rel=\"noopener\">https://whc.unesco.org/en/list/1675</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "Metropolitan Museum of Art, Internationalism in the Tang Dynasty — <a href=\"https://www.metmuseum.org/it/essays/internationalism-in-the-tang-dynasty-618-906\" rel=\"noopener\">https://www.metmuseum.org/it/essays/internationalism-in-the-tang-dynasty-618-906</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "The Metropolitan Museum of Art, Trade and Travel (Art of the Islamic World) — <a href=\"https://www.metmuseum.org/pt/learn/educators/curriculum-resources/art-of-the-islamic-world/unit-seven/chapter-one/trade-and-travel\" rel=\"noopener\">https://www.metmuseum.org/pt/learn/educators/curriculum-resources/art-of-the-islamic-world/unit-seven/chapter-one/trade-and-travel</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "Smithsonian National Museum of Asian Art, Center of the World: China and the Silk Road — <a href=\"https://asia.si.edu/whats-on/exhibitions/center-of-the-world/\" rel=\"noopener\">https://asia.si.edu/whats-on/exhibitions/center-of-the-world/</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "International Dunhuang Programme, Multicultural Dunhuang — <a href=\"https://idp.bl.uk/discover/learning/dunhuang/dunhuang-articles/the-cultural-melting-pot/multicultural-dunhuang/\" rel=\"noopener\">https://idp.bl.uk/discover/learning/dunhuang/dunhuang-articles/the-cultural-melting-pot/multicultural-dunhuang/</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "International Dunhuang Programme, Buddhist Travellers and Pilgrims — <a href=\"https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/transmission-of-buddhism/buddhist-travellers-and-pilgrims/\" rel=\"noopener\">https://idp.bl.uk/discover/learning/buddhism-on-the-silk-roads/articles/transmission-of-buddhism/buddhist-travellers-and-pilgrims/</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "International Dunhuang Programme, Sogdian Ancient Letters (bibliographic overview) — <a href=\"https://idp.bl.uk/references/Sims-Williams_2004/\" rel=\"noopener\">https://idp.bl.uk/references/Sims-Williams_2004/</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "OpenStax, World History, East–West Interactions in the Early Middle Ages — <a href=\"https://openstax.org/books/world-history-volume-1/pages/12-2-east-west-interactions-in-the-early-middle-ages\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/12-2-east-west-interactions-in-the-early-middle-ages</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "OpenStax, World History, Border States: Sogdiana, Korea and Japan — <a href=\"https://openstax.org/books/world-history-volume-1/pages/12-3-border-states-sogdiana-korea-and-japan\" rel=\"noopener\">https://openstax.org/books/world-history-volume-1/pages/12-3-border-states-sogdiana-korea-and-japan</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "Smarthistory, The Silk Roads — <a href=\"https://smarthistory.org/reframing-art-history/the-silk-roads/\" rel=\"noopener\">https://smarthistory.org/reframing-art-history/the-silk-roads/</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "Encyclopaedia Iranica, Dunhuang: Buddhist and Other Texts in Iranian Languages — <a href=\"https://www.iranicaonline.org/articles/dunhuang-02-buddhist-iranian-language/\" rel=\"noopener\">https://www.iranicaonline.org/articles/dunhuang-02-buddhist-iranian-language/</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "Susan Whitfield and Ursula Sims-Williams (eds.), The Silk Road: Trade, Travel, War and Faith (British Library exhibition catalogue, 2004)."
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "Valerie Hansen, The Silk Road: A New History (Oxford University Press, 2012)."
+      },
+      {
+        "n": 16,
+        "id": "source-16",
+        "html": "Xinru Liu, The Silk Road in World History (Oxford University Press, 2010)."
+      },
+      {
+        "n": 17,
+        "id": "source-17",
+        "html": "Étienne de la Vaissière, Sogdian Traders: A History (Brill, 2005)."
+      },
+      {
+        "n": 18,
+        "id": "source-18",
+        "html": "Richard Foltz, Religions of the Silk Road (Palgrave Macmillan, revised editions)."
+      },
+      {
+        "n": 19,
+        "id": "source-19",
+        "html": "Mark Edward Lewis, China's Cosmopolitan Empire: The Tang Dynasty (Harvard University Press, 2009)."
+      },
+      {
+        "n": 20,
+        "id": "source-20",
+        "html": "UNESCO World Heritage Centre, Archaeological Site of Nalanda Mahavihara — <a href=\"https://whc.unesco.org/en/list/1502\" rel=\"noopener\">https://whc.unesco.org/en/list/1502</a>"
+      },
+      {
+        "n": 21,
+        "id": "source-21",
+        "html": "Angela Schottenhammer (ed.), The East Asian Mediterranean: Maritime Crossroads of Culture, Commerce and Human Migration (Harrassowitz, 2008)."
+      },
+      {
+        "n": 22,
+        "id": "source-22",
+        "html": "Kenneth R. Hall, A History of Early Southeast Asia: Maritime Trade and Societal Development, 100–1500 (Rowman &amp; Littlefield, 2011)."
+      },
+      {
+        "n": 23,
+        "id": "source-23",
+        "html": "Asian Civilisations Museum, The Tang Shipwreck: Art and Exchange in the 9th Century — <a href=\"https://www.nhb.gov.sg/acm/acm-online/publications/the-tang-shipreck-art-and-exchange-9th-century\" rel=\"noopener\">https://www.nhb.gov.sg/acm/acm-online/publications/the-tang-shipreck-art-and-exchange-9th-century</a>"
+      },
+      {
+        "n": 24,
+        "id": "source-24",
+        "html": "Richard Bulliet, The Camel and the Wheel (Columbia University Press, 1975)."
+      },
+      {
+        "n": 25,
+        "id": "source-25",
+        "html": "Peter Frankopan, The Silk Roads: A New History of the World (Bloomsbury, 2015), a broad synthetic interpretation to read critically."
+      },
+      {
+        "n": 26,
+        "id": "source-26",
+        "html": "UNESCO, Silk Roads Programme — <a href=\"https://www.unesco.org/en/silkroads/about-programme\" rel=\"noopener\">https://www.unesco.org/en/silkroads/about-programme</a>"
+      },
+      {
+        "n": 27,
+        "id": "source-27",
+        "html": "OpenStax, World History Volume 1: to 1500 (full textbook) — <a href=\"https://openstax.org/details/books/world-history-volume-1\" rel=\"noopener\">https://openstax.org/details/books/world-history-volume-1</a>"
+      },
+      {
+        "n": 28,
+        "id": "source-28",
+        "html": "International Dunhuang Programme, Two Precious Items Copied by a Sogdian Scribe — <a href=\"https://idp.bl.uk/blog/two-precious-items-copied-by-a-sogdian-scribe/\" rel=\"noopener\">https://idp.bl.uk/blog/two-precious-items-copied-by-a-sogdian-scribe/</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  },
+  "022": {
+    "title": "Sources and further reading",
+    "intro": [],
+    "entries": [
+      {
+        "n": 1,
+        "id": "source-1",
+        "html": "Royal Armouries, The Mongols: overview — <a href=\"https://royalarmouries.org/objects-and-stories/stories/the-mongols\" rel=\"noopener\">https://royalarmouries.org/objects-and-stories/stories/the-mongols</a>"
+      },
+      {
+        "n": 2,
+        "id": "source-2",
+        "html": "Royal Armouries, Rise of the Mongols — <a href=\"https://royalarmouries.org/objects-and-stories/stories/the-mongols/rise-of-the-mongols\" rel=\"noopener\">https://royalarmouries.org/objects-and-stories/stories/the-mongols/rise-of-the-mongols</a>"
+      },
+      {
+        "n": 3,
+        "id": "source-3",
+        "html": "Royal Armouries, Arms and Armour of the Mongol Empire — <a href=\"https://royalarmouries.org/objects-and-stories/stories/the-mongols/arms-and-armour-of-the-mongol-empire\" rel=\"noopener\">https://royalarmouries.org/objects-and-stories/stories/the-mongols/arms-and-armour-of-the-mongol-empire</a>"
+      },
+      {
+        "n": 4,
+        "id": "source-4",
+        "html": "Cambridge History of the Mongol Empire, Mongol Imperial Institutions — <a href=\"https://www.cambridge.org/core/books/abs/cambridge-history-of-the-mongol-empire/mongol-imperial-institutions/8EF7D5D37D74CBB188999301C082D380\" rel=\"noopener\">https://www.cambridge.org/core/books/abs/cambridge-history-of-the-mongol-empire/mongol-imperial-institutions/8EF7D5D37D74CBB188999301C082D380</a>"
+      },
+      {
+        "n": 5,
+        "id": "source-5",
+        "html": "Cambridge History of the Mongol Empire, Mongolian Sources — <a href=\"https://www.cambridge.org/core/books/abs/cambridge-history-of-the-mongol-empire/mongolian-sources/CE6ADFCA239D5D7D7A1966799FF1D883\" rel=\"noopener\">https://www.cambridge.org/core/books/abs/cambridge-history-of-the-mongol-empire/mongolian-sources/CE6ADFCA239D5D7D7A1966799FF1D883</a>"
+      },
+      {
+        "n": 6,
+        "id": "source-6",
+        "html": "Cambridge History of the Mongol Empire, Chinese Sources — <a href=\"https://www.cambridge.org/core/books/abs/cambridge-history-of-the-mongol-empire/chinese-sources/E4BDF904D9B9D74A204D68AE1B5CE0E4\" rel=\"noopener\">https://www.cambridge.org/core/books/abs/cambridge-history-of-the-mongol-empire/chinese-sources/E4BDF904D9B9D74A204D68AE1B5CE0E4</a>"
+      },
+      {
+        "n": 7,
+        "id": "source-7",
+        "html": "The Metropolitan Museum of Art, The Legacy of Genghis Khan — <a href=\"https://www.metmuseum.org/ko/essays/the-legacy-of-genghis-khan\" rel=\"noopener\">https://www.metmuseum.org/ko/essays/the-legacy-of-genghis-khan</a>"
+      },
+      {
+        "n": 8,
+        "id": "source-8",
+        "html": "The Metropolitan Museum of Art, Yuan Dynasty (1271–1368) — <a href=\"https://www.metmuseum.org/de/essays/yuan-dynasty-1271-1368\" rel=\"noopener\">https://www.metmuseum.org/de/essays/yuan-dynasty-1271-1368</a>"
+      },
+      {
+        "n": 9,
+        "id": "source-9",
+        "html": "The Metropolitan Museum of Art, The Art of the Ilkhanid Period — <a href=\"https://www.metmuseum.org/ja/essays/the-art-of-the-ilkhanid-period-1256-1353\" rel=\"noopener\">https://www.metmuseum.org/ja/essays/the-art-of-the-ilkhanid-period-1256-1353</a>"
+      },
+      {
+        "n": 10,
+        "id": "source-10",
+        "html": "Encyclopaedia Iranica, Mongols: The People — <a href=\"https://www.iranicaonline.org/articles/mongols-index/mongols-i-the-people/\" rel=\"noopener\">https://www.iranicaonline.org/articles/mongols-index/mongols-i-the-people/</a>"
+      },
+      {
+        "n": 11,
+        "id": "source-11",
+        "html": "Encyclopaedia Iranica, Hülegü Khan — <a href=\"https://www.iranicaonline.org/articles/hulagu-khan/\" rel=\"noopener\">https://www.iranicaonline.org/articles/hulagu-khan/</a>"
+      },
+      {
+        "n": 12,
+        "id": "source-12",
+        "html": "Encyclopaedia Iranica, Il-Khanids: Dynastic History — <a href=\"https://www.iranicaonline.org/articles/il-khanids-i-dynastic-history/\" rel=\"noopener\">https://www.iranicaonline.org/articles/il-khanids-i-dynastic-history/</a>"
+      },
+      {
+        "n": 13,
+        "id": "source-13",
+        "html": "Encyclopaedia Iranica, Jame al-Tawarikh — <a href=\"https://www.iranicaonline.org/articles/jame-al-tawarik/\" rel=\"noopener\">https://www.iranicaonline.org/articles/jame-al-tawarik/</a>"
+      },
+      {
+        "n": 14,
+        "id": "source-14",
+        "html": "Encyclopaedia Iranica, Juvayni, Ata-Malik — <a href=\"https://www.iranicaonline.org/articles/jovayni-ala-al-din/\" rel=\"noopener\">https://www.iranicaonline.org/articles/jovayni-ala-al-din/</a>"
+      },
+      {
+        "n": 15,
+        "id": "source-15",
+        "html": "UNESCO Silk Roads programme, The Mongol Empire in the 13th–14th Centuries — <a href=\"https://en.unesco.org/silkroad/sites/default/files/knowledge-bank-article/the%20mongol%20empire%20in%20the%20thirteenth%20and%20fourteenth%20centuries.pdf\" rel=\"noopener\">https://en.unesco.org/silkroad/sites/default/files/knowledge-bank-article/the%20mongol%20empire%20in%20the%20thirteenth%20and%20fourteenth%20centuries.pdf</a>"
+      },
+      {
+        "n": 16,
+        "id": "source-16",
+        "html": "Anne F. Broadbridge, <em>Women and the Making of the Mongol Empire</em> (Cambridge University Press, 2018)."
+      },
+      {
+        "n": 17,
+        "id": "source-17",
+        "html": "Timothy May, <em>The Mongol Art of War</em> (Westholme, 2007)."
+      },
+      {
+        "n": 18,
+        "id": "source-18",
+        "html": "Timothy May, <em>The Mongol Empire</em> (Edinburgh University Press, 2018)."
+      },
+      {
+        "n": 19,
+        "id": "source-19",
+        "html": "David Morgan, <em>The Mongols</em> (Blackwell, 2nd edition, 2007)."
+      },
+      {
+        "n": 20,
+        "id": "source-20",
+        "html": "Peter Jackson, <em>The Mongols and the Islamic World: From Conquest to Conversion</em> (Yale University Press, 2017)."
+      },
+      {
+        "n": 21,
+        "id": "source-21",
+        "html": "Michal Biran, <em>The Empire of the Qara Khitai in Eurasian History</em> (Cambridge University Press, 2005), for Central Asian context."
+      },
+      {
+        "n": 22,
+        "id": "source-22",
+        "html": "Thomas Allsen, <em>Culture and Conquest in Mongol Eurasia</em> (Cambridge University Press, 2001)."
+      },
+      {
+        "n": 23,
+        "id": "source-23",
+        "html": "Thomas Allsen, <em>Commodity and Exchange in the Mongol Empire: A Cultural History of Islamic Textiles</em> (Cambridge University Press, 1997)."
+      },
+      {
+        "n": 24,
+        "id": "source-24",
+        "html": "Roman Hautala, <em>The Mongols in Eastern Europe</em> (Routledge, 2022), for eastern European and Balkan diplomacy and tribute; doi:10.4324/9780429276217."
+      },
+      {
+        "n": 25,
+        "id": "source-25",
+        "html": "Princeton University / Bowdoin College, Mongol Invasion Scrolls (1274 and 1281) — <a href=\"https://digital.princeton.edu/mongol-invasions/index.php\" rel=\"noopener\">https://digital.princeton.edu/mongol-invasions/index.php</a>"
+      },
+      {
+        "n": 26,
+        "id": "source-26",
+        "html": "Japan National Archives, Japan and Mongolia historical relations, 1274/1281 — <a href=\"https://www.archives.go.jp/about/activity/international/jp_mn50/english/ch01.html\" rel=\"noopener\">https://www.archives.go.jp/about/activity/international/jp_mn50/english/ch01.html</a>"
+      },
+      {
+        "n": 27,
+        "id": "source-27",
+        "html": "Spyrou et al. (2022), The source of the Black Death in fourteenth-century central Eurasia, <em>Nature</em> — <a href=\"https://www.nature.com/articles/s41586-022-04800-3\" rel=\"noopener\">https://www.nature.com/articles/s41586-022-04800-3</a>"
+      },
+      {
+        "n": 28,
+        "id": "source-28",
+        "html": "Hannah Barker (2021), Laying the Corpses to Rest: Grain, Embargoes, and Yersinia pestis in the Black Sea, 1346–48 — <a href=\"https://www.journals.uchicago.edu/doi/10.1086/711596\" rel=\"noopener\">https://www.journals.uchicago.edu/doi/10.1086/711596</a>"
+      },
+      {
+        "n": 29,
+        "id": "source-29",
+        "html": "Monica H. Green (2020), The Four Black Deaths, <em>American Historical Review</em> — <a href=\"https://academic.oup.com/ahr/article/125/5/1601/6040962\" rel=\"noopener\">https://academic.oup.com/ahr/article/125/5/1601/6040962</a>"
+      },
+      {
+        "n": 30,
+        "id": "source-30",
+        "html": "Mongols in World History, Asia for Educators, Columbia University — <a href=\"https://afe.easia.columbia.edu/mongols/china/china4_a.htm\" rel=\"noopener\">https://afe.easia.columbia.edu/mongols/china/china4_a.htm</a>"
+      },
+      {
+        "n": 31,
+        "id": "source-31",
+        "html": "The Metropolitan Museum of Art, Central and North Asia 1000–1400 — <a href=\"https://www.metmuseum.org/it/toah/ht/07/nc\" rel=\"noopener\">https://www.metmuseum.org/it/toah/ht/07/nc</a>"
+      },
+      {
+        "n": 32,
+        "id": "source-32",
+        "html": "UNESCO Silk Roads: the Mongol period, broad overview — <a href=\"https://www.unesco.org/en/silk-roads\" rel=\"noopener\">https://www.unesco.org/en/silk-roads</a>"
+      }
+    ],
+    "further": [],
+    "notes": []
+  }
+}

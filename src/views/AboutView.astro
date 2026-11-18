@@ -1,0 +1,24 @@
+---
+import { render } from 'astro:content';
+import Reading from '../layouts/Reading.astro';
+import MtNotice from '../components/MtNotice.astro';
+import { getBook, getPage, isTranslated } from '../lib/book';
+import { t, langFromPath } from '../i18n/ui';
+
+const lang = langFromPath(Astro.url.pathname);
+const book = getBook(lang);
+const about = await getPage('about', lang);
+if (!about) throw new Error('About page missing — run `npm run import`.');
+const { Content, headings } = await render(about);
+---
+<Reading title={about.data.title} description={about.data.description} part={1} headings={headings}>
+  <article>
+    <header class="page-head">
+      <span class="kicker">{t(lang, 'about.kicker')}</span>
+      <h1>{about.data.title}</h1>
+      <span class="badge">{t(lang, 'edition', { n: book.edition ?? '' })} · {book.editionDate}</span>
+    </header>
+    <div class="column"><MtNotice show={isTranslated(about)} /></div>
+    <div class="prose"><Content /></div>
+  </article>
+</Reading>

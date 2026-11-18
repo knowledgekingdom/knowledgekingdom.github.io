@@ -1,0 +1,231 @@
+---
+import Icon from './Icon.astro';
+import { t, langFromPath } from '../i18n/ui';
+
+interface Card { id: number; front: string; back: string }
+interface Props { chapter: string; cards: Card[]; deckTitle?: string; intro?: string }
+const { chapter, cards, deckTitle, intro } = Astro.props;
+const lang = langFromPath(Astro.url.pathname);
+const keys = ['fc.card', 'fc.front', 'fc.back', 'fc.done', 'fc.doneReview', 'fc.allKnown', 'fc.emptyReview',
+  'fc.onlyReview', 'fc.allCards'] as const;
+const strings = Object.fromEntries(keys.map((k) => [k, t(lang, k)]));
+---
+<section class="fc" data-flashcards data-chapter={chapter} data-strings={JSON.stringify(strings)}>
+  {deckTitle && <p class="kicker fc-deck">{deckTitle}</p>}
+  <p class="fc-lede" data-pagefind-ignore>{t(lang, 'fc.lede')}</p>
+  {intro && <p class="fc-intro" set:html={intro} />}
+
+  <!-- Interactive deck (revealed by JS) -->
+  <div class="fc-app" hidden data-pagefind-ignore>
+    <div class="fc-status" aria-live="polite">
+      <div class="fc-bar" aria-hidden="true"><span class="k"></span><span class="r"></span></div>
+      <div class="fc-counts">
+        <span><i class="dot k"></i>{t(lang, 'fc.known')} <b data-count="known">0</b></span>
+        <span><i class="dot r"></i>{t(lang, 'fc.toReview')} <b data-count="review">0</b></span>
+        <span><i class="dot u"></i>{t(lang, 'fc.unseen')} <b data-count="unseen">0</b></span>
+      </div>
+    </div>
+
+    <div class="fc-stage">
+      <button type="button" class="fc-card" data-card aria-describedby="fc-hint">
+        <span class="fc-inner">
+          <span class="fc-face fc-front">
+            <span class="fc-label">{t(lang, 'fc.front')}<span class="fc-pos" data-pos></span></span>
+            <span class="fc-text" data-front></span>
+          </span>
+          <span class="fc-face fc-back">
+            <span class="fc-label">{t(lang, 'fc.back')}</span>
+            <span class="fc-text" data-back></span>
+          </span>
+        </span>
+      </button>
+      <div class="fc-done" data-done hidden>
+        <p data-done-text></p>
+        <div class="fc-done-actions">
+          <button type="button" class="btn btn-primary" data-action="review-pile"></button>
+          <button type="button" class="btn" data-action="reset"><Icon name="repeat" /> {t(lang, 'fc.reset')}</button>
+        </div>
+      </div>
+    </div>
+    <p id="fc-hint" class="fc-hint">{t(lang, 'fc.tapToFlip')}</p>
+
+    <div class="fc-controls">
+      <button type="button" class="icon-btn fc-nav" data-action="prev" aria-label={t(lang, 'fc.prev')}><Icon name="chevronLeft" /></button>
+      <button type="button" class="btn fc-sort fc-review" data-action="review"><Icon name="repeat" /> {t(lang, 'fc.review')} <kbd>2</kbd></button>
+      <button type="button" class="btn fc-sort fc-got" data-action="known"><Icon name="check" /> {t(lang, 'fc.gotIt')} <kbd>1</kbd></button>
+      <button type="button" class="icon-btn fc-nav" data-action="next" aria-label={t(lang, 'fc.next')}><Icon name="chevronRight" /></button>
+    </div>
+    <div class="fc-tools">
+      <button type="button" class="link-btn" data-action="mode"></button>
+      <button type="button" class="link-btn" data-action="shuffle"><Icon name="shuffle" /> {t(lang, 'fc.shuffle')}</button>
+      <button type="button" class="link-btn" data-action="reset"><Icon name="repeat" /> {t(lang, 'fc.reset')}</button>
+      <span class="fc-keys">{t(lang, 'fc.keys')}</span>
+    </div>
+  </div>
+
+  <!-- Static list: works without JavaScript and is what search indexes -->
+  <ol class="fc-list" data-fc-list>
+    {cards.map((c) => (
+      <li>
+        <details>
+          <summary set:html={c.front} />
+          <div set:html={c.back} />
+        </details>
+      </li>
+    ))}
+  </ol>
+  <script type="application/json" data-deck set:html={JSON.stringify(cards)} />
+</section>
+
+<script>
+  type Card = { id: number; front: string; back: string };
+  type State = { order: number[]; known: number[]; review: number[]; idx: number; mode: 'all' | 'review' };
+
+  for (const root of document.querySelectorAll<HTMLElement>('[data-flashcards]')) {
+    const cards: Card[] = JSON.parse(root.querySelector('[data-deck]')!.textContent || '[]');
+    if (!cards.length) continue;
+    const S: Record<string, string> = JSON.parse(root.dataset.strings || '{}');
+    const fmt = (k: string, v: Record<string, number>) => (S[k] || k).replace(/\{(\w+)\}/g, (_, x) => String(v[x]));
+    const key = `kk-fc-${root.dataset.chapter}`;
+    const byId = new Map(cards.map((c) => [c.id, c]));
+    const app = root.querySelector<HTMLElement>('.fc-app')!;
+    const cardBtn = root.querySelector<HTMLButtonElement>('[data-card]')!;
+    const front = root.querySelector<HTMLElement>('[data-front]')!;
+    const back = root.querySelector<HTMLElement>('[data-back]')!;
+    const pos = root.querySelector<HTMLElement>('[data-pos]')!;
+    const done = root.querySelector<HTMLElement>('[data-done]')!;
+    const doneText = root.querySelector<HTMLElement>('[data-done-text]')!;
+    const modeBtn = root.querySelector<HTMLButtonElement>('[data-action="mode"]')!;
+    const reviewPileBtn = root.querySelector<HTMLButtonElement>('[data-action="review-pile"]')!;
+
+    const fresh = (): State => ({ order: cards.map((c) => c.id), known: [], review: [], idx: 0, mode: 'all' });
+    let st: State = fresh();
+    try {
+      const saved = JSON.parse(localStorage.getItem(key) || 'null');
+      if (saved && Array.isArray(saved.order)) {
+        const ids = new Set(cards.map((c) => c.id));
+        const order = saved.order.filter((id: number) => ids.has(id));
+        cards.forEach((c) => { if (!order.includes(c.id)) order.push(c.id); });
+        st = { ...fresh(), ...saved, order,
+          known: (saved.known || []).filter((id: number) => ids.has(id)),
+          review: (saved.review || []).filter((id: number) => ids.has(id)) };
+      }
+    } catch (e) {}
+    const save = () => { try { localStorage.setItem(key, JSON.stringify(st)); } catch (e) {} };
+
+    let flipped = false;
+    const visible = () => (st.mode === 'review' ? st.order.filter((id) => st.review.includes(id)) : st.order);
+    const sorted = (id: number) => st.known.includes(id) || st.review.includes(id);
+
+    function render() {
+      const list = visible();
+      const k = st.known.length, r = st.review.length, n = cards.length;
+      root.querySelector('[data-count="known"]')!.textContent = String(k);
+      root.querySelector('[data-count="review"]')!.textContent = String(r);
+      root.querySelector('[data-count="unseen"]')!.textContent = String(n - k - r);
+      (root.querySelector('.fc-bar .k') as HTMLElement).style.width = `${(k / n) * 100}%`;
+      (root.querySelector('.fc-bar .r') as HTMLElement).style.width = `${(r / n) * 100}%`;
+      modeBtn.textContent = st.mode === 'review' ? S['fc.allCards'] : `${S['fc.onlyReview']} (${r})`;
+      modeBtn.disabled = st.mode === 'all' && r === 0;
+
+      const finished = st.mode === 'all' ? list.every(sorted) : list.length === 0;
+      if (finished || list.length === 0) {
+        cardBtn.hidden = true;
+        done.hidden = false;
+        doneText.textContent = st.mode === 'review' && list.length === 0 ? S['fc.emptyReview']
+          : k === n ? S['fc.allKnown'] : fmt('fc.done', { k, n });
+        reviewPileBtn.hidden = r === 0;
+        reviewPileBtn.textContent = fmt('fc.doneReview', { r });
+        return;
+      }
+      cardBtn.hidden = false;
+      done.hidden = true;
+      st.idx = Math.min(Math.max(st.idx, 0), list.length - 1);
+      const c = byId.get(list[st.idx])!;
+      front.innerHTML = c.front;
+      back.innerHTML = c.back;
+      pos.textContent = ` · ${fmt('fc.card', { i: st.idx + 1, n: list.length })}`;
+      cardBtn.classList.toggle('is-flipped', flipped);
+      cardBtn.classList.toggle('is-known', st.known.includes(c.id));
+      cardBtn.classList.toggle('is-review', st.review.includes(c.id));
+      cardBtn.setAttribute('aria-label', `${fmt('fc.card', { i: st.idx + 1, n: list.length })}. ${(flipped ? back : front).textContent}`);
+    }
+
+    const go = (delta: number) => {
+      const list = visible();
+      if (!list.length) return;
+      st.idx = (st.idx + delta + list.length) % list.length;
+      flipped = false;
+      cardBtn.classList.add('is-moving');
+      requestAnimationFrame(() => requestAnimationFrame(() => cardBtn.classList.remove('is-moving')));
+      save(); render();
+    };
+    const flip = () => { flipped = !flipped; render(); };
+    const sort = (pile: 'known' | 'review') => {
+      const list = visible();
+      const id = list[st.idx];
+      if (id == null) return;
+      st.known = st.known.filter((x) => x !== id);
+      st.review = st.review.filter((x) => x !== id);
+      st[pile].push(id);
+      flipped = false;
+      const next = visible();
+      if (st.mode === 'review' && pile === 'known') {
+        st.idx = Math.min(st.idx, next.length - 1);
+      } else {
+        // advance to the next unsorted card (or simply the next one in review mode)
+        let i = st.idx;
+        for (let step = 1; step <= next.length; step++) {
+          const j = (st.idx + step) % next.length;
+          if (st.mode === 'review' || !sorted(next[j])) { i = j; break; }
+        }
+        st.idx = i;
+      }
+      save(); render();
+    };
+    const shuffle = () => {
+      const a = [...st.order];
+      for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+      // cards to review come first
+      st.order = [...a.filter((id) => st.review.includes(id)), ...a.filter((id) => !st.review.includes(id))];
+      st.idx = 0; flipped = false; save(); render();
+    };
+    const reset = () => { st = fresh(); flipped = false; save(); render(); };
+
+    root.addEventListener('click', (e) => {
+      const a = (e.target as HTMLElement).closest<HTMLElement>('[data-action]')?.dataset.action;
+      if (!a) return;
+      if (a === 'prev') go(-1);
+      else if (a === 'next') go(1);
+      else if (a === 'known' || a === 'review') sort(a);
+      else if (a === 'shuffle') shuffle();
+      else if (a === 'reset') reset();
+      else if (a === 'mode') { st.mode = st.mode === 'all' ? 'review' : 'all'; st.idx = 0; flipped = false; save(); render(); }
+      else if (a === 'review-pile') { st.mode = 'review'; st.idx = 0; flipped = false; save(); render(); }
+    });
+    let swiped = false;
+    cardBtn.addEventListener('click', () => { if (swiped) { swiped = false; return; } flip(); });
+    document.addEventListener('keydown', (e) => {
+      const el = e.target as HTMLElement;
+      if (e.altKey || e.ctrlKey || e.metaKey || /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName) || el.isContentEditable) return;
+      if (document.querySelector('dialog[open]')) return;
+      if (e.key === ' ' && el !== cardBtn && !el.closest('button, a, summary')) { e.preventDefault(); flip(); }
+      else if (e.key === 'ArrowRight') go(1);
+      else if (e.key === 'ArrowLeft') go(-1);
+      else if (e.key === '1') sort('known');
+      else if (e.key === '2') sort('review');
+    });
+    // Swipe left / right on touch screens
+    let x0: number | null = null;
+    cardBtn.addEventListener('pointerdown', (e) => { if (e.pointerType !== 'mouse') x0 = e.clientX; });
+    cardBtn.addEventListener('pointerup', (e) => {
+      if (x0 == null) return;
+      const dx = e.clientX - x0; x0 = null;
+      if (Math.abs(dx) > 60) { swiped = true; go(dx < 0 ? 1 : -1); }
+    });
+
+    root.querySelector<HTMLElement>('[data-fc-list]')!.hidden = true;
+    app.hidden = false;
+    render();
+  }
+</script>

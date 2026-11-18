@@ -1,0 +1,2925 @@
+{
+  "intro": "Try answering the prompts at the end of each chapter before reading these concise model backs. Return after one day, one week, and one month. Short recall repeated several times is usually more useful than one very long reread.",
+  "chapters": {
+    "001": {
+      "deck": "Evidence and knowledge",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Claim vs evidence",
+          "back": "A claim can be true or false; evidence bears on whether it is true."
+        },
+        {
+          "id": 2,
+          "front": "Truth vs confidence",
+          "back": "Truth concerns reality; confidence concerns how strongly evidence supports belief."
+        },
+        {
+          "id": 3,
+          "front": "Descriptive vs causal",
+          "back": "Descriptive says what happened; causal says why it happened."
+        },
+        {
+          "id": 4,
+          "front": "Value judgment",
+          "back": "An assessment based partly on priorities or moral standards."
+        },
+        {
+          "id": 5,
+          "front": "Provenance",
+          "back": "A source’s origin and history of transmission or handling."
+        },
+        {
+          "id": 6,
+          "front": "Primary source reliability",
+          "back": "Being firsthand does not prevent error, bias or limited perspective."
+        },
+        {
+          "id": 7,
+          "front": "Independent corroboration",
+          "back": "Confirmation through evidence not merely copied from one source."
+        },
+        {
+          "id": 8,
+          "front": "Lateral reading",
+          "back": "Checking an unfamiliar source using outside information and coverage."
+        },
+        {
+          "id": 9,
+          "front": "SIFT",
+          "back": "Stop; Investigate source; Find better coverage; Trace to original context."
+        },
+        {
+          "id": 10,
+          "front": "Confounder",
+          "back": "A factor that influences both a proposed cause and an observed outcome."
+        },
+        {
+          "id": 11,
+          "front": "Counterfactual",
+          "back": "What would have happened in a comparable world without the proposed cause."
+        },
+        {
+          "id": 12,
+          "front": "Reverse causation",
+          "back": "The supposed effect may influence the supposed cause."
+        },
+        {
+          "id": 13,
+          "front": "Systematic review",
+          "back": "Explicitly finds and appraises a body of research to address a question."
+        },
+        {
+          "id": 14,
+          "front": "Peer review",
+          "back": "Expert scrutiny before publication, not a guarantee of truth."
+        },
+        {
+          "id": 15,
+          "front": "Reproducibility vs replicability",
+          "back": "Same data and computational process vs new data addressing the same question."
+        },
+        {
+          "id": 16,
+          "front": "Effect size",
+          "back": "The magnitude of an observed difference or relationship."
+        },
+        {
+          "id": 17,
+          "front": "What p-value is not",
+          "back": "Not the probability a hypothesis is true or the practical importance of an effect."
+        },
+        {
+          "id": 18,
+          "front": "Confirmation bias",
+          "back": "Selective attention or interpretation favoring existing beliefs."
+        },
+        {
+          "id": 19,
+          "front": "Prior probability",
+          "back": "Background plausibility before assessing a new piece of evidence."
+        },
+        {
+          "id": 20,
+          "front": "Calibrated confidence",
+          "back": "Strength of belief matched to strength and limits of the evidence."
+        }
+      ]
+    },
+    "002": {
+      "deck": "Arguments",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Parts of an argument",
+          "back": "Premises offer reasons; the conclusion is the claim they support."
+        },
+        {
+          "id": 2,
+          "front": "Deductive validity",
+          "back": "Impossible for all premises to be true and conclusion false."
+        },
+        {
+          "id": 3,
+          "front": "Sound argument",
+          "back": "A valid deductive argument whose premises are true."
+        },
+        {
+          "id": 4,
+          "front": "Valid argument with false premise?",
+          "back": "Yes; validity concerns the inference structure, not premise truth."
+        },
+        {
+          "id": 5,
+          "front": "Counterexample",
+          "back": "A case with true premises but false conclusion; shows invalidity."
+        },
+        {
+          "id": 6,
+          "front": "Affirming the consequent",
+          "back": "Mistaking Q for proof of P in “if P, then Q”."
+        },
+        {
+          "id": 7,
+          "front": "Modus tollens",
+          "back": "From “if P then Q” and “not Q,” infer “not P”."
+        },
+        {
+          "id": 8,
+          "front": "Sufficient condition",
+          "back": "A guarantees B under the stated relationship."
+        },
+        {
+          "id": 9,
+          "front": "Necessary condition",
+          "back": "B cannot occur unless A is present."
+        },
+        {
+          "id": 10,
+          "front": "Induction",
+          "back": "Generalization or prediction supported by observed cases."
+        },
+        {
+          "id": 11,
+          "front": "Abduction",
+          "back": "Reasoning to the best supported explanation of evidence."
+        },
+        {
+          "id": 12,
+          "front": "Hidden premise",
+          "back": "An unstated assumption needed for an argument to work."
+        },
+        {
+          "id": 13,
+          "front": "Causal claim",
+          "back": "Says what produced an outcome, not merely what occurred."
+        },
+        {
+          "id": 14,
+          "front": "Straw man",
+          "back": "Attacking a distorted version of someone’s real position."
+        },
+        {
+          "id": 15,
+          "front": "Steelman",
+          "back": "Presenting an opponent’s strongest defensible argument fairly."
+        },
+        {
+          "id": 16,
+          "front": "Relevant conflict of interest",
+          "back": "Reason for closer scrutiny, not automatic proof of falsehood."
+        },
+        {
+          "id": 17,
+          "front": "False dilemma",
+          "back": "Presenting an incomplete range as the only possible choices."
+        },
+        {
+          "id": 18,
+          "front": "Slippery slope: legitimate when?",
+          "back": "When each step has a plausible mechanism and supporting evidence."
+        },
+        {
+          "id": 19,
+          "front": "Appeal to popularity",
+          "back": "Numbers of believers do not themselves prove a factual claim."
+        },
+        {
+          "id": 20,
+          "front": "Cherry-picking",
+          "back": "Selecting favorable evidence while hiding relevant contrary evidence."
+        },
+        {
+          "id": 21,
+          "front": "Survivorship bias",
+          "back": "Ignoring failed or disappeared cases in a comparison."
+        },
+        {
+          "id": 22,
+          "front": "Circular reasoning",
+          "back": "Reasons already assume the disputed conclusion."
+        },
+        {
+          "id": 23,
+          "front": "Fallacy fallacy",
+          "back": "Assuming a conclusion false because one defense of it is weak."
+        },
+        {
+          "id": 24,
+          "front": "Informal argument criteria",
+          "back": "Acceptability, relevance and sufficiency of premises."
+        }
+      ]
+    },
+    "003": {
+      "deck": "Numerical literacy",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What does probability describe?",
+          "back": "Uncertainty about a specified event under stated information or a model."
+        },
+        {
+          "id": 2,
+          "front": "One dry day refutes a 70% rain forecast?",
+          "back": "No; one dry outcome is compatible with a 30% no-rain chance."
+        },
+        {
+          "id": 3,
+          "front": "What is the denominator?",
+          "back": "The relevant total group from which a proportion is calculated."
+        },
+        {
+          "id": 4,
+          "front": "What is a percentage point?",
+          "back": "The arithmetic difference between two percentages."
+        },
+        {
+          "id": 5,
+          "front": "Independent events",
+          "back": "Knowing one outcome does not change the probability of the other."
+        },
+        {
+          "id": 6,
+          "front": "Mutually exclusive events",
+          "back": "Events that cannot occur together in the same trial."
+        },
+        {
+          "id": 7,
+          "front": "When multiply two event probabilities?",
+          "back": "Directly for their joint probability when the events are independent."
+        },
+        {
+          "id": 8,
+          "front": "Complement of event A",
+          "back": "The event that A does not occur; probability 1 − P(A)."
+        },
+        {
+          "id": 9,
+          "front": "Meaning of P(A | B)",
+          "back": "Probability of A among cases where B is given to have occurred."
+        },
+        {
+          "id": 10,
+          "front": "Why can P(A|B) differ from P(B|A)?",
+          "back": "They restrict to different conditioning groups and denominators."
+        },
+        {
+          "id": 11,
+          "front": "Base rate",
+          "back": "Starting prevalence of an event in the relevant population."
+        },
+        {
+          "id": 12,
+          "front": "False positive",
+          "back": "An alert occurs even though the target event is absent."
+        },
+        {
+          "id": 13,
+          "front": "Absolute risk reduction",
+          "back": "Difference between event probabilities, in percentage points."
+        },
+        {
+          "id": 14,
+          "front": "Relative risk reduction",
+          "back": "Absolute risk reduction divided by original risk."
+        },
+        {
+          "id": 15,
+          "front": "Expected monetary value",
+          "back": "Sum of outcome amounts, each weighted by its probability."
+        },
+        {
+          "id": 16,
+          "front": "Why can paying for insurance be rational?",
+          "back": "It can reduce exposure to an unaffordable catastrophic loss."
+        },
+        {
+          "id": 17,
+          "front": "Probability distribution",
+          "back": "Possible outcomes and their respective probabilities."
+        },
+        {
+          "id": 18,
+          "front": "Gambler’s fallacy",
+          "back": "Assuming independent random outcomes must compensate for a streak."
+        },
+        {
+          "id": 19,
+          "front": "Regression toward the mean",
+          "back": "Extreme observations are often followed by less extreme ones."
+        },
+        {
+          "id": 20,
+          "front": "Forecast calibration",
+          "back": "How closely predicted frequencies match observed frequencies over cases."
+        },
+        {
+          "id": 21,
+          "front": "Sampling uncertainty",
+          "back": "Variation in estimates arising from which sample was drawn."
+        },
+        {
+          "id": 22,
+          "front": "Selection bias",
+          "back": "The observed group systematically differs from the target group."
+        },
+        {
+          "id": 23,
+          "front": "Why do percentages compound?",
+          "back": "Each new percentage applies to the updated base amount."
+        },
+        {
+          "id": 24,
+          "front": "First question after a risk headline",
+          "back": "What was the starting risk, over what time and population?"
+        }
+      ]
+    },
+    "004": {
+      "deck": "Historical method",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Chronology vs causation",
+          "back": "Chronology orders events; causation explains why they happened."
+        },
+        {
+          "id": 2,
+          "front": "Is there a year zero?",
+          "back": "No. 1 BCE is followed directly by 1 CE."
+        },
+        {
+          "id": 3,
+          "front": "Twentieth century CE",
+          "back": "1901–2000 CE."
+        },
+        {
+          "id": 4,
+          "front": "Fifth century BCE",
+          "back": "500–401 BCE."
+        },
+        {
+          "id": 5,
+          "front": "Old Style historical date",
+          "back": "Often a Julian-calendar date; check local usage."
+        },
+        {
+          "id": 6,
+          "front": "Periodization",
+          "back": "Dividing history into interpretive periods."
+        },
+        {
+          "id": 7,
+          "front": "Presentism",
+          "back": "Projecting present-day categories onto the past without context."
+        },
+        {
+          "id": 8,
+          "front": "Source provenance",
+          "back": "The origin, ownership, transmission, and context of a source."
+        },
+        {
+          "id": 9,
+          "front": "Are all primary sources trustworthy?",
+          "back": "No. Contemporary materials may mislead or omit."
+        },
+        {
+          "id": 10,
+          "front": "Can source type change by question?",
+          "back": "Yes. One book can be primary for one inquiry, secondary for another."
+        },
+        {
+          "id": 11,
+          "front": "Archival survivorship bias",
+          "back": "Surviving records reflect preservation and selection, not all past life."
+        },
+        {
+          "id": 12,
+          "front": "Why identify the intended audience?",
+          "back": "It helps explain selection, rhetoric, and the purpose of a source."
+        },
+        {
+          "id": 13,
+          "front": "Corroboration",
+          "back": "Checking claims against independent evidence."
+        },
+        {
+          "id": 14,
+          "front": "Stratigraphy",
+          "back": "Studying the sequence and relationships of archaeological layers."
+        },
+        {
+          "id": 15,
+          "front": "Why preserve archaeological context?",
+          "back": "Position and association help establish meaning and date."
+        },
+        {
+          "id": 16,
+          "front": "Dendrochronology uses what?",
+          "back": "Patterns of tree-growth rings."
+        },
+        {
+          "id": 17,
+          "front": "Radiocarbon dating measures what?",
+          "back": "Remaining carbon-14 in material from once-living organisms."
+        },
+        {
+          "id": 18,
+          "front": "Radiocarbon BP starts from?",
+          "back": "1950 CE is the conventional present."
+        },
+        {
+          "id": 19,
+          "front": "Why calibrate radiocarbon ages?",
+          "back": "Atmospheric carbon-14 changed; raw radiocarbon years differ from calendar years."
+        },
+        {
+          "id": 20,
+          "front": "Old-wood effect",
+          "back": "Wood growth can substantially predate its later use or burning."
+        },
+        {
+          "id": 21,
+          "front": "Trigger vs structural cause",
+          "back": "A trigger helps initiate a crisis; structural conditions shape vulnerability."
+        },
+        {
+          "id": 22,
+          "front": "Magna Carta 1215 vs legacy",
+          "back": "Medieval baronial settlement vs centuries of later constitutional interpretation."
+        },
+        {
+          "id": 23,
+          "front": "Bulgarian milestones",
+          "back": "1878 autonomy; 1885 unification; 1908 independence."
+        },
+        {
+          "id": 24,
+          "front": "Convergent independent evidence",
+          "back": "Multiple distinct sources jointly strengthen an historical conclusion."
+        }
+      ]
+    },
+    "005": {
+      "deck": "Geography and scale",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Physical / human geography",
+          "back": "Nature and Earth processes / people, settlements, institutions and networks."
+        },
+        {
+          "id": 2,
+          "front": "Geographical scale",
+          "back": "The spatial extent and level of detail used to study a pattern."
+        },
+        {
+          "id": 3,
+          "front": "Why projections distort",
+          "back": "A curved global surface cannot be flattened without distortion."
+        },
+        {
+          "id": 4,
+          "front": "Mercator property",
+          "back": "It preserves local angles and constant-bearing rhumb lines appear straight."
+        },
+        {
+          "id": 5,
+          "front": "Equal-area property",
+          "back": "Proportional surface area is preserved, at the expense of some shapes."
+        },
+        {
+          "id": 6,
+          "front": "Great-circle route",
+          "back": "The shortest surface path between points on an ideal sphere."
+        },
+        {
+          "id": 7,
+          "front": "Latitude",
+          "back": "Angular position north or south of the Equator."
+        },
+        {
+          "id": 8,
+          "front": "Longitude near poles",
+          "back": "Meridians converge; 1° spans less ground distance at higher latitudes."
+        },
+        {
+          "id": 9,
+          "front": "Scale 1:100,000",
+          "back": "One centimetre on the map represents one kilometre on the ground."
+        },
+        {
+          "id": 10,
+          "front": "Nearby but inaccessible",
+          "back": "Roads, mountains, borders and services affect travel time and cost."
+        },
+        {
+          "id": 11,
+          "front": "Convergent boundary",
+          "back": "A boundary where plates move toward one another."
+        },
+        {
+          "id": 12,
+          "front": "Drainage divide",
+          "back": "High ground separating neighbouring river catchments."
+        },
+        {
+          "id": 13,
+          "front": "Watershed / catchment",
+          "back": "An area draining toward a common river outlet."
+        },
+        {
+          "id": 14,
+          "front": "Weather versus climate",
+          "back": "Short-term atmospheric conditions versus long-term distributions."
+        },
+        {
+          "id": 15,
+          "front": "Cause of seasons",
+          "back": "Axial tilt changes sun angle and daylight duration."
+        },
+        {
+          "id": 16,
+          "front": "Rain shadow",
+          "back": "Drier leeward conditions associated with moist air crossing relief."
+        },
+        {
+          "id": 17,
+          "front": "Monsoon",
+          "back": "Seasonal large-scale change in atmospheric circulation and rainfall."
+        },
+        {
+          "id": 18,
+          "front": "Coastal upwelling",
+          "back": "Cold, nutrient-rich deeper water replaces displaced surface water."
+        },
+        {
+          "id": 19,
+          "front": "Maritime chokepoint",
+          "back": "A narrow route on which major shipping connections concentrate."
+        },
+        {
+          "id": 20,
+          "front": "Population density",
+          "back": "Number of people divided by area, usually per km²."
+        },
+        {
+          "id": 21,
+          "front": "Agglomeration economy",
+          "back": "Benefit from firms and workers locating near one another."
+        },
+        {
+          "id": 22,
+          "front": "Choropleth map",
+          "back": "A map shading geographic units by a specified data value."
+        },
+        {
+          "id": 23,
+          "front": "Ecological fallacy",
+          "back": "Mistaking a group-level relationship for an individual-level one."
+        },
+        {
+          "id": 24,
+          "front": "Why no geographic destiny",
+          "back": "Institutions, technology, history and choices alter geographic effects."
+        }
+      ]
+    },
+    "006": {
+      "deck": "Data and statistics",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Unit of observation",
+          "back": "The person, event, place or object described by one record."
+        },
+        {
+          "id": 2,
+          "front": "Population / sample",
+          "back": "The full group of interest / the subset that is measured."
+        },
+        {
+          "id": 3,
+          "front": "Rate denominator",
+          "back": "It defines exposure or population size for a meaningful comparison."
+        },
+        {
+          "id": 4,
+          "front": "Sampling frame",
+          "back": "The list or mechanism through which eligible units can be sampled."
+        },
+        {
+          "id": 5,
+          "front": "Selection bias",
+          "back": "Selection is related to the characteristic being estimated."
+        },
+        {
+          "id": 6,
+          "front": "Nonresponse bias",
+          "back": "Responders and nonresponders differ on a relevant characteristic."
+        },
+        {
+          "id": 7,
+          "front": "Survey weighting",
+          "back": "Can address measured imbalances; cannot guarantee removal of hidden bias."
+        },
+        {
+          "id": 8,
+          "front": "Mean / median",
+          "back": "Arithmetic sum per observation / central ordered observation."
+        },
+        {
+          "id": 9,
+          "front": "Weighted mean",
+          "back": "Groups contribute in proportion to their relevant sizes or weights."
+        },
+        {
+          "id": 10,
+          "front": "Standard deviation",
+          "back": "Typical dispersion of numerical observations around their mean."
+        },
+        {
+          "id": 11,
+          "front": "Outlier",
+          "back": "An unusually distant value that may be real, erroneous or informative."
+        },
+        {
+          "id": 12,
+          "front": "Bar baseline",
+          "back": "Length comparisons imply quantity; a zero baseline often protects proportions."
+        },
+        {
+          "id": 13,
+          "front": "Log scale",
+          "back": "Equal graph distances correspond to equal ratios, not equal differences."
+        },
+        {
+          "id": 14,
+          "front": "Moving average",
+          "back": "Averages adjacent time periods to smooth short-term fluctuation."
+        },
+        {
+          "id": 15,
+          "front": "Nominal / real",
+          "back": "Current-money value / value adjusted for a relevant price index."
+        },
+        {
+          "id": 16,
+          "front": "Percentage points",
+          "back": "Absolute difference between percentages, not relative percent growth."
+        },
+        {
+          "id": 17,
+          "front": "Correlation limits",
+          "back": "Correlation alone does not prove cause, direction or mechanism."
+        },
+        {
+          "id": 18,
+          "front": "Confounder",
+          "back": "A factor associated with both variables that complicates inference."
+        },
+        {
+          "id": 19,
+          "front": "Ecological fallacy",
+          "back": "Applying group-level relationships to individual people."
+        },
+        {
+          "id": 20,
+          "front": "Simpson's paradox",
+          "back": "An overall association can reverse when different groups are combined."
+        },
+        {
+          "id": 21,
+          "front": "Random assignment",
+          "back": "Reduces systematic preexisting differences between comparison groups."
+        },
+        {
+          "id": 22,
+          "front": "95% confidence method",
+          "back": "Over repetitions, roughly 95% of constructed intervals cover the parameter."
+        },
+        {
+          "id": 23,
+          "front": "A p-value is not",
+          "back": "The probability that a hypothesis is true."
+        },
+        {
+          "id": 24,
+          "front": "Data provenance",
+          "back": "The documented path from original measurement to published figure."
+        }
+      ]
+    },
+    "007": {
+      "deck": "Systems",
+      "cards": [
+        {
+          "id": 1,
+          "front": "System",
+          "back": "Elements linked by interactions that generate behavior over time."
+        },
+        {
+          "id": 2,
+          "front": "System boundary",
+          "back": "The chosen scope of actors and processes in an analysis."
+        },
+        {
+          "id": 3,
+          "front": "Complicated / complex",
+          "back": "Many parts / adaptive interactions and often emergent patterns."
+        },
+        {
+          "id": 4,
+          "front": "Event, pattern, structure",
+          "back": "Occurrence; repeated behavior; arrangement generating it."
+        },
+        {
+          "id": 5,
+          "front": "Stock",
+          "back": "Quantity accumulated at a particular time."
+        },
+        {
+          "id": 6,
+          "front": "Flow",
+          "back": "Rate that adds to or removes from a stock."
+        },
+        {
+          "id": 7,
+          "front": "Stock update",
+          "back": "New stock = old stock + inflows − outflows over a period."
+        },
+        {
+          "id": 8,
+          "front": "Buffer",
+          "back": "Reserve that absorbs shocks, often at a cost."
+        },
+        {
+          "id": 9,
+          "front": "Reinforcing feedback",
+          "back": "Loop amplifying growth or decline."
+        },
+        {
+          "id": 10,
+          "front": "Balancing feedback",
+          "back": "Loop counteracting deviation or pursuing a target."
+        },
+        {
+          "id": 11,
+          "front": "Positive causal arrow",
+          "back": "More A tends to mean more B, other things equal."
+        },
+        {
+          "id": 12,
+          "front": "Reinforcing loop sign",
+          "back": "An even number of negative causal links."
+        },
+        {
+          "id": 13,
+          "front": "Feedback delay",
+          "back": "Time between a change, its signal and a response."
+        },
+        {
+          "id": 14,
+          "front": "Overshoot mechanism",
+          "back": "Repeated correction arrives after the system has changed."
+        },
+        {
+          "id": 15,
+          "front": "Nonlinearity",
+          "back": "Output does not scale proportionally with input."
+        },
+        {
+          "id": 16,
+          "front": "Threshold",
+          "back": "A region where behavior changes qualitatively."
+        },
+        {
+          "id": 17,
+          "front": "Hysteresis",
+          "back": "Reversing a pressure does not immediately restore the old state."
+        },
+        {
+          "id": 18,
+          "front": "Path dependence",
+          "back": "Past adoption and constraints influence present outcomes."
+        },
+        {
+          "id": 19,
+          "front": "Bottleneck",
+          "back": "The limiting stage or connection constraining throughput."
+        },
+        {
+          "id": 20,
+          "front": "Network redundancy",
+          "back": "Alternative connections that can maintain service after failure."
+        },
+        {
+          "id": 21,
+          "front": "Common-pool resource",
+          "back": "Resource where exclusion is difficult and use subtracts from others."
+        },
+        {
+          "id": 22,
+          "front": "Externality",
+          "back": "Cost or benefit imposed on others outside the decision price."
+        },
+        {
+          "id": 23,
+          "front": "Security dilemma",
+          "back": "Defensive measures can appear threatening and invite mutual escalation."
+        },
+        {
+          "id": 24,
+          "front": "Unintended consequence",
+          "back": "Behavioral response or side effect beyond the planned impact."
+        },
+        {
+          "id": 25,
+          "front": "Goodhart warning",
+          "back": "Targeting one proxy can distort incentives and weaken its meaning."
+        },
+        {
+          "id": 26,
+          "front": "Leverage point",
+          "back": "Place where intervention may meaningfully change system behavior."
+        },
+        {
+          "id": 27,
+          "front": "Sensitivity analysis",
+          "back": "Test how a conclusion changes with key assumptions."
+        },
+        {
+          "id": 28,
+          "front": "Test a causal arrow",
+          "back": "Identify observations that could support or falsify the proposed link."
+        }
+      ]
+    },
+    "008": {
+      "deck": "Learning and memory",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Recognition and recall",
+          "back": "Familiarity with cues versus remembering without those cues."
+        },
+        {
+          "id": 2,
+          "front": "Retrieval practice",
+          "back": "Reconstructing knowledge from memory and checking it."
+        },
+        {
+          "id": 3,
+          "front": "Spaced practice",
+          "back": "Revisiting material across time rather than one cram session."
+        },
+        {
+          "id": 4,
+          "front": "Interleaving",
+          "back": "Mixing related kinds of practice to improve discrimination."
+        },
+        {
+          "id": 5,
+          "front": "Self-explanation",
+          "back": "Explaining steps or relationships in your own words."
+        },
+        {
+          "id": 6,
+          "front": "Mental model",
+          "back": "Organized framework describing how ideas and causes connect."
+        },
+        {
+          "id": 7,
+          "front": "Transfer",
+          "back": "Using knowledge in a new context or task."
+        },
+        {
+          "id": 8,
+          "front": "Error log",
+          "back": "Record of a mistake, its cause, correction, and revisit date."
+        },
+        {
+          "id": 9,
+          "front": "30-minute session",
+          "back": "Study, connect, retrieve, and correct or review."
+        },
+        {
+          "id": 10,
+          "front": "Fluency illusion",
+          "back": "Mistaking easy rereading for durable mastery."
+        }
+      ]
+    },
+    "009": {
+      "deck": "Human evolution and migration",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Hominin",
+          "back": "Members of the human lineage after its split from the chimpanzee lineage."
+        },
+        {
+          "id": 2,
+          "front": "March of progress",
+          "back": "Misleading ladder: human evolution is branching, with overlapping lineages."
+        },
+        {
+          "id": 3,
+          "front": "Bipedalism",
+          "back": "Habitually moving on two legs."
+        },
+        {
+          "id": 4,
+          "front": "Laetoli",
+          "back": "3.6-million-year-old tracks documenting upright walking."
+        },
+        {
+          "id": 5,
+          "front": "Lomekwi 3",
+          "back": "Stone tools about 3.3 million years old; makers uncertain."
+        },
+        {
+          "id": 6,
+          "front": "Oldowan vs Acheulean",
+          "back": "Early flakes and cores versus later shaped large cutting tools."
+        },
+        {
+          "id": 7,
+          "front": "Early expansion beyond Africa",
+          "back": "Early Homo, including H. erectus-related populations, by ~1.8 million years."
+        },
+        {
+          "id": 8,
+          "front": "Stratigraphy",
+          "back": "Study of layers and their relationships to reconstruct relative sequence."
+        },
+        {
+          "id": 9,
+          "front": "Radiocarbon dating",
+          "back": "Decay of carbon-14 in once-living material, with calibration and limits."
+        },
+        {
+          "id": 10,
+          "front": "Jebel Irhoud",
+          "back": "Early H. sapiens evidence in Morocco dated to around 315,000 years."
+        },
+        {
+          "id": 11,
+          "front": "Introgression",
+          "back": "Genetic ancestry transferred between diverged populations via mixing."
+        },
+        {
+          "id": 12,
+          "front": "Denisovans",
+          "back": "Extinct human relatives recognized first by ancient DNA."
+        },
+        {
+          "id": 13,
+          "front": "Sahul",
+          "back": "Pleistocene landmass including Australia and New Guinea."
+        },
+        {
+          "id": 14,
+          "front": "Beringia",
+          "back": "Ancient land region connecting northeast Asia and northwest North America."
+        },
+        {
+          "id": 15,
+          "front": "Minimum age",
+          "back": "An object is at least as old as a younger layer covering it."
+        },
+        {
+          "id": 16,
+          "front": "White Sands",
+          "back": "Footprints with dates supporting human presence ~21–23k years ago."
+        },
+        {
+          "id": 17,
+          "front": "Cumulative culture",
+          "back": "Knowledge and techniques learned, modified, and transmitted over generations."
+        },
+        {
+          "id": 18,
+          "front": "Earliest find vs actual first",
+          "back": "The oldest discovered evidence may postdate the true earliest occurrence."
+        }
+      ]
+    },
+    "010": {
+      "deck": "Agricultural origins",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Cultivation vs. domestication?",
+          "back": "Cultivation is tending plants; domestication is inherited change under human selection."
+        },
+        {
+          "id": 2,
+          "front": "Sedentism?",
+          "back": "Living in one place for extended periods, not necessarily farming."
+        },
+        {
+          "id": 3,
+          "front": "Why is \"revolution\" misleading?",
+          "back": "Agriculture often emerged gradually across many generations and regions."
+        },
+        {
+          "id": 4,
+          "front": "Niche construction?",
+          "back": "Organisms—including people—alter environments that shape future selection."
+        },
+        {
+          "id": 5,
+          "front": "Why do wild cereals shatter?",
+          "back": "Seed dispersal spreads offspring without human planting."
+        },
+        {
+          "id": 6,
+          "front": "Rachis?",
+          "back": "The main axis of a cereal head; its breakage offers domestication clues."
+        },
+        {
+          "id": 7,
+          "front": "Nonshattering grain?",
+          "back": "Grain that retains seed-bearing structures longer instead of freely dispersing."
+        },
+        {
+          "id": 8,
+          "front": "Does a grinding stone prove farming?",
+          "back": "No. It can process gathered wild plants too."
+        },
+        {
+          "id": 9,
+          "front": "Early Southwest Asian staples?",
+          "back": "Examples: wheat and barley; also many other crops and domestic animals."
+        },
+        {
+          "id": 10,
+          "front": "Fertile Crescent?",
+          "back": "Broad Southwest Asian zone important to early agriculture, not one single origin site."
+        },
+        {
+          "id": 11,
+          "front": "Göbekli Tepe shows?",
+          "back": "Large communal structures could be built in the transition toward farming."
+        },
+        {
+          "id": 12,
+          "front": "Two early Chinese crop pathways?",
+          "back": "Rice in southern/Yangtze systems; millets in northern systems."
+        },
+        {
+          "id": 13,
+          "front": "Kuk site is distinctive for?",
+          "back": "Early New Guinea wetland cultivation and drainage, including vegetative crops."
+        },
+        {
+          "id": 14,
+          "front": "Maize wild relative?",
+          "back": "Teosinte."
+        },
+        {
+          "id": 15,
+          "front": "Why not all African farming imported?",
+          "back": "Several crops have African domestication histories, alongside exchanges."
+        },
+        {
+          "id": 16,
+          "front": "Tell?",
+          "back": "Mound formed from repeated occupation and rebuilding at one settlement."
+        },
+        {
+          "id": 17,
+          "front": "Granary?",
+          "back": "Structure or system for collecting and preserving stored food."
+        },
+        {
+          "id": 18,
+          "front": "Stored food stock vs. flows?",
+          "back": "Stock accumulates; harvest adds, while eating, losses and transfers subtract."
+        },
+        {
+          "id": 19,
+          "front": "Surplus?",
+          "back": "Output available beyond immediate uses after relevant costs and needs."
+        },
+        {
+          "id": 20,
+          "front": "Demic diffusion?",
+          "back": "Spread of farming alongside migration of populations."
+        },
+        {
+          "id": 21,
+          "front": "Why is Varna important?",
+          "back": "Later prehistoric graves reveal pronounced differences in status goods."
+        },
+        {
+          "id": 22,
+          "front": "Two possible health impacts?",
+          "back": "Diet narrowing or more disease exposure; effects varied by society."
+        },
+        {
+          "id": 23,
+          "front": "Why do crops not guarantee states?",
+          "back": "Politics depends on institutions, ecology, scale, conflict and other factors."
+        },
+        {
+          "id": 24,
+          "front": "First evidence vs. first occurrence?",
+          "back": "Oldest preserved trace need not mark the actual beginning of a practice."
+        }
+      ]
+    },
+    "011": {
+      "deck": "Mesopotamia and early states",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Mesopotamia means?",
+          "back": "Land between rivers; a later name for the Tigris–Euphrates region."
+        },
+        {
+          "id": 2,
+          "front": "Which rivers?",
+          "back": "The Tigris and the Euphrates."
+        },
+        {
+          "id": 3,
+          "front": "Why irrigation in the south?",
+          "back": "Rainfall was unreliable; canals could direct river water to fields."
+        },
+        {
+          "id": 4,
+          "front": "Alluvial plain?",
+          "back": "Lowland formed by river-deposited sediment."
+        },
+        {
+          "id": 5,
+          "front": "Ubaid horizon?",
+          "back": "Long pre-urban tradition of settlements, pottery and institutions."
+        },
+        {
+          "id": 6,
+          "front": "Why Uruk?",
+          "back": "One of the earliest major cities, with monumental and administrative activity."
+        },
+        {
+          "id": 7,
+          "front": "City-state?",
+          "back": "A principal city and surrounding territory under a shared political authority."
+        },
+        {
+          "id": 8,
+          "front": "Institution?",
+          "back": "An enduring rule, office or organization beyond any one individual."
+        },
+        {
+          "id": 9,
+          "front": "Upstream water dilemma?",
+          "back": "One user’s diversion can reduce water available to those downstream."
+        },
+        {
+          "id": 10,
+          "front": "Grain stock?",
+          "back": "Amount in storage at one point in time."
+        },
+        {
+          "id": 11,
+          "front": "Grain flow?",
+          "back": "Receipts, consumption, transfers or losses changing storage over time."
+        },
+        {
+          "id": 12,
+          "front": "Temple estates?",
+          "back": "Religious institutions also managing land, goods or labor in some periods."
+        },
+        {
+          "id": 13,
+          "front": "Cylinder seal?",
+          "back": "Carved cylinder rolled on clay to impress an identifying design."
+        },
+        {
+          "id": 14,
+          "front": "Proto-cuneiform?",
+          "back": "Early Mesopotamian signs used especially for quantities and accounting."
+        },
+        {
+          "id": 15,
+          "front": "Mature cuneiform?",
+          "back": "Wedge-shaped script able to represent words and speech sounds."
+        },
+        {
+          "id": 16,
+          "front": "Sumerian versus Akkadian?",
+          "back": "Distinct languages; cuneiform was adapted to write both."
+        },
+        {
+          "id": 17,
+          "front": "What did earliest tablets record?",
+          "back": "Commonly economic quantities, goods and administrative categories."
+        },
+        {
+          "id": 18,
+          "front": "Why scribal exercise tablets?",
+          "back": "They show how people learned and reproduced writing systems."
+        },
+        {
+          "id": 19,
+          "front": "A traded prestige material?",
+          "back": "Lapis lazuli, carnelian, silver or other imported materials."
+        },
+        {
+          "id": 20,
+          "front": "One state called Sumer?",
+          "back": "No; Early Dynastic southern Mesopotamia had rival city-states."
+        },
+        {
+          "id": 21,
+          "front": "Political legitimation?",
+          "back": "Reasons and symbols used to justify and sustain rule."
+        },
+        {
+          "id": 22,
+          "front": "Who was Sargon?",
+          "back": "Akkadian ruler associated with early territorial empire in Mesopotamia."
+        },
+        {
+          "id": 23,
+          "front": "Ur III?",
+          "back": "Third Dynasty of Ur, noted for extensive surviving administrative records."
+        },
+        {
+          "id": 24,
+          "front": "Ziggurat?",
+          "back": "Monumental stepped temple platform or tower of Mesopotamia."
+        },
+        {
+          "id": 25,
+          "front": "Why not a modern Hammurabi code?",
+          "back": "Selected conditional judgments and royal ideology, not a full statute book."
+        },
+        {
+          "id": 26,
+          "front": "Enheduanna’s authorship caveat?",
+          "back": "Attributed poems survive in later copies; exact authorship is debated."
+        }
+      ]
+    },
+    "012": {
+      "deck": "Ancient Egypt and the Nile",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Nile flows which direction?",
+          "back": "North toward the Mediterranean."
+        },
+        {
+          "id": 2,
+          "front": "Why is Upper Egypt south?",
+          "back": "It lies upstream, at higher elevation along the Nile."
+        },
+        {
+          "id": 3,
+          "front": "Nile Delta?",
+          "back": "Broad northern distributary region where the river reaches the sea."
+        },
+        {
+          "id": 4,
+          "front": "River cataracts?",
+          "back": "Rocky, turbulent stretches that can impede navigation."
+        },
+        {
+          "id": 5,
+          "front": "Akhet?",
+          "back": "The inundation season in the civil calendar."
+        },
+        {
+          "id": 6,
+          "front": "Peret?",
+          "back": "The emergence and growing season."
+        },
+        {
+          "id": 7,
+          "front": "Shemu?",
+          "back": "The harvest season."
+        },
+        {
+          "id": 8,
+          "front": "Narmer Palette?",
+          "back": "Early royal object depicting claims of kingship and domination."
+        },
+        {
+          "id": 9,
+          "front": "Maat?",
+          "back": "Ideal of truth, justice and proper cosmic and social order."
+        },
+        {
+          "id": 10,
+          "front": "Vizier?",
+          "back": "Senior royal administrator, with responsibilities that varied over time."
+        },
+        {
+          "id": 11,
+          "front": "Step Pyramid king?",
+          "back": "Djoser, at Saqqara."
+        },
+        {
+          "id": 12,
+          "front": "Great Pyramid king?",
+          "back": "Khufu, at Giza."
+        },
+        {
+          "id": 13,
+          "front": "Pyramid complex?",
+          "back": "Pyramid plus temples, causeways and associated ritual spaces."
+        },
+        {
+          "id": 14,
+          "front": "Why not only slave labor?",
+          "back": "Evidence shows organized skilled and supplied crews; coercion varied."
+        },
+        {
+          "id": 15,
+          "front": "Natron?",
+          "back": "Natural salt mixture used to dry bodies in some mummification methods."
+        },
+        {
+          "id": 16,
+          "front": "Middle Kingdom reunifier?",
+          "back": "Mentuhotep II."
+        },
+        {
+          "id": 17,
+          "front": "Hyksos?",
+          "back": "Rulers associated with western Asian origins in northern Egypt."
+        },
+        {
+          "id": 18,
+          "front": "Hatshepsut?",
+          "back": "Female ruler who assumed full pharaonic kingship in Dynasty 18."
+        },
+        {
+          "id": 19,
+          "front": "Akhenaten’s cult?",
+          "back": "Strong royal focus on the Aten, the sun disk."
+        },
+        {
+          "id": 20,
+          "front": "Amarna Letters?",
+          "back": "Cuneiform diplomatic correspondence with rulers and officials."
+        },
+        {
+          "id": 21,
+          "front": "Kadesh opponents?",
+          "back": "Egypt and the Hittite empire."
+        },
+        {
+          "id": 22,
+          "front": "Kerma?",
+          "back": "A major independent Nubian political and cultural center."
+        },
+        {
+          "id": 23,
+          "front": "Deir el-Medina?",
+          "back": "New Kingdom village tied to royal tomb craftsmen."
+        },
+        {
+          "id": 24,
+          "front": "Three writing traditions?",
+          "back": "Hieroglyphic, hieratic and demotic."
+        },
+        {
+          "id": 25,
+          "front": "Rosetta Stone value?",
+          "back": "Parallel hieroglyphic, demotic and Greek text aided decipherment."
+        },
+        {
+          "id": 26,
+          "front": "Which Kushite dynasty?",
+          "back": "Egypt’s Twenty-fifth Dynasty."
+        }
+      ]
+    },
+    "013": {
+      "deck": "The Indus Valley Civilization",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Indus civilization alternate name?",
+          "back": "Harappan civilization."
+        },
+        {
+          "id": 2,
+          "front": "Where was the Harappan heartland?",
+          "back": "Present-day Pakistan and northwestern India."
+        },
+        {
+          "id": 3,
+          "front": "Mature Harappan date range?",
+          "back": "Approximately 2600–1900 BCE."
+        },
+        {
+          "id": 4,
+          "front": "Name-giving Harappan site?",
+          "back": "Harappa, now in Pakistan."
+        },
+        {
+          "id": 5,
+          "front": "City with the Great Bath?",
+          "back": "Mohenjo-daro."
+        },
+        {
+          "id": 6,
+          "front": "Reservoir city in Kutch?",
+          "back": "Dholavira."
+        },
+        {
+          "id": 7,
+          "front": "Mehrgarh is important for?",
+          "back": "Early farming and settlement in the wider region."
+        },
+        {
+          "id": 8,
+          "front": "What is a floodplain?",
+          "back": "Land beside a river shaped by flooding and sediment."
+        },
+        {
+          "id": 9,
+          "front": "Why date ancient channels?",
+          "back": "To establish which waterways existed during occupation."
+        },
+        {
+          "id": 10,
+          "front": "Common brick dimension ratio?",
+          "back": "Approximately 1:2:4 (thickness:width:length)."
+        },
+        {
+          "id": 11,
+          "front": "Why standardized weights?",
+          "back": "Comparable measurements for exchange and verification."
+        },
+        {
+          "id": 12,
+          "front": "Steatite stamp seal?",
+          "back": "Carved stone used to create repeated impressions."
+        },
+        {
+          "id": 13,
+          "front": "Indus “unicorn” seal?",
+          "back": "Seal showing an animal depicted with one visible horn."
+        },
+        {
+          "id": 14,
+          "front": "Is the Indus script deciphered?",
+          "back": "No broadly accepted decipherment exists."
+        },
+        {
+          "id": 15,
+          "front": "Why are short inscriptions hard to read?",
+          "back": "Too little context to test meanings and grammar."
+        },
+        {
+          "id": 16,
+          "front": "Archaeological provenance?",
+          "back": "An object’s documented origin and excavation context."
+        },
+        {
+          "id": 17,
+          "front": "Name one bead-making stone.",
+          "back": "Carnelian or agate."
+        },
+        {
+          "id": 18,
+          "front": "A city’s hinterland?",
+          "back": "Surrounding places that supply resources and connections."
+        },
+        {
+          "id": 19,
+          "front": "Meluhha in ancient records?",
+          "back": "Often associated with the Indus cultural sphere."
+        },
+        {
+          "id": 20,
+          "front": "Heterarchy in politics?",
+          "back": "Authority distributed among multiple interacting groups."
+        },
+        {
+          "id": 21,
+          "front": "No palace means no leaders?",
+          "back": "No; political authority may leave different traces."
+        },
+        {
+          "id": 22,
+          "front": "Change after c. 1900 BCE?",
+          "back": "Urban networks contracted and regional forms developed."
+        },
+        {
+          "id": 23,
+          "front": "De-urbanization?",
+          "back": "Decline or dispersal of major urban settlement patterns."
+        },
+        {
+          "id": 24,
+          "front": "Why reject a single invasion explanation?",
+          "back": "Evidence indicates varied, gradual regional changes."
+        },
+        {
+          "id": 25,
+          "front": "Ancient DNA cannot directly reveal?",
+          "back": "An individual’s language, religion or nationality."
+        },
+        {
+          "id": 26,
+          "front": "Why is the Indus civilization important?",
+          "back": "Large, innovative cities and networks with distinct evidence."
+        }
+      ]
+    },
+    "014": {
+      "deck": "Ancient China: Dynasties and Statecraft",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Which two great river basins anchor many early Chinese agricultural histories?",
+          "back": "Yellow River and Yangtze River basins."
+        },
+        {
+          "id": 2,
+          "front": "Which grain is closely associated with northern Neolithic Chinese farming?",
+          "back": "Millet."
+        },
+        {
+          "id": 3,
+          "front": "Which staple crop is strongly associated with early Yangtze farming?",
+          "back": "Rice."
+        },
+        {
+          "id": 4,
+          "front": "What does an archaeological culture name describe?",
+          "back": "Repeated excavated material patterns, not necessarily a named ancient state."
+        },
+        {
+          "id": 5,
+          "front": "Liangzhu’s broad date range?",
+          "back": "Approximately 3300–2300 BCE."
+        },
+        {
+          "id": 6,
+          "front": "One major Liangzhu infrastructure achievement?",
+          "back": "Extensive water-management dams and related hydraulic works."
+        },
+        {
+          "id": 7,
+          "front": "Name two early Chinese Neolithic culture labels.",
+          "back": "For example Yangshao, Longshan, Hongshan or Liangzhu."
+        },
+        {
+          "id": 8,
+          "front": "Why is Xia historically contested?",
+          "back": "Later traditions name it, but securely identified contemporary royal inscriptions are lacking."
+        },
+        {
+          "id": 9,
+          "front": "What major early Bronze Age site is sometimes connected with Xia?",
+          "back": "Erlitou in Henan."
+        },
+        {
+          "id": 10,
+          "front": "Conventional dates for the Shang dynasty?",
+          "back": "Approximately 1600–1046 BCE."
+        },
+        {
+          "id": 11,
+          "front": "Why is Anyang/Yinxu especially important?",
+          "back": "Late Shang capital with excavated royal contexts and oracle-bone inscriptions."
+        },
+        {
+          "id": 12,
+          "front": "Earliest extensive secure Chinese inscriptions are found on what?",
+          "back": "Late Shang oracle bones and turtle shells."
+        },
+        {
+          "id": 13,
+          "front": "What is an oracle-bone charge?",
+          "back": "A proposition or question in a divination procedure."
+        },
+        {
+          "id": 14,
+          "front": "What is pyro-osteomancy?",
+          "back": "Divination by heating prepared bones or shells and interpreting cracks."
+        },
+        {
+          "id": 15,
+          "front": "Bronze’s two main metals?",
+          "back": "Copper and tin."
+        },
+        {
+          "id": 16,
+          "front": "What is piece-mold casting?",
+          "back": "Using fitted ceramic mold pieces and cores to cast bronze shapes."
+        },
+        {
+          "id": 17,
+          "front": "Who was Fu Hao?",
+          "back": "A prominent Shang royal woman linked to military and ritual duties."
+        },
+        {
+          "id": 18,
+          "front": "Where is Sanxingdui?",
+          "back": "In modern Sichuan province, southwestern China."
+        },
+        {
+          "id": 19,
+          "front": "One central purpose of Shang ancestor rituals?",
+          "back": "To maintain royal relationships with ancestors and affirm authority."
+        },
+        {
+          "id": 20,
+          "front": "Conventional year of the Zhou conquest of Shang?",
+          "back": "Approximately 1046 BCE."
+        },
+        {
+          "id": 21,
+          "front": "What does “Mandate of Heaven” explain?",
+          "back": "A claim that Heaven grants and can withdraw the legitimacy to rule."
+        },
+        {
+          "id": 22,
+          "front": "Western Zhou dates?",
+          "back": "Approximately 1046–771 BCE."
+        },
+        {
+          "id": 23,
+          "front": "What was a key political weakness of regional delegation?",
+          "back": "Regional lords could accumulate resources and become more independent."
+        },
+        {
+          "id": 24,
+          "front": "What do Zhou bronze inscriptions often preserve?",
+          "back": "Elite appointments, honors, grants, names and lineage memory."
+        },
+        {
+          "id": 25,
+          "front": "What changed around 771–770 BCE?",
+          "back": "Western Zhou royal dominance collapsed, and the Eastern Zhou period began."
+        },
+        {
+          "id": 26,
+          "front": "Which two major phases subdivide Eastern Zhou?",
+          "back": "Spring and Autumn and Warring States."
+        },
+        {
+          "id": 27,
+          "front": "When did the Zhou royal line end?",
+          "back": "256 BCE; Qin political unification followed in 221 BCE."
+        },
+        {
+          "id": 28,
+          "front": "What is the rule for comparing ancient societies with unequal source records?",
+          "back": "Match claims to surviving evidence, note gaps, and avoid simplistic rankings."
+        }
+      ]
+    },
+    "015": {
+      "deck": "Persia and the Politics of Empire",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Conventional overall dates of the Achaemenid Empire?",
+          "back": "Approximately 550–330 BCE."
+        },
+        {
+          "id": 2,
+          "front": "Region associated with the Persian dynastic heartland?",
+          "back": "Parsa/Fars in southwestern Iran, linked with the Zagros and Iranian plateau."
+        },
+        {
+          "id": 3,
+          "front": "Who defeated Astyages of Media around 550 BCE?",
+          "back": "Cyrus II, later called Cyrus the Great."
+        },
+        {
+          "id": 4,
+          "front": "When did Cyrus take Babylon?",
+          "back": "539 BCE."
+        },
+        {
+          "id": 5,
+          "front": "Which western Anatolian kingdom did Cyrus conquer?",
+          "back": "Lydia, with its capital at Sardis."
+        },
+        {
+          "id": 6,
+          "front": "Main language of the Cyrus Cylinder?",
+          "back": "Akkadian, in the Babylonian dialect and cuneiform script."
+        },
+        {
+          "id": 7,
+          "front": "Why is the Cyrus Cylinder not a modern rights charter?",
+          "back": "It legitimizes kingship and cult restoration rather than universal individual civil rights."
+        },
+        {
+          "id": 8,
+          "front": "Which Persian ruler conquered Egypt in 525 BCE?",
+          "back": "Cambyses II, successor to Cyrus."
+        },
+        {
+          "id": 9,
+          "front": "Who came to the throne during the crisis of 522 BCE?",
+          "back": "Darius I."
+        },
+        {
+          "id": 10,
+          "front": "What is Behistun/Bisotun?",
+          "back": "A monumental trilingual inscription and relief giving Darius’s account of his accession and revolts."
+        },
+        {
+          "id": 11,
+          "front": "Which three languages are prominent at Behistun?",
+          "back": "Old Persian, Elamite and Babylonian."
+        },
+        {
+          "id": 12,
+          "front": "What does “satrap” mean?",
+          "back": "A governor of a major Achaemenid province or region."
+        },
+        {
+          "id": 13,
+          "front": "Why is a “land” in an inscription not necessarily a satrapy?",
+          "back": "Royal lists express claims about peoples and authority, not always uniform fiscal districts."
+        },
+        {
+          "id": 14,
+          "front": "Name one administrative role of roads or relay stations.",
+          "back": "Moving royal instructions, officials, supplies or military communications across distance."
+        },
+        {
+          "id": 15,
+          "front": "What was Pasargadae?",
+          "back": "A royal dynastic center associated with Cyrus in the Persian heartland."
+        },
+        {
+          "id": 16,
+          "front": "What was Persepolis especially known for?",
+          "back": "Monumental royal ceremonial architecture and reliefs, alongside administrative archives."
+        },
+        {
+          "id": 17,
+          "front": "Name one language used in the Persepolis Fortification Archive.",
+          "back": "Elamite; some materials use Aramaic and other languages."
+        },
+        {
+          "id": 18,
+          "front": "What do the Persepolis tablets help historians study?",
+          "back": "Food allocations, travel, officials, workers and administrative economy."
+        },
+        {
+          "id": 19,
+          "front": "Which international administrative language was widespread in the empire?",
+          "back": "Aramaic."
+        },
+        {
+          "id": 20,
+          "front": "Which Iranian deity appears in Darius’s royal inscriptions?",
+          "back": "Ahuramazda."
+        },
+        {
+          "id": 21,
+          "front": "Why is a uniform label “Zoroastrian” for every Achaemenid practice uncertain?",
+          "back": "Early royal religious evidence differs from later religious traditions, and the empire was diverse."
+        },
+        {
+          "id": 22,
+          "front": "Year of the Ionian Revolt’s beginning?",
+          "back": "499 BCE."
+        },
+        {
+          "id": 23,
+          "front": "Year of Marathon?",
+          "back": "490 BCE."
+        },
+        {
+          "id": 24,
+          "front": "Years of Thermopylae, Salamis and Plataea?",
+          "back": "Thermopylae 480, Salamis 480, Plataea 479 BCE."
+        },
+        {
+          "id": 25,
+          "front": "What happened to Egypt for much of the fourth century BCE?",
+          "back": "It achieved effective independence from Persian rule before reconquest around 343/342 BCE."
+        },
+        {
+          "id": 26,
+          "front": "Who challenged Artaxerxes II in 401 BCE?",
+          "back": "His brother, Cyrus the Younger."
+        },
+        {
+          "id": 27,
+          "front": "In which year did Alexander defeat Darius III at Gaugamela?",
+          "back": "331 BCE."
+        },
+        {
+          "id": 28,
+          "front": "What is the essential distinction between ending a dynasty and ending its institutions?",
+          "back": "A ruling family can fall while populations, roads, practices, cities and offices continue in altered forms."
+        }
+      ]
+    },
+    "016": {
+      "deck": "The Greek World and Its Political Experiments",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What does polis mean in ancient Greece?",
+          "back": "A civic community with town, territory, laws, institutions and citizens—not merely a walled town."
+        },
+        {
+          "id": 2,
+          "front": "Which script records Mycenaean palace Greek?",
+          "back": "Linear B."
+        },
+        {
+          "id": 3,
+          "front": "A key limitation of Homer for Bronze Age history?",
+          "back": "The poems were composed centuries later through oral and literary traditions."
+        },
+        {
+          "id": 4,
+          "front": "What writing system did Greeks adapt?",
+          "back": "A Phoenician-derived West Semitic alphabet, with consistent signs for vowels."
+        },
+        {
+          "id": 5,
+          "front": "What does 776 BCE conventionally mark?",
+          "back": "The first recorded Olympiad in later reckoning; not necessarily the beginning of athletic contests."
+        },
+        {
+          "id": 6,
+          "front": "Name one Greek overseas settlement zone.",
+          "back": "Sicily, southern Italy, the Black Sea, southern France or parts of North Africa."
+        },
+        {
+          "id": 7,
+          "front": "What did tyrannos mean in Archaic politics?",
+          "back": "A ruler with exceptional, irregular one-man power, not necessarily a uniquely cruel leader."
+        },
+        {
+          "id": 8,
+          "front": "Who were Spartan helots?",
+          "back": "Unfree dependent agricultural populations, especially in Laconia and Messenia."
+        },
+        {
+          "id": 9,
+          "front": "What was Spartan dual kingship?",
+          "back": "Two hereditary kings from different royal houses with military and religious functions."
+        },
+        {
+          "id": 10,
+          "front": "What were the ephors?",
+          "back": "Five annually selected Spartan officials with significant supervisory powers."
+        },
+        {
+          "id": 11,
+          "front": "Who was Solon?",
+          "back": "An early sixth-century Athenian lawgiver associated with debt and civic reforms."
+        },
+        {
+          "id": 12,
+          "front": "What did Cleisthenes reorganize?",
+          "back": "Athenian demes and ten tribes around 508/507 BCE; associated with the Council of 500."
+        },
+        {
+          "id": 13,
+          "front": "Athenian name for the Assembly?",
+          "back": "Ekklesia."
+        },
+        {
+          "id": 14,
+          "front": "What was the Council of Five Hundred?",
+          "back": "A civic body preparing and coordinating Assembly business, organized through ten tribes."
+        },
+        {
+          "id": 15,
+          "front": "What is selection of office by lottery called?",
+          "back": "Sortition, or selection by lot."
+        },
+        {
+          "id": 16,
+          "front": "Three groups excluded from Athenian voting?",
+          "back": "Women, enslaved people and resident noncitizens; children also lacked adult voting rights."
+        },
+        {
+          "id": 17,
+          "front": "What was ostracism?",
+          "back": "A procedure permitting politically motivated temporary exile, classically for ten years."
+        },
+        {
+          "id": 18,
+          "front": "Year of Marathon?",
+          "back": "490 BCE."
+        },
+        {
+          "id": 19,
+          "front": "Years of Thermopylae and Salamis?",
+          "back": "Both 480 BCE."
+        },
+        {
+          "id": 20,
+          "front": "Year of Plataea?",
+          "back": "479 BCE."
+        },
+        {
+          "id": 21,
+          "front": "What was the Delian League?",
+          "back": "A naval alliance led by Athens that gradually became an instrument of Athenian imperial power."
+        },
+        {
+          "id": 22,
+          "front": "Why does 454 BCE matter for the League?",
+          "back": "Its treasury was transferred from Delos to Athens, a marker of increasing control."
+        },
+        {
+          "id": 23,
+          "front": "Who was Pericles?",
+          "back": "A prominent fifth-century Athenian leader and general associated with democracy and imperial Athens."
+        },
+        {
+          "id": 24,
+          "front": "When was the Peloponnesian War?",
+          "back": "Conventionally 431–404 BCE."
+        },
+        {
+          "id": 25,
+          "front": "What happened at Melos in 416 BCE?",
+          "back": "Athens compelled the island; Thucydides reports killing adult male prisoners and enslaving women and children."
+        },
+        {
+          "id": 26,
+          "front": "When did the Sicilian expedition end catastrophically?",
+          "back": "413 BCE."
+        },
+        {
+          "id": 27,
+          "front": "When was democracy restored after the Thirty?",
+          "back": "403 BCE."
+        },
+        {
+          "id": 28,
+          "front": "When was Socrates executed?",
+          "back": "399 BCE."
+        }
+      ]
+    },
+    "017": {
+      "deck": "Rome: Republic, Empire, and Afterlives",
+      "cards": [
+        {
+          "id": 1,
+          "front": "753 BCE",
+          "back": "The traditional date for Rome’s founding in later Roman chronology."
+        },
+        {
+          "id": 2,
+          "front": "509 BCE",
+          "back": "The conventional traditional year for the transition from kingship to the Republic."
+        },
+        {
+          "id": 3,
+          "front": "Res publica",
+          "back": "The public affair or commonwealth, not a modern one-person-one-vote democracy."
+        },
+        {
+          "id": 4,
+          "front": "Consuls",
+          "back": "Two senior annual magistrates who shared high civil and military command."
+        },
+        {
+          "id": 5,
+          "front": "Senate",
+          "back": "Influential elite council whose advice shaped policy and political prestige."
+        },
+        {
+          "id": 6,
+          "front": "Tribune of the plebs",
+          "back": "Official protecting plebeian interests, including through veto powers."
+        },
+        {
+          "id": 7,
+          "front": "Twelve Tables",
+          "back": "Mid-fifth-century BCE early public Roman legal rules, preserved in later fragments."
+        },
+        {
+          "id": 8,
+          "front": "Samnites",
+          "back": "Peoples of central/southern Italy who fought Rome in major regional conflicts."
+        },
+        {
+          "id": 9,
+          "front": "Italian alliances",
+          "back": "A network supplying soldiers, territory and resilience, alongside unequal obligations."
+        },
+        {
+          "id": 10,
+          "front": "Pyrrhus of Epirus",
+          "back": "Hellenistic king who campaigned in Italy, 280–275 BCE; source of “Pyrrhic victory.”"
+        },
+        {
+          "id": 11,
+          "front": "323 BCE",
+          "back": "Death of Alexander and conventional opening of the Hellenistic era."
+        },
+        {
+          "id": 12,
+          "front": "264–241 BCE",
+          "back": "First Punic War, especially competition over Sicily."
+        },
+        {
+          "id": 13,
+          "front": "Hannibal",
+          "back": "Carthaginian commander who invaded Italy during the Second Punic War."
+        },
+        {
+          "id": 14,
+          "front": "216 BCE",
+          "back": "Battle of Cannae, a major Roman defeat during Hannibal’s campaign."
+        },
+        {
+          "id": 15,
+          "front": "146 BCE",
+          "back": "Roman destruction of Carthage at the end of the Third Punic War."
+        },
+        {
+          "id": 16,
+          "front": "Gracchi",
+          "back": "Tiberius and Gaius Gracchus: reforming tribunes killed amid political violence."
+        },
+        {
+          "id": 17,
+          "front": "88 BCE",
+          "back": "Sulla marched his army on Rome, breaching a critical republican political norm."
+        },
+        {
+          "id": 18,
+          "front": "First Triumvirate",
+          "back": "Informal alliance of Caesar, Pompey and Crassus around 60 BCE."
+        },
+        {
+          "id": 19,
+          "front": "49 BCE",
+          "back": "Caesar crossed the Rubicon with troops, initiating civil war."
+        },
+        {
+          "id": 20,
+          "front": "15 March 44 BCE",
+          "back": "The Ides of March: assassination of Julius Caesar."
+        },
+        {
+          "id": 21,
+          "front": "31 BCE",
+          "back": "Battle of Actium; Octavian defeated forces aligned with Antony and Cleopatra."
+        },
+        {
+          "id": 22,
+          "front": "27 BCE",
+          "back": "Octavian received the title Augustus; conventional start of the Roman imperial period."
+        },
+        {
+          "id": 23,
+          "front": "Principate",
+          "back": "Early imperial arrangement concentrating power in a princeps while retaining republican forms."
+        },
+        {
+          "id": 24,
+          "front": "Annona",
+          "back": "State involvement in Rome’s urban grain supply and distribution."
+        },
+        {
+          "id": 25,
+          "front": "Moesia and Thracia",
+          "back": "Important Roman provincial frameworks in the region of modern Bulgaria."
+        },
+        {
+          "id": 26,
+          "front": "212/213 CE",
+          "back": "Caracalla’s broad extension of Roman citizenship to all or almost all free inhabitants."
+        },
+        {
+          "id": 27,
+          "front": "313 CE",
+          "back": "Measures associated with the Edict of Milan tolerating Christianity and restoring property."
+        },
+        {
+          "id": 28,
+          "front": "Diocletian",
+          "back": "Emperor from 284 CE who reorganized administration and established the Tetrarchy."
+        },
+        {
+          "id": 29,
+          "front": "476 CE",
+          "back": "Conventional end of western imperial office in Italy, not the end of eastern Rome."
+        },
+        {
+          "id": 30,
+          "front": "1453 CE",
+          "back": "Ottoman capture of Constantinople, ending the independent eastern Roman state."
+        }
+      ]
+    },
+    "018": {
+      "deck": "Africa: Kingdoms, Networks, and Cities",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Why is Africa not one historical story?",
+          "back": "Different regions, political institutions, ecological conditions and periods create multiple histories."
+        },
+        {
+          "id": 2,
+          "front": "What is the Sahel?",
+          "back": "The variable transition zone along the southern edge of the Sahara."
+        },
+        {
+          "id": 3,
+          "front": "What is a historical network?",
+          "back": "A linked system of people, goods, ideas, institutions and transport points."
+        },
+        {
+          "id": 4,
+          "front": "What is one limitation of an oral tradition as evidence?",
+          "back": "Details change across performers and generations; memory is not a literal transcript."
+        },
+        {
+          "id": 5,
+          "front": "What was Kerma?",
+          "back": "An important southern Nile political and urban center in the second millennium BCE."
+        },
+        {
+          "id": 6,
+          "front": "How was Kush connected to Egypt's Twenty-fifth Dynasty?",
+          "back": "Kushite kings ruled Egypt as the Twenty-fifth Dynasty in the eighth–seventh centuries BCE."
+        },
+        {
+          "id": 7,
+          "front": "What was Meroë?",
+          "back": "A later southern Nile royal and cultural center associated with Kush."
+        },
+        {
+          "id": 8,
+          "front": "What made Aksum influential?",
+          "back": "Highland production, the port of Adulis, Red Sea trade, coins and strong rulers."
+        },
+        {
+          "id": 9,
+          "front": "Who was Ezana?",
+          "back": "Fourth-century Aksumite ruler associated with Christian royal conversion."
+        },
+        {
+          "id": 10,
+          "front": "What is Lalibela known for?",
+          "back": "Medieval rock-hewn Christian churches carved into the Ethiopian highlands."
+        },
+        {
+          "id": 11,
+          "front": "What does 'Bantu' primarily describe in this context?",
+          "back": "A family of historically related languages, not one nation or empire."
+        },
+        {
+          "id": 12,
+          "front": "What is the Nok archaeological tradition known for?",
+          "back": "Terracotta sculpture and early ironworking in parts of present-day Nigeria."
+        },
+        {
+          "id": 13,
+          "front": "Where was ancient Ghana/Wagadu?",
+          "back": "A Sahelian kingdom in western Africa, not the modern state of Ghana."
+        },
+        {
+          "id": 14,
+          "front": "What sustained trans-Saharan commerce?",
+          "back": "Camel caravans, oasis knowledge, security, contracts and commercial intermediaries."
+        },
+        {
+          "id": 15,
+          "front": "Why is Sundiata important?",
+          "back": "An influential figure in Mali foundation traditions and oral epic memory."
+        },
+        {
+          "id": 16,
+          "front": "Why was Mansa Musa's pilgrimage significant?",
+          "back": "It linked Mali to wider religious, diplomatic and commercial networks in 1324–25."
+        },
+        {
+          "id": 17,
+          "front": "Name two functions of Timbuktu.",
+          "back": "Examples: commercial exchange, religious scholarship and manuscript copying."
+        },
+        {
+          "id": 18,
+          "front": "What was Djenné's economic setting?",
+          "back": "The Niger and Bani floodplains and connected market and agricultural systems."
+        },
+        {
+          "id": 19,
+          "front": "Name a major ruler of Songhai.",
+          "back": "Sonni Ali or Askia Muhammad are major Songhai rulers."
+        },
+        {
+          "id": 20,
+          "front": "What happened in 1591 to Songhai?",
+          "back": "A Moroccan expedition defeated its forces at Tondibi, undermining central imperial rule."
+        },
+        {
+          "id": 21,
+          "front": "Why are the Swahili cities African and cosmopolitan?",
+          "back": "Their language and archaeology show local African roots amid international exchange."
+        },
+        {
+          "id": 22,
+          "front": "What is Kilwa Kisiwani?",
+          "back": "A major medieval Swahili trading city on the coast of present-day Tanzania."
+        },
+        {
+          "id": 23,
+          "front": "What was Mapungubwe?",
+          "back": "An earlier elite and commercial center in southern Africa near the Limpopo–Shashe confluence."
+        },
+        {
+          "id": 24,
+          "front": "What makes Great Zimbabwe important?",
+          "back": "A major African dry-stone monumental city and regional political-commercial center."
+        },
+        {
+          "id": 25,
+          "front": "What is one methodological error in denying Great Zimbabwe's African origins?",
+          "back": "Equating imported trade goods with the identity of the city’s builders."
+        },
+        {
+          "id": 26,
+          "front": "What was Ile-Ife known for?",
+          "back": "Religious and artistic center famous for sophisticated terracotta and metal sculptures."
+        },
+        {
+          "id": 27,
+          "front": "Who was the oba of Benin?",
+          "back": "The monarch of the Edo-speaking kingdom of Benin."
+        },
+        {
+          "id": 28,
+          "front": "What happened to many Benin objects in 1897?",
+          "back": "British forces invaded Benin City and removed many royal and sacred objects."
+        },
+        {
+          "id": 29,
+          "front": "What was Kongo's response to Portuguese contact?",
+          "back": "Its rulers pursued diplomacy and Christian adaptations while contesting the slave trade and unequal relations."
+        },
+        {
+          "id": 30,
+          "front": "Why must trade goods be distinguished from a producer's income?",
+          "back": "A final price includes intermediaries’ costs, risks, taxes and margins; it is not the producer’s direct income."
+        }
+      ]
+    },
+    "019": {
+      "deck": "The Americas Before European Conquest",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Why must we avoid one narrative for all preconquest America?",
+          "back": "Different climates, histories, communities and political institutions; no single empire governed the hemisphere."
+        },
+        {
+          "id": 2,
+          "front": "What is Mesoamerica?",
+          "back": "A broad historical cultural region including southern and central Mexico and parts of Central America."
+        },
+        {
+          "id": 3,
+          "front": "What is a vertical economy in the Andes?",
+          "back": "Access to complementary resources at different altitudes by trade, settlement or social ties."
+        },
+        {
+          "id": 4,
+          "front": "What is source triangulation?",
+          "back": "Checking claims across distinct source types rather than trusting one account."
+        },
+        {
+          "id": 5,
+          "front": "Why is Poverty Point historically significant?",
+          "back": "Large earthworks built around 1700–1100 BCE by hunter-fisher-gatherer communities."
+        },
+        {
+          "id": 6,
+          "front": "Where and when did Caral-Supe flourish?",
+          "back": "On Peru’s central coast, mainly c. 3000–1800 BCE."
+        },
+        {
+          "id": 7,
+          "front": "What is a hallmark of Olmec art?",
+          "back": "Colossal carved basalt heads and refined stone or jade work."
+        },
+        {
+          "id": 8,
+          "front": "Why is 'Olmec mother culture' an oversimplification?",
+          "back": "Later societies developed many ideas independently and through multidirectional contacts."
+        },
+        {
+          "id": 9,
+          "front": "What was Teotihuacan?",
+          "back": "A major planned city in central Mexico prominent in the first centuries CE."
+        },
+        {
+          "id": 10,
+          "front": "Why is its political structure debated?",
+          "back": "The surviving evidence does not provide a securely understood named ruler list or constitution."
+        },
+        {
+          "id": 11,
+          "front": "Were the Classic Maya one empire?",
+          "back": "No. Multiple city-states and kingdoms competed, allied and exchanged goods."
+        },
+        {
+          "id": 12,
+          "front": "What type of writing did the Maya use?",
+          "back": "A logosyllabic script with word signs and syllabic signs."
+        },
+        {
+          "id": 13,
+          "front": "What does the Maya Long Count record?",
+          "back": "Elapsed days from a conventional mythic epoch, enabling historical date notation."
+        },
+        {
+          "id": 14,
+          "front": "What does 'Classic Maya collapse' NOT mean?",
+          "back": "It does not mean Maya peoples or cultures disappeared; local dynasties and settlements changed."
+        },
+        {
+          "id": 15,
+          "front": "What was the Mexica-led Triple Alliance?",
+          "back": "Tenochtitlan, Texcoco and Tlacopan, a coalition that expanded tributary influence."
+        },
+        {
+          "id": 16,
+          "front": "What were chinampas?",
+          "back": "Intensively managed raised planting surfaces in shallow lake environments."
+        },
+        {
+          "id": 17,
+          "front": "Where did Chavín de Huántar flourish?",
+          "back": "At a ritual and architectural center in the highlands of modern Peru."
+        },
+        {
+          "id": 18,
+          "front": "What is one achievement associated with the Moche?",
+          "back": "Elaborate ceramics, burial practices, irrigation and large ceremonial architecture."
+        },
+        {
+          "id": 19,
+          "front": "What are the Nazca Lines?",
+          "back": "Large human-made geoglyphs in the desert of southern Peru."
+        },
+        {
+          "id": 20,
+          "front": "Name two major pre-Inka states or cultural formations.",
+          "back": "Examples: Wari, Tiwanaku and Chimú."
+        },
+        {
+          "id": 21,
+          "front": "What is Tawantinsuyu?",
+          "back": "The Inka imperial realm, traditionally translated as the four regions together."
+        },
+        {
+          "id": 22,
+          "front": "What was the mit'a?",
+          "back": "Organized rotating labor obligations for state and other collective projects."
+        },
+        {
+          "id": 23,
+          "front": "What is the Qhapaq Ñan?",
+          "back": "The extensive Andean road system integrating imperial centers and many local routes."
+        },
+        {
+          "id": 24,
+          "front": "What is a khipu?",
+          "back": "A knotted-cord information and administrative recording device."
+        },
+        {
+          "id": 25,
+          "front": "What was Chaco Canyon?",
+          "back": "An ancestral Pueblo ceremonial and regional center in the U.S. Southwest."
+        },
+        {
+          "id": 26,
+          "front": "What was Cahokia?",
+          "back": "A large Mississippian political and ceremonial settlement near present-day St. Louis."
+        },
+        {
+          "id": 27,
+          "front": "Why did some communities construct earthworks without large farming states?",
+          "back": "Coordinated gatherings and ritual projects could draw on fishing, hunting and exchange."
+        },
+        {
+          "id": 28,
+          "front": "What has LiDAR changed in Amazonian archaeology?",
+          "back": "It reveals earthworks, roads, platforms and modified landscapes beneath some forest canopies."
+        },
+        {
+          "id": 29,
+          "front": "Why should Indigenous alliances be included in 16th-century conquest explanations?",
+          "back": "Indigenous allies, political divisions, disease and long campaigns shaped the invasions."
+        },
+        {
+          "id": 30,
+          "front": "What is wrong with describing 1492 as the beginning of American history?",
+          "back": "Indigenous people already knew, inhabited and governed lands across the hemisphere for millennia."
+        }
+      ]
+    },
+    "020": {
+      "deck": "The Rise of Islam and the Caliphates",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What was late antiquity?",
+          "back": "The period connecting the ancient and medieval Mediterranean and western Asian worlds, with enduring and changing imperial and religious institutions."
+        },
+        {
+          "id": 2,
+          "front": "What are three different ways of life in pre-Islamic Arabia?",
+          "back": "Oasis agriculture and markets; mobile pastoralism; coastal and southern farming, ports or trade."
+        },
+        {
+          "id": 3,
+          "front": "What were the Byzantine and Sasanian empires?",
+          "back": "The eastern Roman Empire and the Iranian Sasanian Empire; both shaped the seventh-century setting."
+        },
+        {
+          "id": 4,
+          "front": "What is the Qur'an in Islam?",
+          "back": "The central sacred scripture of Islam, understood by Muslims as revelation from God to Muhammad."
+        },
+        {
+          "id": 5,
+          "front": "Why must sira and hadith sources be evaluated carefully?",
+          "back": "They were compiled and transmitted through later networks; examine genre, timing, transmission and corroboration."
+        },
+        {
+          "id": 6,
+          "front": "Who was Khadija?",
+          "back": "Muhammad’s first wife and an important supporter in Islamic tradition."
+        },
+        {
+          "id": 7,
+          "front": "What was the Hijra and when did it occur?",
+          "back": "The migration from Mecca to Medina in 622 CE, the starting point of the Hijri era."
+        },
+        {
+          "id": 8,
+          "front": "What was the early ummah?",
+          "back": "The community organized around Islamic belief and collective obligations."
+        },
+        {
+          "id": 9,
+          "front": "Who were the muhajirun and ansar?",
+          "back": "The emigrants from Mecca and the supporters in Medina."
+        },
+        {
+          "id": 10,
+          "front": "What does the Constitution of Medina refer to?",
+          "back": "Early agreements describing obligations and relationships among groups in Medina; their form is debated."
+        },
+        {
+          "id": 11,
+          "front": "When did Muhammad die?",
+          "back": "In 632 CE."
+        },
+        {
+          "id": 12,
+          "front": "What is a caliph?",
+          "back": "A successor/deputy who leads the Muslim community or caliphal state; the office evolved."
+        },
+        {
+          "id": 13,
+          "front": "Who were the four Rashidun caliphs in Sunni tradition?",
+          "back": "Abu Bakr, Umar, Uthman and Ali."
+        },
+        {
+          "id": 14,
+          "front": "What were the Ridda wars?",
+          "back": "Abu Bakr’s campaigns to consolidate Medina’s authority after Muhammad’s death."
+        },
+        {
+          "id": 15,
+          "front": "What is the difference between conquest and conversion?",
+          "back": "One establishes political power; the other is personal or communal religious adoption."
+        },
+        {
+          "id": 16,
+          "front": "What were Kufa, Basra and Fustat?",
+          "back": "Early garrison towns that grew into important administrative, commercial and scholarly centers."
+        },
+        {
+          "id": 17,
+          "front": "What is the traditional Uthmanic standardization account?",
+          "back": "The traditional account of producing and circulating authoritative Qur’anic written exemplars under Uthman."
+        },
+        {
+          "id": 18,
+          "front": "What was the First Fitna?",
+          "back": "Civil conflict beginning in 656 over leadership, justice and political authority in the Muslim community."
+        },
+        {
+          "id": 19,
+          "front": "What happened at Karbala in 680?",
+          "back": "Husayn ibn Ali and followers were killed; the event became a defining memory, especially for Shia Muslims."
+        },
+        {
+          "id": 20,
+          "front": "When and where did the Umayyad dynasty rule from its chief center?",
+          "back": "From 661 to 750, with Damascus a central seat of power."
+        },
+        {
+          "id": 21,
+          "front": "What was the Dome of the Rock?",
+          "back": "An Umayyad Islamic shrine in Jerusalem, completed around 691–692."
+        },
+        {
+          "id": 22,
+          "front": "What is the difference between Arabization and Islamization?",
+          "back": "Arabization is the spread of Arabic language/culture; Islamization is religious conversion/adoption."
+        },
+        {
+          "id": 23,
+          "front": "Who were the mawali?",
+          "back": "Non-Arab clients or converts associated with Arab groups, of varied social standing."
+        },
+        {
+          "id": 24,
+          "front": "What changed in the Abbasid revolution of 750?",
+          "back": "Abbasid rule replaced the Syrian-centered Umayyads and shifted the political focus toward Iraq."
+        },
+        {
+          "id": 25,
+          "front": "When was Baghdad founded and by whom?",
+          "back": "In 762, by the Abbasid caliph al-Mansur."
+        },
+        {
+          "id": 26,
+          "front": "What was the Abbasid translation movement?",
+          "back": "Translation, study and development of knowledge across Greek, Syriac, Persian, Sanskrit, Arabic and other traditions."
+        },
+        {
+          "id": 27,
+          "front": "What is fiqh?",
+          "back": "Human scholarly interpretation and reasoning about Islamic law and religious obligations."
+        },
+        {
+          "id": 28,
+          "front": "What is a hadith?",
+          "back": "A transmitted report concerning Muhammad’s words, actions or approvals."
+        },
+        {
+          "id": 29,
+          "front": "What was the mihna?",
+          "back": "An Abbasid-era doctrinal inquisition beginning in 833 that challenged scholars about the Qur’an’s status."
+        },
+        {
+          "id": 30,
+          "front": "Why does the decline of one caliphate not imply the end of Islamic civilization?",
+          "back": "Political centers fragmented, but Muslim communities, scholarship, worship, trade and institutions continued across regions."
+        }
+      ]
+    },
+    "021": {
+      "deck": "Medieval Eurasia and the Silk Roads",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What chronological focus does Chapter 21 use?",
+          "back": "Approximately 500–1200 CE, with earlier background and a transition toward the Mongol age."
+        },
+        {
+          "id": 2,
+          "front": "Why is the term “Silk Roads” plural?",
+          "back": "They formed multiple shifting land and maritime routes, not one uninterrupted road."
+        },
+        {
+          "id": 3,
+          "front": "What is a relay trade network?",
+          "back": "Goods pass through successive merchants or markets; each person need not travel the whole route."
+        },
+        {
+          "id": 4,
+          "front": "Which desert encouraged oasis routes around its edges in northwestern China?",
+          "back": "The Taklamakan Desert."
+        },
+        {
+          "id": 5,
+          "front": "What is a caravanserai?",
+          "back": "A roadside lodging and service station for travelers or caravans, varying by time and place."
+        },
+        {
+          "id": 6,
+          "front": "Which Central Asian people became famous as international merchants during much of late antiquity and the early medieval era?",
+          "back": "The Sogdians."
+        },
+        {
+          "id": 7,
+          "front": "What is a merchant diaspora?",
+          "back": "A dispersed community whose commercial and social links connect several towns or regions."
+        },
+        {
+          "id": 8,
+          "front": "Why are the Sogdian Ancient Letters important?",
+          "back": "They preserve early evidence of Sogdian commercial ties, family concerns and disrupted exchange."
+        },
+        {
+          "id": 9,
+          "front": "What are Dunhuang and the Mogao Library Cave?",
+          "back": "A major oasis town and nearby Buddhist cave complex with unusually rich surviving manuscripts."
+        },
+        {
+          "id": 10,
+          "front": "What is a khaganate?",
+          "back": "A realm or confederation led by a khagan, found especially in Inner Asian political history."
+        },
+        {
+          "id": 11,
+          "front": "What was the Tang dynasty's approximate period?",
+          "back": "618–907 CE."
+        },
+        {
+          "id": 12,
+          "front": "What was the An Lushan rebellion?",
+          "back": "A major rebellion beginning in 755 that weakened Tang authority and altered frontier politics."
+        },
+        {
+          "id": 13,
+          "front": "How did the Tibetan Empire shape Inner Asian exchange?",
+          "back": "Its military and political control of parts of the highland and Tarim corridors affected movement and Buddhist networks."
+        },
+        {
+          "id": 14,
+          "front": "Who was Xuanzang?",
+          "back": "A seventh-century Chinese Buddhist monk who traveled to South Asia and recorded places and religious life."
+        },
+        {
+          "id": 15,
+          "front": "What does the Xi'an Stele of 781 attest?",
+          "back": "An officially commemorated Church of the East Christian community in Tang China."
+        },
+        {
+          "id": 16,
+          "front": "Name two religions other than Buddhism and Islam found in historical Central Asian networks.",
+          "back": "Zoroastrianism, Manichaeism and Christianity are examples."
+        },
+        {
+          "id": 17,
+          "front": "What was the Samanid dynasty important for?",
+          "back": "The ninth–tenth-century Persianate and Islamic political and cultural flourishing centered partly on Bukhara."
+        },
+        {
+          "id": 18,
+          "front": "Why was Bukhara more than a caravan stop?",
+          "back": "It depended on farms, irrigation, workshops, learning and regional markets as well as caravans."
+        },
+        {
+          "id": 19,
+          "front": "What was Nalanda?",
+          "back": "A major Buddhist monastic and scholastic center in what is now Bihar, India."
+        },
+        {
+          "id": 20,
+          "front": "Which South Asian dynasty raided Srivijaya-linked centers in 1025?",
+          "back": "The Chola dynasty under Rajendra I."
+        },
+        {
+          "id": 21,
+          "front": "What was Srivijaya?",
+          "back": "A maritime Southeast Asian political and commercial network influential from roughly the seventh century."
+        },
+        {
+          "id": 22,
+          "front": "What is a monsoon in the context of Indian Ocean navigation?",
+          "back": "A seasonal wind system whose recurring shifts helped sailors plan Indian Ocean routes."
+        },
+        {
+          "id": 23,
+          "front": "Why is the Belitung shipwreck significant?",
+          "back": "An important ninth-century wreck with Chinese ceramics documenting maritime exchange."
+        },
+        {
+          "id": 24,
+          "front": "Give one major technological or commercial development under the Song.",
+          "back": "Expanded commercial cities, canals, ceramics, printing or technical experimentation."
+        },
+        {
+          "id": 25,
+          "front": "What was the Grand Canal's core function?",
+          "back": "To connect northern and southern regions of China for transport and state administration."
+        },
+        {
+          "id": 26,
+          "front": "Why must the Battle of Talas paper story be treated cautiously?",
+          "back": "The story of captured Chinese paper makers is too narrow and its evidence disputed; diffusion involved multiple processes."
+        },
+        {
+          "id": 27,
+          "front": "Name one river system connecting northern Europe with the Black Sea world.",
+          "back": "The Dnieper or Volga, among others."
+        },
+        {
+          "id": 28,
+          "front": "What is the difference between an object traveling and a person making the whole journey?",
+          "back": "Cargo can pass through multiple intermediaries; the original maker may never see the destination."
+        },
+        {
+          "id": 29,
+          "front": "What is a network bottleneck?",
+          "back": "A route or connection whose disruption affects access, cost or traffic through a larger network."
+        },
+        {
+          "id": 30,
+          "front": "How will Chapter 22 change the Silk Roads story?",
+          "back": "It reorganized preexisting networks through conquest and new political conditions, with severe violence and increased travel in some periods."
+        }
+      ]
+    },
+    "022": {
+      "deck": "The Mongols and the Connected World",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What does <em>pastoralism</em> mean in the steppe context?",
+          "back": "An animal-herding livelihood based partly on seasonal pasture movement."
+        },
+        {
+          "id": 2,
+          "front": "Who was Temüjin, and what title did he receive in 1206?",
+          "back": "Temujin became Chinggis Khan at the 1206 assembly."
+        },
+        {
+          "id": 3,
+          "front": "What was a <em>quriltai</em>?",
+          "back": "A political assembly of steppe elites, including important selections of rulers."
+        },
+        {
+          "id": 4,
+          "front": "Name two features of Mongol military organization beyond mounted archery.",
+          "back": "Scouting, coordinated commands, decimal units, siege engineers or royal guards."
+        },
+        {
+          "id": 5,
+          "front": "Why is forage central to evaluating medieval army-size claims?",
+          "back": "Large numbers of horses required food, water, grazing and feasible routes."
+        },
+        {
+          "id": 6,
+          "front": "Which two northern Chinese or northwestern states were major early Mongol opponents?",
+          "back": "Western Xia (Tangut) and Jin (Jurchen)."
+        },
+        {
+          "id": 7,
+          "front": "In which year did Chinggis Khan die?",
+          "back": "1227."
+        },
+        {
+          "id": 8,
+          "front": "Which empire was attacked after the Otrar crisis?",
+          "back": "The Khwarazmian Empire."
+        },
+        {
+          "id": 9,
+          "front": "Why are exact casualty figures in medieval conquest accounts difficult to trust?",
+          "back": "Writers could exaggerate, copy figures or lack accurate population information."
+        },
+        {
+          "id": 10,
+          "front": "Name the four principal branches traditionally linked to Chinggis Khan's sons.",
+          "back": "Jochi, Chagatai, Ogedei and Tolui."
+        },
+        {
+          "id": 11,
+          "front": "Who succeeded Chinggis Khan as great khan in 1229?",
+          "back": "Ogedei Khan."
+        },
+        {
+          "id": 12,
+          "front": "Name one influential woman in Mongol succession politics.",
+          "back": "Toregene Khatun or Sorghaghtani Beki, among others."
+        },
+        {
+          "id": 13,
+          "front": "In which year did Kyiv fall to Mongol forces?",
+          "back": "1240."
+        },
+        {
+          "id": 14,
+          "front": "What was the Jochid ulus commonly called in later history?",
+          "back": "The Golden Horde."
+        },
+        {
+          "id": 15,
+          "front": "What did Mongol khans often require from Rus' rulers?",
+          "back": "Tribute and recognition of khanly authority; arrangements varied."
+        },
+        {
+          "id": 16,
+          "front": "Which city fell to Hülegü's forces in 1258?",
+          "back": "Baghdad."
+        },
+        {
+          "id": 17,
+          "front": "Who defeated Mongol forces at Ayn Jalut in 1260?",
+          "back": "The Mamluks of Egypt."
+        },
+        {
+          "id": 18,
+          "front": "Which Mongol ruler founded the Yuan dynasty in 1271?",
+          "back": "Kublai Khan."
+        },
+        {
+          "id": 19,
+          "front": "When was the Southern Song conquest completed?",
+          "back": "1279."
+        },
+        {
+          "id": 20,
+          "front": "Name the four main later Mongol-linked political realms.",
+          "back": "Yuan, Chagatai, Ilkhanate and Jochid/Golden Horde."
+        },
+        {
+          "id": 21,
+          "front": "What was the <em>yam</em> or <em>jam</em> relay network?",
+          "back": "A network of relay stations supplying authorized messengers."
+        },
+        {
+          "id": 22,
+          "front": "What was a <em>paiza</em>?",
+          "back": "A tablet or credential linked to official authorization and certain privileges."
+        },
+        {
+          "id": 23,
+          "front": "What does <em>Pax Mongolica</em> refer to, and why must it be qualified?",
+          "back": "A label for relative trade security under some Mongol regimes; it was uneven and coercive."
+        },
+        {
+          "id": 24,
+          "front": "What was an <em>ortoq</em> partnership?",
+          "back": "An imperial-era investment or commercial partnership associated with merchants."
+        },
+        {
+          "id": 25,
+          "front": "What is the <em>Secret History of the Mongols</em>?",
+          "back": "A thirteenth-century dynastic narrative of Mongol origins and Chinggis Khan."
+        },
+        {
+          "id": 26,
+          "front": "Who was Rashid al-Din?",
+          "back": "A major Ilkhanid historian and court official who composed a universal history."
+        },
+        {
+          "id": 27,
+          "front": "What did the Issyk-Kul research identify for 1338–39?",
+          "back": "Plague evidence in 1338–39 burials and important ancestral genomic connections."
+        },
+        {
+          "id": 28,
+          "front": "Why is the Caffa catapulted-corpses account disputed?",
+          "back": "Its famous account is non-eyewitness and its proposed causal route is challenged."
+        },
+        {
+          "id": 29,
+          "front": "In what year did Yuan rule end in China?",
+          "back": "1368."
+        },
+        {
+          "id": 30,
+          "front": "What is the difference between connectivity and peace?",
+          "back": "People and goods may move widely even while warfare, exploitation and unequal security persist."
+        }
+      ]
+    }
+  }
+}

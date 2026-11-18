@@ -1,0 +1,206 @@
+"""Run with:  python -m unittest discover -s importer/tests -v"""
+from __future__ import annotations
+
+import hashlib
+import json
+import os
+import sys
+import tempfile
+import unittest
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parent))
+sys.path.insert(0, str(HERE))
+
+import fixture_docx  # noqa: E402
+import import_manuscript as IM  # noqa: E402
+import patterns as P  # noqa: E402
+import render as R  # noqa: E402
+from docx_reader import Seg  # noqa: E402
+
+REPO = HERE.parent.parent
+
+
+def tree_hash(root: Path) -> str:
+    h = hashlib.sha256()
+    for d in ["src", "content-meta", "public", "IMPORT_REPORT.md"]:
+        base = root / d
+        files = [base] if base.is_file() else sorted(base.rglob("*")) if base.exists() else []
+        for f in files:
+            if f.is_file():
+                h.update(str(f.relative_to(root)).encode())
+                h.update(f.read_bytes())
+    return h.hexdigest()
+
+
+class PatternTests(unittest.TestCase):
+    def test_slugify(self):
+        self.assertEqual(P.slugify("1. What does it mean to know something?"), "1-what-does-it-mean-to-know-something")
+        self.assertEqual(P.slugify("Seeing, measuring, remembering: why observation is not simple"),
+                         "seeing-measuring-remembering-why-observation-is-not-simple")
+        self.assertLessEqual(len(P.slugify("word " * 40)), 60)
+        self.assertEqual(P.slugify("Meroë & Aksum’s trade"), "meroe-and-aksums-trade")
+
+    def test_title_case(self):
+        self.assertEqual(P.title_case("HOW TO KNOW WHAT IS TRUE"), "How to Know What Is True")
+        self.assertEqual(P.title_case("ANCIENT CHINA: DYNASTIES AND STATECRAFT"), "Ancient China: Dynasties and Statecraft")
+        self.assertEqual(P.title_case("THE TOOLS OF UNDERSTANDING"), "The Tools of Understanding")
+
+    def test_classify(self):
+        self.assertEqual(P.classify_h2("The bridge that collapsed three times", 0)[0], "opening")
+        self.assertEqual(P.classify_h2("1. The opening scene", 0)[0], "opening")
+        self.assertEqual(P.classify_h2("3. Following a claim upstream", 4)[0], "section")
+        self.assertEqual(P.classify_h2("The chapter in ten principles", 9)[0], "summary")
+        self.assertEqual(P.classify_h2("Remember this chapter", 9)[0], "summary")
+        self.assertEqual(P.classify_h2("Practice laboratory: explain, calculate, debate, investigate", 9)[0], "practice")
+        self.assertEqual(P.classify_h2("Practice laboratory — 30 exercises", 9)[0], "practice")
+        self.assertEqual(P.classify_h2("Flashcards: 28 prompts for spaced recall", 9)[0], "flashcards")
+        self.assertEqual(P.classify_h2("Flashcard prompts — Chapter 001", 9)[0], "flashcards")
+        self.assertEqual(P.classify_h2("Recommended sources and directions for further reading", 9)[0], "sources")
+        self.assertEqual(P.classify_h2("Sources and further reading", 9)[0], "sources")
+        t, warn = P.classify_h2("Essential timeline — Chapter 012", 9)
+        self.assertEqual(t, "section")
+        self.assertIsNotNone(warn)
+
+    def test_decks(self):
+        m = P.PART_DECK.match("PART II   /   THE HUMAN STORY")
+        self.assertEqual(P.roman_to_int(m.group(1)), 2)
+        m = P.EDITION_DECK.match("NOVEMBER 2026  /  WORKING EDITION 25")
+        self.assertEqual(m.group(2), "25")
+
+
+class RenderTests(unittest.TestCase):
+    def test_asterisk_emphasis(self):
+        segs = R.apply_asterisk_emphasis([Seg("what *knowledge* is, 2 * 3")])
+        self.assertEqual(R.to_html(segs), "what <em>knowledge</em> is, 2 * 3")
+
+    def test_citations(self):
+        segs = R.linkify([Seg("Shown before. [4] And [1, 9].")], cite=lambda n: f"/c/sources/#source-{n}" if n < 5 else None)
+        html = R.to_html(segs)
+        self.assertIn('<a href="/c/sources/#source-4" class="cite">4</a>', html)
+        self.assertIn('<a href="/c/sources/#source-1" class="cite">1</a>', html)
+        self.assertNotIn("source-9", html)
+
+    def test_urls(self):
+        html = R.to_html(R.linkify([Seg("See https://example.org/x. Done")]))
+        self.assertIn('<a href="https://example.org/x" rel="noopener">https://example.org/x</a>. Done', html)
+
+    def test_markdown_escaping(self):
+        self.assertEqual(R.to_md([Seg("1. Not a list <b> [x] *y*")]), r"1\. Not a list &lt;b&gt; \[x\] \*y\*")
+        self.assertEqual(R.to_md([Seg("A "), Seg("bold ", bold=True), Seg("word")]), "A <strong>bold</strong> word")
+
+
+class FixtureImportTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+        self.docx = self.root / "manuscript.docx"
+        fixture_docx.build(str(self.docx))
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def load(self, rel):
+        return json.loads((self.root / rel).read_text(encoding="utf-8"))
+
+    def test_structure(self):
+        b = IM.run(self.docx, self.root, quiet=True)
+        self.assertEqual(b.report.warnings, [])
+        book = self.load("src/data/book.json")
+        self.assertEqual(book["edition"], 1)
+        self.assertEqual(book["parts"][0]["slug"], "part-1-the-tools-of-testing")
+        ch_md = (self.root / "src/content/chapters/001-how-to-test-things.md").read_text(encoding="utf-8")
+        self.assertIn('title: "How to Test Things"', ch_md)
+        self.assertIn('status: "REVISED DRAFT"', ch_md)
+        self.assertIn("Once upon a time", ch_md)
+        sec_dir = self.root / "src/content/sections/001-how-to-test-things"
+        self.assertEqual(sorted(f.name for f in sec_dir.iterdir()),
+                         ["flashcards.md", "practice.md", "sources.md", "summary.md",
+                          "what-is-a-test.md", "why-evidence-matters.md"])
+        sec = (sec_dir / "what-is-a-test.md").read_text(encoding="utf-8")
+        self.assertIn("<em>claim</em>", sec)
+        self.assertIn("<strong>Bold idea.</strong>", sec)
+        self.assertIn("## A ladder of tests", sec)
+        self.assertIn(r"1\. Not a list item.", sec)
+        self.assertIn('id="figure-1-1"', sec)
+        self.assertIn("../../../assets/figures/figure-1-1.png", sec)
+        self.assertTrue((self.root / "src/assets/figures/figure-1-1.png").exists())
+        ev = (sec_dir / "why-evidence-matters.md").read_text(encoding="utf-8")
+        self.assertIn('/001-how-to-test-things/sources/#source-2', ev)
+
+        practice = self.load("src/data/practice.json")["001"]
+        self.assertEqual(practice["groups"][0]["title"], "A. Basics")
+        self.assertIn("Assert something", practice["groups"][0]["exercises"][0]["answer"])
+        cards = self.load("src/data/flashcards.json")["chapters"]["001"]["cards"]
+        self.assertEqual(cards, [{"id": 1, "front": "What is a test?", "back": "A check of a claim."}])
+        sources = self.load("src/data/sources.json")["001"]
+        self.assertEqual([e["n"] for e in sources["entries"]], [1, 2])
+        roadmap = self.load("src/data/roadmap.json")
+        self.assertEqual([c["status"] for c in roadmap["chapters"]], ["REVISED DRAFT", "PLANNED"])
+        about = (self.root / "src/content/pages/about.md").read_text(encoding="utf-8")
+        self.assertIn("Welcome", about)
+        self.assertNotIn("CHAPTER 001", about)
+        # Editorial boxes never leak into output
+        for f in (self.root / "src").rglob("*"):
+            if f.is_file() and f.suffix in (".md", ".json"):
+                txt = f.read_text(encoding="utf-8")
+                self.assertNotIn("EDITORIAL VISION", txt, f)
+                self.assertNotIn("CURRENT STATUS", txt, f)
+
+    def test_idempotent(self):
+        IM.run(self.docx, self.root, quiet=True)
+        first = tree_hash(self.root)
+        IM.run(self.docx, self.root, quiet=True)
+        self.assertEqual(first, tree_hash(self.root))
+
+    def test_slugs_stable_and_changes_tracked(self):
+        IM.run(self.docx, self.root, quiet=True)
+        fixture_docx.build(str(self.docx), variant=2)
+        b = IM.run(self.docx, self.root, quiet=True)
+        sec_dir = self.root / "src/content/sections/001-how-to-test-things"
+        self.assertTrue((sec_dir / "what-is-a-test.md").exists())   # unchanged slug kept
+        self.assertTrue((sec_dir / "why-evidence-really-matters.md").exists())  # renamed section
+        self.assertEqual([e["url"] for e in b.changes["new"]],
+                         ["/001-how-to-test-things/why-evidence-really-matters/"])
+        self.assertEqual([e["url"] for e in b.changes["removed"]],
+                         ["/001-how-to-test-things/why-evidence-matters/"])
+        self.assertIn("Edition 1", (self.root / "IMPORT_REPORT.md").read_text(encoding="utf-8"))
+
+
+@unittest.skipUnless(list((REPO / "manuscript").glob("*.docx")), "real manuscript not present")
+class RealManuscriptTests(unittest.TestCase):
+    """Sanity-check counts against the real manuscript (spec values for Edition 25)."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.tmp = tempfile.TemporaryDirectory()
+        cls.root = Path(cls.tmp.name)
+        # Start from the committed slug registry so slugs match the repo.
+        meta = REPO / "content-meta"
+        if meta.exists():
+            (cls.root / "content-meta").mkdir()
+            for name in ("slugs.json", "slug-overrides.json"):
+                if (meta / name).exists():
+                    (cls.root / "content-meta" / name).write_bytes((meta / name).read_bytes())
+        cls.docx = IM.find_manuscript(REPO)
+        cls.b = IM.run(cls.docx, cls.root, quiet=True)
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.tmp.cleanup()
+
+    def test_counts(self):
+        c = self.b.counts
+        if self.b.book.edition == 25:
+            for k, v in IM.EXPECTED_ED25.items():
+                self.assertEqual(c[k], v, k)
+        self.assertEqual(c["Exercises"], c["Model answers"])
+        self.assertEqual(c["Chapters"], c["Flashcard tables"])
+
+    def test_no_warnings(self):
+        self.assertEqual(self.b.report.warnings, [])
+
+
+if __name__ == "__main__":
+    unittest.main()

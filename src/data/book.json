@@ -1,0 +1,3661 @@
+{
+  "title": "Knowledge Kingdom",
+  "titleDisplay": "KNOWLEDGE KINGDOM",
+  "subtitle": "An Illustrated Guide to Understanding the World",
+  "edition": 25,
+  "editionDate": "November 2026",
+  "statusNote": "long-form chapter drafts. Factual and editorial quality checks remain part of the final publication process.",
+  "parts": [
+    {
+      "number": 1,
+      "roman": "I",
+      "title": "The Tools of Understanding",
+      "slug": "part-1-the-tools-of-understanding",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "number": 2,
+      "roman": "II",
+      "title": "The Human Story",
+      "slug": "part-2-the-human-story",
+      "chapters": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    }
+  ],
+  "readingOrder": [
+    {
+      "url": "/about/",
+      "title": "A note to the reader",
+      "kind": "about"
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/",
+      "title": "How to Know What Is True",
+      "kind": "chapter",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/what-does-it-mean-to-know-something/",
+      "title": "What does it mean to know something?",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/four-statements-that-sound-similar-but-do-different-work/",
+      "title": "Four statements that sound similar but do different work",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/seeing-measuring-remembering-why-observation-is-not-simple/",
+      "title": "Seeing, measuring, remembering: why observation is not simple",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/the-right-evidence-for-the-right-question/",
+      "title": "The right evidence for the right question",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/following-a-claim-upstream/",
+      "title": "Following a claim upstream",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/from-a-pattern-to-a-cause/",
+      "title": "From a pattern to a cause",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/what-science-can-offer-and-what-it-cannot-settle-alone/",
+      "title": "What science can offer—and what it cannot settle alone",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/reading-a-research-headline-without-being-fooled/",
+      "title": "Reading a research headline without being fooled",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/experts-when-to-trust-them-when-to-question-them/",
+      "title": "Experts: when to trust them, when to question them",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/probability-is-the-language-of-reasonable-uncertainty/",
+      "title": "Probability is the language of reasonable uncertainty",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/cognitive-bias-when-our-own-minds-become-part-of-the-problem/",
+      "title": "Cognitive bias: when our own minds become part of the problem",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim-and-a/",
+      "title": "Three investigations: a photograph, a historical claim, and a policy promise",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/when-evidence-and-values-collide/",
+      "title": "When evidence and values collide",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/a-three-speed-method-for-checking-claims/",
+      "title": "A three-speed method for checking claims",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/the-danger-of-becoming-certain-that-nobody-knows-anything/",
+      "title": "The danger of becoming certain that nobody knows anything",
+      "kind": "section",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/summary/",
+      "title": "The chapter in ten principles",
+      "kind": "summary",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 1
+    },
+    {
+      "url": "/001-how-to-know-what-is-true/sources/",
+      "title": "Recommended sources and further reading",
+      "kind": "sources",
+      "chapter": 1
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/",
+      "title": "Logic, Arguments, and Common Fallacies",
+      "kind": "chapter",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/the-anatomy-of-a-reasoned-claim/",
+      "title": "The anatomy of a reasoned claim",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/valid-is-not-the-same-as-true/",
+      "title": "Valid is not the same as true",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/necessary-sufficient-and-merely-associated/",
+      "title": "Necessary, sufficient, and merely associated",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/three-ways-to-reason-about-the-unknown/",
+      "title": "Three ways to reason about the unknown",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/from-one-cause-to-a-chain-of-causes/",
+      "title": "From one cause to a chain of causes",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/facts-definitions-predictions-and-values/",
+      "title": "Facts, definitions, predictions and values",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/why-fallacies-are-more-than-a-list-of-latin-names/",
+      "title": "Why fallacies are more than a list of Latin names",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/straw-men-steel-men-and-the-temptation-to-win/",
+      "title": "Straw men, steel men, and the temptation to win",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/when-the-speaker-becomes-the-target/",
+      "title": "When the speaker becomes the target",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/false-choices-slippery-slopes-and-arguments-from-fear/",
+      "title": "False choices, slippery slopes, and arguments from fear",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/popularity-authority-tradition-and-novelty/",
+      "title": "Popularity, authority, tradition, and novelty",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/bad-generalizations-and-selective-evidence/",
+      "title": "Bad generalizations and selective evidence",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/circular-arguments-moving-goalposts-and-the-burden-of-proof/",
+      "title": "Circular arguments, moving goalposts, and the burden of proof",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/the-fallacy-fallacy-and-why-disagreement-remains-difficult/",
+      "title": "The fallacy fallacy—and why disagreement remains difficult",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/a-practical-method-for-analyzing-any-argument/",
+      "title": "A practical method for analyzing any argument",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/case-study-the-city-center-car-restriction/",
+      "title": "Case study: the city-center car restriction",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/case-study-a-dramatic-historical-claim/",
+      "title": "Case study: a dramatic historical claim",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/case-study-a-local-business-investment/",
+      "title": "Case study: a local business investment",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/reasoning-well-in-conversation/",
+      "title": "Reasoning well in conversation",
+      "kind": "section",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/summary/",
+      "title": "Remember this chapter",
+      "kind": "summary",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 2
+    },
+    {
+      "url": "/002-logic-arguments-and-common-fallacies/sources/",
+      "title": "Recommended sources",
+      "kind": "sources",
+      "chapter": 2
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/",
+      "title": "Probability, Risk, and Everyday Numbers",
+      "kind": "chapter",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/why-certainty-is-the-wrong-standard/",
+      "title": "Why certainty is the wrong standard",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/begin-with-what-is-being-counted/",
+      "title": "Begin with what is being counted",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/three-simple-rules-for-combining-chances/",
+      "title": "Three simple rules for combining chances",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/conditional-probability-the-question-after-given-that/",
+      "title": "Conditional probability: the question after “given that”",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/the-fraud-alarm-counted-properly/",
+      "title": "The fraud alarm, counted properly",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/the-size-of-a-risk-matters-as-much-as-its-direction/",
+      "title": "The size of a risk matters as much as its direction",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/expected-value-the-average-you-may-never-personally-see/",
+      "title": "Expected value: the average you may never personally see",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/why-sensible-people-buy-insurance/",
+      "title": "Why sensible people buy insurance",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/variability-two-roads-with-the-same-average/",
+      "title": "Variability: two roads with the same average",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/small-samples-streaks-and-the-human-search-for-patterns/",
+      "title": "Small samples, streaks, and the human search for patterns",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/where-confidence-comes-from-and-where-it-should-stop/",
+      "title": "Where confidence comes from—and where it should stop",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/forecasts-should-be-judged-as-forecasts/",
+      "title": "Forecasts should be judged as forecasts",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/compounding-why-time-multiplies-small-differences/",
+      "title": "Compounding: why time multiplies small differences",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/three-kinds-of-uncertainty-three-different-responses/",
+      "title": "Three kinds of uncertainty, three different responses",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/decision-trees-putting-consequences-next-to-chances/",
+      "title": "Decision trees: putting consequences next to chances",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/how-statistics-become-misleading-without-any-false/",
+      "title": "How statistics become misleading without any false arithmetic",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/talking-about-uncertainty-without-sounding-weak/",
+      "title": "Talking about uncertainty without sounding weak",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/a-practical-checklist-for-everyday-numerical-claims/",
+      "title": "A practical checklist for everyday numerical claims",
+      "kind": "section",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/summary/",
+      "title": "Remember this chapter",
+      "kind": "summary",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 3
+    },
+    {
+      "url": "/003-probability-risk-and-everyday-numbers/sources/",
+      "title": "Recommended sources",
+      "kind": "sources",
+      "chapter": 3
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/",
+      "title": "Historical Time and the Problem of Sources",
+      "kind": "chapter",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/history-begins-with-the-problem-of-time/",
+      "title": "History begins with the problem of time",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/bce-ce-calendars-and-the-missing-year-zero/",
+      "title": "BCE, CE, calendars, and the missing year zero",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/periods-are-questions-not-fences/",
+      "title": "Periods are questions, not fences",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/the-past-leaves-traces-not-finished-stories/",
+      "title": "The past leaves traces, not finished stories",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/primary-source-is-a-relationship-to-a-question/",
+      "title": "“Primary source” is a relationship to a question",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/eyewitnesses-memory-and-testimony/",
+      "title": "Eyewitnesses, memory, and testimony",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/who-made-the-archives-and-who-is-absent/",
+      "title": "Who made the archives—and who is absent?",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/translation-quotations-and-the-danger-of-a-perfect-sentence/",
+      "title": "Translation, quotations, and the danger of a perfect sentence",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/archaeology-reading-what-people-left-behind/",
+      "title": "Archaeology: reading what people left behind",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/how-historians-and-archaeologists-date-things/",
+      "title": "How historians and archaeologists date things",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/place-is-evidence-too/",
+      "title": "Place is evidence too",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/historical-causes-sparks-structures-and-choices/",
+      "title": "Historical causes: sparks, structures, and choices",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/comparing-societies-without-flattening-them/",
+      "title": "Comparing societies without flattening them",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/case-study-magna-cartas-many-lives/",
+      "title": "Case study: Magna Carta's many lives",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted-to/",
+      "title": "Case study: Great Zimbabwe and the stories people wanted to believe",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/case-study-how-bulgaria-became-independent/",
+      "title": "Case study: how Bulgaria became independent",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/case-study-when-evidence-is-overwhelming-but-denial-persists/",
+      "title": "Case study: when evidence is overwhelming but denial persists",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/why-historians-disagree-without-everything-becoming-opinion/",
+      "title": "Why historians disagree without everything becoming opinion",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/a-historians-working-method-from-question-to-account/",
+      "title": "A historian's working method: from question to account",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/reading-history-as-a-conversation-across-time/",
+      "title": "Reading history as a conversation across time",
+      "kind": "section",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/summary/",
+      "title": "Remember this chapter",
+      "kind": "summary",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 4
+    },
+    {
+      "url": "/004-historical-time-and-the-problem-of-sources/sources/",
+      "title": "Recommended sources and further reading",
+      "kind": "sources",
+      "chapter": 4
+    },
+    {
+      "url": "/005-geography-maps-and-scale/",
+      "title": "Geography, Maps, and Scale",
+      "kind": "chapter",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/what-exactly-does-geography-study/",
+      "title": "What exactly does geography study?",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/the-impossible-promise-of-a-perfect-map/",
+      "title": "The impossible promise of a perfect map",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/finding-any-place-coordinates-orientation-and-the-grid/",
+      "title": "Finding any place: coordinates, orientation, and the grid",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/scale-why-a-small-map-hides-big-things/",
+      "title": "Scale: why a small map hides big things",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/earths-moving-shell-plates-mountains-and-earthquakes/",
+      "title": "Earth's moving shell: plates, mountains, and earthquakes",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/",
+      "title": "Water gives the landscape its circulation",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/why-climate-varies-sunlight-air-altitude-and-water/",
+      "title": "Why climate varies: sunlight, air, altitude, and water",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/",
+      "title": "Oceans: the great highways and climate engines",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/soils-ecosystems-and-why-fertile-land-is-not-enough/",
+      "title": "Soils, ecosystems, and why fertile land is not enough",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/people-cities-and-the-uneven-map-of-opportunity/",
+      "title": "People, cities, and the uneven map of opportunity",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/the-political-map-borders-sovereignty-and-contested-space/",
+      "title": "The political map: borders, sovereignty, and contested space",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/regional-case-study-bulgaria-and-the-balkans/",
+      "title": "Regional case study: Bulgaria and the Balkans",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography-of/",
+      "title": "Regional case study: the Nile and the geography of cooperation",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/regional-case-study-the-andes-pacific-coasts-and-ocean/",
+      "title": "Regional case study: the Andes, Pacific coasts, and ocean productivity",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways-and/",
+      "title": "Regional case study: Southeast Asia's waterways and archipelagos",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/regional-case-study-the-sahel-the-sahara-and-transitions/",
+      "title": "Regional case study: the Sahel, the Sahara, and transitions rather than lines",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/a-mental-atlas-regions-that-connect-the-global-story/",
+      "title": "A mental atlas: regions that connect the global story",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/reading-thematic-maps-without-being-fooled/",
+      "title": "Reading thematic maps without being fooled",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history-but/",
+      "title": "Why geography matters for wars, economies, and history—but never alone",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/a-geographical-investigation-you-can-conduct-yourself/",
+      "title": "A geographical investigation you can conduct yourself",
+      "kind": "section",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/summary/",
+      "title": "Remember this chapter",
+      "kind": "summary",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 5
+    },
+    {
+      "url": "/005-geography-maps-and-scale/sources/",
+      "title": "Recommended sources and further reading",
+      "kind": "sources",
+      "chapter": 5
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/",
+      "title": "Reading Data, Charts, and Statistics",
+      "kind": "chapter",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/a-number-is-an-answer-to-a-question/",
+      "title": "A number is an answer to a question",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/the-denominator-the-missing-half-of-a-statistic/",
+      "title": "The denominator: the missing half of a statistic",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/sampling-who-gets-counted-and-who-never-had-a-chance/",
+      "title": "Sampling: who gets counted, and who never had a chance?",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/surveys-are-conversations-disguised-as-numbers/",
+      "title": "Surveys are conversations disguised as numbers",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/mean-median-mode-and-the-people-behind-the-average/",
+      "title": "Mean, median, mode—and the people behind the average",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/spread-outliers-and-why-the-middle-is-never-the-whole-story/",
+      "title": "Spread, outliers, and why the middle is never the whole story",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/count-rate-or-standardized-comparison/",
+      "title": "Count, rate, or standardized comparison?",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/reading-graphs-as-arguments/",
+      "title": "Reading graphs as arguments",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/time-series-where-the-chosen-starting-point-becomes-the/",
+      "title": "Time series: where the chosen starting point becomes the story",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/index-numbers-and-the-invisible-change-of-units/",
+      "title": "Index numbers and the invisible change of units",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/percentages-percentage-points-and-changing-baselines/",
+      "title": "Percentages, percentage points, and changing baselines",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/correlation-a-relationship-not-a-mechanism/",
+      "title": "Correlation: a relationship, not a mechanism",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/simpsons-paradox-when-every-subgroup-tells-the-opposite/",
+      "title": "Simpson's paradox: when every subgroup tells the opposite story",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/prediction-is-not-the-same-as-explanation/",
+      "title": "Prediction is not the same as explanation",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/experiments-comparison-groups-and-plausible-alternatives/",
+      "title": "Experiments, comparison groups, and plausible alternatives",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/confidence-intervals-being-precise-about-imprecision/",
+      "title": "Confidence intervals: being precise about imprecision",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/what-a-p-value-does-and-does-not-say/",
+      "title": "What a p-value does—and does not—say",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/missing-data-revised-data-and-the-temptation-to-clean-away/",
+      "title": "Missing data, revised data, and the temptation to clean away reality",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/how-statistics-can-change-the-meaning-of-a-political-debate/",
+      "title": "How statistics can change the meaning of a political debate",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/three-extended-case-studies-shop-school-and-city/",
+      "title": "Three extended case studies: shop, school, and city",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/the-seven-minute-statistical-audit/",
+      "title": "The seven-minute statistical audit",
+      "kind": "section",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/summary/",
+      "title": "Remember this chapter",
+      "kind": "summary",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 6
+    },
+    {
+      "url": "/006-reading-data-charts-and-statistics/sources/",
+      "title": "Recommended sources",
+      "kind": "sources",
+      "chapter": 6
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/",
+      "title": "Systems Thinking and Feedback Loops",
+      "kind": "chapter",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/what-is-a-system-and-what-is-not/",
+      "title": "What is a system—and what is not?",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/from-event-to-pattern-to-structure/",
+      "title": "From event to pattern to structure",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/stocks-and-flows-the-bathtub-beneath-the-headlines/",
+      "title": "Stocks and flows: the bathtub beneath the headlines",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/why-stocks-produce-inertia-resilience-and-surprise/",
+      "title": "Why stocks produce inertia, resilience and surprise",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/reinforcing-feedback-when-change-feeds-more-change/",
+      "title": "Reinforcing feedback: when change feeds more change",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/balancing-feedback-how-a-system-pushes-back/",
+      "title": "Balancing feedback: how a system pushes back",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/delays-why-sensible-corrections-can-cause-oscillations/",
+      "title": "Delays: why sensible corrections can cause oscillations",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/nonlinearity-thresholds-and-tipping-points/",
+      "title": "Nonlinearity, thresholds and tipping points",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/networks-bottlenecks-and-the-weakest-link/",
+      "title": "Networks, bottlenecks and the weakest link",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/shared-resources-why-reasonable-choices-can-produce/",
+      "title": "Shared resources: why reasonable choices can produce collective loss",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/ecosystems-and-climate-feedback-on-a-planetary-scale/",
+      "title": "Ecosystems and climate: feedback on a planetary scale",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/epidemics-the-number-of-cases-is-not-the-whole-system/",
+      "title": "Epidemics: the number of cases is not the whole system",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/economic-cycles-stocks-expectations-and-delayed-adjustment/",
+      "title": "Economic cycles: stocks, expectations and delayed adjustment",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/a-small-business-case-improving-a-store-without-causing-new/",
+      "title": "A small-business case: improving a store without causing new problems",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/politics-and-the-security-dilemma/",
+      "title": "Politics and the security dilemma",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/unintended-consequences-and-the-limits-of-incentives/",
+      "title": "Unintended consequences and the limits of incentives",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/where-to-intervene-symptoms-rules-information-and-goals/",
+      "title": "Where to intervene: symptoms, rules, information and goals",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/mapping-a-system-without-inventing-certainty/",
+      "title": "Mapping a system without inventing certainty",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/a-practical-systems-thinking-toolkit/",
+      "title": "A practical systems-thinking toolkit",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/the-deeper-lesson-the-world-reacts-to-our-attempts-to-change/",
+      "title": "The deeper lesson: the world reacts to our attempts to change it",
+      "kind": "section",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/summary/",
+      "title": "Remember this chapter",
+      "kind": "summary",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 7
+    },
+    {
+      "url": "/007-systems-thinking-and-feedback-loops/sources/",
+      "title": "Recommended sources and further reading",
+      "kind": "sources",
+      "chapter": 7
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/",
+      "title": "How to Learn and Remember",
+      "kind": "chapter",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/four-stages-attention-encoding-retrieval-and-use/",
+      "title": "Four stages: attention, encoding, retrieval, and use",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/why-rereading-can-create-an-illusion-of-mastery/",
+      "title": "Why rereading can create an illusion of mastery",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/spacing-forgetting-a-little-can-help-you-learn-more/",
+      "title": "Spacing: forgetting a little can help you learn more",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/understanding-needs-connection-not-just-repetition/",
+      "title": "Understanding needs connection, not just repetition",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/interleaving-mix-topics-for-a-reason/",
+      "title": "Interleaving: mix topics for a reason",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/the-difference-between-knowing-a-fact-and-having-a-model/",
+      "title": "The difference between knowing a fact and having a model",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/explain-it-aloud-the-conversation-test/",
+      "title": "Explain it aloud: the conversation test",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/a-realistic-thirty-minute-session/",
+      "title": "A realistic thirty-minute session",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/notes-should-help-future-thinking/",
+      "title": "Notes should help future thinking",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/feedback-turn-errors-into-information/",
+      "title": "Feedback: turn errors into information",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/make-room-for-rest-sleep-and-enjoyment/",
+      "title": "Make room for rest, sleep, and enjoyment",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/your-first-ninety-days-from-facts-to-conversation/",
+      "title": "Your first ninety days: from facts to conversation",
+      "kind": "section",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/summary/",
+      "title": "Remember this chapter",
+      "kind": "summary",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 8
+    },
+    {
+      "url": "/008-how-to-learn-and-remember/sources/",
+      "title": "Recommended sources",
+      "kind": "sources",
+      "chapter": 8
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/",
+      "title": "Human Evolution and the First Migrations",
+      "kind": "chapter",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/what-evolution-actually-means/",
+      "title": "What evolution actually means",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/africa-the-long-beginning/",
+      "title": "Africa: the long beginning",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/hands-stones-and-the-technology-nobody-photographed/",
+      "title": "Hands, stones, and the technology nobody photographed",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/the-travelers-before-us-homo-erectus-and-the-first-great/",
+      "title": "The travelers before us: Homo erectus and the first great dispersal",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/how-we-know-how-old-something-is/",
+      "title": "How we know how old something is",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/the-emergence-of-homo-sapiens-was-not-a-single-moment/",
+      "title": "The emergence of Homo sapiens was not a single moment",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/",
+      "title": "Neanderthals, Denisovans, and our complicated relatives",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process-not-an/",
+      "title": "The expanding human world: migration as a process, not an arrow",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/crossing-water-the-settlement-of-sahul/",
+      "title": "Crossing water: the settlement of Sahul",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/toward-the-americas-ice-land-coast-and-unanswered-questions/",
+      "title": "Toward the Americas: ice, land, coast, and unanswered questions",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/language-images-stories-and-the-world-inside-the-mind/",
+      "title": "Language, images, stories, and the world inside the mind",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/daily-life-without-cities-risk-food-kinship-and-care/",
+      "title": "Daily life without cities: risk, food, kinship, and care",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/climate-shaped-opportunities-but-people-made-histories/",
+      "title": "Climate shaped opportunities, but people made histories",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/five-misconceptions-that-distort-prehistoric-history/",
+      "title": "Five misconceptions that distort prehistoric history",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/a-timeline-that-changes-the-scale-of-everything/",
+      "title": "A timeline that changes the scale of everything",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/what-we-can-say-with-confidence-and-what-remains-open/",
+      "title": "What we can say with confidence—and what remains open",
+      "kind": "section",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/summary/",
+      "title": "Remember this chapter",
+      "kind": "summary",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 9
+    },
+    {
+      "url": "/009-human-evolution-and-the-first-migrations/sources/",
+      "title": "Recommended sources",
+      "kind": "sources",
+      "chapter": 9
+    },
+    {
+      "url": "/010-the-agricultural-revolution/",
+      "title": "The Agricultural Revolution",
+      "kind": "chapter",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/before-fields-foragers-were-already-managing-the-world/",
+      "title": "Before fields: foragers were already managing the world",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/cultivation-is-not-the-same-as-domestication/",
+      "title": "Cultivation is not the same as domestication",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/why-did-people-begin-farming-five-explanations-that-interact/",
+      "title": "Why did people begin farming? Five explanations that interact",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/southwest-asia-an-early-complicated-transition/",
+      "title": "Southwest Asia: an early, complicated transition",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/the-animal-partnership-herding-changes-the-clock/",
+      "title": "The animal partnership: herding changes the clock",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/china-more-than-a-single-rice-story/",
+      "title": "China: more than a single rice story",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/new-guinea-a-revolution-without-grain-fields/",
+      "title": "New Guinea: a revolution without grain fields",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/the-americas-maize-squash-potatoes-and-varied-histories/",
+      "title": "The Americas: maize, squash, potatoes, and varied histories",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/africa-local-crops-and-imported-combinations/",
+      "title": "Africa: local crops and imported combinations",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/toward-europe-the-aegean-the-balkans-and-the-danube/",
+      "title": "Toward Europe: the Aegean, the Balkans, and the Danube",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/the-village-becomes-a-social-institution/",
+      "title": "The village becomes a social institution",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/the-granary-storing-tomorrows-food/",
+      "title": "The granary: storing tomorrow's food",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/the-new-calendar-of-labor/",
+      "title": "The new calendar of labor",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/did-farming-create-inequality/",
+      "title": "Did farming create inequality?",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/the-human-body-pays-a-price-and-sometimes-benefits/",
+      "title": "The human body pays a price—and sometimes benefits",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/farming-remakes-landscapes/",
+      "title": "Farming remakes landscapes",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/from-food-production-to-crafts-exchange-and-authority/",
+      "title": "From food production to crafts, exchange and authority",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/a-counterfactual-what-if-no-one-had-farmed/",
+      "title": "A counterfactual: what if no one had farmed?",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/how-archaeologists-know-a-detective-story-in-tiny-traces/",
+      "title": "How archaeologists know: a detective story in tiny traces",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/a-timeline-without-false-precision/",
+      "title": "A timeline without false precision",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/five-myths-to-retire/",
+      "title": "Five myths to retire",
+      "kind": "section",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/summary/",
+      "title": "Remember this chapter",
+      "kind": "summary",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 10
+    },
+    {
+      "url": "/010-the-agricultural-revolution/sources/",
+      "title": "Recommended sources",
+      "kind": "sources",
+      "chapter": 10
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/",
+      "title": "Mesopotamia and the First States",
+      "kind": "chapter",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/a-landscape-that-demanded-ingenuity/",
+      "title": "A landscape that demanded ingenuity",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/before-sumer-villages-temples-and-the-ubaid-world/",
+      "title": "Before Sumer: villages, temples, and the Ubaid world",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/uruk-when-settlement-became-something-larger/",
+      "title": "Uruk: when settlement became something larger",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/what-is-a-city-and-what-is-a-state/",
+      "title": "What is a city, and what is a state?",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/the-canal-and-the-argument-over-water/",
+      "title": "The canal and the argument over water",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/the-mathematics-of-a-storehouse/",
+      "title": "The mathematics of a storehouse",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/temples-worship-work-and-legitimacy/",
+      "title": "Temples: worship, work, and legitimacy",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/an-ordinary-persons-city-and-the-limits-of-our-sources/",
+      "title": "An ordinary person's city—and the limits of our sources",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/seals-tokens-and-the-problem-of-trust/",
+      "title": "Seals, tokens, and the problem of trust",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/the-invention-of-writing-was-not-a-single-flash-of-genius/",
+      "title": "The invention of writing was not a single flash of genius",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/a-school-for-scribes/",
+      "title": "A school for scribes",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/trade-a-city-cannot-eat-clay/",
+      "title": "Trade: a city cannot eat clay",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/sumer-was-not-one-unified-country/",
+      "title": "Sumer was not one unified country",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/why-were-the-first-cities-sometimes-at-war/",
+      "title": "Why were the first cities sometimes at war?",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/kingship-office-force-and-sacred-authority/",
+      "title": "Kingship: office, force, and sacred authority",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/the-royal-cemetery-of-ur-splendid-objects-difficult/",
+      "title": "The royal cemetery of Ur: splendid objects, difficult questions",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/women-power-and-the-case-of-enheduanna/",
+      "title": "Women, power, and the case of Enheduanna",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/sargon-and-the-ambitions-of-empire/",
+      "title": "Sargon and the ambitions of empire",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/why-empires-fracture-the-end-of-akkadian-rule/",
+      "title": "Why empires fracture: the end of Akkadian rule",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/ur-iii-a-state-that-counted-almost-everything/",
+      "title": "Ur III: a state that counted almost everything",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/babylon-and-hammurabi-what-the-famous-code-really-tells-us/",
+      "title": "Babylon and Hammurabi: what the famous 'code' really tells us",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/literature-numbers-and-the-long-memory-of-mesopotamia/",
+      "title": "Literature, numbers, and the long memory of Mesopotamia",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/was-mesopotamia-the-cradle-of-civilization/",
+      "title": "Was Mesopotamia the 'cradle of civilization'?",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/how-historians-turn-a-broken-tablet-into-an-argument/",
+      "title": "How historians turn a broken tablet into an argument",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/the-legacy-living-with-institutions/",
+      "title": "The legacy: living with institutions",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/",
+      "title": "A timeline without false precision",
+      "kind": "section",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/summary/",
+      "title": "Remember this chapter",
+      "kind": "summary",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 11
+    },
+    {
+      "url": "/011-mesopotamia-and-the-first-states/sources/",
+      "title": "Recommended sources",
+      "kind": "sources",
+      "chapter": 11
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/",
+      "title": "Ancient Egypt and the Nile",
+      "kind": "chapter",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/a-river-flowing-toward-the-north/",
+      "title": "A river flowing toward the north",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/a-year-measured-in-water/",
+      "title": "A year measured in water",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/before-the-pharaohs-the-valley-was-already-changing/",
+      "title": "Before the pharaohs: the valley was already changing",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/narmer-menes-and-the-meaning-of-unification/",
+      "title": "Narmer, Menes, and the meaning of unification",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/what-did-a-pharaoh-actually-rule/",
+      "title": "What did a pharaoh actually rule?",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/the-old-kingdom-durable-stone-and-fragile-politics/",
+      "title": "The Old Kingdom: durable stone and fragile politics",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/why-kings-built-for-the-dead/",
+      "title": "Why kings built for the dead",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/the-first-great-fragmentation/",
+      "title": "The first great fragmentation",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/the-middle-kingdom-reunification-and-a-different-political/",
+      "title": "The Middle Kingdom: reunification and a different political culture",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/a-new-kingdom-that-looked-outward/",
+      "title": "A New Kingdom that looked outward",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/hatshepsut-and-the-question-of-legitimate-rule/",
+      "title": "Hatshepsut and the question of legitimate rule",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/amarna-when-a-ruler-tried-to-change-the-gods/",
+      "title": "Amarna: when a ruler tried to change the gods",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/ramesses-ii-kadesh-and-what-victory-looks-like/",
+      "title": "Ramesses II, Kadesh, and what victory looks like",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/nubia-was-not-egypts-passive-southern-backdrop/",
+      "title": "Nubia was not Egypt's passive southern backdrop",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/a-village-where-workmen-left-records/",
+      "title": "A village where workmen left records",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/women-marriage-property-and-social-difference/",
+      "title": "Women, marriage, property, and social difference",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/writing-sacred-images-ordinary-administration/",
+      "title": "Writing: sacred images, ordinary administration",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/knowledge-measurement-and-techniques/",
+      "title": "Knowledge, measurement, and techniques",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/after-the-new-kingdom-fragmentation-and-new-rulers/",
+      "title": "After the New Kingdom: fragmentation and new rulers",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/reconstructing-egypt-what-sources-can-and-cannot-tell-us/",
+      "title": "Reconstructing Egypt: what sources can and cannot tell us",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/why-ancient-egypt-matters-beyond-the-pyramids/",
+      "title": "Why ancient Egypt matters beyond the pyramids",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "title": "Essential timeline",
+      "kind": "section",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/summary/",
+      "title": "Remember this chapter",
+      "kind": "summary",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 12
+    },
+    {
+      "url": "/012-ancient-egypt-and-the-nile/sources/",
+      "title": "Recommended sources",
+      "kind": "sources",
+      "chapter": 12
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/",
+      "title": "The Indus Valley Civilization",
+      "kind": "chapter",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/begin-with-a-map-not-a-legend/",
+      "title": "Begin with a map, not a legend",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/the-dates-development-rather-than-a-sudden-birth/",
+      "title": "The dates: development rather than a sudden birth",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/discovering-a-civilization-twice/",
+      "title": "Discovering a civilization twice",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/harappa-a-city-that-grew-in-stages/",
+      "title": "Harappa: a city that grew in stages",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/mohenjo-daro-a-city-built-around-water/",
+      "title": "Mohenjo-daro: a city built around water",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/dholavira-another-way-to-build-a-city/",
+      "title": "Dholavira: another way to build a city",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/what-made-the-cities-possible-farms-and-countryside/",
+      "title": "What made the cities possible: farms and countryside",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/bricks-proportions-weights-and-the-problem-of-trust/",
+      "title": "Bricks, proportions, weights and the problem of trust",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/the-seals-small-objects-with-large-questions/",
+      "title": "The seals: small objects with large questions",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/writing-that-we-still-cannot-read/",
+      "title": "Writing that we still cannot read",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/was-there-a-king-a-council-or-something-else/",
+      "title": "Was there a king, a council, or something else?",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/craftspeople-materials-and-technical-intelligence/",
+      "title": "Craftspeople, materials and technical intelligence",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/trade-overland-and-across-the-sea/",
+      "title": "Trade overland and across the sea",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/homes-food-health-and-everyday-lives/",
+      "title": "Homes, food, health and everyday lives",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/identity-belief-and-ritual-what-artifacts-can-and-cannot-say/",
+      "title": "Identity, belief and ritual: what artifacts can—and cannot—say",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/the-temptation-of-the-peaceful-civilization/",
+      "title": "The temptation of the 'peaceful civilization'",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/rivers-move-monsoons-vary-societies-respond/",
+      "title": "Rivers move, monsoons vary, societies respond",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/after-1900-bce-transformation-not-disappearance/",
+      "title": "After 1900 BCE: transformation, not disappearance",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/ancient-dna-powerful-evidence-with-careful-limits/",
+      "title": "Ancient DNA: powerful evidence with careful limits",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/compare-three-urban-civilizations-without-ranking-them/",
+      "title": "Compare three urban civilizations without ranking them",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/what-would-actually-decipher-the-script/",
+      "title": "What would actually decipher the script?",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/a-civilizations-importance-does-not-depend-on-decipherment/",
+      "title": "A civilization's importance does not depend on decipherment",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/essential-timeline-chapter-013/",
+      "title": "Essential timeline",
+      "kind": "section",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/summary/",
+      "title": "Remember this chapter",
+      "kind": "summary",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 13
+    },
+    {
+      "url": "/013-the-indus-valley-civilization/sources/",
+      "title": "Recommended sources",
+      "kind": "sources",
+      "chapter": 13
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/",
+      "title": "Ancient China: Dynasties and Statecraft",
+      "kind": "chapter",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/start-with-geography-more-than-one-river-valley/",
+      "title": "Start with geography: more than one river valley",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/farmers-potters-and-the-beginnings-of-complex-societies/",
+      "title": "Farmers, potters and the beginnings of complex societies",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/liangzhu-another-route-to-complexity/",
+      "title": "Liangzhu: another route to complexity",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/dates-dynasties-and-the-limits-of-a-familiar-timeline/",
+      "title": "Dates, dynasties and the limits of a familiar timeline",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/erlitou-a-city-without-an-identified-king/",
+      "title": "Erlitou: a city without an identified king",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/shang-power-a-king-among-other-powers/",
+      "title": "Shang power: a king among other powers",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/anyang-where-archaeology-meets-writing/",
+      "title": "Anyang: where archaeology meets writing",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/oracle-bones-questions-written-for-ancestors/",
+      "title": "Oracle bones: questions written for ancestors",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/ancestors-shangdi-and-the-work-of-kingship/",
+      "title": "Ancestors, Shangdi and the work of kingship",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/bronze-technology-that-turned-resources-into-authority/",
+      "title": "Bronze: technology that turned resources into authority",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/fu-hao-a-woman-visible-in-an-unusually-rich-record/",
+      "title": "Fu Hao: a woman visible in an unusually rich record",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/beyond-the-capital-sanxingdui-and-the-many-bronze-age-worlds/",
+      "title": "Beyond the capital: Sanxingdui and the many Bronze Age worlds",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-economy-beneath-the-bronze/",
+      "title": "The economy beneath the bronze",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-zhou-conquest-a-new-ruling-house/",
+      "title": "The Zhou conquest: a new ruling house",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-mandate-of-heaven-legitimacy-with-conditions/",
+      "title": "The Mandate of Heaven: legitimacy with conditions",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/western-zhou-rule-kinship-bronze-inscriptions-and-regional/",
+      "title": "Western Zhou rule: kinship, bronze inscriptions and regional power",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/bronze-bells-ceremonial-order-and-political-memory/",
+      "title": "Bronze bells, ceremonial order and political memory",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/how-the-zhou-center-weakened/",
+      "title": "How the Zhou center weakened",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-roots-of-chinese-political-thought/",
+      "title": "The roots of Chinese political thought",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/three-early-civilizations-three-kinds-of-evidence/",
+      "title": "Three early civilizations, three kinds of evidence",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/how-to-recognize-exaggeration-about-ancient-china/",
+      "title": "How to recognize exaggeration about ancient China",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/a-day-in-the-life-constructing-an-evidence-based/",
+      "title": "A day in the life: constructing an evidence-based reconstruction",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/chariots-warfare-and-the-limits-of-military-evidence/",
+      "title": "Chariots, warfare and the limits of military evidence",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-households-outside-the-royal-archive/",
+      "title": "The households outside the royal archive",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/a-working-toolkit-how-to-investigate-an-early-chinese-claim/",
+      "title": "A working toolkit: how to investigate an early Chinese claim",
+      "kind": "section",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/practice/",
+      "title": "Practice laboratory: explain, calculate, debate, investigate",
+      "kind": "practice",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/flashcards/",
+      "title": "Flashcards: 28 prompts for spaced recall",
+      "kind": "flashcards",
+      "chapter": 14
+    },
+    {
+      "url": "/014-ancient-china-dynasties-and-statecraft/sources/",
+      "title": "Recommended sources and directions for further reading",
+      "kind": "sources",
+      "chapter": 14
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/",
+      "title": "Persia and the Politics of Empire",
+      "kind": "chapter",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-iranian-plateau-geography-without-destiny/",
+      "title": "The Iranian plateau: geography without destiny",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/a-new-dynasty-built-on-older-imperial-worlds/",
+      "title": "A new dynasty built on older imperial worlds",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/cyrus-from-regional-ruler-to-imperial-founder/",
+      "title": "Cyrus: from regional ruler to imperial founder",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/lydia-croesus-and-the-dangers-of-a-perfect-story/",
+      "title": "Lydia, Croesus and the dangers of a perfect story",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/babylon-539-bce-conquest-as-a-change-of-language/",
+      "title": "Babylon, 539 BCE: conquest as a change of language",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-cyrus-cylinder-what-it-says-and-what-it-does-not/",
+      "title": "The Cyrus Cylinder: what it says, and what it does not",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/conquest-accommodation-and-the-myth-of-complete-tolerance/",
+      "title": "Conquest, accommodation and the myth of complete tolerance",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/cambyses-and-egypt-a-pharaoh-beneath-a-persian-crown/",
+      "title": "Cambyses and Egypt: a pharaoh beneath a Persian crown",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-crisis-of-522-bce-and-dariuss-account-of-legitimacy/",
+      "title": "The crisis of 522 BCE and Darius's account of legitimacy",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/satraps-ruling-across-distance/",
+      "title": "Satraps: ruling across distance",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/taxes-and-tribute-numbers-categories-and-political/",
+      "title": "Taxes and tribute: numbers, categories and political bargaining",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/roads-messengers-and-the-speed-of-decisions/",
+      "title": "Roads, messengers and the speed of decisions",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon-and/",
+      "title": "The many royal centers: Pasargadae, Susa, Babylon and Persepolis",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/clay-tablets-below-the-monuments-seeing-the-empire-at-work/",
+      "title": "Clay tablets below the monuments: seeing the empire at work",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/many-languages-one-political-order/",
+      "title": "Many languages, one political order",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/religion-and-kingship-ahuramazda-without-anachronism/",
+      "title": "Religion and kingship: Ahuramazda without anachronism",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/who-had-power-at-court-and-who-was-left-outside-the-story/",
+      "title": "Who had power at court—and who was left outside the story?",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-army-a-coalition-held-together-by-supply-and-authority/",
+      "title": "The army: a coalition held together by supply and authority",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-greek-wars-a-frontier-becomes-the-famous-story/",
+      "title": "The Greek wars: a frontier becomes the famous story",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/provincial-resistance-why-governing-egypt-was-not-a-one-time/",
+      "title": "Provincial resistance: why governing Egypt was not a one-time event",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-empire-after-xerxes-not-just-a-long-decline/",
+      "title": "The empire after Xerxes: not just a long decline",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/alexanders-conquest-military-victory-and-administrative/",
+      "title": "Alexander's conquest: military victory and administrative inheritance",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/imperial-achievement-without-imperial-romance/",
+      "title": "Imperial achievement without imperial romance",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/comparison-persia-beside-earlier-civilizations/",
+      "title": "Comparison: Persia beside earlier civilizations",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/a-source-workshop-hearing-four-different-voices/",
+      "title": "A source workshop: hearing four different voices",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/the-question-that-travels-forward/",
+      "title": "The question that travels forward",
+      "kind": "section",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/practice/",
+      "title": "Practice laboratory: explain, calculate, debate, investigate",
+      "kind": "practice",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/flashcards/",
+      "title": "Flashcards: 28 prompts for spaced recall",
+      "kind": "flashcards",
+      "chapter": 15
+    },
+    {
+      "url": "/015-persia-and-the-politics-of-empire/sources/",
+      "title": "Recommended sources and directions for further reading",
+      "kind": "sources",
+      "chapter": 15
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/",
+      "title": "The Greek World and Its Political Experiments",
+      "kind": "chapter",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/a-sea-of-communities-not-one-greek-nation-state/",
+      "title": "A sea of communities, not one Greek nation-state",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/before-the-polis-palaces-collapse-and-the-limits-of-memory/",
+      "title": "Before the polis: palaces, collapse and the limits of memory",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/from-settlements-to-the-polis/",
+      "title": "From settlements to the polis",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/the-alphabet-oral-performance-and-a-shared-cultural-world/",
+      "title": "The alphabet, oral performance and a shared cultural world",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/overseas-settlements-movement-trade-and-conflict/",
+      "title": "Overseas settlements: movement, trade and conflict",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/aristocracy-written-law-and-the-rise-of-tyrants/",
+      "title": "Aristocracy, written law and the rise of tyrants",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/spartas-social-bargain-citizenship-supported-by-dependency/",
+      "title": "Sparta's social bargain: citizenship supported by dependency",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/spartas-government-was-not-simply-one-man-rule/",
+      "title": "Sparta's government was not simply one-man rule",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/athens-before-democracy-land-debt-and-solons-reforms/",
+      "title": "Athens before democracy: land, debt and Solon's reforms",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/cleisthenes-and-a-new-political-structure/",
+      "title": "Cleisthenes and a new political structure",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/how-athenian-democracy-worked-in-practice/",
+      "title": "How Athenian democracy worked in practice",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/who-was-left-outside-the-assembly/",
+      "title": "Who was left outside the Assembly?",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/ostracism-public-opinion-and-the-dangers-of-popular-power/",
+      "title": "Ostracism, public opinion and the dangers of popular power",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/the-persian-wars-shared-danger-divided-greece/",
+      "title": "The Persian Wars: shared danger, divided Greece",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/the-delian-league-an-alliance-becoming-an-empire/",
+      "title": "The Delian League: an alliance becoming an empire",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/pericles-public-buildings-and-political-choices/",
+      "title": "Pericles, public buildings and political choices",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/work-households-slavery-and-economic-power/",
+      "title": "Work, households, slavery and economic power",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/religion-theater-and-the-public-imagination/",
+      "title": "Religion, theater and the public imagination",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/philosophers-and-teachers-argument-becomes-a-public-craft/",
+      "title": "Philosophers and teachers: argument becomes a public craft",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/herodotus-and-thucydides-two-historians-two-kinds-of/",
+      "title": "Herodotus and Thucydides: two historians, two kinds of explanation",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/the-peloponnesian-war-a-conflict-that-consumed-a-generation/",
+      "title": "The Peloponnesian War: a conflict that consumed a generation",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/mytilene-and-melos-what-an-empire-says-about-justice/",
+      "title": "Mytilene and Melos: what an empire says about justice",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/the-sicilian-expedition-when-confidence-overwhelms-judgment/",
+      "title": "The Sicilian expedition: when confidence overwhelms judgment",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/oligarchic-coups-defeat-and-democratic-restoration/",
+      "title": "Oligarchic coups, defeat and democratic restoration",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/socrates-on-trial-democracy-religion-and-public-fear/",
+      "title": "Socrates on trial: democracy, religion and public fear",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/beyond-athens-versus-sparta-corinth-thebes-and-macedonia/",
+      "title": "Beyond Athens versus Sparta: Corinth, Thebes and Macedonia",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/three-sources-and-one-argument-a-practical-evidence-workshop/",
+      "title": "Three sources and one argument: a practical evidence workshop",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/comparison-three-answers-to-the-problem-of-government/",
+      "title": "Comparison: three answers to the problem of government",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/the-argument-that-survived-the-city-state/",
+      "title": "The argument that survived the city-state",
+      "kind": "section",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/practice/",
+      "title": "Practice laboratory: explain, calculate, debate, investigate",
+      "kind": "practice",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/flashcards/",
+      "title": "Flashcards: 28 prompts for spaced recall",
+      "kind": "flashcards",
+      "chapter": 16
+    },
+    {
+      "url": "/016-the-greek-world-and-its-political-experiments/sources/",
+      "title": "Recommended sources and directions for further reading",
+      "kind": "sources",
+      "chapter": 16
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/",
+      "title": "Rome: Republic, Empire, and Afterlives",
+      "kind": "chapter",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/italy-before-roman-supremacy/",
+      "title": "Italy before Roman supremacy",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/foundation-stories-and-the-problem-of-early-evidence/",
+      "title": "Foundation stories and the problem of early evidence",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/from-kings-to-republic-what-changed-around-509-bce/",
+      "title": "From kings to republic: what changed around 509 BCE?",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/how-the-roman-republic-actually-governed/",
+      "title": "How the Roman Republic actually governed",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/plebeians-patricians-and-the-long-struggle-over-inclusion/",
+      "title": "Plebeians, patricians and the long struggle over inclusion",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/law-household-power-and-civic-obligation/",
+      "title": "Law, household power and civic obligation",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/an-alliance-system-became-a-path-to-domination/",
+      "title": "An alliance system became a path to domination",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-hellenistic-bridge-the-mediterranean-after-alexander/",
+      "title": "The Hellenistic bridge: the Mediterranean after Alexander",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/carthage-and-the-punic-wars-the-cost-of-mediterranean/",
+      "title": "Carthage and the Punic Wars: the cost of Mediterranean hegemony",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/conquest-land-and-the-pressures-of-imperial-wealth/",
+      "title": "Conquest, land, and the pressures of imperial wealth",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/soldiers-generals-and-the-failure-of-republican-restraint/",
+      "title": "Soldiers, generals, and the failure of republican restraint",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/caesar-pompey-and-the-civil-wars/",
+      "title": "Caesar, Pompey, and the civil wars",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/augustus-monarchy-in-republican-clothing/",
+      "title": "Augustus: monarchy in republican clothing",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-emperors-and-the-problem-of-succession/",
+      "title": "The emperors and the problem of succession",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/roads-armies-frontiers-and-the-scale-of-empire/",
+      "title": "Roads, armies, frontiers, and the scale of empire",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-balkans-inside-roman-history/",
+      "title": "The Balkans inside Roman history",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-economy-grain-money-taxes-and-unequal-opportunity/",
+      "title": "The economy: grain, money, taxes, and unequal opportunity",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/social-worlds-citizenship-slavery-women-and-religious/",
+      "title": "Social worlds: citizenship, slavery, women, and religious difference",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/citizenship-as-a-changing-imperial-policy/",
+      "title": "Citizenship as a changing imperial policy",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/belief-violence-and-the-rise-of-christianity/",
+      "title": "Belief, violence, and the rise of Christianity",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-third-century-crisis-and-the-problem-of-resilience/",
+      "title": "The third-century crisis and the problem of resilience",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/why-the-western-imperial-court-disappeared/",
+      "title": "Why the western imperial court disappeared",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-eastern-roman-empire-and-the-afterlife-of-rome/",
+      "title": "The eastern Roman Empire and the afterlife of Rome",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/roman-evidence-what-survives-and-who-produced-it/",
+      "title": "Roman evidence: what survives and who produced it?",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/rome-in-comparison-what-can-empire-teach-us/",
+      "title": "Rome in comparison: what can empire teach us?",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/the-historians-verdict-not-one-rise-and-one-fall/",
+      "title": "The historian's verdict: not one rise and one fall",
+      "kind": "section",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/practice/",
+      "title": "Practice laboratory: chronology, systems, sources, decisions",
+      "kind": "practice",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/flashcards/",
+      "title": "Flashcards: 30 prompts for spaced recall",
+      "kind": "flashcards",
+      "chapter": 17
+    },
+    {
+      "url": "/017-rome-republic-empire-and-afterlives/sources/",
+      "title": "Recommended sources and directions for further reading",
+      "kind": "sources",
+      "chapter": 17
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/",
+      "title": "Africa: Kingdoms, Networks, and Cities",
+      "kind": "chapter",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/a-historians-map-environments-as-connections-and-constraints/",
+      "title": "A historian's map: environments as connections and constraints",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/what-counts-as-evidence-when-archives-are-unequal/",
+      "title": "What counts as evidence when archives are unequal?",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/the-nile-south-of-egypt-kerma-kush-and-changing-power/",
+      "title": "The Nile south of Egypt: Kerma, Kush and changing power",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/aksum-highlands-coins-and-the-red-sea/",
+      "title": "Aksum: highlands, coins and the Red Sea",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/ethiopian-christian-kingdoms-and-lalibela/",
+      "title": "Ethiopian Christian kingdoms and Lalibela",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/languages-farming-and-the-long-bantu-expansions/",
+      "title": "Languages, farming and the long Bantu expansions",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/west-africa-before-the-great-sahelian-empires/",
+      "title": "West Africa before the great Sahelian empires",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/crossing-the-sahara-merchants-animals-and-risk/",
+      "title": "Crossing the Sahara: merchants, animals and risk",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/ancient-ghana-a-kingdom-not-the-modern-country/",
+      "title": "Ancient Ghana: a kingdom, not the modern country",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/mali-sundiata-and-the-making-of-imperial-authority/",
+      "title": "Mali, Sundiata and the making of imperial authority",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/mansa-musa-and-the-danger-of-dramatic-numbers/",
+      "title": "Mansa Musa and the danger of dramatic numbers",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/timbuktu-and-djenne-cities-of-commerce-and-learning/",
+      "title": "Timbuktu and Djenné: cities of commerce and learning",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/songhai-administration-and-the-fragility-of-empires/",
+      "title": "Songhai, administration and the fragility of empires",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/the-swahili-coast-african-cities-on-the-indian-ocean/",
+      "title": "The Swahili coast: African cities on the Indian Ocean",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/kilwa-and-the-networks-behind-stone-houses/",
+      "title": "Kilwa and the networks behind stone houses",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/southern-africa-mapungubwe-and-great-zimbabwe/",
+      "title": "Southern Africa: Mapungubwe and Great Zimbabwe",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/power-after-great-zimbabwe-changing-centers/",
+      "title": "Power after Great Zimbabwe: changing centers",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/ife-artistry-authority-and-the-yoruba-world/",
+      "title": "Ife: artistry, authority and the Yoruba world",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/benin-court-institutions-brass-and-historical-memory/",
+      "title": "Benin: court institutions, brass and historical memory",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/kongo-and-central-african-political-worlds/",
+      "title": "Kongo and Central African political worlds",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/religion-scholarship-and-multiple-traditions/",
+      "title": "Religion, scholarship and multiple traditions",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/women-households-and-the-limits-of-royal-narratives/",
+      "title": "Women, households and the limits of royal narratives",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/african-trade-in-a-connected-world-a-network-model/",
+      "title": "African trade in a connected world: a network model",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/why-the-continents-histories-are-not-a-ladder-of-development/",
+      "title": "Why the continent's histories are not a ladder of 'development'",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/a-historians-workshop-three-contested-claims/",
+      "title": "A historian's workshop: three contested claims",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/africa-in-the-larger-story-of-world-history/",
+      "title": "Africa in the larger story of world history",
+      "kind": "section",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 18
+    },
+    {
+      "url": "/018-africa-kingdoms-networks-and-cities/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 18
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/",
+      "title": "The Americas Before European Conquest",
+      "kind": "chapter",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/a-hemisphere-of-contrasting-environments/",
+      "title": "A hemisphere of contrasting environments",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/how-do-we-know-stones-inscriptions-and-living-knowledge/",
+      "title": "How do we know? Stones, inscriptions and living knowledge",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/farmers-towns-and-the-long-invention-of-complexity/",
+      "title": "Farmers, towns and the long invention of complexity",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/caral-supe-an-early-center-in-coastal-peru/",
+      "title": "Caral-Supe: an early center in coastal Peru",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-olmec-world-and-the-danger-of-mother-civilization/",
+      "title": "The Olmec world and the danger of 'mother civilization'",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/teotihuacan-a-planned-metropolis-with-unanswered-questions/",
+      "title": "Teotihuacan: a planned metropolis with unanswered questions",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-maya-many-kingdoms-one-remarkable-cultural-world/",
+      "title": "The Maya: many kingdoms, one remarkable cultural world",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/reading-maya-writing-and-keeping-calendars-straight/",
+      "title": "Reading Maya writing and keeping calendars straight",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/central-mexico-after-teotihuacan-changing-centers-of-power/",
+      "title": "Central Mexico after Teotihuacan: changing centers of power",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/tenochtitlan-and-the-triple-alliance/",
+      "title": "Tenochtitlan and the Triple Alliance",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-andean-world-mountains-coast-and-vertical-economies/",
+      "title": "The Andean world: mountains, coast and vertical economies",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/chavin-moche-and-nazca-no-single-andean-template/",
+      "title": "Chavín, Moche and Nazca: no single Andean template",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/tiwanaku-wari-and-chimu-power-before-the-inka/",
+      "title": "Tiwanaku, Wari and Chimú: power before the Inka",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-inka-a-rapidly-expanding-empire/",
+      "title": "The Inka: a rapidly expanding empire",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-road-and-the-storehouse-infrastructure-as-government/",
+      "title": "The road and the storehouse: infrastructure as government",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/khipus-administration-and-the-limits-of-a-written-archive/",
+      "title": "Khipus, administration and the limits of a written archive",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/what-about-ordinary-people-in-the-empires/",
+      "title": "What about ordinary people in the empires?",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-north-american-southwest-chaco-and-ancestral-pueblo/",
+      "title": "The North American Southwest: Chaco and ancestral Pueblo communities",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-mississippi-basin-poverty-point-and-cahokia/",
+      "title": "The Mississippi basin: Poverty Point and Cahokia",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/forests-coasts-and-political-diversity-beyond-the-famous/",
+      "title": "Forests, coasts and political diversity beyond the famous cities",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-caribbean-and-circum-caribbean-worlds/",
+      "title": "The Caribbean and circum-Caribbean worlds",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/amazonia-the-rainforest-was-not-an-untouched-blank/",
+      "title": "Amazonia: the rainforest was not an untouched blank",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/exchange-movement-and-the-limits-of-isolation/",
+      "title": "Exchange, movement and the limits of 'isolation'",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/political-systems-compared-an-empire-is-not-a-civilization/",
+      "title": "Political systems compared: an empire is not a civilization",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/why-cities-and-political-orders-changed/",
+      "title": "Why cities and political orders changed",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/contact-conquest-and-indigenous-agency/",
+      "title": "Contact, conquest and Indigenous agency",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/evidence-workshop-four-claims-to-test/",
+      "title": "Evidence workshop: four claims to test",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/the-main-argument-many-routes-to-complexity/",
+      "title": "The main argument: many routes to complexity",
+      "kind": "section",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 19
+    },
+    {
+      "url": "/019-the-americas-before-european-conquest/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 19
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/",
+      "title": "The Rise of Islam and the Caliphates",
+      "kind": "chapter",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/arabia-was-connected-not-isolated/",
+      "title": "Arabia was connected, not isolated",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-world-at-the-edge-of-two-exhausted-empires/",
+      "title": "The world at the edge of two exhausted empires",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/how-do-we-know-the-story/",
+      "title": "How do we know the story?",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/muhammad-before-the-hijra-mecca-and-the-first-revelations/",
+      "title": "Muhammad before the Hijra: Mecca and the first revelations",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-hijra-of-622-a-new-political-setting/",
+      "title": "The Hijra of 622: a new political setting",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/conflict-diplomacy-and-the-growth-of-the-community/",
+      "title": "Conflict, diplomacy and the growth of the community",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/worship-and-ethical-life-more-than-the-history-of-rulers/",
+      "title": "Worship and ethical life: more than the history of rulers",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-succession-problem-after-632/",
+      "title": "The succession problem after 632",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/umar-and-the-astonishing-conquests/",
+      "title": "Umar and the astonishing conquests",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/governing-conquest-garrisons-taxes-and-continuity/",
+      "title": "Governing conquest: garrisons, taxes and continuity",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-reign-of-uthman-expansion-and-accusations-of-favoritism/",
+      "title": "The reign of Uthman: expansion and accusations of favoritism",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-first-fitna-a-crisis-inside-the-community/",
+      "title": "The First Fitna: a crisis inside the community",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/sunni-and-shia-histories-the-need-for-precision/",
+      "title": "Sunni and Shia histories: the need for precision",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-umayyad-dynasty-an-empire-ruled-from-damascus/",
+      "title": "The Umayyad dynasty: an empire ruled from Damascus",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/from-regional-rule-to-imperial-institutions/",
+      "title": "From regional rule to imperial institutions",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-empire-reaches-spain-and-central-asia/",
+      "title": "The empire reaches Spain and Central Asia",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/conversion-identity-and-the-status-of-non-arab-muslims/",
+      "title": "Conversion, identity and the status of non-Arab Muslims",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-abbasid-revolution-and-a-new-capital/",
+      "title": "The Abbasid revolution and a new capital",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-abbasid-economy-networks-rather-than-a-single-market/",
+      "title": "The Abbasid economy: networks rather than a single market",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/translation-mathematics-and-the-making-of-knowledge/",
+      "title": "Translation, mathematics and the making of knowledge",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-growth-of-islamic-law-and-institutions/",
+      "title": "The growth of Islamic law and institutions",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/hadith-memory-and-the-problem-of-transmission/",
+      "title": "Hadith, memory and the problem of transmission",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/theology-philosophy-and-disagreements-within-islam/",
+      "title": "Theology, philosophy and disagreements within Islam",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/women-households-slavery-and-the-unequal-everyday-world/",
+      "title": "Women, households, slavery and the unequal everyday world",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/architecture-literature-and-a-changing-cultural-world/",
+      "title": "Architecture, literature and a changing cultural world",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/a-politically-fragmented-but-connected-muslim-world/",
+      "title": "A politically fragmented but connected Muslim world",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/a-historical-source-workshop-three-kinds-of-evidence/",
+      "title": "A historical-source workshop: three kinds of evidence",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/worked-reasoning-how-large-can-a-province-be-governed/",
+      "title": "Worked reasoning: how large can a province be governed?",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-central-argument-faith-institutions-and-a-connected/",
+      "title": "The central argument: faith, institutions and a connected world",
+      "kind": "section",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 20
+    },
+    {
+      "url": "/020-the-rise-of-islam-and-the-caliphates/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 20
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/",
+      "title": "Medieval Eurasia and the Silk Roads",
+      "kind": "chapter",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-geography-of-exchange-why-roads-followed-constraints/",
+      "title": "The geography of exchange: why roads followed constraints",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-silk-roads-were-networks-not-an-ancient-express-delivery/",
+      "title": "The Silk Roads were networks, not an ancient express delivery service",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/how-historians-reconstruct-a-world-that-left-scattered/",
+      "title": "How historians reconstruct a world that left scattered evidence",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-sogdians-intermediaries-who-made-a-network-work/",
+      "title": "The Sogdians: intermediaries who made a network work",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/oasis-towns-small-patches-of-water-with-large-consequences/",
+      "title": "Oasis towns: small patches of water with large consequences",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space-between/",
+      "title": "Steppe societies were not an empty space between civilizations",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/sui-and-tang-china-reunification-and-cosmopolitan-exchange/",
+      "title": "Sui and Tang China: reunification and cosmopolitan exchange",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/tibet-and-the-struggle-for-the-high-corridors/",
+      "title": "Tibet and the struggle for the high corridors",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/buddhism-as-a-network-of-teachers-patrons-and-texts/",
+      "title": "Buddhism as a network of teachers, patrons and texts",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/a-caravan-of-religions-diversity-without-a-single-verdict/",
+      "title": "A caravan of religions: diversity without a single verdict",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-islamic-world-as-a-bridge-and-a-set-of-regions/",
+      "title": "The Islamic world as a bridge and a set of regions",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/samarkand-bukhara-and-merv-cities-built-on-much-more-than/",
+      "title": "Samarkand, Bukhara and Merv: cities built on much more than passing caravans",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-indian-subcontinent-a-source-and-a-destination-not-a-gap/",
+      "title": "The Indian subcontinent: a source and a destination, not a gap on the map",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-indian-ocean-a-second-map-of-medieval-connectivity/",
+      "title": "The Indian Ocean: a second map of medieval connectivity",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/srivijaya-and-southeast-asia-sea-lanes-created-regional/",
+      "title": "Srivijaya and Southeast Asia: sea lanes created regional centers",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/song-china-markets-innovation-and-the-limits-of-simple/",
+      "title": "Song China: markets, innovation and the limits of simple progress",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/byzantium-the-caucasus-and-the-western-ends-of-the-networks/",
+      "title": "Byzantium, the Caucasus and the western ends of the networks",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/rus-rivers-and-the-black-sea-baltic-connection/",
+      "title": "Rus', rivers and the Black Sea–Baltic connection",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem-of/",
+      "title": "Technology transfer: paper, printing and the problem of invention myths",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/knowledge-traveled-in-books-people-and-arguments/",
+      "title": "Knowledge traveled in books, people and arguments",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/commerce-needed-trust-but-power-still-mattered/",
+      "title": "Commerce needed trust, but power still mattered",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same-as/",
+      "title": "How far did a traveler really go? Distance is not the same as connection",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/climate-disease-and-environmental-uncertainty/",
+      "title": "Climate, disease and environmental uncertainty",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/a-turning-point-around-1200-the-world-before-the-mongols/",
+      "title": "A turning point around 1200: the world before the Mongols",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/source-workshop-a-silk-textile-a-pilgrim-and-an-emperor/",
+      "title": "Source workshop: a silk textile, a pilgrim and an emperor",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/case-study-follow-one-idea-from-source-to-new-society/",
+      "title": "Case study: follow one idea from source to new society",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/comparing-the-systems-three-kinds-of-power/",
+      "title": "Comparing the systems: three kinds of power",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/what-changed-and-what-did-not/",
+      "title": "What changed, and what did not?",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-historians-final-map-a-connected-world-with-changing/",
+      "title": "The historian's final map: a connected world with changing centers",
+      "kind": "section",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 21
+    },
+    {
+      "url": "/021-medieval-eurasia-and-the-silk-roads/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 21
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/",
+      "title": "The Mongols and the Connected World",
+      "kind": "chapter",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-land-that-trained-mobility/",
+      "title": "The land that trained mobility",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/temujin-from-insecurity-to-political-leadership/",
+      "title": "Temüjin: from insecurity to political leadership",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-assembly-of-1206-founding-a-new-order/",
+      "title": "The assembly of 1206: founding a new order",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/why-mongol-armies-were-effective-and-where-they-were-not/",
+      "title": "Why Mongol armies were effective—and where they were not",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-supply-problem-horses-are-not-fuel-free-machines/",
+      "title": "The supply problem: horses are not fuel-free machines",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-first-imperial-fronts-western-xia-and-the-jin/",
+      "title": "The first imperial fronts: Western Xia and the Jin",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-khwarazmian-campaign-how-a-frontier-dispute-became/",
+      "title": "The Khwarazmian campaign: how a frontier dispute became catastrophe",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-cost-of-conquest-destruction-displacement-and/",
+      "title": "The cost of conquest: destruction, displacement and uncertainty",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/after-1227-the-empire-was-a-family-arrangement-and-a/",
+      "title": "After 1227: the empire was a family arrangement and a political contest",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-european-campaigns-rus-poland-hungary-and-beyond/",
+      "title": "The European campaigns: Rus', Poland, Hungary and beyond",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-golden-horde-and-the-question-of-indirect-rule/",
+      "title": "The Golden Horde and the question of indirect rule",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-fall-of-baghdad-and-the-ilkhanate/",
+      "title": "The fall of Baghdad and the Ilkhanate",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/kublai-khan-and-the-yuan-a-dynasty-ruling-china/",
+      "title": "Kublai Khan and the Yuan: a dynasty ruling China",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/four-great-realms-many-local-realities/",
+      "title": "Four great realms, many local realities",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-great-relay-system-messages-and-imperial-power/",
+      "title": "The great relay system: messages and imperial power",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/merchants-passports-taxes-and-the-so-called-mongol-peace/",
+      "title": "Merchants, passports, taxes and the so-called Mongol Peace",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/cities-artisans-and-forced-mobility/",
+      "title": "Cities, artisans and forced mobility",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/women-dynastic-power-and-the-work-of-governing/",
+      "title": "Women, dynastic power and the work of governing",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/religion-accommodation-patronage-and-political-limits/",
+      "title": "Religion: accommodation, patronage and political limits",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/travelers-and-eyewitnesses-marco-polo-rubruck-and-other/",
+      "title": "Travelers and eyewitnesses: Marco Polo, Rubruck and other observers",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/source-workshop-the-secret-history-and-persian-chronicles/",
+      "title": "Source workshop: the Secret History and Persian chronicles",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-black-death-a-network-can-spread-danger/",
+      "title": "The Black Death: a network can spread danger",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/why-the-empire-fragmented/",
+      "title": "Why the empire fragmented",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/environmental-and-economic-limits-of-imperial-reach/",
+      "title": "Environmental and economic limits of imperial reach",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-historians-comparison-mongols-romans-and-persians/",
+      "title": "The historian's comparison: Mongols, Romans and Persians",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/case-study-a-merchant-a-village-and-a-governor/",
+      "title": "Case study: a merchant, a village and a governor",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/case-study-one-object-many-possible-routes/",
+      "title": "Case study: one object, many possible routes",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/what-did-the-mongol-conquests-change/",
+      "title": "What did the Mongol conquests change?",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/the-connected-world-after-the-khans/",
+      "title": "The connected world after the khans",
+      "kind": "section",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/practice/",
+      "title": "Practice laboratory",
+      "kind": "practice",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 22
+    },
+    {
+      "url": "/022-the-mongols-and-the-connected-world/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 22
+    }
+  ]
+}

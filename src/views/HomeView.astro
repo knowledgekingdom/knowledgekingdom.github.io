@@ -1,0 +1,87 @@
+---
+import Base from '../layouts/Base.astro';
+import ChapterCard from '../components/ChapterCard.astro';
+import Icon from '../components/Icon.astro';
+import { getBook, getRoadmap, getFlashcards, updates, figures, getChapters, getSections, getPage, chapterUrl } from '../lib/book';
+import { t, langFromPath, localize } from '../i18n/ui';
+import { site } from '../site.config';
+
+const lang = langFromPath(Astro.url.pathname);
+const L = (p: string) => localize(p, lang);
+const book = getBook(lang);
+const roadmap = getRoadmap(lang);
+const chapters = await getChapters(lang);
+const sections = await getSections(lang);
+const about = await getPage('about', lang);
+const first = chapters[0];
+const sectionCount = sections.filter((s) => s.data.type === 'section' || s.data.type === 'summary').length;
+const cardCount = Object.values(getFlashcards(lang).chapters).reduce((n, c) => n + c.cards.length, 0);
+const written = new Set(chapters.map((c) => c.data.number));
+const planned = roadmap.chapters.filter((c) => !written.has(c.number));
+const nextPlanned = planned.slice(0, 3);
+const words = book.titleDisplay.split(/\s+/);
+// First full sentence of "A note to the reader" (never a truncated fragment).
+const aboutText = about?.body?.replace(/<[^>]+>/g, '').replace(/\\(.)/g, '$1') ?? '';
+const lede = aboutText.match(/^[\s\S]*?[.!?](?=\s|$)/)?.[0].trim() || site.description;
+---
+<Base description={lang === 'en' ? site.description : lede}>
+  <main id="main">
+    <section class="hero container" data-part="1">
+      <p class="hero-deck">{book.subtitle}</p>
+      <h1 class="hero-title">{words.map((w) => <span>{w.charAt(0) + w.slice(1).toLowerCase()}</span>)}</h1>
+      <div class="hero-rule"><span>{t(lang, 'edition', { n: book.edition ?? '' })} · {book.editionDate}</span></div>
+      <p class="hero-lede">{lede}</p>
+      <div class="hero-actions">
+        {first && <a class="btn btn-primary" href={chapterUrl(first, lang)}>{t(lang, 'home.start')} <Icon name="arrowRight" class="arrow" /></a>}
+        <a class="btn" href={L('/random/')}><Icon name="shuffle" /> {t(lang, 'home.random')}</a>
+        <a class="btn" href={L('/about/')}><Icon name="book" /> {t(lang, 'home.about')}</a>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="stats" role="list" aria-label={t(lang, 'home.stats')}>
+        <div role="listitem"><strong>{chapters.length}</strong><span>{t(lang, 'home.chapters')}</span></div>
+        <div role="listitem"><strong>{sectionCount}</strong><span>{t(lang, 'home.sections')}</span></div>
+        <div role="listitem"><strong>{figures.length}</strong><span>{t(lang, 'home.figures')}</span></div>
+        <div role="listitem"><strong>{cardCount}</strong><span>{t(lang, 'home.flashcards')}</span></div>
+      </div>
+
+      {book.parts.map((part) => {
+        const pcs = chapters.filter((c) => c.data.part === part.number);
+        return (
+          <section class="part-block" data-part={part.number} aria-labelledby={`part-${part.number}`}>
+            <header class="part-head">
+              <span class="part-numeral" aria-hidden="true" style={`view-transition-name: part-${part.number}`}>{part.roman}</span>
+              <span class="kicker">{t(lang, 'part', { n: part.roman })}</span>
+              <h2 id={`part-${part.number}`}><a href={L(`/${part.slug}/`)}>{part.title}</a></h2>
+              <span class="meta">{t(lang, 'nChapters', { n: pcs.length })}</span>
+            </header>
+            <div class="card-grid">
+              {pcs.map((c) => <ChapterCard chapter={c} />)}
+            </div>
+          </section>
+        );
+      })}
+
+      {updates.recent.length > 0 && (
+        <section class="home-section" aria-labelledby="recent">
+          <h2 id="recent">{t(lang, 'home.recent')}</h2>
+          <ul>{updates.recent.slice(0, 8).map((u) => <li><a href={L(u.url)}>{u.title}</a> <span class="meta">{t(lang, 'edition', { n: u.edition })}</span></li>)}</ul>
+        </section>
+      )}
+
+      {planned.length > 0 && (
+        <section class="home-section" aria-labelledby="coming">
+          <div class="roadmap-teaser">
+            <div>
+              <span class="kicker" style="color:var(--ink-3)">{t(lang, 'home.wip')}</span>
+              <h2 id="coming" style="margin:.35rem 0 0">{t(lang, 'home.morePlanned', { n: planned.length })}</h2>
+              <p>{t(lang, 'home.nextUp')} {nextPlanned.map((c, i) => <>{i > 0 && ', '}<em>{c.title}</em></>)}{planned.length > 3 && ' …'}</p>
+            </div>
+            <a class="btn" href={L('/roadmap/')}>{t(lang, 'home.seeRoadmap')} <Icon name="arrowRight" class="arrow" /></a>
+          </div>
+        </section>
+      )}
+    </div>
+  </main>
+</Base>

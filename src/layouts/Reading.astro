@@ -1,0 +1,103 @@
+---
+import Base from './Base.astro';
+import Sidebar from '../components/Sidebar.astro';
+import Pager from '../components/Pager.astro';
+import Icon from '../components/Icon.astro';
+import { t, langFromPath } from '../i18n/ui';
+
+interface Heading { depth: number; slug: string; text: string }
+interface Props {
+  title: string;
+  description?: string;
+  part?: number | null;
+  chapter?: number;
+  headings?: Heading[];
+}
+const { title, description, part, chapter, headings = [] } = Astro.props;
+const toc = headings.filter((h) => h.depth === 2);
+const url = Astro.url.pathname;
+const lang = langFromPath(url);
+---
+<Base title={title} description={description} part={part} hasSidebar ogType="article">
+  <div class="reading-progress" aria-hidden="true"></div>
+  <div class="reading">
+    <Sidebar currentChapter={chapter} currentUrl={url} />
+    <main id="main" class="reading-main" data-pagefind-body>
+      <slot />
+      <Pager url={url} />
+    </main>
+    <aside class="reading-aside" aria-label={t(lang, 'nav.onThisPage')}>
+      {toc.length > 1 && (
+        <nav class="toc">
+          <h2>{t(lang, 'nav.onThisPage')}</h2>
+          <ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+        </nav>
+      )}
+    </aside>
+  </div>
+
+  <dialog class="lightbox" data-lightbox aria-label={t(lang, 'figure.enlarge')}>
+    <button class="lightbox-close icon-btn" type="button" data-lightbox-close>
+      <Icon name="close" /><span class="visually-hidden">{t(lang, 'figure.close')}</span>
+    </button>
+    <figure>
+      <img alt="" data-lightbox-img />
+      <figcaption data-lightbox-caption></figcaption>
+    </figure>
+  </dialog>
+
+  <script define:vars={{ enlargeLabel: t(lang, 'figure.enlarge') }} is:inline>
+    window.__kkEnlarge = enlargeLabel;
+  </script>
+  <script>
+    // Highlight the current H3 in the on-page TOC.
+    const links = [...document.querySelectorAll<HTMLAnchorElement>('.toc a')];
+    if (links.length && 'IntersectionObserver' in window) {
+      const map = new Map(links.map((a) => [decodeURIComponent(a.hash.slice(1)), a]));
+      const targets = [...map.keys()].map((id) => document.getElementById(id)).filter(Boolean) as HTMLElement[];
+      const io = new IntersectionObserver((entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) {
+            links.forEach((l) => l.classList.remove('is-active'));
+            map.get(e.target.id)?.classList.add('is-active');
+          }
+        }
+      }, { rootMargin: '0px 0px -70% 0px' });
+      targets.forEach((t) => io.observe(t));
+    }
+
+    // Figure lightbox: click (or Enter/Space) on a figure to view it full size.
+    const dialog = document.querySelector<HTMLDialogElement>('[data-lightbox]');
+    const big = dialog?.querySelector<HTMLImageElement>('[data-lightbox-img]');
+    const cap = dialog?.querySelector<HTMLElement>('[data-lightbox-caption]');
+    let opener: HTMLElement | null = null;
+
+    const largest = (img: HTMLImageElement) => {
+      const cands = (img.srcset || '').split(',').map((s) => s.trim().split(/\s+/))
+        .filter((p) => p[0]).map(([u, w]) => ({ u, w: parseInt(w) || 0 }));
+      return cands.sort((a, b) => b.w - a.w)[0]?.u || img.currentSrc || img.src;
+    };
+    const open = (img: HTMLImageElement) => {
+      if (!dialog || !big || !cap) return;
+      opener = img;
+      big.src = largest(img);
+      big.alt = img.alt;
+      const fc = img.closest('figure')?.querySelector('figcaption');
+      cap.innerHTML = fc ? fc.innerHTML : '';
+      cap.querySelector('.figure-anchor')?.remove();
+      dialog.showModal();
+    };
+    document.querySelectorAll<HTMLImageElement>('.prose figure.figure img').forEach((img) => {
+      img.tabIndex = 0;
+      img.setAttribute('role', 'button');
+      img.setAttribute('aria-label', `${(window as any).__kkEnlarge}: ${img.alt}`);
+      img.addEventListener('click', () => open(img));
+      img.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(img); }
+      });
+    });
+    dialog?.querySelector('[data-lightbox-close]')?.addEventListener('click', () => dialog.close());
+    dialog?.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+    dialog?.addEventListener('close', () => opener?.focus());
+  </script>
+</Base>

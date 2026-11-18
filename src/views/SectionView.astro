@@ -1,0 +1,80 @@
+---
+import { render } from 'astro:content';
+import Reading from '../layouts/Reading.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import MtNotice from '../components/MtNotice.astro';
+import Flashcards from '../components/Flashcards.astro';
+import PracticeLab from '../components/PracticeLab.astro';
+import SourcesList from '../components/SourcesList.astro';
+import {
+  partByNumber, getFlashcards, getPractice, getSources, isTranslated, hasBulgarian, type Section,
+} from '../lib/book';
+import { t, langFromPath, localize, type UIKey } from '../i18n/ui';
+
+const { section } = Astro.props as { section: Section };
+const lang = langFromPath(Astro.url.pathname);
+const L = (p: string) => localize(p, lang);
+const d = section.data;
+const { Content, headings: mdHeadings } = await render(section);
+const part = partByNumber(d.part, lang);
+
+const practice = d.type === 'practice' ? getPractice(lang)[d.chapterLabel as keyof ReturnType<typeof getPractice>] : undefined;
+const fcAll = getFlashcards(lang);
+const deck = d.type === 'flashcards' ? fcAll.chapters[d.chapterLabel as keyof typeof fcAll.chapters] : undefined;
+const sources = d.type === 'sources' ? getSources(lang)[d.chapterLabel as keyof ReturnType<typeof getSources>] : undefined;
+
+// The on-page TOC lists H3s for prose, and the exercise groups for practice labs.
+const headings = practice
+  ? practice.groups.filter((g) => g.title).map((g, i) => ({ depth: 2, slug: `group-${i + 1}`, text: g.title as string }))
+  : mdHeadings;
+const toc = headings.filter((h) => h.depth === 2);
+const isSpecial = d.type === 'practice' || d.type === 'flashcards' || d.type === 'sources';
+const kicker = d.type === 'section' ? t(lang, d.number != null ? 'section' : 'feature') : t(lang, `special.${d.type}` as UIKey);
+const translated = lang === 'bg' && (isSpecial ? hasBulgarian : isTranslated(section));
+---
+<Reading title={`${d.title} · ${d.chapterLabel} ${d.chapterTitle}`} description={d.description} part={d.part}
+         chapter={d.chapter} headings={headings}>
+  <article data-pagefind-meta={`chapter:${d.chapterLabel} · ${d.chapterTitle}`}>
+    <div class="column">
+      <Breadcrumbs items={[
+        ...(part ? [{ href: L(`/${part.slug}/`), label: t(lang, 'part', { n: part.roman }) }] : []),
+        { href: L(`/${d.chapterSlug}/`), label: `${d.chapterLabel} ${d.chapterTitle}` },
+        { label: d.title },
+      ]} />
+      <header class="section-head">
+        <span class="section-number" data-pagefind-ignore>
+          {kicker}{d.number != null && d.type === 'section' && <b>{d.number}</b>}
+          <span class="meta-sep">·</span><a href={L(`/${d.chapterSlug}/`)} style="color:inherit;text-decoration:none">{t(lang, 'chapter', { n: d.chapterLabel })}</a>
+        </span>
+        <h1>{d.title}</h1>
+        {!isSpecial && <span class="meta" data-pagefind-ignore>{t(lang, 'minRead', { n: d.readingTime })}</span>}
+      </header>
+      <MtNotice show={translated} />
+      {toc.length > 1 && (
+        <details class="toc-inline">
+          <summary>{t(lang, 'nav.onThisPage')}</summary>
+          <ol>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+        </details>
+      )}
+    </div>
+
+    {d.type === 'practice' && (
+      <div class="column">
+        {practice ? <PracticeLab groups={practice.groups} answerIntro={practice.answerIntro} /> : <div class="prose"><Content /></div>}
+      </div>
+    )}
+    {d.type === 'flashcards' && (
+      <div class="column-wide">
+        {deck && deck.cards.length
+          ? <Flashcards chapter={d.chapterLabel} cards={deck.cards} deckTitle={deck.deck} />
+          : <p class="placeholder">{t(lang, 'fc.noDeck')}</p>}
+      </div>
+    )}
+    {d.type === 'sources' && (
+      <div class="column">
+        {sources && <SourcesList intro={sources.intro} entries={sources.entries} further={sources.further} notes={sources.notes} />}
+      </div>
+    )}
+    {!isSpecial && <div class="prose"><Content /></div>}
+  </article>
+</Reading>

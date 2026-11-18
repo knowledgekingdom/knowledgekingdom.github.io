@@ -1,0 +1,35 @@
+---
+import { t, langFromPath } from '../i18n/ui';
+
+interface Entry { n: number; id: string; html: string }
+interface Props { intro: string[]; entries: Entry[]; further: string[]; notes: string[] }
+const { intro, entries, further, notes } = Astro.props;
+const lang = langFromPath(Astro.url.pathname);
+---
+<div class="sources">
+  {intro.map((p) => <p class="sources-intro" set:html={p} />)}
+  {entries.length > 0 && (
+    <section aria-labelledby="refs">
+      <h2 id="refs">{t(lang, 'sources.numbered')}</h2>
+      <ol class="refs">
+        {entries.map((e) => (
+          <li id={e.id} lang="en"><span class="ref-n">{e.n}</span><span class="ref-text" set:html={e.html} /></li>
+        ))}
+      </ol>
+    </section>
+  )}
+  {further.length > 0 && (
+    <section aria-labelledby="further">
+      <h2 id="further">{t(lang, 'sources.further')}</h2>
+      <ul class="refs refs-plain">
+        {further.map((h) => <li lang="en"><span class="ref-text" set:html={h} /></li>)}
+      </ul>
+    </section>
+  )}
+  {notes.length > 0 && (
+    <aside class="sources-notes" aria-labelledby="notes">
+      <h2 id="notes">{t(lang, 'sources.notes')}</h2>
+      {notes.map((n) => <p set:html={n} />)}
+    </aside>
+  )}
+</div>

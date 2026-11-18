@@ -1,0 +1,126 @@
+---
+// Site search (Pagefind). The index is built after `astro build`, one per language;
+// pagefind.js picks the index matching <html lang>. Shortcut: "/" or Ctrl/Cmd+K.
+import Icon from './Icon.astro';
+import { t, langFromPath } from '../i18n/ui';
+const lang = langFromPath(Astro.url.pathname);
+const keys = ['search.empty', 'search.results', 'search.loading', 'search.unavailable'] as const;
+const strings = Object.fromEntries(keys.map((k) => [k, t(lang, k)]));
+---
+<button class="icon-btn search-open" type="button" data-search-open aria-haspopup="dialog"
+        aria-label={t(lang, 'search.label')} title={t(lang, 'search.hint')}>
+  <Icon name="search" /><span class="search-open-label">{t(lang, 'search.button')}</span><kbd class="search-kbd">/</kbd>
+</button>
+
+<dialog class="search-dialog" data-search aria-label={t(lang, 'search.label')} data-strings={JSON.stringify(strings)}>
+  <div class="search-box">
+    <Icon name="search" />
+    <input type="search" data-search-input role="combobox" aria-expanded="false" aria-autocomplete="list"
+           aria-controls="search-results" aria-label={t(lang, 'search.label')}
+           placeholder={t(lang, 'search.placeholder')} autocomplete="off" spellcheck="false" />
+    <button class="icon-btn" type="button" data-search-close aria-label={t(lang, 'search.close')}><Icon name="close" /></button>
+  </div>
+  <p class="search-status" data-search-status aria-live="polite"></p>
+  <ol class="search-results" id="search-results" role="listbox" data-search-results></ol>
+  <p class="search-foot">{t(lang, 'search.keys')}</p>
+</dialog>
+
+<script>
+  type Sub = { title: string; url: string; excerpt: string };
+  type Data = { url: string; excerpt: string; meta: Record<string, string>; sub_results?: Sub[] };
+
+  const dialog = document.querySelector<HTMLDialogElement>('[data-search]');
+  const input = dialog?.querySelector<HTMLInputElement>('[data-search-input]');
+  const list = dialog?.querySelector<HTMLOListElement>('[data-search-results]');
+  const status = dialog?.querySelector<HTMLElement>('[data-search-status]');
+  const S: Record<string, string> = JSON.parse(dialog?.dataset.strings || '{}');
+  let pagefind: any = null;
+  let loadFailed = false;
+  let active = -1;
+  let opener: HTMLElement | null = null;
+
+  async function load() {
+    if (pagefind || loadFailed) return pagefind;
+    try {
+      const url = '/pagefind/pagefind.js';
+      pagefind = await import(/* @vite-ignore */ url);
+      await pagefind.options({ excerptLength: 26 });
+      pagefind.init();
+    } catch {
+      loadFailed = true;
+    }
+    return pagefind;
+  }
+
+  function open() {
+    if (!dialog || dialog.open) return;
+    opener = document.activeElement as HTMLElement;
+    dialog.showModal();
+    input?.select();
+    load().then((pf) => { if (!pf && status) status.textContent = S['search.unavailable']; });
+  }
+  const close = () => dialog?.close();
+
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+
+  function setActive(i: number) {
+    const items = [...(list?.querySelectorAll<HTMLAnchorElement>('[role="option"]') ?? [])];
+    if (!items.length) return;
+    active = (i + items.length) % items.length;
+    items.forEach((el, j) => el.setAttribute('aria-selected', String(j === active)));
+    items[active].scrollIntoView({ block: 'nearest' });
+    input?.setAttribute('aria-activedescendant', items[active].id);
+  }
+
+  async function run(q: string) {
+    if (!list || !status || !input) return;
+    const pf = await load();
+    if (!pf) return;
+    if (!q.trim()) { list.innerHTML = ''; status.textContent = ''; input.setAttribute('aria-expanded', 'false'); return; }
+    status.textContent = S['search.loading'];
+    const search = await pf.debouncedSearch(q, {}, 180);
+    if (search === null) return; // superseded by a newer keystroke
+    const data: Data[] = await Promise.all(search.results.slice(0, 12).map((r: any) => r.data()));
+    status.textContent = data.length
+      ? S['search.results'].replace('{n}', String(search.results.length))
+      : S['search.empty'].replace('{q}', q);
+    let n = 0;
+    list.innerHTML = data.map((d) => {
+      const subs = (d.sub_results ?? []).filter((s) => s.url !== d.url && s.url.includes('#')).slice(0, 2);
+      return `<li class="sr">
+        <a class="sr-main" role="option" id="sr-${n++}" aria-selected="false" href="${esc(d.url)}">
+          ${d.meta.chapter ? `<span class="sr-chapter">${esc(d.meta.chapter)}</span>` : ''}
+          <span class="sr-title">${esc(d.meta.title || d.url)}</span>
+          <span class="sr-excerpt">${d.excerpt}</span>
+        </a>
+        ${subs.map((s) => `<a class="sr-sub" role="option" id="sr-${n++}" aria-selected="false" href="${esc(s.url)}">
+          <span class="sr-sub-title">${esc(s.title)}</span><span class="sr-excerpt">${s.excerpt}</span></a>`).join('')}
+      </li>`;
+    }).join('');
+    input.setAttribute('aria-expanded', String(data.length > 0));
+    active = -1;
+    if (data.length) setActive(0);
+  }
+
+  document.querySelectorAll('[data-search-open]').forEach((b) => b.addEventListener('click', open));
+  dialog?.querySelector('[data-search-close]')?.addEventListener('click', close);
+  dialog?.addEventListener('click', (e) => { if (e.target === dialog) close(); });
+  dialog?.addEventListener('close', () => opener?.focus());
+  input?.addEventListener('input', () => run(input.value));
+  input?.addEventListener('keydown', (e) => {
+    // A search field's native Escape only clears the text; close the dialog instead.
+    if (e.key === 'Escape') { e.preventDefault(); close(); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); setActive(active + 1); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); setActive(active - 1); }
+    else if (e.key === 'Enter') {
+      const el = list?.querySelectorAll<HTMLAnchorElement>('[role="option"]')[active];
+      if (el) { e.preventDefault(); location.href = el.href; }
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    const el = e.target as HTMLElement;
+    const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName) || el.isContentEditable;
+    if ((e.key === 'k' || e.key === 'K') && (e.ctrlKey || e.metaKey)) { e.preventDefault(); open(); }
+    else if (e.key === '/' && !typing && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); open(); }
+  });
+</script>

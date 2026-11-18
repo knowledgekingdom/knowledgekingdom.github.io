@@ -1,0 +1,32 @@
+---
+// GitHub Pages serves this one page for every missing address, in either language,
+// so it speaks both (Bulgarian first when the address starts with /bg/).
+import Base from '../layouts/Base.astro';
+import { t } from '../i18n/ui';
+
+const langs = ['en', 'bg'] as const;
+---
+<Base title={t('en', 'notfound.title')} noindex>
+  <main id="main" class="container notfound" style="padding-top:clamp(2rem,6vw,4rem);padding-bottom:4rem" data-part="1">
+    {langs.map((lang) => (
+      <section class="page-head" lang={lang} data-nf={lang}>
+        <span class="kicker">404</span>
+        <h1>{t(lang, 'notfound.title')}</h1>
+        <p class="standfirst">{t(lang, 'notfound.lede')}</p>
+        <p class="notfound-actions">
+          <a class="btn btn-primary" href={lang === 'en' ? '/' : '/bg/'}>{t(lang, 'notfound.home')}</a>
+          <a class="btn" href={lang === 'en' ? '/roadmap/' : '/bg/roadmap/'}>{t(lang, 'nav.roadmap')}</a>
+        </p>
+      </section>
+    ))}
+  </main>
+  <script is:inline>
+    if (location.pathname.startsWith('/bg/')) document.querySelector('.notfound').classList.add('bg-first');
+  </script>
+</Base>
+
+<style>
+  .notfound { display: flex; flex-direction: column; gap: 1rem; }
+  .notfound.bg-first [data-nf='bg'] { order: -1; }
+  .notfound-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.5rem; }
+</style>

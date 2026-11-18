@@ -1,0 +1,776 @@
+{
+  "groups": [
+    {
+      "title": "Chapters 001–008",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "title": "Chapters 009–023",
+      "chapters": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "title": "Chapters 024–041",
+      "chapters": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "title": "Chapters 042–052",
+      "chapters": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "title": "Chapters 053–062",
+      "chapters": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ]
+    },
+    {
+      "title": "Chapters 063–074",
+      "chapters": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ]
+    },
+    {
+      "title": "Chapters 075–085",
+      "chapters": [
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85
+      ]
+    },
+    {
+      "title": "Chapters 086–095",
+      "chapters": [
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ]
+    },
+    {
+      "title": "Chapters 096–106",
+      "chapters": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ]
+    },
+    {
+      "title": "Chapters 107–120",
+      "chapters": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "How to Know What Is True",
+      "status": "REVISED DRAFT"
+    },
+    {
+      "number": 2,
+      "title": "Logic, Arguments, and Common Fallacies",
+      "status": "REVISED DRAFT"
+    },
+    {
+      "number": 3,
+      "title": "Probability, Risk, and Everyday Numbers",
+      "status": "REVISED DRAFT"
+    },
+    {
+      "number": 4,
+      "title": "Historical Time and the Problem of Sources",
+      "status": "REVISED DRAFT"
+    },
+    {
+      "number": 5,
+      "title": "Geography, Maps, and Scale",
+      "status": "EXPANDED"
+    },
+    {
+      "number": 6,
+      "title": "Reading Data, Charts, and Statistics",
+      "status": "EXPANDED"
+    },
+    {
+      "number": 7,
+      "title": "Systems Thinking and Feedback Loops",
+      "status": "EXPANDED"
+    },
+    {
+      "number": 8,
+      "title": "How to Learn and Remember",
+      "status": "DRAFT"
+    },
+    {
+      "number": 9,
+      "title": "Human Evolution and the First Migrations",
+      "status": "DRAFT"
+    },
+    {
+      "number": 10,
+      "title": "The Agricultural Revolution",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 11,
+      "title": "Mesopotamia and the First States",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 12,
+      "title": "Ancient Egypt and the Nile",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 13,
+      "title": "The Indus Valley Civilization",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 14,
+      "title": "Ancient China: Dynasties and Statecraft",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 15,
+      "title": "Persia and the Politics of Empire",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 16,
+      "title": "The Greek World and Its Political Experiments",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 17,
+      "title": "Rome: Republic, Empire, and Afterlives",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 18,
+      "title": "Africa: Kingdoms, Networks, and Cities",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 19,
+      "title": "The Americas Before European Conquest",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 20,
+      "title": "The Rise of Islam and the Caliphates",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 21,
+      "title": "Medieval Eurasia and the Silk Roads",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 22,
+      "title": "The Mongols and the Connected World",
+      "status": "LONG-FORM DRAFT"
+    },
+    {
+      "number": 23,
+      "title": "Europe, Byzantium, and the Ottoman Emergence",
+      "status": "PLANNED"
+    },
+    {
+      "number": 24,
+      "title": "Renaissance, Humanism, and Printing",
+      "status": "PLANNED"
+    },
+    {
+      "number": 25,
+      "title": "Reformation and Religious Conflict",
+      "status": "PLANNED"
+    },
+    {
+      "number": 26,
+      "title": "Indian Ocean Commerce and Asian Powers",
+      "status": "PLANNED"
+    },
+    {
+      "number": 27,
+      "title": "European Maritime Expansion",
+      "status": "PLANNED"
+    },
+    {
+      "number": 28,
+      "title": "The Columbian Exchange",
+      "status": "PLANNED"
+    },
+    {
+      "number": 29,
+      "title": "Atlantic Slavery and Plantation Economies",
+      "status": "PLANNED"
+    },
+    {
+      "number": 30,
+      "title": "The Qing, Mughal, and Ottoman Worlds",
+      "status": "PLANNED"
+    },
+    {
+      "number": 31,
+      "title": "Scientific Revolution and Enlightenment",
+      "status": "PLANNED"
+    },
+    {
+      "number": 32,
+      "title": "Atlantic Revolutions and Citizenship",
+      "status": "PLANNED"
+    },
+    {
+      "number": 33,
+      "title": "Latin American Independence and State Building",
+      "status": "PLANNED"
+    },
+    {
+      "number": 34,
+      "title": "Industrialization and Urban Society",
+      "status": "PLANNED"
+    },
+    {
+      "number": 35,
+      "title": "Imperialism and African Partition",
+      "status": "PLANNED"
+    },
+    {
+      "number": 36,
+      "title": "Nationalism and the Nineteenth-Century Nation-State",
+      "status": "PLANNED"
+    },
+    {
+      "number": 37,
+      "title": "The Balkans and the Eastern Question",
+      "status": "PLANNED"
+    },
+    {
+      "number": 38,
+      "title": "World War I: Causes and Consequences",
+      "status": "PLANNED"
+    },
+    {
+      "number": 39,
+      "title": "The Interwar World",
+      "status": "PLANNED"
+    },
+    {
+      "number": 40,
+      "title": "World War II and the Holocaust",
+      "status": "PLANNED"
+    },
+    {
+      "number": 41,
+      "title": "Cold War, Decolonization, and the Post-1991 World",
+      "status": "PLANNED"
+    },
+    {
+      "number": 42,
+      "title": "Why Wars Begin",
+      "status": "PLANNED"
+    },
+    {
+      "number": 43,
+      "title": "The Geography of Power",
+      "status": "PLANNED"
+    },
+    {
+      "number": 44,
+      "title": "Military Organization and Logistics",
+      "status": "PLANNED"
+    },
+    {
+      "number": 45,
+      "title": "Diplomacy, Alliances, and Balance of Power",
+      "status": "PLANNED"
+    },
+    {
+      "number": 46,
+      "title": "International Law and Armed Conflict",
+      "status": "PLANNED"
+    },
+    {
+      "number": 47,
+      "title": "Deterrence and Nuclear Strategy",
+      "status": "PLANNED"
+    },
+    {
+      "number": 48,
+      "title": "Civil Wars and Fragile States",
+      "status": "PLANNED"
+    },
+    {
+      "number": 49,
+      "title": "Colonial Violence and Anti-Colonial Resistance",
+      "status": "PLANNED"
+    },
+    {
+      "number": 50,
+      "title": "Peacemaking and Postwar Reconstruction",
+      "status": "PLANNED"
+    },
+    {
+      "number": 51,
+      "title": "Energy, Trade, and Strategic Chokepoints",
+      "status": "PLANNED"
+    },
+    {
+      "number": 52,
+      "title": "Understanding Competing Historical Narratives",
+      "status": "PLANNED"
+    },
+    {
+      "number": 53,
+      "title": "States, Nations, and Citizenship",
+      "status": "PLANNED"
+    },
+    {
+      "number": 54,
+      "title": "Constitutions and Separation of Powers",
+      "status": "PLANNED"
+    },
+    {
+      "number": 55,
+      "title": "Democracy and Electoral Systems",
+      "status": "PLANNED"
+    },
+    {
+      "number": 56,
+      "title": "Authoritarianism and Political Change",
+      "status": "PLANNED"
+    },
+    {
+      "number": 57,
+      "title": "The Major Political Ideologies",
+      "status": "PLANNED"
+    },
+    {
+      "number": 58,
+      "title": "Rights, Equality, and the Rule of Law",
+      "status": "PLANNED"
+    },
+    {
+      "number": 59,
+      "title": "Parties, Media, and Political Persuasion",
+      "status": "PLANNED"
+    },
+    {
+      "number": 60,
+      "title": "Public Administration and Corruption",
+      "status": "PLANNED"
+    },
+    {
+      "number": 61,
+      "title": "International Institutions and the UN",
+      "status": "PLANNED"
+    },
+    {
+      "number": 62,
+      "title": "Regional Integration and the European Union",
+      "status": "PLANNED"
+    },
+    {
+      "number": 63,
+      "title": "Scarcity, Incentives, and Opportunity Cost",
+      "status": "PLANNED"
+    },
+    {
+      "number": 64,
+      "title": "Markets, Supply, and Demand",
+      "status": "PLANNED"
+    },
+    {
+      "number": 65,
+      "title": "Firms, Work, and Productivity",
+      "status": "PLANNED"
+    },
+    {
+      "number": 66,
+      "title": "GDP and the Measurement of Prosperity",
+      "status": "PLANNED"
+    },
+    {
+      "number": 67,
+      "title": "Inflation, Money, and Central Banks",
+      "status": "PLANNED"
+    },
+    {
+      "number": 68,
+      "title": "Jobs, Unemployment, and Recessions",
+      "status": "PLANNED"
+    },
+    {
+      "number": 69,
+      "title": "Government Budgets, Taxes, and Debt",
+      "status": "PLANNED"
+    },
+    {
+      "number": 70,
+      "title": "Trade, Comparative Advantage, and Exchange Rates",
+      "status": "PLANNED"
+    },
+    {
+      "number": 71,
+      "title": "Banks, Credit, and Financial Crises",
+      "status": "PLANNED"
+    },
+    {
+      "number": 72,
+      "title": "Poverty, Inequality, and Development",
+      "status": "PLANNED"
+    },
+    {
+      "number": 73,
+      "title": "Investing, Saving, and Financial Risk",
+      "status": "PLANNED"
+    },
+    {
+      "number": 74,
+      "title": "Entrepreneurship, Energy, and Economic Systems",
+      "status": "PLANNED"
+    },
+    {
+      "number": 75,
+      "title": "How Science Builds Knowledge",
+      "status": "PLANNED"
+    },
+    {
+      "number": 76,
+      "title": "Matter, Atoms, and Chemistry",
+      "status": "PLANNED"
+    },
+    {
+      "number": 77,
+      "title": "Motion, Forces, and Energy",
+      "status": "PLANNED"
+    },
+    {
+      "number": 78,
+      "title": "Electricity, Waves, and Light",
+      "status": "PLANNED"
+    },
+    {
+      "number": 79,
+      "title": "The Structure of Earth and Plate Tectonics",
+      "status": "PLANNED"
+    },
+    {
+      "number": 80,
+      "title": "Weather, Climate, and the Greenhouse Effect",
+      "status": "PLANNED"
+    },
+    {
+      "number": 81,
+      "title": "Water, Oceans, and the Planetary System",
+      "status": "PLANNED"
+    },
+    {
+      "number": 82,
+      "title": "Evolution and the Diversity of Life",
+      "status": "PLANNED"
+    },
+    {
+      "number": 83,
+      "title": "Cells, DNA, and Heredity",
+      "status": "PLANNED"
+    },
+    {
+      "number": 84,
+      "title": "Health, Disease, and Public Health Literacy",
+      "status": "PLANNED"
+    },
+    {
+      "number": 85,
+      "title": "Ecosystems, Biodiversity, and Conservation",
+      "status": "PLANNED"
+    },
+    {
+      "number": 86,
+      "title": "The Solar System and Its Formation",
+      "status": "PLANNED"
+    },
+    {
+      "number": 87,
+      "title": "Gravity, Orbits, and Spaceflight",
+      "status": "PLANNED"
+    },
+    {
+      "number": 88,
+      "title": "The Sun and the Life of Stars",
+      "status": "PLANNED"
+    },
+    {
+      "number": 89,
+      "title": "Galaxies, Black Holes, and Cosmic Structure",
+      "status": "PLANNED"
+    },
+    {
+      "number": 90,
+      "title": "The Big Bang and Cosmic Time",
+      "status": "PLANNED"
+    },
+    {
+      "number": 91,
+      "title": "Exoplanets and the Search for Life",
+      "status": "PLANNED"
+    },
+    {
+      "number": 92,
+      "title": "Computers, Networks, and the Internet",
+      "status": "PLANNED"
+    },
+    {
+      "number": 93,
+      "title": "Artificial Intelligence and Data",
+      "status": "PLANNED"
+    },
+    {
+      "number": 94,
+      "title": "Cybersecurity and Digital Privacy",
+      "status": "PLANNED"
+    },
+    {
+      "number": 95,
+      "title": "Energy Technology and the Future of Engineering",
+      "status": "PLANNED"
+    },
+    {
+      "number": 96,
+      "title": "Philosophy: The Questions Behind the Answers",
+      "status": "PLANNED"
+    },
+    {
+      "number": 97,
+      "title": "Ethics and Moral Disagreement",
+      "status": "PLANNED"
+    },
+    {
+      "number": 98,
+      "title": "Psychology: Thinking and Feeling",
+      "status": "PLANNED"
+    },
+    {
+      "number": 99,
+      "title": "Sociology and Social Institutions",
+      "status": "PLANNED"
+    },
+    {
+      "number": 100,
+      "title": "World Religions and Intellectual Traditions",
+      "status": "PLANNED"
+    },
+    {
+      "number": 101,
+      "title": "Literature, Art, and Architecture",
+      "status": "PLANNED"
+    },
+    {
+      "number": 102,
+      "title": "Language, Culture, and Identity",
+      "status": "PLANNED"
+    },
+    {
+      "number": 103,
+      "title": "Migration, Demography, and Population",
+      "status": "PLANNED"
+    },
+    {
+      "number": 104,
+      "title": "Education and Human Development",
+      "status": "PLANNED"
+    },
+    {
+      "number": 105,
+      "title": "Information, Media, and Propaganda",
+      "status": "PLANNED"
+    },
+    {
+      "number": 106,
+      "title": "How to Debate Without Polarization",
+      "status": "PLANNED"
+    },
+    {
+      "number": 107,
+      "title": "Reading the World Map",
+      "status": "PLANNED"
+    },
+    {
+      "number": 108,
+      "title": "Northern, Western, and Central Europe",
+      "status": "PLANNED"
+    },
+    {
+      "number": 109,
+      "title": "Southeastern Europe and the Balkans",
+      "status": "PLANNED"
+    },
+    {
+      "number": 110,
+      "title": "Russia, the Caucasus, and Central Asia",
+      "status": "PLANNED"
+    },
+    {
+      "number": 111,
+      "title": "The Middle East and Arabian Peninsula",
+      "status": "PLANNED"
+    },
+    {
+      "number": 112,
+      "title": "North Africa and the Sahel",
+      "status": "PLANNED"
+    },
+    {
+      "number": 113,
+      "title": "Sub-Saharan Africa",
+      "status": "PLANNED"
+    },
+    {
+      "number": 114,
+      "title": "South Asia",
+      "status": "PLANNED"
+    },
+    {
+      "number": 115,
+      "title": "East Asia",
+      "status": "PLANNED"
+    },
+    {
+      "number": 116,
+      "title": "Southeast Asia",
+      "status": "PLANNED"
+    },
+    {
+      "number": 117,
+      "title": "North America",
+      "status": "PLANNED"
+    },
+    {
+      "number": 118,
+      "title": "Latin America and the Caribbean",
+      "status": "PLANNED"
+    },
+    {
+      "number": 119,
+      "title": "Oceania and the Pacific",
+      "status": "PLANNED"
+    },
+    {
+      "number": 120,
+      "title": "The Oceans, Polar Regions, and Global Commons",
+      "status": "PLANNED"
+    }
+  ]
+}

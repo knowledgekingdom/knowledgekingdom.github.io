@@ -1,0 +1,82 @@
+---
+// Reader setting: choose a colour palette (header menu, next to dark mode and language).
+// The choice is remembered per browser; `paletteSwitcher` in src/site.config.ts turns it off.
+import Icon from './Icon.astro';
+import { palettes, site } from '../site.config';
+import { t, langFromPath, type UIKey } from '../i18n/ui';
+const lang = langFromPath(Astro.url.pathname);
+---
+<div class="palette-picker" data-palette-picker data-pagefind-ignore>
+  <button class="icon-btn pp-toggle" type="button" aria-expanded="false" aria-controls="pp-panel"
+          aria-label={t(lang, 'palette.button')} title={t(lang, 'palette.button')}>
+    <Icon name="palette" />
+  </button>
+  <div class="pp-panel" id="pp-panel" hidden>
+    <p class="pp-title">{t(lang, 'palette.title')}</p>
+    <ul>
+      {palettes.map((p) => (
+        <li>
+          <button type="button" data-set-palette={p.id} aria-pressed={p.id === site.palette ? 'true' : 'false'}>
+            <span class="pp-sw" aria-hidden="true">{p.swatches.map((c) => <i style={`background:${c}`}></i>)}</span>
+            <span><strong>{p.name}</strong><small>{t(lang, `palette.note.${p.id}` as UIKey)}</small></span>
+          </button>
+        </li>
+      ))}
+    </ul>
+    <p class="pp-hint">{t(lang, 'palette.hint')}</p>
+  </div>
+</div>
+
+<style>
+  .palette-picker { position: relative; font-family: var(--font-sans); }
+  .pp-panel {
+    position: absolute; right: -3rem; top: calc(100% + .6rem); z-index: 70; width: min(19rem, calc(100vw - 2rem));
+    padding: .9rem; border-radius: 14px; border: 1px solid var(--rule); background: var(--card); box-shadow: var(--shadow);
+    animation: pp-in .18s cubic-bezier(.2, .75, .2, 1);
+  }
+  @keyframes pp-in { from { opacity: 0; translate: 0 -4px; } }
+  .pp-title { margin: 0 0 .6rem; font-size: .8rem; font-weight: 600; color: var(--ink-2); }
+  .pp-hint { margin: .6rem 0 0; font-size: .72rem; color: var(--ink-3); line-height: 1.4; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .35rem; }
+  li button {
+    width: 100%; display: flex; align-items: center; gap: .75rem; padding: .55rem .6rem; border-radius: 10px;
+    border: 1px solid transparent; background: none; color: var(--ink); text-align: left; cursor: pointer; font: inherit;
+  }
+  li button:hover { background: var(--paper-2); }
+  li button[aria-pressed='true'] { border-color: var(--accent); background: var(--accent-soft); }
+  .pp-sw { display: inline-flex; flex: none; }
+  .pp-sw i { width: 1.1rem; height: 1.6rem; border: 1px solid rgb(0 0 0 / .12); }
+  .pp-sw i:first-child { border-radius: 4px 0 0 4px; }
+  .pp-sw i:last-child { border-radius: 0 4px 4px 0; }
+  strong { display: block; font-size: .85rem; }
+  small { display: block; font-size: .72rem; color: var(--ink-3); }
+</style>
+
+<script>
+  const root = document.documentElement;
+  const picker = document.querySelector<HTMLElement>('[data-palette-picker]');
+  const toggle = picker?.querySelector<HTMLButtonElement>('.pp-toggle');
+  const panel = picker?.querySelector<HTMLElement>('.pp-panel');
+  const buttons = [...(picker?.querySelectorAll<HTMLButtonElement>('[data-set-palette]') ?? [])];
+  const sync = () => buttons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.setPalette === root.dataset.palette)));
+  const setOpen = (open: boolean) => {
+    if (!panel || !toggle) return;
+    panel.hidden = !open;
+    toggle.setAttribute('aria-expanded', String(open));
+    if (open) panel.querySelector<HTMLElement>('[aria-pressed="true"]')?.focus();
+  };
+  sync();
+  toggle?.addEventListener('click', () => setOpen(!!panel?.hidden));
+  buttons.forEach((b) => b.addEventListener('click', () => {
+    const apply = () => { root.dataset.palette = b.dataset.setPalette!; sync(); };
+    const vt = (document as any).startViewTransition;
+    if (vt && !matchMedia('(prefers-reduced-motion: reduce)').matches) vt.call(document, apply); else apply();
+    try { localStorage.setItem('kk-palette', b.dataset.setPalette!); } catch (e) {}
+  }));
+  document.addEventListener('click', (e) => {
+    if (panel && !panel.hidden && !picker?.contains(e.target as Node)) setOpen(false);
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && panel && !panel.hidden) { setOpen(false); toggle?.focus(); }
+  });
+</script>

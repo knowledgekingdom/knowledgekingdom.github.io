@@ -1,0 +1,7 @@
+---
+// Part landings and chapter landings.
+import SlugView from '../../../views/SlugView.astro';
+import { slugPaths } from '../../../lib/paths';
+export const getStaticPaths = () => slugPaths('bg');
+---
+<SlugView {...Astro.props} />
