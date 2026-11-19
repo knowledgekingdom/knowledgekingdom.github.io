@@ -100,7 +100,8 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
         <nav class="header-nav" aria-label={t(lang, 'nav.site')}>
           <a class="hide-sm" href={L('/about/')} aria-current={stripLang(path) === '/about/' ? 'page' : undefined}>{t(lang, 'nav.about')}</a>
           <a class="hide-sm" href={L('/roadmap/')} aria-current={stripLang(path) === '/roadmap/' ? 'page' : undefined}>{t(lang, 'nav.roadmap')}</a>
-          <a class="hide-sm" href={L('/random/')}>{t(lang, 'nav.random')}</a>
+          <a class="hide-sm" href={L('/timeline/')} aria-current={stripLang(path) === '/timeline/' ? 'page' : undefined}>{t(lang, 'nav.timeline')}</a>
+          <a class="hide-sm hide-md" href={L('/random/')}>{t(lang, 'nav.random')}</a>
           <Search />
           {site.paletteSwitcher && <PalettePicker />}
           <button class="icon-btn" type="button" data-theme-toggle aria-label={t(lang, 'nav.toggleTheme')}>
@@ -121,6 +122,8 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
           <a href={L('/about/')}>{t(lang, 'nav.about')}</a>
           <a href={L('/roadmap/')}>{t(lang, 'nav.roadmap')}</a>
           <a href={L('/updates/')}>{t(lang, 'nav.updates')}</a>
+          <a href={L('/timeline/')}>{t(lang, 'nav.timeline')}</a>
+          <a href={L('/random/')}>{t(lang, 'nav.random')}</a>
           <a href={switchHref} hreflang={other} lang={other}>{other === 'bg' ? 'Български' : 'English'}</a>
           <span>{book.edition ? `${t(lang, 'edition', { n: book.edition })} · ${book.editionDate}` : ''}</span>
         </nav>

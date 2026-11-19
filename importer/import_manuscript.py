@@ -29,6 +29,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import patterns as P  # noqa: E402
 import related as RELATED  # noqa: E402
+import timeline as TIMELINE  # noqa: E402
 import render as R  # noqa: E402
 from docx_reader import DocxReader, Paragraph, Seg, Table  # noqa: E402
 
@@ -411,6 +412,7 @@ class Builder:
         self.section_hashes: dict[str, dict] = {}
         self.reading_order: list[dict] = []
         self.related_docs: list[tuple[str, int, str, str]] = []  # (url, chapter, title, markdown)
+        self.timeline_docs: list[tuple[str, int, str, str]] = []  # same, history Parts only
 
     # -- slugs ---------------------------------------------------------------
     def chapter_slug(self, ch: Chapter) -> str:
@@ -639,6 +641,7 @@ class Builder:
         self.write_json("src/data/figures.json", self.figures)
         self.write_json("src/data/roadmap.json", self.roadmap_out)
         self.write_json("src/data/related.json", RELATED.compute(self.related_docs))
+        self.build_timeline()
         self.write_redirects()
 
         self.counts.update({
@@ -658,7 +661,19 @@ class Builder:
             "Exercises": sum(len(g["exercises"]) for c in practice.values() for g in c["groups"]),
             "Model answers": sum(len(c) for c in answers["chapters"].values()),
             "Roadmap chapters": len(self.roadmap_out["chapters"]),
+            "Timeline events": len(self.timeline_out["events"]),
         })
+
+    # -- timeline ------------------------------------------------------------
+    def build_timeline(self):
+        path = self.meta_dir / "timeline.json"
+        curation = _read_json(path, {})
+        events = TIMELINE.extract(self.timeline_docs)
+        events = TIMELINE.apply_curation(events, curation, self.report.note, self.timeline_docs)
+        keep = ("id", "chapter", "url", "start", "end", "approx", "qual", "text", "textBg", "source")
+        events = [{k: e[k] for k in keep if k in e and e[k] is not None} for e in events]
+        self.timeline_out = {"chapterSpans": TIMELINE.chapter_spans(events, curation), "events": events}
+        self.write_json("src/data/timeline.json", self.timeline_out)
 
     # -- roadmap -------------------------------------------------------------
     def build_roadmap(self):
@@ -797,6 +812,8 @@ class Builder:
                 section_entries.append(sec)
                 if sec.type == "section":
                     self.related_docs.append((url, ch.number, sec.display_title, md))
+                    if ch.part and ch.part["number"] >= 2:  # Part I is the reasoning toolkit, not history
+                        self.timeline_docs.append((url, ch.number, sec.display_title, md))
                 self.reading_order.append({"url": url, "title": sec.display_title, "kind": sec.type,
                                            "chapter": ch.number})
             for token in sorted(self._current_unmatched):

@@ -1,4 +1,5 @@
 ---
+import { getTimeline } from '../lib/timeline';
 // Part landings (/part-1-…/) and chapter landings (/001-…/), both languages.
 import { render } from 'astro:content';
 import Base from '../layouts/Base.astro';
@@ -32,6 +33,7 @@ if (props.kind === 'part') {
 const regular = secs.filter((s) => s.data.type === 'section');
 const special = secs.filter((s) => s.data.type !== 'section');
 const part = ch ? partByNumber(ch.data.part, lang) : undefined;
+const hasTimeline = ch ? Boolean(getTimeline(lang).chapterSpans[ch.data.label]) : false;
 ---
 {props.kind === 'part' ? (
   <Base title={`${t(lang, 'part', { n: props.part.roman })}: ${props.part.title}`} part={props.part.number}
@@ -82,6 +84,9 @@ const part = ch ? partByNumber(ch.data.part, lang) : undefined;
             </a></li>
           ))}
         </ol>
+        {hasTimeline && (
+          <p class="tl-chapter-link"><a class="more-link" href={L(`/timeline/#ch-${ch.data.label}`)}>{t(lang, 'timeline.see')} <Icon name="arrowRight" class="arrow" /></a></p>
+        )}
         <div class="study-grid">
           {special.map((s) => (
             <a class="study-card" href={sectionUrl(s, lang)}>

@@ -1,0 +1,161 @@
+---
+// /timeline/: dated moments from the history chapters (Parts II–III), built by the importer
+// (importer/timeline.py) from the book's own sentences, with corrections in content-meta/timeline.json.
+import Base from '../layouts/Base.astro';
+import { getChapters, pageInfo } from '../lib/book';
+import { getTimeline, formatDate, position, eraOf, eraLabel, ERAS } from '../lib/timeline';
+import { t, langFromPath, localize } from '../i18n/ui';
+
+const lang = langFromPath(Astro.url.pathname);
+const L = (p: string) => localize(p, lang);
+const tl = getTimeline(lang);
+const chapters = new Map((await getChapters(lang)).map((c) => [c.data.label, c]));
+
+// Overview: one bar per chapter, packed into as few rows as fit.
+type Bar = { label: string; title: string; part: number | null; left: number; width: number; lane: number };
+const bars: Bar[] = [];
+const laneEnds: number[] = [];
+for (const [label, [start, end]] of Object.entries(tl.chapterSpans).sort((a, b) => a[1][0] - b[1][0])) {
+  const ch = chapters.get(label);
+  if (!ch) continue;
+  const width = Math.max(position(end) - position(start), 3);
+  const left = Math.min(position(start), 100 - width); // keep short, recent chapters inside the strip
+  let lane = laneEnds.findIndex((e) => e + 0.6 < left);
+  if (lane === -1) lane = laneEnds.push(0) - 1;
+  laneEnds[lane] = left + width;
+  bars.push({ label, title: ch.data.title, part: ch.data.part, left, width, lane });
+}
+const ticks = (lang === 'bg'
+  ? [[-3_998_000, 'преди 4 млн. г.'], [-10000, '10 000 г. пр.н.е.'], [-3000, '3000 г. пр.н.е.'],
+     [-500, '500 г. пр.н.е.'], [500, '500 г.'], [1000, '1000'], [1500, '1500'], [1800, '1800'], [1925, '1925']]
+  : [[-3_998_000, '4 million years ago'], [-10000, '10,000 BCE'], [-3000, '3000 BCE'],
+     [-500, '500 BCE'], [500, '500 CE'], [1000, '1000'], [1500, '1500'], [1800, '1800'], [1925, '1925']]) as [number, string][];
+
+// Events, grouped by era, each with its chapter and section in this language.
+const events = await Promise.all(tl.events.map(async (e) => {
+  const info = await pageInfo(e.url, lang);
+  const ch = chapters.get(e.chapter);
+  return { ...e, date: formatDate(e, lang), section: info?.title ?? '', href: info?.url ?? L(e.url),
+           chapterTitle: ch?.data.title ?? '', part: ch?.data.part ?? null };
+}));
+const eras = ERAS.map((_, i) => ({ i, id: `era-${i}`, label: eraLabel(i, lang), items: events.filter((e) => eraOf(e.start) === i) }))
+  .filter((e) => e.items.length);
+const filterChapters = [...new Set(events.map((e) => e.chapter))].sort().map((l) => chapters.get(l)).filter((c) => c !== undefined);
+---
+<Base title={t(lang, 'timeline.title')} description={t(lang, 'timeline.lede', { n: events.length })}>
+  <main id="main" class="container timeline" data-timeline data-total={events.length}
+        data-showing={t(lang, 'timeline.showing')} style="padding-top:clamp(2rem,6vw,4rem);padding-bottom:4rem" data-part="2">
+    <header class="page-head">
+      <span class="kicker">{t(lang, 'timeline.kicker')}</span>
+      <h1>{t(lang, 'timeline.title')}</h1>
+      <p class="standfirst">{t(lang, 'timeline.lede', { n: events.length })}</p>
+      <p class="meta tl-note">{t(lang, 'timeline.note')}</p>
+    </header>
+
+    <section class="tl-overview" aria-labelledby="tl-overview-title">
+      <h2 id="tl-overview-title" class="tl-overview-title">{t(lang, 'timeline.overview')}</h2>
+      <div class="tl-scroll">
+        <div class="tl-track" style={`--lanes:${laneEnds.length}`}>
+          {bars.map((b) => (
+            <a class="tl-bar" href={`#ch-${b.label}`} data-chapter={b.label} data-part={b.part ?? undefined}
+               style={`left:${b.left.toFixed(2)}%;width:${b.width.toFixed(2)}%;--lane:${b.lane}`} title={`${b.label} · ${b.title}`}>
+              <span class="n">{b.label}</span><span class="t">{b.title}</span>
+            </a>
+          ))}
+          <div class="tl-axis" aria-hidden="true">
+            {ticks.map(([y, label]) => <span class="tl-tick" style={`left:${position(y).toFixed(2)}%`}>{label}</span>)}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="tl-controls">
+      <label class="tl-filter" hidden data-tl-filter>
+        <span>{t(lang, 'timeline.filter')}</span>
+        <select data-tl-select>
+          <option value="">{t(lang, 'timeline.all')}</option>
+          {filterChapters.map((c) => <option value={c.data.label}>{c.data.label} · {c.data.title}</option>)}
+        </select>
+      </label>
+      <button class="link-btn" type="button" data-tl-reset hidden>{t(lang, 'timeline.reset')}</button>
+      <p class="meta tl-status" data-tl-status aria-live="polite"></p>
+    </div>
+    <nav class="tl-eras" aria-label={t(lang, 'timeline.eras')}>
+      {eras.map((e) => <a href={`#${e.id}`} data-era-link={e.id}>{e.label}</a>)}
+    </nav>
+
+    <div class="tl-list" id="tl-list">
+      {eras.map((era) => (
+        <section class="tl-era" id={era.id} aria-labelledby={`${era.id}-title`} data-tl-era>
+          <h2 id={`${era.id}-title`}>{era.label}</h2>
+          <ol>
+            {era.items.map((e) => (
+              <li class="tl-event" data-chapter={e.chapter} data-part={e.part ?? undefined}>
+                <span class="tl-date">{e.date}</span>
+                <p class="tl-text">{e.text}</p>
+                <a class="tl-source" href={e.href}>
+                  <span class="tl-ch">{e.chapter}</span> {e.chapterTitle}{e.section && e.section !== e.text ? ` · ${e.section}` : ''}
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      ))}
+    </div>
+  </main>
+</Base>
+
+<script>
+  // Filter by chapter (#ch-012 in the address, the select box, or a bar in the overview).
+  const root = document.querySelector<HTMLElement>('[data-timeline]');
+  if (root) {
+    const select = root.querySelector<HTMLSelectElement>('[data-tl-select]')!;
+    const reset = root.querySelector<HTMLButtonElement>('[data-tl-reset]')!;
+    const status = root.querySelector<HTMLElement>('[data-tl-status]')!;
+    const items = [...root.querySelectorAll<HTMLElement>('.tl-event')];
+    const eras = [...root.querySelectorAll<HTMLElement>('[data-tl-era]')];
+    const bars = [...root.querySelectorAll<HTMLAnchorElement>('.tl-bar')];
+    const eraLinks = [...root.querySelectorAll<HTMLAnchorElement>('[data-era-link]')];
+    const total = Number(root.dataset.total);
+    root.querySelector<HTMLElement>('[data-tl-filter]')!.hidden = false;
+
+    const apply = (ch: string, scroll: boolean) => {
+      if (ch && !items.some((li) => li.dataset.chapter === ch)) ch = '';
+      let shown = 0;
+      for (const li of items) {
+        li.hidden = Boolean(ch) && li.dataset.chapter !== ch;
+        if (!li.hidden) shown++;
+      }
+      for (const era of eras) era.hidden = !era.querySelector('.tl-event:not([hidden])');
+      for (const a of eraLinks) a.hidden = Boolean(document.getElementById(a.dataset.eraLink!)?.hidden);
+      for (const b of bars) {
+        b.classList.toggle('is-active', b.dataset.chapter === ch);
+        b.classList.toggle('is-dim', Boolean(ch) && b.dataset.chapter !== ch);
+        if (b.dataset.chapter === ch) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current');
+      }
+      select.value = ch;
+      reset.hidden = !ch;
+      status.textContent = ch ? (root.dataset.showing ?? '').replace('{n}', String(shown)).replace('{total}', String(total)) : '';
+      if (scroll) {
+        const smooth = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+        root.querySelector('.tl-controls')!.scrollIntoView({ behavior: smooth ? 'smooth' : 'auto', block: 'start' });
+      }
+    };
+    const fromHash = () => location.hash.match(/^#ch-(\d{3})$/)?.[1] ?? '';
+    const setHash = (ch: string) => history.replaceState(null, '', ch ? `#ch-${ch}` : location.pathname + location.search);
+
+    select.addEventListener('change', () => { setHash(select.value); apply(select.value, false); });
+    reset.addEventListener('click', () => { setHash(''); apply('', false); select.focus(); });
+    for (const b of bars) {
+      b.addEventListener('click', (ev) => {
+        ev.preventDefault();
+        const ch = b.dataset.chapter === select.value ? '' : b.dataset.chapter!; // clicking the active bar clears it
+        setHash(ch);
+        apply(ch, Boolean(ch));
+      });
+    }
+    addEventListener('hashchange', () => apply(fromHash(), true));
+    const initial = fromHash();
+    apply(initial, Boolean(initial));
+  }
+</script>

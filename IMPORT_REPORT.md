@@ -42,6 +42,7 @@
 | Exercises | 1020 | 540 |
 | Model answers | 1020 | 540 |
 | Roadmap chapters | 120 | 120 |
+| Timeline events | 268 | — |
 
 Excluded editorial boxes (1×1 tables): 2. “Where the book stands” is excluded; its chapter list feeds the public roadmap.
 

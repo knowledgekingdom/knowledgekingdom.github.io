@@ -326,13 +326,16 @@ def translate_data(name: str, data, tr: Translator):
                                        "answer": H(e["answer"]) if e["answer"] else None}
                                       for e in g["exercises"]]} for g in v["groups"]],
         } for k, v in data.items()}
+    if name == "timeline":  # event sentences come from the book, so they are usually already in the cache
+        return {**data, "events": [{**{k: v for k, v in e.items() if k != "textBg"},
+                                    "text": e.get("textBg") or T(e["text"])} for e in data["events"]]}
     if name == "sources":  # bibliographic entries stay in the original language
         return {k: {**v, "title": T(v["title"]), "intro": [H(x) for x in v["intro"]],
                     "notes": [H(x) for x in v["notes"]]} for k, v in data.items()}
     raise ValueError(name)
 
 
-DATA_FILES = ["book", "roadmap", "flashcards", "practice", "sources"]
+DATA_FILES = ["book", "roadmap", "flashcards", "practice", "sources", "timeline"]
 
 
 # =============================================================================
@@ -357,7 +360,10 @@ def build_all(tr: Translator) -> dict[str, str]:
             rel = src.relative_to(content).as_posix()
             files[f"src/content/bg/{rel}"] = translate_md_file(src, tr)
     for name in DATA_FILES:
-        data = json.loads((ROOT / "src" / "data" / f"{name}.json").read_text(encoding="utf-8"))
+        path = ROOT / "src" / "data" / f"{name}.json"
+        if not path.exists():
+            continue
+        data = json.loads(path.read_text(encoding="utf-8"))
         files[f"src/data/bg/{name}.json"] = json.dumps(translate_data(name, data, tr), ensure_ascii=False, indent=2) + "\n"
     return files
 

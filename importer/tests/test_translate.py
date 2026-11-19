@@ -85,5 +85,20 @@ class HtmlTests(unittest.TestCase):
         self.assertEqual(T.translate_block(r"1\. Not a list.", tr), r"1\. Не е списък.")
 
 
+class TimelineDataTests(unittest.TestCase):
+    def test_timeline_uses_cache_and_hand_translation(self):
+        tr = fake({"In 1415 Portuguese forces took Ceuta.": "През 1415 г. португалските сили превземат Сеута."})
+        data = {"chapterSpans": {"027": [1415, 1571]}, "events": [
+            {"id": "027-a", "text": "In 1415 Portuguese forces took Ceuta.", "start": 1415, "end": 1415},
+            {"id": "015-b", "text": "Around 550 BCE Cyrus defeated Astyages.", "textBg": "Около 550 г. пр.н.е. Кир побеждава Астиаг.",
+             "start": -550, "end": -550},
+        ]}
+        out = T.translate_data("timeline", data, tr)
+        self.assertEqual(out["chapterSpans"], data["chapterSpans"])
+        self.assertEqual([e["text"] for e in out["events"]],
+                         ["През 1415 г. португалските сили превземат Сеута.", "Около 550 г. пр.н.е. Кир побеждава Астиаг."])
+        self.assertNotIn("textBg", out["events"][1])
+
+
 if __name__ == "__main__":
     unittest.main()

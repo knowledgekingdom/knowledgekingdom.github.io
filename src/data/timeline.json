@@ -1,0 +1,2861 @@
+{
+  "chapterSpans": {
+    "009": [
+      -3898000,
+      -17000
+    ],
+    "010": [
+      -7400,
+      -4400
+    ],
+    "011": [
+      -5500,
+      -1750
+    ],
+    "012": [
+      -3100,
+      -30
+    ],
+    "013": [
+      -3300,
+      -1300
+    ],
+    "014": [
+      -3300,
+      -221
+    ],
+    "015": [
+      -550,
+      -334
+    ],
+    "016": [
+      -800,
+      -399
+    ],
+    "017": [
+      -509,
+      476
+    ],
+    "018": [
+      -800,
+      1897
+    ],
+    "019": [
+      -3000,
+      1521
+    ],
+    "020": [
+      601,
+      1000
+    ],
+    "021": [
+      501,
+      1200
+    ],
+    "022": [
+      1206,
+      1400
+    ],
+    "023": [
+      901,
+      1453
+    ],
+    "024": [
+      1304,
+      1520
+    ],
+    "025": [
+      1519,
+      1685
+    ],
+    "026": [
+      1400,
+      1600
+    ],
+    "027": [
+      1415,
+      1571
+    ],
+    "028": [
+      1492,
+      1900
+    ],
+    "029": [
+      1492,
+      1900
+    ],
+    "030": [
+      1368,
+      1757
+    ],
+    "031": [
+      1543,
+      1800
+    ],
+    "032": [
+      1763,
+      1799
+    ],
+    "033": [
+      1808,
+      1830
+    ],
+    "034": [
+      1769,
+      1870
+    ],
+    "035": [
+      1801,
+      1914
+    ],
+    "036": [
+      1789,
+      1914
+    ],
+    "037": [
+      1801,
+      1914
+    ],
+    "038": [
+      1914,
+      1919
+    ]
+  },
+  "events": [
+    {
+      "id": "009-a5bba955",
+      "chapter": "009",
+      "url": "/009-human-evolution-and-the-first-migrations/africa-the-long-beginning/",
+      "start": -3898000,
+      "end": -2898000,
+      "approx": true,
+      "text": "One famous species is Australopithecus afarensis, known from eastern African fossils dated broadly between about 3.9 and 2.9 million years ago.",
+      "source": "added"
+    },
+    {
+      "id": "009-2ca47e14",
+      "chapter": "009",
+      "url": "/009-human-evolution-and-the-first-migrations/hands-stones-and-the-technology-nobody-photographed/",
+      "start": -3298000,
+      "end": -3298000,
+      "approx": true,
+      "text": "Artifacts at Lomekwi 3 in Kenya, dated to about 3.3 million years ago, indicate a form of stone working predating the oldest widely accepted Homo fossils.",
+      "source": "added"
+    },
+    {
+      "id": "009-eb368aca",
+      "chapter": "009",
+      "url": "/009-human-evolution-and-the-first-migrations/the-travelers-before-us-homo-erectus-and-the-first-great/",
+      "start": -1798000,
+      "end": -1798000,
+      "approx": true,
+      "qual": "by",
+      "text": "Fossils associated with early members of Homo, especially the broader Homo erectus lineage, appear outside Africa by around 1.8 million years ago.",
+      "source": "added"
+    },
+    {
+      "id": "009-4846cbb1",
+      "chapter": "009",
+      "url": "/009-human-evolution-and-the-first-migrations/hands-stones-and-the-technology-nobody-photographed/",
+      "start": -1758000,
+      "end": -1758000,
+      "approx": true,
+      "qual": "by",
+      "text": "By roughly 1.76 million years ago, large cutting tools associated with the Acheulean tradition appear in the record.",
+      "source": "sentence"
+    },
+    {
+      "id": "009-dda8fee8",
+      "chapter": "009",
+      "url": "/009-human-evolution-and-the-first-migrations/the-emergence-of-homo-sapiens-was-not-a-single-moment/",
+      "start": -313000,
+      "end": -313000,
+      "approx": true,
+      "text": "Fossil remains associated with Middle Stone Age artifacts were dated to about 315,000 years ago, with uncertainty in the measurements.",
+      "source": "added"
+    },
+    {
+      "id": "009-1e2456d9",
+      "chapter": "009",
+      "url": "/009-human-evolution-and-the-first-migrations/crossing-water-the-settlement-of-sahul/",
+      "start": -63000,
+      "end": -63000,
+      "approx": true,
+      "text": "At Madjedbebe in northern Australia, a 2017 Nature paper argued from archaeological layers and dating for occupation about 65,000 years ago.",
+      "source": "added"
+    },
+    {
+      "id": "009-34b158b3",
+      "chapter": "009",
+      "url": "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/",
+      "start": -47000,
+      "end": -43000,
+      "approx": true,
+      "text": "A 2024 genomic analysis of ancient modern humans suggested that a significant episode of Neanderthal admixture shared across many present-day non-African lineages occurred around 45,000–49,000 years ago.",
+      "source": "added"
+    },
+    {
+      "id": "009-d30b3e52",
+      "chapter": "009",
+      "url": "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/",
+      "start": -38000,
+      "end": -38000,
+      "approx": true,
+      "text": "The disappearance of Neanderthals around 40,000 years ago remains an active subject of research.",
+      "source": "added"
+    },
+    {
+      "id": "009-40a57d3c",
+      "chapter": "009",
+      "url": "/009-human-evolution-and-the-first-migrations/climate-shaped-opportunities-but-people-made-histories/",
+      "start": -24500,
+      "end": -17000,
+      "approx": true,
+      "text": "The Last Glacial Maximum, approximately 26,500–19,000 years ago, was a period when continental ice sheets reached great extent.",
+      "source": "added"
+    },
+    {
+      "id": "009-e31d27c9",
+      "chapter": "009",
+      "url": "/009-human-evolution-and-the-first-migrations/toward-the-americas-ice-land-coast-and-unanswered-questions/",
+      "start": -21000,
+      "end": -19000,
+      "approx": true,
+      "text": "A 2021 age estimate placed the prints at approximately 21,000–23,000 years ago, much earlier than the classic Clovis chronology.",
+      "source": "added"
+    },
+    {
+      "id": "010-b95d2f88",
+      "chapter": "010",
+      "url": "/010-the-agricultural-revolution/a-timeline-without-false-precision/",
+      "start": -7400,
+      "end": -6200,
+      "approx": true,
+      "text": "At Çatalhöyük, the east mound's principal Neolithic occupation is dated about 7400–6200 BCE.",
+      "source": "added"
+    },
+    {
+      "id": "011-69406e32",
+      "chapter": "011",
+      "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/",
+      "start": -5500,
+      "end": -4000,
+      "approx": true,
+      "text": "Ubaid traditions and expanding settlement networks in southern Mesopotamia; dates and regional definitions vary.",
+      "source": "list"
+    },
+    {
+      "id": "010-120ba806",
+      "chapter": "010",
+      "url": "/010-the-agricultural-revolution/a-timeline-without-false-precision/",
+      "start": -5000,
+      "end": -4400,
+      "approx": true,
+      "text": "In New Guinea, evidence of wetland cultivation is particularly important from roughly 7,000–6,400 years ago.",
+      "source": "added"
+    },
+    {
+      "id": "011-7604b4c9",
+      "chapter": "011",
+      "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/",
+      "start": -4000,
+      "end": -3100,
+      "approx": true,
+      "text": "Uruk period; major urban growth and new administrative practices in the south.",
+      "source": "list"
+    },
+    {
+      "id": "013-79e9720a",
+      "chapter": "013",
+      "url": "/013-the-indus-valley-civilization/essential-timeline-chapter-013/",
+      "start": -3300,
+      "end": -3300,
+      "approx": true,
+      "qual": "before",
+      "text": "Earlier farming, herding and settlement traditions develop across different parts of the wider region, including communities such as Mehrgarh.",
+      "source": "list"
+    },
+    {
+      "id": "011-c6c5e3e2",
+      "chapter": "011",
+      "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/",
+      "start": -3300,
+      "end": -3000,
+      "approx": true,
+      "text": "Early proto-cuneiform accounts and related developments in writing, with scholarly debates over stages and origins.",
+      "source": "list"
+    },
+    {
+      "id": "013-0a236050",
+      "chapter": "013",
+      "url": "/013-the-indus-valley-civilization/essential-timeline-chapter-013/",
+      "start": -3300,
+      "end": -2600,
+      "approx": true,
+      "text": "Broad Early Harappan phase; settlements, crafts and exchange networks develop differently across regions.",
+      "source": "list"
+    },
+    {
+      "id": "014-2e85ea53",
+      "chapter": "014",
+      "url": "/014-ancient-china-dynasties-and-statecraft/liangzhu-another-route-to-complexity/",
+      "start": -3300,
+      "end": -2300,
+      "approx": true,
+      "text": "In the lower Yangtze region, the Liangzhu culture flourished approximately 3300–2300 BCE.",
+      "source": "added"
+    },
+    {
+      "id": "011-fa6067ec",
+      "chapter": "011",
+      "url": "/011-mesopotamia-and-the-first-states/uruk-when-settlement-became-something-larger/",
+      "start": -3200,
+      "end": -3200,
+      "approx": true,
+      "qual": "by",
+      "text": "By around 3200 BCE, Uruk was an extraordinary settlement in southern Mesopotamia.",
+      "source": "sentence"
+    },
+    {
+      "id": "012-20ef17a6",
+      "chapter": "012",
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "start": -3100,
+      "end": -3100,
+      "approx": true,
+      "text": "Early dynastic unification associated in modern accounts with rulers such as Narmer and Aha.",
+      "source": "list"
+    },
+    {
+      "id": "012-dc3b6a3b",
+      "chapter": "012",
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "start": -3100,
+      "end": -3100,
+      "approx": true,
+      "qual": "before",
+      "text": "Predynastic communities, regional centers and changing burial and exchange patterns.",
+      "source": "list"
+    },
+    {
+      "id": "013-53addee7",
+      "chapter": "013",
+      "url": "/013-the-indus-valley-civilization/essential-timeline-chapter-013/",
+      "start": -3000,
+      "end": -2001,
+      "approx": true,
+      "text": "Indus materials and merchants participate in extended networks reaching the Gulf and Mesopotamia; exact chronology varies by site.",
+      "source": "list"
+    },
+    {
+      "id": "019-732d6a50",
+      "chapter": "019",
+      "url": "/019-the-americas-before-european-conquest/caral-supe-an-early-center-in-coastal-peru/",
+      "start": -3000,
+      "end": -1800,
+      "approx": true,
+      "text": "The main development of Caral-Supe in Peru is dated to the third and early second millennia BCE, often summarized as approximately 3000–1800 BCE.",
+      "textBg": "Археологическите датировки поставят разцвета на Карал-Супе в Перу в III и началото на II хилядолетие пр.н.е., обикновено около 3000–1800 г. пр.н.е.",
+      "source": "added"
+    },
+    {
+      "id": "011-cfef8452",
+      "chapter": "011",
+      "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/",
+      "start": -2900,
+      "end": -2350,
+      "approx": true,
+      "text": "Early Dynastic city-states, competition and increasingly prominent royal institutions.",
+      "source": "list"
+    },
+    {
+      "id": "012-12c3c9e1",
+      "chapter": "012",
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "start": -2700,
+      "end": -2101,
+      "approx": true,
+      "text": "Old Kingdom, with Djoser and the major fourth-dynasty pyramids.",
+      "source": "list"
+    },
+    {
+      "id": "013-7e866c6b",
+      "chapter": "013",
+      "url": "/013-the-indus-valley-civilization/essential-timeline-chapter-013/",
+      "start": -2600,
+      "end": -1900,
+      "approx": true,
+      "text": "Mature Harappan urban phase, including major centers at Harappa, Mohenjo-daro and Dholavira.",
+      "source": "list"
+    },
+    {
+      "id": "011-fce2f1b8",
+      "chapter": "011",
+      "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/",
+      "start": -2350,
+      "end": -2150,
+      "approx": true,
+      "text": "Akkadian dynasty and regional imperial rule; dates approximate.",
+      "source": "list"
+    },
+    {
+      "id": "012-ab73afa3",
+      "chapter": "012",
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "start": -2334,
+      "end": -2001,
+      "approx": true,
+      "text": "First Intermediate Period and changing regional powers.",
+      "source": "list"
+    },
+    {
+      "id": "011-94a95e04",
+      "chapter": "011",
+      "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/",
+      "start": -2112,
+      "end": -2004,
+      "approx": true,
+      "text": "Third Dynasty of Ur and its extensive archives.",
+      "source": "list"
+    },
+    {
+      "id": "011-1e26e19e",
+      "chapter": "011",
+      "url": "/011-mesopotamia-and-the-first-states/ur-iii-a-state-that-counted-almost-everything/",
+      "start": -2100,
+      "end": -2100,
+      "approx": true,
+      "text": "Around 2100 BCE, Ur-Nammu sponsored major temple projects, including the famous ziggurat at Ur.",
+      "source": "sentence"
+    },
+    {
+      "id": "012-ed18d665",
+      "chapter": "012",
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "start": -2030,
+      "end": -1650,
+      "approx": true,
+      "text": "Middle Kingdom; reunification, court culture and stronger administration.",
+      "source": "list"
+    },
+    {
+      "id": "013-e9aae584",
+      "chapter": "013",
+      "url": "/013-the-indus-valley-civilization/essential-timeline-chapter-013/",
+      "start": -1900,
+      "end": -1900,
+      "approx": true,
+      "qual": "after",
+      "text": "Widespread urban networks reorganize; many large settlements contract, while regional communities continue and change.",
+      "source": "list"
+    },
+    {
+      "id": "013-a6fd6904",
+      "chapter": "013",
+      "url": "/013-the-indus-valley-civilization/essential-timeline-chapter-013/",
+      "start": -1900,
+      "end": -1300,
+      "approx": true,
+      "text": "Broad Late Harappan traditions and subsequent regional histories; the transition was neither uniform nor a complete population disappearance.",
+      "source": "list"
+    },
+    {
+      "id": "011-19c2413b",
+      "chapter": "011",
+      "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/",
+      "start": -1792,
+      "end": -1750,
+      "approx": true,
+      "text": "Reign of Hammurabi in a commonly used middle chronology; the famous legal stele belongs to this broad period.",
+      "source": "list"
+    },
+    {
+      "id": "012-48c366c8",
+      "chapter": "012",
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "start": -1700,
+      "end": -1501,
+      "approx": true,
+      "text": "Second Intermediate Period, including Hyksos rulers in northern Egypt.",
+      "source": "list"
+    },
+    {
+      "id": "019-67f9785c",
+      "chapter": "019",
+      "url": "/019-the-americas-before-european-conquest/the-mississippi-basin-poverty-point-and-cahokia/",
+      "start": -1700,
+      "end": -1100,
+      "approx": true,
+      "text": "The Poverty Point complex in present-day Louisiana, with its large ridges and mounds, was used between roughly 1700 and 1100 BCE.",
+      "source": "added"
+    },
+    {
+      "id": "012-9fed388b",
+      "chapter": "012",
+      "url": "/012-ancient-egypt-and-the-nile/a-new-kingdom-that-looked-outward/",
+      "start": -1600,
+      "end": -1501,
+      "approx": true,
+      "text": "In the sixteenth century BCE, Ahmose I and his successors re-established a powerful Egyptian monarchy, beginning the New Kingdom.",
+      "source": "sentence"
+    },
+    {
+      "id": "014-c772ef08",
+      "chapter": "014",
+      "url": "/014-ancient-china-dynasties-and-statecraft/dates-dynasties-and-the-limits-of-a-familiar-timeline/",
+      "start": -1600,
+      "end": -1046,
+      "approx": true,
+      "text": "The conventional dynastic dates are approximately 1600–1046 BCE, but the precision of early phases is debated; our clearest written window comes from the late Shang at Anyang, especially from around the thirteenth century BCE.",
+      "source": "added"
+    },
+    {
+      "id": "012-9f022ea2",
+      "chapter": "012",
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "start": -1550,
+      "end": -1070,
+      "approx": true,
+      "text": "New Kingdom, including Hatshepsut, Akhenaten and Ramesses II.",
+      "source": "list"
+    },
+    {
+      "id": "019-6d922ea7",
+      "chapter": "019",
+      "url": "/019-the-americas-before-european-conquest/the-olmec-world-and-the-danger-of-mother-civilization/",
+      "start": -1200,
+      "end": -400,
+      "approx": true,
+      "text": "On the Gulf Coast of present-day Mexico, peoples whom scholars collectively call the Olmec produced major ceremonial centers and extraordinary sculpture during much of approximately 1200–400 BCE.",
+      "source": "added"
+    },
+    {
+      "id": "014-28ada6dc",
+      "chapter": "014",
+      "url": "/014-ancient-china-dynasties-and-statecraft/the-zhou-conquest-a-new-ruling-house/",
+      "start": -1046,
+      "end": -1046,
+      "approx": true,
+      "text": "Around 1046 BCE, a western regional power known as the Zhou defeated the Shang ruling house.",
+      "source": "sentence"
+    },
+    {
+      "id": "016-6b930e99",
+      "chapter": "016",
+      "url": "/016-the-greek-world-and-its-political-experiments/the-alphabet-oral-performance-and-a-shared-cultural-world/",
+      "start": -800,
+      "end": -701,
+      "approx": true,
+      "qual": "by",
+      "text": "By the eighth century BCE, Greeks had adopted and adapted a West Semitic alphabetic writing system, usually associated in broad terms with Phoenician models.",
+      "source": "sentence"
+    },
+    {
+      "id": "012-afcbe332",
+      "chapter": "012",
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "start": -800,
+      "end": -601,
+      "approx": true,
+      "text": "Kushite Twenty-fifth Dynasty rules Egypt.",
+      "source": "list"
+    },
+    {
+      "id": "014-94df5631",
+      "chapter": "014",
+      "url": "/014-ancient-china-dynasties-and-statecraft/how-the-zhou-center-weakened/",
+      "start": -771,
+      "end": -771,
+      "approx": false,
+      "text": "Accounts of conflict and pressure from neighboring groups surround the crisis that ended Western Zhou rule in 771 BCE.",
+      "source": "added"
+    },
+    {
+      "id": "016-cc1e2014",
+      "chapter": "016",
+      "url": "/016-the-greek-world-and-its-political-experiments/athens-before-democracy-land-debt-and-solons-reforms/",
+      "start": -600,
+      "end": -567,
+      "approx": true,
+      "text": "In the early sixth century BCE, deep tensions over debt, land and status helped bring the lawgiver Solon to prominence.",
+      "source": "sentence"
+    },
+    {
+      "id": "015-9a33e99a",
+      "chapter": "015",
+      "url": "/015-persia-and-the-politics-of-empire/cyrus-from-regional-ruler-to-imperial-founder/",
+      "start": -550,
+      "end": -550,
+      "approx": true,
+      "text": "Around 550 BCE Cyrus defeated Astyages of Media, transforming a relationship between Iranian powers.",
+      "textBg": "Около 550 г. пр.н.е. Кир побеждава Астиаг от Мидия и преобразява отношенията между иранските сили.",
+      "source": "sentence"
+    },
+    {
+      "id": "015-83b619ba",
+      "chapter": "015",
+      "url": "/015-persia-and-the-politics-of-empire/cyrus-from-regional-ruler-to-imperial-founder/",
+      "start": -549,
+      "end": -540,
+      "approx": false,
+      "text": "In the 540s BCE Cyrus brought Lydia under his control, extending Persian influence to the Aegean coast.",
+      "textBg": "През 540-те години пр.н.е. Кир подчинява Лидия и разпростира персийското влияние до Егейското крайбрежие.",
+      "source": "sentence"
+    },
+    {
+      "id": "015-386c7c7d",
+      "chapter": "015",
+      "url": "/015-persia-and-the-politics-of-empire/cyrus-from-regional-ruler-to-imperial-founder/",
+      "start": -539,
+      "end": -539,
+      "approx": false,
+      "text": "In 539 BCE the forces of Cyrus conquered Babylonia.",
+      "textBg": "През 539 г. пр.н.е. войските на Кир завладяват Вавилония.",
+      "source": "sentence"
+    },
+    {
+      "id": "015-64e39108",
+      "chapter": "015",
+      "url": "/015-persia-and-the-politics-of-empire/the-crisis-of-522-bce-and-dariuss-account-of-legitimacy/",
+      "start": -522,
+      "end": -522,
+      "approx": false,
+      "text": "The crisis of 522 BCE and Darius's account of legitimacy",
+      "source": "title"
+    },
+    {
+      "id": "017-56d695cd",
+      "chapter": "017",
+      "url": "/017-rome-republic-empire-and-afterlives/from-kings-to-republic-what-changed-around-509-bce/",
+      "start": -509,
+      "end": -509,
+      "approx": false,
+      "text": "From kings to republic: what changed around 509 BCE?",
+      "source": "title"
+    },
+    {
+      "id": "016-1d2ee169",
+      "chapter": "016",
+      "url": "/016-the-greek-world-and-its-political-experiments/cleisthenes-and-a-new-political-structure/",
+      "start": -508,
+      "end": -507,
+      "approx": true,
+      "text": "Around 508/507 BCE, Cleisthenes became associated with reforms that reorganized the Athenian citizen body.",
+      "source": "sentence"
+    },
+    {
+      "id": "016-f4031d08",
+      "chapter": "016",
+      "url": "/016-the-greek-world-and-its-political-experiments/how-athenian-democracy-worked-in-practice/",
+      "start": -500,
+      "end": -401,
+      "approx": true,
+      "qual": "by",
+      "text": "By the fifth century BCE, Athens had developed a distinctive form of direct citizen participation.",
+      "source": "sentence"
+    },
+    {
+      "id": "016-9b8a5196",
+      "chapter": "016",
+      "url": "/016-the-greek-world-and-its-political-experiments/the-persian-wars-shared-danger-divided-greece/",
+      "start": -490,
+      "end": -490,
+      "approx": false,
+      "text": "In 490 BCE an Athenian force, with assistance from Plataea, defeated a Persian expedition at Marathon.",
+      "source": "sentence"
+    },
+    {
+      "id": "016-c9a15742",
+      "chapter": "016",
+      "url": "/016-the-greek-world-and-its-political-experiments/the-persian-wars-shared-danger-divided-greece/",
+      "start": -480,
+      "end": -480,
+      "approx": false,
+      "text": "In 480 BCE Xerxes led a much larger invasion; famous battles included Thermopylae and the naval engagement at Salamis.",
+      "source": "sentence"
+    },
+    {
+      "id": "016-ad93ba3c",
+      "chapter": "016",
+      "url": "/016-the-greek-world-and-its-political-experiments/mytilene-and-melos-what-an-empire-says-about-justice/",
+      "start": -427,
+      "end": -427,
+      "approx": false,
+      "text": "In 427 BCE, after Mytilene revolted from Athenian authority, the Assembly initially supported severe collective punishment.",
+      "source": "sentence"
+    },
+    {
+      "id": "016-5d070599",
+      "chapter": "016",
+      "url": "/016-the-greek-world-and-its-political-experiments/mytilene-and-melos-what-an-empire-says-about-justice/",
+      "start": -416,
+      "end": -416,
+      "approx": false,
+      "text": "In 416 BCE, Athens demanded that the neutral island of Melos submit to its power.",
+      "source": "sentence"
+    },
+    {
+      "id": "016-027f42af",
+      "chapter": "016",
+      "url": "/016-the-greek-world-and-its-political-experiments/the-sicilian-expedition-when-confidence-overwhelms-judgment/",
+      "start": -415,
+      "end": -415,
+      "approx": false,
+      "text": "In 415 BCE Athens launched a major expedition to Sicily, partly connected with rivalries involving Segesta and Syracuse and partly shaped by broader hopes of increasing power.",
+      "source": "sentence"
+    },
+    {
+      "id": "016-be88a988",
+      "chapter": "016",
+      "url": "/016-the-greek-world-and-its-political-experiments/the-sicilian-expedition-when-confidence-overwhelms-judgment/",
+      "start": -413,
+      "end": -413,
+      "approx": false,
+      "qual": "by",
+      "text": "By 413 BCE the Athenian expedition to Sicily had ended with the destruction or capture of much of the force.",
+      "textBg": "До 413 г. пр.н.е. атинската експедиция в Сицилия завършва с унищожаването или пленяването на голяма част от войската.",
+      "source": "sentence"
+    },
+    {
+      "id": "016-54419ded",
+      "chapter": "016",
+      "url": "/016-the-greek-world-and-its-political-experiments/oligarchic-coups-defeat-and-democratic-restoration/",
+      "start": -411,
+      "end": -411,
+      "approx": false,
+      "text": "In 411 BCE, an oligarchic group briefly took control of Athens; later, after military defeat in 404 BCE, Sparta's victory was followed by the installation of the oligarchic regime commonly called the Thirty.",
+      "source": "sentence"
+    },
+    {
+      "id": "015-89e6f2f1",
+      "chapter": "015",
+      "url": "/015-persia-and-the-politics-of-empire/the-empire-after-xerxes-not-just-a-long-decline/",
+      "start": -401,
+      "end": -401,
+      "approx": false,
+      "text": "In 401 BCE, Cyrus the Younger challenged his brother Artaxerxes II; the battle at Cunaxa and the subsequent march of Greek mercenaries became famous through Xenophon's Anabasis.",
+      "source": "sentence"
+    },
+    {
+      "id": "016-601654f9",
+      "chapter": "016",
+      "url": "/016-the-greek-world-and-its-political-experiments/socrates-on-trial-democracy-religion-and-public-fear/",
+      "start": -399,
+      "end": -399,
+      "approx": false,
+      "text": "In 399 BCE, an Athenian jury convicted Socrates on charges commonly summarized as impiety and corrupting the young.",
+      "source": "sentence"
+    },
+    {
+      "id": "015-24608f8f",
+      "chapter": "015",
+      "url": "/015-persia-and-the-politics-of-empire/alexanders-conquest-military-victory-and-administrative/",
+      "start": -334,
+      "end": -334,
+      "approx": false,
+      "text": "In 334 BCE Alexander III of Macedon crossed into Asia and began a campaign against the Achaemenid monarchy.",
+      "source": "sentence"
+    },
+    {
+      "id": "012-ab9bcb11",
+      "chapter": "012",
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "start": -332,
+      "end": -332,
+      "approx": false,
+      "text": "Alexander takes control of Egypt.",
+      "source": "list"
+    },
+    {
+      "id": "017-7b294ee3",
+      "chapter": "017",
+      "url": "/017-rome-republic-empire-and-afterlives/an-alliance-system-became-a-path-to-domination/",
+      "start": -280,
+      "end": -275,
+      "approx": false,
+      "text": "In 280–275 BCE, Pyrrhus of Epirus campaigned in Italy in support of Greek cities.",
+      "source": "sentence"
+    },
+    {
+      "id": "014-c199030f",
+      "chapter": "014",
+      "url": "/014-ancient-china-dynasties-and-statecraft/dates-dynasties-and-the-limits-of-a-familiar-timeline/",
+      "start": -221,
+      "end": -221,
+      "approx": false,
+      "text": "The later Qin unification in 221 BCE belongs to the next great transformation, not to a timeless 'ancient China'.",
+      "source": "added"
+    },
+    {
+      "id": "017-52da7650",
+      "chapter": "017",
+      "url": "/017-rome-republic-empire-and-afterlives/soldiers-generals-and-the-failure-of-republican-restraint/",
+      "start": -88,
+      "end": -88,
+      "approx": false,
+      "text": "In 88 BCE, Sulla marched his army on Rome amid a conflict over command, crossing a norm of extraordinary importance.",
+      "source": "sentence"
+    },
+    {
+      "id": "017-b611360a",
+      "chapter": "017",
+      "url": "/017-rome-republic-empire-and-afterlives/caesar-pompey-and-the-civil-wars/",
+      "start": -60,
+      "end": -60,
+      "approx": false,
+      "text": "In 60 BCE Julius Caesar entered an informal political alliance with Pompey and Crassus, later known as the First Triumvirate.",
+      "textBg": "През 60 г. пр.н.е. Юлий Цезар сключва неформален политически съюз с Помпей и Крас, известен по-късно като Първия триумвират.",
+      "source": "sentence"
+    },
+    {
+      "id": "017-164d8901",
+      "chapter": "017",
+      "url": "/017-rome-republic-empire-and-afterlives/caesar-pompey-and-the-civil-wars/",
+      "start": -44,
+      "end": -44,
+      "approx": false,
+      "text": "In March 44 BCE, a group of senators assassinated Julius Caesar.",
+      "textBg": "През март 44 г. пр.н.е. група сенатори убиват Юлий Цезар.",
+      "source": "sentence"
+    },
+    {
+      "id": "012-9b926cf2",
+      "chapter": "012",
+      "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
+      "start": -30,
+      "end": -30,
+      "approx": false,
+      "text": "Egypt passes under Roman rule following the defeat of Cleopatra VII and Mark Antony.",
+      "source": "list"
+    },
+    {
+      "id": "017-d365ae10",
+      "chapter": "017",
+      "url": "/017-rome-republic-empire-and-afterlives/augustus-monarchy-in-republican-clothing/",
+      "start": -27,
+      "end": -27,
+      "approx": false,
+      "text": "In 27 BCE, Octavian received the honorific name Augustus, a conventional marker for the beginning of the Roman imperial period.",
+      "source": "sentence"
+    },
+    {
+      "id": "017-9ef284ba",
+      "chapter": "017",
+      "url": "/017-rome-republic-empire-and-afterlives/citizenship-as-a-changing-imperial-policy/",
+      "start": 101,
+      "end": 200,
+      "approx": true,
+      "qual": "by",
+      "text": "By the second century CE, the citizen body was dispersed across the provinces.",
+      "source": "sentence"
+    },
+    {
+      "id": "017-86801d89",
+      "chapter": "017",
+      "url": "/017-rome-republic-empire-and-afterlives/citizenship-as-a-changing-imperial-policy/",
+      "start": 212,
+      "end": 213,
+      "approx": false,
+      "text": "In 212 or early 213 CE, the emperor Caracalla issued the Constitutio Antoniniana, generally understood to grant Roman citizenship to all or almost all free inhabitants of the empire who did not already have it.",
+      "source": "sentence"
+    },
+    {
+      "id": "018-4aa717f8",
+      "chapter": "018",
+      "url": "/018-africa-kingdoms-networks-and-cities/aksum-highlands-coins-and-the-red-sea/",
+      "start": 301,
+      "end": 400,
+      "approx": true,
+      "text": "Around the fourth century, King Ezana's reign is associated with the kingdom's adoption of Christianity.",
+      "source": "sentence"
+    },
+    {
+      "id": "017-e7aedac3",
+      "chapter": "017",
+      "url": "/017-rome-republic-empire-and-afterlives/belief-violence-and-the-rise-of-christianity/",
+      "start": 313,
+      "end": 313,
+      "approx": false,
+      "text": "In 313 CE, Constantine and Licinius issued measures associated with the Edict of Milan, establishing toleration for Christianity and addressing confiscated property.",
+      "source": "sentence"
+    },
+    {
+      "id": "021-9a691e0d",
+      "chapter": "021",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space-between/",
+      "start": 501,
+      "end": 600,
+      "approx": true,
+      "text": "In the sixth century, the First Turkic Khaganate emerged as a major political force in Inner Asia.",
+      "source": "sentence"
+    },
+    {
+      "id": "020-602d54ec",
+      "chapter": "020",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-world-at-the-edge-of-two-exhausted-empires/",
+      "start": 601,
+      "end": 634,
+      "approx": true,
+      "text": "In the early seventh century, the Byzantine and Sasanian states had endured a destructive series of wars.",
+      "source": "sentence"
+    },
+    {
+      "id": "020-75400853",
+      "chapter": "020",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/muhammad-before-the-hijra-mecca-and-the-first-revelations/",
+      "start": 610,
+      "end": 610,
+      "approx": true,
+      "text": "Around 610, Muhammad began receiving revelations, understood by Muslims as communication from God through the angel Gabriel.",
+      "textBg": "Около 610 г. Мохамед започва да получава откровения, разбирани от мюсюлманите като послания от Бога чрез ангел Джибрил (Гавраил).",
+      "source": "sentence"
+    },
+    {
+      "id": "020-acc56692",
+      "chapter": "020",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-hijra-of-622-a-new-political-setting/",
+      "start": 622,
+      "end": 622,
+      "approx": false,
+      "text": "The Hijra of 622: a new political setting",
+      "source": "title"
+    },
+    {
+      "id": "020-b6bedf22",
+      "chapter": "020",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/conflict-diplomacy-and-the-growth-of-the-community/",
+      "start": 627,
+      "end": 627,
+      "approx": false,
+      "text": "In 627, during the Battle of the Trench or Confederates, Medina resisted a coalition siege.",
+      "source": "sentence"
+    },
+    {
+      "id": "020-e58332d0",
+      "chapter": "020",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/conflict-diplomacy-and-the-growth-of-the-community/",
+      "start": 630,
+      "end": 630,
+      "approx": false,
+      "text": "In 630, Muhammad and his followers entered Mecca; the traditional narratives describe the city's surrender and the rededication of the Kaaba to monotheistic worship.",
+      "source": "sentence"
+    },
+    {
+      "id": "020-8ef59b7f",
+      "chapter": "020",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-succession-problem-after-632/",
+      "start": 632,
+      "end": 632,
+      "approx": false,
+      "text": "The succession problem after 632",
+      "source": "title"
+    },
+    {
+      "id": "019-ffd0d966",
+      "chapter": "019",
+      "url": "/019-the-americas-before-european-conquest/the-maya-many-kingdoms-one-remarkable-cultural-world/",
+      "start": 701,
+      "end": 1000,
+      "approx": true,
+      "text": "Between the eighth and tenth centuries, many southern lowland centers lost rulers or suffered population decline, and monuments stopped being commissioned in familiar ways.",
+      "source": "sentence"
+    },
+    {
+      "id": "020-3547f54b",
+      "chapter": "020",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-abbasid-revolution-and-a-new-capital/",
+      "start": 750,
+      "end": 750,
+      "approx": false,
+      "text": "In 750, the Umayyad caliphate in its Syrian-centered form was overthrown by the Abbasid movement, which claimed descent from al-Abbas, an uncle of Muhammad.",
+      "source": "sentence"
+    },
+    {
+      "id": "020-89b863f9",
+      "chapter": "020",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/the-abbasid-revolution-and-a-new-capital/",
+      "start": 762,
+      "end": 762,
+      "approx": false,
+      "text": "In 762, the Abbasid caliph al-Mansur founded Baghdad beside the Tigris, near the older centers of Mesopotamian and Sasanian rule.",
+      "source": "sentence"
+    },
+    {
+      "id": "020-6af6e459",
+      "chapter": "020",
+      "url": "/020-the-rise-of-islam-and-the-caliphates/a-politically-fragmented-but-connected-muslim-world/",
+      "start": 801,
+      "end": 1000,
+      "approx": true,
+      "qual": "by",
+      "text": "By the ninth and tenth centuries, the Abbasid caliphs faced powerful regional rulers who controlled armies and fiscal resources.",
+      "source": "sentence"
+    },
+    {
+      "id": "021-16d8b341",
+      "chapter": "021",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/the-islamic-world-as-a-bridge-and-a-set-of-regions/",
+      "start": 801,
+      "end": 1000,
+      "approx": true,
+      "qual": "by",
+      "text": "By the ninth and tenth centuries, scholars and merchants could use Arabic across large areas, while Persian, local Iranian languages, Turkic languages and many others remained important.",
+      "source": "sentence"
+    },
+    {
+      "id": "019-f3c70887",
+      "chapter": "019",
+      "url": "/019-the-americas-before-european-conquest/the-north-american-southwest-chaco-and-ancestral-pueblo/",
+      "start": 850,
+      "end": 1250,
+      "approx": true,
+      "text": "Chaco Canyon, in present-day New Mexico, became an important regional center especially between approximately 850 and 1250 CE.",
+      "source": "added"
+    },
+    {
+      "id": "023-30353dac",
+      "chapter": "023",
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-and-byzantium-before-the-new-bulgarian-kingdom/",
+      "start": 901,
+      "end": 1000,
+      "approx": false,
+      "qual": "by",
+      "text": "By the late tenth and early eleventh centuries, warfare between Byzantine rulers and the Bulgarian realm associated with Tsar Samuel shaped the region.",
+      "source": "sentence"
+    },
+    {
+      "id": "021-7f6d8355",
+      "chapter": "021",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/srivijaya-and-southeast-asia-sea-lanes-created-regional/",
+      "start": 1025,
+      "end": 1025,
+      "approx": false,
+      "text": "In 1025 the Chola ruler Rajendra I launched a notable expedition against Srivijaya-linked centers.",
+      "source": "sentence"
+    },
+    {
+      "id": "019-ab3cb540",
+      "chapter": "019",
+      "url": "/019-the-americas-before-european-conquest/the-mississippi-basin-poverty-point-and-cahokia/",
+      "start": 1050,
+      "end": 1050,
+      "approx": true,
+      "qual": "by",
+      "text": "By around 1050 CE, Cahokia, near the modern city of St. Louis, became a major center within the Mississippian world.",
+      "source": "sentence"
+    },
+    {
+      "id": "023-029b4510",
+      "chapter": "023",
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/manzikert-a-turning-point-that-needs-an-explanation/",
+      "start": 1067,
+      "end": 1100,
+      "approx": true,
+      "qual": "by",
+      "text": "By the late eleventh century, the Byzantines sought help from the west, but western expeditions served agendas that were never fully subordinate to imperial aims.",
+      "source": "sentence"
+    },
+    {
+      "id": "023-1097aa5a",
+      "chapter": "023",
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/manzikert-a-turning-point-that-needs-an-explanation/",
+      "start": 1071,
+      "end": 1071,
+      "approx": false,
+      "text": "In 1071 Byzantine forces under Romanos IV Diogenes were defeated by a Seljuk army led by Alp Arslan at Manzikert in eastern Anatolia.",
+      "source": "sentence"
+    },
+    {
+      "id": "023-e0c27dad",
+      "chapter": "023",
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/crusading-a-movement-larger-than-a-single-expedition/",
+      "start": 1095,
+      "end": 1095,
+      "approx": false,
+      "text": "In 1095 Pope Urban II called for an armed expedition associated with aid to eastern Christians and the recovery of Jerusalem.",
+      "source": "sentence"
+    },
+    {
+      "id": "023-8a3be04a",
+      "chapter": "023",
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/learning-manuscripts-and-universities/",
+      "start": 1101,
+      "end": 1200,
+      "approx": true,
+      "text": "From the twelfth century onward, institutions that developed into universities—among them Bologna, Paris and Oxford—organized advanced study, especially law, theology, medicine and the arts.",
+      "source": "sentence"
+    },
+    {
+      "id": "021-014ba9ae",
+      "chapter": "021",
+      "url": "/021-medieval-eurasia-and-the-silk-roads/a-turning-point-around-1200-the-world-before-the-mongols/",
+      "start": 1200,
+      "end": 1200,
+      "approx": true,
+      "qual": "by",
+      "text": "By about 1200, Eurasia already contained deeply connected commercial and intellectual regions.",
+      "source": "sentence"
+    },
+    {
+      "id": "023-8228671f",
+      "chapter": "023",
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-fourth-crusade-and-the-disaster-of-1204/",
+      "start": 1204,
+      "end": 1204,
+      "approx": false,
+      "text": "In April 1204 the crusading army seized and sacked Constantinople, one of the great Christian cities of the world.",
+      "source": "sentence"
+    },
+    {
+      "id": "022-d13fe568",
+      "chapter": "022",
+      "url": "/022-the-mongols-and-the-connected-world/the-assembly-of-1206-founding-a-new-order/",
+      "start": 1206,
+      "end": 1206,
+      "approx": false,
+      "text": "In 1206, after defeating important rivals, Temüjin was acclaimed Chinggis Khan at an assembly or quriltai.",
+      "source": "sentence"
+    },
+    {
+      "id": "022-2895a5e8",
+      "chapter": "022",
+      "url": "/022-the-mongols-and-the-connected-world/after-1227-the-empire-was-a-family-arrangement-and-a/",
+      "start": 1227,
+      "end": 1227,
+      "approx": false,
+      "text": "After 1227: the empire was a family arrangement and a political contest",
+      "source": "title"
+    },
+    {
+      "id": "022-8b2fe129",
+      "chapter": "022",
+      "url": "/022-the-mongols-and-the-connected-world/why-the-empire-fragmented/",
+      "start": 1234,
+      "end": 1267,
+      "approx": true,
+      "qual": "after",
+      "text": "After the mid-thirteenth century, branches of the ruling family competed over the great khanate, territory, tribute and trade routes.",
+      "source": "sentence"
+    },
+    {
+      "id": "022-afc28266",
+      "chapter": "022",
+      "url": "/022-the-mongols-and-the-connected-world/the-european-campaigns-rus-poland-hungary-and-beyond/",
+      "start": 1241,
+      "end": 1241,
+      "approx": false,
+      "text": "In 1241, Mongol armies defeated forces at Legnica in Poland and at Mohi in Hungary.",
+      "source": "sentence"
+    },
+    {
+      "id": "022-6cd68023",
+      "chapter": "022",
+      "url": "/022-the-mongols-and-the-connected-world/the-fall-of-baghdad-and-the-ilkhanate/",
+      "start": 1258,
+      "end": 1258,
+      "approx": false,
+      "text": "In 1258, Mongol forces besieged and captured Baghdad.",
+      "source": "sentence"
+    },
+    {
+      "id": "019-2d0c2424",
+      "chapter": "019",
+      "url": "/019-the-americas-before-european-conquest/the-north-american-southwest-chaco-and-ancestral-pueblo/",
+      "start": 1267,
+      "end": 1300,
+      "approx": true,
+      "text": "During the late thirteenth century, major settlement shifts occurred in parts of the region, influenced by drought, social change, conflict and other pressures studied by archaeologists.",
+      "source": "sentence"
+    },
+    {
+      "id": "022-bd4507da",
+      "chapter": "022",
+      "url": "/022-the-mongols-and-the-connected-world/the-fall-of-baghdad-and-the-ilkhanate/",
+      "start": 1267,
+      "end": 1300,
+      "approx": true,
+      "qual": "by",
+      "text": "By the late thirteenth century, Ilkhanid rulers adopted and patronized traditions rooted in the societies they governed.",
+      "source": "sentence"
+    },
+    {
+      "id": "022-b6960d42",
+      "chapter": "022",
+      "url": "/022-the-mongols-and-the-connected-world/why-the-empire-fragmented/",
+      "start": 1301,
+      "end": 1400,
+      "approx": true,
+      "qual": "by",
+      "text": "By the fourteenth century, the Ilkhanate disintegrated as a united state after 1335, the Yuan lost control of China to the Ming in 1368, and the Chagatai and Jochid political worlds underwent their own transformations.",
+      "source": "sentence"
+    },
+    {
+      "id": "023-e056c914",
+      "chapter": "023",
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-late-medieval-crisis-plague-warfare-and-adaptation/",
+      "start": 1301,
+      "end": 1400,
+      "approx": true,
+      "text": "From the fourteenth century onward, famine, warfare and epidemic placed enormous strain on parts of Europe.",
+      "source": "sentence"
+    },
+    {
+      "id": "024-7647bcfa",
+      "chapter": "024",
+      "url": "/024-renaissance-humanism-and-printing/petrarch-and-the-humanist-search-for-ancient-voices/",
+      "start": 1304,
+      "end": 1374,
+      "approx": false,
+      "text": "Francesco Petrarca, commonly called Petrarch (1304–1374), is often treated as a foundational figure in Renaissance humanism.",
+      "source": "added"
+    },
+    {
+      "id": "018-83f0e9e4",
+      "chapter": "018",
+      "url": "/018-africa-kingdoms-networks-and-cities/mansa-musa-and-the-danger-of-dramatic-numbers/",
+      "start": 1324,
+      "end": 1325,
+      "approx": false,
+      "text": "In 1324–1325, Mali's ruler Mansa Musa traveled on pilgrimage to Mecca, passing through Cairo.",
+      "source": "sentence"
+    },
+    {
+      "id": "019-df40d3d1",
+      "chapter": "019",
+      "url": "/019-the-americas-before-european-conquest/tenochtitlan-and-the-triple-alliance/",
+      "start": 1325,
+      "end": 1325,
+      "approx": true,
+      "text": "The Mexica established Tenochtitlan on islands in Lake Texcoco, traditionally dated to 1325 in their later historical accounts.",
+      "source": "added"
+    },
+    {
+      "id": "030-cd4ce1b4",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/before-the-qing-the-late-ming-world/",
+      "start": 1368,
+      "end": 1644,
+      "approx": false,
+      "text": "The Ming dynasty ruled China from 1368 until the seventeenth-century crisis.",
+      "source": "added"
+    },
+    {
+      "id": "024-7ec99b69",
+      "chapter": "024",
+      "url": "/024-renaissance-humanism-and-printing/before-gutenberg-paper-woodblocks-and-asian-printing/",
+      "start": 1377,
+      "end": 1377,
+      "approx": false,
+      "text": "The oldest surviving book known to have been printed with movable metal type is the Korean Buddhist work commonly called Jikji, dated 1377.",
+      "source": "added"
+    },
+    {
+      "id": "026-ee54c199",
+      "chapter": "026",
+      "url": "/026-indian-ocean-commerce-and-asian-powers/a-chronology-of-connection-and-contest/",
+      "start": 1400,
+      "end": 1400,
+      "approx": true,
+      "text": "Around 1400 Melaka began its rise as an important Malay trading center.",
+      "source": "sentence"
+    },
+    {
+      "id": "019-ad42a13a",
+      "chapter": "019",
+      "url": "/019-the-americas-before-european-conquest/tenochtitlan-and-the-triple-alliance/",
+      "start": 1401,
+      "end": 1500,
+      "approx": true,
+      "text": "During the fifteenth century, a coalition commonly called the Triple Alliance—Tenochtitlan, Texcoco and Tlacopan—expanded its power.",
+      "source": "sentence"
+    },
+    {
+      "id": "024-f147f51a",
+      "chapter": "024",
+      "url": "/024-renaissance-humanism-and-printing/before-gutenberg-paper-woodblocks-and-asian-printing/",
+      "start": 1401,
+      "end": 1500,
+      "approx": true,
+      "qual": "by",
+      "text": "By the fifteenth century, paper and urban literary markets helped make large-scale European book production feasible.",
+      "source": "sentence"
+    },
+    {
+      "id": "024-25d7e634",
+      "chapter": "024",
+      "url": "/024-renaissance-humanism-and-printing/gutenbergs-breakthrough-a-system-not-a-single-machine/",
+      "start": 1401,
+      "end": 1500,
+      "approx": false,
+      "text": "In mid-fifteenth-century Mainz, Johannes Gutenberg and collaborators developed a highly effective European system of typographic printing.",
+      "source": "sentence"
+    },
+    {
+      "id": "023-b01cb56f",
+      "chapter": "023",
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-ottoman-reversal-of-1402-and-the-recovery-that-followed/",
+      "start": 1402,
+      "end": 1402,
+      "approx": false,
+      "text": "In 1402 Timur defeated Bayezid I at the battle of Ankara, and Bayezid was captured.",
+      "source": "sentence"
+    },
+    {
+      "id": "026-05553f91",
+      "chapter": "026",
+      "url": "/026-indian-ocean-commerce-and-asian-powers/zheng-hes-voyages-diplomacy-power-and-spectacle/",
+      "start": 1405,
+      "end": 1433,
+      "approx": false,
+      "text": "From 1405 to 1433, fleets commanded by Zheng He and colleagues undertook seven major Ming voyages through Southeast Asia and the Indian Ocean.",
+      "source": "sentence"
+    },
+    {
+      "id": "027-6a0293ef",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/a-chronology-of-voyages-and-changing-power/",
+      "start": 1415,
+      "end": 1415,
+      "approx": false,
+      "text": "In 1415 Portuguese forces took Ceuta.",
+      "source": "sentence"
+    },
+    {
+      "id": "024-0ea38734",
+      "chapter": "024",
+      "url": "/024-renaissance-humanism-and-printing/brunelleschis-dome-innovation-under-practical-constraints/",
+      "start": 1420,
+      "end": 1436,
+      "approx": false,
+      "text": "Filippo Brunelleschi led construction of the celebrated dome of Florence Cathedral from 1420; the principal structure was completed in 1436.",
+      "textBg": "Филипо Брунелески ръководи строежа на прочутия купол на флорентинската катедрала от 1420 г.; основната конструкция е завършена през 1436 г.",
+      "source": "added"
+    },
+    {
+      "id": "023-06bd35f5",
+      "chapter": "023",
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-ottoman-reversal-of-1402-and-the-recovery-that-followed/",
+      "start": 1444,
+      "end": 1444,
+      "approx": false,
+      "text": "In 1444 forces led by the Polish-Hungarian king Władysław III, in alliance with other anti-Ottoman powers, were defeated at Varna.",
+      "source": "sentence"
+    },
+    {
+      "id": "023-a8238bcb",
+      "chapter": "023",
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-siege-of-1453-why-the-city-fell-and-what-survived/",
+      "start": 1453,
+      "end": 1453,
+      "approx": false,
+      "text": "In April 1453 the young Sultan Mehmed II began a concerted siege of Constantinople.",
+      "source": "sentence"
+    },
+    {
+      "id": "024-455a5eed",
+      "chapter": "024",
+      "url": "/024-renaissance-humanism-and-printing/greek-learning-byzantium-and-the-wider-mediterranean/",
+      "start": 1453,
+      "end": 1453,
+      "approx": false,
+      "qual": "after",
+      "text": "After 1453, additional Greek-speaking scholars migrated or worked under new political circumstances.",
+      "source": "sentence"
+    },
+    {
+      "id": "024-a77ae62d",
+      "chapter": "024",
+      "url": "/024-renaissance-humanism-and-printing/gutenbergs-breakthrough-a-system-not-a-single-machine/",
+      "start": 1454,
+      "end": 1455,
+      "approx": true,
+      "text": "The famous Gutenberg Bible, a large Latin Bible generally dated to about 1454–1455, showed the ambition of the new process.",
+      "source": "added"
+    },
+    {
+      "id": "018-7fca6938",
+      "chapter": "018",
+      "url": "/018-africa-kingdoms-networks-and-cities/kongo-and-central-african-political-worlds/",
+      "start": 1467,
+      "end": 1500,
+      "approx": true,
+      "text": "In the late fifteenth century, contact with Portuguese voyagers introduced new diplomatic, commercial and religious possibilities alongside increasingly dangerous pressures.",
+      "source": "sentence"
+    },
+    {
+      "id": "027-486cd8ac",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/gold-elmina-and-the-limits-of-a-coastal-fort/",
+      "start": 1482,
+      "end": 1482,
+      "approx": false,
+      "text": "In 1482 the Portuguese established the fortress of São Jorge da Mina, commonly called Elmina, on the Gold Coast in what is now Ghana.",
+      "source": "sentence"
+    },
+    {
+      "id": "027-5639e52e",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/bartolomeu-dias-and-the-african-cape/",
+      "start": 1488,
+      "end": 1488,
+      "approx": false,
+      "text": "In 1488 Bartolomeu Dias rounded southern Africa, demonstrating that the Atlantic and Indian oceans could be connected by sea through the Cape route.",
+      "source": "sentence"
+    },
+    {
+      "id": "024-897a6afb",
+      "chapter": "024",
+      "url": "/024-renaissance-humanism-and-printing/what-do-we-mean-by-a-renaissance/",
+      "start": 1490,
+      "end": 1520,
+      "approx": true,
+      "text": "Scholars often distinguish an early Italian Renaissance, a High Renaissance conventionally associated with artistic production around 1490–1520, and forms of northern Renaissance culture whose chronology and priorities differed.",
+      "source": "added"
+    },
+    {
+      "id": "019-26ef96a9",
+      "chapter": "019",
+      "url": "/019-the-americas-before-european-conquest/the-caribbean-and-circum-caribbean-worlds/",
+      "start": 1492,
+      "end": 1492,
+      "approx": false,
+      "qual": "before",
+      "text": "Before 1492, the Caribbean islands were home to numerous communities with diverse histories and identities, including peoples commonly described in sources as Taíno and Kalinago.",
+      "source": "sentence"
+    },
+    {
+      "id": "027-f1a8b709",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/after-1492-many-voyages-many-sponsors/",
+      "start": 1492,
+      "end": 1492,
+      "approx": false,
+      "text": "After 1492: many voyages, many sponsors",
+      "source": "title"
+    },
+    {
+      "id": "027-f1ec858b",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/columbuss-westward-wager/",
+      "start": 1492,
+      "end": 1492,
+      "approx": false,
+      "text": "In 1492 three ships crossed the Atlantic from the Canary Islands and reached the Bahamas, where Columbus encountered Taíno-speaking islanders.",
+      "source": "sentence"
+    },
+    {
+      "id": "028-97fa3f22",
+      "chapter": "028",
+      "url": "/028-the-columbian-exchange/what-the-columbian-exchange-actually-means/",
+      "start": 1492,
+      "end": 1492,
+      "approx": false,
+      "qual": "before",
+      "text": "Before 1492, the Atlantic separated two large biological worlds whose histories were not perfectly isolated.",
+      "source": "sentence"
+    },
+    {
+      "id": "029-b816eb33",
+      "chapter": "029",
+      "url": "/029-atlantic-slavery-and-plantation-economies/why-the-atlantic-system-expanded/",
+      "start": 1492,
+      "end": 1492,
+      "approx": false,
+      "qual": "after",
+      "text": "After 1492, European conquest and settlement created demand for labor in American colonies.",
+      "source": "sentence"
+    },
+    {
+      "id": "027-00ea3697",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/treaties-and-papal-bulls-dividing-claims-without-consulting/",
+      "start": 1493,
+      "end": 1493,
+      "approx": false,
+      "text": "In 1493 papal bulls supported Castilian claims to overseas territories, and in 1494 Portugal and Castile agreed to the Treaty of Tordesillas, establishing a line of division for their competing claims outside Europe.",
+      "source": "sentence"
+    },
+    {
+      "id": "026-474a186b",
+      "chapter": "026",
+      "url": "/026-indian-ocean-commerce-and-asian-powers/1498-vasco-da-gama-reaches-a-world-already-trading/",
+      "start": 1498,
+      "end": 1498,
+      "approx": false,
+      "text": "1498: Vasco da Gama reaches a world already trading",
+      "source": "title"
+    },
+    {
+      "id": "026-81e8c2f3",
+      "chapter": "026",
+      "url": "/026-indian-ocean-commerce-and-asian-powers/a-chronology-of-connection-and-contest/",
+      "start": 1498,
+      "end": 1498,
+      "approx": false,
+      "text": "In 1498 Vasco da Gama arrived on the Malabar coast via the Cape route, opening a new and consequential European connection.",
+      "source": "sentence"
+    },
+    {
+      "id": "027-980ad4f7",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/pedro-alvares-cabral-and-the-atlantic-connection-to-brazil/",
+      "start": 1500,
+      "end": 1500,
+      "approx": false,
+      "text": "In 1500 a Portuguese expedition commanded by Pedro Álvares Cabral, bound for the Indian Ocean, reached the coast of what is now Brazil.",
+      "source": "sentence"
+    },
+    {
+      "id": "018-9d5596a4",
+      "chapter": "018",
+      "url": "/018-africa-kingdoms-networks-and-cities/kilwa-and-the-networks-behind-stone-houses/",
+      "start": 1501,
+      "end": 1600,
+      "approx": true,
+      "text": "In the sixteenth century, Portuguese maritime expansion and military intervention altered regional commercial politics, but they did not invent Indian Ocean exchange.",
+      "source": "sentence"
+    },
+    {
+      "id": "026-40e45e9e",
+      "chapter": "026",
+      "url": "/026-indian-ocean-commerce-and-asian-powers/portuguese-forts-fleets-and-the-cartaz/",
+      "start": 1501,
+      "end": 1600,
+      "approx": true,
+      "text": "During the sixteenth century, Portuguese authorities attempted to secure strategic positions, including Goa, captured in 1510, and Melaka in 1511; Hormuz became a key outpost in 1515.",
+      "source": "sentence"
+    },
+    {
+      "id": "028-27275d1b",
+      "chapter": "028",
+      "url": "/028-the-columbian-exchange/the-environmental-boundary-and-its-limits/",
+      "start": 1501,
+      "end": 1600,
+      "approx": true,
+      "qual": "before",
+      "text": "Before the sixteenth century, Asian and African crops had crossed seas and caravan routes for millennia: sugarcane, citrus, bananas and many other plants had complex migrations.",
+      "source": "sentence"
+    },
+    {
+      "id": "030-4a2af4b2",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/european-powers-were-participants-not-immediate-masters/",
+      "start": 1501,
+      "end": 1600,
+      "approx": false,
+      "text": "From the sixteenth through much of the eighteenth century, European merchants usually negotiated access to existing Asian markets rather than commanding them outright.",
+      "source": "sentence"
+    },
+    {
+      "id": "027-625213cc",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/a-chronology-of-voyages-and-changing-power/",
+      "start": 1507,
+      "end": 1507,
+      "approx": false,
+      "text": "In 1507 Waldseemüller's map used the name America.",
+      "source": "sentence"
+    },
+    {
+      "id": "026-7eded4c1",
+      "chapter": "026",
+      "url": "/026-indian-ocean-commerce-and-asian-powers/melaka-the-port-that-organized-a-crossing/",
+      "start": 1511,
+      "end": 1511,
+      "approx": false,
+      "text": "In 1511 the Portuguese under Afonso de Albuquerque captured Melaka.",
+      "textBg": "През 1511 г. португалците под командването на Афонсу де Албукерки превземат Малака.",
+      "source": "sentence"
+    },
+    {
+      "id": "030-d2c05c12",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/safavid-iran-the-indispensable-fourth-power/",
+      "start": 1514,
+      "end": 1514,
+      "approx": false,
+      "text": "The Battle of Chaldiran in 1514 gave the Ottomans a major victory over the Safavids, but it did not permanently settle the frontier or eliminate Iranian power.",
+      "source": "added"
+    },
+    {
+      "id": "024-724e036d",
+      "chapter": "024",
+      "url": "/024-renaissance-humanism-and-printing/erasmus-religious-humanism-and-the-approaching-reformation/",
+      "start": 1516,
+      "end": 1516,
+      "approx": false,
+      "text": "In 1516 a Greek text of the New Testament appeared in print with Erasmus's new Latin translation.",
+      "source": "sentence"
+    },
+    {
+      "id": "030-b2d19f9b",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/ottoman-expansion-and-imperial-consolidation/",
+      "start": 1516,
+      "end": 1517,
+      "approx": false,
+      "text": "Selim I's campaigns in 1516–1517 defeated the Mamluk Sultanate and brought Syria and Egypt under Ottoman control, with far-reaching consequences for the eastern Mediterranean, Red Sea and Islamic holy cities.",
+      "source": "added"
+    },
+    {
+      "id": "025-b459572a",
+      "chapter": "025",
+      "url": "/025-reformation-and-religious-conflict/from-theological-debate-to-political-rupture/",
+      "start": 1519,
+      "end": 1519,
+      "approx": false,
+      "qual": "by",
+      "text": "By 1519, Luther's disputes with theologians such as Johann Eck raised fundamental questions about the authority of popes, councils and scripture.",
+      "source": "sentence"
+    },
+    {
+      "id": "027-57749aba",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans-were-not/",
+      "start": 1519,
+      "end": 1519,
+      "approx": false,
+      "text": "In 1519 Hernán Cortés entered the political world of central Mexico, where the Mexica-led Triple Alliance exerted power over numerous communities.",
+      "source": "sentence"
+    },
+    {
+      "id": "027-7cd96190",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/the-first-circumnavigation-magellan-elcano-and-the-pacific/",
+      "start": 1519,
+      "end": 1519,
+      "approx": false,
+      "text": "In 1519 an expedition sponsored by the Spanish monarchy departed under Ferdinand Magellan, a Portuguese-born navigator.",
+      "source": "sentence"
+    },
+    {
+      "id": "025-99bde8c2",
+      "chapter": "025",
+      "url": "/025-reformation-and-religious-conflict/from-theological-debate-to-political-rupture/",
+      "start": 1520,
+      "end": 1520,
+      "approx": false,
+      "text": "In 1520 Martin Luther published influential reform writings that attacked established ecclesiastical structures.",
+      "textBg": "През 1520 г. Мартин Лутер публикува влиятелни реформаторски съчинения, които атакуват утвърдените църковни структури.",
+      "source": "sentence"
+    },
+    {
+      "id": "019-e7b1391d",
+      "chapter": "019",
+      "url": "/019-the-americas-before-european-conquest/contact-conquest-and-indigenous-agency/",
+      "start": 1521,
+      "end": 1521,
+      "approx": false,
+      "text": "In central Mexico, the fall of Tenochtitlan in 1521 involved Spanish forces and numerous Indigenous allies opposed to Mexica power, as well as disease, siege and the disruption of food supplies.",
+      "source": "added"
+    },
+    {
+      "id": "025-6504f804",
+      "chapter": "025",
+      "url": "/025-reformation-and-religious-conflict/from-theological-debate-to-political-rupture/",
+      "start": 1521,
+      "end": 1521,
+      "approx": false,
+      "text": "In 1521 Martin Luther was excommunicated.",
+      "textBg": "През 1521 г. Мартин Лутер е отлъчен от църквата.",
+      "source": "sentence"
+    },
+    {
+      "id": "030-c49f4b8e",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/the-mughal-foundation-babur-and-humayun/",
+      "start": 1526,
+      "end": 1526,
+      "approx": false,
+      "text": "Babur, a Timurid ruler, defeated Ibrahim Lodi at the First Battle of Panipat in 1526 and established a new dynastic foothold in North India.",
+      "source": "added"
+    },
+    {
+      "id": "030-f7f68abd",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/ottoman-expansion-and-imperial-consolidation/",
+      "start": 1526,
+      "end": 1526,
+      "approx": false,
+      "text": "The Battle of Mohács in 1526 shattered the medieval Hungarian kingdom and transformed Danubian politics.",
+      "source": "added"
+    },
+    {
+      "id": "030-b5b6bc7b",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/ottoman-expansion-and-imperial-consolidation/",
+      "start": 1529,
+      "end": 1529,
+      "approx": false,
+      "text": "Ottoman forces besieged Vienna in 1529 without capturing it; conflicts with Habsburg rulers continued.",
+      "source": "added"
+    },
+    {
+      "id": "025-0bbbaab8",
+      "chapter": "025",
+      "url": "/025-reformation-and-religious-conflict/the-swiss-reformations-zurich-and-competing-visions/",
+      "start": 1531,
+      "end": 1531,
+      "approx": false,
+      "text": "In 1531 Zwingli died during warfare among Swiss cantons at Kappel, illustrating how religious division and older confederate rivalries could become entangled.",
+      "source": "sentence"
+    },
+    {
+      "id": "027-a3eb7806",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/conquest-in-the-andes-civil-war-alliances-and-coercion/",
+      "start": 1532,
+      "end": 1532,
+      "approx": false,
+      "text": "In 1532 Francisco Pizarro's expedition intervened in the Inca imperial world during a period of dynastic conflict following struggles between rival claimants.",
+      "source": "sentence"
+    },
+    {
+      "id": "026-b3ef29b1",
+      "chapter": "026",
+      "url": "/026-indian-ocean-commerce-and-asian-powers/gujarat-an-industrial-and-commercial-coast/",
+      "start": 1534,
+      "end": 1567,
+      "approx": true,
+      "text": "From the mid-sixteenth century, changing Mughal influence brought parts of the region into new imperial relationships; Akbar's conquest of Gujarat in 1572–73 is a major milestone.",
+      "source": "sentence"
+    },
+    {
+      "id": "031-3e5f8bb1",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/bodies-anatomy-and-the-circulation-of-blood/",
+      "start": 1543,
+      "end": 1543,
+      "approx": false,
+      "text": "Andreas Vesalius's De humani corporis fabrica appeared in 1543, the same year as Copernicus's major work.",
+      "source": "added"
+    },
+    {
+      "id": "031-c160262a",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/copernicus-and-the-rearrangement-of-the-cosmos/",
+      "start": 1543,
+      "end": 1543,
+      "approx": false,
+      "text": "In 1543 Nicolaus Copernicus published De revolutionibus orbium coelestium.",
+      "source": "sentence"
+    },
+    {
+      "id": "030-0f793243",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/akbar-military-success-political-bargaining-and-legitimacy/",
+      "start": 1556,
+      "end": 1556,
+      "approx": false,
+      "text": "Akbar came to the throne in 1556 while still young, and his government gradually created a formidable imperial structure.",
+      "source": "added"
+    },
+    {
+      "id": "027-9610e670",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/the-pacific-was-a-world-of-its-own/",
+      "start": 1565,
+      "end": 1565,
+      "approx": false,
+      "text": "In 1565 Andrés de Urdaneta identified a return route across the northern Pacific using prevailing winds, helping support the Manila-Acapulco galleon connection that developed thereafter.",
+      "source": "sentence"
+    },
+    {
+      "id": "027-b27470f3",
+      "chapter": "027",
+      "url": "/027-european-maritime-expansion/the-pacific-was-a-world-of-its-own/",
+      "start": 1571,
+      "end": 1571,
+      "approx": false,
+      "text": "From 1571 Spanish Manila became a major point of commercial interaction in the Philippines.",
+      "source": "sentence"
+    },
+    {
+      "id": "031-2c8429eb",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/tycho-brahe-precision-without-heliocentrism/",
+      "start": 1572,
+      "end": 1577,
+      "approx": false,
+      "text": "Tycho Brahe studied the new star of 1572 and a comet in 1577, events that challenged the traditional picture of an unchanging celestial realm.",
+      "textBg": "Тихо Брахе изучава новата звезда от 1572 г. и комета през 1577 г. — явления, които оспорват традиционната представа за неизменни небеса.",
+      "source": "added"
+    },
+    {
+      "id": "018-927d6eea",
+      "chapter": "018",
+      "url": "/018-africa-kingdoms-networks-and-cities/songhai-administration-and-the-fragility-of-empires/",
+      "start": 1591,
+      "end": 1591,
+      "approx": false,
+      "text": "In 1591 an army sent from Morocco defeated Songhai forces at Tondibi, contributing to the break-up of the empire's central political system.",
+      "source": "sentence"
+    },
+    {
+      "id": "030-dc92370c",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/the-east-india-company-and-the-changing-balance-of-power/",
+      "start": 1600,
+      "end": 1600,
+      "approx": false,
+      "text": "The English East India Company began as a trading company with royal privileges and investors, established in 1600.",
+      "source": "added"
+    },
+    {
+      "id": "030-225fd98c",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/timars-janissaries-and-imperial-armies/",
+      "start": 1601,
+      "end": 1700,
+      "approx": true,
+      "qual": "by",
+      "text": "By the seventeenth century the Ottoman Empire used additional salaried soldiers and military labor markets as warfare changed.",
+      "textBg": "До XVII век Османската империя използва допълнително платени войници и пазари на военна работна ръка, тъй като войната се променя.",
+      "source": "sentence"
+    },
+    {
+      "id": "029-979b4ade",
+      "chapter": "029",
+      "url": "/029-atlantic-slavery-and-plantation-economies/why-the-atlantic-system-expanded/",
+      "start": 1601,
+      "end": 1800,
+      "approx": true,
+      "qual": "by",
+      "text": "By the seventeenth and eighteenth centuries, Atlantic shipping linked African capture regions, coastal markets, American plantations, European industries and consumers.",
+      "source": "sentence"
+    },
+    {
+      "id": "031-5521b030",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/galileo-and-the-telescope/",
+      "start": 1609,
+      "end": 1610,
+      "approx": false,
+      "text": "In 1609–10 Galileo Galilei improved the available telescope and pointed it toward the heavens.",
+      "source": "added"
+    },
+    {
+      "id": "031-584d3018",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/the-galileo-affair-was-not-a-simple-slogan/",
+      "start": 1616,
+      "end": 1616,
+      "approx": false,
+      "text": "In 1616, Church authorities restricted the defense of heliocentrism as physical truth.",
+      "source": "sentence"
+    },
+    {
+      "id": "025-25911e77",
+      "chapter": "025",
+      "url": "/025-reformation-and-religious-conflict/the-thirty-years-war-from-bohemia-to-europe/",
+      "start": 1618,
+      "end": 1618,
+      "approx": false,
+      "text": "In 1618, tensions over religious rights and political authority in Bohemia helped trigger a revolt against Habsburg rule.",
+      "source": "sentence"
+    },
+    {
+      "id": "031-323287e3",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/bodies-anatomy-and-the-circulation-of-blood/",
+      "start": 1628,
+      "end": 1628,
+      "approx": false,
+      "text": "William Harvey's De motu cordis (1628) argued that blood circulates through the body under the pumping action of the heart.",
+      "source": "added"
+    },
+    {
+      "id": "031-31e1ad72",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/the-galileo-affair-was-not-a-simple-slogan/",
+      "start": 1633,
+      "end": 1633,
+      "approx": false,
+      "text": "After publication of Galileo's Dialogue Concerning the Two Chief World Systems in 1632, the Roman Inquisition tried him; in 1633 he was condemned and placed under house arrest.",
+      "source": "added"
+    },
+    {
+      "id": "030-8f071e22",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/the-manchu-rise-and-the-banners/",
+      "start": 1636,
+      "end": 1636,
+      "approx": false,
+      "text": "Hong Taiji formalized the Qing dynastic name in 1636.",
+      "source": "added"
+    },
+    {
+      "id": "031-e8e1b519",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/descartes-doubt-reason-and-mechanism/",
+      "start": 1637,
+      "end": 1637,
+      "approx": false,
+      "text": "Descartes's famous Discourse on Method appeared in 1637.",
+      "textBg": "Прочутото „Разсъждение за метода“ на Декарт излиза през 1637 г.",
+      "source": "added"
+    },
+    {
+      "id": "030-3410c59e",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/the-manchu-rise-and-the-banners/",
+      "start": 1644,
+      "end": 1644,
+      "approx": false,
+      "text": "In 1644, Dorgon and associated forces entered Beijing amid the Ming crisis, placing the young Shunzhi emperor at the center of a new imperial order.",
+      "source": "sentence"
+    },
+    {
+      "id": "031-3f5862fa",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/the-republic-of-letters-institutions-and-correspondence/",
+      "start": 1660,
+      "end": 1662,
+      "approx": false,
+      "text": "The Royal Society of London began in 1660 and received its royal charter in 1662.",
+      "source": "added"
+    },
+    {
+      "id": "025-99654c58",
+      "chapter": "025",
+      "url": "/025-reformation-and-religious-conflict/the-french-wars-of-religion-civil-war-and-massacre/",
+      "start": 1685,
+      "end": 1685,
+      "approx": false,
+      "text": "In 1685 Louis XIV revoked the Edict of Nantes, triggering renewed repression and Protestant flight.",
+      "textBg": "През 1685 г. Луи XIV отменя Нантския едикт, което води до нови репресии и бягство на протестантите.",
+      "source": "sentence"
+    },
+    {
+      "id": "031-d7654761",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/newtons-synthesis-motion-and-gravity/",
+      "start": 1687,
+      "end": 1687,
+      "approx": false,
+      "text": "Isaac Newton's Principia (1687) brought together an account of motion and a universal law of gravitation.",
+      "source": "added"
+    },
+    {
+      "id": "030-1796c751",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/kangxi-yongzheng-and-qianlong-consolidation-and-expansion/",
+      "start": 1689,
+      "end": 1689,
+      "approx": false,
+      "text": "War with Russia ended in the Treaty of Nerchinsk in 1689, one of several diplomatic arrangements through which frontiers and trade were negotiated.",
+      "source": "added"
+    },
+    {
+      "id": "031-fe9c52a2",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/locke-government-consent-and-limits-on-rulers/",
+      "start": 1689,
+      "end": 1689,
+      "approx": false,
+      "text": "John Locke's political works, especially the Two Treatises of Government (published in 1689, dated 1690), offered influential arguments about natural rights, political consent, and legitimate resistance to arbitrary government.",
+      "source": "added"
+    },
+    {
+      "id": "031-9e4ab6e3",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/chemistry-and-a-difficult-change-of-vocabulary/",
+      "start": 1701,
+      "end": 1800,
+      "approx": true,
+      "text": "During the eighteenth century, chemists debated combustion and 'phlogiston,' a proposed principle associated with burning materials.",
+      "source": "sentence"
+    },
+    {
+      "id": "030-f6555cfe",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/mughal-fragmentation-and-powerful-regional-successors/",
+      "start": 1707,
+      "end": 1707,
+      "approx": false,
+      "text": "Following Aurangzeb's death in 1707, Mughal emperors retained prestige while fiscal and military authority became increasingly decentralized.",
+      "source": "added"
+    },
+    {
+      "id": "030-d16a1ee0",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/mughal-fragmentation-and-powerful-regional-successors/",
+      "start": 1739,
+      "end": 1739,
+      "approx": false,
+      "text": "Nadir Shah's invasion and sack of Delhi in 1739 dealt a severe blow to imperial authority and prestige.",
+      "source": "added"
+    },
+    {
+      "id": "031-5e35120a",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/montesquieu-and-the-organization-of-power/",
+      "start": 1748,
+      "end": 1748,
+      "approx": false,
+      "text": "Montesquieu's The Spirit of the Laws (1748) explored how laws and political institutions vary with history, climate, custom, commerce, and social structure.",
+      "source": "added"
+    },
+    {
+      "id": "031-78f4bbdb",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/diderots-encyclopedie-and-the-politics-of-knowledge/",
+      "start": 1751,
+      "end": 1772,
+      "approx": true,
+      "text": "Denis Diderot and Jean le Rond d'Alembert helped lead the French Encyclopédie, published in major installments from 1751 into the early 1770s.",
+      "source": "added"
+    },
+    {
+      "id": "030-49165550",
+      "chapter": "030",
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/the-east-india-company-and-the-changing-balance-of-power/",
+      "start": 1757,
+      "end": 1757,
+      "approx": false,
+      "text": "The Battle of Plassey in Bengal in 1757 illustrates the importance of local politics.",
+      "source": "added"
+    },
+    {
+      "id": "031-a879a46e",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/rousseau-freedom-inequality-and-the-general-will/",
+      "start": 1762,
+      "end": 1762,
+      "approx": false,
+      "text": "In The Social Contract (1762), Rousseau challenged readers to consider the relationship between freedom, social dependence, property, and legitimate collective authority.",
+      "textBg": "В „Обществения договор“ (1762) Русо кара читателите да обмислят връзката между свобода, обществена зависимост, собственост и легитимна колективна власт.",
+      "source": "added"
+    },
+    {
+      "id": "032-21505c2b",
+      "chapter": "032",
+      "url": "/032-atlantic-revolutions-and-citizenship/taxation-protest-and-a-crisis-of-authority/",
+      "start": 1763,
+      "end": 1763,
+      "approx": false,
+      "qual": "after",
+      "text": "After 1763, Parliament pursued new imperial revenue and regulatory measures.",
+      "source": "sentence"
+    },
+    {
+      "id": "034-60ee7119",
+      "chapter": "034",
+      "url": "/034-industrialization-and-urban-society/steam-engines-invention-maintenance-and-efficiency/",
+      "start": 1769,
+      "end": 1769,
+      "approx": false,
+      "text": "James Watt's work on a separate condenser, patented in 1769, reduced a major source of wasted heat and improved engine efficiency.",
+      "source": "added"
+    },
+    {
+      "id": "032-ac2235ee",
+      "chapter": "032",
+      "url": "/032-atlantic-revolutions-and-citizenship/from-protest-to-war-1774-1776/",
+      "start": 1774,
+      "end": 1776,
+      "approx": false,
+      "text": "From protest to war, 1774–1776",
+      "source": "title"
+    },
+    {
+      "id": "029-b608e162",
+      "chapter": "029",
+      "url": "/029-atlantic-slavery-and-plantation-economies/credit-insurance-and-the-commercial-infrastructure-of/",
+      "start": 1781,
+      "end": 1781,
+      "approx": false,
+      "text": "One especially disturbing case was the 1781 voyage of the Zong, during which the crew threw captives overboard and litigation followed over insurance.",
+      "source": "added"
+    },
+    {
+      "id": "031-0c40c437",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/chemistry-and-a-difficult-change-of-vocabulary/",
+      "start": 1789,
+      "end": 1789,
+      "approx": false,
+      "text": "Lavoisier's Elementary Treatise of Chemistry appeared in 1789 and helped reform chemical nomenclature.",
+      "source": "added"
+    },
+    {
+      "id": "032-beb2469d",
+      "chapter": "032",
+      "url": "/032-atlantic-revolutions-and-citizenship/from-estates-general-to-national-assembly/",
+      "start": 1789,
+      "end": 1789,
+      "approx": false,
+      "text": "In June 1789, deputies of the Third Estate declared themselves a National Assembly; the Tennis Court Oath expressed their commitment to establish a constitutional order.",
+      "source": "sentence"
+    },
+    {
+      "id": "032-3eebe781",
+      "chapter": "032",
+      "url": "/032-atlantic-revolutions-and-citizenship/women-marched-wrote-and-challenged-exclusion/",
+      "start": 1789,
+      "end": 1789,
+      "approx": false,
+      "text": "In October 1789, thousands of women and other demonstrators marched from Paris toward Versailles, protesting bread shortages and political conditions.",
+      "source": "sentence"
+    },
+    {
+      "id": "032-1ab4ac83",
+      "chapter": "032",
+      "url": "/032-atlantic-revolutions-and-citizenship/constitutional-monarchy-broke-under-pressure/",
+      "start": 1791,
+      "end": 1791,
+      "approx": false,
+      "qual": "by",
+      "text": "By 1791 France had a constitutional monarchy, but trust had deteriorated.",
+      "source": "sentence"
+    },
+    {
+      "id": "032-55876134",
+      "chapter": "032",
+      "url": "/032-atlantic-revolutions-and-citizenship/women-marched-wrote-and-challenged-exclusion/",
+      "start": 1791,
+      "end": 1791,
+      "approx": false,
+      "text": "In 1791, Olympe de Gouges published a Declaration of the Rights of Woman and of the Female Citizen, modeled on the 1789 rights declaration and directed against women's exclusion.",
+      "source": "sentence"
+    },
+    {
+      "id": "032-25537a7e",
+      "chapter": "032",
+      "url": "/032-atlantic-revolutions-and-citizenship/the-uprising-of-1791-changed-the-terms-of-debate/",
+      "start": 1791,
+      "end": 1791,
+      "approx": false,
+      "text": "The uprising of 1791 changed the terms of debate",
+      "source": "title"
+    },
+    {
+      "id": "031-dfbd3b71",
+      "chapter": "031",
+      "url": "/031-scientific-revolution-and-enlightenment/women-slavery-race-and-the-enlightenments-exclusions/",
+      "start": 1792,
+      "end": 1792,
+      "approx": false,
+      "text": "Thinkers including Mary Astell had earlier argued for women's education; later Mary Wollstonecraft demanded a radical reconsideration of women's status, most famously in A Vindication of the Rights of Woman (1792).",
+      "source": "added"
+    },
+    {
+      "id": "032-24664680",
+      "chapter": "032",
+      "url": "/032-atlantic-revolutions-and-citizenship/constitutional-monarchy-broke-under-pressure/",
+      "start": 1792,
+      "end": 1792,
+      "approx": false,
+      "text": "In April 1792 France declared war on Austria; the fighting soon spread and drew in other powers.",
+      "source": "sentence"
+    },
+    {
+      "id": "032-7c737e18",
+      "chapter": "032",
+      "url": "/032-atlantic-revolutions-and-citizenship/constitutional-monarchy-broke-under-pressure/",
+      "start": 1792,
+      "end": 1792,
+      "approx": false,
+      "text": "In August 1792, an uprising overturned the monarchy in practice.",
+      "source": "sentence"
+    },
+    {
+      "id": "032-bf690556",
+      "chapter": "032",
+      "url": "/032-atlantic-revolutions-and-citizenship/emancipation-was-won-and-contested-1793-1794/",
+      "start": 1793,
+      "end": 1793,
+      "approx": false,
+      "text": "In 1793 French commissioners in Saint-Domingue proclaimed emancipation amid military crisis, insurrection, and conflict among colonial groups.",
+      "source": "sentence"
+    },
+    {
+      "id": "032-302684e3",
+      "chapter": "032",
+      "url": "/032-atlantic-revolutions-and-citizenship/emancipation-was-won-and-contested-1793-1794/",
+      "start": 1794,
+      "end": 1794,
+      "approx": false,
+      "text": "In February 1794, the National Convention in Paris abolished slavery in French colonies.",
+      "source": "sentence"
+    },
+    {
+      "id": "032-02e9e023",
+      "chapter": "032",
+      "url": "/032-atlantic-revolutions-and-citizenship/terror-emergency-power-and-the-limits-of-revolutionary/",
+      "start": 1799,
+      "end": 1799,
+      "approx": false,
+      "text": "In 1799 Napoleon Bonaparte's coup of 18 Brumaire inaugurated a new phase.",
+      "source": "sentence"
+    },
+    {
+      "id": "036-b9c61979",
+      "chapter": "036",
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/germany-before-bismarck-trade-and-political-diversity/",
+      "start": 1801,
+      "end": 1834,
+      "approx": true,
+      "text": "In the early nineteenth century many German-speaking territories belonged to the German Confederation, while important German-speaking populations also lived outside the political arrangements eventually adopted in 1871.",
+      "source": "sentence"
+    },
+    {
+      "id": "028-15111c38",
+      "chapter": "028",
+      "url": "/028-the-columbian-exchange/case-study-tracing-the-potato-through-one-causal-chain/",
+      "start": 1801,
+      "end": 1900,
+      "approx": true,
+      "text": "In the nineteenth century, susceptibility to disease, widespread dependence among poor rural households and inadequate or harmful political responses helped turn a crop failure in Ireland into mass famine and migration.",
+      "source": "sentence"
+    },
+    {
+      "id": "029-08e93d0e",
+      "chapter": "029",
+      "url": "/029-atlantic-slavery-and-plantation-economies/cotton-and-industrialization-a-transatlantic-connection/",
+      "start": 1801,
+      "end": 1900,
+      "approx": true,
+      "text": "During the nineteenth century, cotton grown by enslaved workers in the southern United States supplied textile industries in Britain and elsewhere.",
+      "source": "sentence"
+    },
+    {
+      "id": "035-995db109",
+      "chapter": "035",
+      "url": "/035-imperialism-and-african-partition/from-coastal-commerce-to-territorial-rule/",
+      "start": 1801,
+      "end": 1900,
+      "approx": true,
+      "text": "During the nineteenth century, the suppression of the transatlantic slave trade occurred unevenly, and commerce in palm oil, groundnuts, cloves, timber and other products expanded.",
+      "source": "sentence"
+    },
+    {
+      "id": "037-0e80d3ec",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/bulgarias-national-revival-before-a-bulgarian-state/",
+      "start": 1801,
+      "end": 1900,
+      "approx": true,
+      "text": "In the nineteenth century, Bulgarian-language schools, print culture, merchant networks, monasteries and reading rooms helped develop a stronger sense of Bulgarian cultural and political identity.",
+      "source": "sentence"
+    },
+    {
+      "id": "029-06c29362",
+      "chapter": "029",
+      "url": "/029-atlantic-slavery-and-plantation-economies/saint-domingue-and-the-haitian-revolution/",
+      "start": 1804,
+      "end": 1804,
+      "approx": false,
+      "text": "French abolition in 1794 was followed by Napoleon's attempt to reassert control; Haiti declared independence in 1804 following the defeat of the French expedition.",
+      "source": "added"
+    },
+    {
+      "id": "029-a66c434e",
+      "chapter": "029",
+      "url": "/029-atlantic-slavery-and-plantation-economies/british-abolition-movement-law-and-limitation/",
+      "start": 1807,
+      "end": 1807,
+      "approx": false,
+      "text": "Britain prohibited its slave trade in 1807, but that law did not abolish slavery in its colonies.",
+      "source": "added"
+    },
+    {
+      "id": "029-a559d7db",
+      "chapter": "029",
+      "url": "/029-atlantic-slavery-and-plantation-economies/united-states-slavery-expansion-and-civil-war/",
+      "start": 1808,
+      "end": 1808,
+      "approx": false,
+      "text": "The United States' abolition of overseas importation of enslaved people in 1808 did not end domestic enslavement.",
+      "textBg": "Забраната за внос на роби в Съединените щати от 1808 г. не слага край на робството в страната и не му пречи да се вкорени още по-дълбоко в националната икономика.",
+      "source": "added"
+    },
+    {
+      "id": "033-2396285a",
+      "chapter": "033",
+      "url": "/033-latin-american-independence-and-state-building/the-shock-of-1808-and-the-juntas/",
+      "start": 1808,
+      "end": 1808,
+      "approx": false,
+      "text": "In 1808 Napoleon's interventions and the forced abdications at Bayonne undermined the Spanish monarchy's recognized center.",
+      "source": "sentence"
+    },
+    {
+      "id": "033-d90d4106",
+      "chapter": "033",
+      "url": "/033-latin-american-independence-and-state-building/mexican-independence-began-as-a-social-crisis/",
+      "start": 1810,
+      "end": 1810,
+      "approx": false,
+      "text": "In 1810 the priest Miguel Hidalgo y Costilla launched an uprising commonly remembered through the Grito de Dolores.",
+      "source": "sentence"
+    },
+    {
+      "id": "033-23b7b44a",
+      "chapter": "033",
+      "url": "/033-latin-american-independence-and-state-building/brazil-a-monarchy-crosses-the-atlantic/",
+      "start": 1815,
+      "end": 1815,
+      "approx": false,
+      "text": "In 1815 Brazil's formal status was elevated within the United Kingdom of Portugal, Brazil and the Algarves.",
+      "source": "sentence"
+    },
+    {
+      "id": "033-dca40f23",
+      "chapter": "033",
+      "url": "/033-latin-american-independence-and-state-building/haitis-influence-and-the-question-of-emancipation/",
+      "start": 1815,
+      "end": 1816,
+      "approx": false,
+      "text": "In 1815–1816 Bolívar received support in Haiti, including from President Alexandre Pétion, and the issue of emancipation became entangled with military assistance and political legitimacy.",
+      "source": "sentence"
+    },
+    {
+      "id": "033-c3b1f72c",
+      "chapter": "033",
+      "url": "/033-latin-american-independence-and-state-building/northern-south-america-and-the-andes-crossing/",
+      "start": 1819,
+      "end": 1819,
+      "approx": false,
+      "text": "In 1819 Bolívar led a campaign across difficult Andean terrain into New Granada.",
+      "source": "sentence"
+    },
+    {
+      "id": "033-4a0958cc",
+      "chapter": "033",
+      "url": "/033-latin-american-independence-and-state-building/mexico-in-1821-a-coalition-changes-sides/",
+      "start": 1821,
+      "end": 1821,
+      "approx": false,
+      "text": "Mexico in 1821: a coalition changes sides",
+      "source": "title"
+    },
+    {
+      "id": "034-0ca05d98",
+      "chapter": "034",
+      "url": "/034-industrialization-and-urban-society/railways-and-the-compression-of-distance/",
+      "start": 1825,
+      "end": 1825,
+      "approx": false,
+      "text": "The Stockton and Darlington Railway opened in 1825 as a landmark in the commercial use of locomotives and rail transport.",
+      "source": "added"
+    },
+    {
+      "id": "033-062dac40",
+      "chapter": "033",
+      "url": "/033-latin-american-independence-and-state-building/the-congress-of-panama-and-bolivars-continental-vision/",
+      "start": 1826,
+      "end": 1826,
+      "approx": false,
+      "text": "In 1826 representatives from several newly independent American states met at the Congress of Panama, inspired by Bolívar's hopes for cooperation among republics.",
+      "source": "sentence"
+    },
+    {
+      "id": "033-d8d03286",
+      "chapter": "033",
+      "url": "/033-latin-american-independence-and-state-building/why-gran-colombia-fragmented/",
+      "start": 1830,
+      "end": 1830,
+      "approx": false,
+      "qual": "by",
+      "text": "By 1830 Gran Colombia was dissolving into separate political entities; Venezuela and Ecuador emerged as distinct states, while the remaining republic became the predecessor of modern Colombia and later Panama's history followed a different course.",
+      "source": "sentence"
+    },
+    {
+      "id": "034-1d73384d",
+      "chapter": "034",
+      "url": "/034-industrialization-and-urban-society/children-at-work-and-the-problem-of-historical-comparison/",
+      "start": 1833,
+      "end": 1833,
+      "approx": false,
+      "text": "Britain's Factory Act of 1833 restricted employment in textile factories, prohibited factory employment of children younger than nine, limited hours for older children and created an inspectorate.",
+      "source": "added"
+    },
+    {
+      "id": "029-699bb627",
+      "chapter": "029",
+      "url": "/029-atlantic-slavery-and-plantation-economies/british-abolition-movement-law-and-limitation/",
+      "start": 1833,
+      "end": 1838,
+      "approx": false,
+      "text": "The Slavery Abolition Act of 1833 took effect in 1834, followed by an apprenticeship system that continued compulsory labor in much of the British Caribbean until 1838.",
+      "source": "added"
+    },
+    {
+      "id": "036-ad5b549a",
+      "chapter": "036",
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/the-revolutionary-wave-of-1848/",
+      "start": 1848,
+      "end": 1848,
+      "approx": false,
+      "text": "The revolutionary wave of 1848",
+      "source": "title"
+    },
+    {
+      "id": "034-60b8fed6",
+      "chapter": "034",
+      "url": "/034-industrialization-and-urban-society/what-counts-as-industrialization/",
+      "start": 1850,
+      "end": 1850,
+      "approx": false,
+      "qual": "after",
+      "text": "After 1850 industrial change accelerated in regions of continental Europe and North America; later industrializers drew on different resource endowments, labor systems and state policies.",
+      "source": "sentence"
+    },
+    {
+      "id": "034-7ff2b2cf",
+      "chapter": "034",
+      "url": "/034-industrialization-and-urban-society/housing-sanitation-and-the-urban-disease-burden/",
+      "start": 1854,
+      "end": 1854,
+      "approx": false,
+      "text": "John Snow investigated London cholera outbreaks and in 1854 connected a Soho outbreak to a particular water source.",
+      "source": "added"
+    },
+    {
+      "id": "036-30a45b6c",
+      "chapter": "036",
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/piedmont-diplomacy-and-the-war-of-1859/",
+      "start": 1859,
+      "end": 1859,
+      "approx": false,
+      "text": "In 1859 Piedmont and France fought Austria.",
+      "source": "sentence"
+    },
+    {
+      "id": "037-ac7943f3",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/the-romanian-principalities-and-the-danubian-question/",
+      "start": 1859,
+      "end": 1859,
+      "approx": false,
+      "text": "In 1859 Moldavia and Wallachia both elected Alexandru Ioan Cuza, creating a de facto political union.",
+      "textBg": "През 1859 г. Молдова и Влашко избират един и същ княз, Александру Йоан Куза, и така създават фактически политически съюз.",
+      "source": "sentence"
+    },
+    {
+      "id": "036-b64609e7",
+      "chapter": "036",
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/garibaldi-1860-and-the-kingdom-of-italy/",
+      "start": 1860,
+      "end": 1860,
+      "approx": false,
+      "text": "In 1860 Garibaldi led the Expedition of the Thousand to Sicily, where his volunteers challenged Bourbon rule.",
+      "source": "sentence"
+    },
+    {
+      "id": "036-926e32ff",
+      "chapter": "036",
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/garibaldi-1860-and-the-kingdom-of-italy/",
+      "start": 1861,
+      "end": 1861,
+      "approx": false,
+      "text": "In March 1861 the Kingdom of Italy was proclaimed under Victor Emmanuel II.",
+      "source": "sentence"
+    },
+    {
+      "id": "029-afc6a2d4",
+      "chapter": "029",
+      "url": "/029-atlantic-slavery-and-plantation-economies/united-states-slavery-expansion-and-civil-war/",
+      "start": 1863,
+      "end": 1863,
+      "approx": false,
+      "text": "The Emancipation Proclamation in 1863 was a wartime measure applying to areas in rebellion, not a single law ending slavery everywhere immediately.",
+      "source": "added"
+    },
+    {
+      "id": "036-eb2e5668",
+      "chapter": "036",
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/bismarck-and-the-sequence-of-unification-wars/",
+      "start": 1864,
+      "end": 1864,
+      "approx": false,
+      "text": "In 1864 Prussia and Austria fought Denmark over Schleswig and Holstein.",
+      "source": "sentence"
+    },
+    {
+      "id": "036-9c562d49",
+      "chapter": "036",
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/bismarck-and-the-sequence-of-unification-wars/",
+      "start": 1866,
+      "end": 1866,
+      "approx": false,
+      "text": "In 1866 Prussia defeated Austria and its allies, dissolved the German Confederation and organized the North German Confederation under Prussian leadership.",
+      "source": "sentence"
+    },
+    {
+      "id": "034-8123aabe",
+      "chapter": "034",
+      "url": "/034-industrialization-and-urban-society/asia-and-the-variety-of-industrial-pathways/",
+      "start": 1868,
+      "end": 1868,
+      "approx": false,
+      "text": "In Japan, the Meiji Restoration of 1868 was followed by state initiatives, educational change, imported knowledge and private enterprise that promoted industrial and military modernization.",
+      "source": "added"
+    },
+    {
+      "id": "034-6863c0e2",
+      "chapter": "034",
+      "url": "/034-industrialization-and-urban-society/literacy-schools-and-a-new-reading-public/",
+      "start": 1870,
+      "end": 1870,
+      "approx": false,
+      "text": "Britain's Elementary Education Act of 1870 expanded the institutional basis for publicly supported schooling in England and Wales; later legislation affected attendance.",
+      "source": "added"
+    },
+    {
+      "id": "036-067ef29d",
+      "chapter": "036",
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/bismarck-and-the-sequence-of-unification-wars/",
+      "start": 1870,
+      "end": 1870,
+      "approx": false,
+      "text": "In 1870 the diplomatic crisis surrounding the Spanish throne and the editing of the Ems Dispatch contributed to war between France and Prussia and its German allies.",
+      "source": "sentence"
+    },
+    {
+      "id": "037-c4821164",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/herzegovina-bosnia-and-the-crisis-of-1875/",
+      "start": 1875,
+      "end": 1875,
+      "approx": false,
+      "text": "Herzegovina, Bosnia and the crisis of 1875",
+      "source": "title"
+    },
+    {
+      "id": "037-28993af6",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/april-1876-uprising-repression-and-evidence/",
+      "start": 1876,
+      "end": 1876,
+      "approx": false,
+      "text": "April 1876: uprising, repression and evidence",
+      "source": "title"
+    },
+    {
+      "id": "037-fb643144",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/ottoman-constitutional-and-administrative-experiments/",
+      "start": 1876,
+      "end": 1876,
+      "approx": false,
+      "text": "In 1876 reform-minded politicians helped introduce the first Ottoman constitution and parliament, a development closely connected to the crisis of that year.",
+      "source": "sentence"
+    },
+    {
+      "id": "037-3fb7b143",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/a-bulgarian-principality-constitution-power-and-dependency/",
+      "start": 1878,
+      "end": 1878,
+      "approx": false,
+      "qual": "after",
+      "text": "After 1878 the Bulgarian principality developed institutions in a setting of strong Russian influence and formal Ottoman suzerainty.",
+      "source": "sentence"
+    },
+    {
+      "id": "035-a425937c",
+      "chapter": "035",
+      "url": "/035-imperialism-and-african-partition/southern-africa-settler-conquest-and-african-states/",
+      "start": 1879,
+      "end": 1879,
+      "approx": false,
+      "text": "In 1879 the Zulu kingdom initially inflicted a major defeat on British troops at Isandlwana, demonstrating military organization and the vulnerability of invading forces.",
+      "source": "sentence"
+    },
+    {
+      "id": "035-b64d9d27",
+      "chapter": "035",
+      "url": "/035-imperialism-and-african-partition/the-suez-canal-egypt-and-imperial-routes/",
+      "start": 1882,
+      "end": 1882,
+      "approx": false,
+      "text": "In 1882 Britain occupied Egypt after an uprising led by the nationalist officer Ahmad Urabi and other opponents of foreign domination and the khedival political order.",
+      "source": "sentence"
+    },
+    {
+      "id": "035-54765a99",
+      "chapter": "035",
+      "url": "/035-imperialism-and-african-partition/berlin-1884-1885-what-the-conference-actually-did/",
+      "start": 1884,
+      "end": 1885,
+      "approx": false,
+      "text": "Berlin, 1884–1885: what the conference actually did",
+      "source": "title"
+    },
+    {
+      "id": "035-2fba486e",
+      "chapter": "035",
+      "url": "/035-imperialism-and-african-partition/leopold-ii-and-the-congo-free-state/",
+      "start": 1885,
+      "end": 1885,
+      "approx": false,
+      "qual": "by",
+      "text": "By 1885 the Congo Free State emerged as a distinct state under Leopold's personal sovereignty, not simply as an ordinary Belgian colony.",
+      "source": "sentence"
+    },
+    {
+      "id": "037-231215c2",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/eastern-rumelia-and-the-unification-of-1885/",
+      "start": 1885,
+      "end": 1885,
+      "approx": false,
+      "text": "In September 1885, a movement in Plovdiv overthrew the provincial government and proclaimed union with the Bulgarian principality.",
+      "source": "sentence"
+    },
+    {
+      "id": "029-cf9c87e3",
+      "chapter": "029",
+      "url": "/029-atlantic-slavery-and-plantation-economies/brazil-cuba-and-the-long-nineteenth-century/",
+      "start": 1886,
+      "end": 1886,
+      "approx": false,
+      "text": "In Cuba, the process of abolition unfolded through stages, with slavery formally ending in 1886.",
+      "source": "added"
+    },
+    {
+      "id": "029-23b14148",
+      "chapter": "029",
+      "url": "/029-atlantic-slavery-and-plantation-economies/brazil-cuba-and-the-long-nineteenth-century/",
+      "start": 1888,
+      "end": 1888,
+      "approx": false,
+      "text": "Brazil's 1850 Eusébio de Queirós Law helped suppress the transatlantic import trade more decisively than earlier restrictions, while slavery itself endured until the Lei Áurea (Golden Law) in 1888.",
+      "source": "added"
+    },
+    {
+      "id": "035-37e030de",
+      "chapter": "035",
+      "url": "/035-imperialism-and-african-partition/ethiopia-and-adwa-a-conquest-that-failed/",
+      "start": 1889,
+      "end": 1889,
+      "approx": false,
+      "text": "In 1889 the Treaty of Wuchale (Uccialli) became the subject of divergent Italian and Ethiopian interpretations over whether Ethiopia had accepted Italian control of foreign relations.",
+      "source": "sentence"
+    },
+    {
+      "id": "018-89a80387",
+      "chapter": "018",
+      "url": "/018-africa-kingdoms-networks-and-cities/benin-court-institutions-brass-and-historical-memory/",
+      "start": 1897,
+      "end": 1897,
+      "approx": false,
+      "text": "In 1897 British forces invaded Benin City and removed large quantities of royal and sacred objects.",
+      "source": "sentence"
+    },
+    {
+      "id": "035-5af21a27",
+      "chapter": "035",
+      "url": "/035-imperialism-and-african-partition/the-nile-the-mahdist-state-and-the-fashoda-crisis/",
+      "start": 1898,
+      "end": 1898,
+      "approx": false,
+      "text": "In 1898 an Anglo-Egyptian force under Horatio Kitchener defeated Mahdist forces at Omdurman, deploying heavy firepower and logistical resources.",
+      "source": "sentence"
+    },
+    {
+      "id": "035-d6cd39e0",
+      "chapter": "035",
+      "url": "/035-imperialism-and-african-partition/samori-toure-asante-and-african-political-initiative/",
+      "start": 1900,
+      "end": 1900,
+      "approx": false,
+      "text": "In 1900, Yaa Asantewaa helped lead armed resistance after a British demand concerning the Golden Stool, a central symbol of Asante authority.",
+      "source": "sentence"
+    },
+    {
+      "id": "035-7c9076fd",
+      "chapter": "035",
+      "url": "/035-imperialism-and-african-partition/german-south-west-africa-and-genocide/",
+      "start": 1904,
+      "end": 1904,
+      "approx": false,
+      "text": "In 1904 Ovaherero people rose against colonial rule.",
+      "source": "sentence"
+    },
+    {
+      "id": "037-b2cc989f",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/bosnia-herzegovina-occupation-reform-and-annexation/",
+      "start": 1908,
+      "end": 1908,
+      "approx": false,
+      "text": "In 1908 Austria-Hungary formally annexed Bosnia and Herzegovina, prompting a severe diplomatic crisis.",
+      "source": "sentence"
+    },
+    {
+      "id": "037-c840832a",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/the-young-turk-revolution-and-bulgarian-independence-1908/",
+      "start": 1908,
+      "end": 1908,
+      "approx": false,
+      "text": "The Young Turk Revolution and Bulgarian independence, 1908",
+      "source": "title"
+    },
+    {
+      "id": "037-62609ef7",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/the-balkan-league-and-the-first-balkan-war-1912-1913/",
+      "start": 1912,
+      "end": 1912,
+      "approx": false,
+      "qual": "by",
+      "text": "By 1912 the Ottoman Empire faced Italian military action in Libya, Albanian unrest and persistent tension in its European provinces.",
+      "source": "sentence"
+    },
+    {
+      "id": "037-96e3260d",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/the-albanian-national-movement-and-1912-independence/",
+      "start": 1912,
+      "end": 1912,
+      "approx": false,
+      "text": "In November 1912, as armies of the Balkan League advanced, an Albanian assembly at Vlorë proclaimed independence.",
+      "source": "sentence"
+    },
+    {
+      "id": "037-aabd08f1",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/the-second-balkan-war-and-the-borders-of-1913/",
+      "start": 1913,
+      "end": 1913,
+      "approx": false,
+      "text": "In June 1913 Bulgarian forces attacked Serbian and Greek positions, setting off the Second Balkan War.",
+      "source": "sentence"
+    },
+    {
+      "id": "035-da1b82be",
+      "chapter": "035",
+      "url": "/035-imperialism-and-african-partition/what-changed-by-1914-and-what-remained-african/",
+      "start": 1914,
+      "end": 1914,
+      "approx": false,
+      "qual": "by",
+      "text": "By 1914 most of Africa was formally claimed by European empires, with notable exceptions.",
+      "source": "sentence"
+    },
+    {
+      "id": "037-2d8b6519",
+      "chapter": "037",
+      "url": "/037-the-balkans-and-the-eastern-question/bosnia-herzegovina-occupation-reform-and-annexation/",
+      "start": 1914,
+      "end": 1914,
+      "approx": false,
+      "text": "In 1914 Sarajevo—under Habsburg rule—became the setting of an assassination that triggered a much wider confrontation.",
+      "source": "sentence"
+    },
+    {
+      "id": "038-c988b8ba",
+      "chapter": "038",
+      "url": "/038-world-war-i-causes-and-consequences/1914-plans-collide-with-geography/",
+      "start": 1914,
+      "end": 1914,
+      "approx": false,
+      "text": "1914: plans collide with geography",
+      "source": "title"
+    },
+    {
+      "id": "038-b19ff1be",
+      "chapter": "038",
+      "url": "/038-world-war-i-causes-and-consequences/bulgaria-in-1914-wounded-ambitions-and-neutrality/",
+      "start": 1914,
+      "end": 1914,
+      "approx": false,
+      "text": "Bulgaria in 1914: wounded ambitions and neutrality",
+      "source": "title"
+    },
+    {
+      "id": "038-f1174bd8",
+      "chapter": "038",
+      "url": "/038-world-war-i-causes-and-consequences/bulgaria-joins-the-central-powers-october-1915/",
+      "start": 1915,
+      "end": 1915,
+      "approx": false,
+      "text": "Bulgaria joins the Central Powers, October 1915",
+      "source": "title"
+    },
+    {
+      "id": "038-5b983a3c",
+      "chapter": "038",
+      "url": "/038-world-war-i-causes-and-consequences/the-armenian-genocide-and-the-place-of-civilians/",
+      "start": 1915,
+      "end": 1915,
+      "approx": false,
+      "text": "In 1915 Ottoman authorities initiated mass deportations and killings of Armenian Christians.",
+      "source": "sentence"
+    },
+    {
+      "id": "038-d724712e",
+      "chapter": "038",
+      "url": "/038-world-war-i-causes-and-consequences/eastern-europe-movement-occupation-and-revolution/",
+      "start": 1916,
+      "end": 1916,
+      "approx": false,
+      "text": "In 1916 the Brusilov Offensive inflicted severe losses on Austria-Hungary and influenced the wider military balance, but Russian gains did not solve the empire's economic and political problems.",
+      "source": "sentence"
+    },
+    {
+      "id": "038-821d131a",
+      "chapter": "038",
+      "url": "/038-world-war-i-causes-and-consequences/sea-power-blockade-and-submarine-warfare/",
+      "start": 1917,
+      "end": 1917,
+      "approx": false,
+      "text": "In 1917 German leaders resumed unrestricted submarine warfare in the hope of bringing Britain to its knees before American intervention could have decisive effects.",
+      "source": "sentence"
+    },
+    {
+      "id": "038-aa241688",
+      "chapter": "038",
+      "url": "/038-world-war-i-causes-and-consequences/the-united-states-enters-the-war-in-1917/",
+      "start": 1917,
+      "end": 1917,
+      "approx": false,
+      "text": "The United States enters the war in 1917",
+      "source": "title"
+    },
+    {
+      "id": "038-dd9b1385",
+      "chapter": "038",
+      "url": "/038-world-war-i-causes-and-consequences/dobro-pole-and-bulgarias-withdrawal-september-1918/",
+      "start": 1918,
+      "end": 1918,
+      "approx": false,
+      "text": "Dobro Pole and Bulgaria's withdrawal, September 1918",
+      "source": "title"
+    },
+    {
+      "id": "038-e49ba096",
+      "chapter": "038",
+      "url": "/038-world-war-i-causes-and-consequences/the-crisis-of-1918-russia-out-america-in/",
+      "start": 1918,
+      "end": 1918,
+      "approx": false,
+      "text": "The crisis of 1918: Russia out, America in",
+      "source": "title"
+    },
+    {
+      "id": "038-55cc4b39",
+      "chapter": "038",
+      "url": "/038-world-war-i-causes-and-consequences/neuilly-bulgarias-peace-settlement-november-1919/",
+      "start": 1919,
+      "end": 1919,
+      "approx": false,
+      "text": "Neuilly: Bulgaria's peace settlement, November 1919",
+      "source": "title"
+    },
+    {
+      "id": "013-d3ae1722",
+      "chapter": "013",
+      "url": "/013-the-indus-valley-civilization/essential-timeline-chapter-013/",
+      "start": 1920,
+      "end": 1929,
+      "approx": false,
+      "text": "The significance of Harappa and Mohenjo-daro as remains of an ancient urban civilization becomes internationally recognized through archaeological research.",
+      "source": "list"
+    }
+  ]
+}

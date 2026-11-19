@@ -53,6 +53,7 @@ The Bulgarian page is forwarded too. Alternatively, keep the old address by pinn
 - **Reading progress.** A section counts as read when the reader reaches its end (after at least 10 seconds on the page) or presses **Mark as read**. Ticks show in the sidebar and chapter contents, chapter cards get a progress bar, and the homepage offers **Continue reading**. It's stored in the reader's own browser only: nothing is sent anywhere, and English and Bulgarian share it.
 - **Updates page and RSS feed** (`/updates/`, `/rss.xml`, and the Bulgarian `/bg/…` versions): what each edition added or revised, built automatically from the import history in `content-meta/manifest.json`. Raising `edition` in `content-meta/book-settings.json` starts a new entry.
 - **Related sections** at the end of each section, found by comparing the text of every section on your computer during `npm run import` (`importer/related.py`, free and offline). They update by themselves as chapters are added.
+- **Timeline** (`/timeline/`): dated moments from the history chapters (Parts II and III) on one line, from the first stone tools to 1919, each linked to its section and filterable by chapter (`/timeline/#ch-012`; every history chapter's page links to its slice). The importer finds the events in the book's own text: dated lists, sentences that begin with a date, and section titles with a year (`importer/timeline.py`). New chapters appear by themselves; **`content-meta/timeline.json`** holds corrections: events to leave out, rewordings (for example naming who "he" is), extra sentences to include, and chapter date ranges. `IMPORT_REPORT.md` says if a correction stops matching after the text changes.
 - **Print / Save as PDF** on every section: the printout drops the navigation, uses black on white even in dark mode, opens all model answers, and prints flashcards as a list.
 
 ## Improving the Bulgarian translation
@@ -77,6 +78,7 @@ These folders are regenerated on every run, so any change you make there is over
 These are kept and safe to edit:
 
 - `content-meta/book-settings.json`: edition number and which chapters belong to which Part
+- `content-meta/timeline.json`: corrections for the timeline
 - `content-meta/slug-overrides.json`: change a page's URL, or add a redirect after renaming a section
 - `content-meta/translations/bg-overrides.json`: your Bulgarian corrections
 - `src/site.config.ts`: site URL, footer line, analytics, the default colour palette, and whether readers can pick another

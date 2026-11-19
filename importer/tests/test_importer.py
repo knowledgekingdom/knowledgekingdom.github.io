@@ -212,6 +212,62 @@ class RelatedAndHistoryTests(unittest.TestCase):
             self.assertEqual(again, eds)
 
 
+class TimelineTests(unittest.TestCase):
+    def test_parse_date(self):
+        import timeline as TL
+        cases = {
+            "c. 1550–1070 BCE": (-1550, -1070, True, None),
+            "Before c. 3100 BCE": (-3100, -3100, True, "before"),
+            "c. 27th–22nd centuries BCE": (-2700, -2101, True, None),
+            "Late 3rd millennium BCE": (-2334, -2001, True, None),
+            "In 1415 Portuguese forces took Ceuta.": (1415, 1415, False, None),
+            "From 1405 to 1433 Zheng He's voyages": (1405, 1433, False, None),
+            "Around 508/507 BCE, Cleisthenes": (-508, -507, True, None),
+            "In the 1820s, reformers": (1820, 1829, False, None),
+            "In the fifteenth century, Portuguese": (1401, 1500, True, None),
+            "About 300,000 years ago, our species": (-298000, -298000, True, None),
+            "Around 3.3 million years ago": (-3298000, -3298000, True, None),
+            "By 1914 most of Africa": (1914, 1914, False, "by"),
+        }
+        for text, (s, e, approx, qual) in cases.items():
+            d = TL.parse_date(text)
+            self.assertEqual((d["start"], d["end"], d["approx"], d["qual"]), (s, e, approx, qual), text)
+        self.assertIsNone(TL.parse_date("In 12 cases the court ruled"))
+        self.assertIsNone(TL.parse_date("In many places farming spread"))
+
+    def test_extract_and_curate(self):
+        import timeline as TL
+        docs = [
+            ("/012-egypt/essential-timeline/", 12, "Essential timeline",
+             "<strong>c. 1550–1070 BCE:</strong> New Kingdom, including Hatshepsut.\n\n"
+             "<strong>332 BCE:</strong> Alexander takes control of Egypt."),
+            ("/015-persia/cyrus/", 15, "Cyrus and the making of an empire",
+             "Cyrus rose in 559 BCE. Around 550 he defeated Astyages of Media. In the twentieth century excavators dug."),
+            ("/023-byz/siege/", 23, "The siege of 1453: why the city fell", "The walls were old \\[3\\]. Near St. Romanus the guns fired."),
+        ]
+        ev = TL.extract(docs)
+        by_text = {e["text"]: e for e in ev}
+        self.assertEqual(by_text["New Kingdom, including Hatshepsut."]["start"], -1550)
+        self.assertEqual(by_text["Around 550 he defeated Astyages of Media."]["start"], -550)  # BCE implied by the section
+        self.assertEqual(by_text["In the twentieth century excavators dug."]["start"], 1901)    # but not for modern dates
+        self.assertEqual(by_text["The siege of 1453: why the city fell"]["source"], "title")
+        self.assertEqual([e["start"] for e in ev], sorted(e["start"] for e in ev))
+        notes = []
+        cur = {"exclude": [by_text["In the twentieth century excavators dug."]["id"]],
+               "replace": {by_text["Around 550 he defeated Astyages of Media."]["id"]:
+                           {"text": "Around 550 BCE Cyrus defeated Astyages.", "textBg": "Около 550 г. пр.н.е. Кир побеждава Астиаг."}},
+               "add": [{"text": "Cyrus rose in 559 BCE.", "start": -559}, {"text": "Not in the book.", "start": 1}]}
+        out = TL.apply_curation(ev, cur, lambda w, m: notes.append(m), docs)
+        texts = [e["text"] for e in out]
+        self.assertNotIn("In the twentieth century excavators dug.", texts)
+        self.assertIn("Around 550 BCE Cyrus defeated Astyages.", texts)
+        added = next(e for e in out if e["text"] == "Cyrus rose in 559 BCE.")
+        self.assertEqual((added["url"], added["chapter"]), ("/015-persia/cyrus/", "015"))
+        self.assertTrue(any("not found" in n for n in notes))
+        spans = TL.chapter_spans(out, {"chapterSpans": {"12": [-3100, -30]}})
+        self.assertEqual(spans["012"], [-3100, -30])
+
+
 class MultiFileTests(unittest.TestCase):
     """A master file plus separate chapter files, as in manuscript/ since Edition 41."""
 
