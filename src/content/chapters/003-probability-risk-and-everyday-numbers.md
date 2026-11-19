@@ -12,7 +12,7 @@ standfirstHtml: "The world does not promise certainty. But uncertainty is not th
 openingTitle: "The alarm that accused an innocent customer"
 description: "The world does not promise certainty. But uncertainty is not the same as ignorance: once we learn to count outcomes, compare baselines, and weigh…"
 status: "REVISED DRAFT"
-edition: 25
+edition: 41
 sectionCount: 19
 readingTime: 34
 openingReadingTime: 2

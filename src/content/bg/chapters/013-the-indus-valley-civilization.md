@@ -12,7 +12,7 @@ standfirstHtml: "Градът може да напусне улиците, кл�
 openingTitle: "Град, чиито думи не можем да чуем"
 description: "Градът може да напусне улиците, кладенците, тежестите и красивите тюлени, без да ни остави разбираемо описание на своите царе или дори доказателство, че кралете са го управлявали. The..."
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 24
 readingTime: 36
 openingReadingTime: 2

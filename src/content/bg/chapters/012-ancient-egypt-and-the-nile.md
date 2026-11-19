@@ -12,7 +12,7 @@ standfirstHtml: "Реката не е построила пирамидите. �
 openingTitle: "Писмо от реката"
 description: "Реката не е построила пирамидите. Хората са го направили и техните решения, институции, убеждения и конфликти обясняват както постигането, така и неговите разходи...."
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 23
 readingTime: 34
 openingReadingTime: 2

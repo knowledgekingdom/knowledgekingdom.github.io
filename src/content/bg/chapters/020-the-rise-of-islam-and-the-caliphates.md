@@ -12,7 +12,7 @@ standfirstHtml: "От Арабския полуостров до взаимос�
 openingTitle: "Началната сцена: град, в който се срещат светове"
 description: "От Арабския полуостров до взаимосвързан свят: откровение, общност, империя, стипендия и борба за определяне на законна власт."
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 29
 readingTime: 39
 openingReadingTime: 2

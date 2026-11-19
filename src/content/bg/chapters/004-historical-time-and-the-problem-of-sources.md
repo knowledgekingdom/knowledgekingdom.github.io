@@ -12,7 +12,7 @@ standfirstHtml: "Миналото го няма, но не е изчезнало
 openingTitle: "Четири парчета пергамент и един съвсем съвременен спор"
 description: "Миналото го няма, но не е изчезнало без следа. Историята е дисциплинираното изкуство да се пита какво могат да ни кажат тези следи и какво не могат."
 status: "REVISED DRAFT"
-edition: 25
+edition: 41
 sectionCount: 21
 readingTime: 42
 openingReadingTime: 3

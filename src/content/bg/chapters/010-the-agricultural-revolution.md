@@ -12,7 +12,7 @@ standfirstHtml: "Как хората започнали да оформят ра
 openingTitle: "Реколтата, която не промени нищо — и промени всичко"
 description: "Как хората започнали да оформят растенията, животните и пейзажите, които ги хранели, както и как експериментите постепенно трансформирали човешкото общество."
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 22
 readingTime: 33
 openingReadingTime: 2

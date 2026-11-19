@@ -2920,6 +2920,2491 @@
           "back": "People and goods may move widely even while warfare, exploitation and unequal security persist."
         }
       ]
+    },
+    "023": {
+      "deck": "Europe, Byzantium, and the Ottoman Emergence",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What do early, high and late medieval mean?",
+          "back": "Conventional historical periods with regionally variable boundaries."
+        },
+        {
+          "id": 2,
+          "front": "Why are medieval political maps deceptive?",
+          "back": "Claims to land may exceed effective local control."
+        },
+        {
+          "id": 3,
+          "front": "What makes the term feudalism controversial?",
+          "back": "It implies uniform structures where institutions differed widely."
+        },
+        {
+          "id": 4,
+          "front": "What was manorialism?",
+          "back": "Local arrangements linking landholding and agricultural obligations."
+        },
+        {
+          "id": 5,
+          "front": "Why did medieval armies need farms?",
+          "back": "Food, taxes, animals, labor and transport came from rural production."
+        },
+        {
+          "id": 6,
+          "front": "What was the Investiture Controversy about?",
+          "back": "Disputed control over appointments and authority in the church."
+        },
+        {
+          "id": 7,
+          "front": "Name one medieval university center.",
+          "back": "Bologna, Paris or Oxford."
+        },
+        {
+          "id": 8,
+          "front": "What was the Hanseatic League?",
+          "back": "A network of northern European merchant and town cooperation."
+        },
+        {
+          "id": 9,
+          "front": "What was Magna Carta's original year?",
+          "back": "1215."
+        },
+        {
+          "id": 10,
+          "front": "What distinguished the Holy Roman Empire?",
+          "back": "Negotiated authority among emperors, princes, bishops and cities."
+        },
+        {
+          "id": 11,
+          "front": "When did Pope Urban II call the First Crusade?",
+          "back": "1095."
+        },
+        {
+          "id": 12,
+          "front": "When did the First Crusade capture Jerusalem?",
+          "back": "1099."
+        },
+        {
+          "id": 13,
+          "front": "What happened in Constantinople in 1204?",
+          "back": "The Fourth Crusade captured and sacked the city."
+        },
+        {
+          "id": 14,
+          "front": "What was the Latin Empire?",
+          "back": "A crusader-ruled state centered on Constantinople, 1204–1261."
+        },
+        {
+          "id": 15,
+          "front": "How did Byzantines typically identify their empire?",
+          "back": "As Roman."
+        },
+        {
+          "id": 16,
+          "front": "Why is the 1054 schism date incomplete?",
+          "back": "Church divisions developed over centuries."
+        },
+        {
+          "id": 17,
+          "front": "When did Byzantium conquer the first Bulgarian state?",
+          "back": "1018."
+        },
+        {
+          "id": 18,
+          "front": "What happened at Manzikert?",
+          "back": "Byzantine defeat by Seljuk forces in 1071."
+        },
+        {
+          "id": 19,
+          "front": "Who began the Second Bulgarian Empire?",
+          "back": "The Asen-Peter uprising of 1185–86."
+        },
+        {
+          "id": 20,
+          "front": "Who won at Adrianople in 1205?",
+          "back": "Kaloyan's Bulgarian-led forces defeated the Latin army."
+        },
+        {
+          "id": 21,
+          "front": "When was the battle of Klokotnitsa?",
+          "back": "1230."
+        },
+        {
+          "id": 22,
+          "front": "When were the famous Boyana Church frescoes painted?",
+          "back": "1259."
+        },
+        {
+          "id": 23,
+          "front": "Who was Stefan Dušan?",
+          "back": "A fourteenth-century Serbian ruler who claimed imperial dignity."
+        },
+        {
+          "id": 24,
+          "front": "Why is Kosovo 1389 debated?",
+          "back": "Later epic memory differs from evidence about the battle."
+        },
+        {
+          "id": 25,
+          "front": "What was the battle of Köse Dağ?",
+          "back": "Seljuk defeat by Mongols in 1243."
+        },
+        {
+          "id": 26,
+          "front": "Who was Osman I?",
+          "back": "The namesake founder of the Ottoman dynasty around 1300."
+        },
+        {
+          "id": 27,
+          "front": "When did Bursa fall to the Ottomans?",
+          "back": "1326."
+        },
+        {
+          "id": 28,
+          "front": "Why is Gallipoli 1354 important?",
+          "back": "It secured an Ottoman foothold in European territory."
+        },
+        {
+          "id": 29,
+          "front": "What happened at Ankara in 1402?",
+          "back": "Timur defeated Bayezid I, triggering Ottoman dynastic strife."
+        },
+        {
+          "id": 30,
+          "front": "When did Constantinople fall to Mehmed II?",
+          "back": "29 May 1453."
+        }
+      ]
+    },
+    "024": {
+      "deck": "Renaissance, Humanism, and Printing",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Renaissance: a useful historical definition?",
+          "back": "Revival and reworking of classical learning and art, unevenly spread from Italian centers."
+        },
+        {
+          "id": 2,
+          "front": "Why is 'rebirth from darkness' misleading?",
+          "back": "Medieval universities, crafts and intercultural scholarship were crucial foundations."
+        },
+        {
+          "id": 3,
+          "front": "Why did wealthy Italian cities matter?",
+          "back": "Urban resources, patrons and competition supported cultural commissions."
+        },
+        {
+          "id": 4,
+          "front": "Which city is strongly linked to early Italian humanism?",
+          "back": "Florence, though many other centers were important."
+        },
+        {
+          "id": 5,
+          "front": "Petrarch's dates?",
+          "back": "1304–1374."
+        },
+        {
+          "id": 6,
+          "front": "What were the studia humanitatis?",
+          "back": "Grammar, rhetoric, poetry, history and moral philosophy."
+        },
+        {
+          "id": 7,
+          "front": "What is philology?",
+          "back": "Critical study of texts through language, transmission and historical context."
+        },
+        {
+          "id": 8,
+          "front": "What did Lorenzo Valla challenge?",
+          "back": "The claimed ancient authenticity of the Donation of Constantine."
+        },
+        {
+          "id": 9,
+          "front": "Did Greek learning enter Italy only after 1453?",
+          "back": "No. Earlier Byzantine teachers and manuscripts already circulated."
+        },
+        {
+          "id": 10,
+          "front": "What is civic humanism?",
+          "back": "A debated link between classical education and active republican civic duty."
+        },
+        {
+          "id": 11,
+          "front": "What is artistic patronage?",
+          "back": "Financing creative work by patrons or institutions, often with agreed conditions."
+        },
+        {
+          "id": 12,
+          "front": "Brunelleschi's Florence dome: main construction?",
+          "back": "1420–1436."
+        },
+        {
+          "id": 13,
+          "front": "What does a vanishing point organize?",
+          "back": "The apparent convergence of receding parallel lines in linear perspective."
+        },
+        {
+          "id": 14,
+          "front": "What did Alberti write about in De Pictura?",
+          "back": "A systematic approach to painting, including linear perspective."
+        },
+        {
+          "id": 15,
+          "front": "Why is 'Renaissance man' an incomplete explanation?",
+          "back": "Exceptional individuals relied on workshops, patrons and skilled collaborators."
+        },
+        {
+          "id": 16,
+          "front": "Who was Christine de Pizan?",
+          "back": "A writer who challenged hostile portrayals of women."
+        },
+        {
+          "id": 17,
+          "front": "Who was Isabella d'Este?",
+          "back": "A politically influential Mantuan patron and collector."
+        },
+        {
+          "id": 18,
+          "front": "Which painter exemplifies early Netherlandish detail?",
+          "back": "Jan van Eyck."
+        },
+        {
+          "id": 19,
+          "front": "Which German artist became a celebrated printmaker?",
+          "back": "Albrecht Dürer."
+        },
+        {
+          "id": 20,
+          "front": "What is Jikji?",
+          "back": "A Korean book printed with movable metal type in 1377."
+        },
+        {
+          "id": 21,
+          "front": "Gutenberg's city?",
+          "back": "Mainz."
+        },
+        {
+          "id": 22,
+          "front": "Approximate date of the Gutenberg Bible?",
+          "back": "About 1454–1455."
+        },
+        {
+          "id": 23,
+          "front": "What did Gutenberg's system combine?",
+          "back": "Reusable metal type, composition, suitable ink, pressure and skilled production."
+        },
+        {
+          "id": 24,
+          "front": "What are incunabula?",
+          "back": "European typographic books printed before 1501."
+        },
+        {
+          "id": 25,
+          "front": "Why did printing have high initial costs?",
+          "back": "Type, editing and composition preceded selling many copies."
+        },
+        {
+          "id": 26,
+          "front": "Why is Aldus Manutius famous?",
+          "back": "Scholarly editions, Greek printing and compact portable books in Venice."
+        },
+        {
+          "id": 27,
+          "front": "What was printed by Erasmus in 1516?",
+          "back": "A Greek New Testament accompanied by his Latin translation."
+        },
+        {
+          "id": 28,
+          "front": "What is an Octoechos?",
+          "back": "A liturgical book used in eastern Christian worship."
+        },
+        {
+          "id": 29,
+          "front": "What Cyrillic book appeared in Cetinje in 1494?",
+          "back": "The Cetinje Octoechos."
+        },
+        {
+          "id": 30,
+          "front": "Did printing guarantee truthful information?",
+          "back": "No. It also multiplied errors, polemic and propaganda."
+        }
+      ]
+    },
+    "025": {
+      "deck": "Reformation and Religious Conflict",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What year did Luther circulate the Ninety-Five Theses?",
+          "back": "1517."
+        },
+        {
+          "id": 2,
+          "front": "What practice did the Ninety-Five Theses criticize?",
+          "back": "Indulgence preaching and its claims."
+        },
+        {
+          "id": 3,
+          "front": "What is an indulgence in Catholic doctrine?",
+          "back": "Remission of temporal punishment after forgiveness."
+        },
+        {
+          "id": 4,
+          "front": "Who protected Luther after the Diet of Worms?",
+          "back": "Frederick the Wise of Saxony."
+        },
+        {
+          "id": 5,
+          "front": "What was the Diet of Worms?",
+          "back": "An imperial assembly where Luther was examined in 1521."
+        },
+        {
+          "id": 6,
+          "front": "What is justification by faith in Luther's teaching?",
+          "back": "Salvation rests on grace received through faith, not earned works."
+        },
+        {
+          "id": 7,
+          "front": "What does sola scriptura emphasize?",
+          "back": "Scripture's supreme authority over human traditions."
+        },
+        {
+          "id": 8,
+          "front": "What medium spread Reformation arguments widely?",
+          "back": "Printing, aided by preaching and images."
+        },
+        {
+          "id": 9,
+          "front": "What year was Luther's German New Testament printed?",
+          "back": "1522."
+        },
+        {
+          "id": 10,
+          "front": "What uprising spread in German lands in 1524–25?",
+          "back": "The German Peasants' War."
+        },
+        {
+          "id": 11,
+          "front": "What did many Anabaptists reject?",
+          "back": "Infant baptism."
+        },
+        {
+          "id": 12,
+          "front": "Which city was associated with Zwingli?",
+          "back": "Zurich."
+        },
+        {
+          "id": 13,
+          "front": "What topic divided Luther and Zwingli at Marburg?",
+          "back": "The Eucharist and Christ's presence."
+        },
+        {
+          "id": 14,
+          "front": "Who wrote Institutes of the Christian Religion?",
+          "back": "John Calvin."
+        },
+        {
+          "id": 15,
+          "front": "Where did Calvin exercise major influence?",
+          "back": "Geneva."
+        },
+        {
+          "id": 16,
+          "front": "What happened to Michael Servetus in 1553?",
+          "back": "He was executed for heresy in Geneva."
+        },
+        {
+          "id": 17,
+          "front": "What years did the Council of Trent meet?",
+          "back": "1545–1563, in three periods."
+        },
+        {
+          "id": 18,
+          "front": "What did Trent reform besides defining doctrine?",
+          "back": "Clergy education and pastoral discipline."
+        },
+        {
+          "id": 19,
+          "front": "When was the Society of Jesus approved?",
+          "back": "1540."
+        },
+        {
+          "id": 20,
+          "front": "Which 1534 English law declared royal church supremacy?",
+          "back": "The Act of Supremacy."
+        },
+        {
+          "id": 21,
+          "front": "What happened to many English monasteries in the 1530s?",
+          "back": "They were dissolved and their properties transferred."
+        },
+        {
+          "id": 22,
+          "front": "What did the Scottish Reformation Parliament do in 1560?",
+          "back": "Helped establish a Protestant settlement."
+        },
+        {
+          "id": 23,
+          "front": "What was distinctive about Reformation-era Orthodox Balkans?",
+          "back": "Different Orthodox institutions under Ottoman rule."
+        },
+        {
+          "id": 24,
+          "front": "What did the Warsaw Confederation of 1573 address?",
+          "back": "Religious peace among Polish-Lithuanian political estates."
+        },
+        {
+          "id": 25,
+          "front": "What is confessionalization?",
+          "back": "Church-state efforts to regulate belief and conduct."
+        },
+        {
+          "id": 26,
+          "front": "What were French Reformed Protestants called?",
+          "back": "Huguenots."
+        },
+        {
+          "id": 27,
+          "front": "When did Saint Bartholomew's Day violence begin?",
+          "back": "August 1572."
+        },
+        {
+          "id": 28,
+          "front": "What did the Edict of Nantes do in 1598?",
+          "back": "Granted defined protections to French Protestants."
+        },
+        {
+          "id": 29,
+          "front": "What did the Peace of Augsburg recognize in 1555?",
+          "back": "Catholic and Lutheran territorial arrangements."
+        },
+        {
+          "id": 30,
+          "front": "What settlement ended the Thirty Years' War in 1648?",
+          "back": "The Peace of Westphalia treaties."
+        }
+      ]
+    },
+    "026": {
+      "deck": "Indian Ocean Commerce and Asian Powers",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What oceanic climate pattern shaped sailing seasons?",
+          "back": "The monsoon system."
+        },
+        {
+          "id": 2,
+          "front": "What is an entrepôt?",
+          "back": "A center for storage and onward trade."
+        },
+        {
+          "id": 3,
+          "front": "Why did sailors wait months in some ports?",
+          "back": "For the right seasonal winds."
+        },
+        {
+          "id": 4,
+          "front": "What kind of Indian good was traded widely?",
+          "back": "Cotton textiles."
+        },
+        {
+          "id": 5,
+          "front": "Which Indian region exported major quantities of cloth?",
+          "back": "Gujarat."
+        },
+        {
+          "id": 6,
+          "front": "Which Indian coast was famed for pepper?",
+          "back": "The Malabar coast."
+        },
+        {
+          "id": 7,
+          "front": "Which port was ruled by the Zamorin?",
+          "back": "Calicut."
+        },
+        {
+          "id": 8,
+          "front": "What is the Coromandel coast known for in trade?",
+          "back": "Cotton textiles and Bay of Bengal links."
+        },
+        {
+          "id": 9,
+          "front": "What African civilization traded across this ocean?",
+          "back": "Swahili coastal cities."
+        },
+        {
+          "id": 10,
+          "front": "Name a major historic Swahili trading city.",
+          "back": "Kilwa."
+        },
+        {
+          "id": 11,
+          "front": "Which peninsula sheltered the port of Aden?",
+          "back": "The Arabian Peninsula."
+        },
+        {
+          "id": 12,
+          "front": "What is a key Gulf trading city near its entrance?",
+          "back": "Hormuz."
+        },
+        {
+          "id": 13,
+          "front": "What Malay port rose around 1400?",
+          "back": "Melaka."
+        },
+        {
+          "id": 14,
+          "front": "Which strait linked the Indian Ocean with the South China Sea?",
+          "back": "The Strait of Malacca."
+        },
+        {
+          "id": 15,
+          "front": "Who commanded major Ming ocean voyages?",
+          "back": "Zheng He."
+        },
+        {
+          "id": 16,
+          "front": "When did Zheng He's seven main expeditions occur?",
+          "back": "1405–1433."
+        },
+        {
+          "id": 17,
+          "front": "What was the basic purpose of a merchant diaspora?",
+          "back": "Sustained connections across several places."
+        },
+        {
+          "id": 18,
+          "front": "Where were cloves historically concentrated?",
+          "back": "The northern Moluccas."
+        },
+        {
+          "id": 19,
+          "front": "Which islands were famous for nutmeg and mace?",
+          "back": "The Banda Islands."
+        },
+        {
+          "id": 20,
+          "front": "In what year did Vasco da Gama reach Calicut?",
+          "back": "1498."
+        },
+        {
+          "id": 21,
+          "front": "In what year did Portugal capture Goa?",
+          "back": "1510."
+        },
+        {
+          "id": 22,
+          "front": "When did Portugal capture Melaka?",
+          "back": "1511."
+        },
+        {
+          "id": 23,
+          "front": "What was the Portuguese maritime pass called?",
+          "back": "Cartaz."
+        },
+        {
+          "id": 24,
+          "front": "What was the Estado da Índia?",
+          "back": "A network of Portuguese Asian outposts and officials."
+        },
+        {
+          "id": 25,
+          "front": "What naval battle did Portugal win in 1509?",
+          "back": "Diu."
+        },
+        {
+          "id": 26,
+          "front": "What empire conquered Egypt in 1517?",
+          "back": "The Ottoman Empire."
+        },
+        {
+          "id": 27,
+          "front": "What empire incorporated Gujarat in the 1570s?",
+          "back": "The Mughal Empire."
+        },
+        {
+          "id": 28,
+          "front": "Name a major Sumatran rival of Portuguese Melaka.",
+          "back": "Aceh."
+        },
+        {
+          "id": 29,
+          "front": "When was the Dutch VOC founded?",
+          "back": "1602."
+        },
+        {
+          "id": 30,
+          "front": "Why does a military port not guarantee trade monopoly?",
+          "back": "Enforcement is costly and trade can reroute."
+        }
+      ]
+    },
+    "027": {
+      "deck": "European Maritime Expansion",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What does 'discovery' require qualifying?",
+          "back": "Whose knowledge changed, not first habitation."
+        },
+        {
+          "id": 2,
+          "front": "Why seek routes beyond the Mediterranean?",
+          "back": "Revenue, leverage, trade and royal rivalry."
+        },
+        {
+          "id": 3,
+          "front": "Did the Ottomans stop all Asia–Europe trade?",
+          "back": "No; multiple routes continued."
+        },
+        {
+          "id": 4,
+          "front": "What is dead reckoning?",
+          "back": "Position estimated from course, speed and time."
+        },
+        {
+          "id": 5,
+          "front": "Which coordinate was especially difficult at sea?",
+          "back": "Longitude."
+        },
+        {
+          "id": 6,
+          "front": "What is the volta do mar?",
+          "back": "Using Atlantic winds via an indirect return course."
+        },
+        {
+          "id": 7,
+          "front": "When did Portugal take Ceuta?",
+          "back": "1415."
+        },
+        {
+          "id": 8,
+          "front": "Which Atlantic islands provided colonial precedents?",
+          "back": "Madeira, Azores, Canaries and others."
+        },
+        {
+          "id": 9,
+          "front": "What is uncertain about Henry's 'school'?",
+          "back": "A single formal navigational academy is unproven."
+        },
+        {
+          "id": 10,
+          "front": "Why was Elmina significant?",
+          "back": "Portuguese Gold Coast fort founded in 1482."
+        },
+        {
+          "id": 11,
+          "front": "When did Dias round southern Africa?",
+          "back": "1488."
+        },
+        {
+          "id": 12,
+          "front": "When did da Gama reach Calicut?",
+          "back": "1498."
+        },
+        {
+          "id": 13,
+          "front": "Why was Columbus's route estimate wrong?",
+          "back": "He underestimated the westward distance to Asia."
+        },
+        {
+          "id": 14,
+          "front": "What region did Columbus reach in 1492?",
+          "back": "The Caribbean, including the Bahamas."
+        },
+        {
+          "id": 15,
+          "front": "Who inhabited the Caribbean before Columbus?",
+          "back": "Indigenous peoples, including Taíno communities."
+        },
+        {
+          "id": 16,
+          "front": "What did Waldseemüller's 1507 map name?",
+          "back": "America."
+        },
+        {
+          "id": 17,
+          "front": "What did Tordesillas divide in 1494?",
+          "back": "Iberian overseas claims, not inhabited peoples."
+        },
+        {
+          "id": 18,
+          "front": "Who reached Brazil on a Portuguese voyage in 1500?",
+          "back": "Pedro Álvares Cabral."
+        },
+        {
+          "id": 19,
+          "front": "Who completed the first circumnavigation?",
+          "back": "Elcano and the Victoria's surviving crew."
+        },
+        {
+          "id": 20,
+          "front": "When was the circumnavigation completed?",
+          "back": "1522."
+        },
+        {
+          "id": 21,
+          "front": "Who used Pacific wayfinding before Europeans?",
+          "back": "Pacific Indigenous navigators and communities."
+        },
+        {
+          "id": 22,
+          "front": "What happened at Tenochtitlan in 1521?",
+          "back": "A Spanish-Indigenous coalition captured the city."
+        },
+        {
+          "id": 23,
+          "front": "Why were Indigenous allies important in Mexico?",
+          "back": "They provided forces, knowledge and political support."
+        },
+        {
+          "id": 24,
+          "front": "Where was Atahualpa captured in 1532?",
+          "back": "Cajamarca."
+        },
+        {
+          "id": 25,
+          "front": "When did Vilcabamba's Neo-Inca polity fall?",
+          "back": "1572."
+        },
+        {
+          "id": 26,
+          "front": "What was encomienda?",
+          "back": "Colonial rights to specified Indigenous tribute/labor."
+        },
+        {
+          "id": 27,
+          "front": "What is the distinction between claim and control?",
+          "back": "Paper rights versus enforceable authority."
+        },
+        {
+          "id": 28,
+          "front": "Which crop drove early Atlantic plantations?",
+          "back": "Sugarcane."
+        },
+        {
+          "id": 29,
+          "front": "Did early Portuguese coastal forts rule all Africa?",
+          "back": "No; they relied on African markets and rulers."
+        },
+        {
+          "id": 30,
+          "front": "What is the main lesson of Chapter 27?",
+          "back": "New routes linked worlds amid conquest and coercion."
+        }
+      ]
+    },
+    "028": {
+      "deck": "The Columbian Exchange",
+      "cards": [
+        {
+          "id": 1,
+          "front": "No.",
+          "back": "Prompt"
+        },
+        {
+          "id": 2,
+          "front": "1",
+          "back": "What is the Columbian Exchange?"
+        },
+        {
+          "id": 3,
+          "front": "2",
+          "back": "Who popularized its historical name?"
+        },
+        {
+          "id": 4,
+          "front": "3",
+          "back": "Which event marks sustained Atlantic exchange?"
+        },
+        {
+          "id": 5,
+          "front": "4",
+          "back": "Introduction versus establishment?"
+        },
+        {
+          "id": 6,
+          "front": "5",
+          "back": "Name three American-origin crops."
+        },
+        {
+          "id": 7,
+          "front": "6",
+          "back": "Origin of the ordinary potato?"
+        },
+        {
+          "id": 8,
+          "front": "7",
+          "back": "What is chuño?"
+        },
+        {
+          "id": 9,
+          "front": "8",
+          "back": "Where was maize domesticated?"
+        },
+        {
+          "id": 10,
+          "front": "9",
+          "back": "What is nixtamalization?"
+        },
+        {
+          "id": 11,
+          "front": "10",
+          "back": "Why is cassava processing important?"
+        },
+        {
+          "id": 12,
+          "front": "11",
+          "back": "What crop reached Polynesia before 1492?"
+        },
+        {
+          "id": 13,
+          "front": "12",
+          "back": "Name two American-origin flavor crops."
+        },
+        {
+          "id": 14,
+          "front": "13",
+          "back": "Where did cacao originate?"
+        },
+        {
+          "id": 15,
+          "front": "14",
+          "back": "Name three Old World crops introduced westward."
+        },
+        {
+          "id": 16,
+          "front": "15",
+          "back": "Name two Old World livestock introduced."
+        },
+        {
+          "id": 17,
+          "front": "16",
+          "back": "Were there American domesticated animals?"
+        },
+        {
+          "id": 18,
+          "front": "17",
+          "back": "What changed with the spread of horses?"
+        },
+        {
+          "id": 19,
+          "front": "18",
+          "back": "Why were epidemic losses so severe?"
+        },
+        {
+          "id": 20,
+          "front": "19",
+          "back": "Does “no prior immunity” mean no immune system?"
+        },
+        {
+          "id": 21,
+          "front": "20",
+          "back": "Two drivers besides disease of population loss?"
+        },
+        {
+          "id": 22,
+          "front": "21",
+          "back": "Why are early population totals uncertain?"
+        },
+        {
+          "id": 23,
+          "front": "22",
+          "back": "Why avoid one continental epidemic date?"
+        },
+        {
+          "id": 24,
+          "front": "23",
+          "back": "What is ecological imperialism?"
+        },
+        {
+          "id": 25,
+          "front": "24",
+          "back": "What does monoculture risk?"
+        },
+        {
+          "id": 26,
+          "front": "25",
+          "back": "What did the sugar economy depend on?"
+        },
+        {
+          "id": 27,
+          "front": "26",
+          "back": "Which crop reshaped many African diets?"
+        },
+        {
+          "id": 28,
+          "front": "27",
+          "back": "What is an indirect diffusion route?"
+        },
+        {
+          "id": 29,
+          "front": "28",
+          "back": "What is the abandoned-land hypothesis?"
+        },
+        {
+          "id": 30,
+          "front": "29",
+          "back": "Why is that climate link contested?"
+        },
+        {
+          "id": 31,
+          "front": "30",
+          "back": "What follows in Chapter 29?"
+        }
+      ]
+    },
+    "029": {
+      "deck": "Atlantic Slavery and Plantation Economies",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What does “Middle Passage” mean?",
+          "back": "The forced Atlantic sea crossing of captives."
+        },
+        {
+          "id": 2,
+          "front": "Approximate African captives embarked?",
+          "back": "About 12.5 million; a reconstructed estimate."
+        },
+        {
+          "id": 3,
+          "front": "Approximate African captives disembarked?",
+          "back": "About 10.7 million; estimate varies by method."
+        },
+        {
+          "id": 4,
+          "front": "What is chattel slavery?",
+          "back": "People legally treated as transferable property."
+        },
+        {
+          "id": 5,
+          "front": "Why is “Africa” not one actor?",
+          "back": "Many states and communities held different interests."
+        },
+        {
+          "id": 6,
+          "front": "What is an embarkation port?",
+          "back": "Where captives boarded a transatlantic vessel."
+        },
+        {
+          "id": 7,
+          "front": "Why is ship mortality incomplete?",
+          "back": "It excludes deaths before and after the crossing."
+        },
+        {
+          "id": 8,
+          "front": "Largest broad arrival regions?",
+          "back": "Brazil and the Caribbean."
+        },
+        {
+          "id": 9,
+          "front": "What does “triangular trade” omit?",
+          "back": "Direct routes and intra-American trafficking."
+        },
+        {
+          "id": 10,
+          "front": "What did plantations organize?",
+          "back": "Coerced work, residence, production and discipline."
+        },
+        {
+          "id": 11,
+          "front": "Which commodity drove Caribbean slavery?",
+          "back": "Sugar was especially influential."
+        },
+        {
+          "id": 12,
+          "front": "One crop using African expertise?",
+          "back": "Rice, including water management and cultivation."
+        },
+        {
+          "id": 13,
+          "front": "Cotton’s major industrial link?",
+          "back": "Raw fiber supplied textile mills."
+        },
+        {
+          "id": 14,
+          "front": "What did the Zong case expose?",
+          "back": "Human lives treated as insurance claims."
+        },
+        {
+          "id": 15,
+          "front": "What did hereditary status imply?",
+          "back": "Children could inherit an enslaved legal status."
+        },
+        {
+          "id": 16,
+          "front": "What is creolization?",
+          "back": "Creation of new cultures through sustained contact."
+        },
+        {
+          "id": 17,
+          "front": "One form of daily resistance?",
+          "back": "Escape, work slowdown or protected cultural practice."
+        },
+        {
+          "id": 18,
+          "front": "What were maroon communities?",
+          "back": "Settlements formed by people escaping enslavement."
+        },
+        {
+          "id": 19,
+          "front": "Where was Palmares?",
+          "back": "In northeastern Brazil."
+        },
+        {
+          "id": 20,
+          "front": "Haitian uprising began in what year?",
+          "back": "1791."
+        },
+        {
+          "id": 21,
+          "front": "Haiti declared independence when?",
+          "back": "1804."
+        },
+        {
+          "id": 22,
+          "front": "British slave trade banned when?",
+          "back": "1807."
+        },
+        {
+          "id": 23,
+          "front": "British abolition act passed when?",
+          "back": "1833; mainly implemented from 1834."
+        },
+        {
+          "id": 24,
+          "front": "British Caribbean apprenticeship ended?",
+          "back": "1838."
+        },
+        {
+          "id": 25,
+          "front": "British compensation went to whom?",
+          "back": "Former enslavers, not enslaved workers."
+        },
+        {
+          "id": 26,
+          "front": "Cuban slavery formally ended when?",
+          "back": "1886."
+        },
+        {
+          "id": 27,
+          "front": "Brazilian slavery formally ended when?",
+          "back": "1888."
+        },
+        {
+          "id": 28,
+          "front": "U.S. slavery abolished by which amendment?",
+          "back": "Thirteenth Amendment, ratified in 1865."
+        },
+        {
+          "id": 29,
+          "front": "What is “reading against the grain”?",
+          "back": "Seeking silenced perspectives in hostile records."
+        },
+        {
+          "id": 30,
+          "front": "Emancipation vs equality?",
+          "back": "Legal freedom did not guarantee land or security."
+        }
+      ]
+    },
+    "030": {
+      "deck": "The Qing, Mughal, and Ottoman Worlds",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Which dynasty took Beijing in 1644?",
+          "back": "The Qing, founded by Manchu rulers."
+        },
+        {
+          "id": 2,
+          "front": "When was the Mughal dynasty founded?",
+          "back": "1526, after Babur’s victory at Panipat."
+        },
+        {
+          "id": 3,
+          "front": "Main Ottoman imperial capital after 1453?",
+          "back": "Istanbul (Constantinople)."
+        },
+        {
+          "id": 4,
+          "front": "Qing social-military institutions?",
+          "back": "The Eight Banners."
+        },
+        {
+          "id": 5,
+          "front": "Other major Qing army?",
+          "back": "The Green Standard Army."
+        },
+        {
+          "id": 6,
+          "front": "Three notable high Qing emperors?",
+          "back": "Kangxi, Yongzheng, Qianlong."
+        },
+        {
+          "id": 7,
+          "front": "One Qing frontier rival?",
+          "back": "The Dzungar polity in Inner Asia."
+        },
+        {
+          "id": 8,
+          "front": "Qing civil official recruitment?",
+          "back": "Competitive classical examinations."
+        },
+        {
+          "id": 9,
+          "front": "Three key Qing exports?",
+          "back": "Tea, silk and porcelain."
+        },
+        {
+          "id": 10,
+          "front": "Qing Western trading port system?",
+          "back": "The Canton trade system."
+        },
+        {
+          "id": 11,
+          "front": "Who founded the Mughal dynasty?",
+          "back": "Babur."
+        },
+        {
+          "id": 12,
+          "front": "Which Mughal ruled 1556–1605?",
+          "back": "Akbar."
+        },
+        {
+          "id": 13,
+          "front": "What is sulh-i kul?",
+          "back": "An ideal of broad peace or accommodation."
+        },
+        {
+          "id": 14,
+          "front": "What is a mansab?",
+          "back": "A Mughal rank with service obligations."
+        },
+        {
+          "id": 15,
+          "front": "What is a jagir?",
+          "back": "An assignment of specified land revenues."
+        },
+        {
+          "id": 16,
+          "front": "One major Mughal export?",
+          "back": "Cotton textiles."
+        },
+        {
+          "id": 17,
+          "front": "Which emperor commissioned Taj Mahal?",
+          "back": "Shah Jahan."
+        },
+        {
+          "id": 18,
+          "front": "One influential Mughal royal woman?",
+          "back": "Nur Jahan."
+        },
+        {
+          "id": 19,
+          "front": "Aurangzeb’s reign ended when?",
+          "back": "1707."
+        },
+        {
+          "id": 20,
+          "front": "What happened at Plassey?",
+          "back": "East India Company victory in Bengal, 1757."
+        },
+        {
+          "id": 21,
+          "front": "What was the 1765 diwani grant?",
+          "back": "Company right to collect major Bengal-region revenue."
+        },
+        {
+          "id": 22,
+          "front": "Ottoman conquest of Egypt?",
+          "back": "1517, under Selim I."
+        },
+        {
+          "id": 23,
+          "front": "Ottoman ruler at Mohács 1526?",
+          "back": "Süleyman I."
+        },
+        {
+          "id": 24,
+          "front": "What was a timar?",
+          "back": "Revenue assignment supporting cavalry service."
+        },
+        {
+          "id": 25,
+          "front": "Who were the janissaries?",
+          "back": "Ottoman centrally paid infantry corps."
+        },
+        {
+          "id": 26,
+          "front": "What is tax farming?",
+          "back": "Granting a collector rights to specified taxes."
+        },
+        {
+          "id": 27,
+          "front": "What was a waqf?",
+          "back": "An endowment supporting religious or public purposes."
+        },
+        {
+          "id": 28,
+          "front": "Who were Ottoman kadis?",
+          "back": "Judges serving in Islamic legal institutions."
+        },
+        {
+          "id": 29,
+          "front": "Key Safavid religious affiliation?",
+          "back": "Twelver Shi’ism."
+        },
+        {
+          "id": 30,
+          "front": "Why challenge “inevitable decline”?",
+          "back": "Dynastic, economic and social change differ."
+        }
+      ]
+    },
+    "031": {
+      "deck": "Scientific Revolution and Enlightenment",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What did Copernicus publish in 1543?",
+          "back": "De revolutionibus, proposing a moving Earth."
+        },
+        {
+          "id": 2,
+          "front": "What is geocentrism?",
+          "back": "A model with Earth at the center or at rest."
+        },
+        {
+          "id": 3,
+          "front": "What is heliocentrism?",
+          "back": "A model with planets orbiting the Sun."
+        },
+        {
+          "id": 4,
+          "front": "What did Tycho Brahe supply?",
+          "back": "Exceptionally precise pre-telescope observations."
+        },
+        {
+          "id": 5,
+          "front": "What shape did Kepler assign orbits?",
+          "back": "Ellipses, with the Sun at one focus."
+        },
+        {
+          "id": 6,
+          "front": "Which planet exposed Kepler’s model error?",
+          "back": "Mars."
+        },
+        {
+          "id": 7,
+          "front": "What orbited Jupiter in Galileo’s view?",
+          "back": "Four large moons, observed in 1610."
+        },
+        {
+          "id": 8,
+          "front": "What did Venus’s phases challenge?",
+          "back": "The traditional Ptolemaic planetary arrangement."
+        },
+        {
+          "id": 9,
+          "front": "When was Galileo condemned?",
+          "back": "1633."
+        },
+        {
+          "id": 10,
+          "front": "What does Bacon’s “idols” concept concern?",
+          "back": "Sources of error in human judgment."
+        },
+        {
+          "id": 11,
+          "front": "What is Boyle’s law?",
+          "back": "Gas pressure varies inversely with volume in suitable conditions."
+        },
+        {
+          "id": 12,
+          "front": "Which work did Newton publish in 1687?",
+          "back": "The Principia."
+        },
+        {
+          "id": 13,
+          "front": "How does gravity change if distance doubles?",
+          "back": "Force is one quarter, under inverse-square assumptions."
+        },
+        {
+          "id": 14,
+          "front": "Two independent calculus pioneers?",
+          "back": "Newton and Leibniz."
+        },
+        {
+          "id": 15,
+          "front": "When was the Royal Society founded?",
+          "back": "1660; royal charter in 1662."
+        },
+        {
+          "id": 16,
+          "front": "Which scientific periodical began in 1665?",
+          "back": "Philosophical Transactions."
+        },
+        {
+          "id": 17,
+          "front": "Who illustrated “cells” in cork?",
+          "back": "Robert Hooke."
+        },
+        {
+          "id": 18,
+          "front": "Who argued blood circulates in 1628?",
+          "back": "William Harvey."
+        },
+        {
+          "id": 19,
+          "front": "What was phlogiston?",
+          "back": "A historical proposed principle associated with combustion."
+        },
+        {
+          "id": 20,
+          "front": "Who helped reform chemistry in 1789?",
+          "back": "Antoine-Laurent Lavoisier."
+        },
+        {
+          "id": 21,
+          "front": "Who documented insect metamorphosis?",
+          "back": "Maria Sibylla Merian."
+        },
+        {
+          "id": 22,
+          "front": "Who interpreted Newtonian physics in France?",
+          "back": "Émilie du Châtelet."
+        },
+        {
+          "id": 23,
+          "front": "Who wrote Two Treatises of Government?",
+          "back": "John Locke."
+        },
+        {
+          "id": 24,
+          "front": "Who wrote The Spirit of the Laws?",
+          "back": "Montesquieu, 1748."
+        },
+        {
+          "id": 25,
+          "front": "Who wrote The Social Contract?",
+          "back": "Jean-Jacques Rousseau, 1762."
+        },
+        {
+          "id": 26,
+          "front": "Who campaigned in the Calas affair?",
+          "back": "Voltaire."
+        },
+        {
+          "id": 27,
+          "front": "Lead editors of the French Encyclopédie?",
+          "back": "Diderot and d’Alembert."
+        },
+        {
+          "id": 28,
+          "front": "Who wrote The Wealth of Nations in 1776?",
+          "back": "Adam Smith."
+        },
+        {
+          "id": 29,
+          "front": "Who wrote A Vindication of the Rights of Woman?",
+          "back": "Mary Wollstonecraft, 1792."
+        },
+        {
+          "id": 30,
+          "front": "What is Enlightenment a good reminder of?",
+          "back": "Ask who could exercise its claimed universal rights."
+        }
+      ]
+    },
+    "032": {
+      "deck": "Atlantic Revolutions and Citizenship",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What is popular sovereignty?",
+          "back": "The people are the ultimate source of legitimate political authority."
+        },
+        {
+          "id": 2,
+          "front": "What is a revolution's constitutional claim?",
+          "back": "An argument about who has lawful authority to govern."
+        },
+        {
+          "id": 3,
+          "front": "Seven Years' War ended when?",
+          "back": "1763."
+        },
+        {
+          "id": 4,
+          "front": "Which British tax triggered 1765 protests?",
+          "back": "The Stamp Act."
+        },
+        {
+          "id": 5,
+          "front": "Boston Tea Party occurred when?",
+          "back": "December 1773."
+        },
+        {
+          "id": 6,
+          "front": "First mainland fighting of American Revolution?",
+          "back": "Lexington and Concord, April 1775."
+        },
+        {
+          "id": 7,
+          "front": "American independence declared when?",
+          "back": "4 July 1776."
+        },
+        {
+          "id": 8,
+          "front": "Who wrote Common Sense?",
+          "back": "Thomas Paine."
+        },
+        {
+          "id": 9,
+          "front": "Which country allied with the US in 1778?",
+          "back": "France."
+        },
+        {
+          "id": 10,
+          "front": "Which siege culminated in British surrender in 1781?",
+          "back": "Yorktown."
+        },
+        {
+          "id": 11,
+          "front": "Which treaty recognized US independence?",
+          "back": "Treaty of Paris, 1783."
+        },
+        {
+          "id": 12,
+          "front": "Which US constitution was signed in 1787?",
+          "back": "The federal Constitution of the United States."
+        },
+        {
+          "id": 13,
+          "front": "When were the US Bill of Rights ratified?",
+          "back": "1791."
+        },
+        {
+          "id": 14,
+          "front": "What were France's three estates?",
+          "back": "Clergy, nobility, and everyone else (Third Estate)."
+        },
+        {
+          "id": 15,
+          "front": "What was the Tennis Court Oath about?",
+          "back": "A commitment to establish a French constitution."
+        },
+        {
+          "id": 16,
+          "front": "When was the Bastille stormed?",
+          "back": "14 July 1789."
+        },
+        {
+          "id": 17,
+          "front": "French Declaration of Rights adopted when?",
+          "back": "26 August 1789."
+        },
+        {
+          "id": 18,
+          "front": "What was the Great Fear?",
+          "back": "Rural panic and unrest in France during 1789."
+        },
+        {
+          "id": 19,
+          "front": "Who wrote the Declaration of Rights of Woman?",
+          "back": "Olympe de Gouges, in 1791."
+        },
+        {
+          "id": 20,
+          "front": "When was France proclaimed a republic?",
+          "back": "September 1792."
+        },
+        {
+          "id": 21,
+          "front": "When was Louis XVI executed?",
+          "back": "January 1793."
+        },
+        {
+          "id": 22,
+          "front": "What was 9 Thermidor?",
+          "back": "The fall of Robespierre in July 1794."
+        },
+        {
+          "id": 23,
+          "front": "What happened on 18 Brumaire in 1799?",
+          "back": "Napoleon Bonaparte's coup."
+        },
+        {
+          "id": 24,
+          "front": "Which colony became Haiti?",
+          "back": "French Saint-Domingue."
+        },
+        {
+          "id": 25,
+          "front": "Saint-Domingue's major uprising began when?",
+          "back": "August 1791."
+        },
+        {
+          "id": 26,
+          "front": "French colonial slavery abolished when?",
+          "back": "February 1794; implementation varied by colony."
+        },
+        {
+          "id": 27,
+          "front": "Who led Saint-Domingue's 1801 constitutional regime?",
+          "back": "Toussaint Louverture."
+        },
+        {
+          "id": 28,
+          "front": "Haitian independence declared when?",
+          "back": "1 January 1804."
+        },
+        {
+          "id": 29,
+          "front": "When did France recognize Haiti under indemnity?",
+          "back": "1825."
+        },
+        {
+          "id": 30,
+          "front": "What does emancipation mean?",
+          "back": "Release from slavery or legally enforced bondage."
+        }
+      ]
+    },
+    "033": {
+      "deck": "Latin American Independence and State Building",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What event disrupted Spanish royal legitimacy in 1808?",
+          "back": "Napoleon’s intervention and the Bourbon abdications."
+        },
+        {
+          "id": 2,
+          "front": "A junta was what?",
+          "back": "A provisional governing council claiming political authority."
+        },
+        {
+          "id": 3,
+          "front": "Criollo describes whom?",
+          "back": "A person of Spanish descent born in the Americas."
+        },
+        {
+          "id": 4,
+          "front": "Peninsular describes whom?",
+          "back": "A person born in Iberia, in this setting Spain."
+        },
+        {
+          "id": 5,
+          "front": "Cádiz Constitution adopted in what year?",
+          "back": "1812."
+        },
+        {
+          "id": 6,
+          "front": "Ferdinand VII restored absolutism in what year?",
+          "back": "1814."
+        },
+        {
+          "id": 7,
+          "front": "Who began the major 1780 Andean rebellion?",
+          "back": "Túpac Amaru II."
+        },
+        {
+          "id": 8,
+          "front": "Venezuela declared independence in what year?",
+          "back": "1811."
+        },
+        {
+          "id": 9,
+          "front": "Who wrote the Jamaica Letter in 1815?",
+          "back": "Simón Bolívar."
+        },
+        {
+          "id": 10,
+          "front": "Battle of Boyacá took place when?",
+          "back": "1819."
+        },
+        {
+          "id": 11,
+          "front": "Constitution of Cúcuta adopted when?",
+          "back": "1821."
+        },
+        {
+          "id": 12,
+          "front": "Victory at Pichincha in 1822 led by whom?",
+          "back": "Antonio José de Sucre."
+        },
+        {
+          "id": 13,
+          "front": "Haitian president who supported Bolívar?",
+          "back": "Alexandre Pétion."
+        },
+        {
+          "id": 14,
+          "front": "May Revolution in Buenos Aires occurred when?",
+          "back": "1810."
+        },
+        {
+          "id": 15,
+          "front": "Río de la Plata independence declared when?",
+          "back": "1816."
+        },
+        {
+          "id": 16,
+          "front": "Who led the army across the Andes into Chile?",
+          "back": "José de San Martín."
+        },
+        {
+          "id": 17,
+          "front": "Battle of Maipú occurred when?",
+          "back": "1818."
+        },
+        {
+          "id": 18,
+          "front": "Ayacucho victory occurred when?",
+          "back": "1824."
+        },
+        {
+          "id": 19,
+          "front": "Bolivia declared independence when?",
+          "back": "1825."
+        },
+        {
+          "id": 20,
+          "front": "Who launched Mexico’s 1810 uprising?",
+          "back": "Miguel Hidalgo y Costilla."
+        },
+        {
+          "id": 21,
+          "front": "Mexican independence recognized locally when?",
+          "back": "1821."
+        },
+        {
+          "id": 22,
+          "front": "What did the Three Guarantees include?",
+          "back": "Religion, independence, and unity."
+        },
+        {
+          "id": 23,
+          "front": "Brazilian independence declared when?",
+          "back": "1822."
+        },
+        {
+          "id": 24,
+          "front": "Brazil became independent under which ruler?",
+          "back": "Pedro I."
+        },
+        {
+          "id": 25,
+          "front": "Brazil abolished slavery when?",
+          "back": "1888."
+        },
+        {
+          "id": 26,
+          "front": "What was Gran Colombia?",
+          "back": "A union of northern South American territories."
+        },
+        {
+          "id": 27,
+          "front": "What is federalism?",
+          "back": "Sharing powers between central and regional governments."
+        },
+        {
+          "id": 28,
+          "front": "What is a caudillo?",
+          "back": "A leader relying heavily on personal and local followings."
+        },
+        {
+          "id": 29,
+          "front": "Monroe Doctrine announced when?",
+          "back": "1823."
+        },
+        {
+          "id": 30,
+          "front": "Congress of Panama met when?",
+          "back": "1826."
+        }
+      ]
+    },
+    "034": {
+      "deck": "Industrialization and Urban Society",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What is mechanization?",
+          "back": "Using machinery to perform specific labor tasks."
+        },
+        {
+          "id": 2,
+          "front": "What is labor productivity?",
+          "back": "Output per unit of labor input."
+        },
+        {
+          "id": 3,
+          "front": "What is proto-industrial putting-out?",
+          "back": "Merchants organizing production in dispersed households."
+        },
+        {
+          "id": 4,
+          "front": "Which country industrialized first at large scale?",
+          "back": "Britain, beginning in the eighteenth century."
+        },
+        {
+          "id": 5,
+          "front": "What key fuel powered later steam industry?",
+          "back": "Coal."
+        },
+        {
+          "id": 6,
+          "front": "Which region excelled in cotton textiles before British mills?",
+          "back": "India."
+        },
+        {
+          "id": 7,
+          "front": "What is a bottleneck in production?",
+          "back": "The stage limiting overall output."
+        },
+        {
+          "id": 8,
+          "front": "Who developed the spinning jenny?",
+          "back": "James Hargreaves."
+        },
+        {
+          "id": 9,
+          "front": "Who developed the water frame?",
+          "back": "Richard Arkwright."
+        },
+        {
+          "id": 10,
+          "front": "Who developed the spinning mule?",
+          "back": "Samuel Crompton."
+        },
+        {
+          "id": 11,
+          "front": "Who patented an early power loom?",
+          "back": "Edmund Cartwright."
+        },
+        {
+          "id": 12,
+          "front": "Who improved steam efficiency with a separate condenser?",
+          "back": "James Watt."
+        },
+        {
+          "id": 13,
+          "front": "Who built earlier atmospheric steam engines?",
+          "back": "Thomas Newcomen."
+        },
+        {
+          "id": 14,
+          "front": "What was coke used for?",
+          "back": "Fuel for iron smelting, made from coal."
+        },
+        {
+          "id": 15,
+          "front": "Stockton and Darlington Railway opened when?",
+          "back": "1825."
+        },
+        {
+          "id": 16,
+          "front": "Liverpool and Manchester Railway opened when?",
+          "back": "1830."
+        },
+        {
+          "id": 17,
+          "front": "What did the 1833 Factory Act create?",
+          "back": "Child labor limits and a factory inspectorate."
+        },
+        {
+          "id": 18,
+          "front": "The Ten Hours Act was passed when?",
+          "back": "1847."
+        },
+        {
+          "id": 19,
+          "front": "Who were Luddites?",
+          "back": "Workers resisting harmful mechanization and labor changes."
+        },
+        {
+          "id": 20,
+          "front": "What is a real wage?",
+          "back": "Earnings adjusted for changes in prices."
+        },
+        {
+          "id": 21,
+          "front": "What is Engels' pause?",
+          "back": "Productivity gains initially outpacing typical wage gains."
+        },
+        {
+          "id": 22,
+          "front": "Which physician investigated Soho cholera in 1854?",
+          "back": "John Snow."
+        },
+        {
+          "id": 23,
+          "front": "How is cholera mainly transmitted?",
+          "back": "Through water or food contaminated with the bacterium."
+        },
+        {
+          "id": 24,
+          "front": "Where was the textile city of Lowell?",
+          "back": "Massachusetts, United States."
+        },
+        {
+          "id": 25,
+          "front": "What did Chartists demand?",
+          "back": "Political and electoral reform in Britain."
+        },
+        {
+          "id": 26,
+          "front": "What is an economic externality?",
+          "back": "A cost or benefit imposed on uninvolved others."
+        },
+        {
+          "id": 27,
+          "front": "What date marks the Meiji Restoration?",
+          "back": "1868."
+        },
+        {
+          "id": 28,
+          "front": "What was the Zollverein?",
+          "back": "A German customs union fostering market integration."
+        },
+        {
+          "id": 29,
+          "front": "What does a railway network effect mean?",
+          "back": "Connected routes become more valuable together."
+        },
+        {
+          "id": 30,
+          "front": "What is sustained industrial growth's central possibility?",
+          "back": "Higher long-term productivity and material living standards."
+        }
+      ]
+    },
+    "035": {
+      "deck": "Imperialism and African Partition",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What does <em>Scramble for Africa</em> mean?",
+          "back": "Rapid European territorial claims, invasions and colonial occupations in Africa, especially c. 1880–1914."
+        },
+        {
+          "id": 2,
+          "front": "What is a protectorate?",
+          "back": "A territory under a stronger power’s asserted protection, often with curtailed external sovereignty."
+        },
+        {
+          "id": 3,
+          "front": "What is indirect rule?",
+          "back": "Colonial administration using local authorities and institutions under external control."
+        },
+        {
+          "id": 4,
+          "front": "What is effective occupation?",
+          "back": "Claimed possession supported by sufficiently established authority, not proclamation alone."
+        },
+        {
+          "id": 5,
+          "front": "When did the Berlin Conference meet?",
+          "back": "15 November 1884 to 26 February 1885."
+        },
+        {
+          "id": 6,
+          "front": "Who hosted the Berlin Conference?",
+          "back": "German chancellor Otto von Bismarck."
+        },
+        {
+          "id": 7,
+          "front": "Were African rulers represented at Berlin?",
+          "back": "No; African sovereigns were not official participants."
+        },
+        {
+          "id": 8,
+          "front": "What did the Berlin General Act address?",
+          "back": "Congo/Niger navigation, regional trade, anti-slave-trade provisions, and coastal occupation rules."
+        },
+        {
+          "id": 9,
+          "front": "What year did Suez open?",
+          "back": "1869."
+        },
+        {
+          "id": 10,
+          "front": "When did Britain occupy Egypt?",
+          "back": "1882."
+        },
+        {
+          "id": 11,
+          "front": "When was the Congo Free State established?",
+          "back": "1885."
+        },
+        {
+          "id": 12,
+          "front": "Who controlled it personally?",
+          "back": "Belgium’s King Leopold II."
+        },
+        {
+          "id": 13,
+          "front": "When did Belgium annex the Congo Free State?",
+          "back": "1908."
+        },
+        {
+          "id": 14,
+          "front": "What was the Force Publique?",
+          "back": "The Congo Free State’s colonial armed force, used for conquest and policing."
+        },
+        {
+          "id": 15,
+          "front": "Who was Samori Touré?",
+          "back": "West African empire-builder who resisted French expansion; captured in 1898."
+        },
+        {
+          "id": 16,
+          "front": "Who was Yaa Asantewaa?",
+          "back": "Asante leader of the 1900 resistance against British imperial power."
+        },
+        {
+          "id": 17,
+          "front": "When was the Maji Maji uprising?",
+          "back": "1905–1907."
+        },
+        {
+          "id": 18,
+          "front": "Where did Maji Maji take place?",
+          "back": "German East Africa, mainly present-day Tanzania."
+        },
+        {
+          "id": 19,
+          "front": "What was the Mahdist state?",
+          "back": "A Sudanese state founded by a religious anti-Egyptian uprising in the 1880s."
+        },
+        {
+          "id": 20,
+          "front": "When was the Battle of Adwa?",
+          "back": "1 March 1896."
+        },
+        {
+          "id": 21,
+          "front": "Who led Ethiopia at Adwa?",
+          "back": "Emperor Menelik II, alongside Empress Taytu and other commanders."
+        },
+        {
+          "id": 22,
+          "front": "What was Isandlwana?",
+          "back": "1879 Zulu victory over British troops during the Anglo-Zulu War."
+        },
+        {
+          "id": 23,
+          "front": "When was the Ovaherero and Nama genocide?",
+          "back": "1904–1908."
+        },
+        {
+          "id": 24,
+          "front": "What is a concession company?",
+          "back": "A private firm granted special colonial trading or resource extraction privileges."
+        },
+        {
+          "id": 25,
+          "front": "What is a head tax?",
+          "back": "A levy assessed on each person or household, often payable in money."
+        },
+        {
+          "id": 26,
+          "front": "What are cash crops?",
+          "back": "Crops primarily grown for sale rather than household consumption."
+        },
+        {
+          "id": 27,
+          "front": "What is a settler colony?",
+          "back": "A colonial territory where incoming settlers seek land and political authority."
+        },
+        {
+          "id": 28,
+          "front": "What was Fashoda in 1898?",
+          "back": "An Anglo-French imperial confrontation on the upper Nile."
+        },
+        {
+          "id": 29,
+          "front": "Which two sovereign African states commonly cited as independent in 1914?",
+          "back": "Ethiopia and Liberia, with important qualifications about sovereignty."
+        },
+        {
+          "id": 30,
+          "front": "What distinguishes partition from effective colonial rule?",
+          "back": "Diplomatic borders or treaties do not equal routine power over people and territory."
+        }
+      ]
+    },
+    "036": {
+      "deck": "Nationalism and the Nineteenth-Century Nation-State",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What is a state?",
+          "back": "Institutions claiming legitimate political authority over a population and territory."
+        },
+        {
+          "id": 2,
+          "front": "What is a nation?",
+          "back": "A community understood by members as sharing political or cultural belonging."
+        },
+        {
+          "id": 3,
+          "front": "What is a nation-state?",
+          "back": "The ideal that a state’s political borders and a nation largely coincide."
+        },
+        {
+          "id": 4,
+          "front": "What does nationalism generally claim?",
+          "back": "That a nation deserves recognition, loyalty or political expression, often self-government."
+        },
+        {
+          "id": 5,
+          "front": "When was the Congress of Vienna?",
+          "back": "1814–1815."
+        },
+        {
+          "id": 6,
+          "front": "What was the German Confederation?",
+          "back": "A loose union of German states established in 1815; dissolved in 1866."
+        },
+        {
+          "id": 7,
+          "front": "What is print capitalism?",
+          "back": "Commercially circulated print that can help strangers share a language and public discourse."
+        },
+        {
+          "id": 8,
+          "front": "Who wrote Imagined Communities?",
+          "back": "Benedict Anderson."
+        },
+        {
+          "id": 9,
+          "front": "Who studied three phases of national movements?",
+          "back": "Miroslav Hroch."
+        },
+        {
+          "id": 10,
+          "front": "What major revolutions swept Europe in 1848?",
+          "back": "Liberal, social and national revolutions across much of Europe in 1848–1849."
+        },
+        {
+          "id": 11,
+          "front": "What was the Frankfurt Parliament?",
+          "back": "Assembly of German representatives that debated constitutional unification in 1848–1849."
+        },
+        {
+          "id": 12,
+          "front": "Who was Giuseppe Mazzini?",
+          "back": "Italian republican nationalist and founder of Young Italy."
+        },
+        {
+          "id": 13,
+          "front": "Who was Count Cavour?",
+          "back": "Piedmont-Sardinia’s prime minister and a key architect of monarch-led Italian unification."
+        },
+        {
+          "id": 14,
+          "front": "What was Garibaldi’s 1860 campaign called?",
+          "back": "The Expedition of the Thousand."
+        },
+        {
+          "id": 15,
+          "front": "When was the Kingdom of Italy proclaimed?",
+          "back": "1861."
+        },
+        {
+          "id": 16,
+          "front": "When did Italy gain Venetia and Rome?",
+          "back": "Venetia in 1866; Rome in 1870."
+        },
+        {
+          "id": 17,
+          "front": "What was the Zollverein?",
+          "back": "Customs union led by Prussia that reduced barriers among many German states."
+        },
+        {
+          "id": 18,
+          "front": "Who was Otto von Bismarck?",
+          "back": "Prussian minister-president and later imperial chancellor central to German unification."
+        },
+        {
+          "id": 19,
+          "front": "What happened at Königgrätz in 1866?",
+          "back": "Prussia defeated Austria, reshaping German politics."
+        },
+        {
+          "id": 20,
+          "front": "When was the German Empire proclaimed?",
+          "back": "18 January 1871 at Versailles."
+        },
+        {
+          "id": 21,
+          "front": "What was the Austro-Hungarian Compromise?",
+          "back": "1867 settlement creating the dual monarchy of Austria–Hungary."
+        },
+        {
+          "id": 22,
+          "front": "What was the Tanzimat?",
+          "back": "Ottoman reform program conventionally dated 1839–1876."
+        },
+        {
+          "id": 23,
+          "front": "When was the Bulgarian Exarchate founded?",
+          "back": "1870."
+        },
+        {
+          "id": 24,
+          "front": "What happened in the Bulgarian April Uprising?",
+          "back": "1876 revolt against Ottoman rule, followed by brutal repression and international attention."
+        },
+        {
+          "id": 25,
+          "front": "What is the nation-building role of schools?",
+          "back": "Teaching common language, history, geography and shared civic obligations."
+        },
+        {
+          "id": 26,
+          "front": "What is Russification?",
+          "back": "Policies promoting Russian language and imperial control in diverse regions."
+        },
+        {
+          "id": 27,
+          "front": "What did Home Rule mean in Ireland?",
+          "back": "Proposed self-government for Ireland within the United Kingdom."
+        },
+        {
+          "id": 28,
+          "front": "What is a multilingual borderland?",
+          "back": "A region where languages and identities overlap, complicating national border claims."
+        },
+        {
+          "id": 29,
+          "front": "What is a retrospective national myth?",
+          "back": "A later national story projecting modern identities onto a more complex past."
+        },
+        {
+          "id": 30,
+          "front": "What is historical teleology?",
+          "back": "Reading history as though present outcomes were inevitable."
+        }
+      ]
+    },
+    "037": {
+      "deck": "The Balkans and the Eastern Question",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What was the Eastern Question?",
+          "back": "Disputes over Ottoman power, territory and great-power influence."
+        },
+        {
+          "id": 2,
+          "front": "Which waterway linked the interior to the Black Sea?",
+          "back": "The Danube."
+        },
+        {
+          "id": 3,
+          "front": "Which straits connect Black Sea and Mediterranean routes?",
+          "back": "Bosporus and Dardanelles."
+        },
+        {
+          "id": 4,
+          "front": "When did the First Serbian Uprising begin?",
+          "back": "1804."
+        },
+        {
+          "id": 5,
+          "front": "When did the Greek War of Independence begin?",
+          "back": "1821."
+        },
+        {
+          "id": 6,
+          "front": "Who was elected in both Romanian principalities in 1859?",
+          "back": "Alexandru Ioan Cuza."
+        },
+        {
+          "id": 7,
+          "front": "When was the Bulgarian Exarchate established?",
+          "back": "1870."
+        },
+        {
+          "id": 8,
+          "front": "What reforms are called the Tanzimat?",
+          "back": "Ottoman legal and administrative reforms, mainly 1839–1876."
+        },
+        {
+          "id": 9,
+          "front": "Which war ended with the Paris treaty of 1856?",
+          "back": "The Crimean War."
+        },
+        {
+          "id": 10,
+          "front": "Where did a major uprising begin in 1875?",
+          "back": "Herzegovina."
+        },
+        {
+          "id": 11,
+          "front": "When did the Bulgarian April Uprising occur?",
+          "back": "1876."
+        },
+        {
+          "id": 12,
+          "front": "Who published Bulgarian Horrors in 1876?",
+          "back": "William Ewart Gladstone."
+        },
+        {
+          "id": 13,
+          "front": "When was the Russo-Turkish War discussed here?",
+          "back": "1877–1878."
+        },
+        {
+          "id": 14,
+          "front": "Which siege delayed Russia in 1877?",
+          "back": "Plevna (Pleven)."
+        },
+        {
+          "id": 15,
+          "front": "Which mountain pass became a symbol of Bulgarian defense?",
+          "back": "Shipka Pass."
+        },
+        {
+          "id": 16,
+          "front": "When was the Treaty of San Stefano signed?",
+          "back": "3 March 1878 (Gregorian calendar)."
+        },
+        {
+          "id": 17,
+          "front": "When was the Treaty of Berlin signed?",
+          "back": "13 July 1878."
+        },
+        {
+          "id": 18,
+          "front": "What was Eastern Rumelia after Berlin?",
+          "back": "An autonomous province under Ottoman authority."
+        },
+        {
+          "id": 19,
+          "front": "Who administered Bosnia-Herzegovina from 1878?",
+          "back": "Austria-Hungary."
+        },
+        {
+          "id": 20,
+          "front": "When was the Tarnovo Constitution adopted?",
+          "back": "1879."
+        },
+        {
+          "id": 21,
+          "front": "When did Bulgaria unite with Eastern Rumelia?",
+          "back": "1885."
+        },
+        {
+          "id": 22,
+          "front": "Where was Bulgaria’s key victory over Serbia in 1885?",
+          "back": "Slivnitsa."
+        },
+        {
+          "id": 23,
+          "front": "What was the League of Prizren?",
+          "back": "An Albanian political organization founded in 1878."
+        },
+        {
+          "id": 24,
+          "front": "Why is an Exarchate map not an ethnic census?",
+          "back": "Church jurisdiction does not equal political nationality."
+        },
+        {
+          "id": 25,
+          "front": "When did Austria-Hungary annex Bosnia?",
+          "back": "1908."
+        },
+        {
+          "id": 26,
+          "front": "When did Bulgaria declare full independence?",
+          "back": "1908."
+        },
+        {
+          "id": 27,
+          "front": "What happened in the Young Turk Revolution?",
+          "back": "Restoration of Ottoman constitutional government in 1908."
+        },
+        {
+          "id": 28,
+          "front": "Which states formed the Balkan League?",
+          "back": "Bulgaria, Serbia, Greece and Montenegro."
+        },
+        {
+          "id": 29,
+          "front": "When were the Balkan Wars fought?",
+          "back": "1912–1913."
+        },
+        {
+          "id": 30,
+          "front": "What treaty ended the Second Balkan War?",
+          "back": "Treaty of Bucharest, August 1913."
+        }
+      ]
+    },
+    "038": {
+      "deck": "World War I: Causes and Consequences",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Which date marks the Sarajevo assassination?",
+          "back": "28 June 1914."
+        },
+        {
+          "id": 2,
+          "front": "Who was killed in Sarajevo?",
+          "back": "Archduke Franz Ferdinand and Sophie."
+        },
+        {
+          "id": 3,
+          "front": "Who assassinated the Habsburg heir?",
+          "back": "Gavrilo Princip."
+        },
+        {
+          "id": 4,
+          "front": "What was Germany's July 1914 'blank cheque'?",
+          "back": "Strong diplomatic support promised to Austria-Hungary."
+        },
+        {
+          "id": 5,
+          "front": "When did Austria-Hungary declare war on Serbia?",
+          "back": "28 July 1914."
+        },
+        {
+          "id": 6,
+          "front": "What neutral country did Germany invade in August 1914?",
+          "back": "Belgium."
+        },
+        {
+          "id": 7,
+          "front": "Which battle halted Germany's quick western advance?",
+          "back": "First Battle of the Marne, September 1914."
+        },
+        {
+          "id": 8,
+          "front": "What fortified lines defined much of the Western Front?",
+          "back": "Trench systems with artillery, wire and reserves."
+        },
+        {
+          "id": 9,
+          "front": "Where was Verdun fought?",
+          "back": "France, in 1916."
+        },
+        {
+          "id": 10,
+          "front": "When did the Battle of the Somme begin?",
+          "back": "July 1916."
+        },
+        {
+          "id": 11,
+          "front": "What ended Russia's participation in 1918?",
+          "back": "Treaty of Brest-Litovsk."
+        },
+        {
+          "id": 12,
+          "front": "Which empire defended Gallipoli in 1915?",
+          "back": "The Ottoman Empire."
+        },
+        {
+          "id": 13,
+          "front": "What mass crime targeted Ottoman Armenians?",
+          "back": "The Armenian genocide, especially 1915–1916."
+        },
+        {
+          "id": 14,
+          "front": "What threatened Atlantic merchant shipping?",
+          "back": "German submarines and naval warfare."
+        },
+        {
+          "id": 15,
+          "front": "When did the United States enter the war?",
+          "back": "6 April 1917."
+        },
+        {
+          "id": 16,
+          "front": "Name one key global imperial contribution.",
+          "back": "Colonial soldiers, carriers or vital supplies."
+        },
+        {
+          "id": 17,
+          "front": "Why did factories matter to artillery warfare?",
+          "back": "They manufactured guns, shells and spare parts."
+        },
+        {
+          "id": 18,
+          "front": "What was the wartime term 'shell shock'?",
+          "back": "A contemporary label for some psychological injuries."
+        },
+        {
+          "id": 19,
+          "front": "Why was Bulgaria neutral at first?",
+          "back": "Recent war exhaustion and uncertain territorial offers."
+        },
+        {
+          "id": 20,
+          "front": "When did Bulgaria enter World War I?",
+          "back": "October 1915, on the Central Powers' side."
+        },
+        {
+          "id": 21,
+          "front": "What front stretched across southern Macedonia?",
+          "back": "The Macedonian or Salonika Front."
+        },
+        {
+          "id": 22,
+          "front": "What Balkan state joined the Allies in 1916?",
+          "back": "Romania."
+        },
+        {
+          "id": 23,
+          "front": "Which region did Bulgaria contest with Romania?",
+          "back": "Dobruja, especially Southern Dobruja."
+        },
+        {
+          "id": 24,
+          "front": "What did Doiran illustrate?",
+          "back": "Strong local Bulgarian defense on the Macedonian Front."
+        },
+        {
+          "id": 25,
+          "front": "Where did the Allied breakthrough begin in Sept. 1918?",
+          "back": "The Dobro Pole sector."
+        },
+        {
+          "id": 26,
+          "front": "When was Bulgaria's armistice signed?",
+          "back": "29 September 1918, at Salonika."
+        },
+        {
+          "id": 27,
+          "front": "When did Germany's armistice take effect?",
+          "back": "11 November 1918."
+        },
+        {
+          "id": 28,
+          "front": "When was the Versailles treaty signed?",
+          "back": "28 June 1919."
+        },
+        {
+          "id": 29,
+          "front": "Which treaty settled the war with Bulgaria?",
+          "back": "Treaty of Neuilly, 27 November 1919."
+        },
+        {
+          "id": 30,
+          "front": "What new institution aimed at collective security?",
+          "back": "The League of Nations."
+        }
+      ]
     }
   }
 }

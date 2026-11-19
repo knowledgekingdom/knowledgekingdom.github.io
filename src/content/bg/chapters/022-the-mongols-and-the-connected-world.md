@@ -12,7 +12,7 @@ standfirstHtml: "Как една коалиция от източната Евр
 openingTitle: "Послание, което прекосява степта"
 description: "Как коалиция от източната Евразийска степ е изградила най-голямата крайъгълна империя в историята, разбила кралства и градове и реорганизирала..."
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 29
 readingTime: 35
 openingReadingTime: 2

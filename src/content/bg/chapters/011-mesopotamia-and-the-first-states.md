@@ -12,7 +12,7 @@ standfirstHtml: "В земята между две реки градовете �
 openingTitle: "Липсващата мярка ечемик"
 description: "В земята между две реки градовете се научили да броят, управляват, търгуват, богослужат и воюват. Институциите, които те изградиха промениха това, което означаваше да се живее с..."
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 27
 readingTime: 39
 openingReadingTime: 2

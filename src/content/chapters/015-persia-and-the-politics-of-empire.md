@@ -12,7 +12,7 @@ standfirstHtml: "How a kingdom on the Iranian plateau built a vast imperial syst
 openingTitle: "The empire that had to travel"
 description: "How a kingdom on the Iranian plateau built a vast imperial system—and what its roads, clay tablets, monuments and enemies can teach us about the promises…"
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 26
 readingTime: 34
 openingReadingTime: 2

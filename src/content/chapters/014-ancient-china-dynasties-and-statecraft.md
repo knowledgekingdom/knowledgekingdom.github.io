@@ -12,7 +12,7 @@ standfirstHtml: "From an inscribed animal bone to a bronze vessel weighing hundr
 openingTitle: "The question in a king's fire"
 description: "From an inscribed animal bone to a bronze vessel weighing hundreds of kilograms, the earliest records of Chinese kings tell a story of power built through…"
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 25
 readingTime: 32
 openingReadingTime: 2

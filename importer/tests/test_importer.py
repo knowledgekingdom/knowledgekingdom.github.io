@@ -55,6 +55,8 @@ class PatternTests(unittest.TestCase):
         self.assertEqual(P.classify_h2("Remember this chapter", 9)[0], "summary")
         self.assertEqual(P.classify_h2("Practice laboratory: explain, calculate, debate, investigate", 9)[0], "practice")
         self.assertEqual(P.classify_h2("Practice laboratory — 30 exercises", 9)[0], "practice")
+        self.assertEqual(P.classify_h2("Exercises — 30 questions", 9)[0], "practice")
+        self.assertEqual(P.classify_h2("Key concepts to retain", 9)[0], "summary")
         self.assertEqual(P.classify_h2("Flashcards: 28 prompts for spaced recall", 9)[0], "flashcards")
         self.assertEqual(P.classify_h2("Flashcard prompts — Chapter 001", 9)[0], "flashcards")
         self.assertEqual(P.classify_h2("Recommended sources and directions for further reading", 9)[0], "sources")
@@ -168,6 +170,73 @@ class FixtureImportTests(unittest.TestCase):
         self.assertIn("Edition 1", (self.root / "IMPORT_REPORT.md").read_text(encoding="utf-8"))
 
 
+class MultiFileTests(unittest.TestCase):
+    """A master file plus separate chapter files, as in manuscript/ since Edition 41."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+        (self.root / "manuscript").mkdir()
+        self.master = self.root / "manuscript" / "Master.docx"
+        self.ch2 = self.root / "manuscript" / "Chapter_2.docx"
+        fixture_docx.build(str(self.master))
+        fixture_docx.build(str(self.ch2), body_xml=fixture_docx.chapter_body(2))
+        (self.root / "content-meta").mkdir()
+        (self.root / "content-meta" / "book-settings.json").write_text(json.dumps({
+            "edition": 7, "parts": [{"number": 2, "title": "Testing in Practice", "chapters": [2, 5]}]}))
+
+    def tearDown(self):
+        self.tmp.cleanup()
+
+    def load(self, rel):
+        return json.loads((self.root / rel).read_text(encoding="utf-8"))
+
+    def test_master_plus_chapter_file(self):
+        files = IM.find_manuscripts(self.root)
+        self.assertEqual([f.name for f in files], ["Master.docx", "Chapter_2.docx"])  # title page first
+        b = IM.run(files, self.root, quiet=True)
+        book = self.load("src/data/book.json")
+        self.assertEqual(book["edition"], 7)
+        self.assertEqual([(p["roman"], p["title"], p["chapters"]) for p in book["parts"]],
+                         [("I", "The Tools of Testing", [1]), ("II", "Testing in Practice", [2])])
+        # Each file's answer key and flashcards land on the right chapter, intros don't leak.
+        answers = self.load("src/data/answers.json")
+        self.assertEqual(sorted(answers["chapters"]), ["001", "002"])
+        self.assertNotIn("Test your answers", answers["chapters"]["001"]["2"])
+        self.assertIn("These answers model reasoning", answers["intro"])
+        cards = self.load("src/data/flashcards.json")["chapters"]["002"]["cards"]
+        self.assertEqual([c["front"] for c in cards], ["What is a flaky test?"])  # FRONT | ANSWER header skipped
+        practice = self.load("src/data/practice.json")["002"]
+        self.assertEqual(sum(len(g["exercises"]) for g in practice["groups"]), 2)
+        # Both files have an image1.png; each figure gets its own file and the wrong number is fixed.
+        self.assertTrue((self.root / "src/assets/figures/figure-1-1.png").exists())
+        self.assertTrue((self.root / "src/assets/figures/figure-2-1.png").exists())
+        self.assertEqual([w for w in b.report.warnings if "Figure 1.1" in w[1]][0][1][:44],
+                         "Caption says Figure 1.1 but it is in chapter")
+        self.assertEqual(len(b.report.warnings), 1)
+        # Written chapter marked PLANNED in the roadmap is shown as a draft.
+        roadmap = self.load("src/data/roadmap.json")
+        self.assertEqual([c["status"] for c in roadmap["chapters"]], ["REVISED DRAFT", "DRAFT"])
+
+    def test_newest_file_wins_for_duplicate_chapter(self):
+        newer = self.root / "manuscript" / "Chapter_1_revised.docx"
+        fixture_docx.build(str(newer), body_xml=fixture_docx.chapter_body(1))
+        os.utime(self.master, (1_000_000, 1_000_000))
+        b = IM.run(IM.find_manuscripts(self.root), self.root, quiet=True)
+        self.assertEqual([c.number for c in b.book.chapters], [1, 2])
+        self.assertEqual(b.book.chapters[0].title, "Testing at Scale")
+        self.assertTrue(any("Chapter_1_revised.docx" in m for _, m in b.report.info))
+        answers = self.load("src/data/answers.json")["chapters"]["001"]
+        self.assertIn("shared state", answers["2"])  # the revised file's answers, not the master's
+
+    def test_idempotent(self):
+        files = IM.find_manuscripts(self.root)
+        IM.run(files, self.root, quiet=True)
+        first = tree_hash(self.root)
+        IM.run(files, self.root, quiet=True)
+        self.assertEqual(first, tree_hash(self.root))
+
+
 @unittest.skipUnless(list((REPO / "manuscript").glob("*.docx")), "real manuscript not present")
 class RealManuscriptTests(unittest.TestCase):
     """Sanity-check counts against the real manuscript (spec values for Edition 25)."""
@@ -180,10 +249,10 @@ class RealManuscriptTests(unittest.TestCase):
         meta = REPO / "content-meta"
         if meta.exists():
             (cls.root / "content-meta").mkdir()
-            for name in ("slugs.json", "slug-overrides.json"):
+            for name in ("slugs.json", "slug-overrides.json", "book-settings.json"):
                 if (meta / name).exists():
                     (cls.root / "content-meta" / name).write_bytes((meta / name).read_bytes())
-        cls.docx = IM.find_manuscript(REPO)
+        cls.docx = IM.find_manuscripts(REPO)
         cls.b = IM.run(cls.docx, cls.root, quiet=True)
 
     @classmethod
@@ -199,7 +268,9 @@ class RealManuscriptTests(unittest.TestCase):
         self.assertEqual(c["Chapters"], c["Flashcard tables"])
 
     def test_no_warnings(self):
-        self.assertEqual(self.b.report.warnings, [])
+        # Chapter 25's captions say "Figure 24.x" (manuscript issue, corrected on the site).
+        known = [w for w in self.b.report.warnings if w[1].startswith("Caption says Figure 24.")]
+        self.assertEqual([w for w in self.b.report.warnings if w not in known], [])
 
 
 if __name__ == "__main__":

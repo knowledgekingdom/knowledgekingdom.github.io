@@ -12,7 +12,7 @@ standfirstHtml: "Clear reasoning does not guarantee that you will be right. It d
 openingTitle: "A prediction at the dinner table"
 description: "Clear reasoning does not guarantee that you will be right. It does something more valuable: it makes your reasons visible, your mistakes correctable, and…"
 status: "REVISED DRAFT"
-edition: 25
+edition: 41
 sectionCount: 20
 readingTime: 33
 openingReadingTime: 2

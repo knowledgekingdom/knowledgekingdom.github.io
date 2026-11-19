@@ -12,7 +12,7 @@ standfirstHtml: "From the Nile's southern kingdoms to the gold routes of the Sah
 openingTitle: "A continent, not a single story"
 description: "From the Nile's southern kingdoms to the gold routes of the Sahel, from Indian Ocean port cities to the stone walls of Great Zimbabwe, African history…"
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 26
 readingTime: 31
 openingReadingTime: 2

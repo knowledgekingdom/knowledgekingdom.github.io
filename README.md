@@ -2,10 +2,23 @@
 
 The website for *Knowledge Kingdom: An Illustrated Guide to Understanding the World*, built from the manuscript in Google Docs. English and Bulgarian.
 
-## Updating the site after you edit the book
+## How the manuscript is organised
 
-1. In Google Docs: **File → Download → Microsoft Word (.docx)**.
-2. Put the file in `manuscript/` (replace the old one; the newest `.docx` there is used).
+The book is far too big for one Google Doc (which stops at about 1 million characters), so `manuscript/` holds several `.docx` files that the importer reads together as one book:
+
+- `Knowledge_Kingdom_Master_Manuscript_22.docx`: the title page, the note to the reader, chapters 1–22, their answer key and flashcards, and the roadmap ("Where the book stands").
+- One file per chapter from chapter 23 on, each with the chapter, its own answer key and its own flashcard table.
+
+File names don't matter: the file with the title page is read first, then the rest in chapter order. If the same chapter is in two files, **the most recently saved file wins**, so to revise a chapter just add the new file (the report notes which copy was used). Delete old copies you no longer need so it stays clear.
+
+**`content-meta/book-settings.json`** holds what chapter files don't say themselves:
+- `edition`: the edition number shown on the site. Raise it by one each time you publish new or changed chapters, so "Recently updated" knows what's new.
+- `parts`: which chapters belong to which Part. When chapter 42 starts Part IV, add `{ "number": 4, "title": "…", "chapters": [42, 52] }`.
+
+## Updating the site after you add or change chapters
+
+1. Save the new chapter as `.docx` (from ChatGPT, Word or Google Docs: **File → Download → Microsoft Word (.docx)**). Check the figures are visible in it.
+2. Put it in `manuscript/`, and raise `edition` in `content-meta/book-settings.json`.
 3. Run:
 
    ```
@@ -13,13 +26,13 @@ The website for *Knowledge Kingdom: An Illustrated Guide to Understanding the Wo
    ```
 
    This runs the three steps below one after the other:
-   - `npm run import`: reads the `.docx` and regenerates the English pages. Read **`IMPORT_REPORT.md`** afterwards; it lists counts, new or changed sections, and anything that needs a look.
+   - `npm run import`: reads every `.docx` in `manuscript/` and regenerates the English pages. Read **`IMPORT_REPORT.md`** afterwards; it lists the files it read, counts, new or changed sections, and anything that needs a look. If the figure count drops or there are "Figure Caption without an image" warnings, the file lost its pictures: don't publish it.
    - `npm run translate`: translates new or changed text into Bulgarian on your computer (free, offline, no account). Only changed sentences are translated, so it takes seconds after the first run. See `content-meta/translations/REPORT.md`.
    - `npm run og`: redraws the link-preview images (`public/og/`) for chapters whose title changed. It needs Chrome or Edge installed, and skips itself if neither is found.
 4. Run `npm run dev` and check the site at http://localhost:4321. Search only works on a built site, so to try it run `npm run build` then `npm run preview`.
 5. Commit and push (for example in VS Code's Source Control panel, or `git add -A`, `git commit -m "Edition 26"`, `git push`). GitHub builds and publishes the site in about two minutes. You can watch it under the repository's **Actions** tab.
 
-The live site is **https://knowledgekingdom.github.io/**. The `.docx` itself is never uploaded: `manuscript/` is excluded from git because the manuscript still contains editorial notes.
+The live site is **https://knowledgekingdom.github.io/**. The `.docx` files are never uploaded: `manuscript/` is excluded from git because the manuscript still contains editorial notes. That also means they exist only on your computer, so keep a backup copy (for example, upload the files to Google Drive as they are; Drive can store a `.docx` without converting it).
 
 ## Visitor statistics
 
@@ -56,6 +69,7 @@ These folders are regenerated on every run, so any change you make there is over
 
 These are kept and safe to edit:
 
+- `content-meta/book-settings.json`: edition number and which chapters belong to which Part
 - `content-meta/slug-overrides.json`: change a page's URL, or add a redirect after renaming a section
 - `content-meta/translations/bg-overrides.json`: your Bulgarian corrections
 - `src/site.config.ts`: site URL, footer line, analytics, the default colour palette, and whether readers can pick another
@@ -75,7 +89,7 @@ The first `npm run translate` creates a small Python environment (`.venv-transla
 | Command | What it does |
 |---|---|
 | `npm run update` | import, translate, then redraw link-preview images |
-| `npm run import` | `.docx` → English content + `IMPORT_REPORT.md` |
+| `npm run import` | all `.docx` in `manuscript/` → English content + `IMPORT_REPORT.md` |
 | `npm run translate` | English → Bulgarian (offline) |
 | `npm run og` | redraw link-preview images for changed chapters |
 | `npm run dev` | local preview with live reload (no search) |

@@ -12,7 +12,7 @@ standfirstHtml: "The purpose of an educated mind is not to have a confident opin
 openingTitle: "The bridge that collapsed three times"
 description: "The purpose of an educated mind is not to have a confident opinion about everything. It is to know what deserves confidence, what remains uncertain, and…"
 status: "REVISED DRAFT"
-edition: 25
+edition: 41
 sectionCount: 16
 readingTime: 32
 openingReadingTime: 2

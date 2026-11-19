@@ -1,9 +1,12 @@
-"""Knowledge Kingdom importer: manuscript .docx -> Astro content + data JSON.
+"""Knowledge Kingdom importer: manuscript .docx files -> Astro content + data JSON.
 
 Usage:
-    python importer/import_manuscript.py [path/to/manuscript.docx] [--out ROOT]
+    python importer/import_manuscript.py [file.docx ...] [--out ROOT]
 
-With no path, the newest .docx in manuscript/ is used. Everything written under
+With no paths, every .docx in manuscript/ is read as one book: the file with the
+title page first, then the rest in chapter order. The book can be one big file,
+one file per chapter, or a mix. If the same chapter is in more than one file, the
+most recently saved file wins (noted in the report). Everything written under
 src/content/, src/data/ and src/assets/figures/ is regenerated on every run.
 content-meta/ holds persisted state (slug registry, manifest) and hand edits
 (slug overrides). Running twice on the same file produces no diff.
@@ -36,6 +39,62 @@ KNOWN_STYLES = {"Title", "Book Deck", "Heading 1", "Heading 2", "Heading 3", "No
 
 
 # =============================================================================
+# Reading several .docx files as one book
+# =============================================================================
+@dataclass
+class FileStart:
+    """Marker block emitted before each file's content."""
+    index: int
+    name: str
+
+
+class ManuscriptReader:
+    """Walks several .docx files in order, as if they were one document.
+
+    Image targets are prefixed with the file index ("3|word/media/image1.png")
+    so read_bytes() can find the right file.
+    """
+
+    def __init__(self, paths: list[Path]):
+        self.paths = list(paths)
+        self.readers = [DocxReader(str(p)) for p in self.paths]
+
+    def blocks(self):
+        for i, reader in enumerate(self.readers):
+            yield FileStart(i, self.paths[i].name)
+            for block in reader.blocks():
+                if isinstance(block, Paragraph):
+                    for s in block.segs:
+                        if s.image is not None:
+                            s.image.target = f"{i}|{s.image.target}"
+                yield block
+
+    def read_bytes(self, target: str) -> bytes:
+        i, _, inner = target.partition("|")
+        return self.readers[int(i)].read_bytes(inner)
+
+    def mtime(self, index: int) -> float:
+        return self.paths[index].stat().st_mtime
+
+
+def order_manuscripts(paths: list[Path]) -> list[Path]:
+    """Title-page file first, then by the first chapter number each file contains."""
+    def key(p: Path):
+        has_title, first = False, 10 ** 6
+        for b in DocxReader(str(p)).blocks():
+            if isinstance(b, Paragraph):
+                if b.style == "Title":
+                    has_title = True
+                elif b.style == "Heading 1":
+                    m = P.CHAPTER_H1.match(b.text.strip())
+                    if m:
+                        first = int(m.group(1))
+                        break
+        return (not has_title, first, p.name)
+    return sorted(paths, key=key)
+
+
+# =============================================================================
 # Data model
 # =============================================================================
 @dataclass
@@ -59,6 +118,7 @@ class Chapter:
     pre_blocks: list = field(default_factory=list)  # before first H2
     sections: list[Section] = field(default_factory=list)
     slug: str = ""
+    source: int = 0                 # index of the manuscript file it came from
 
     @property
     def label(self) -> str:
@@ -84,6 +144,7 @@ class Book:
     extra_pages: list = field(default_factory=list)     # (title, blocks) unknown H1s
     contents_titles: dict = field(default_factory=dict)  # number -> title case
     excluded_tables: int = 0
+    bucket_src: dict = field(default_factory=dict)      # id(blocks) -> manuscript file index
 
 
 class Report:
@@ -110,9 +171,14 @@ def parse(reader: DocxReader, report: Report) -> Book:
     bucket: list | None = None   # (h2, blocks) list for back matter
     extra_blocks: list | None = None
     styles_seen: dict[str, int] = {}
+    file_idx = 0
+    bucket_h2_seen = False            # an H2 has started inside the current back-matter H1
+    intro_src: dict[str, int] = {}    # "answers"/"flashcards" -> file whose intro is used
 
     def start_bucket_h2(title):
-        bucket.append((title, []))
+        blocks: list = []
+        bucket.append((title, blocks))
+        book.bucket_src[id(blocks)] = file_idx
 
     def add_back(block):
         if bucket is None:
@@ -122,6 +188,11 @@ def parse(reader: DocxReader, report: Report) -> Book:
         bucket[-1][1].append(block)
 
     for block in reader.blocks():
+        if isinstance(block, FileStart):
+            # Each file starts fresh: no inherited Part, chapter or back-matter section.
+            file_idx = block.index
+            mode, current_part, chapter, section, bucket = "front", None, None, None, None
+            continue
         if isinstance(block, Table):
             if mode in ("front", "roadmap") or _is_excluded_box(block):
                 book.excluded_tables += 1
@@ -174,16 +245,16 @@ def parse(reader: DocxReader, report: Report) -> Book:
             m = P.CHAPTER_H1.match(text)
             if m:
                 mode = "chapter"
-                if current_part is None:
-                    report.warn(text, "Chapter appears before any PART deck line; it has no Part.")
-                chapter = Chapter(number=int(m.group(1)), heading=m.group(2), part=current_part)
+                # No PART line in this file: the Part comes from book-settings.json (assign_parts).
+                chapter = Chapter(number=int(m.group(1)), heading=m.group(2), part=current_part,
+                                  source=file_idx)
                 book.chapters.append(chapter)
             elif P.ANSWER_KEY_H1.search(text):
-                mode, bucket = "answers", book.answer_key
+                mode, bucket, bucket_h2_seen = "answers", book.answer_key, False
             elif P.FLASHCARD_BANK_H1.search(text):
-                mode, bucket = "flashcards", book.flashcard_bank
+                mode, bucket, bucket_h2_seen = "flashcards", book.flashcard_bank, False
             elif P.ROADMAP_H1.search(text):
-                mode, bucket = "roadmap", book.roadmap
+                mode, bucket, bucket_h2_seen = "roadmap", book.roadmap, False
             elif P.ABOUT_H1.search(text) or (not book.chapters and not book.about_title):
                 mode = "about"
                 book.about_title = text
@@ -224,11 +295,12 @@ def parse(reader: DocxReader, report: Report) -> Book:
         if mode in ("answers", "flashcards", "roadmap"):
             if style == "Heading 2":
                 start_bucket_h2(text)
-            elif not bucket:
-                if mode == "answers" and not p.is_empty():
-                    book.answer_intro.append(p)
-                elif mode == "flashcards" and not p.is_empty():
-                    book.flashcard_intro.append(p)
+                bucket_h2_seen = True
+            elif not bucket_h2_seen:
+                # Intro paragraph before the first H2. Each chapter file repeats one; keep the first file's.
+                if mode in ("answers", "flashcards") and not p.is_empty() \
+                        and intro_src.setdefault(mode, file_idx) == file_idx:
+                    (book.answer_intro if mode == "answers" else book.flashcard_intro).append(p)
             else:
                 add_back(p)
             continue
@@ -241,6 +313,71 @@ def parse(reader: DocxReader, report: Report) -> Book:
             report.warn("styles", f"Unrecognised paragraph style “{style}” ({n}×); rendered as body text.")
     book._styles = styles_seen  # type: ignore[attr-defined]
     return book
+
+
+def _int_to_roman(n: int) -> str:
+    out = ""
+    for value, sym in ((1000, "M"), (900, "CM"), (500, "D"), (400, "CD"), (100, "C"), (90, "XC"),
+                       (50, "L"), (40, "XL"), (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")):
+        while n >= value:
+            out, n = out + sym, n - value
+    return out
+
+
+def _bucket_chapter(h2: str) -> int | None:
+    m = P.ANSWER_CHAPTER_H2.search(h2) or P.FLASHCARD_CHAPTER_H2.match(h2)
+    return int(m.group(1)) if m else None
+
+
+def resolve_book(book: Book, reader: ManuscriptReader, report: Report, settings: dict) -> None:
+    """Merge what came from several files: duplicate chapters, Parts and edition."""
+    # 1. The same chapter in several files: the most recently saved file wins.
+    groups: dict[int, list[Chapter]] = {}
+    for ch in book.chapters:
+        groups.setdefault(ch.number, []).append(ch)
+    losers: dict[int, set[int]] = {}
+    for num, chs in groups.items():
+        if len({c.source for c in chs}) < 2:
+            continue
+        winner = max(chs, key=lambda c: (reader.mtime(c.source), c.source))
+        losers[num] = {c.source for c in chs if c.source != winner.source}
+        report.note(P.chapter_label(num),
+                    f"Chapter is in {len({c.source for c in chs})} files; using the most recently saved, "
+                    f"“{reader.paths[winner.source].name}”, and ignoring "
+                    + ", ".join(f"“{reader.paths[i].name}”" for i in sorted(losers[num])) + ".")
+    if losers:
+        book.chapters = [c for c in book.chapters if c.source not in losers.get(c.number, set())]
+        for name in ("answer_key", "flashcard_bank"):
+            setattr(book, name, [(h2, blocks) for h2, blocks in getattr(book, name)
+                                 if book.bucket_src.get(id(blocks)) not in losers.get(_bucket_chapter(h2), set())])
+    book.chapters.sort(key=lambda c: c.number)
+
+    # 2. Parts. A PART line in the manuscript wins; otherwise book-settings.json decides.
+    configured = settings.get("parts", [])
+    for ch in book.chapters:
+        if ch.part is not None:
+            continue
+        cfg = next((p for p in configured if p["chapters"][0] <= ch.number <= p["chapters"][1]), None)
+        if cfg is None:
+            prev = next((c.part for c in reversed(book.chapters) if c.number < ch.number and c.part), None)
+            report.warn(ch.label, "No Part for this chapter: add its range to “parts” in "
+                                  "content-meta/book-settings.json." + (f" Using Part {prev['roman']} for now."
+                                                                        if prev else ""))
+            ch.part = prev
+            continue
+        part = next((x for x in book.parts if x["number"] == cfg["number"]), None)
+        if part is None:
+            part = {"number": cfg["number"], "roman": _int_to_roman(cfg["number"]), "title": cfg["title"],
+                    "slug": f"part-{cfg['number']}-{P.slugify(cfg['title'])}"}
+            book.parts.append(part)
+        ch.part = part
+    book.parts.sort(key=lambda p: p["number"])
+
+    # 3. Edition: chapter files carry no edition line, so book-settings.json can set it.
+    if settings.get("edition"):
+        book.edition = int(settings["edition"])
+    if settings.get("editionDate"):
+        book.edition_date = settings["editionDate"]
 
 
 def _is_excluded_box(t: Table) -> bool:
@@ -326,6 +463,16 @@ class Builder:
             else:
                 self.report.warn(page_url, f"Figure caption doesn’t start with “Figure N.N”: “{caption_text[:60]}”")
             caption_md = R.to_md(R.apply_asterisk_emphasis(R.merge(caption.segs)))
+        if number and ch is not None:
+            first = re.split(r"[.\-]", number)[0]
+            if first.isdigit() and int(first) != ch.number:
+                # e.g. chapter 25's figures captioned "Figure 24.x": keep ids and labels unique.
+                fixed = str(ch.number) + number[len(first):]
+                self.report.warn(page_url, f"Caption says Figure {number} but it is in chapter {ch.number}; "
+                                           f"shown as Figure {fixed}. Fix the caption in the manuscript.")
+                caption_md = caption_md.replace(f"Figure {number}", f"Figure {fixed}", 1)
+                caption_text = caption_text.replace(f"Figure {number}", f"Figure {fixed}", 1)
+                number = fixed
         if number:
             fid = "figure-" + re.sub(r"[^0-9]+", "-", number).strip("-")
         else:
@@ -600,6 +747,11 @@ class Builder:
                                        "chapter": ch.number})
 
             status = self.roadmap_status.get(ch.number, {}).get("status", "")
+            if status in ("", "PLANNED"):
+                # Written, but the roadmap list hasn't caught up yet.
+                status = "DRAFT"
+                if ch.number in self.roadmap_status:
+                    self.roadmap_status[ch.number]["status"] = status
             section_entries = []
             total_words = open_words + pre_words
             for sec in ch.sections:
@@ -716,7 +868,7 @@ class Builder:
                     back = [p for p in row[1] if not p.is_empty()]
                     ftxt = " ".join(p.text for p in front).strip()
                     btxt = " ".join(p.text for p in back).strip()
-                    if r == 0 and ftxt.upper() == "FRONT" and btxt.upper() == "BACK":
+                    if r == 0 and ftxt.upper() == "FRONT" and btxt.upper() in ("BACK", "ANSWER"):
                         continue
                     if not ftxt and not btxt:
                         continue
@@ -996,11 +1148,15 @@ EXPECTED_ED25 = {"Heading 1": 26, "Heading 2": 656, "Heading 3": 28, "Figures": 
                  "Tables (total in docx)": 24, "Flashcard tables": 22, "Source Note paragraphs": 420}
 
 
-def write_report(b: Builder, docx_name: str) -> str:
+def write_report(b: Builder, docx_names: list[str]) -> str:
     book, rep = b.book, b.report
+    if len(docx_names) == 1:
+        files = [f"- **Manuscript:** `{docx_names[0]}`"]
+    else:
+        files = [f"- **Manuscript:** {len(docx_names)} files, read in this order:"] + \
+                [f"  {i}. `{n}`" for i, n in enumerate(docx_names, 1)]
     L = [f"# Import report — Edition {book.edition}", "",
-         f"*GENERATED by `npm run import` — do not edit.*", "",
-         f"- **Manuscript:** `{docx_name}`",
+         f"*GENERATED by `npm run import` — do not edit.*", "", *files,
          f"- **Edition:** {book.edition} ({book.edition_date})",
          f"- **Compared with:** " + (f"Edition {b.prev_ed_key}" if b.prev_ed_key else "nothing (first import of a "
                                                                                    "new edition history)"), ""]
@@ -1038,26 +1194,30 @@ def write_report(b: Builder, docx_name: str) -> str:
 
 
 # =============================================================================
-def find_manuscript(root: Path) -> Path:
-    files = sorted((root / "manuscript").glob("*.docx"), key=lambda p: (p.stat().st_mtime, p.name))
-    files = [f for f in files if not f.name.startswith("~$")]
+def find_manuscripts(root: Path) -> list[Path]:
+    files = [f for f in (root / "manuscript").glob("*.docx") if not f.name.startswith("~$")]
     if not files:
-        sys.exit("No .docx found in manuscript/. Export the Google Doc as .docx and put it there.")
-    if len(files) > 1:
-        print(f"Note: {len(files)} .docx files in manuscript/; using the newest: {files[-1].name}")
-    return files[-1]
+        sys.exit("No .docx found in manuscript/. Download the chapter files as .docx and put them there.")
+    return order_manuscripts(files)
 
 
-def run(docx: Path, root: Path, quiet: bool = False) -> Builder:
-    reader = DocxReader(str(docx))
+def find_manuscript(root: Path) -> list[Path]:  # kept for older callers
+    return find_manuscripts(root)
+
+
+def run(docx: Path | list[Path], root: Path, quiet: bool = False) -> Builder:
+    paths = order_manuscripts(list(docx)) if isinstance(docx, (list, tuple)) else [Path(docx)]
+    reader = ManuscriptReader(paths)
     report = Report()
+    settings = _read_json(root / "content-meta" / "book-settings.json", {})
     book = parse(reader, report)
-    b = Builder(root, docx, reader, book, report)
+    resolve_book(book, reader, report, settings)
+    b = Builder(root, paths[0], reader, book, report)
     b.table_total = sum(1 for blk in reader.blocks() if isinstance(blk, Table))
     b.build()
     b.update_manifest()
     b.flush()
-    (root / "IMPORT_REPORT.md").write_text(write_report(b, docx.name), encoding="utf-8")
+    (root / "IMPORT_REPORT.md").write_text(write_report(b, [p.name for p in paths]), encoding="utf-8")
     if not quiet:
         print(f"Imported Edition {book.edition}: {len(book.chapters)} chapters, "
               f"{b.counts['Section pages (incl. special pages)']} section pages, {len(b.figures)} figures.")
@@ -1067,11 +1227,11 @@ def run(docx: Path, root: Path, quiet: bool = False) -> Builder:
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("docx", nargs="?", help="manuscript .docx (default: newest in manuscript/)")
+    ap.add_argument("docx", nargs="*", help="manuscript .docx files (default: all in manuscript/)")
     ap.add_argument("--out", default=None, help="project root to write into (default: repo root)")
     args = ap.parse_args(argv)
     root = Path(args.out) if args.out else Path(__file__).resolve().parent.parent
-    docx = Path(args.docx) if args.docx else find_manuscript(Path(__file__).resolve().parent.parent)
+    docx = [Path(d) for d in args.docx] if args.docx else find_manuscripts(Path(__file__).resolve().parent.parent)
     run(docx, root)
 
 

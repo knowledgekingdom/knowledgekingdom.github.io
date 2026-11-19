@@ -12,7 +12,7 @@ standfirstHtml: "От яростно независими градове-дър�
 openingTitle: "Решение под открито небе"
 description: "От яростно независими градове-държави до граждански конгреси и имперски съперници, древни гърци зададоха въпрос, който все още смущава политиката: кой..."
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 29
 readingTime: 36
 openingReadingTime: 2

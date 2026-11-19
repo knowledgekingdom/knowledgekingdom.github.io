@@ -12,7 +12,7 @@ standfirstHtml: "From fiercely independent city-states to citizen assemblies and
 openingTitle: "A decision beneath the open sky"
 description: "From fiercely independent city-states to citizen assemblies and imperial rivalries, ancient Greeks asked a question that still unsettles politics: who…"
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 29
 readingTime: 36
 openingReadingTime: 2

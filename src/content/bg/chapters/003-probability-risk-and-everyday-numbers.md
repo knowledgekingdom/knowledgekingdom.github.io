@@ -12,7 +12,7 @@ standfirstHtml: "Светът не обещава сигурност. Но не�
 openingTitle: "Алармата, която обвини невинен клиент"
 description: "Светът не обещава сигурност. Но несигурността не е същата като невежеството: веднъж научим ли се да броим резултатите, сравняваме базовите стойности и тежим..."
 status: "REVISED DRAFT"
-edition: 25
+edition: 41
 sectionCount: 19
 readingTime: 34
 openingReadingTime: 2

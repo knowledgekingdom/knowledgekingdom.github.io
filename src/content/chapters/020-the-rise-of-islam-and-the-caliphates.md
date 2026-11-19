@@ -12,7 +12,7 @@ standfirstHtml: "From the Arabian Peninsula to an interconnected world: revelati
 openingTitle: "The opening scene: a city where worlds met"
 description: "From the Arabian Peninsula to an interconnected world: revelation, community, empire, scholarship, and the struggle to define legitimate authority."
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 29
 readingTime: 39
 openingReadingTime: 2

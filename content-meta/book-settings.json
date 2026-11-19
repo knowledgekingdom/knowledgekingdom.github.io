@@ -1,0 +1,10 @@
+{
+  "_help": "Hand-edited book settings. edition/editionDate override the manuscript's 'WORKING EDITION' line (chapter files don't have one); leave edition at 0 to use the manuscript's. parts: which chapters belong to which Part, used for chapters whose file has no 'PART …' line. chapters is [first, last].",
+  "edition": 41,
+  "editionDate": "",
+  "parts": [
+    { "number": 1, "title": "The Tools of Understanding", "chapters": [1, 8] },
+    { "number": 2, "title": "The Human Story", "chapters": [9, 23] },
+    { "number": 3, "title": "The Making of the Modern World", "chapters": [24, 41] }
+  ]
+}

@@ -12,7 +12,7 @@ standfirstHtml: "Knowledge is not the number of pages you have read. It is the u
 openingTitle: "The evening when everything seemed familiar"
 description: "Knowledge is not the number of pages you have read. It is the understanding you can recover, test, connect, and use when the book is closed."
 status: "DRAFT"
-edition: 25
+edition: 41
 sectionCount: 13
 readingTime: 13
 openingReadingTime: 1

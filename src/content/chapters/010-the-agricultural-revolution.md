@@ -12,7 +12,7 @@ standfirstHtml: "How people began to shape the plants, animals and landscapes th
 openingTitle: "The harvest that changed nothing—and everything"
 description: "How people began to shape the plants, animals and landscapes that fed them—and how a patchwork of experiments gradually transformed human society."
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 22
 readingTime: 33
 openingReadingTime: 2

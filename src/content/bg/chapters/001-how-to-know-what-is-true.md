@@ -12,7 +12,7 @@ standfirstHtml: "Целта на образования ум е да няма у
 openingTitle: "Мостът, който се срути три пъти"
 description: "Целта на образования ум е да няма уверено мнение за всичко. Да знаеш кое заслужава увереност, какво остава несигурно и..."
 status: "REVISED DRAFT"
-edition: 25
+edition: 41
 sectionCount: 16
 readingTime: 32
 openingReadingTime: 2

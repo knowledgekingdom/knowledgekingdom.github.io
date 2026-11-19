@@ -12,7 +12,7 @@ standfirstHtml: "A city can leave streets, wells, weights and beautiful seals wi
 openingTitle: "A city whose words we cannot hear"
 description: "A city can leave streets, wells, weights and beautiful seals without leaving us a readable account of its kings—or even proof that kings ruled it. The…"
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 24
 readingTime: 36
 openingReadingTime: 2

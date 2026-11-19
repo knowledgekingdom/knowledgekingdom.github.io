@@ -1,8 +1,2800 @@
 {
-  "edition": 25,
+  "edition": 41,
   "editionDate": "November 2026",
-  "previousEdition": null,
-  "new": [],
+  "previousEdition": 25,
+  "new": [
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/flashcards/",
+      "title": "023 · Flashcard prompts"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/",
+      "title": "Europe, Byzantium, and the Ottoman Emergence"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/practice/",
+      "title": "023 · Practice laboratory"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/sources/",
+      "title": "023 · Sources and further reading"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/anatolia-before-the-ottomans-a-landscape-of-many-rulers/",
+      "title": "023 · Anatolia before the Ottomans: a landscape of many rulers"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-and-byzantium-before-the-new-bulgarian-kingdom/",
+      "title": "023 · Bulgaria and Byzantium before the new Bulgarian kingdom"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest-and/",
+      "title": "023 · Bulgaria under pressure: fragmentation, conquest and continuity"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/byzantium-was-the-roman-empire-not-an-empire-beside-rome/",
+      "title": "023 · Byzantium was the Roman Empire, not an empire beside Rome"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/case-study-three-records-three-viewpoints-on-1453/",
+      "title": "023 · Case study: three records, three viewpoints on 1453"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/christianity-and-rival-forms-of-authority/",
+      "title": "023 · Christianity and rival forms of authority"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/crossing-into-europe-and-building-a-balkan-power/",
+      "title": "023 · Crossing into Europe and building a Balkan power"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/crusading-a-movement-larger-than-a-single-expedition/",
+      "title": "023 · Crusading: a movement larger than a single expedition"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/culture-religious-institutions-and-memories-in-medieval/",
+      "title": "023 · Culture, religious institutions and memories in medieval Bulgaria"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/eastern-and-western-christianity-division-without-a-single/",
+      "title": "023 · Eastern and western Christianity: division without a single instant"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/from-a-divided-medieval-world-toward-an-early-modern-one/",
+      "title": "023 · From a divided medieval world toward an early modern one"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/frontiers-within-europe-iberia-the-north-and-the/",
+      "title": "023 · Frontiers within Europe: Iberia, the north and the Mediterranean"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/how-an-eastern-roman-government-survived/",
+      "title": "023 · How an eastern Roman government survived"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/kings-aristocrats-and-the-misleading-pyramid/",
+      "title": "023 · Kings, aristocrats and the misleading pyramid"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/knights-fortresses-and-the-economics-of-force/",
+      "title": "023 · Knights, fortresses and the economics of force"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/learning-manuscripts-and-universities/",
+      "title": "023 · Learning, manuscripts and universities"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/manzikert-a-turning-point-that-needs-an-explanation/",
+      "title": "023 · Manzikert: a turning point that needs an explanation"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/medieval-monarchies-did-not-all-centralize-alike/",
+      "title": "023 · Medieval monarchies did not all centralize alike"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/orhan-bursa-and-a-government-that-could-grow/",
+      "title": "023 · Orhan, Bursa and a government that could grow"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/osman-and-the-problem-of-origins/",
+      "title": "023 · Osman and the problem of origins"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/serbia-and-the-politics-of-a-shifting-balkan-frontier/",
+      "title": "023 · Serbia and the politics of a shifting Balkan frontier"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-fourth-crusade-and-the-disaster-of-1204/",
+      "title": "023 · The Fourth Crusade and the disaster of 1204"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-komnenian-recovery-and-the-problem-of-allies/",
+      "title": "023 · The Komnenian recovery and the problem of allies"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-late-medieval-crisis-plague-warfare-and-adaptation/",
+      "title": "023 · The late medieval crisis: plague, warfare and adaptation"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-ottoman-reversal-of-1402-and-the-recovery-that-followed/",
+      "title": "023 · The Ottoman reversal of 1402 and the recovery that followed"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-people-who-supplied-the-medieval-world/",
+      "title": "023 · The people who supplied the medieval world"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-second-bulgarian-empire-a-new-center-at-tarnovo/",
+      "title": "023 · The Second Bulgarian Empire: a new center at Tarnovo"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-siege-of-1453-why-the-city-fell-and-what-survived/",
+      "title": "023 · The siege of 1453: why the city fell, and what survived"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-steppe-remained-in-the-balkans-after-the-mongol/",
+      "title": "023 · The steppe remained in the Balkans after the Mongol conquests"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/towns-craft-associations-and-the-return-of-dense-commerce/",
+      "title": "023 · Towns, craft associations and the return of dense commerce"
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/what-and-where-was-medieval-europe/",
+      "title": "023 · What and where was medieval Europe?"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/flashcards/",
+      "title": "024 · Flashcard prompts"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/",
+      "title": "Renaissance, Humanism, and Printing"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/practice/",
+      "title": "024 · Practice laboratory"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/sources/",
+      "title": "024 · Sources and further reading"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/a-simple-printing-calculation-and-its-limitations/",
+      "title": "024 · A simple printing calculation—and its limitations"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/aldus-manutius-portable-books-and-scholarly-publishing/",
+      "title": "024 · Aldus Manutius, portable books and scholarly publishing"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/architecture-antiquity-and-the-politics-of-public-space/",
+      "title": "024 · Architecture, antiquity and the politics of public space"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/before-gutenberg-paper-woodblocks-and-asian-printing/",
+      "title": "024 · Before Gutenberg: paper, woodblocks and Asian printing"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/beyond-italy-exchange-without-a-single-european-pattern/",
+      "title": "024 · Beyond Italy: exchange without a single European pattern"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/bodies-nature-and-the-skilled-eye/",
+      "title": "024 · Bodies, nature and the skilled eye"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/brunelleschis-dome-innovation-under-practical-constraints/",
+      "title": "024 · Brunelleschi's dome: innovation under practical constraints"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/case-study-reconstructing-a-printed-books-journey/",
+      "title": "024 · Case study: reconstructing a printed book's journey"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/civic-humanism-learning-and-political-participation/",
+      "title": "024 · Civic humanism: learning and political participation"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/competing-narratives-rebirth-continuity-and-the-modern/",
+      "title": "024 · Competing narratives: rebirth, continuity and the 'modern individual'"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/erasmus-religious-humanism-and-the-approaching-reformation/",
+      "title": "024 · Erasmus, religious humanism and the approaching Reformation"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/florence-families-guilds-and-competing-ambitions/",
+      "title": "024 · Florence: families, guilds and competing ambitions"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/from-intellectual-revival-to-religious-rupture/",
+      "title": "024 · From intellectual revival to religious rupture"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/from-mainz-to-a-european-network/",
+      "title": "024 · From Mainz to a European network"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/greek-learning-byzantium-and-the-wider-mediterranean/",
+      "title": "024 · Greek learning, Byzantium and the wider Mediterranean"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/gutenbergs-breakthrough-a-system-not-a-single-machine/",
+      "title": "024 · Gutenberg's breakthrough: a system, not a single machine"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/how-a-printed-book-was-made-and-sold/",
+      "title": "024 · How a printed book was made and sold"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/manuscripts-philology-and-the-problem-of-an-authentic-text/",
+      "title": "024 · Manuscripts, philology and the problem of an authentic text"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/patrons-and-artists-cooperation-status-and-bargaining/",
+      "title": "024 · Patrons and artists: cooperation, status and bargaining"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/perspective-how-an-image-makes-a-claim-about-space/",
+      "title": "024 · Perspective: how an image makes a claim about space"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/petrarch-and-the-humanist-search-for-ancient-voices/",
+      "title": "024 · Petrarch and the humanist search for ancient voices"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/printed-images-rumors-and-the-struggle-over-authority/",
+      "title": "024 · Printed images, rumors and the struggle over authority"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/printing-learning-and-the-controversy-over-a-revolution/",
+      "title": "024 · Printing, learning and the controversy over a 'revolution'"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/scripts-and-languages-what-got-printed-and-for-whom/",
+      "title": "024 · Scripts and languages: what got printed, and for whom?"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/the-high-renaissance-and-the-danger-of-a-golden-age-story/",
+      "title": "024 · The High Renaissance and the danger of a golden-age story"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/the-medieval-foundations-of-innovation/",
+      "title": "024 · The medieval foundations of innovation"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/the-northern-renaissance-new-media-different-priorities/",
+      "title": "024 · The Northern Renaissance: new media, different priorities"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/the-renaissance-and-the-expanding-horizon-of-geography/",
+      "title": "024 · The Renaissance and the expanding horizon of geography"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/the-studia-humanitatis-learning-to-read-write-and-judge/",
+      "title": "024 · The studia humanitatis: learning to read, write and judge"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/timeline-people-and-concepts-to-retain/",
+      "title": "024 · Timeline, people and concepts to retain"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/what-do-we-mean-by-a-renaissance/",
+      "title": "024 · What do we mean by a Renaissance?"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/what-the-renaissance-did-not-change-for-most-people/",
+      "title": "024 · What the Renaissance did not change for most people"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/why-the-italian-city-states-mattered/",
+      "title": "024 · Why the Italian city-states mattered"
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/women-households-and-the-limits-of-cultural-opportunity/",
+      "title": "024 · Women, households and the limits of cultural opportunity"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/flashcards/",
+      "title": "025 · Flashcard prompts"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/",
+      "title": "Reformation and Religious Conflict"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/practice/",
+      "title": "025 · Practice laboratory"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/sources/",
+      "title": "025 · Sources and further reading"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/a-changed-parish-worship-schools-and-daily-life/",
+      "title": "025 · A changed parish: worship, schools and daily life"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/a-political-mosaic-princes-cities-and-the-empire/",
+      "title": "025 · A political mosaic: princes, cities and the empire"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/a-wider-world-missions-trade-and-empire/",
+      "title": "025 · A wider world: missions, trade and empire"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/before-the-reformation-a-church-with-many-communities/",
+      "title": "025 · Before the Reformation: a church with many communities"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/calvin-geneva-and-the-international-reformed-churches/",
+      "title": "025 · Calvin, Geneva and the international Reformed churches"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/case-study-three-councils-confronted-with-one-pamphlet/",
+      "title": "025 · Case study: three councils confronted with one pamphlet"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/catholic-renewal-was-not-only-a-reaction/",
+      "title": "025 · Catholic renewal was not only a reaction"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/central-europe-poland-lithuania-bohemia-and-habsburg-lands/",
+      "title": "025 · Central Europe: Poland-Lithuania, Bohemia and Habsburg lands"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/confessionalization-and-the-disciplined-community/",
+      "title": "025 · Confessionalization and the disciplined community"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/england-dynastic-rupture-and-religious-restructuring/",
+      "title": "025 · England: dynastic rupture and religious restructuring"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/from-religious-fragmentation-to-oceanic-connections/",
+      "title": "025 · From religious fragmentation to oceanic connections"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/from-theological-debate-to-political-rupture/",
+      "title": "025 · From theological debate to political rupture"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/indulgences-money-and-authority/",
+      "title": "025 · Indulgences, money and authority"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/jews-muslims-and-the-boundaries-of-christian-europe/",
+      "title": "025 · Jews, Muslims and the boundaries of Christian Europe"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/new-catholic-orders-missions-and-education/",
+      "title": "025 · New Catholic orders, missions and education"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/print-preaching-and-religious-media/",
+      "title": "025 · Print, preaching and religious media"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/radical-reform-and-the-anabaptist-challenge/",
+      "title": "025 · Radical reform and the Anabaptist challenge"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/reform-did-not-begin-in-1517/",
+      "title": "025 · Reform did not begin in 1517"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/salvation-sin-and-the-stakes-of-theology/",
+      "title": "025 · Salvation, sin and the stakes of theology"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/scandinavia-and-the-baltic-reform-by-royal-and-local/",
+      "title": "025 · Scandinavia and the Baltic: reform by royal and local institutions"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/scotland-and-ireland-linked-islands-different-stories/",
+      "title": "025 · Scotland and Ireland: linked islands, different stories"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/the-council-of-trent-doctrine-and-discipline/",
+      "title": "025 · The Council of Trent: doctrine and discipline"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/the-dutch-revolt-religion-and-resistance-to-empire/",
+      "title": "025 · The Dutch Revolt: religion and resistance to empire"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/the-french-wars-of-religion-civil-war-and-massacre/",
+      "title": "025 · The French Wars of Religion: civil war and massacre"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/the-german-peasants-war-whose-freedom/",
+      "title": "025 · The German Peasants' War: whose freedom?"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/the-human-cost-war-hunger-and-disease/",
+      "title": "025 · The human cost: war, hunger and disease"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/the-main-lutheran-claims-without-caricature/",
+      "title": "025 · The main Lutheran claims—without caricature"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/the-ninety-five-theses-and-a-rapidly-changing-dispute/",
+      "title": "025 · The Ninety-Five Theses and a rapidly changing dispute"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/the-orthodox-balkans-and-the-ottoman-context/",
+      "title": "025 · The Orthodox Balkans and the Ottoman context"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/the-schmalkaldic-war-and-the-peace-of-augsburg/",
+      "title": "025 · The Schmalkaldic War and the Peace of Augsburg"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/the-swiss-reformations-zurich-and-competing-visions/",
+      "title": "025 · The Swiss Reformations: Zurich and competing visions"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/the-thirty-years-war-from-bohemia-to-europe/",
+      "title": "025 · The Thirty Years' War: from Bohemia to Europe"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/translation-scripture-and-the-limits-of-access/",
+      "title": "025 · Translation, scripture and the limits of access"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/violence-conformity-and-the-gradual-search-for-coexistence/",
+      "title": "025 · Violence, conformity and the gradual search for coexistence"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/westphalia-and-the-myths-of-modern-sovereignty/",
+      "title": "025 · Westphalia and the myths of modern sovereignty"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/what-the-reformation-changed-and-what-persisted/",
+      "title": "025 · What the Reformation changed—and what persisted"
+    },
+    {
+      "url": "/025-reformation-and-religious-conflict/women-families-and-the-social-geography-of-reform/",
+      "title": "025 · Women, families and the social geography of reform"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/1498-vasco-da-gama-reaches-a-world-already-trading/",
+      "title": "026 · 1498: Vasco da Gama reaches a world already trading"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/flashcards/",
+      "title": "026 · Flashcard prompts"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/",
+      "title": "Indian Ocean Commerce and Asian Powers"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/practice/",
+      "title": "026 · Practice laboratory"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/sources/",
+      "title": "026 · Sources and further reading"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/a-chronology-of-connection-and-contest/",
+      "title": "026 · A chronology of connection and contest"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/aceh-johor-and-the-competition-after-melaka/",
+      "title": "026 · Aceh, Johor and the competition after Melaka"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets-toward-the/",
+      "title": "026 · Arabia, the Red Sea and Egypt: markets toward the Mediterranean"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/case-study-follow-one-piece-of-cotton-cloth/",
+      "title": "026 · Case study: follow one piece of cotton cloth"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/cochin-calicut-and-the-price-of-alliances/",
+      "title": "026 · Cochin, Calicut and the price of alliances"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/competition-cooperation-and-the-limits-of-monopoly/",
+      "title": "026 · Competition, cooperation and the limits of monopoly"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/concepts-worth-retaining/",
+      "title": "026 · Concepts worth retaining"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/courts-rulers-and-the-question-of-sovereignty/",
+      "title": "026 · Courts, rulers and the question of sovereignty"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/diu-ottoman-responses-and-western-ocean-politics/",
+      "title": "026 · Diu, Ottoman responses and western ocean politics"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/gujarat-an-industrial-and-commercial-coast/",
+      "title": "026 · Gujarat: an industrial and commercial coast"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/java-and-the-indonesian-archipelago-producers-and-political/",
+      "title": "026 · Java and the Indonesian archipelago: producers and political centers"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/labor-gender-and-the-people-missing-from-merchant-records/",
+      "title": "026 · Labor, gender and the people missing from merchant records"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/malabar-pepper-ports-and-competing-rulers/",
+      "title": "026 · Malabar: pepper, ports and competing rulers"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/markets-before-modern-banks-trust-credit-and-brokers/",
+      "title": "026 · Markets before modern banks: trust, credit and brokers"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/melaka-the-port-that-organized-a-crossing/",
+      "title": "026 · Melaka: the port that organized a crossing"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/merchant-communities-belonging-in-several-places/",
+      "title": "026 · Merchant communities: belonging in several places"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/ming-chinas-oceanic-world-before-the-europeans/",
+      "title": "026 · Ming China's oceanic world before the Europeans"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/monsoons-nature-as-a-commercial-calendar/",
+      "title": "026 · Monsoons: nature as a commercial calendar"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/ports-as-cities-prosperity-was-constructed/",
+      "title": "026 · Ports as cities: prosperity was constructed"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/portuguese-forts-fleets-and-the-cartaz/",
+      "title": "026 · Portuguese forts, fleets and the cartaz"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/religion-traveled-but-not-on-a-single-merchants-command/",
+      "title": "026 · Religion traveled, but not on a single merchant's command"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/religious-and-cultural-exchange-left-material-traces/",
+      "title": "026 · Religious and cultural exchange left material traces"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/ships-sailors-and-navigational-knowledge/",
+      "title": "026 · Ships, sailors and navigational knowledge"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/the-coromandel-coast-bengal-and-sri-lanka/",
+      "title": "026 · The Coromandel coast, Bengal and Sri Lanka"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/the-dutch-and-english-companies-enter-the-picture/",
+      "title": "026 · The Dutch and English companies enter the picture"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/the-historical-evidence-what-we-know-and-what-is-debated/",
+      "title": "026 · The historical evidence: what we know and what is debated"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/the-movement-of-enslaved-people-and-the-limits-of-easy/",
+      "title": "026 · The movement of enslaved people and the limits of easy comparisons"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/the-mughal-empire-and-commercial-worlds-it-did-not-invent/",
+      "title": "026 · The Mughal Empire and commercial worlds it did not invent"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/the-ocean-was-a-system-of-connected-seas/",
+      "title": "026 · The ocean was a system of connected seas"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/the-persian-gulf-hormuz-and-overlapping-sovereignties/",
+      "title": "026 · The Persian Gulf: Hormuz and overlapping sovereignties"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/the-real-merchandise-textiles-grain-and-ordinary-goods/",
+      "title": "026 · The real merchandise: textiles, grain and ordinary goods"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/the-spice-islands-scarcity-was-geographic-and-political/",
+      "title": "026 · The spice islands: scarcity was geographic and political"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/the-swahili-coast-african-cities-in-an-oceanic-world/",
+      "title": "026 · The Swahili coast: African cities in an oceanic world"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/why-this-ocean-matters-to-world-history/",
+      "title": "026 · Why this ocean matters to world history"
+    },
+    {
+      "url": "/026-indian-ocean-commerce-and-asian-powers/zheng-hes-voyages-diplomacy-power-and-spectacle/",
+      "title": "026 · Zheng He's voyages: diplomacy, power and spectacle"
+    },
+    {
+      "url": "/027-european-maritime-expansion/flashcards/",
+      "title": "027 · Flashcard prompts"
+    },
+    {
+      "url": "/027-european-maritime-expansion/",
+      "title": "European Maritime Expansion"
+    },
+    {
+      "url": "/027-european-maritime-expansion/practice/",
+      "title": "027 · Practice laboratory"
+    },
+    {
+      "url": "/027-european-maritime-expansion/sources/",
+      "title": "027 · Sources and further reading"
+    },
+    {
+      "url": "/027-european-maritime-expansion/a-chronology-of-voyages-and-changing-power/",
+      "title": "027 · A chronology of voyages and changing power"
+    },
+    {
+      "url": "/027-european-maritime-expansion/after-1492-many-voyages-many-sponsors/",
+      "title": "027 · After 1492: many voyages, many sponsors"
+    },
+    {
+      "url": "/027-european-maritime-expansion/atlantic-islands-settlement-before-continental-empire/",
+      "title": "027 · Atlantic islands: settlement before continental empire"
+    },
+    {
+      "url": "/027-european-maritime-expansion/atlantic-slavery-beginnings-expansion-and-historical/",
+      "title": "027 · Atlantic slavery: beginnings, expansion and historical responsibility"
+    },
+    {
+      "url": "/027-european-maritime-expansion/bartolomeu-dias-and-the-african-cape/",
+      "title": "027 · Bartolomeu Dias and the African Cape"
+    },
+    {
+      "url": "/027-european-maritime-expansion/before-the-atlantic-voyages-an-already-connected-world/",
+      "title": "027 · Before the Atlantic voyages: an already connected world"
+    },
+    {
+      "url": "/027-european-maritime-expansion/caribbean-communities-and-the-first-colonial-confrontations/",
+      "title": "027 · Caribbean communities and the first colonial confrontations"
+    },
+    {
+      "url": "/027-european-maritime-expansion/case-study-compare-three-maps-of-the-same-ocean/",
+      "title": "027 · Case study: compare three maps of the same ocean"
+    },
+    {
+      "url": "/027-european-maritime-expansion/case-study-the-budget-of-an-imaginary-atlantic-expedition/",
+      "title": "027 · Case study: the budget of an imaginary Atlantic expedition"
+    },
+    {
+      "url": "/027-european-maritime-expansion/columbuss-westward-wager/",
+      "title": "027 · Columbus's westward wager"
+    },
+    {
+      "url": "/027-european-maritime-expansion/concepts-worth-retaining-and-the-bridge-to-chapter-28/",
+      "title": "027 · Concepts worth retaining and the bridge to Chapter 28"
+    },
+    {
+      "url": "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans-were-not/",
+      "title": "027 · Conquest in Mesoamerica: why a few hundred Europeans were not enough"
+    },
+    {
+      "url": "/027-european-maritime-expansion/conquest-in-the-andes-civil-war-alliances-and-coercion/",
+      "title": "027 · Conquest in the Andes: civil war, alliances and coercion"
+    },
+    {
+      "url": "/027-european-maritime-expansion/encomienda-tribute-and-the-structure-of-colonial-extraction/",
+      "title": "027 · Encomienda, tribute and the structure of colonial extraction"
+    },
+    {
+      "url": "/027-european-maritime-expansion/environmental-change-and-island-laboratories/",
+      "title": "027 · Environmental change and island laboratories"
+    },
+    {
+      "url": "/027-european-maritime-expansion/epidemic-catastrophe-without-a-single-cause-myth/",
+      "title": "027 · Epidemic catastrophe without a single-cause myth"
+    },
+    {
+      "url": "/027-european-maritime-expansion/from-voyages-to-colonies-a-change-in-the-kind-of-power/",
+      "title": "027 · From voyages to colonies: a change in the kind of power"
+    },
+    {
+      "url": "/027-european-maritime-expansion/gold-elmina-and-the-limits-of-a-coastal-fort/",
+      "title": "027 · Gold, Elmina and the limits of a coastal fort"
+    },
+    {
+      "url": "/027-european-maritime-expansion/historical-evidence-contested-claims-and-public-memory/",
+      "title": "027 · Historical evidence, contested claims and public memory"
+    },
+    {
+      "url": "/027-european-maritime-expansion/learning-the-wind-the-atlantic-as-an-environment/",
+      "title": "027 · Learning the wind: the Atlantic as an environment"
+    },
+    {
+      "url": "/027-european-maritime-expansion/maps-naming-and-the-construction-of-a-new-world/",
+      "title": "027 · Maps, naming and the construction of a 'New World'"
+    },
+    {
+      "url": "/027-european-maritime-expansion/pedro-alvares-cabral-and-the-atlantic-connection-to-brazil/",
+      "title": "027 · Pedro Álvares Cabral and the Atlantic connection to Brazil"
+    },
+    {
+      "url": "/027-european-maritime-expansion/prince-henry-and-the-danger-of-founder-legends/",
+      "title": "027 · Prince Henry and the danger of founder legends"
+    },
+    {
+      "url": "/027-european-maritime-expansion/religious-mission-and-the-moral-controversies-of-empire/",
+      "title": "027 · Religious mission and the moral controversies of empire"
+    },
+    {
+      "url": "/027-european-maritime-expansion/silver-spices-and-the-unequal-movement-of-wealth/",
+      "title": "027 · Silver, spices and the unequal movement of wealth"
+    },
+    {
+      "url": "/027-european-maritime-expansion/spain-and-portugal-did-not-own-the-worlds-oceans/",
+      "title": "027 · Spain and Portugal did not own the world's oceans"
+    },
+    {
+      "url": "/027-european-maritime-expansion/the-economics-of-a-long-voyage/",
+      "title": "027 · The economics of a long voyage"
+    },
+    {
+      "url": "/027-european-maritime-expansion/the-first-circumnavigation-magellan-elcano-and-the-pacific/",
+      "title": "027 · The first circumnavigation: Magellan, Elcano and the Pacific"
+    },
+    {
+      "url": "/027-european-maritime-expansion/the-pacific-was-a-world-of-its-own/",
+      "title": "027 · The Pacific was a world of its own"
+    },
+    {
+      "url": "/027-european-maritime-expansion/the-technology-was-a-system-not-a-miraculous-invention/",
+      "title": "027 · The technology was a system, not a miraculous invention"
+    },
+    {
+      "url": "/027-european-maritime-expansion/treaties-and-papal-bulls-dividing-claims-without-consulting/",
+      "title": "027 · Treaties and papal bulls: dividing claims without consulting inhabitants"
+    },
+    {
+      "url": "/027-european-maritime-expansion/vasco-da-gama-and-the-entrance-into-an-established-indian/",
+      "title": "027 · Vasco da Gama and the entrance into an established Indian Ocean"
+    },
+    {
+      "url": "/027-european-maritime-expansion/west-africa-established-states-markets-and-negotiating/",
+      "title": "027 · West Africa: established states, markets and negotiating partners"
+    },
+    {
+      "url": "/027-european-maritime-expansion/what-technology-advantage-can-and-cannot-explain/",
+      "title": "027 · What 'technology advantage' can and cannot explain"
+    },
+    {
+      "url": "/027-european-maritime-expansion/why-portugal-and-castile-became-important-maritime-sponsors/",
+      "title": "027 · Why Portugal and Castile became important maritime sponsors"
+    },
+    {
+      "url": "/027-european-maritime-expansion/womens-lives-and-the-people-absent-from-heroic-voyage/",
+      "title": "027 · Women's lives and the people absent from heroic voyage narratives"
+    },
+    {
+      "url": "/028-the-columbian-exchange/flashcards/",
+      "title": "028 · Flashcard prompts"
+    },
+    {
+      "url": "/028-the-columbian-exchange/",
+      "title": "The Columbian Exchange"
+    },
+    {
+      "url": "/028-the-columbian-exchange/practice/",
+      "title": "028 · Practice laboratory"
+    },
+    {
+      "url": "/028-the-columbian-exchange/sources/",
+      "title": "028 · Sources and further reading"
+    },
+    {
+      "url": "/028-the-columbian-exchange/a-biological-map-is-not-a-political-map/",
+      "title": "028 · A biological map is not a political map"
+    },
+    {
+      "url": "/028-the-columbian-exchange/a-food-revolution-beyond-the-atlantic/",
+      "title": "028 · A food revolution beyond the Atlantic"
+    },
+    {
+      "url": "/028-the-columbian-exchange/a-necessary-warning-about-biological-determinism/",
+      "title": "028 · A necessary warning about biological determinism"
+    },
+    {
+      "url": "/028-the-columbian-exchange/a-regional-comparison-africa-asia-and-european-kitchens/",
+      "title": "028 · A regional comparison: Africa, Asia and European kitchens"
+    },
+    {
+      "url": "/028-the-columbian-exchange/a-regional-comparison-mesoamerica-and-the-andes/",
+      "title": "028 · A regional comparison: Mesoamerica and the Andes"
+    },
+    {
+      "url": "/028-the-columbian-exchange/american-crops-more-than-a-list-of-foods/",
+      "title": "028 · American crops: more than a list of foods"
+    },
+    {
+      "url": "/028-the-columbian-exchange/biodiversity-selection-and-a-paradox-of-abundance/",
+      "title": "028 · Biodiversity, selection and a paradox of abundance"
+    },
+    {
+      "url": "/028-the-columbian-exchange/cacao-tobacco-and-a-world-of-contested-consumption/",
+      "title": "028 · Cacao, tobacco and a world of contested consumption"
+    },
+    {
+      "url": "/028-the-columbian-exchange/case-study-tracing-the-potato-through-one-causal-chain/",
+      "title": "028 · Case study: tracing the potato through one causal chain"
+    },
+    {
+      "url": "/028-the-columbian-exchange/case-study-what-an-epidemic-death-estimate-can-and-cannot/",
+      "title": "028 · Case study: what an epidemic death estimate can and cannot tell you"
+    },
+    {
+      "url": "/028-the-columbian-exchange/cassava-sweet-potatoes-and-cultivation-under-constraint/",
+      "title": "028 · Cassava, sweet potatoes and cultivation under constraint"
+    },
+    {
+      "url": "/028-the-columbian-exchange/cattle-sheep-pigs-and-goats-animals-as-ecological-agents/",
+      "title": "028 · Cattle, sheep, pigs and goats: animals as ecological agents"
+    },
+    {
+      "url": "/028-the-columbian-exchange/cities-ports-and-new-commercial-ecologies/",
+      "title": "028 · Cities, ports and new commercial ecologies"
+    },
+    {
+      "url": "/028-the-columbian-exchange/concepts-worth-retaining-and-the-bridge-to-chapter-29/",
+      "title": "028 · Concepts worth retaining and the bridge to Chapter 29"
+    },
+    {
+      "url": "/028-the-columbian-exchange/horses-and-the-transformation-of-indigenous-mobility/",
+      "title": "028 · Horses and the transformation of Indigenous mobility"
+    },
+    {
+      "url": "/028-the-columbian-exchange/how-we-know-archaeology-genetics-and-documents/",
+      "title": "028 · How we know: archaeology, genetics and documents"
+    },
+    {
+      "url": "/028-the-columbian-exchange/indigenous-knowledge-and-the-problem-of-credit/",
+      "title": "028 · Indigenous knowledge and the problem of credit"
+    },
+    {
+      "url": "/028-the-columbian-exchange/maize-and-the-global-remaking-of-farming/",
+      "title": "028 · Maize and the global remaking of farming"
+    },
+    {
+      "url": "/028-the-columbian-exchange/misconceptions-and-disputed-interpretations/",
+      "title": "028 · Misconceptions and disputed interpretations"
+    },
+    {
+      "url": "/028-the-columbian-exchange/potatoes-andes-europe-and-demographic-change/",
+      "title": "028 · Potatoes: Andes, Europe and demographic change"
+    },
+    {
+      "url": "/028-the-columbian-exchange/regional-chronology-no-single-epidemic-timeline/",
+      "title": "028 · Regional chronology: no single epidemic timeline"
+    },
+    {
+      "url": "/028-the-columbian-exchange/sugar-labor-and-the-ecological-footprint-of-plantations/",
+      "title": "028 · Sugar, labor and the ecological footprint of plantations"
+    },
+    {
+      "url": "/028-the-columbian-exchange/the-demographic-catastrophe-and-the-problem-of-numbers/",
+      "title": "028 · The demographic catastrophe and the problem of numbers"
+    },
+    {
+      "url": "/028-the-columbian-exchange/the-environmental-boundary-and-its-limits/",
+      "title": "028 · The environmental boundary and its limits"
+    },
+    {
+      "url": "/028-the-columbian-exchange/the-exchange-as-a-network-with-feedback-loops/",
+      "title": "028 · The exchange as a network with feedback loops"
+    },
+    {
+      "url": "/028-the-columbian-exchange/the-little-ice-age-question-and-the-abandoned-land/",
+      "title": "028 · The Little Ice Age question and the abandoned-land hypothesis"
+    },
+    {
+      "url": "/028-the-columbian-exchange/the-price-of-dependence-a-case-study-in-risk/",
+      "title": "028 · The price of dependence: a case study in risk"
+    },
+    {
+      "url": "/028-the-columbian-exchange/the-problem-of-weeds-pests-and-invasions/",
+      "title": "028 · The problem of weeds, pests and invasions"
+    },
+    {
+      "url": "/028-the-columbian-exchange/the-unequal-movement-of-people/",
+      "title": "028 · The unequal movement of people"
+    },
+    {
+      "url": "/028-the-columbian-exchange/tomatoes-chiles-and-the-invention-of-familiar-cuisines/",
+      "title": "028 · Tomatoes, chiles and the invention of familiar cuisines"
+    },
+    {
+      "url": "/028-the-columbian-exchange/two-hemispheres-many-worlds/",
+      "title": "028 · Two hemispheres, many worlds"
+    },
+    {
+      "url": "/028-the-columbian-exchange/was-the-columbian-exchange-good-or-bad/",
+      "title": "028 · Was the Columbian Exchange good or bad?"
+    },
+    {
+      "url": "/028-the-columbian-exchange/what-an-epidemic-does-to-a-society/",
+      "title": "028 · What an epidemic does to a society"
+    },
+    {
+      "url": "/028-the-columbian-exchange/what-crossed-westward-wheat-rice-and-sugarcane/",
+      "title": "028 · What crossed westward: wheat, rice and sugarcane"
+    },
+    {
+      "url": "/028-the-columbian-exchange/what-the-columbian-exchange-actually-means/",
+      "title": "028 · What the Columbian Exchange actually means"
+    },
+    {
+      "url": "/028-the-columbian-exchange/why-disease-was-the-most-devastating-movement/",
+      "title": "028 · Why disease was the most devastating movement"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/flashcards/",
+      "title": "029 · Flashcard prompts"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/",
+      "title": "Atlantic Slavery and Plantation Economies"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/practice/",
+      "title": "029 · Practice laboratory"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/sources/",
+      "title": "029 · Sources and further reading"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/abolition-and-empire-patrols-and-contradictions/",
+      "title": "029 · Abolition and empire: patrols and contradictions"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/africa-was-not-one-country-or-one-position-in-the-trade/",
+      "title": "029 · Africa was not one country—or one position in the trade"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/african-knowledge-and-the-making-of-new-cultures/",
+      "title": "029 · African knowledge and the making of new cultures"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/africas-long-term-consequences-beyond-a-single-explanation/",
+      "title": "029 · Africa's long-term consequences: beyond a single explanation"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/brazil-cuba-and-the-long-nineteenth-century/",
+      "title": "029 · Brazil, Cuba and the long nineteenth century"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/british-abolition-movement-law-and-limitation/",
+      "title": "029 · British abolition: movement, law and limitation"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/case-study-one-shipment-several-kinds-of-loss/",
+      "title": "029 · Case study: one shipment, several kinds of loss"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/case-study-the-haitian-revolution-as-a-problem-of-causation/",
+      "title": "029 · Case study: the Haitian Revolution as a problem of causation"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/case-study-was-the-atlantic-trade-truly-triangular/",
+      "title": "029 · Case study: was the Atlantic trade truly triangular?"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/case-study-what-does-an-abolition-law-actually-end/",
+      "title": "029 · Case study: what does an abolition law actually end?"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/central-africa-kongo-ndongo-and-angola/",
+      "title": "029 · Central Africa: Kongo, Ndongo and Angola"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/concepts-worth-retaining-and-the-bridge-to-chapter-30/",
+      "title": "029 · Concepts worth retaining and the bridge to Chapter 30"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/cotton-and-industrialization-a-transatlantic-connection/",
+      "title": "029 · Cotton and industrialization: a transatlantic connection"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/credit-insurance-and-the-commercial-infrastructure-of/",
+      "title": "029 · Credit, insurance and the commercial infrastructure of bondage"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/economic-case-study-accounting-for-an-efficient-plantation/",
+      "title": "029 · Economic case study: accounting for an 'efficient' plantation"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/family-gender-and-everyday-life-under-enslavement/",
+      "title": "029 · Family, gender and everyday life under enslavement"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/how-historians-count-voyages-and-people/",
+      "title": "029 · How historians count voyages and people"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/how-we-know-reading-records-against-the-grain/",
+      "title": "029 · How we know: reading records against the grain"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/misconceptions-and-contested-interpretations/",
+      "title": "029 · Misconceptions and contested interpretations"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/palmares-and-the-geography-of-freedom/",
+      "title": "029 · Palmares and the geography of freedom"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/ports-forts-and-the-long-journey-before-embarkation/",
+      "title": "029 · Ports, forts and the long journey before embarkation"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/remembering-slavery-archives-monuments-and-repair/",
+      "title": "029 · Remembering slavery: archives, monuments and repair"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/resistance-in-daily-life-and-at-sea/",
+      "title": "029 · Resistance in daily life and at sea"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/saint-domingue-and-the-haitian-revolution/",
+      "title": "029 · Saint-Domingue and the Haitian Revolution"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/slavery-before-the-atlantic-similarities-do-not-erase/",
+      "title": "029 · Slavery before the Atlantic: similarities do not erase differences"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/sugar-land-mills-capital-and-coercion/",
+      "title": "029 · Sugar: land, mills, capital and coercion"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/the-middle-passage-and-an-atlantic-catastrophe/",
+      "title": "029 · The Middle Passage and an Atlantic catastrophe"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/the-plantation-as-an-institution/",
+      "title": "029 · The plantation as an institution"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/the-profits-question-who-gained-who-paid/",
+      "title": "029 · The profits question: who gained, who paid?"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/the-triangle-is-a-teaching-device-not-a-complete-route-map/",
+      "title": "029 · The 'triangle' is a teaching device, not a complete route map"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/tobacco-coffee-rice-and-indigo/",
+      "title": "029 · Tobacco, coffee, rice and indigo"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/united-states-slavery-expansion-and-civil-war/",
+      "title": "029 · United States slavery, expansion and civil war"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/western-africa-states-war-and-the-politics-of-captive-supply/",
+      "title": "029 · Western Africa: states, war and the politics of captive supply"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/what-emancipation-changed-and-what-it-did-not/",
+      "title": "029 · What emancipation changed—and what it did not"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/where-captives-were-sent-beyond-a-north-american-story/",
+      "title": "029 · Where captives were sent: beyond a North American story"
+    },
+    {
+      "url": "/029-atlantic-slavery-and-plantation-economies/why-the-atlantic-system-expanded/",
+      "title": "029 · Why the Atlantic system expanded"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/flashcards/",
+      "title": "030 · Flashcard prompts"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/",
+      "title": "The Qing, Mughal, and Ottoman Worlds"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/practice/",
+      "title": "030 · Practice laboratory"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/sources/",
+      "title": "030 · Sources and further reading"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/a-map-of-three-political-ecologies/",
+      "title": "030 · A map of three political ecologies"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/akbar-military-success-political-bargaining-and-legitimacy/",
+      "title": "030 · Akbar: military success, political bargaining and legitimacy"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/aurangzeb-and-the-limits-of-mughal-expansion/",
+      "title": "030 · Aurangzeb and the limits of Mughal expansion"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/before-the-qing-the-late-ming-world/",
+      "title": "030 · Before the Qing: the late Ming world"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/case-study-following-a-bolt-of-cloth-and-a-porcelain-bowl/",
+      "title": "030 · Case study: following a bolt of cloth and a porcelain bowl"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/comparing-three-systems-of-imperial-authority/",
+      "title": "030 · Comparing three systems of imperial authority"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/european-powers-were-participants-not-immediate-masters/",
+      "title": "030 · European powers were participants, not immediate masters"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/examinations-officials-and-the-costs-of-local-rule/",
+      "title": "030 · Examinations, officials and the costs of local rule"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/frontiers-ethnicity-and-the-meaning-of-china/",
+      "title": "030 · Frontiers, ethnicity and the meaning of 'China'"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/how-imperial-courts-used-culture-to-make-authority-visible/",
+      "title": "030 · How imperial courts used culture to make authority visible"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/jahangir-and-shah-jahan-courts-of-power-and-representation/",
+      "title": "030 · Jahangir and Shah Jahan: courts of power and representation"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/kangxi-yongzheng-and-qianlong-consolidation-and-expansion/",
+      "title": "030 · Kangxi, Yongzheng and Qianlong: consolidation and expansion"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/land-revenue-and-the-people-who-produced-it/",
+      "title": "030 · Land revenue and the people who produced it"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/law-religion-and-community-under-ottoman-rule/",
+      "title": "030 · Law, religion and community under Ottoman rule"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/mughal-cities-and-indian-ocean-commerce/",
+      "title": "030 · Mughal cities and Indian Ocean commerce"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/mughal-fragmentation-and-powerful-regional-successors/",
+      "title": "030 · Mughal fragmentation and powerful regional successors"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/ottoman-expansion-and-imperial-consolidation/",
+      "title": "030 · Ottoman expansion and imperial consolidation"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/ottoman-towns-commerce-and-cultural-production/",
+      "title": "030 · Ottoman towns, commerce and cultural production"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/peasants-cities-and-the-limits-of-prosperity/",
+      "title": "030 · Peasants, cities and the limits of prosperity"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/qing-rule-a-chinese-dynasty-and-an-inner-asian-empire/",
+      "title": "030 · Qing rule: a Chinese dynasty and an Inner Asian empire"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/safavid-iran-the-indispensable-fourth-power/",
+      "title": "030 · Safavid Iran: the indispensable fourth power"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/taxation-provinces-and-negotiation-in-ottoman-government/",
+      "title": "030 · Taxation, provinces and negotiation in Ottoman government"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/the-balkans-inside-the-ottoman-world/",
+      "title": "030 · The Balkans inside the Ottoman world"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/the-east-india-company-and-the-changing-balance-of-power/",
+      "title": "030 · The East India Company and the changing balance of power"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/the-manchu-rise-and-the-banners/",
+      "title": "030 · The Manchu rise and the banners"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/the-mansabdari-system-office-rank-and-obligation/",
+      "title": "030 · The mansabdari system: office, rank and obligation"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/the-mughal-foundation-babur-and-humayun/",
+      "title": "030 · The Mughal foundation: Babur and Humayun"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/the-ottoman-ruling-household-and-central-institutions/",
+      "title": "030 · The Ottoman ruling household and central institutions"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/the-qing-economy-farming-craft-production-and-global-silver/",
+      "title": "030 · The Qing economy: farming, craft production and global silver"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/timars-janissaries-and-imperial-armies/",
+      "title": "030 · Timars, janissaries and imperial armies"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/war-was-costly-even-when-the-empire-won/",
+      "title": "030 · War was costly even when the empire won"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/what-makes-an-empire-more-than-a-conquest/",
+      "title": "030 · What makes an empire more than a conquest?"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/what-this-world-tells-us-about-modernity/",
+      "title": "030 · What this world tells us about modernity"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/why-comparison-is-useful-and-where-it-misleads/",
+      "title": "030 · Why comparison is useful—and where it misleads"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/why-the-decline-narrative-is-often-too-neat/",
+      "title": "030 · Why the 'decline' narrative is often too neat"
+    },
+    {
+      "url": "/030-the-qing-mughal-and-ottoman-worlds/women-households-and-the-politics-of-the-court/",
+      "title": "030 · Women, households and the politics of the court"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/flashcards/",
+      "title": "031 · Flashcard prompts"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/",
+      "title": "Scientific Revolution and Enlightenment"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/practice/",
+      "title": "031 · Practice laboratory"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/sources/",
+      "title": "031 · Sources and further reading"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/a-connected-europe-the-balkans-and-ottoman-borderlands/",
+      "title": "031 · A connected Europe: the Balkans and Ottoman borderlands"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/a-worked-example-why-numbers-can-clarify-ideas/",
+      "title": "031 · A worked example: why numbers can clarify ideas"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/bodies-anatomy-and-the-circulation-of-blood/",
+      "title": "031 · Bodies, anatomy, and the circulation of blood"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/calculus-priority-disputes-and-collaborative-discovery/",
+      "title": "031 · Calculus, priority disputes, and collaborative discovery"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/chemistry-and-a-difficult-change-of-vocabulary/",
+      "title": "031 · Chemistry and a difficult change of vocabulary"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/cities-courts-ships-and-printing-made-knowledge-mobile/",
+      "title": "031 · Cities, courts, ships, and printing made knowledge mobile"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/copernicus-and-the-rearrangement-of-the-cosmos/",
+      "title": "031 · Copernicus and the rearrangement of the cosmos"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/descartes-doubt-reason-and-mechanism/",
+      "title": "031 · Descartes: doubt, reason, and mechanism"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/did-the-enlightenment-cause-revolution/",
+      "title": "031 · Did the Enlightenment cause revolution?"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/diderots-encyclopedie-and-the-politics-of-knowledge/",
+      "title": "031 · Diderot's Encyclopédie and the politics of knowledge"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/enlightened-rulers-reforms-and-the-limits-of-absolutism/",
+      "title": "031 · Enlightened rulers, reforms, and the limits of absolutism"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/experiments-pumps-pressure-and-arguments/",
+      "title": "031 · Experiments: pumps, pressure, and arguments"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/francis-bacon-and-the-reform-of-inquiry/",
+      "title": "031 · Francis Bacon and the reform of inquiry"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/from-natural-philosophy-to-criticism-of-society/",
+      "title": "031 · From natural philosophy to criticism of society"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/galileo-and-the-telescope/",
+      "title": "031 · Galileo and the telescope"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/hume-smith-and-difficult-questions-about-human-nature/",
+      "title": "031 · Hume, Smith, and difficult questions about human nature"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/instruments-are-extensions-of-perception/",
+      "title": "031 · Instruments are extensions of perception"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/keplers-ellipses-and-the-discipline-of-error/",
+      "title": "031 · Kepler's ellipses and the discipline of error"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/knowledge-did-not-begin-in-1500/",
+      "title": "031 · Knowledge did not begin in 1500"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/locke-government-consent-and-limits-on-rulers/",
+      "title": "031 · Locke: government, consent, and limits on rulers"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/montesquieu-and-the-organization-of-power/",
+      "title": "031 · Montesquieu and the organization of power"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/newtons-synthesis-motion-and-gravity/",
+      "title": "031 · Newton's synthesis: motion and gravity"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/plants-classification-and-the-politics-of-collecting/",
+      "title": "031 · Plants, classification, and the politics of collecting"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/public-spheres-salons-coffeehouses-and-readers/",
+      "title": "031 · Public spheres: salons, coffeehouses, and readers"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/religion-and-scientific-inquiry-cooperation-and-conflict/",
+      "title": "031 · Religion and scientific inquiry: cooperation and conflict"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/rousseau-freedom-inequality-and-the-general-will/",
+      "title": "031 · Rousseau: freedom, inequality, and the general will"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/science-across-borders-china-the-islamic-world-and-beyond/",
+      "title": "031 · Science across borders: China, the Islamic world, and beyond"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/the-galileo-affair-was-not-a-simple-slogan/",
+      "title": "031 · The Galileo affair was not a simple slogan"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/the-republic-of-letters-institutions-and-correspondence/",
+      "title": "031 · The republic of letters: institutions and correspondence"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/the-word-revolution-can-mislead/",
+      "title": "031 · The word 'revolution' can mislead"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/there-was-no-single-scientific-method/",
+      "title": "031 · There was no single 'scientific method'"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/tycho-brahe-precision-without-heliocentrism/",
+      "title": "031 · Tycho Brahe: precision without heliocentrism"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/voltaire-toleration-and-the-danger-of-censorship/",
+      "title": "031 · Voltaire, toleration, and the danger of censorship"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/what-changed-and-what-did-not/",
+      "title": "031 · What changed—and what did not"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/women-in-the-creation-of-knowledge/",
+      "title": "031 · Women in the creation of knowledge"
+    },
+    {
+      "url": "/031-scientific-revolution-and-enlightenment/women-slavery-race-and-the-enlightenments-exclusions/",
+      "title": "031 · Women, slavery, race, and the Enlightenment's exclusions"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/flashcards/",
+      "title": "032 · Flashcard prompts"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/",
+      "title": "Atlantic Revolutions and Citizenship"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/practice/",
+      "title": "032 · Exercises"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/sources/",
+      "title": "032 · Sources and further reading"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/summary/",
+      "title": "032 · Key concepts to retain"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/a-comparative-case-study-what-does-citizenship-buy-you/",
+      "title": "032 · A comparative case study: what does citizenship buy you?"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/a-source-workshop-a-declaration-and-the-people-outside-it/",
+      "title": "032 · A source workshop: a declaration and the people outside it"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/another-revolution-was-taking-shape-in-spanish-america/",
+      "title": "032 · Another revolution was taking shape in Spanish America"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/bastille-rural-upheaval-and-the-end-of-privilege/",
+      "title": "032 · Bastille, rural upheaval, and the end of privilege"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/building-a-republic-constitutions-compromises-and-limits/",
+      "title": "032 · Building a republic: constitutions, compromises, and limits"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/constitutional-monarchy-broke-under-pressure/",
+      "title": "032 · Constitutional monarchy broke under pressure"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/emancipation-was-won-and-contested-1793-1794/",
+      "title": "032 · Emancipation was won and contested, 1793–1794"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/france-before-1789-fiscal-crisis-and-a-society-of-estates/",
+      "title": "032 · France before 1789: fiscal crisis and a society of estates"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/from-estates-general-to-national-assembly/",
+      "title": "032 · From Estates-General to National Assembly"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/from-protest-to-war-1774-1776/",
+      "title": "032 · From protest to war, 1774–1776"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/how-revolutionary-ideas-actually-traveled/",
+      "title": "032 · How revolutionary ideas actually traveled"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/napoleons-expedition-and-haitian-independence/",
+      "title": "032 · Napoleon's expedition and Haitian independence"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/property-debt-and-the-economic-costs-of-revolution/",
+      "title": "032 · Property, debt, and the economic costs of revolution"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/republic-execution-and-the-widening-crisis/",
+      "title": "032 · Republic, execution, and the widening crisis"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/saint-domingue-inequality-built-into-law-and-labor/",
+      "title": "032 · Saint-Domingue: inequality built into law and labor"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/subjects-citizens-and-the-political-vocabulary-of-freedom/",
+      "title": "032 · Subjects, citizens, and the political vocabulary of freedom"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/taxation-protest-and-a-crisis-of-authority/",
+      "title": "032 · Taxation, protest, and a crisis of authority"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/terror-emergency-power-and-the-limits-of-revolutionary/",
+      "title": "032 · Terror, emergency power, and the limits of revolutionary virtue"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/the-british-colonies-were-not-one-society/",
+      "title": "032 · The British colonies were not one society"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/the-declaration-of-independence-a-claim-not-a-census-of/",
+      "title": "032 · The Declaration of Independence: a claim, not a census of freedom"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/the-declaration-of-the-rights-of-man-and-of-the-citizen/",
+      "title": "032 · The Declaration of the Rights of Man and of the Citizen"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/the-history-to-retain-and-the-questions-that-remain-open/",
+      "title": "032 · The history to retain—and the questions that remain open"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/the-revolution-survived-its-own-governments/",
+      "title": "032 · The Revolution survived its own governments"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/the-uprising-of-1791-changed-the-terms-of-debate/",
+      "title": "032 · The uprising of 1791 changed the terms of debate"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/three-revolutions-three-definitions-of-the-people/",
+      "title": "032 · Three revolutions, three definitions of the people"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/toussaint-louverture-and-the-problem-of-autonomy/",
+      "title": "032 · Toussaint Louverture and the problem of autonomy"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/violence-war-and-the-danger-of-simple-moral-stories/",
+      "title": "032 · Violence, war, and the danger of simple moral stories"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/what-did-haitian-independence-mean-to-the-atlantic-world/",
+      "title": "032 · What did Haitian independence mean to the Atlantic world?"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/what-makes-a-revolution-atlantic/",
+      "title": "032 · What makes a revolution Atlantic?"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/what-remained-after-the-revolutionary-wave/",
+      "title": "032 · What remained after the revolutionary wave?"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/why-the-caribbean-belongs-at-the-center-of-the-story/",
+      "title": "032 · Why the Caribbean belongs at the center of the story"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/why-the-seven-years-war-mattered/",
+      "title": "032 · Why the Seven Years' War mattered"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/why-universal-language-repeatedly-excluded-people/",
+      "title": "032 · Why universal language repeatedly excluded people"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/winning-independence-required-diplomacy/",
+      "title": "032 · Winning independence required diplomacy"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/women-black-americans-and-native-nations-in-the-revolution/",
+      "title": "032 · Women, Black Americans, and Native nations in the Revolution"
+    },
+    {
+      "url": "/032-atlantic-revolutions-and-citizenship/women-marched-wrote-and-challenged-exclusion/",
+      "title": "032 · Women marched, wrote, and challenged exclusion"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/flashcards/",
+      "title": "033 · Flashcard prompts"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/",
+      "title": "Latin American Independence and State Building"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/practice/",
+      "title": "033 · Exercises"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/sources/",
+      "title": "033 · Sources and further reading"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/a-case-study-the-port-the-province-and-the-treasury/",
+      "title": "033 · A case study: the port, the province, and the treasury"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/bolivia-and-the-difficult-borders-of-new-republics/",
+      "title": "033 · Bolivia and the difficult borders of new republics"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/bolivar-ideas-campaigns-and-political-dilemmas/",
+      "title": "033 · Bolívar: ideas, campaigns, and political dilemmas"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/bourbon-reforms-and-the-fiscal-problem/",
+      "title": "033 · Bourbon reforms and the fiscal problem"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/brazil-a-monarchy-crosses-the-atlantic/",
+      "title": "033 · Brazil: a monarchy crosses the Atlantic"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/brazils-slavery-and-the-limits-of-political-change/",
+      "title": "033 · Brazil's slavery and the limits of political change"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/caudillos-armies-and-political-authority/",
+      "title": "033 · Caudillos, armies, and political authority"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/central-america-federal-dreams-and-provincial-interests/",
+      "title": "033 · Central America: federal dreams and provincial interests"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/comparing-four-paths-after-independence/",
+      "title": "033 · Comparing four paths after independence"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/cuba-puerto-rico-and-the-uneven-boundaries-of-independence/",
+      "title": "033 · Cuba, Puerto Rico, and the uneven boundaries of independence"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/cadiz-and-competing-definitions-of-a-spanish-nation/",
+      "title": "033 · Cádiz and competing definitions of a Spanish nation"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/federalism-centralism-and-the-location-of-sovereignty/",
+      "title": "033 · Federalism, centralism, and the location of sovereignty"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/great-powers-recognition-and-the-monroe-doctrine/",
+      "title": "033 · Great powers, recognition, and the Monroe Doctrine"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/haitis-influence-and-the-question-of-emancipation/",
+      "title": "033 · Haiti's influence and the question of emancipation"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/how-historians-investigate-independence/",
+      "title": "033 · How historians investigate independence"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/indigenous-rebellions-before-1808/",
+      "title": "033 · Indigenous rebellions before 1808"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/land-indigenous-communities-and-competing-citizenships/",
+      "title": "033 · Land, Indigenous communities, and competing citizenships"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/latin-america-was-not-one-colony/",
+      "title": "033 · Latin America was not one colony"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/mexican-independence-began-as-a-social-crisis/",
+      "title": "033 · Mexican independence began as a social crisis"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/mexico-in-1821-a-coalition-changes-sides/",
+      "title": "033 · Mexico in 1821: a coalition changes sides"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/military-alliances-across-social-boundaries/",
+      "title": "033 · Military alliances across social boundaries"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/northern-south-america-and-the-andes-crossing/",
+      "title": "033 · Northern South America and the Andes crossing"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/san-martin-chile-and-the-southern-military-strategy/",
+      "title": "033 · San Martín, Chile, and the southern military strategy"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/slavery-abolition-and-the-limits-of-republican-freedom/",
+      "title": "033 · Slavery, abolition, and the limits of republican freedom"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/the-atlantic-revolutionary-environment/",
+      "title": "033 · The Atlantic revolutionary environment"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/the-congress-of-panama-and-bolivars-continental-vision/",
+      "title": "033 · The Congress of Panama and Bolívar's continental vision"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/the-first-revolutionary-experiments-and-their-failures/",
+      "title": "033 · The first revolutionary experiments and their failures"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/the-fiscal-collapse-a-state-without-an-empires-treasury/",
+      "title": "033 · The fiscal collapse: a state without an empire's treasury"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/the-late-colonial-order-authority-privilege-and-negotiation/",
+      "title": "033 · The late colonial order: authority, privilege, and negotiation"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/the-rio-de-la-plata-revolution-without-a-ready-made-nation/",
+      "title": "033 · The Río de la Plata: revolution without a ready-made nation"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/the-shock-of-1808-and-the-juntas/",
+      "title": "033 · The shock of 1808 and the juntas"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/trade-after-independence-opportunity-and-dependency/",
+      "title": "033 · Trade after independence: opportunity and dependency"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/what-independence-changed-and-what-remained/",
+      "title": "033 · What independence changed, and what remained"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/why-gran-colombia-fragmented/",
+      "title": "033 · Why Gran Colombia fragmented"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/why-peru-was-not-simply-liberated-from-outside/",
+      "title": "033 · Why Peru was not simply 'liberated' from outside"
+    },
+    {
+      "url": "/033-latin-american-independence-and-state-building/women-political-labor-and-the-boundaries-of-citizenship/",
+      "title": "033 · Women, political labor, and the boundaries of citizenship"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/flashcards/",
+      "title": "034 · Flashcard prompts"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/",
+      "title": "Industrialization and Urban Society"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/practice/",
+      "title": "034 · Exercises"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/sources/",
+      "title": "034 · Sources and further reading"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/a-city-is-an-infrastructure-system/",
+      "title": "034 · A city is an infrastructure system"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/a-world-with-impressive-preindustrial-production/",
+      "title": "034 · A world with impressive preindustrial production"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/agriculture-population-and-the-demand-for-goods/",
+      "title": "034 · Agriculture, population and the demand for goods"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/asia-and-the-variety-of-industrial-pathways/",
+      "title": "034 · Asia and the variety of industrial pathways"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/canals-roads-and-the-transport-revolution/",
+      "title": "034 · Canals, roads and the transport revolution"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/case-study-a-growing-textile-town-faces-a-public-choice/",
+      "title": "034 · Case study: a growing textile town faces a public choice"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/children-at-work-and-the-problem-of-historical-comparison/",
+      "title": "034 · Children at work and the problem of historical comparison"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/class-identity-and-the-social-order/",
+      "title": "034 · Class, identity and the social order"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/cotton-a-global-product-before-british-mills/",
+      "title": "034 · Cotton: a global product before British mills"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/credit-entrepreneurs-and-the-economics-of-a-factory/",
+      "title": "034 · Credit, entrepreneurs and the economics of a factory"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/factories-workshops-and-different-kinds-of-work/",
+      "title": "034 · Factories, workshops and different kinds of work"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/growth-productivity-and-who-receives-the-gains/",
+      "title": "034 · Growth, productivity and who receives the gains"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/housing-sanitation-and-the-urban-disease-burden/",
+      "title": "034 · Housing, sanitation and the urban disease burden"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/how-industrial-change-reshaped-politics/",
+      "title": "034 · How industrial change reshaped politics"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/industrialization-spreads-unevenly-across-europe/",
+      "title": "034 · Industrialization spreads unevenly across Europe"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/invention-science-and-the-second-industrial-transformation/",
+      "title": "034 · Invention, science and the second industrial transformation"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/iron-coke-and-the-material-foundations-of-machines/",
+      "title": "034 · Iron, coke and the material foundations of machines"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/literacy-schools-and-a-new-reading-public/",
+      "title": "034 · Literacy, schools and a new reading public"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/power-looms-factories-and-the-politics-of-the-clock/",
+      "title": "034 · Power looms, factories and the politics of the clock"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/railways-and-the-compression-of-distance/",
+      "title": "034 · Railways and the compression of distance"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/reading-wages-prices-and-welfare-without-false-precision/",
+      "title": "034 · Reading wages, prices and welfare without false precision"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/slavery-empire-and-the-industrial-supply-chain/",
+      "title": "034 · Slavery, empire and the industrial supply chain"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/southeastern-europe-and-the-balkans/",
+      "title": "034 · Southeastern Europe and the Balkans"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/spinning-inventions-and-the-bottleneck-principle/",
+      "title": "034 · Spinning inventions and the bottleneck principle"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/steam-engines-invention-maintenance-and-efficiency/",
+      "title": "034 · Steam engines: invention, maintenance and efficiency"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/the-industrial-environment-local-smoke-global-effects/",
+      "title": "034 · The industrial environment: local smoke, global effects"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/the-industrial-world-we-inherited/",
+      "title": "034 · The industrial world we inherited"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/the-united-states-northern-mills-and-southern-cotton/",
+      "title": "034 · The United States: northern mills and southern cotton"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/water-power-coal-and-the-energy-constraint/",
+      "title": "034 · Water power, coal and the energy constraint"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/what-counts-as-industrialization/",
+      "title": "034 · What counts as industrialization?"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/what-did-the-industrial-revolution-do-to-living-standards/",
+      "title": "034 · What did the Industrial Revolution do to living standards?"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/why-britain-first-a-question-without-one-answer/",
+      "title": "034 · Why Britain first? A question without one answer"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/why-cities-grew-and-why-they-struggled/",
+      "title": "034 · Why cities grew—and why they struggled"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/why-the-historical-revolution-took-generations/",
+      "title": "034 · Why the historical 'revolution' took generations"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/women-and-the-changing-household-economy/",
+      "title": "034 · Women and the changing household economy"
+    },
+    {
+      "url": "/034-industrialization-and-urban-society/work-discipline-bargaining-and-early-labor-movements/",
+      "title": "034 · Work discipline, bargaining and early labor movements"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/flashcards/",
+      "title": "035 · Flashcard prompts"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/",
+      "title": "Imperialism and African Partition"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/practice/",
+      "title": "035 · Exercises"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/sources/",
+      "title": "035 · Sources and further reading"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/a-hypothetical-council-facing-an-imperial-demand/",
+      "title": "035 · A hypothetical council facing an imperial demand"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/africa-before-the-partition-no-empty-continent/",
+      "title": "035 · Africa before the partition: no empty continent"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/berlin-1884-1885-what-the-conference-actually-did/",
+      "title": "035 · Berlin, 1884–1885: what the conference actually did"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/borders-states-and-the-long-legacy-of-partition/",
+      "title": "035 · Borders, states and the long legacy of partition"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/case-study-was-the-berlin-conference-a-carving-up-meeting/",
+      "title": "035 · Case study: was the Berlin Conference a 'carving-up' meeting?"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/case-study-why-the-congo-figures-are-disputed/",
+      "title": "035 · Case study: why the Congo figures are disputed"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/christianity-islam-and-education-under-empire/",
+      "title": "035 · Christianity, Islam and education under empire"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/colonial-administrations-direct-indirect-and-negotiated-rule/",
+      "title": "035 · Colonial administrations: direct, indirect and negotiated rule"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/connections-with-asia-the-balkans-and-global-power/",
+      "title": "035 · Connections with Asia, the Balkans and global power"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/east-africa-and-the-making-of-colonial-regimes/",
+      "title": "035 · East Africa and the making of colonial regimes"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/ethiopia-and-adwa-a-conquest-that-failed/",
+      "title": "035 · Ethiopia and Adwa: a conquest that failed"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/export-crops-mines-and-ecological-transformation/",
+      "title": "035 · Export crops, mines and ecological transformation"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/from-coastal-commerce-to-territorial-rule/",
+      "title": "035 · From coastal commerce to territorial rule"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/german-south-west-africa-and-genocide/",
+      "title": "035 · German South West Africa and genocide"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/how-historians-know-conflicting-colonial-archives/",
+      "title": "035 · How historians know: conflicting colonial archives"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/imperialism-and-racial-ideology/",
+      "title": "035 · Imperialism and racial ideology"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/leopold-ii-and-the-congo-free-state/",
+      "title": "035 · Leopold II and the Congo Free State"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/liberia-morocco-and-different-trajectories-of-sovereignty/",
+      "title": "035 · Liberia, Morocco and different trajectories of sovereignty"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/railways-ports-and-the-question-of-who-benefited/",
+      "title": "035 · Railways, ports and the question of who benefited"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/resistance-did-not-end-after-battlefield-defeat/",
+      "title": "035 · Resistance did not end after battlefield defeat"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/samori-toure-asante-and-african-political-initiative/",
+      "title": "035 · Samori Touré, Asante and African political initiative"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/settler-colonies-land-and-racial-order/",
+      "title": "035 · Settler colonies, land and racial order"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/southern-africa-settler-conquest-and-african-states/",
+      "title": "035 · Southern Africa: settler conquest and African states"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/taxes-labor-demands-and-the-colonial-fiscal-state/",
+      "title": "035 · Taxes, labor demands and the colonial fiscal state"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/technologies-and-their-real-limits/",
+      "title": "035 · Technologies and their real limits"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/the-chapters-central-argument-conquest-was-a-process-not-a/",
+      "title": "035 · The chapter's central argument: conquest was a process, not a map"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/the-colonial-economy-development-extraction-or-both/",
+      "title": "035 · The colonial economy: development, extraction or both?"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/the-nile-the-mahdist-state-and-the-fashoda-crisis/",
+      "title": "035 · The Nile, the Mahdist state and the Fashoda crisis"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/the-suez-canal-egypt-and-imperial-routes/",
+      "title": "035 · The Suez Canal, Egypt and imperial routes"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/three-explanations-for-african-defeat-and-their-limits/",
+      "title": "035 · Three explanations for African defeat—and their limits"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/treaties-chiefs-and-the-politics-of-translation/",
+      "title": "035 · Treaties, chiefs and the politics of translation"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/understanding-a-colonial-map/",
+      "title": "035 · Understanding a colonial map"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/west-africa-rivalry-conquest-and-commercial-reorganization/",
+      "title": "035 · West Africa: rivalry, conquest and commercial reorganization"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/what-changed-by-1914-and-what-remained-african/",
+      "title": "035 · What changed by 1914—and what remained African"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/why-the-late-nineteenth-century-multiple-engines-of/",
+      "title": "035 · Why the late nineteenth century? Multiple engines of expansion"
+    },
+    {
+      "url": "/035-imperialism-and-african-partition/women-families-and-transformations-of-authority/",
+      "title": "035 · Women, families and transformations of authority"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/flashcards/",
+      "title": "036 · Flashcard prompts"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/",
+      "title": "Nationalism and the Nineteenth-Century Nation-State"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/practice/",
+      "title": "036 · Exercises"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/sources/",
+      "title": "036 · Sources and further reading"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/a-short-chronology-of-nationalist-transformations/",
+      "title": "036 · A short chronology of nationalist transformations"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/antisemitism-racism-and-exclusionary-national-politics/",
+      "title": "036 · Antisemitism, racism and exclusionary national politics"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/before-italy-many-states-several-futures/",
+      "title": "036 · Before Italy: many states, several futures"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/beyond-europe-meiji-japan-and-the-national-state/",
+      "title": "036 · Beyond Europe: Meiji Japan and the national state"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/bismarck-and-the-sequence-of-unification-wars/",
+      "title": "036 · Bismarck and the sequence of unification wars"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/borders-minorities-and-the-difficulty-of-self-determination/",
+      "title": "036 · Borders, minorities and the difficulty of self-determination"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/bulgarias-national-revival-schools-church-and-revolution/",
+      "title": "036 · Bulgaria's National Revival: schools, church and revolution"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/case-study-an-invented-multilingual-district/",
+      "title": "036 · Case study: an invented multilingual district"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/citizenship-suffrage-and-the-boundaries-of-participation/",
+      "title": "036 · Citizenship, suffrage and the boundaries of participation"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/comparing-germany-italy-and-the-multinational-empires/",
+      "title": "036 · Comparing Germany, Italy and the multinational empires"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/empire-overseas-expansion-and-the-national-prestige-paradox/",
+      "title": "036 · Empire, overseas expansion and the national prestige paradox"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/france-turning-subjects-and-villagers-into-citizens/",
+      "title": "036 · France: turning subjects and villagers into citizens"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/frankfurt-a-parliament-without-sufficient-power/",
+      "title": "036 · Frankfurt: a parliament without sufficient power"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/from-cultural-revival-to-political-movement/",
+      "title": "036 · From cultural revival to political movement"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/from-dynastic-legitimacy-to-popular-sovereignty/",
+      "title": "036 · From dynastic legitimacy to popular sovereignty"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/garibaldi-1860-and-the-kingdom-of-italy/",
+      "title": "036 · Garibaldi, 1860 and the kingdom of Italy"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/germany-before-bismarck-trade-and-political-diversity/",
+      "title": "036 · Germany before Bismarck: trade and political diversity"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/greece-serbia-and-the-balkan-beginnings/",
+      "title": "036 · Greece, Serbia and the Balkan beginnings"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/how-historians-study-nationalism/",
+      "title": "036 · How historians study nationalism"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/ireland-constitutional-politics-famine-and-national-memory/",
+      "title": "036 · Ireland: constitutional politics, famine and national memory"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/liberalism-conservatism-and-the-national-question/",
+      "title": "036 · Liberalism, conservatism and the national question"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/nation-building-through-administration-census-and-military/",
+      "title": "036 · Nation-building through administration, census and military service"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/nation-state-country-and-nationalism/",
+      "title": "036 · Nation, state, country and nationalism"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/nationalism-and-class-workers-landowners-and-industrial/",
+      "title": "036 · Nationalism and class: workers, landowners and industrial society"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/ottoman-reform-and-the-politics-of-common-citizenship/",
+      "title": "036 · Ottoman reform and the politics of common citizenship"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/piedmont-diplomacy-and-the-war-of-1859/",
+      "title": "036 · Piedmont, diplomacy and the war of 1859"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/printing-schools-and-the-infrastructure-of-belonging/",
+      "title": "036 · Printing, schools and the infrastructure of belonging"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/romanticism-language-and-historical-memory/",
+      "title": "036 · Romanticism, language and historical memory"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/russia-poland-and-the-imperial-borderlands/",
+      "title": "036 · Russia, Poland and the imperial borderlands"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/the-congress-of-vienna-and-the-restoration-settlement/",
+      "title": "036 · The Congress of Vienna and the restoration settlement"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/the-german-empire-nation-state-or-federal-monarchy/",
+      "title": "036 · The German Empire: nation-state or federal monarchy?"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/the-habsburg-monarchy-and-the-challenge-of-plurality/",
+      "title": "036 · The Habsburg monarchy and the challenge of plurality"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/the-making-of-national-history-and-its-dangers/",
+      "title": "036 · The making of national history and its dangers"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/the-national-ideas-promise-and-its-unresolved-contradictions/",
+      "title": "036 · The national idea's promise and its unresolved contradictions"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/the-revolutionary-wave-of-1848/",
+      "title": "036 · The revolutionary wave of 1848"
+    },
+    {
+      "url": "/036-nationalism-and-the-nineteenth-century-nation-state/were-nations-invented-in-the-nineteenth-century/",
+      "title": "036 · Were nations invented in the nineteenth century?"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/flashcards/",
+      "title": "037 · Flashcard prompts"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/",
+      "title": "The Balkans and the Eastern Question"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/practice/",
+      "title": "037 · Exercises"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/sources/",
+      "title": "037 · Sources and further reading"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/a-bulgarian-principality-constitution-power-and-dependency/",
+      "title": "037 · A Bulgarian principality: constitution, power and dependency"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/albania-regional-identities-and-fears-of-partition/",
+      "title": "037 · Albania: regional identities and fears of partition"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/an-ottoman-balkans-of-towns-villages-and-institutions/",
+      "title": "037 · An Ottoman Balkans of towns, villages and institutions"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/april-1876-uprising-repression-and-evidence/",
+      "title": "037 · April 1876: uprising, repression and evidence"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/bosnia-herzegovina-occupation-reform-and-annexation/",
+      "title": "037 · Bosnia-Herzegovina: occupation, reform and annexation"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/bulgarias-national-revival-before-a-bulgarian-state/",
+      "title": "037 · Bulgaria's National Revival before a Bulgarian state"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/commerce-railways-and-the-economic-eastern-question/",
+      "title": "037 · Commerce, railways and the economic Eastern Question"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/eastern-rumelia-and-the-unification-of-1885/",
+      "title": "037 · Eastern Rumelia and the Unification of 1885"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/geography-mountains-rivers-and-the-maritime-gateways/",
+      "title": "037 · Geography: mountains, rivers and the maritime gateways"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/greece-independence-and-international-intervention/",
+      "title": "037 · Greece: independence and international intervention"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/herzegovina-bosnia-and-the-crisis-of-1875/",
+      "title": "037 · Herzegovina, Bosnia and the crisis of 1875"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/macedonia-a-region-many-claims-and-uncertain-categories/",
+      "title": "037 · Macedonia: a region, many claims and uncertain categories"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/migration-minorities-and-the-human-cost-of-new-borders/",
+      "title": "037 · Migration, minorities and the human cost of new borders"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/newspapers-gladstone-and-the-international-audience/",
+      "title": "037 · Newspapers, Gladstone and the international audience"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/ottoman-constitutional-and-administrative-experiments/",
+      "title": "037 · Ottoman constitutional and administrative experiments"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/reform-and-military-defeat-in-the-late-ottoman-world/",
+      "title": "037 · Reform and military defeat in the late Ottoman world"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/romanias-independence-and-the-dobruja-settlement/",
+      "title": "037 · Romania's independence and the Dobruja settlement"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/salonika-constantinople-and-life-beyond-diplomatic/",
+      "title": "037 · Salonika, Constantinople and life beyond diplomatic conferences"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/san-stefano-a-dramatic-but-provisional-settlement/",
+      "title": "037 · San Stefano: a dramatic but provisional settlement"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/serbia-and-montenegro-after-independence/",
+      "title": "037 · Serbia and Montenegro after independence"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/serbia-revolts-autonomy-and-changing-political-status/",
+      "title": "037 · Serbia: revolts, autonomy and changing political status"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-albanian-national-movement-and-1912-independence/",
+      "title": "037 · The Albanian national movement and 1912 independence"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-balkan-league-and-the-first-balkan-war-1912-1913/",
+      "title": "037 · The Balkan League and the First Balkan War, 1912–1913"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-crimean-war-and-the-limits-of-russian-predominance/",
+      "title": "037 · The Crimean War and the limits of Russian predominance"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-eastern-question-was-never-merely-a-question-of-decline/",
+      "title": "037 · The Eastern Question was never merely a question of decline"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-exarchate-religion-language-and-competing-jurisdictions/",
+      "title": "037 · The Exarchate: religion, language and competing jurisdictions"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-great-powers-did-not-share-one-objective/",
+      "title": "037 · The great powers did not share one objective"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-road-from-constantinople-diplomacy-to-war/",
+      "title": "037 · The road from Constantinople diplomacy to war"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-romanian-principalities-and-the-danubian-question/",
+      "title": "037 · The Romanian principalities and the Danubian question"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-russo-turkish-war-battle-volunteers-and-civilian/",
+      "title": "037 · The Russo-Turkish War: battle, volunteers and civilian suffering"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-second-balkan-war-and-the-borders-of-1913/",
+      "title": "037 · The Second Balkan War and the borders of 1913"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-serbo-bulgarian-war-and-the-danger-of-comparison/",
+      "title": "037 · The Serbo-Bulgarian War and the danger of comparison"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-treaty-of-berlin-what-changed-on-the-map/",
+      "title": "037 · The Treaty of Berlin: what changed on the map"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/the-young-turk-revolution-and-bulgarian-independence-1908/",
+      "title": "037 · The Young Turk Revolution and Bulgarian independence, 1908"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/what-the-eastern-question-actually-meant/",
+      "title": "037 · What the Eastern Question actually meant"
+    },
+    {
+      "url": "/037-the-balkans-and-the-eastern-question/why-the-great-powers-met-in-berlin/",
+      "title": "037 · Why the great powers met in Berlin"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/1914-plans-collide-with-geography/",
+      "title": "038 · 1914: plans collide with geography"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/flashcards/",
+      "title": "038 · Flashcard prompts"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/",
+      "title": "World War I: Causes and Consequences"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/practice/",
+      "title": "038 · Exercises"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/sources/",
+      "title": "038 · Sources and further reading"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/a-society-at-war-states-and-economies/",
+      "title": "038 · A society at war: states and economies"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/alliances-commitments-and-illusions/",
+      "title": "038 · Alliances: commitments and illusions"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/artillery-industry-and-an-unfamiliar-scale-of-destruction/",
+      "title": "038 · Artillery, industry and an unfamiliar scale of destruction"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/bulgaria-in-1914-wounded-ambitions-and-neutrality/",
+      "title": "038 · Bulgaria in 1914: wounded ambitions and neutrality"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/bulgaria-joins-the-central-powers-october-1915/",
+      "title": "038 · Bulgaria joins the Central Powers, October 1915"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/dobro-pole-and-bulgarias-withdrawal-september-1918/",
+      "title": "038 · Dobro Pole and Bulgaria's withdrawal, September 1918"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/eastern-europe-movement-occupation-and-revolution/",
+      "title": "038 · Eastern Europe: movement, occupation and revolution"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/how-to-explain-a-war-without-making-it-inevitable/",
+      "title": "038 · How to explain a war without making it inevitable"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/hunger-debt-and-dissent-in-bulgaria/",
+      "title": "038 · Hunger, debt and dissent in Bulgaria"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/memory-myths-and-the-next-crises/",
+      "title": "038 · Memory, myths and the next crises"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/militarism-mobilization-and-railway-timetables/",
+      "title": "038 · Militarism, mobilization and railway timetables"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/neuilly-bulgarias-peace-settlement-november-1919/",
+      "title": "038 · Neuilly: Bulgaria's peace settlement, November 1919"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/other-settlements-the-middle-east-and-the-mandates/",
+      "title": "038 · Other settlements, the Middle East and the mandates"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/romania-dobruja-and-bulgarias-second-war-theater/",
+      "title": "038 · Romania, Dobruja and Bulgaria's second war theater"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/sarajevo-people-and-institutions-behind-the-attack/",
+      "title": "038 · Sarajevo: people and institutions behind the attack"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/sea-power-blockade-and-submarine-warfare/",
+      "title": "038 · Sea power, blockade and submarine warfare"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/soldiers-and-prisoners-beyond-the-battlefield-map/",
+      "title": "038 · Soldiers and prisoners: beyond the battlefield map"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-armenian-genocide-and-the-place-of-civilians/",
+      "title": "038 · The Armenian genocide and the place of civilians"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-collapse-of-the-central-powers-and-the-armistices/",
+      "title": "038 · The collapse of the Central Powers and the armistices"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-crisis-of-1918-russia-out-america-in/",
+      "title": "038 · The crisis of 1918: Russia out, America in"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-europe-of-rival-empires/",
+      "title": "038 · The Europe of rival empires"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-human-toll-what-can-and-cannot-be-counted/",
+      "title": "038 · The human toll: what can and cannot be counted"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-july-crisis-ultimatum-and-decision/",
+      "title": "038 · The July Crisis: ultimatum and decision"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-league-of-nations-aspiration-and-limitations/",
+      "title": "038 · The League of Nations: aspiration and limitations"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-macedonian-or-salonika-front/",
+      "title": "038 · The Macedonian or Salonika Front"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-ottoman-empire-and-the-war-beyond-europe/",
+      "title": "038 · The Ottoman Empire and the war beyond Europe"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-paris-peace-conference-and-its-competing-principles/",
+      "title": "038 · The Paris Peace Conference and its competing principles"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-somme-and-verdun-measuring-the-cost/",
+      "title": "038 · The Somme and Verdun: measuring the cost"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-united-states-enters-the-war-in-1917/",
+      "title": "038 · The United States enters the war in 1917"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/the-war-in-africa-asia-and-the-pacific/",
+      "title": "038 · The war in Africa, Asia and the Pacific"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/versailles-and-the-german-settlement/",
+      "title": "038 · Versailles and the German settlement"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/what-actually-needs-explaining/",
+      "title": "038 · What actually needs explaining?"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/who-was-responsible-a-historical-debate/",
+      "title": "038 · Who was responsible? A historical debate"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/why-the-western-front-became-entrenched/",
+      "title": "038 · Why the Western Front became entrenched"
+    },
+    {
+      "url": "/038-world-war-i-causes-and-consequences/women-families-and-the-contested-meaning-of-change/",
+      "title": "038 · Women, families and the contested meaning of change"
+    }
+  ],
   "changed": [],
-  "recent": []
+  "recent": [
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/",
+      "title": "Europe, Byzantium, and the Ottoman Emergence",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/anatolia-before-the-ottomans-a-landscape-of-many-rulers/",
+      "title": "023 · Anatolia before the Ottomans: a landscape of many rulers",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-and-byzantium-before-the-new-bulgarian-kingdom/",
+      "title": "023 · Bulgaria and Byzantium before the new Bulgarian kingdom",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest-and/",
+      "title": "023 · Bulgaria under pressure: fragmentation, conquest and continuity",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/byzantium-was-the-roman-empire-not-an-empire-beside-rome/",
+      "title": "023 · Byzantium was the Roman Empire, not an empire beside Rome",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/case-study-three-records-three-viewpoints-on-1453/",
+      "title": "023 · Case study: three records, three viewpoints on 1453",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/christianity-and-rival-forms-of-authority/",
+      "title": "023 · Christianity and rival forms of authority",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/crossing-into-europe-and-building-a-balkan-power/",
+      "title": "023 · Crossing into Europe and building a Balkan power",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/crusading-a-movement-larger-than-a-single-expedition/",
+      "title": "023 · Crusading: a movement larger than a single expedition",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/culture-religious-institutions-and-memories-in-medieval/",
+      "title": "023 · Culture, religious institutions and memories in medieval Bulgaria",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/eastern-and-western-christianity-division-without-a-single/",
+      "title": "023 · Eastern and western Christianity: division without a single instant",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/flashcards/",
+      "title": "023 · Flashcard prompts",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/from-a-divided-medieval-world-toward-an-early-modern-one/",
+      "title": "023 · From a divided medieval world toward an early modern one",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/frontiers-within-europe-iberia-the-north-and-the/",
+      "title": "023 · Frontiers within Europe: Iberia, the north and the Mediterranean",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/how-an-eastern-roman-government-survived/",
+      "title": "023 · How an eastern Roman government survived",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/kings-aristocrats-and-the-misleading-pyramid/",
+      "title": "023 · Kings, aristocrats and the misleading pyramid",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/knights-fortresses-and-the-economics-of-force/",
+      "title": "023 · Knights, fortresses and the economics of force",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/learning-manuscripts-and-universities/",
+      "title": "023 · Learning, manuscripts and universities",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/manzikert-a-turning-point-that-needs-an-explanation/",
+      "title": "023 · Manzikert: a turning point that needs an explanation",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/medieval-monarchies-did-not-all-centralize-alike/",
+      "title": "023 · Medieval monarchies did not all centralize alike",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/orhan-bursa-and-a-government-that-could-grow/",
+      "title": "023 · Orhan, Bursa and a government that could grow",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/osman-and-the-problem-of-origins/",
+      "title": "023 · Osman and the problem of origins",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/practice/",
+      "title": "023 · Practice laboratory",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/serbia-and-the-politics-of-a-shifting-balkan-frontier/",
+      "title": "023 · Serbia and the politics of a shifting Balkan frontier",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/sources/",
+      "title": "023 · Sources and further reading",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-fourth-crusade-and-the-disaster-of-1204/",
+      "title": "023 · The Fourth Crusade and the disaster of 1204",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-komnenian-recovery-and-the-problem-of-allies/",
+      "title": "023 · The Komnenian recovery and the problem of allies",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-late-medieval-crisis-plague-warfare-and-adaptation/",
+      "title": "023 · The late medieval crisis: plague, warfare and adaptation",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-ottoman-reversal-of-1402-and-the-recovery-that-followed/",
+      "title": "023 · The Ottoman reversal of 1402 and the recovery that followed",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-people-who-supplied-the-medieval-world/",
+      "title": "023 · The people who supplied the medieval world",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-second-bulgarian-empire-a-new-center-at-tarnovo/",
+      "title": "023 · The Second Bulgarian Empire: a new center at Tarnovo",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-siege-of-1453-why-the-city-fell-and-what-survived/",
+      "title": "023 · The siege of 1453: why the city fell, and what survived",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-steppe-remained-in-the-balkans-after-the-mongol/",
+      "title": "023 · The steppe remained in the Balkans after the Mongol conquests",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/towns-craft-associations-and-the-return-of-dense-commerce/",
+      "title": "023 · Towns, craft associations and the return of dense commerce",
+      "edition": 41
+    },
+    {
+      "url": "/023-europe-byzantium-and-the-ottoman-emergence/what-and-where-was-medieval-europe/",
+      "title": "023 · What and where was medieval Europe?",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/",
+      "title": "Renaissance, Humanism, and Printing",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/a-simple-printing-calculation-and-its-limitations/",
+      "title": "024 · A simple printing calculation—and its limitations",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/aldus-manutius-portable-books-and-scholarly-publishing/",
+      "title": "024 · Aldus Manutius, portable books and scholarly publishing",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/architecture-antiquity-and-the-politics-of-public-space/",
+      "title": "024 · Architecture, antiquity and the politics of public space",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/before-gutenberg-paper-woodblocks-and-asian-printing/",
+      "title": "024 · Before Gutenberg: paper, woodblocks and Asian printing",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/beyond-italy-exchange-without-a-single-european-pattern/",
+      "title": "024 · Beyond Italy: exchange without a single European pattern",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/bodies-nature-and-the-skilled-eye/",
+      "title": "024 · Bodies, nature and the skilled eye",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/brunelleschis-dome-innovation-under-practical-constraints/",
+      "title": "024 · Brunelleschi's dome: innovation under practical constraints",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/case-study-reconstructing-a-printed-books-journey/",
+      "title": "024 · Case study: reconstructing a printed book's journey",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/civic-humanism-learning-and-political-participation/",
+      "title": "024 · Civic humanism: learning and political participation",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/competing-narratives-rebirth-continuity-and-the-modern/",
+      "title": "024 · Competing narratives: rebirth, continuity and the 'modern individual'",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/erasmus-religious-humanism-and-the-approaching-reformation/",
+      "title": "024 · Erasmus, religious humanism and the approaching Reformation",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/flashcards/",
+      "title": "024 · Flashcard prompts",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/florence-families-guilds-and-competing-ambitions/",
+      "title": "024 · Florence: families, guilds and competing ambitions",
+      "edition": 41
+    },
+    {
+      "url": "/024-renaissance-humanism-and-printing/from-intellectual-revival-to-religious-rupture/",
+      "title": "024 · From intellectual revival to religious rupture",
+      "edition": 41
+    }
+  ]
 }

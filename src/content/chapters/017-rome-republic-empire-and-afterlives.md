@@ -12,7 +12,7 @@ standfirstHtml: "A republic became an empire, a city became a network of provinc
 openingTitle: "The morning after the Republic"
 description: "A republic became an empire, a city became a network of provinces, and a political world outlived the western emperor: Rome forces us to ask what makes…"
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 26
 readingTime: 33
 openingReadingTime: 2

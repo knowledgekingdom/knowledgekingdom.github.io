@@ -22,9 +22,10 @@ EDITION_DECK = re.compile(r"^\s*(.+?)\s*/\s*WORKING EDITION\s+(\d+)\s*$", re.I)
 # --- Heading 2 within a chapter ---------------------------------------------
 NUMBERED_H2 = re.compile(r"^\s*(\d+)\.\s+(.+?)\s*$")
 SUMMARY_H2 = re.compile(
-    r"^(the chapter in .*principles|remember this chapter|key (ideas|points|takeaways)|chapter summary|summary|in brief)\b",
+    r"^(the chapter in .*principles|remember this chapter|key (ideas|points|takeaways|concepts)|chapter summary|summary|in brief)\b",
     re.I)
-PRACTICE_H2 = re.compile(r"^practice (laboratory|lab|exercises|questions)\b", re.I)
+# "Practice laboratory — 30 exercises" (to Edition 25) or "Exercises — 30 questions" (Edition 39, ch. 032+)
+PRACTICE_H2 = re.compile(r"^(practice (laboratory|lab|exercises|questions)|exercises)\b", re.I)
 FLASHCARDS_H2 = re.compile(r"^flashcard", re.I)
 SOURCES_H2 = re.compile(r"^(recommended )?(sources|further reading|references|bibliography)\b", re.I)
 CONTENTS_H2 = re.compile(r"^contents\b", re.I)

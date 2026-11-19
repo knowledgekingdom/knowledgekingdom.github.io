@@ -96,13 +96,48 @@ def body(variant: int = 1) -> str:
     return "".join(parts)
 
 
-def build(path: str, variant: int = 1):
+def chapter_body(number: int = 2) -> str:
+    """A one-chapter file the way ChatGPT writes them: no title page, no PART line,
+    its own answer key and flashcard bank, a FRONT | ANSWER table, and a figure
+    caption numbered for the wrong chapter."""
+    n = f"{number:03d}"
+    return "".join([
+        p("Heading1", f"{n}  TESTING AT SCALE"),
+        p("ChapterStandfirst", "Many tests, one suite."),
+        p("Heading2", "1. A thousand tests at once"),
+        p(None, "Suites grow. [1]"),
+        p("Heading2", "2. Flaky tests"),
+        p(None, "Some tests fail at random."),
+        image_p(),
+        p("FigureCaption", "Figure 1.1. A flaky result."),
+        p("Heading2", "Key concepts to retain"),
+        p(None, "Flakiness hides bugs."),
+        p("Heading2", "Exercises — 2 questions"),
+        p(None, "1. Name a flaky test."),
+        p(None, "2. Fix it."),
+        p("Heading2", "Flashcard prompts — 1 cards"),
+        p(None, "1. What is a flaky test?"),
+        p("Heading2", "Sources and further reading"),
+        p("SourceNote", "[1] Google Testing Blog. https://example.org/flaky"),
+        p("Heading1", "Answer key and model reasoning"),
+        p(None, "Test your answers before comparing them."),
+        p("Heading2", f"Chapter {n}"),
+        p(None, "1. One that passes and fails without changes."),
+        p(None, "2. Remove the shared state."),
+        p("Heading1", "Flashcard answer bank"),
+        p(None, "Cover the answer column."),
+        p("Heading2", f"{n} · Testing at Scale"),
+        table([["FRONT", "ANSWER"], ["What is a flaky test?", "One with a random outcome."]]),
+    ])
+
+
+def build(path: str, variant: int = 1, body_xml: str | None = None):
     ns = ('xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" '
           'xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" '
           'xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" '
           'xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" '
           'xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture"')
-    document = f'<?xml version="1.0" encoding="UTF-8"?><w:document {ns}><w:body>{body(variant)}</w:body></w:document>'
+    document = f'<?xml version="1.0" encoding="UTF-8"?><w:document {ns}><w:body>{body_xml if body_xml is not None else body(variant)}</w:body></w:document>'
     styles = ('<?xml version="1.0" encoding="UTF-8"?><w:styles xmlns:w="http://schemas.openxmlformats.org/'
               'wordprocessingml/2006/main">' + "".join(
                   f'<w:style w:type="paragraph" w:styleId="{sid}"><w:name w:val="{name}"/></w:style>'

@@ -12,7 +12,7 @@ standfirstHtml: "A world of moving goods and moving ideas: cities, caravans, pil
 openingTitle: "The letter from the edge of a desert"
 description: "A world of moving goods and moving ideas: cities, caravans, pilgrimages, steppe powers, seas, and the people who connected distant societies before the…"
 status: "LONG-FORM DRAFT"
-edition: 25
+edition: 41
 sectionCount: 29
 readingTime: 36
 openingReadingTime: 2
