@@ -2796,5 +2796,108 @@
       "title": "024 · From intellectual revival to religious rupture",
       "edition": 41
     }
+  ],
+  "editions": [
+    {
+      "edition": 41,
+      "date": "November 2026",
+      "firstImported": "2026-11-19",
+      "baseline": false,
+      "chapters": 38,
+      "newChapters": [
+        {
+          "url": "/023-europe-byzantium-and-the-ottoman-emergence/",
+          "title": "Europe, Byzantium, and the Ottoman Emergence",
+          "chapter": "023"
+        },
+        {
+          "url": "/024-renaissance-humanism-and-printing/",
+          "title": "Renaissance, Humanism, and Printing",
+          "chapter": "024"
+        },
+        {
+          "url": "/025-reformation-and-religious-conflict/",
+          "title": "Reformation and Religious Conflict",
+          "chapter": "025"
+        },
+        {
+          "url": "/026-indian-ocean-commerce-and-asian-powers/",
+          "title": "Indian Ocean Commerce and Asian Powers",
+          "chapter": "026"
+        },
+        {
+          "url": "/027-european-maritime-expansion/",
+          "title": "European Maritime Expansion",
+          "chapter": "027"
+        },
+        {
+          "url": "/028-the-columbian-exchange/",
+          "title": "The Columbian Exchange",
+          "chapter": "028"
+        },
+        {
+          "url": "/029-atlantic-slavery-and-plantation-economies/",
+          "title": "Atlantic Slavery and Plantation Economies",
+          "chapter": "029"
+        },
+        {
+          "url": "/030-the-qing-mughal-and-ottoman-worlds/",
+          "title": "The Qing, Mughal, and Ottoman Worlds",
+          "chapter": "030"
+        },
+        {
+          "url": "/031-scientific-revolution-and-enlightenment/",
+          "title": "Scientific Revolution and Enlightenment",
+          "chapter": "031"
+        },
+        {
+          "url": "/032-atlantic-revolutions-and-citizenship/",
+          "title": "Atlantic Revolutions and Citizenship",
+          "chapter": "032"
+        },
+        {
+          "url": "/033-latin-american-independence-and-state-building/",
+          "title": "Latin American Independence and State Building",
+          "chapter": "033"
+        },
+        {
+          "url": "/034-industrialization-and-urban-society/",
+          "title": "Industrialization and Urban Society",
+          "chapter": "034"
+        },
+        {
+          "url": "/035-imperialism-and-african-partition/",
+          "title": "Imperialism and African Partition",
+          "chapter": "035"
+        },
+        {
+          "url": "/036-nationalism-and-the-nineteenth-century-nation-state/",
+          "title": "Nationalism and the Nineteenth-Century Nation-State",
+          "chapter": "036"
+        },
+        {
+          "url": "/037-the-balkans-and-the-eastern-question/",
+          "title": "The Balkans and the Eastern Question",
+          "chapter": "037"
+        },
+        {
+          "url": "/038-world-war-i-causes-and-consequences/",
+          "title": "World War I: Causes and Consequences",
+          "chapter": "038"
+        }
+      ],
+      "newSections": [],
+      "changed": []
+    },
+    {
+      "edition": 25,
+      "date": "November 2026",
+      "firstImported": "2026-11-18",
+      "baseline": true,
+      "chapters": 22,
+      "newChapters": [],
+      "newSections": [],
+      "changed": []
+    }
   ]
 }

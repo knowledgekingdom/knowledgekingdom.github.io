@@ -48,6 +48,13 @@ If a section's title changes, its address changes too, and old links would hit t
 
 The Bulgarian page is forwarded too. Alternatively, keep the old address by pinning the section's slug under `sections` in the same file.
 
+## What readers get (and where it comes from)
+
+- **Reading progress.** A section counts as read when the reader reaches its end (after at least 10 seconds on the page) or presses **Mark as read**. Ticks show in the sidebar and chapter contents, chapter cards get a progress bar, and the homepage offers **Continue reading**. It's stored in the reader's own browser only: nothing is sent anywhere, and English and Bulgarian share it.
+- **Updates page and RSS feed** (`/updates/`, `/rss.xml`, and the Bulgarian `/bg/…` versions): what each edition added or revised, built automatically from the import history in `content-meta/manifest.json`. Raising `edition` in `content-meta/book-settings.json` starts a new entry.
+- **Related sections** at the end of each section, found by comparing the text of every section on your computer during `npm run import` (`importer/related.py`, free and offline). They update by themselves as chapters are added.
+- **Print / Save as PDF** on every section: the printout drops the navigation, uses black on white even in dark mode, opens all model answers, and prints flashcards as a list.
+
 ## Improving the Bulgarian translation
 
 The book text is machine-translated, and those pages show a small notice saying so. Titles and the interface were translated by hand. To correct any sentence or title, add it to **`content-meta/translations/bg-overrides.json`**:
@@ -87,6 +94,8 @@ git clone https://github.com/knowledgekingdom/manuscript.git manuscript
 ```
 
 The first line lets Windows handle the long file names of some section pages. The last line brings back the manuscript files from the private backup.
+
+**Windows note:** if Windows' Smart App Control is on, it blocks two of the website's helper programs. `npm run dev`, `build` and `check` detect this and quietly install free WebAssembly versions of them (only on that computer; `package.json` is not changed), so nothing needs switching off.
 
 The first `npm run translate` creates a small Python environment (`.venv-translate`) and downloads the 70 MB translation model. Neither is committed to git.
 

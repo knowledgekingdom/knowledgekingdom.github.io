@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import ChapterCard from '../components/ChapterCard.astro';
 import Icon from '../components/Icon.astro';
-import { getBook, getRoadmap, getFlashcards, updates, figures, getChapters, getSections, getPage, chapterUrl } from '../lib/book';
+import { getBook, getRoadmap, getFlashcards, updates, figures, getChapters, getSections, getPage, chapterUrl, pageInfo } from '../lib/book';
 import { t, langFromPath, localize } from '../i18n/ui';
 import { site } from '../site.config';
 
@@ -23,6 +23,19 @@ const words = book.titleDisplay.split(/\s+/);
 // First full sentence of "A note to the reader" (never a truncated fragment).
 const aboutText = about?.body?.replace(/<[^>]+>/g, '').replace(/\\(.)/g, '$1') ?? '';
 const lede = aboutText.match(/^[\s\S]*?[.!?](?=\s|$)/)?.[0].trim() || site.description;
+// "Recently updated": what the latest edition added or revised, in this language.
+const latest = updates.editions?.find((e) => !e.baseline);
+const latestLinks = latest
+  ? [
+      ...latest.newChapters.map((l) => ({ ...l, kind: 'new', isChapter: true })),
+      ...latest.newSections.map((l) => ({ ...l, kind: 'new', isChapter: false })),
+      ...latest.changed.map((l) => ({ ...l, kind: 'revised', isChapter: false })),
+    ].slice(0, 8)
+  : [];
+const recent = (await Promise.all(latestLinks.map(async (l) => {
+  const info = await pageInfo(l.url, lang);
+  return info && { ...info, kind: l.kind, isChapter: l.isChapter };
+}))).filter((x) => x !== undefined);
 ---
 <Base description={lang === 'en' ? site.description : lede}>
   <main id="main">
@@ -32,7 +45,10 @@ const lede = aboutText.match(/^[\s\S]*?[.!?](?=\s|$)/)?.[0].trim() || site.descr
       <div class="hero-rule"><span>{t(lang, 'edition', { n: book.edition ?? '' })} · {book.editionDate}</span></div>
       <p class="hero-lede">{lede}</p>
       <div class="hero-actions">
-        {first && <a class="btn btn-primary" href={chapterUrl(first, lang)}>{t(lang, 'home.start')} <Icon name="arrowRight" class="arrow" /></a>}
+        <a class="btn btn-primary btn-continue" href={L('/')} data-continue hidden>
+          <Icon name="bookmark" /> <span>{t(lang, 'progress.continue')}<span class="visually-hidden">:</span> <span class="continue-title" data-continue-title></span></span>
+        </a>
+        {first && <a class="btn btn-primary" href={chapterUrl(first, lang)} data-start>{t(lang, 'home.start')} <Icon name="arrowRight" class="arrow" /></a>}
         <a class="btn" href={L('/random/')}><Icon name="shuffle" /> {t(lang, 'home.random')}</a>
         <a class="btn" href={L('/about/')}><Icon name="book" /> {t(lang, 'home.about')}</a>
       </div>
@@ -45,6 +61,10 @@ const lede = aboutText.match(/^[\s\S]*?[.!?](?=\s|$)/)?.[0].trim() || site.descr
         <div role="listitem"><strong>{figures.length}</strong><span>{t(lang, 'home.figures')}</span></div>
         <div role="listitem"><strong>{cardCount}</strong><span>{t(lang, 'home.flashcards')}</span></div>
       </div>
+      <p class="home-progress" data-overall data-total={sectionCount} data-label={t(lang, 'progress.overall')} hidden>
+        <span data-overall-text></span>
+        <button class="link-btn" type="button" data-progress-reset data-confirm={t(lang, 'progress.resetConfirm')}>{t(lang, 'progress.reset')}</button>
+      </p>
 
       {book.parts.map((part) => {
         const pcs = chapters.filter((c) => c.data.part === part.number);
@@ -63,10 +83,18 @@ const lede = aboutText.match(/^[\s\S]*?[.!?](?=\s|$)/)?.[0].trim() || site.descr
         );
       })}
 
-      {updates.recent.length > 0 && (
+      {latest && recent.length > 0 && (
         <section class="home-section" aria-labelledby="recent">
           <h2 id="recent">{t(lang, 'home.recent')}</h2>
-          <ul>{updates.recent.slice(0, 8).map((u) => <li><a href={L(u.url)}>{u.title}</a> <span class="meta">{t(lang, 'edition', { n: u.edition })}</span></li>)}</ul>
+          <ul class="recent-list">
+            {recent.map((r) => (
+              <li>
+                <a href={r.url}>{r.isChapter ? `${r.chapterLabel} · ${r.title}` : r.title}</a>
+                <span class="meta">{t(lang, r.kind === 'new' ? 'updates.tagNew' : 'updates.tagRevised')} · {t(lang, 'edition', { n: latest.edition })}</span>
+              </li>
+            ))}
+          </ul>
+          <p><a class="more-link" href={L('/updates/')}>{t(lang, 'updates.all')} <Icon name="arrowRight" class="arrow" /></a></p>
         </section>
       )}
 

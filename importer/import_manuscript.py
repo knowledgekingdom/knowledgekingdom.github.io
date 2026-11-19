@@ -14,6 +14,7 @@ content-meta/ holds persisted state (slug registry, manifest) and hand edits
 from __future__ import annotations
 
 import argparse
+import datetime
 import hashlib
 import json
 import os
@@ -27,6 +28,7 @@ from pathlib import Path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import patterns as P  # noqa: E402
+import related as RELATED  # noqa: E402
 import render as R  # noqa: E402
 from docx_reader import DocxReader, Paragraph, Seg, Table  # noqa: E402
 
@@ -408,6 +410,7 @@ class Builder:
         self.roadmap_status: dict[int, dict] = {}
         self.section_hashes: dict[str, dict] = {}
         self.reading_order: list[dict] = []
+        self.related_docs: list[tuple[str, int, str, str]] = []  # (url, chapter, title, markdown)
 
     # -- slugs ---------------------------------------------------------------
     def chapter_slug(self, ch: Chapter) -> str:
@@ -635,6 +638,7 @@ class Builder:
         self.write_json("src/data/sources.json", sources)
         self.write_json("src/data/figures.json", self.figures)
         self.write_json("src/data/roadmap.json", self.roadmap_out)
+        self.write_json("src/data/related.json", RELATED.compute(self.related_docs))
         self.write_redirects()
 
         self.counts.update({
@@ -791,6 +795,8 @@ class Builder:
                     self.special_payload.get((ch.label, sec.type), ""), sort_keys=True, ensure_ascii=False),
                     f"{ch.label} · {sec.display_title}", url)
                 section_entries.append(sec)
+                if sec.type == "section":
+                    self.related_docs.append((url, ch.number, sec.display_title, md))
                 self.reading_order.append({"url": url, "title": sec.display_title, "kind": sec.type,
                                            "chapter": ch.number})
             for token in sorted(self._current_unmatched):
@@ -1042,6 +1048,7 @@ class Builder:
         prev_ed_key = max((k for k in editions if k != ed_key and k.isdigit() and (not ed_key.isdigit()
                            or int(k) < int(ed_key))), key=int, default=None)
         changes = {"new": [], "changed": [], "removed": []}
+        new_keys, changed_keys = [], []
         for key, info in sorted(self.section_hashes.items()):
             entry = sections.get(key)
             if entry is None or entry.get("removedIn"):
@@ -1055,15 +1062,26 @@ class Builder:
             e = sections[key]
             if e["firstSeen"] == ed and prev_ed_key is not None:
                 changes["new"].append(e)
+                new_keys.append(key)
             elif e["lastChanged"] == ed and e["firstSeen"] != ed:
                 changes["changed"].append(e)
+                changed_keys.append(key)
         for key, entry in sorted(sections.items()):
             if key not in self.section_hashes:
                 if not entry.get("removedIn"):
                     entry["removedIn"] = ed
                 if entry["removedIn"] == ed:
                     changes["removed"].append(entry)
-        editions[ed_key] = {"date": self.book.edition_date, "counts": self.counts}
+        # Edition history for /updates/ and the RSS feed. The import date is set once, when
+        # the edition is first imported, so re-running the importer never changes it.
+        editions[ed_key] = {
+            "date": self.book.edition_date,
+            "firstImported": editions.get(ed_key, {}).get("firstImported") or datetime.date.today().isoformat(),
+            "baseline": prev_ed_key is None,
+            "counts": self.counts,
+            "new": new_keys,
+            "changed": changed_keys,
+        }
         self.manifest["editions"] = dict(sorted(editions.items(), key=lambda kv: int(kv[0]) if kv[0].isdigit() else 0))
         self.manifest["sections"] = dict(sorted(sections.items()))
         self.prev_counts = editions.get(prev_ed_key, {}).get("counts") if prev_ed_key else None
@@ -1079,8 +1097,37 @@ class Builder:
             "new": [dict(url=e["url"], title=e["title"]) for e in changes["new"]],
             "changed": [dict(url=e["url"], title=e["title"]) for e in changes["changed"]],
             "recent": recent[:50] if prev_ed_key else [],
+            "editions": self.edition_history(editions, sections),
         })
         return changes
+
+    def edition_history(self, editions: dict, sections: dict) -> list[dict]:
+        """Newest first. New chapters are listed once, not page by page."""
+        def link(key):
+            e = sections.get(key)
+            if not e or e.get("removedIn"):
+                return None
+            label = key.split("|", 1)[0]
+            title = re.sub(r"^\d{3}\s*·\s*", "", e["title"])
+            return {"url": e["url"], "title": title, "chapter": label}
+        out = []
+        for ed_key, info in sorted(editions.items(), key=lambda kv: -int(kv[0]) if kv[0].isdigit() else 0):
+            if not ed_key.isdigit():
+                continue
+            new = [k for k in info.get("new", [])]
+            new_chapters = sorted({k.split("|", 1)[0] for k in new if k.endswith("|@opening")})
+            out.append({
+                "edition": int(ed_key),
+                "date": info.get("date", ""),
+                "firstImported": info.get("firstImported", ""),
+                "baseline": bool(info.get("baseline")),
+                "chapters": (info.get("counts") or {}).get("Chapters"),
+                "newChapters": [x for x in (link(f"{c}|@opening") for c in new_chapters) if x],
+                "newSections": [x for x in (link(k) for k in new
+                                            if k.split("|", 1)[0] not in new_chapters) if x],
+                "changed": [x for x in (link(k) for k in info.get("changed", [])) if x],
+            })
+        return out
 
     # -- redirects -----------------------------------------------------------------
     def write_redirects(self):

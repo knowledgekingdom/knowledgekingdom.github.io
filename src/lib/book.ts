@@ -7,6 +7,7 @@ import flashcardsEn from '../data/flashcards.json';
 import practiceEn from '../data/practice.json';
 import sourcesEn from '../data/sources.json';
 import figuresEn from '../data/figures.json';
+import relatedJson from '../data/related.json';
 
 // Bulgarian data files are produced by `npm run translate` and may not exist yet.
 const bgData = import.meta.glob<{ default: unknown }>('../data/bg/*.json', { eager: true });
@@ -25,14 +26,29 @@ export type Practice = typeof practiceEn;
 export type Sources = typeof sourcesEn;
 
 type UpdateLink = { url: string; title: string };
-export const updates = updatesJson as {
+export type EditionLink = { url: string; title: string; chapter: string };
+export type EditionEntry = {
+  edition: number;
+  date: string;
+  firstImported: string;
+  baseline: boolean;
+  chapters: number | null;
+  newChapters: EditionLink[];
+  newSections: EditionLink[];
+  changed: EditionLink[];
+};
+export const updates = updatesJson as unknown as {
   edition: number | null;
   editionDate: string;
   previousEdition: number | null;
   new: UpdateLink[];
   changed: UpdateLink[];
   recent: (UpdateLink & { edition: number })[];
+  editions: EditionEntry[];
 };
+
+/** Section URL (language-neutral) → related section URLs, computed by the importer. */
+const related = relatedJson as Record<string, string[]>;
 
 export const figures = figuresEn;
 
@@ -127,4 +143,27 @@ export const SPECIAL_TYPES = ['summary', 'practice', 'flashcards', 'sources'] as
 export function excerpt(text: string, max = 150) {
   if (text.length <= max) return text;
   return text.slice(0, max).replace(/\s+\S*$/, '').replace(/[,;:—–-]$/, '') + '…';
+}
+
+/** A page's title and chapter in the given language, looked up by its language-neutral URL. */
+export async function pageInfo(url: string, lang: Lang): Promise<
+  { url: string; title: string; chapterLabel: string; chapterTitle: string; part: number | null } | undefined> {
+  const index = await memo(`pageIndex:${lang}`, async () => {
+    const m = new Map<string, { title: string; chapterLabel: string; chapterTitle: string; part: number | null }>();
+    for (const c of await getChapters(lang))
+      m.set(`/${c.data.slug}/`, { title: c.data.title, chapterLabel: c.data.label, chapterTitle: c.data.title, part: c.data.part });
+    for (const s of await getSections(lang))
+      m.set(`/${s.data.chapterSlug}/${s.data.slug}/`,
+        { title: s.data.title, chapterLabel: s.data.chapterLabel, chapterTitle: s.data.chapterTitle, part: s.data.part });
+    return m;
+  });
+  const hit = index.get(url);
+  return hit && { url: localize(url, lang), ...hit };
+}
+
+/** Related sections for a section page, localized. */
+export async function relatedTo(url: string, lang: Lang) {
+  const plain = url.replace(/^\/bg(?=\/)/, '');
+  const found = await Promise.all((related[plain] ?? []).map((u) => pageInfo(u, lang)));
+  return found.filter((x): x is NonNullable<typeof x> => Boolean(x));
 }

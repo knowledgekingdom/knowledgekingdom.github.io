@@ -12,4 +12,6 @@ const H = headingLevel;
   <H><span class="visually-hidden">{t(lang, 'chapter', { n: d.label })}: </span>{d.title}</H>
   <p>{excerpt(d.standfirst, 150)}</p>
   <span class="meta">{t(lang, 'nSections', { n: d.sectionCount })}<span class="meta-sep">·</span>{formatMinutes(lang, d.readingTime)}</span>
+  <span class="card-progress" data-chapter-progress={`/${d.slug}/`} data-total={d.sectionCount}
+        data-label={t(lang, 'progress.ofRead')} hidden><span class="bar"><span></span></span><span class="txt"></span></span>
 </a>

@@ -1,0 +1,63 @@
+---
+// /updates/: what each edition added or revised (from the importer's edition history).
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { getBook, updates, pageInfo, type EditionLink } from '../lib/book';
+import { t, langFromPath, localize } from '../i18n/ui';
+
+const lang = langFromPath(Astro.url.pathname);
+const L = (p: string) => localize(p, lang);
+const book = getBook(lang);
+const fmtDate = (iso: string) =>
+  iso ? new Intl.DateTimeFormat(lang === 'bg' ? 'bg-BG' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' })
+    .format(new Date(`${iso}T12:00:00Z`)) : '';
+const localized = async (links: EditionLink[]) =>
+  (await Promise.all(links.map((l) => pageInfo(l.url, lang)))).filter((x) => x !== undefined);
+
+const editions = await Promise.all((updates.editions ?? []).map(async (e) => ({
+  ...e,
+  newChapters: await localized(e.newChapters),
+  newSections: await localized(e.newSections),
+  changed: await localized(e.changed),
+})));
+---
+<Base title={t(lang, 'updates.title')} description={t(lang, 'updates.lede')}>
+  <main id="main" class="container updates" style="padding-top:clamp(2rem,6vw,4rem);padding-bottom:4rem" data-part="1">
+    <header class="page-head">
+      <span class="kicker">{t(lang, 'updates.kicker')}</span>
+      <h1>{t(lang, 'updates.title')}</h1>
+      <p class="standfirst">{t(lang, 'updates.lede')}</p>
+      <p><a class="btn" href={L('/rss.xml')}><Icon name="rss" /> {t(lang, 'updates.rss')}</a></p>
+    </header>
+
+    {editions.map((e) => (
+      <section class="edition" id={`edition-${e.edition}`} aria-labelledby={`edition-${e.edition}-title`}>
+        <header class="edition-head">
+          <h2 id={`edition-${e.edition}-title`}>{t(lang, 'edition', { n: e.edition })}</h2>
+          {e.firstImported && <span class="meta">{t(lang, 'updates.published', { date: fmtDate(e.firstImported) })}</span>}
+        </header>
+        {e.baseline && <p>{t(lang, 'updates.baseline', { n: e.chapters ?? '' })}</p>}
+        {!e.baseline && !e.newChapters.length && !e.newSections.length && !e.changed.length && <p>{t(lang, 'updates.nothing')}</p>}
+        {e.newChapters.length > 0 && (
+          <>
+            <h3>{t(lang, 'updates.newChapters')}</h3>
+            <ul class="update-list">{e.newChapters.map((c) => <li><a href={c.url}><span class="n">{c.chapterLabel}</span> {c.title}</a></li>)}</ul>
+          </>
+        )}
+        {e.newSections.length > 0 && (
+          <>
+            <h3>{t(lang, 'updates.newSections')}</h3>
+            <ul class="update-list">{e.newSections.map((s) => <li><a href={s.url}><span class="n">{s.chapterLabel}</span> {s.title}</a></li>)}</ul>
+          </>
+        )}
+        {e.changed.length > 0 && (
+          <>
+            <h3>{t(lang, 'updates.changed')}</h3>
+            <ul class="update-list">{e.changed.map((s) => <li><a href={s.url}><span class="n">{s.chapterLabel}</span> {s.title}</a></li>)}</ul>
+          </>
+        )}
+      </section>
+    ))}
+    <p class="meta">{book.title} · {t(lang, 'edition', { n: book.edition ?? '' })} · {book.editionDate}</p>
+  </main>
+</Base>

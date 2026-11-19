@@ -66,6 +66,7 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
     <meta property="og:locale:alternate" content={ogLocale[other]} />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="sitemap" href="/sitemap.xml" />
+    <link rel="alternate" type="application/rss+xml" title={t(lang, 'updates.feedTitle', { title: bookTitle })} href={L('/rss.xml')} />
     <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#12161b" media="(prefers-color-scheme: dark)" />
@@ -119,6 +120,7 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
         <nav aria-label={t(lang, 'nav.footer')}>
           <a href={L('/about/')}>{t(lang, 'nav.about')}</a>
           <a href={L('/roadmap/')}>{t(lang, 'nav.roadmap')}</a>
+          <a href={L('/updates/')}>{t(lang, 'nav.updates')}</a>
           <a href={switchHref} hreflang={other} lang={other}>{other === 'bg' ? 'Български' : 'English'}</a>
           <span>{book.edition ? `${t(lang, 'edition', { n: book.edition })} · ${book.editionDate}` : ''}</span>
         </nav>
@@ -133,6 +135,9 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
         :root:not([data-theme='light']) .theme-icon-moon { display: none; }
       }
     </style>
+    <script>
+      import '../scripts/progress.ts';
+    </script>
     <script>
       const root = document.documentElement;
       const isDark = () =>

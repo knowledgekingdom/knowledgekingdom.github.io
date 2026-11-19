@@ -23,7 +23,7 @@ const special = current.filter((s) => s.data.type !== 'section');
             const isCurrent = c.data.number === currentChapter;
             const url = chapterUrl(c, lang);
             return (
-              <li class:list={['sb-chapter', { 'is-current': isCurrent }]}>
+              <li class:list={['sb-chapter', { 'is-current': isCurrent }]} data-chapter-path={`/${c.data.slug}/`} data-total={c.data.sectionCount}>
                 <a href={url} aria-current={currentUrl === url ? 'page' : undefined}>
                   <span class="n">{c.data.label}</span><span>{c.data.title}</span>
                 </a>

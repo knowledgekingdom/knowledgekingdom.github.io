@@ -6,6 +6,7 @@ import MtNotice from '../components/MtNotice.astro';
 import Flashcards from '../components/Flashcards.astro';
 import PracticeLab from '../components/PracticeLab.astro';
 import SourcesList from '../components/SourcesList.astro';
+import SectionEnd from '../components/SectionEnd.astro';
 import {
   partByNumber, getFlashcards, getPractice, getSources, isTranslated, hasBulgarian, type Section,
 } from '../lib/book';
@@ -76,5 +77,7 @@ const translated = lang === 'bg' && (isSpecial ? hasBulgarian : isTranslated(sec
       </div>
     )}
     {!isSpecial && <div class="prose"><Content /></div>}
+    <SectionEnd trackable={d.type === 'section' || d.type === 'summary'} related={d.type === 'section'}
+                title={`${d.chapterLabel} · ${d.title}`} />
   </article>
 </Reading>

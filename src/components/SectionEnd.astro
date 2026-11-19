@@ -1,0 +1,44 @@
+---
+// End of a section page: reading-progress toggle, print button and related sections.
+// The progress script (src/scripts/progress.ts) fills in the toggle's state.
+import Icon from './Icon.astro';
+import { relatedTo } from '../lib/book';
+import { t, langFromPath, stripLang } from '../i18n/ui';
+
+interface Props { trackable: boolean; related: boolean; title: string }
+const { trackable, related, title } = Astro.props;
+const lang = langFromPath(Astro.url.pathname);
+const path = stripLang(Astro.url.pathname);
+const items = related ? await relatedTo(path, lang) : [];
+---
+<div class="section-end column" data-pagefind-ignore>
+  <div class="section-actions">
+    {trackable && (
+      <button class="btn read-toggle" type="button" data-read-toggle data-path={path} data-title={title}
+              data-label-mark={t(lang, 'progress.mark')} data-label-done={t(lang, 'progress.done')}
+              data-label-unmark={t(lang, 'progress.unmark')} aria-pressed="false" hidden>
+        <Icon name="check" /><span data-read-label>{t(lang, 'progress.mark')}</span>
+      </button>
+    )}
+    <button class="btn btn-quiet" type="button" data-print hidden>
+      <Icon name="printer" /> {t(lang, 'print.button')}
+    </button>
+  </div>
+  {trackable && <p class="section-actions-hint meta" data-read-hint hidden>{t(lang, 'progress.hint')}</p>}
+
+  {items.length > 0 && (
+    <section class="related" aria-labelledby="related-title">
+      <h2 id="related-title">{t(lang, 'related.title')}</h2>
+      <ul>
+        {items.map((r) => (
+          <li data-part={r.part ?? undefined}>
+            <a href={r.url}>
+              <span class="related-chapter">{r.chapterLabel} · {r.chapterTitle}</span>
+              <span class="related-title">{r.title}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</div>

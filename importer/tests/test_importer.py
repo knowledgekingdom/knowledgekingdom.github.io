@@ -170,6 +170,48 @@ class FixtureImportTests(unittest.TestCase):
         self.assertIn("Edition 1", (self.root / "IMPORT_REPORT.md").read_text(encoding="utf-8"))
 
 
+class RelatedAndHistoryTests(unittest.TestCase):
+    def test_related_prefers_shared_topic_and_limits_same_chapter(self):
+        import related
+        docs = [
+            ("/a/1/", 1, "Roman roads", "roads aqueducts empire legions roads engineering"),
+            ("/a/2/", 1, "Roman law", "law courts empire jurists law"),
+            ("/b/1/", 2, "Inca roads", "roads mountains empire relay runners roads engineering"),
+            ("/b/2/", 2, "Inca farming", "terraces potatoes mountains farming"),
+            ("/c/1/", 3, "Modern highways", "highways roads engineering asphalt"),
+            ("/c/2/", 3, "Bread", "flour yeast ovens bakers"),
+        ]
+        # Filler pages on other topics, so shared words are rare, as in a real book.
+        docs += [(f"/z/{i}/", 10 + i, f"Topic {w}", f"{w} {w}2 {w}3 bakers") for i, w in
+                 enumerate(["tides", "comets", "violins", "glaciers", "orchids", "volcanoes", "ledgers"])]
+        r = related.compute(docs, k=3)
+        self.assertIn("/b/1/", r["/a/1/"])                            # shared topic across chapters
+        self.assertLessEqual(sum(u.startswith("/a/") for u in r["/a/1/"]), 1)  # at most one from its chapter
+        self.assertNotIn("/c/2/", r.get("/a/1/", []))                # unrelated page never suggested
+        self.assertEqual(r, related.compute(list(docs), k=3))       # deterministic
+
+    def test_edition_history(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            docx = root / "m.docx"
+            fixture_docx.build(str(docx))
+            IM.run(docx, root, quiet=True)
+            fixture_docx.build(str(docx), variant=2)
+            IM.run(docx, root, quiet=True)
+            eds = json.loads((root / "src/data/updates.json").read_text(encoding="utf-8"))["editions"]
+            self.assertEqual([e["edition"] for e in eds], [2, 1])
+            self.assertTrue(eds[1]["baseline"])
+            self.assertEqual([s["url"] for s in eds[0]["newSections"]],
+                             ["/001-how-to-test-things/why-evidence-really-matters/"])
+            self.assertEqual(eds[0]["newChapters"], [])
+            self.assertRegex(eds[0]["firstImported"], r"^\d{4}-\d{2}-\d{2}$")
+            first_date = eds[1]["firstImported"]
+            IM.run(docx, root, quiet=True)  # re-running never moves an edition's date
+            again = json.loads((root / "src/data/updates.json").read_text(encoding="utf-8"))["editions"]
+            self.assertEqual(again[1]["firstImported"], first_date)
+            self.assertEqual(again, eds)
+
+
 class MultiFileTests(unittest.TestCase):
     """A master file plus separate chapter files, as in manuscript/ since Edition 41."""
 

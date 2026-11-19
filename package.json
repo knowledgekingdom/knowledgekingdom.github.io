@@ -9,9 +9,12 @@
     "update": "npm run import && npm run translate && npm run og && npm run backup",
     "backup": "node scripts/backup-manuscript.mjs",
     "test:importer": "python -m unittest discover -s importer/tests",
+    "predev": "node scripts/windows-wasm-fallback.mjs",
     "dev": "astro dev",
+    "prebuild": "node scripts/windows-wasm-fallback.mjs",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
+    "precheck": "node scripts/windows-wasm-fallback.mjs",
     "check": "astro check",
     "og": "node scripts/og-images.mjs",
     "audit": "node scripts/audit.mjs"
