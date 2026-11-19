@@ -32,7 +32,7 @@ File names don't matter: the file with the title page is read first, then the re
 4. Run `npm run dev` and check the site at http://localhost:4321. Search only works on a built site, so to try it run `npm run build` then `npm run preview`.
 5. Commit and push (for example in VS Code's Source Control panel, or `git add -A`, `git commit -m "Edition 26"`, `git push`). GitHub builds and publishes the site in about two minutes. You can watch it under the repository's **Actions** tab.
 
-The live site is **https://knowledgekingdom.github.io/**. The `.docx` files are never uploaded: `manuscript/` is excluded from git because the manuscript still contains editorial notes. That also means they exist only on your computer, so keep a backup copy (for example, upload the files to Google Drive as they are; Drive can store a `.docx` without converting it).
+The live site is **https://knowledgekingdom.github.io/**. The `.docx` files are never published: `manuscript/` is excluded from the website repository because the manuscript still contains editorial notes. Instead, `manuscript/` is backed up to its own **private** repository, https://github.com/knowledgekingdom/manuscript, which only you can see. `npm run update` uploads new or changed files there at the end (or run `npm run backup` on its own). Every earlier version stays in that repository's history, so if a broken file ever replaces a good one, the good one can be recovered.
 
 ## Visitor statistics
 
@@ -76,11 +76,17 @@ These are kept and safe to edit:
 
 ## First-time setup on a new computer
 
-You need [Node.js](https://nodejs.org) 22.23 or later and [Python](https://www.python.org) 3.10 or later. Then:
+You need [Node.js](https://nodejs.org) 22.23 or later, [Python](https://www.python.org) 3.10 or later, [Git](https://git-scm.com) and the [GitHub CLI](https://cli.github.com). Sign in with `gh auth login`, then:
 
 ```
+git config --global core.longpaths true
+git clone https://github.com/knowledgekingdom/knowledgekingdom.github.io.git knowledge-kingdom
+cd knowledge-kingdom
 npm install
+git clone https://github.com/knowledgekingdom/manuscript.git manuscript
 ```
+
+The first line lets Windows handle the long file names of some section pages. The last line brings back the manuscript files from the private backup.
 
 The first `npm run translate` creates a small Python environment (`.venv-translate`) and downloads the 70 MB translation model. Neither is committed to git.
 
@@ -88,7 +94,8 @@ The first `npm run translate` creates a small Python environment (`.venv-transla
 
 | Command | What it does |
 |---|---|
-| `npm run update` | import, translate, then redraw link-preview images |
+| `npm run update` | import, translate, redraw link-preview images, then back up the manuscript |
+| `npm run backup` | upload new or changed manuscript files to the private backup |
 | `npm run import` | all `.docx` in `manuscript/` → English content + `IMPORT_REPORT.md` |
 | `npm run translate` | English → Bulgarian (offline) |
 | `npm run og` | redraw link-preview images for changed chapters |

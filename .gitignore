@@ -13,6 +13,6 @@ Thumbs.db
 
 # Private: the manuscript still contains editorial notes, and the site is built
 # from the generated pages, so the .docx never needs to be in the repository.
-manuscript/*
-!manuscript/.gitkeep
+# It is backed up separately to the private repository knowledgekingdom/manuscript.
+manuscript/
 knowledge-kingdom-website-plan.md

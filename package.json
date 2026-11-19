@@ -6,7 +6,8 @@
   "scripts": {
     "import": "python importer/import_manuscript.py",
     "translate": "node scripts/translate.mjs",
-    "update": "npm run import && npm run translate && npm run og",
+    "update": "npm run import && npm run translate && npm run og && npm run backup",
+    "backup": "node scripts/backup-manuscript.mjs",
     "test:importer": "python -m unittest discover -s importer/tests",
     "dev": "astro dev",
     "build": "astro build && pagefind --site dist",
