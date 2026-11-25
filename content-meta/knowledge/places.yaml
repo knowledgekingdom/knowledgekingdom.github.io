@@ -18,9 +18,9 @@
   lon: 30.933
   type: site
   region: africa
-  sections: [004/case-study-great-zimbabwe-and-the-stories-people-wanted]
+  sections: [ 004/case-study-great-zimbabwe-and-the-stories-people-wanted ]
   source: "wikidata:Q209217"
-  status: proposed
+  status: approved
 - id: sahara
   name: "Sahara"
   bg: "Сахара"
@@ -28,9 +28,9 @@
   lon: 12.612
   type: region
   region: africa
-  sections: [005/regional-case-study-the-sahel-the-sahara-and-transitions, 005/a-mental-atlas-regions-that-connect-the-global-story, 010/africa-local-crops-and-imported-combinations]
+  sections: [ 005/regional-case-study-the-sahel-the-sahara-and-transitions, 005/a-mental-atlas-regions-that-connect-the-global-story, 010/africa-local-crops-and-imported-combinations ]
   source: "wikidata:Q6583"
-  status: proposed
+  status: approved
 - id: sahel
   name: "Sahel"
   bg: "Сахел"
@@ -38,9 +38,9 @@
   lon: 13.512
   type: region
   region: africa
-  sections: [005/regional-case-study-the-sahel-the-sahara-and-transitions, 005/a-mental-atlas-regions-that-connect-the-global-story, 010/africa-local-crops-and-imported-combinations, 010/farming-remakes-landscapes]
+  sections: [ 005/regional-case-study-the-sahel-the-sahara-and-transitions, 005/a-mental-atlas-regions-that-connect-the-global-story, 010/africa-local-crops-and-imported-combinations, 010/farming-remakes-landscapes ]
   source: "wikidata:Q66065"
-  status: proposed
+  status: approved
 - id: nile
   name: "Nile"
   bg: "Нил"
@@ -48,9 +48,9 @@
   lon: 32.505
   type: river
   region: africa
-  sections: [005/water-gives-the-landscape-its-circulation, 005/regional-case-study-the-nile-and-the-geography, 005/a-mental-atlas-regions-that-connect-the-global-story]
+  sections: [ 005/water-gives-the-landscape-its-circulation, 005/regional-case-study-the-nile-and-the-geography, 005/a-mental-atlas-regions-that-connect-the-global-story ]
   source: "wikidata:Q3392"
-  status: proposed
+  status: approved
 - id: ethiopian-highlands
   name: "Ethiopian Highlands"
   bg: "Етиопска планинска земя"
@@ -58,9 +58,9 @@
   lon: 38.167
   type: region
   region: africa
-  sections: [005/regional-case-study-the-sahel-the-sahara-and-transitions]
+  sections: [ 005/regional-case-study-the-sahel-the-sahara-and-transitions ]
   source: "wikidata:Q319288"
-  status: proposed
+  status: approved
 - id: andes
   name: "Andes"
   bg: "Анди"
@@ -68,9 +68,9 @@
   lon: -66.698
   type: mountain
   region: americas
-  sections: [005/earths-moving-shell-plates-mountains-and-earthquakes, 005/regional-case-study-the-andes-pacific-coasts-and-ocean, 005/a-mental-atlas-regions-that-connect-the-global-story, 010/the-americas-maize-squash-potatoes-and-varied-histories]
+  sections: [ 005/earths-moving-shell-plates-mountains-and-earthquakes, 005/regional-case-study-the-andes-pacific-coasts-and-ocean, 005/a-mental-atlas-regions-that-connect-the-global-story, 010/the-americas-maize-squash-potatoes-and-varied-histories ]
   source: "wikidata:Q5456"
-  status: proposed
+  status: approved
 - id: amazon-river
   name: "Amazon"
   bg: "Амазонка"
@@ -78,9 +78,9 @@
   lon: -73.456
   type: river
   region: americas
-  sections: [005/water-gives-the-landscape-its-circulation, 005/a-mental-atlas-regions-that-connect-the-global-story]
+  sections: [ 005/water-gives-the-landscape-its-circulation, 005/a-mental-atlas-regions-that-connect-the-global-story ]
   source: "wikidata:Q3783"
-  status: proposed
+  status: approved
 - id: strait-of-malacca
   name: "Strait of Malacca"
   bg: "Малакски проток"
@@ -88,9 +88,9 @@
   lon: 101.037
   type: sea
   region: southeast-asia
-  sections: [005/oceans-the-great-highways-and-climate-engines, 005/regional-case-study-southeast-asias-waterways]
+  sections: [ 005/oceans-the-great-highways-and-climate-engines, 005/regional-case-study-southeast-asias-waterways ]
   source: "wikidata:Q48359"
-  status: proposed
+  status: approved
 - id: suez-canal
   name: "Suez Canal"
   bg: "Суецки канал"
@@ -98,9 +98,9 @@
   lon: 32.344
   type: route-point
   region: africa
-  sections: [005/oceans-the-great-highways-and-climate-engines]
+  sections: [ 005/oceans-the-great-highways-and-climate-engines ]
   source: "wikidata:Q899"
-  status: proposed
+  status: approved
 - id: panama-canal
   name: "Panama Canal"
   bg: "Панамски канал"
@@ -108,9 +108,9 @@
   lon: -79.75
   type: route-point
   region: americas
-  sections: [005/oceans-the-great-highways-and-climate-engines]
+  sections: [ 005/oceans-the-great-highways-and-climate-engines ]
   source: "wikidata:Q7350"
-  status: proposed
+  status: approved
 - id: black-sea
   name: "Black Sea"
   bg: "Черно море"
@@ -118,9 +118,9 @@
   lon: 34.26
   type: sea
   region: mediterranean-europe
-  sections: [005/water-gives-the-landscape-its-circulation, 005/oceans-the-great-highways-and-climate-engines, 005/regional-case-study-bulgaria-and-the-balkans, 010/toward-europe-the-aegean-the-balkans-and-the-danube]
+  sections: [ 005/water-gives-the-landscape-its-circulation, 005/oceans-the-great-highways-and-climate-engines, 005/regional-case-study-bulgaria-and-the-balkans, 010/toward-europe-the-aegean-the-balkans-and-the-danube ]
   source: "wikidata:Q166"
-  status: proposed
+  status: approved
 - id: red-sea
   name: "Red Sea"
   bg: "Червено море"
@@ -128,9 +128,9 @@
   lon: 38
   type: sea
   region: west-asia
-  sections: [005/oceans-the-great-highways-and-climate-engines]
+  sections: [ 005/oceans-the-great-highways-and-climate-engines ]
   source: "wikidata:Q23406"
-  status: proposed
+  status: approved
 - id: mediterranean-sea
   name: "Mediterranean Sea"
   bg: "Средиземно море"
@@ -138,9 +138,9 @@
   lon: 17
   type: sea
   region: mediterranean-europe
-  sections: [005/what-exactly-does-geography-study, 005/oceans-the-great-highways-and-climate-engines, 005/regional-case-study-bulgaria-and-the-balkans, 005/a-mental-atlas-regions-that-connect-the-global-story]
+  sections: [ 005/what-exactly-does-geography-study, 005/oceans-the-great-highways-and-climate-engines, 005/regional-case-study-bulgaria-and-the-balkans, 005/a-mental-atlas-regions-that-connect-the-global-story ]
   source: "wikidata:Q4918"
-  status: proposed
+  status: approved
 - id: danube
   name: "Danube"
   bg: "Дунав"
@@ -148,9 +148,9 @@
   lon: 29.743
   type: river
   region: mediterranean-europe
-  sections: [005/water-gives-the-landscape-its-circulation, 005/regional-case-study-bulgaria-and-the-balkans, 010/toward-europe-the-aegean-the-balkans-and-the-danube]
+  sections: [ 005/water-gives-the-landscape-its-circulation, 005/regional-case-study-bulgaria-and-the-balkans, 010/toward-europe-the-aegean-the-balkans-and-the-danube ]
   source: "wikidata:Q1653"
-  status: proposed
+  status: approved
 - id: mekong
   name: "Mekong"
   bg: "Меконг"
@@ -158,9 +158,9 @@
   lon: 94.696
   type: river
   region: southeast-asia
-  sections: [005/regional-case-study-southeast-asias-waterways]
+  sections: [ 005/regional-case-study-southeast-asias-waterways ]
   source: "wikidata:Q41179"
-  status: proposed
+  status: approved
 - id: ganges
   name: "Ganges"
   bg: "Ганг"
@@ -168,9 +168,9 @@
   lon: 90.9
   type: river
   region: south-asia
-  sections: [005/water-gives-the-landscape-its-circulation]
+  sections: [ 005/water-gives-the-landscape-its-circulation ]
   source: "wikidata:Q5089"
-  status: proposed
+  status: approved
 - id: laetoli
   name: "Laetoli"
   bg: "Лаетоли"
@@ -178,9 +178,9 @@
   lon: 35.352
   type: site
   region: africa
-  sections: [009/africa-the-long-beginning]
+  sections: [ 009/africa-the-long-beginning ]
   source: "wikidata:Q672146"
-  status: proposed
+  status: approved
 - id: lomekwi-3
   name: "Lomekwi 3"
   bg: "Ломекуи 3"
@@ -188,9 +188,9 @@
   lon: 35.85
   type: site
   region: africa
-  sections: [009/hands-stones-and-the-technology-nobody-photographed, 009/five-misconceptions-that-distort-prehistoric-history]
+  sections: [ 009/hands-stones-and-the-technology-nobody-photographed, 009/five-misconceptions-that-distort-prehistoric-history ]
   source: "wikidata:Q19833854"
-  status: proposed
+  status: approved
 - id: jebel-irhoud
   name: "Jebel Irhoud"
   bg: "Джебел Ирхуд"
@@ -198,9 +198,9 @@
   lon: -8.873
   type: site
   region: africa
-  sections: [009/the-emergence-of-homo-sapiens-was-not-a-single-moment]
+  sections: [ 009/the-emergence-of-homo-sapiens-was-not-a-single-moment ]
   source: "wikidata:Q846913"
-  status: proposed
+  status: approved
 - id: dmanisi
   name: "Dmanisi"
   bg: "Дманиси"
@@ -208,9 +208,9 @@
   lon: 44.345
   type: site
   region: west-asia
-  sections: [009/the-travelers-before-us-homo-erectus-and-the-first-great]
+  sections: [ 009/the-travelers-before-us-homo-erectus-and-the-first-great ]
   source: "wikidata:Q20573231"
-  status: proposed
+  status: approved
 - id: madjedbebe
   name: "Madjedbebe"
   bg: "Маджедбебе"
@@ -218,9 +218,9 @@
   lon: 132.883
   type: site
   region: oceania
-  sections: [009/crossing-water-the-settlement-of-sahul]
+  sections: [ 009/crossing-water-the-settlement-of-sahul ]
   source: "wikidata:Q8563176"
-  status: proposed
+  status: approved
 - id: white-sands
   name: "White Sands"
   bg: "Уайт Сендс"
@@ -228,9 +228,9 @@
   lon: -106.172
   type: site
   region: americas
-  sections: [009/how-we-know-how-old-something-is, 009/toward-the-americas-ice-land-coast-and-unanswered-questions]
+  sections: [ 009/how-we-know-how-old-something-is, 009/toward-the-americas-ice-land-coast-and-unanswered-questions ]
   source: "wikidata:Q1200164"
-  status: proposed
+  status: approved
 - id: clovis-site
   name: "Clovis (Blackwater Draw)"
   bg: "Клоувис (Блекуотър Дроу)"
@@ -238,9 +238,9 @@
   lon: -103.324
   type: site
   region: americas
-  sections: [009/toward-the-americas-ice-land-coast-and-unanswered-questions]
+  sections: [ 009/toward-the-americas-ice-land-coast-and-unanswered-questions ]
   source: "wikidata:Q47145451"
-  status: proposed
+  status: approved
 - id: catalhoyuk
   name: "Çatalhöyük"
   bg: "Чаталхьоюк"
@@ -249,9 +249,9 @@
   type: site
   region: west-asia
   active: { from: "c. 7400 BCE", to: "c. 6200 BCE" }
-  sections: [010/the-village-becomes-a-social-institution, 010/a-timeline-without-false-precision]
+  sections: [ 010/the-village-becomes-a-social-institution, 010/a-timeline-without-false-precision ]
   source: "wikidata:Q192522"
-  status: proposed
+  status: approved
 - id: gobekli-tepe
   name: "Göbekli Tepe"
   bg: "Гьобекли тепе"
@@ -259,9 +259,9 @@
   lon: 38.922
   type: site
   region: west-asia
-  sections: [010/why-did-people-begin-farming-five-explanations-that-interact, 010/southwest-asia-an-early-complicated-transition]
+  sections: [ 010/why-did-people-begin-farming-five-explanations-that-interact, 010/southwest-asia-an-early-complicated-transition ]
   source: "wikidata:Q214944"
-  status: proposed
+  status: approved
 - id: jericho
   name: "Jericho"
   bg: "Йерихон"
@@ -269,9 +269,9 @@
   lon: 35.463
   type: city
   region: west-asia
-  sections: [010/southwest-asia-an-early-complicated-transition]
+  sections: [ 010/southwest-asia-an-early-complicated-transition ]
   source: "wikidata:Q5687"
-  status: proposed
+  status: approved
 - id: varna-necropolis
   name: "Varna cemetery"
   bg: "Варненски некропол"
@@ -280,9 +280,9 @@
   type: site
   region: mediterranean-europe
   active: { from: "c. 4600 BCE", to: "c. 4300 BCE" }
-  sections: [010/toward-europe-the-aegean-the-balkans-and-the-danube, 010/did-farming-create-inequality, 010/a-timeline-without-false-precision]
+  sections: [ 010/toward-europe-the-aegean-the-balkans-and-the-danube, 010/did-farming-create-inequality, 010/a-timeline-without-false-precision ]
   source: "wikidata:Q946052"
-  status: proposed
+  status: approved
 - id: kuk-swamp
   name: "Kuk"
   bg: "Кук"
@@ -290,9 +290,9 @@
   lon: 144.33
   type: site
   region: oceania
-  sections: [010/new-guinea-a-revolution-without-grain-fields]
+  sections: [ 010/new-guinea-a-revolution-without-grain-fields ]
   source: "wikidata:Q1165562"
-  status: proposed
+  status: approved
 - id: yangtze
   name: "Yangtze"
   bg: "Яндзъ"
@@ -300,9 +300,9 @@
   lon: 91.183
   type: river
   region: east-asia
-  sections: [010/china-more-than-a-single-rice-story]
+  sections: [ 010/china-more-than-a-single-rice-story ]
   source: "wikidata:Q5413"
-  status: proposed
+  status: approved
 - id: uruk
   name: "Uruk"
   bg: "Урук"
@@ -310,9 +310,9 @@
   lon: 45.637
   type: city
   region: west-asia
-  sections: [011/before-sumer-villages-temples-and-the-ubaid-world, 011/uruk-when-settlement-became-something-larger, 011/the-mathematics-of-a-storehouse, 011/the-invention-of-writing-was-not-a-single-flash-of-genius, 011/sumer-was-not-one-unified-country]
+  sections: [ 011/before-sumer-villages-temples-and-the-ubaid-world, 011/uruk-when-settlement-became-something-larger, 011/the-mathematics-of-a-storehouse, 011/the-invention-of-writing-was-not-a-single-flash-of-genius, 011/sumer-was-not-one-unified-country ]
   source: "wikidata:Q168518"
-  status: proposed
+  status: approved
 - id: ur
   name: "Ur"
   bg: "Ур"
@@ -320,9 +320,9 @@
   lon: 46.104
   type: city
   region: west-asia
-  sections: [011/trade-a-city-cannot-eat-clay, 011/sumer-was-not-one-unified-country, 011/the-royal-cemetery-of-ur-splendid-objects-difficult, 011/women-power-and-the-case-of-enheduanna, 011/ur-iii-a-state-that-counted-almost-everything]
+  sections: [ 011/trade-a-city-cannot-eat-clay, 011/sumer-was-not-one-unified-country, 011/the-royal-cemetery-of-ur-splendid-objects-difficult, 011/women-power-and-the-case-of-enheduanna, 011/ur-iii-a-state-that-counted-almost-everything ]
   source: "wikidata:Q5699"
-  status: proposed
+  status: approved
 - id: eridu
   name: "Eridu"
   bg: "Ериду"
@@ -330,9 +330,9 @@
   lon: 45.995
   type: city
   region: west-asia
-  sections: [011/before-sumer-villages-temples-and-the-ubaid-world]
+  sections: [ 011/before-sumer-villages-temples-and-the-ubaid-world ]
   source: "wikidata:Q210065"
-  status: proposed
+  status: approved
 - id: lagash
   name: "Lagash"
   bg: "Лагаш"
@@ -340,9 +340,9 @@
   lon: 46.407
   type: city
   region: west-asia
-  sections: [011/sumer-was-not-one-unified-country, 011/why-were-the-first-cities-sometimes-at-war]
+  sections: [ 011/sumer-was-not-one-unified-country, 011/why-were-the-first-cities-sometimes-at-war ]
   source: "wikidata:Q207330"
-  status: proposed
+  status: approved
 - id: umma
   name: "Umma"
   bg: "Ума"
@@ -350,9 +350,9 @@
   lon: 45.888
   type: city
   region: west-asia
-  sections: [011/sumer-was-not-one-unified-country, 011/why-were-the-first-cities-sometimes-at-war]
+  sections: [ 011/sumer-was-not-one-unified-country, 011/why-were-the-first-cities-sometimes-at-war ]
   source: "wikidata:Q740952"
-  status: proposed
+  status: approved
 - id: kish
   name: "Kish"
   bg: "Киш"
@@ -360,9 +360,9 @@
   lon: 44.605
   type: city
   region: west-asia
-  sections: [011/sumer-was-not-one-unified-country]
+  sections: [ 011/sumer-was-not-one-unified-country ]
   source: "wikidata:Q132272"
-  status: proposed
+  status: approved
 - id: babylon
   name: "Babylon"
   bg: "Вавилон"
@@ -370,9 +370,9 @@
   lon: 44.421
   type: city
   region: west-asia
-  sections: [011/babylon-and-hammurabi-what-the-famous-code-really-tells-us]
+  sections: [ 011/babylon-and-hammurabi-what-the-famous-code-really-tells-us ]
   source: "wikidata:Q5684"
-  status: proposed
+  status: approved
 - id: susa
   name: "Susa"
   bg: "Суза"
@@ -380,9 +380,9 @@
   lon: 48.256
   type: city
   region: west-asia
-  sections: [011/babylon-and-hammurabi-what-the-famous-code-really-tells-us]
+  sections: [ 011/babylon-and-hammurabi-what-the-famous-code-really-tells-us ]
   source: "wikidata:Q180773"
-  status: proposed
+  status: approved
 - id: tigris
   name: "Tigris"
   bg: "Тигър"
@@ -390,9 +390,9 @@
   lon: 39.506
   type: river
   region: west-asia
-  sections: [011/a-landscape-that-demanded-ingenuity]
+  sections: [ 011/a-landscape-that-demanded-ingenuity ]
   source: "wikidata:Q35591"
-  status: proposed
+  status: approved
 - id: euphrates
   name: "Euphrates"
   bg: "Ефрат"
@@ -400,9 +400,9 @@
   lon: 40.257
   type: river
   region: west-asia
-  sections: [011/a-landscape-that-demanded-ingenuity]
+  sections: [ 011/a-landscape-that-demanded-ingenuity ]
   source: "wikidata:Q34589"
-  status: proposed
+  status: approved
 - id: zagros
   name: "Zagros Mountains"
   bg: "Загрос"
@@ -410,6 +410,6 @@
   lon: 47
   type: mountain
   region: west-asia
-  sections: [011/a-landscape-that-demanded-ingenuity]
+  sections: [ 011/a-landscape-that-demanded-ingenuity ]
   source: "wikidata:Q167021"
-  status: proposed
+  status: approved

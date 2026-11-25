@@ -17,7 +17,7 @@
   definitionBg: "Оценка, основана отчасти на приоритети или морални норми."
   defined: 001/four-statements-that-sound-similar-but-do-different-work
   source: "flashcard 001 #4"
-  status: proposed
+  status: approved
 - id: provenance
   term: "Provenance"
   bg: "Произход"
@@ -26,7 +26,7 @@
   defined: 001/the-right-evidence-for-the-right-question
   sections: [ 004/the-past-leaves-traces-not-finished-stories ]
   source: "flashcard 001 #5"
-  status: proposed
+  status: approved
 - id: corroboration
   term: "Corroboration"
   bg: "Независимо потвърждение"
@@ -36,7 +36,7 @@
   sections: [ 004/primary-source-is-a-relationship-to-a-question ]
   related: [ calibrated-confidence ]
   source: "flashcard 001 #7"
-  status: proposed
+  status: approved
 - id: lateral-reading
   term: "Lateral reading"
   bg: "Странично четене"
@@ -45,7 +45,7 @@
   defined: 001/following-a-claim-upstream
   related: [ sift ]
   source: "flashcard 001 #8"
-  status: proposed
+  status: approved
 - id: sift
   term: "SIFT"
   bg: "SIFT"
@@ -54,7 +54,7 @@
   defined: 001/following-a-claim-upstream
   related: [ lateral-reading ]
   source: "flashcard 001 #9"
-  status: proposed
+  status: approved
 - id: counterfactual
   term: "Counterfactual"
   bg: "Контрафактически сценарий"
@@ -63,7 +63,7 @@
   defined: 001/from-a-pattern-to-a-cause
   related: [ reverse-causation ]
   source: "flashcard 001 #11"
-  status: proposed
+  status: approved
 - id: reverse-causation
   term: "Reverse causation"
   bg: "Обратна причинност"
@@ -72,7 +72,7 @@
   defined: 001/from-a-pattern-to-a-cause
   related: [ counterfactual ]
   source: "flashcard 001 #12"
-  status: proposed
+  status: approved
 - id: systematic-review
   term: "Systematic review"
   bg: "Систематичен преглед"
@@ -81,7 +81,7 @@
   defined: 001/what-science-can-offer-and-what-it-cannot-settle-alone
   related: [ peer-review ]
   source: "flashcard 001 #13"
-  status: proposed
+  status: approved
 - id: peer-review
   term: "Peer review"
   bg: "Експертно рецензиране"
@@ -90,7 +90,7 @@
   defined: 001/what-science-can-offer-and-what-it-cannot-settle-alone
   related: [ systematic-review ]
   source: "flashcard 001 #14"
-  status: proposed
+  status: approved
 - id: effect-size
   term: "Effect size"
   bg: "Размер на ефекта"
@@ -98,7 +98,7 @@
   definitionBg: "Големината на наблюдавана разлика или връзка."
   defined: 001/reading-a-research-headline-without-being-fooled
   source: "flashcard 001 #16"
-  status: proposed
+  status: approved
 - id: confirmation-bias
   term: "Confirmation bias"
   bg: "Склонност към потвърждение"
@@ -106,7 +106,7 @@
   definitionBg: "Избирателно внимание или тълкуване в полза на вече съществуващи убеждения."
   defined: 001/cognitive-bias-when-our-own-minds-become-part-of-the-problem
   source: "flashcard 001 #18"
-  status: proposed
+  status: approved
 - id: prior-probability
   term: "Prior probability"
   bg: "Априорна вероятност"
@@ -115,7 +115,7 @@
   defined: 001/probability-is-the-language-of-reasonable-uncertainty
   related: [ calibrated-confidence ]
   source: "flashcard 001 #19"
-  status: proposed
+  status: approved
 - id: calibrated-confidence
   term: "Calibrated confidence"
   bg: "Калибрирана увереност"
@@ -124,7 +124,7 @@
   defined: 001/the-danger-of-becoming-certain-that-nobody-knows-anything
   related: [ corroboration ]
   source: "flashcard 001 #20"
-  status: proposed
+  status: approved
 - id: deductive-validity
   term: "Validity"
   bg: "Валидност"
@@ -133,7 +133,7 @@
   defined: 002/valid-is-not-the-same-as-true
   related: [ sound-argument, counterexample, affirming-the-consequent, modus-tollens ]
   source: "flashcard 002 #2"
-  status: proposed
+  status: approved
 - id: sound-argument
   term: "Sound argument"
   bg: "Коректен аргумент"
@@ -142,7 +142,7 @@
   defined: 002/valid-is-not-the-same-as-true
   related: [ deductive-validity, counterexample, affirming-the-consequent, modus-tollens ]
   source: "flashcard 002 #3"
-  status: proposed
+  status: approved
 - id: counterexample
   term: "Counterexample"
   bg: "Контрапример"
@@ -151,7 +151,7 @@
   defined: 002/valid-is-not-the-same-as-true
   related: [ deductive-validity, sound-argument, affirming-the-consequent, modus-tollens ]
   source: "flashcard 002 #5"
-  status: proposed
+  status: approved
 - id: affirming-the-consequent
   term: "Affirming the consequent"
   bg: "Утвърждаване на следствието"
@@ -160,7 +160,7 @@
   defined: 002/valid-is-not-the-same-as-true
   related: [ deductive-validity, sound-argument, counterexample, modus-tollens ]
   source: "flashcard 002 #6"
-  status: proposed
+  status: approved
 - id: modus-tollens
   term: "Modus tollens"
   bg: "Modus tollens"
@@ -169,7 +169,7 @@
   defined: 002/valid-is-not-the-same-as-true
   related: [ deductive-validity, sound-argument, counterexample, affirming-the-consequent ]
   source: "flashcard 002 #7"
-  status: proposed
+  status: approved
 - id: sufficient-condition
   term: "Sufficient condition"
   bg: "Достатъчно условие"
@@ -177,7 +177,7 @@
   definitionBg: "A гарантира B при посочената връзка."
   defined: 002/necessary-sufficient-and-merely-associated
   source: "flashcard 002 #8"
-  status: proposed
+  status: approved
 - id: necessary-condition
   term: "Necessary condition"
   bg: "Необходимо условие"
@@ -185,7 +185,7 @@
   definitionBg: "B не може да настъпи, ако A не е налице."
   defined: 002/necessary-sufficient-and-merely-associated
   source: "flashcard 002 #9"
-  status: proposed
+  status: approved
 - id: induction
   term: "Induction"
   bg: "Индукция"
@@ -194,7 +194,7 @@
   defined: 002/three-ways-to-reason-about-the-unknown
   related: [ abduction ]
   source: "flashcard 002 #10"
-  status: proposed
+  status: approved
 - id: abduction
   term: "Abduction"
   bg: "Абдукция"
@@ -203,7 +203,7 @@
   defined: 002/three-ways-to-reason-about-the-unknown
   related: [ induction ]
   source: "flashcard 002 #11"
-  status: proposed
+  status: approved
 - id: hidden-premise
   term: "Hidden premise"
   bg: "Скрита предпоставка"
@@ -211,7 +211,7 @@
   definitionBg: "Неизказано допускане, без което аргументът не работи."
   defined: 002/the-anatomy-of-a-reasoned-claim
   source: "flashcard 002 #12"
-  status: proposed
+  status: approved
 - id: causal-claim
   term: "Causal claim"
   bg: "Причинно твърдение"
@@ -219,7 +219,7 @@
   definitionBg: "Казва какво е предизвикало даден резултат, а не само какво се е случило."
   defined: 002/facts-definitions-predictions-and-values
   source: "flashcard 002 #13"
-  status: proposed
+  status: approved
 - id: straw-man
   term: "Straw man"
   bg: "Сламен човек"
@@ -228,7 +228,7 @@
   defined: 002/straw-men-steel-men-and-the-temptation-to-win
   related: [ steelman ]
   source: "flashcard 002 #14"
-  status: proposed
+  status: approved
 - id: steelman
   term: "Steelman"
   bg: "Стоманен човек"
@@ -237,7 +237,7 @@
   defined: 002/straw-men-steel-men-and-the-temptation-to-win
   related: [ straw-man ]
   source: "flashcard 002 #15"
-  status: proposed
+  status: approved
 - id: false-dilemma
   term: "False dilemma"
   bg: "Фалшива дилема"
@@ -245,7 +245,7 @@
   definitionBg: "Представяне на непълен набор от възможности като единствените възможни."
   defined: 002/false-choices-slippery-slopes-and-arguments-from-fear
   source: "flashcard 002 #17"
-  status: proposed
+  status: approved
 - id: appeal-to-popularity
   term: "Appeal to popularity"
   bg: "Позоваване на популярността"
@@ -253,7 +253,7 @@
   definitionBg: "Броят на вярващите сам по себе си не доказва едно фактическо твърдение."
   defined: 002/popularity-authority-tradition-and-novelty
   source: "flashcard 002 #19"
-  status: proposed
+  status: approved
 - id: cherry-picking
   term: "Cherry-picking"
   bg: "Избирателно подбиране"
@@ -262,7 +262,7 @@
   defined: 002/bad-generalizations-and-selective-evidence
   related: [ counterexample, survivorship-bias ]
   source: "flashcard 002 #20"
-  status: proposed
+  status: approved
 - id: survivorship-bias
   term: "Survivorship bias"
   bg: "Изкривяване на оцелелите"
@@ -271,7 +271,7 @@
   defined: 002/bad-generalizations-and-selective-evidence
   related: [ counterexample, cherry-picking ]
   source: "flashcard 002 #21"
-  status: proposed
+  status: approved
 - id: circular-reasoning
   term: "Circular reasoning"
   bg: "Кръгово разсъждение"
@@ -279,7 +279,7 @@
   definitionBg: "Доводите вече предполагат спорното заключение."
   defined: 002/circular-arguments-moving-goalposts-and-the-burden-of-proof
   source: "flashcard 002 #22"
-  status: proposed
+  status: approved
 - id: fallacy-fallacy
   term: "Fallacy fallacy"
   bg: "Заблудата за заблудата"
@@ -287,7 +287,7 @@
   definitionBg: "Допускането, че едно заключение е невярно, защото една негова защита е слаба."
   defined: 002/the-fallacy-fallacy-and-why-disagreement-remains-difficult
   source: "flashcard 002 #23"
-  status: proposed
+  status: approved
 - id: independent-events
   term: "Independent events"
   bg: "Независими събития"
@@ -296,7 +296,7 @@
   defined: 003/three-simple-rules-for-combining-chances
   related: [ mutually-exclusive-events ]
   source: "flashcard 003 #5"
-  status: proposed
+  status: approved
 - id: mutually-exclusive-events
   term: "Mutually exclusive events"
   bg: "Несъвместими събития"
@@ -305,7 +305,7 @@
   defined: 003/three-simple-rules-for-combining-chances
   related: [ independent-events ]
   source: "flashcard 003 #6"
-  status: proposed
+  status: approved
 - id: base-rate
   term: "Base rate"
   bg: "Базова честота"
@@ -313,7 +313,7 @@
   definitionBg: "Изходната честота на дадено събитие в съответната съвкупност."
   defined: 003/the-fraud-alarm-counted-properly
   source: "flashcard 003 #11"
-  status: proposed
+  status: approved
 - id: false-positive
   term: "False positive"
   bg: "Фалшиво положителен резултат"
@@ -322,7 +322,7 @@
   defined: 003/the-fraud-alarm-counted-properly
   related: [ base-rate ]
   source: "flashcard 003 #12"
-  status: proposed
+  status: approved
 - id: absolute-risk-reduction
   term: "Absolute risk reduction"
   bg: "Абсолютно намаление на риска"
@@ -330,7 +330,7 @@
   definitionBg: "Разликата между вероятностите на събитието, в процентни пунктове."
   defined: 003/the-size-of-a-risk-matters-as-much-as-its-direction
   source: "flashcard 003 #13"
-  status: proposed
+  status: approved
 - id: relative-risk-reduction
   term: "Relative risk reduction"
   bg: "Относително намаление на риска"
@@ -339,7 +339,7 @@
   defined: 003/the-size-of-a-risk-matters-as-much-as-its-direction
   related: [ absolute-risk-reduction ]
   source: "flashcard 003 #14"
-  status: proposed
+  status: approved
 - id: expected-value
   term: "Expected value"
   bg: "Очаквана стойност"
@@ -348,7 +348,7 @@
   defined: 003/expected-value-the-average-you-may-never-personally-see
   related: [ mutually-exclusive-events ]
   source: "flashcard 003 #15"
-  status: proposed
+  status: approved
 - id: probability-distribution
   term: "Probability distribution"
   bg: "Вероятностно разпределение"
@@ -357,7 +357,7 @@
   defined: 003/variability-two-roads-with-the-same-average
   related: [ expected-value ]
   source: "flashcard 003 #17"
-  status: proposed
+  status: approved
 - id: gamblers-fallacy
   term: "Gambler’s fallacy"
   bg: "Заблуда на комарджията"
@@ -366,7 +366,7 @@
   defined: 003/small-samples-streaks-and-the-human-search-for-patterns
   related: [ independent-events, regression-to-the-mean ]
   source: "flashcard 003 #18"
-  status: proposed
+  status: approved
 - id: regression-to-the-mean
   term: "Regression toward the mean"
   bg: "Регресия към средното"
@@ -375,7 +375,7 @@
   defined: 003/small-samples-streaks-and-the-human-search-for-patterns
   related: [ independent-events, gamblers-fallacy ]
   source: "flashcard 003 #19"
-  status: proposed
+  status: approved
 - id: forecast-calibration
   term: "Forecast calibration"
   bg: "Калибриране на прогнозите"
@@ -383,7 +383,7 @@
   definitionBg: "Доколко прогнозираните честоти съвпадат с наблюдаваните в много случаи."
   defined: 003/forecasts-should-be-judged-as-forecasts
   source: "flashcard 003 #20"
-  status: proposed
+  status: approved
 - id: sampling-uncertainty
   term: "Sampling uncertainty"
   bg: "Извадкова неопределеност"
@@ -392,7 +392,7 @@
   defined: 003/where-confidence-comes-from-and-where-it-should-stop
   related: [ independent-events ]
   source: "flashcard 003 #21"
-  status: proposed
+  status: approved
 - id: selection-bias
   term: "Selection bias"
   bg: "Изкривяване при подбора"
@@ -401,7 +401,7 @@
   defined: 003/how-statistics-become-misleading-without-any-false
   sections: [ 006/sampling-who-gets-counted-and-who-never-had-a-chance ]
   source: "flashcard 003 #22"
-  status: proposed
+  status: approved
 - id: periodization
   term: "Periodization"
   bg: "Периодизация"
@@ -410,7 +410,7 @@
   defined: 004/periods-are-questions-not-fences
   related: [ presentism, archival-survivorship-bias ]
   source: "flashcard 004 #6"
-  status: proposed
+  status: approved
 - id: presentism
   term: "Presentism"
   bg: "Презентизъм"
@@ -419,7 +419,7 @@
   defined: 004/periods-are-questions-not-fences
   related: [ periodization, archival-survivorship-bias ]
   source: "flashcard 004 #7"
-  status: proposed
+  status: approved
 - id: archival-survivorship-bias
   term: "Archival survivorship bias"
   bg: "Архивно изкривяване на оцелелите"
@@ -428,7 +428,7 @@
   defined: 004/the-past-leaves-traces-not-finished-stories
   related: [ dendrochronology ]
   source: "flashcard 004 #11"
-  status: proposed
+  status: approved
 - id: stratigraphy
   term: "Stratigraphy"
   bg: "Стратиграфия"
@@ -437,7 +437,7 @@
   defined: 004/archaeology-reading-what-people-left-behind
   sections: [ 009/how-we-know-how-old-something-is ]
   source: "flashcard 004 #14"
-  status: proposed
+  status: approved
 - id: dendrochronology
   term: "Dendrochronology"
   bg: "Дендрохронология"
@@ -446,7 +446,7 @@
   defined: 004/how-historians-and-archaeologists-date-things
   related: [ archival-survivorship-bias, radiocarbon-dating, old-wood-effect ]
   source: "flashcard 004 #16"
-  status: proposed
+  status: approved
 - id: radiocarbon-dating
   term: "Radiocarbon dating"
   bg: "Радиовъглеродно датиране"
@@ -456,7 +456,7 @@
   sections: [ 009/how-we-know-how-old-something-is ]
   related: [ archival-survivorship-bias, dendrochronology, old-wood-effect ]
   source: "flashcard 004 #17"
-  status: proposed
+  status: approved
 - id: old-wood-effect
   term: "Old-wood effect"
   bg: "Ефект на старата дървесина"
@@ -465,7 +465,7 @@
   defined: 004/how-historians-and-archaeologists-date-things
   related: [ archival-survivorship-bias, dendrochronology, radiocarbon-dating ]
   source: "flashcard 004 #20"
-  status: proposed
+  status: approved
 - id: geographical-scale
   term: "Geographical scale"
   bg: "Географски мащаб"
@@ -473,7 +473,7 @@
   definitionBg: "Пространственият обхват и степента на подробност, с които изучаваме една закономерност."
   defined: 005/what-exactly-does-geography-study
   source: "flashcard 005 #2"
-  status: proposed
+  status: approved
 - id: mercator-projection
   term: "Mercator projection"
   bg: "Проекция на Меркатор"
@@ -482,7 +482,7 @@
   defined: 005/the-impossible-promise-of-a-perfect-map
   related: [ geographical-scale, equal-area-projection, great-circle-route, latitude ]
   source: "flashcard 005 #4"
-  status: proposed
+  status: approved
 - id: equal-area-projection
   term: "Equal-area projection"
   bg: "Равноплощна проекция"
@@ -491,7 +491,7 @@
   defined: 005/the-impossible-promise-of-a-perfect-map
   related: [ geographical-scale, mercator-projection, great-circle-route, latitude ]
   source: "flashcard 005 #5"
-  status: proposed
+  status: approved
 - id: great-circle-route
   term: "Great-circle route"
   bg: "Маршрут по голям кръг"
@@ -500,7 +500,7 @@
   defined: 005/the-impossible-promise-of-a-perfect-map
   related: [ geographical-scale, mercator-projection, equal-area-projection, latitude ]
   source: "flashcard 005 #6"
-  status: proposed
+  status: approved
 - id: latitude
   term: "Latitude"
   bg: "Географска ширина"
@@ -509,7 +509,7 @@
   defined: 005/finding-any-place-coordinates-orientation-and-the-grid
   related: [ great-circle-route ]
   source: "flashcard 005 #7"
-  status: proposed
+  status: approved
 - id: convergent-boundary
   term: "Convergent boundary"
   bg: "Конвергентна граница"
@@ -518,7 +518,7 @@
   defined: 005/earths-moving-shell-plates-mountains-and-earthquakes
   related: [ drainage-divide ]
   source: "flashcard 005 #11"
-  status: proposed
+  status: approved
 - id: drainage-divide
   term: "Drainage divide"
   bg: "Вододел"
@@ -526,7 +526,7 @@
   definitionBg: "Възвишение, което разделя съседни речни водосборни басейни."
   defined: 005/water-gives-the-landscape-its-circulation
   source: "flashcard 005 #12"
-  status: proposed
+  status: approved
 - id: rain-shadow
   term: "Rain shadow"
   bg: "Дъждовна сянка"
@@ -535,7 +535,7 @@
   defined: 005/why-climate-varies-sunlight-air-altitude-and-water
   related: [ geographical-scale, latitude, monsoon ]
   source: "flashcard 005 #16"
-  status: proposed
+  status: approved
 - id: monsoon
   term: "Monsoon"
   bg: "Мусон"
@@ -544,7 +544,7 @@
   defined: 005/why-climate-varies-sunlight-air-altitude-and-water
   related: [ geographical-scale, latitude, rain-shadow ]
   source: "flashcard 005 #17"
-  status: proposed
+  status: approved
 - id: coastal-upwelling
   term: "Coastal upwelling"
   bg: "Крайбрежен ъпуелинг"
@@ -553,7 +553,7 @@
   defined: 005/oceans-the-great-highways-and-climate-engines
   related: [ maritime-chokepoint, population-density ]
   source: "flashcard 005 #18"
-  status: proposed
+  status: approved
 - id: maritime-chokepoint
   term: "Maritime chokepoint"
   bg: "Морско тясно място"
@@ -562,7 +562,7 @@
   defined: 005/oceans-the-great-highways-and-climate-engines
   related: [ coastal-upwelling, population-density ]
   source: "flashcard 005 #19"
-  status: proposed
+  status: approved
 - id: population-density
   term: "Population density"
   bg: "Гъстота на населението"
@@ -571,7 +571,7 @@
   defined: 005/people-cities-and-the-uneven-map-of-opportunity
   related: [ drainage-divide, agglomeration-economy ]
   source: "flashcard 005 #20"
-  status: proposed
+  status: approved
 - id: agglomeration-economy
   term: "Agglomeration economy"
   bg: "Агломерационна изгода"
@@ -580,7 +580,7 @@
   defined: 005/people-cities-and-the-uneven-map-of-opportunity
   related: [ drainage-divide, population-density ]
   source: "flashcard 005 #21"
-  status: proposed
+  status: approved
 - id: choropleth-map
   term: "Choropleth map"
   bg: "Картограма"
@@ -589,7 +589,7 @@
   defined: 005/reading-thematic-maps-without-being-fooled
   related: [ population-density, ecological-fallacy ]
   source: "flashcard 005 #22"
-  status: proposed
+  status: approved
 - id: ecological-fallacy
   term: "Ecological fallacy"
   bg: "Екологична заблуда"
@@ -599,7 +599,7 @@
   sections: [ 006/correlation-a-relationship-not-a-mechanism ]
   related: [ population-density, choropleth-map ]
   source: "flashcard 005 #23"
-  status: proposed
+  status: approved
 - id: unit-of-observation
   term: "Unit of observation"
   bg: "Единица на наблюдение"
@@ -608,7 +608,7 @@
   defined: 006/a-number-is-an-answer-to-a-question
   related: [ weighted-mean ]
   source: "flashcard 006 #1"
-  status: proposed
+  status: approved
 - id: sampling-frame
   term: "Sampling frame"
   bg: "Извадкова рамка"
@@ -617,7 +617,7 @@
   defined: 006/sampling-who-gets-counted-and-who-never-had-a-chance
   related: [ nonresponse-bias ]
   source: "flashcard 006 #4"
-  status: proposed
+  status: approved
 - id: nonresponse-bias
   term: "Nonresponse bias"
   bg: "Изкривяване от неотговорили"
@@ -626,7 +626,7 @@
   defined: 006/sampling-who-gets-counted-and-who-never-had-a-chance
   related: [ sampling-frame ]
   source: "flashcard 006 #6"
-  status: proposed
+  status: approved
 - id: weighted-mean
   term: "Weighted mean"
   bg: "Претеглена средна стойност"
@@ -634,7 +634,7 @@
   definitionBg: "Групите допринасят пропорционално на съответните си размери или тегла."
   defined: 006/mean-median-mode-and-the-people-behind-the-average
   source: "flashcard 006 #9"
-  status: proposed
+  status: approved
 - id: standard-deviation
   term: "Standard deviation"
   bg: "Стандартно отклонение"
@@ -643,7 +643,7 @@
   defined: 006/spread-outliers-and-why-the-middle-is-never-the-whole-story
   related: [ outlier ]
   source: "flashcard 006 #10"
-  status: proposed
+  status: approved
 - id: outlier
   term: "Outlier"
   bg: "Отскачаща стойност"
@@ -652,7 +652,7 @@
   defined: 006/spread-outliers-and-why-the-middle-is-never-the-whole-story
   related: [ standard-deviation ]
   source: "flashcard 006 #11"
-  status: proposed
+  status: approved
 - id: log-scale
   term: "Logarithmic scale"
   bg: "Логаритмична скала"
@@ -660,7 +660,7 @@
   definitionBg: "Равните разстояния на графиката съответстват на равни съотношения, а не на равни разлики."
   defined: 006/reading-graphs-as-arguments
   source: "flashcard 006 #13"
-  status: proposed
+  status: approved
 - id: moving-average
   term: "Moving average"
   bg: "Пълзяща средна"
@@ -668,7 +668,7 @@
   definitionBg: "Осреднява съседни периоди, за да изглади краткосрочните колебания."
   defined: 006/time-series-where-the-chosen-starting-point-becomes
   source: "flashcard 006 #14"
-  status: proposed
+  status: approved
 - id: percentage-points
   term: "Percentage points"
   bg: "Процентни пунктове"
@@ -676,7 +676,7 @@
   definitionBg: "Абсолютната разлика между проценти, а не относителният ръст в проценти."
   defined: 006/percentages-percentage-points-and-changing-baselines
   source: "flashcard 006 #16"
-  status: proposed
+  status: approved
 - id: confounder
   term: "Confounder"
   bg: "Смущаващ фактор"
@@ -686,7 +686,7 @@
   sections: [ 001/from-a-pattern-to-a-cause ]
   related: [ outlier ]
   source: "flashcard 006 #18"
-  status: proposed
+  status: approved
 - id: simpsons-paradox
   term: "Simpson's paradox"
   bg: "Парадокс на Симпсън"
@@ -694,7 +694,7 @@
   definitionBg: "Общата връзка може да се обърне, когато различни групи се обединят."
   defined: 006/simpsons-paradox-when-every-subgroup-tells-the-opposite
   source: "flashcard 006 #20"
-  status: proposed
+  status: approved
 - id: random-assignment
   term: "Random assignment"
   bg: "Случайно разпределение"
@@ -703,7 +703,7 @@
   defined: 006/experiments-comparison-groups-and-plausible-alternatives
   related: [ percentage-points ]
   source: "flashcard 006 #21"
-  status: proposed
+  status: approved
 - id: confidence-interval
   term: "Confidence interval"
   bg: "Доверителен интервал"
@@ -712,7 +712,7 @@
   defined: 006/confidence-intervals-being-precise-about-imprecision
   related: [ nonresponse-bias, percentage-points ]
   source: "flashcard 006 #22"
-  status: proposed
+  status: approved
 - id: data-provenance
   term: "Data provenance"
   bg: "Произход на данните"
@@ -720,7 +720,7 @@
   definitionBg: "Документираният път от първоначалното измерване до публикуваната цифра."
   defined: 006/missing-data-revised-data-and-the-temptation-to-clean-away
   source: "flashcard 006 #24"
-  status: proposed
+  status: approved
 - id: system
   term: "System"
   bg: "Система"
@@ -729,7 +729,7 @@
   defined: 007/what-is-a-system-and-what-is-not
   related: [ system-boundary, flow ]
   source: "flashcard 007 #1"
-  status: proposed
+  status: approved
 - id: system-boundary
   term: "System boundary"
   bg: "Граница на системата"
@@ -738,7 +738,7 @@
   defined: 007/what-is-a-system-and-what-is-not
   related: [ system, flow ]
   source: "flashcard 007 #2"
-  status: proposed
+  status: approved
 - id: stock
   term: "Stock"
   bg: "Запас"
@@ -747,7 +747,7 @@
   defined: 007/from-event-to-pattern-to-structure
   related: [ system, flow ]
   source: "flashcard 007 #5"
-  status: proposed
+  status: approved
 - id: flow
   term: "Flow"
   bg: "Поток"
@@ -756,7 +756,7 @@
   defined: 007/what-is-a-system-and-what-is-not
   related: [ system, system-boundary ]
   source: "flashcard 007 #6"
-  status: proposed
+  status: approved
 - id: buffer
   term: "Buffer"
   bg: "Буфер"
@@ -765,7 +765,7 @@
   defined: 007/where-to-intervene-symptoms-rules-information-and-goals
   related: [ system, flow, feedback-delay, bottleneck ]
   source: "flashcard 007 #8"
-  status: proposed
+  status: approved
 - id: reinforcing-feedback
   term: "Reinforcing feedback"
   bg: "Подсилваща обратна връзка"
@@ -774,7 +774,7 @@
   defined: 007/reinforcing-feedback-when-change-feeds-more-change
   related: [ system, balancing-feedback ]
   source: "flashcard 007 #9"
-  status: proposed
+  status: approved
 - id: balancing-feedback
   term: "Balancing feedback"
   bg: "Балансираща обратна връзка"
@@ -783,7 +783,7 @@
   defined: 007/balancing-feedback-how-a-system-pushes-back
   related: [ system, stock, reinforcing-feedback, feedback-delay ]
   source: "flashcard 007 #10"
-  status: proposed
+  status: approved
 - id: feedback-delay
   term: "Feedback delay"
   bg: "Забавяне на обратната връзка"
@@ -792,7 +792,7 @@
   defined: 007/balancing-feedback-how-a-system-pushes-back
   related: [ system, stock, reinforcing-feedback, balancing-feedback ]
   source: "flashcard 007 #13"
-  status: proposed
+  status: approved
 - id: nonlinearity
   term: "Nonlinearity"
   bg: "Нелинейност"
@@ -801,7 +801,7 @@
   defined: 007/nonlinearity-thresholds-and-tipping-points
   related: [ system, flow, feedback-delay, threshold ]
   source: "flashcard 007 #15"
-  status: proposed
+  status: approved
 - id: threshold
   term: "Threshold"
   bg: "Праг"
@@ -810,7 +810,7 @@
   defined: 007/nonlinearity-thresholds-and-tipping-points
   related: [ system, flow, feedback-delay, nonlinearity ]
   source: "flashcard 007 #16"
-  status: proposed
+  status: approved
 - id: hysteresis
   term: "Hysteresis"
   bg: "Хистерезис"
@@ -819,7 +819,7 @@
   defined: 007/nonlinearity-thresholds-and-tipping-points
   related: [ system, flow, feedback-delay, nonlinearity ]
   source: "flashcard 007 #17"
-  status: proposed
+  status: approved
 - id: path-dependence
   term: "Path dependence"
   bg: "Зависимост от пътя"
@@ -828,7 +828,7 @@
   defined: 007/nonlinearity-thresholds-and-tipping-points
   related: [ system, flow, feedback-delay, nonlinearity ]
   source: "flashcard 007 #18"
-  status: proposed
+  status: approved
 - id: bottleneck
   term: "Bottleneck"
   bg: "Тясно място"
@@ -837,7 +837,7 @@
   defined: 007/networks-bottlenecks-and-the-weakest-link
   related: [ network-redundancy ]
   source: "flashcard 007 #19"
-  status: proposed
+  status: approved
 - id: network-redundancy
   term: "Network redundancy"
   bg: "Резервираност на мрежата"
@@ -846,7 +846,7 @@
   defined: 007/networks-bottlenecks-and-the-weakest-link
   related: [ bottleneck ]
   source: "flashcard 007 #20"
-  status: proposed
+  status: approved
 - id: common-pool-resource
   term: "Common-pool resource"
   bg: "Общ ресурс"
@@ -855,7 +855,7 @@
   defined: 007/shared-resources-why-reasonable-choices-can-produce
   related: [ system, stock ]
   source: "flashcard 007 #21"
-  status: proposed
+  status: approved
 - id: externality
   term: "Externality"
   bg: "Външен ефект"
@@ -864,7 +864,7 @@
   defined: 007/economic-cycles-stocks-expectations-and-delayed-adjustment
   related: [ system, stock, flow, feedback-delay ]
   source: "flashcard 007 #22"
-  status: proposed
+  status: approved
 - id: security-dilemma
   term: "Security dilemma"
   bg: "Дилема на сигурността"
@@ -873,7 +873,7 @@
   defined: 007/politics-and-the-security-dilemma
   related: [ system ]
   source: "flashcard 007 #23"
-  status: proposed
+  status: approved
 - id: unintended-consequence
   term: "Unintended consequence"
   bg: "Непреднамерено последствие"
@@ -882,7 +882,7 @@
   defined: 007/unintended-consequences-and-the-limits-of-incentives
   related: [ system, goodharts-law ]
   source: "flashcard 007 #24"
-  status: proposed
+  status: approved
 - id: goodharts-law
   term: "Goodhart's law"
   bg: "Законът на Гудхарт"
@@ -891,7 +891,7 @@
   defined: 007/unintended-consequences-and-the-limits-of-incentives
   related: [ system, unintended-consequence ]
   source: "flashcard 007 #25"
-  status: proposed
+  status: approved
 - id: leverage-point
   term: "Leverage point"
   bg: "Точка на въздействие"
@@ -900,7 +900,7 @@
   defined: 007/where-to-intervene-symptoms-rules-information-and-goals
   related: [ system, flow, buffer, feedback-delay ]
   source: "flashcard 007 #26"
-  status: proposed
+  status: approved
 - id: sensitivity-analysis
   term: "Sensitivity analysis"
   bg: "Анализ на чувствителността"
@@ -909,7 +909,7 @@
   defined: 007/mapping-a-system-without-inventing-certainty
   related: [ stock, flow, feedback-delay ]
   source: "flashcard 007 #27"
-  status: proposed
+  status: approved
 - id: retrieval-practice
   term: "Retrieval practice"
   bg: "Упражнение по извличане"
@@ -918,7 +918,7 @@
   defined: 008/four-stages-attention-encoding-retrieval-and-use
   related: [ self-explanation, transfer ]
   source: "flashcard 008 #2"
-  status: proposed
+  status: approved
 - id: spaced-practice
   term: "Spaced practice"
   bg: "Разпределено упражнение"
@@ -927,7 +927,7 @@
   defined: 008/spacing-forgetting-a-little-can-help-you-learn-more
   related: [ retrieval-practice, self-explanation ]
   source: "flashcard 008 #3"
-  status: proposed
+  status: approved
 - id: interleaving
   term: "Interleaving"
   bg: "Редуване"
@@ -936,7 +936,7 @@
   defined: 008/interleaving-mix-topics-for-a-reason
   related: [ retrieval-practice ]
   source: "flashcard 008 #4"
-  status: proposed
+  status: approved
 - id: self-explanation
   term: "Self-explanation"
   bg: "Самообяснение"
@@ -945,7 +945,7 @@
   defined: 008/understanding-needs-connection-not-just-repetition
   related: [ fluency-illusion ]
   source: "flashcard 008 #5"
-  status: proposed
+  status: approved
 - id: mental-model
   term: "Mental model"
   bg: "Мисловен модел"
@@ -954,7 +954,7 @@
   defined: 008/the-difference-between-knowing-a-fact-and-having-a-model
   related: [ transfer ]
   source: "flashcard 008 #6"
-  status: proposed
+  status: approved
 - id: transfer
   term: "Transfer"
   bg: "Пренос"
@@ -963,7 +963,7 @@
   defined: 008/four-stages-attention-encoding-retrieval-and-use
   related: [ retrieval-practice, self-explanation ]
   source: "flashcard 008 #7"
-  status: proposed
+  status: approved
 - id: error-log
   term: "Error log"
   bg: "Дневник на грешките"
@@ -972,7 +972,7 @@
   defined: 008/feedback-turn-errors-into-information
   related: [ self-explanation ]
   source: "flashcard 008 #8"
-  status: proposed
+  status: approved
 - id: fluency-illusion
   term: "Illusion of fluency"
   bg: "Илюзия за владеене"
@@ -981,7 +981,7 @@
   defined: 008/understanding-needs-connection-not-just-repetition
   related: [ self-explanation ]
   source: "flashcard 008 #10"
-  status: proposed
+  status: approved
 - id: hominin
   term: "Hominin"
   bg: "Хоминин"
@@ -990,7 +990,7 @@
   defined: 009/what-evolution-actually-means
   related: [ cumulative-culture ]
   source: "flashcard 009 #1"
-  status: proposed
+  status: approved
 - id: bipedalism
   term: "Bipedalism"
   bg: "Двукрако ходене"
@@ -999,7 +999,7 @@
   defined: 009/what-we-can-say-with-confidence-and-what-remains-open
   related: [ hominin, introgression, sahul ]
   source: "flashcard 009 #3"
-  status: proposed
+  status: approved
 - id: introgression
   term: "Introgression"
   bg: "Интрогресия"
@@ -1008,7 +1008,7 @@
   defined: 009/neanderthals-denisovans-and-our-complicated-relatives
   related: [ denisovans ]
   source: "flashcard 009 #11"
-  status: proposed
+  status: approved
 - id: denisovans
   term: "Denisovans"
   bg: "Денисовци"
@@ -1017,7 +1017,7 @@
   defined: 009/neanderthals-denisovans-and-our-complicated-relatives
   related: [ introgression ]
   source: "flashcard 009 #12"
-  status: proposed
+  status: approved
 - id: sahul
   term: "Sahul"
   bg: "Сахул"
@@ -1025,7 +1025,7 @@
   definitionBg: "Плейстоценска суша, включваща Австралия и Нова Гвинея."
   defined: 009/crossing-water-the-settlement-of-sahul
   source: "flashcard 009 #13"
-  status: proposed
+  status: approved
 - id: beringia
   term: "Beringia"
   bg: "Берингия"
@@ -1033,7 +1033,7 @@
   definitionBg: "Древна суша, която е свързвала Североизточна Азия и северозападната част на Северна Америка."
   defined: 009/toward-the-americas-ice-land-coast-and-unanswered-questions
   source: "flashcard 009 #14"
-  status: proposed
+  status: approved
 - id: minimum-age
   term: "Minimum age"
   bg: "Минимална възраст"
@@ -1042,7 +1042,7 @@
   defined: 009/language-images-stories-and-the-world-inside-the-mind
   related: [ cumulative-culture ]
   source: "flashcard 009 #15"
-  status: proposed
+  status: approved
 - id: cumulative-culture
   term: "Cumulative culture"
   bg: "Кумулативна култура"
@@ -1051,7 +1051,7 @@
   defined: 009/language-images-stories-and-the-world-inside-the-mind
   related: [ minimum-age ]
   source: "flashcard 009 #17"
-  status: proposed
+  status: approved
 - id: sedentism
   term: "Sedentism"
   bg: "Уседналост"
@@ -1059,7 +1059,7 @@
   definitionBg: "Живот на едно място за дълги периоди – не непременно със земеделие."
   defined: 010/five-myths-to-retire
   source: "flashcard 010 #2"
-  status: proposed
+  status: approved
 - id: niche-construction
   term: "Niche construction"
   bg: "Изграждане на ниша"
@@ -1068,7 +1068,7 @@
   defined: 010/why-did-people-begin-farming-five-explanations-that-interact
   related: [ tell ]
   source: "flashcard 010 #4"
-  status: proposed
+  status: approved
 - id: rachis
   term: "Rachis"
   bg: "Рахис"
@@ -1076,7 +1076,7 @@
   definitionBg: "Основната ос на житния клас; начинът, по който се чупи, дава улики за опитомяването."
   defined: 010/cultivation-is-not-the-same-as-domestication
   source: "flashcard 010 #6"
-  status: proposed
+  status: approved
 - id: nonshattering-grain
   term: "Nonshattering grain"
   bg: "Неронливо зърно"
@@ -1085,7 +1085,7 @@
   defined: 010/cultivation-is-not-the-same-as-domestication
   related: [ rachis ]
   source: "flashcard 010 #7"
-  status: proposed
+  status: approved
 - id: tell
   term: "Tell"
   bg: "Тел"
@@ -1093,7 +1093,7 @@
   definitionBg: "Могила, образувана от многократно обитаване и презастрояване на едно селище."
   defined: 010/the-village-becomes-a-social-institution
   source: "flashcard 010 #16"
-  status: proposed
+  status: approved
 - id: granary
   term: "Granary"
   bg: "Хамбар"
@@ -1102,7 +1102,7 @@
   defined: 010/the-granary-storing-tomorrows-food
   related: [ surplus ]
   source: "flashcard 010 #17"
-  status: proposed
+  status: approved
 - id: surplus
   term: "Surplus"
   bg: "Излишък"
@@ -1110,7 +1110,7 @@
   definitionBg: "Продукция отвъд непосредствените нужди, след като се покрият съответните разходи."
   defined: 010/from-food-production-to-crafts-exchange-and-authority
   source: "flashcard 010 #19"
-  status: proposed
+  status: approved
 - id: demic-diffusion
   term: "Demic diffusion"
   bg: "Демична дифузия"
@@ -1118,7 +1118,7 @@
   definitionBg: "Разпространение на земеделието заедно с преселването на хора."
   defined: 010/the-animal-partnership-herding-changes-the-clock
   source: "flashcard 010 #20"
-  status: proposed
+  status: approved
 - id: alluvial-plain
   term: "Alluvial plain"
   bg: "Алувиална равнина"
@@ -1126,7 +1126,7 @@
   definitionBg: "Низина, образувана от наноси, отложени от реки."
   defined: 011/a-landscape-that-demanded-ingenuity
   source: "flashcard 011 #4"
-  status: proposed
+  status: approved
 - id: city-state
   term: "City-state"
   bg: "Град-държава"
@@ -1135,7 +1135,7 @@
   defined: 011/what-is-a-city-and-what-is-a-state
   related: [ institution ]
   source: "flashcard 011 #7"
-  status: proposed
+  status: approved
 - id: institution
   term: "Institution"
   bg: "Институция"
@@ -1143,7 +1143,7 @@
   definitionBg: "Трайно правило, длъжност или организация, по-голяма от всеки отделен човек."
   defined: 011/uruk-when-settlement-became-something-larger
   source: "flashcard 011 #8"
-  status: proposed
+  status: approved
 - id: cylinder-seal
   term: "Cylinder seal"
   bg: "Цилиндричен печат"
@@ -1152,7 +1152,7 @@
   defined: 011/seals-tokens-and-the-problem-of-trust
   related: [ institution ]
   source: "flashcard 011 #13"
-  status: proposed
+  status: approved
 - id: proto-cuneiform
   term: "Proto-cuneiform"
   bg: "Протоклинопис"
@@ -1161,7 +1161,7 @@
   defined: 011/the-invention-of-writing-was-not-a-single-flash-of-genius
   related: [ cuneiform ]
   source: "flashcard 011 #14"
-  status: proposed
+  status: approved
 - id: cuneiform
   term: "Cuneiform"
   bg: "Клинопис"
@@ -1170,7 +1170,7 @@
   defined: 011/the-invention-of-writing-was-not-a-single-flash-of-genius
   related: [ proto-cuneiform ]
   source: "flashcard 011 #15"
-  status: proposed
+  status: approved
 - id: political-legitimation
   term: "Legitimacy"
   bg: "Легитимност"
@@ -1179,7 +1179,7 @@
   defined: 011/kingship-office-force-and-sacred-authority
   related: [ institution ]
   source: "flashcard 011 #21"
-  status: proposed
+  status: approved
 - id: ziggurat
   term: "Ziggurat"
   bg: "Зикурат"
@@ -1187,4 +1187,4 @@
   definitionBg: "Монументална стъпаловидна храмова платформа или кула в Месопотамия."
   defined: 011/ur-iii-a-state-that-counted-almost-everything
   source: "flashcard 011 #24"
-  status: proposed
+  status: approved
