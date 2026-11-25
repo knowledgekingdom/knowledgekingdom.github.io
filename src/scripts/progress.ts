@@ -3,6 +3,7 @@
 // lives in this browser only and is shared by English and Bulgarian (keys are
 // language-neutral paths like "/001-how-to-know-what-is-true/following-a-claim-upstream/").
 import { store } from './reader';
+import { bump } from '../lib/reader-state';
 import { track } from '../lib/analytics';
 
 const AUTO_MARK_AFTER_MS = 10_000; // scrolling through only counts after 10 s on the page
@@ -78,7 +79,7 @@ if (toggle) {
     toggle.title = on ? toggle.dataset.labelUnmark! : '';
   };
   const set = (on: boolean) => store.update((s) => {
-    if (on) s.read[path] = Math.floor(Date.now() / 1000);
+    if (on) { if (!s.read[path]) bump(s, 's'); s.read[path] = Math.floor(Date.now() / 1000); }
     else delete s.read[path];
   });
   store.subscribe(render);

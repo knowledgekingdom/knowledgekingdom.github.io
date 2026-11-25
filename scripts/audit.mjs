@@ -11,7 +11,8 @@ const pages = [
   '/001-how-to-know-what-is-true/following-a-claim-upstream/',
   '/001-how-to-know-what-is-true/flashcards/',
   '/timeline/',
-  '/bookmarks/',
+  '/play/which-came-first/',
+  '/review/',
   '/bg/011-mesopotamia-and-the-first-states/the-canal-and-the-argument-over-water/',
 ];
 const categories = ['performance', 'accessibility', 'best-practices', 'seo'];

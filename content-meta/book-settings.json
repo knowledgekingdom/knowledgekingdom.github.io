@@ -3,8 +3,62 @@
   "edition": 41,
   "editionDate": "",
   "parts": [
-    { "number": 1, "title": "The Tools of Understanding", "chapters": [1, 8] },
-    { "number": 2, "title": "The Human Story", "chapters": [9, 23] },
-    { "number": 3, "title": "The Making of the Modern World", "chapters": [24, 41] }
-  ]
+    {
+      "number": 1,
+      "title": "The Tools of Understanding",
+      "chapters": [
+        1,
+        8
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The Human Story",
+      "chapters": [
+        9,
+        23
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The Making of the Modern World",
+      "chapters": [
+        24,
+        41
+      ]
+    }
+  ],
+  "_regions": "Which part of the world each history chapter is mostly about (for the \"Around the world\" seal and the timeline lanes). africa, west-asia, mediterranean-europe, south-asia, east-asia, southeast-asia, central-asia-steppe, americas, oceania or global.",
+  "regions": {
+    "009": "global",
+    "010": "global",
+    "011": "west-asia",
+    "012": "africa",
+    "013": "south-asia",
+    "014": "east-asia",
+    "015": "west-asia",
+    "016": "mediterranean-europe",
+    "017": "mediterranean-europe",
+    "018": "africa",
+    "019": "americas",
+    "020": "west-asia",
+    "021": "central-asia-steppe",
+    "022": "central-asia-steppe",
+    "023": "mediterranean-europe",
+    "024": "mediterranean-europe",
+    "025": "mediterranean-europe",
+    "026": "south-asia",
+    "027": "global",
+    "028": "global",
+    "029": "global",
+    "030": "east-asia",
+    "031": "mediterranean-europe",
+    "032": "global",
+    "033": "americas",
+    "034": "global",
+    "035": "africa",
+    "036": "mediterranean-europe",
+    "037": "mediterranean-europe",
+    "038": "global"
+  }
 }

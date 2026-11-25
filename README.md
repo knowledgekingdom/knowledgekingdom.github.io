@@ -67,6 +67,17 @@ the script can't read, or uses an id twice. After each import, `npm run import` 
 sections were revised in the new edition, so they can be re-checked. If a section was renamed,
 `npm run knowledge fix` updates the entries that cite it.
 
+## The game content (Fallacy Detective)
+
+`content-meta/games/fallacies.yaml` lists the fallacies (with Chapter 002's own explanation and the section that teaches each) and the game's rounds. Rounds marked `source: "book: …"` are the book's own examples; `drafted` ones were written for the game and are fictional. As with the knowledge files, only **approved** rounds are played on the live site:
+
+```
+npm run games review          (writes docs/games-review.md)
+npm run games approve all     (or: npm run games approve rude-economist five-trades …)
+```
+
+Chapter regions for the "Around the world" seal are in `content-meta/book-settings.json` under `regions`.
+
 ## Renaming a page without breaking links
 
 If a section's title changes, its address changes too, and old links would hit the "page isn't here" page. To forward the old address, add it to `redirects` in **`content-meta/slug-overrides.json`** (`IMPORT_REPORT.md` lists removed and new addresses after each import):
@@ -94,6 +105,11 @@ When the importer itself changes an address (it did once, in November 2026, for 
 - **Share cards:** every section has its own link-preview image (`public/og/s/`, drawn by the GitHub build with `npm run og:sections` and cached there, not stored in git). Each paragraph and heading has a link button that copies a link straight to it.
 - **Page transitions** follow the book: next section slides in from the right, previous from the left; chapter cards grow into the chapter page and figures into the full-size view. With "reduce motion" turned on in the device settings, everything simply fades.
 - **Support link:** set `supportUrl` in `src/site.config.ts` (for example a "Buy me a coffee" page) and a quiet link appears in the footer and on the About page. Empty = hidden.
+- **Practice & play** (`/play/`):
+  - **Daily review** (`/review/`): one flashcard review across every chapter the reader has started (or the chapters they pick), scheduled with FSRS (`ts-fsrs`, free and offline): each card comes back just before it would be forgotten. Again / Hard / Good / Easy by button, keys 1–4 or swipes; 20 new cards a day by default. The chapter flashcard pages feed the same schedule.
+  - **Which came first?** (`/play/which-came-first/`): two events from the book's timeline, tap the earlier. Only *approved* events from `content-meta/knowledge/events.yaml` are used, and events whose dates could overlap (including "c." dates) are never paired. A second mode asks for five events in order.
+  - **Fallacy Detective** (`/play/fallacy-detective/`): ten short arguments, name the fallacy; feedback quotes Chapter 002 and links to it; the result can be shared as an image. Content lives in **`content-meta/games/fallacies.yaml`** (see below).
+  - **Your journey** (`/journey/`): the reader's own stats and **seals** (badges) for milestones such as finishing a Part, a seven-day streak or 100 reviewed cards. No points, no leaderboards, all kept in the reader's browser.
 - **Print / Save as PDF** on every section: the printout drops the navigation, uses black on white even in dark mode, opens all model answers, and prints flashcards as a list.
 
 ## Improving the Bulgarian translation
@@ -157,6 +173,7 @@ The first `npm run translate` creates a small Python environment (`.venv-transla
 | `npm run build` | build the static site into `dist/` and its search index |
 | `npm run preview` | serve the built site locally (search works here) |
 | `npm run audit` | Lighthouse scores for key pages (run while `preview` is running) |
+| `npm run games` | game content: `check`, `review`, `approve all` |
 | `npm run knowledge` | knowledge files: `check`, `review`, `approve 009`, `changed`, `fix` |
 | `npm test` | all tests (reader state, knowledge files, importer, translator) |
 | `npm run test:importer` | importer and translator tests only |

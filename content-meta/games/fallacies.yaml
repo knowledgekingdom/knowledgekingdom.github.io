@@ -1,0 +1,252 @@
+# Fallacy Detective: the fallacies (with the book's own explanation) and the rounds.
+# Checked by `npm run games check` before every build. Only approved rounds are played on the
+# live site (`npm run dev` plays proposed ones too). Approve with `npm run games approve`.
+#
+# fallacies:  id, name / bg, section (where Chapter 002 explains it), explanation / explanationBg
+#             (taken from that section)
+# rounds:     id, argument / bg, answer (a fallacy id), options (3 other fallacy ids shown as wrong
+#             choices), source ("book: NNN/section" when the argument is the book's own example,
+#             "drafted" when it was written for the game; drafted arguments are fictional and never
+#             about real people or groups), status (proposed | approved)
+
+fallacies:
+  - id: ad-hominem
+    name: "Ad hominem"
+    bg: "Ad hominem (нападение срещу личността)"
+    section: 002/when-the-speaker-becomes-the-target
+    explanation: "An ad hominem error rejects a claim because of an irrelevant attack on the person making it. The speaker's personality is not a substitute for checking the evidence."
+    explanationBg: "Грешката ad hominem отхвърля едно твърдение заради неуместно нападение срещу човека, който го прави. Личността на говорещия не замества проверката на доказателствата."
+  - id: tu-quoque
+    name: "Tu quoque (“you too”)"
+    bg: "Tu quoque („и ти също“)"
+    section: 002/when-the-speaker-becomes-the-target
+    explanation: "Pointing out that the advocate doesn't follow their own advice may expose hypocrisy, but it does not show that the advice is wrong."
+    explanationBg: "Да посочиш, че застъпникът не следва собствения си съвет, може да разкрие лицемерие, но не доказва, че съветът е грешен."
+  - id: genetic-fallacy
+    name: "Genetic fallacy"
+    bg: "Генетична заблуда"
+    section: 002/when-the-speaker-becomes-the-target
+    explanation: "The genetic fallacy judges a claim solely by its origin. Where an idea came from does not replace examining its content and evidence."
+    explanationBg: "Генетичната заблуда съди за едно твърдение само по произхода му. Откъде идва една идея не замества проверката на съдържанието и доказателствата ѝ."
+  - id: appeal-to-popularity
+    name: "Appeal to popularity"
+    bg: "Позоваване на популярността"
+    section: 002/popularity-authority-tradition-and-novelty
+    explanation: "Millions of people can believe something false. Treating a measure of belief or preference as proof of an unrelated fact is the error."
+    explanationBg: "Милиони хора могат да вярват в нещо невярно. Грешката е да приемем мярката за вяра или предпочитание за доказателство на несвързан факт."
+  - id: appeal-to-authority
+    name: "Misplaced appeal to authority"
+    bg: "Неуместно позоваване на авторитет"
+    section: 002/popularity-authority-tradition-and-novelty
+    explanation: "Citing expertise is not an error in itself. Treating a name or title as a substitute for examining the argument is, especially outside the person's field."
+    explanationBg: "Позоваването на експертиза само по себе си не е грешка. Грешка е името или титлата да заместят проверката на аргумента, особено извън областта на човека."
+  - id: appeal-to-tradition
+    name: "Appeal to tradition"
+    bg: "Позоваване на традицията"
+    section: 002/popularity-authority-tradition-and-novelty
+    explanation: "Appeal to tradition says that a practice must be right because it is old. Tradition can preserve experience, but age alone does not establish effectiveness or justice."
+    explanationBg: "Позоваването на традицията твърди, че една практика е правилна, защото е стара. Традицията може да пази опит, но възрастта сама по себе си не доказва ефективност или справедливост."
+  - id: appeal-to-novelty
+    name: "Appeal to novelty"
+    bg: "Позоваване на новостта"
+    section: 002/popularity-authority-tradition-and-novelty
+    explanation: "Appeal to novelty makes the opposite mistake: treating something as better simply because it is new."
+    explanationBg: "Позоваването на новостта прави обратната грешка: смята нещо за по-добро само защото е ново."
+  - id: false-dilemma
+    name: "False dilemma"
+    bg: "Фалшива дилема"
+    section: 002/false-choices-slippery-slopes-and-arguments-from-fear
+    explanation: "A false dilemma presents two possibilities as though they exhaust the options. Ask what alternatives exist and whether they are feasible."
+    explanationBg: "Фалшивата дилема представя две възможности така, сякаш други няма. Попитайте какви алтернативи има и дали са осъществими."
+  - id: slippery-slope
+    name: "Unsupported slippery slope"
+    bg: "Неподкрепен „хлъзгав наклон“"
+    section: 002/false-choices-slippery-slopes-and-arguments-from-fear
+    explanation: "A slippery-slope argument claims that a first step will lead through a chain to disaster. Without a plausible mechanism and evidence for each step, it is an empty scare."
+    explanationBg: "Аргументът „хлъзгав наклон“ твърди, че първата стъпка ще доведе по верига до катастрофа. Без правдоподобен механизъм и доказателства за всяка стъпка това е празно плашене."
+  - id: appeal-to-fear
+    name: "Appeal to fear"
+    bg: "Позоваване на страха"
+    section: 002/false-choices-slippery-slopes-and-arguments-from-fear
+    explanation: "An appeal to fear makes a possible danger feel certain, or demands an extreme response without weighing probability and size."
+    explanationBg: "Позоваването на страха представя една възможна опасност като сигурна или изисква крайна реакция, без да претегли вероятността и мащаба."
+  - id: straw-man
+    name: "Straw man"
+    bg: "Сламен човек"
+    section: 002/straw-men-steel-men-and-the-temptation-to-win
+    explanation: "A straw man attacks a distorted version of a position rather than the position actually advanced."
+    explanationBg: "Сламеният човек атакува изкривена версия на позицията, а не позицията, която действително е изказана."
+  - id: circular-reasoning
+    name: "Circular reasoning"
+    bg: "Кръгово разсъждение"
+    section: 002/circular-arguments-moving-goalposts-and-the-burden-of-proof
+    explanation: "In circular reasoning, the conclusion is supported by premises that already assume that same conclusion; there is no independent basis."
+    explanationBg: "При кръговото разсъждение заключението се подкрепя от предпоставки, които вече го предполагат; липсва независима основа."
+  - id: moving-the-goalposts
+    name: "Moving the goalposts"
+    bg: "Преместване на вратата"
+    section: 002/circular-arguments-moving-goalposts-and-the-burden-of-proof
+    explanation: "Moving the goalposts means demanding new evidence after an agreed standard has been met, without a good reason for the change."
+    explanationBg: "„Преместване на вратата“ означава да се иска ново доказателство, след като уговореният критерий вече е изпълнен, без основателна причина за промяната."
+  - id: hasty-generalization
+    name: "Hasty generalization"
+    bg: "Прибързано обобщение"
+    section: 002/bad-generalizations-and-selective-evidence
+    explanation: "A hasty generalization draws a broad conclusion from a sample that is too small, unrepresentative or selected in ways that matter."
+    explanationBg: "Прибързаното обобщение прави широк извод от извадка, която е твърде малка, непредставителна или подбрана по съществен начин."
+  - id: cherry-picking
+    name: "Cherry-picking"
+    bg: "Избирателно подбиране"
+    section: 002/bad-generalizations-and-selective-evidence
+    explanation: "Cherry-picking selects favorable evidence while ignoring relevant counterevidence; the conclusion depends on the full record."
+    explanationBg: "Избирателното подбиране взима удобните доказателства и пренебрегва съществените противоположни; изводът зависи от пълната картина."
+  - id: survivorship-bias
+    name: "Survivorship bias"
+    bg: "Изкривяване на оцелелите"
+    section: 002/bad-generalizations-and-selective-evidence
+    explanation: "Survivorship bias looks only at the cases that remain visible and overlooks those that disappeared; we need the wider comparison group."
+    explanationBg: "Изкривяването на оцелелите гледа само случаите, които са останали видими, и пропуска изчезналите; нужна е по-широката група за сравнение."
+
+rounds:
+  # --- The book's own examples (Chapter 002) ---
+  - id: rude-economist
+    argument: "“That economist is rude, therefore her forecast is wrong.”"
+    bg: "„Този икономист е груб, следователно прогнозата ѝ е грешна.“"
+    answer: ad-hominem
+    options: [straw-man, appeal-to-authority, hasty-generalization]
+    source: "book: 002/when-the-speaker-becomes-the-target"
+    status: proposed
+  - id: official-electricity
+    argument: "An official urges citizens to save energy. A critic replies: “Her own residence uses excessive electricity, so we can ignore the advice.”"
+    bg: "Една служителка призовава гражданите да пестят енергия. Критик отговаря: „Собственият ѝ дом харчи прекомерно много ток, така че можем да пренебрегнем съвета.“"
+    answer: tu-quoque
+    options: [ad-hominem, false-dilemma, cherry-picking]
+    source: "book: 002/when-the-speaker-becomes-the-target"
+    status: proposed
+  - id: everyone-believes-it
+    argument: "“Everyone believes it, and thousands of accounts repeat it, so it must be true.”"
+    bg: "„Всички го вярват и хиляди профили го повтарят, значи трябва да е вярно.“"
+    answer: appeal-to-popularity
+    options: [appeal-to-tradition, circular-reasoning, hasty-generalization]
+    source: "book: 002/popularity-authority-tradition-and-novelty"
+    status: proposed
+  - id: physicist-manuscript
+    argument: "“A world-renowned physicist says this medieval manuscript is a forgery, so it must be a forgery.”"
+    bg: "„Световноизвестен физик казва, че този средновековен ръкопис е фалшификат, значи е фалшификат.“"
+    answer: appeal-to-authority
+    options: [appeal-to-popularity, genetic-fallacy, appeal-to-novelty]
+    source: "book: 002/popularity-authority-tradition-and-novelty"
+    status: proposed
+  - id: privatize-or-nothing
+    argument: "“Either we fully privatize the service or the country will have no efficient healthcare.”"
+    bg: "„Или напълно приватизираме услугата, или страната няма да има ефективно здравеопазване.“"
+    answer: false-dilemma
+    options: [slippery-slope, appeal-to-fear, straw-man]
+    source: "book: 002/false-choices-slippery-slopes-and-arguments-from-fear"
+    status: proposed
+  - id: one-exception
+    argument: "“If we permit one temporary exception, soon no rule will be enforced.” No reason is given why one exception would lead to the next."
+    bg: "„Ако позволим едно временно изключение, скоро никое правило няма да се спазва.“ Не се посочва защо едно изключение би довело до следващото."
+    answer: slippery-slope
+    options: [false-dilemma, hasty-generalization, moving-the-goalposts]
+    source: "book: 002/false-choices-slippery-slopes-and-arguments-from-fear"
+    status: proposed
+  - id: trustworthy-newspaper
+    argument: "“This newspaper is trustworthy because it always tells the truth, and we know it tells the truth because it is trustworthy.”"
+    bg: "„Този вестник е надежден, защото винаги казва истината, а знаем, че казва истината, защото е надежден.“"
+    answer: circular-reasoning
+    options: [appeal-to-authority, appeal-to-popularity, cherry-picking]
+    source: "book: 002/circular-arguments-moving-goalposts-and-the-burden-of-proof"
+    status: proposed
+  - id: records-then-letters
+    argument: "Someone says they will accept official records showing a project was funded. The records are produced. Now they insist that only private letters from every official would count."
+    bg: "Някой казва, че ще приеме официални документи, че проект е финансиран. Документите са представени. Сега той настоява, че ще се броят само лични писма от всеки служител."
+    answer: moving-the-goalposts
+    options: [circular-reasoning, straw-man, tu-quoque]
+    source: "book: 002/circular-arguments-moving-goalposts-and-the-burden-of-proof"
+    status: proposed
+  - id: three-encounters
+    argument: "A traveler has three unpleasant encounters in one city and concludes that everyone from that country is unfriendly."
+    bg: "Пътешественик има три неприятни срещи в един град и заключава, че всички хора от тази страна са недружелюбни."
+    answer: hasty-generalization
+    options: [cherry-picking, survivorship-bias, ad-hominem]
+    source: "book: 002/bad-generalizations-and-selective-evidence"
+    status: proposed
+  - id: five-trades
+    argument: "An investor advertises five profitable trades as proof of being “consistently successful”, and says nothing about fifteen losing ones."
+    bg: "Инвеститор рекламира пет печеливши сделки като доказателство, че е „постоянно успешен“, и мълчи за петнайсет губещи."
+    answer: cherry-picking
+    options: [survivorship-bias, hasty-generalization, appeal-to-popularity]
+    source: "book: 002/bad-generalizations-and-selective-evidence"
+    status: proposed
+  - id: famous-founders
+    argument: "“The famous founders I've read about were all persistent and confident, so persistence and confidence are what make a business succeed.”"
+    bg: "„Известните основатели, за които съм чел, всички са били упорити и уверени, значи упоритостта и увереността правят един бизнес успешен.“"
+    answer: survivorship-bias
+    options: [cherry-picking, appeal-to-authority, circular-reasoning]
+    source: "book: 002/bad-generalizations-and-selective-evidence"
+    status: proposed
+  - id: ban-cars-forever
+    argument: "A proposal would limit car through-traffic at certain hours. A critic says: “Supporters want to ban cars forever.”"
+    bg: "Предложение ограничава преминаването на коли в определени часове. Критик казва: „Поддръжниците искат да забранят колите завинаги.“"
+    answer: straw-man
+    options: [slippery-slope, false-dilemma, appeal-to-fear]
+    source: "book: 002/practice"
+    status: proposed
+  # --- Written for the game (fictional) ---
+  - id: brand-new-timetable
+    argument: "“The new bus timetable must be better than the old one: it was only introduced this week.”"
+    bg: "„Новото разписание на автобусите сигурно е по-добро от старото: въведено е едва тази седмица.“"
+    answer: appeal-to-novelty
+    options: [appeal-to-tradition, appeal-to-popularity, hasty-generalization]
+    source: drafted
+    status: proposed
+  - id: always-done-this-way
+    argument: "“Our village has always cleared the fields this way for two hundred years, so it must be the best method.”"
+    bg: "„Нашето село чисти нивите по този начин от двеста години, значи това трябва да е най-добрият метод.“"
+    answer: appeal-to-tradition
+    options: [appeal-to-novelty, appeal-to-popularity, circular-reasoning]
+    source: drafted
+    status: proposed
+  - id: bakery-recipe
+    argument: "“That bread recipe can't be any good. It came from the bakery across the street, and I can't stand that place.”"
+    bg: "„Тази рецепта за хляб не може да е добра. Идва от пекарната отсреща, а аз не я понасям.“"
+    answer: genetic-fallacy
+    options: [ad-hominem, appeal-to-tradition, hasty-generalization]
+    source: drafted
+    status: proposed
+  - id: playground-repairs
+    argument: "Mira suggests repairing the playground's broken swings. Teo replies: “So you want to spend the whole town budget on toys and let the roads fall apart?”"
+    bg: "Мира предлага да се поправят счупените люлки на площадката. Тео отговаря: „Значи искаш да похарчиш целия бюджет на града за играчки и да оставиш пътищата да се разпаднат?“"
+    answer: straw-man
+    options: [false-dilemma, slippery-slope, tu-quoque]
+    source: drafted
+    status: proposed
+  - id: alarm-tonight
+    argument: "An advert says: “Buy our alarm today. Without it, your home will be broken into tonight.” No figures on the actual risk are given."
+    bg: "Реклама казва: „Купете нашата аларма днес. Без нея ще ви обрат още тази нощ.“ Не се посочват никакви данни за реалния риск."
+    answer: appeal-to-fear
+    options: [false-dilemma, slippery-slope, appeal-to-popularity]
+    source: drafted
+    status: proposed
+  - id: club-plan
+    argument: "“Either you support every part of the committee's plan, or you don't care about this club at all.”"
+    bg: "„Или подкрепяш всяка точка от плана на комисията, или изобщо не те е грижа за този клуб.“"
+    answer: false-dilemma
+    options: [straw-man, appeal-to-fear, circular-reasoning]
+    source: drafted
+    status: proposed
+  - id: two-rude-cyclists
+    argument: "“Two cyclists rang their bells at me on the way to work, so cyclists in this town are rude.”"
+    bg: "„Двама велосипедисти ми звъннаха със звънците си на път за работа, значи велосипедистите в този град са груби.“"
+    answer: hasty-generalization
+    options: [ad-hominem, cherry-picking, appeal-to-popularity]
+    source: drafted
+    status: proposed
+  - id: lottery-fridays
+    argument: "“Every lottery winner we interviewed bought their ticket on a Friday, so buying on Fridays improves your chances.”"
+    bg: "„Всеки печеливш от лотарията, с когото говорихме, е купил билета си в петък, значи купуването в петък увеличава шансовете.“"
+    answer: survivorship-bias
+    options: [hasty-generalization, appeal-to-popularity, cherry-picking]
+    source: drafted
+    status: proposed

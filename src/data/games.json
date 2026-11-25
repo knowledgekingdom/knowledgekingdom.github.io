@@ -1,0 +1,499 @@
+{
+  "_generated": "by scripts/games.mjs from content-meta/games/*.yaml. Edit those, not this.",
+  "fallacies": [
+    {
+      "id": "ad-hominem",
+      "name": {
+        "en": "Ad hominem",
+        "bg": "Ad hominem (нападение срещу личността)"
+      },
+      "explanation": {
+        "en": "An ad hominem error rejects a claim because of an irrelevant attack on the person making it. The speaker's personality is not a substitute for checking the evidence.",
+        "bg": "Грешката ad hominem отхвърля едно твърдение заради неуместно нападение срещу човека, който го прави. Личността на говорещия не замества проверката на доказателствата."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/when-the-speaker-becomes-the-target/"
+    },
+    {
+      "id": "tu-quoque",
+      "name": {
+        "en": "Tu quoque (“you too”)",
+        "bg": "Tu quoque („и ти също“)"
+      },
+      "explanation": {
+        "en": "Pointing out that the advocate doesn't follow their own advice may expose hypocrisy, but it does not show that the advice is wrong.",
+        "bg": "Да посочиш, че застъпникът не следва собствения си съвет, може да разкрие лицемерие, но не доказва, че съветът е грешен."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/when-the-speaker-becomes-the-target/"
+    },
+    {
+      "id": "genetic-fallacy",
+      "name": {
+        "en": "Genetic fallacy",
+        "bg": "Генетична заблуда"
+      },
+      "explanation": {
+        "en": "The genetic fallacy judges a claim solely by its origin. Where an idea came from does not replace examining its content and evidence.",
+        "bg": "Генетичната заблуда съди за едно твърдение само по произхода му. Откъде идва една идея не замества проверката на съдържанието и доказателствата ѝ."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/when-the-speaker-becomes-the-target/"
+    },
+    {
+      "id": "appeal-to-popularity",
+      "name": {
+        "en": "Appeal to popularity",
+        "bg": "Позоваване на популярността"
+      },
+      "explanation": {
+        "en": "Millions of people can believe something false. Treating a measure of belief or preference as proof of an unrelated fact is the error.",
+        "bg": "Милиони хора могат да вярват в нещо невярно. Грешката е да приемем мярката за вяра или предпочитание за доказателство на несвързан факт."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/popularity-authority-tradition-and-novelty/"
+    },
+    {
+      "id": "appeal-to-authority",
+      "name": {
+        "en": "Misplaced appeal to authority",
+        "bg": "Неуместно позоваване на авторитет"
+      },
+      "explanation": {
+        "en": "Citing expertise is not an error in itself. Treating a name or title as a substitute for examining the argument is, especially outside the person's field.",
+        "bg": "Позоваването на експертиза само по себе си не е грешка. Грешка е името или титлата да заместят проверката на аргумента, особено извън областта на човека."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/popularity-authority-tradition-and-novelty/"
+    },
+    {
+      "id": "appeal-to-tradition",
+      "name": {
+        "en": "Appeal to tradition",
+        "bg": "Позоваване на традицията"
+      },
+      "explanation": {
+        "en": "Appeal to tradition says that a practice must be right because it is old. Tradition can preserve experience, but age alone does not establish effectiveness or justice.",
+        "bg": "Позоваването на традицията твърди, че една практика е правилна, защото е стара. Традицията може да пази опит, но възрастта сама по себе си не доказва ефективност или справедливост."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/popularity-authority-tradition-and-novelty/"
+    },
+    {
+      "id": "appeal-to-novelty",
+      "name": {
+        "en": "Appeal to novelty",
+        "bg": "Позоваване на новостта"
+      },
+      "explanation": {
+        "en": "Appeal to novelty makes the opposite mistake: treating something as better simply because it is new.",
+        "bg": "Позоваването на новостта прави обратната грешка: смята нещо за по-добро само защото е ново."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/popularity-authority-tradition-and-novelty/"
+    },
+    {
+      "id": "false-dilemma",
+      "name": {
+        "en": "False dilemma",
+        "bg": "Фалшива дилема"
+      },
+      "explanation": {
+        "en": "A false dilemma presents two possibilities as though they exhaust the options. Ask what alternatives exist and whether they are feasible.",
+        "bg": "Фалшивата дилема представя две възможности така, сякаш други няма. Попитайте какви алтернативи има и дали са осъществими."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/false-choices-slippery-slopes-and-arguments-from-fear/"
+    },
+    {
+      "id": "slippery-slope",
+      "name": {
+        "en": "Unsupported slippery slope",
+        "bg": "Неподкрепен „хлъзгав наклон“"
+      },
+      "explanation": {
+        "en": "A slippery-slope argument claims that a first step will lead through a chain to disaster. Without a plausible mechanism and evidence for each step, it is an empty scare.",
+        "bg": "Аргументът „хлъзгав наклон“ твърди, че първата стъпка ще доведе по верига до катастрофа. Без правдоподобен механизъм и доказателства за всяка стъпка това е празно плашене."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/false-choices-slippery-slopes-and-arguments-from-fear/"
+    },
+    {
+      "id": "appeal-to-fear",
+      "name": {
+        "en": "Appeal to fear",
+        "bg": "Позоваване на страха"
+      },
+      "explanation": {
+        "en": "An appeal to fear makes a possible danger feel certain, or demands an extreme response without weighing probability and size.",
+        "bg": "Позоваването на страха представя една възможна опасност като сигурна или изисква крайна реакция, без да претегли вероятността и мащаба."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/false-choices-slippery-slopes-and-arguments-from-fear/"
+    },
+    {
+      "id": "straw-man",
+      "name": {
+        "en": "Straw man",
+        "bg": "Сламен човек"
+      },
+      "explanation": {
+        "en": "A straw man attacks a distorted version of a position rather than the position actually advanced.",
+        "bg": "Сламеният човек атакува изкривена версия на позицията, а не позицията, която действително е изказана."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/straw-men-steel-men-and-the-temptation-to-win/"
+    },
+    {
+      "id": "circular-reasoning",
+      "name": {
+        "en": "Circular reasoning",
+        "bg": "Кръгово разсъждение"
+      },
+      "explanation": {
+        "en": "In circular reasoning, the conclusion is supported by premises that already assume that same conclusion; there is no independent basis.",
+        "bg": "При кръговото разсъждение заключението се подкрепя от предпоставки, които вече го предполагат; липсва независима основа."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/circular-arguments-moving-goalposts-and-the-burden-of-proof/"
+    },
+    {
+      "id": "moving-the-goalposts",
+      "name": {
+        "en": "Moving the goalposts",
+        "bg": "Преместване на вратата"
+      },
+      "explanation": {
+        "en": "Moving the goalposts means demanding new evidence after an agreed standard has been met, without a good reason for the change.",
+        "bg": "„Преместване на вратата“ означава да се иска ново доказателство, след като уговореният критерий вече е изпълнен, без основателна причина за промяната."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/circular-arguments-moving-goalposts-and-the-burden-of-proof/"
+    },
+    {
+      "id": "hasty-generalization",
+      "name": {
+        "en": "Hasty generalization",
+        "bg": "Прибързано обобщение"
+      },
+      "explanation": {
+        "en": "A hasty generalization draws a broad conclusion from a sample that is too small, unrepresentative or selected in ways that matter.",
+        "bg": "Прибързаното обобщение прави широк извод от извадка, която е твърде малка, непредставителна или подбрана по съществен начин."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/bad-generalizations-and-selective-evidence/"
+    },
+    {
+      "id": "cherry-picking",
+      "name": {
+        "en": "Cherry-picking",
+        "bg": "Избирателно подбиране"
+      },
+      "explanation": {
+        "en": "Cherry-picking selects favorable evidence while ignoring relevant counterevidence; the conclusion depends on the full record.",
+        "bg": "Избирателното подбиране взима удобните доказателства и пренебрегва съществените противоположни; изводът зависи от пълната картина."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/bad-generalizations-and-selective-evidence/"
+    },
+    {
+      "id": "survivorship-bias",
+      "name": {
+        "en": "Survivorship bias",
+        "bg": "Изкривяване на оцелелите"
+      },
+      "explanation": {
+        "en": "Survivorship bias looks only at the cases that remain visible and overlooks those that disappeared; we need the wider comparison group.",
+        "bg": "Изкривяването на оцелелите гледа само случаите, които са останали видими, и пропуска изчезналите; нужна е по-широката група за сравнение."
+      },
+      "url": "/002-logic-arguments-and-common-fallacies/bad-generalizations-and-selective-evidence/"
+    }
+  ],
+  "rounds": [
+    {
+      "id": "rude-economist",
+      "argument": {
+        "en": "“That economist is rude, therefore her forecast is wrong.”",
+        "bg": "„Този икономист е груб, следователно прогнозата ѝ е грешна.“"
+      },
+      "answer": "ad-hominem",
+      "options": [
+        "straw-man",
+        "appeal-to-authority",
+        "hasty-generalization"
+      ],
+      "fromBook": true,
+      "status": "proposed"
+    },
+    {
+      "id": "official-electricity",
+      "argument": {
+        "en": "An official urges citizens to save energy. A critic replies: “Her own residence uses excessive electricity, so we can ignore the advice.”",
+        "bg": "Една служителка призовава гражданите да пестят енергия. Критик отговаря: „Собственият ѝ дом харчи прекомерно много ток, така че можем да пренебрегнем съвета.“"
+      },
+      "answer": "tu-quoque",
+      "options": [
+        "ad-hominem",
+        "false-dilemma",
+        "cherry-picking"
+      ],
+      "fromBook": true,
+      "status": "proposed"
+    },
+    {
+      "id": "everyone-believes-it",
+      "argument": {
+        "en": "“Everyone believes it, and thousands of accounts repeat it, so it must be true.”",
+        "bg": "„Всички го вярват и хиляди профили го повтарят, значи трябва да е вярно.“"
+      },
+      "answer": "appeal-to-popularity",
+      "options": [
+        "appeal-to-tradition",
+        "circular-reasoning",
+        "hasty-generalization"
+      ],
+      "fromBook": true,
+      "status": "proposed"
+    },
+    {
+      "id": "physicist-manuscript",
+      "argument": {
+        "en": "“A world-renowned physicist says this medieval manuscript is a forgery, so it must be a forgery.”",
+        "bg": "„Световноизвестен физик казва, че този средновековен ръкопис е фалшификат, значи е фалшификат.“"
+      },
+      "answer": "appeal-to-authority",
+      "options": [
+        "appeal-to-popularity",
+        "genetic-fallacy",
+        "appeal-to-novelty"
+      ],
+      "fromBook": true,
+      "status": "proposed"
+    },
+    {
+      "id": "privatize-or-nothing",
+      "argument": {
+        "en": "“Either we fully privatize the service or the country will have no efficient healthcare.”",
+        "bg": "„Или напълно приватизираме услугата, или страната няма да има ефективно здравеопазване.“"
+      },
+      "answer": "false-dilemma",
+      "options": [
+        "slippery-slope",
+        "appeal-to-fear",
+        "straw-man"
+      ],
+      "fromBook": true,
+      "status": "proposed"
+    },
+    {
+      "id": "one-exception",
+      "argument": {
+        "en": "“If we permit one temporary exception, soon no rule will be enforced.” No reason is given why one exception would lead to the next.",
+        "bg": "„Ако позволим едно временно изключение, скоро никое правило няма да се спазва.“ Не се посочва защо едно изключение би довело до следващото."
+      },
+      "answer": "slippery-slope",
+      "options": [
+        "false-dilemma",
+        "hasty-generalization",
+        "moving-the-goalposts"
+      ],
+      "fromBook": true,
+      "status": "proposed"
+    },
+    {
+      "id": "trustworthy-newspaper",
+      "argument": {
+        "en": "“This newspaper is trustworthy because it always tells the truth, and we know it tells the truth because it is trustworthy.”",
+        "bg": "„Този вестник е надежден, защото винаги казва истината, а знаем, че казва истината, защото е надежден.“"
+      },
+      "answer": "circular-reasoning",
+      "options": [
+        "appeal-to-authority",
+        "appeal-to-popularity",
+        "cherry-picking"
+      ],
+      "fromBook": true,
+      "status": "proposed"
+    },
+    {
+      "id": "records-then-letters",
+      "argument": {
+        "en": "Someone says they will accept official records showing a project was funded. The records are produced. Now they insist that only private letters from every official would count.",
+        "bg": "Някой казва, че ще приеме официални документи, че проект е финансиран. Документите са представени. Сега той настоява, че ще се броят само лични писма от всеки служител."
+      },
+      "answer": "moving-the-goalposts",
+      "options": [
+        "circular-reasoning",
+        "straw-man",
+        "tu-quoque"
+      ],
+      "fromBook": true,
+      "status": "proposed"
+    },
+    {
+      "id": "three-encounters",
+      "argument": {
+        "en": "A traveler has three unpleasant encounters in one city and concludes that everyone from that country is unfriendly.",
+        "bg": "Пътешественик има три неприятни срещи в един град и заключава, че всички хора от тази страна са недружелюбни."
+      },
+      "answer": "hasty-generalization",
+      "options": [
+        "cherry-picking",
+        "survivorship-bias",
+        "ad-hominem"
+      ],
+      "fromBook": true,
+      "status": "proposed"
+    },
+    {
+      "id": "five-trades",
+      "argument": {
+        "en": "An investor advertises five profitable trades as proof of being “consistently successful”, and says nothing about fifteen losing ones.",
+        "bg": "Инвеститор рекламира пет печеливши сделки като доказателство, че е „постоянно успешен“, и мълчи за петнайсет губещи."
+      },
+      "answer": "cherry-picking",
+      "options": [
+        "survivorship-bias",
+        "hasty-generalization",
+        "appeal-to-popularity"
+      ],
+      "fromBook": true,
+      "status": "proposed"
+    },
+    {
+      "id": "famous-founders",
+      "argument": {
+        "en": "“The famous founders I've read about were all persistent and confident, so persistence and confidence are what make a business succeed.”",
+        "bg": "„Известните основатели, за които съм чел, всички са били упорити и уверени, значи упоритостта и увереността правят един бизнес успешен.“"
+      },
+      "answer": "survivorship-bias",
+      "options": [
+        "cherry-picking",
+        "appeal-to-authority",
+        "circular-reasoning"
+      ],
+      "fromBook": true,
+      "status": "proposed"
+    },
+    {
+      "id": "ban-cars-forever",
+      "argument": {
+        "en": "A proposal would limit car through-traffic at certain hours. A critic says: “Supporters want to ban cars forever.”",
+        "bg": "Предложение ограничава преминаването на коли в определени часове. Критик казва: „Поддръжниците искат да забранят колите завинаги.“"
+      },
+      "answer": "straw-man",
+      "options": [
+        "slippery-slope",
+        "false-dilemma",
+        "appeal-to-fear"
+      ],
+      "fromBook": true,
+      "status": "proposed"
+    },
+    {
+      "id": "brand-new-timetable",
+      "argument": {
+        "en": "“The new bus timetable must be better than the old one: it was only introduced this week.”",
+        "bg": "„Новото разписание на автобусите сигурно е по-добро от старото: въведено е едва тази седмица.“"
+      },
+      "answer": "appeal-to-novelty",
+      "options": [
+        "appeal-to-tradition",
+        "appeal-to-popularity",
+        "hasty-generalization"
+      ],
+      "fromBook": false,
+      "status": "proposed"
+    },
+    {
+      "id": "always-done-this-way",
+      "argument": {
+        "en": "“Our village has always cleared the fields this way for two hundred years, so it must be the best method.”",
+        "bg": "„Нашето село чисти нивите по този начин от двеста години, значи това трябва да е най-добрият метод.“"
+      },
+      "answer": "appeal-to-tradition",
+      "options": [
+        "appeal-to-novelty",
+        "appeal-to-popularity",
+        "circular-reasoning"
+      ],
+      "fromBook": false,
+      "status": "proposed"
+    },
+    {
+      "id": "bakery-recipe",
+      "argument": {
+        "en": "“That bread recipe can't be any good. It came from the bakery across the street, and I can't stand that place.”",
+        "bg": "„Тази рецепта за хляб не може да е добра. Идва от пекарната отсреща, а аз не я понасям.“"
+      },
+      "answer": "genetic-fallacy",
+      "options": [
+        "ad-hominem",
+        "appeal-to-tradition",
+        "hasty-generalization"
+      ],
+      "fromBook": false,
+      "status": "proposed"
+    },
+    {
+      "id": "playground-repairs",
+      "argument": {
+        "en": "Mira suggests repairing the playground's broken swings. Teo replies: “So you want to spend the whole town budget on toys and let the roads fall apart?”",
+        "bg": "Мира предлага да се поправят счупените люлки на площадката. Тео отговаря: „Значи искаш да похарчиш целия бюджет на града за играчки и да оставиш пътищата да се разпаднат?“"
+      },
+      "answer": "straw-man",
+      "options": [
+        "false-dilemma",
+        "slippery-slope",
+        "tu-quoque"
+      ],
+      "fromBook": false,
+      "status": "proposed"
+    },
+    {
+      "id": "alarm-tonight",
+      "argument": {
+        "en": "An advert says: “Buy our alarm today. Without it, your home will be broken into tonight.” No figures on the actual risk are given.",
+        "bg": "Реклама казва: „Купете нашата аларма днес. Без нея ще ви обрат още тази нощ.“ Не се посочват никакви данни за реалния риск."
+      },
+      "answer": "appeal-to-fear",
+      "options": [
+        "false-dilemma",
+        "slippery-slope",
+        "appeal-to-popularity"
+      ],
+      "fromBook": false,
+      "status": "proposed"
+    },
+    {
+      "id": "club-plan",
+      "argument": {
+        "en": "“Either you support every part of the committee's plan, or you don't care about this club at all.”",
+        "bg": "„Или подкрепяш всяка точка от плана на комисията, или изобщо не те е грижа за този клуб.“"
+      },
+      "answer": "false-dilemma",
+      "options": [
+        "straw-man",
+        "appeal-to-fear",
+        "circular-reasoning"
+      ],
+      "fromBook": false,
+      "status": "proposed"
+    },
+    {
+      "id": "two-rude-cyclists",
+      "argument": {
+        "en": "“Two cyclists rang their bells at me on the way to work, so cyclists in this town are rude.”",
+        "bg": "„Двама велосипедисти ми звъннаха със звънците си на път за работа, значи велосипедистите в този град са груби.“"
+      },
+      "answer": "hasty-generalization",
+      "options": [
+        "ad-hominem",
+        "cherry-picking",
+        "appeal-to-popularity"
+      ],
+      "fromBook": false,
+      "status": "proposed"
+    },
+    {
+      "id": "lottery-fridays",
+      "argument": {
+        "en": "“Every lottery winner we interviewed bought their ticket on a Friday, so buying on Fridays improves your chances.”",
+        "bg": "„Всеки печеливш от лотарията, с когото говорихме, е купил билета си в петък, значи купуването в петък увеличава шансовете.“"
+      },
+      "answer": "survivorship-bias",
+      "options": [
+        "hasty-generalization",
+        "appeal-to-popularity",
+        "cherry-picking"
+      ],
+      "fromBook": false,
+      "status": "proposed"
+    }
+  ]
+}

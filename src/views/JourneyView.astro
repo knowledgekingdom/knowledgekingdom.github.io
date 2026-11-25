@@ -1,0 +1,46 @@
+---
+// /journey/: the reader's own stats and seals (v2 Phase 2.4), filled in by src/scripts/journey.ts.
+import Base from '../layouts/Base.astro';
+import { BADGES, sealSvg } from '../lib/badges';
+import { t, langFromPath, localize } from '../i18n/ui';
+const lang = langFromPath(Astro.url.pathname);
+const color = (part: number) => `var(--part-${part})`;
+const stats = ['read', 'chapters', 'reviews', 'mastered', 'streak'] as const;
+---
+<Base title={t(lang, 'journey.title')} description={t(lang, 'journey.lede')} noindex>
+  <main id="main" class="container learn-page" data-part="6" data-journey data-lang={lang}
+        data-strings={JSON.stringify({ earned: t(lang, 'journey.earned'), locked: t(lang, 'journey.locked'),
+          wf: t(lang, 'wf.title'), fd: t(lang, 'fd.title'), order: t(lang, 'wf.modeOrder') })}>
+    <header class="page-head">
+      <span class="kicker"><a href={localize('/play/', lang)}>{t(lang, 'play.title')}</a></span>
+      <h1>{t(lang, 'journey.title')}</h1>
+      <p class="standfirst">{t(lang, 'journey.lede')}</p>
+    </header>
+    <div class="stat-row journey-stats">
+      {stats.map((k) => <div><strong data-j={k}>0</strong><span>{t(lang, `journey.${k}` as any)}</span></div>)}
+    </div>
+    <section aria-labelledby="games-h" class="journey-games">
+      <h2 id="games-h">{t(lang, 'journey.games')}</h2>
+      <ul data-games class="bookmark-list"></ul>
+    </section>
+    <section aria-labelledby="seals-h">
+      <h2 id="seals-h">{t(lang, 'journey.seals')}</h2>
+      <ul class="seals">
+        {BADGES.map((b) => (
+          <li class="seal-card" data-badge={b.id}>
+            <span class="seal-wrap">
+              <Fragment set:html={sealSvg(b.glyph, { color: color(b.part), earned: false })} />
+              <Fragment set:html={sealSvg(b.glyph, { color: color(b.part), earned: true })} />
+            </span>
+            <strong>{t(lang, `badge.${b.id}` as any)}</strong>
+            <span class="badge-desc">{t(lang, `badge.${b.id}.d` as any)}</span>
+            <span class="meta" data-when>{t(lang, 'journey.locked')}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </main>
+</Base>
+<script>
+  import '../scripts/journey.ts';
+</script>

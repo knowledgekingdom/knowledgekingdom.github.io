@@ -1,0 +1,49 @@
+---
+// /play/fallacy-detective/: v2 Phase 2.3. Rounds and fallacies from content-meta/games/fallacies.yaml
+// (approved rounds only on the live site); game logic in src/scripts/fallacy.ts.
+import Base from '../layouts/Base.astro';
+import games from '../data/games.json';
+import { t, langFromPath, localize } from '../i18n/ui';
+
+const lang = langFromPath(Astro.url.pathname);
+const rounds = games.rounds.filter((r) => import.meta.env.DEV || r.status === 'approved')
+  .map((r) => ({ id: r.id, text: r.argument[lang], answer: r.answer, options: r.options, fromBook: r.fromBook }));
+const fallacies = Object.fromEntries(games.fallacies.map((f) => [f.id,
+  { name: f.name[lang], explanation: f.explanation[lang], url: localize(f.url, lang) }]));
+const strings = Object.fromEntries(['round', 'right', 'wrong', 'next', 'finish', 'result', 'share', 'save', 'again', 'learn', 'fromBook', 'shareText']
+  .map((k) => [k, t(lang, `fd.${k}` as any)]));
+---
+<Base title={t(lang, 'fd.title')} description={t(lang, 'fd.lede')}>
+  <main id="main" class="container learn-page game" data-part="6" data-fd data-title={t(lang, 'fd.title')}
+        data-rounds={JSON.stringify(rounds)} data-fallacies={JSON.stringify(fallacies)} data-strings={JSON.stringify(strings)}>
+    <header class="page-head">
+      <span class="kicker"><a href={localize('/play/', lang)}>{t(lang, 'play.title')}</a></span>
+      <h1>{t(lang, 'fd.title')}</h1>
+      <p class="standfirst">{t(lang, 'fd.lede')}</p>
+    </header>
+    {rounds.length < 4 ? <p class="placeholder">{t(lang, 'fd.few')}</p> : (
+      <>
+        <section class="fd-round" data-play>
+          <p class="meta" data-progress></p>
+          <blockquote class="fd-argument" data-argument></blockquote>
+          <p class="fd-source meta" data-source hidden>{t(lang, 'fd.fromBook')}</p>
+          <div class="fd-options" data-options role="group"></div>
+          <div class="fd-feedback" data-feedback role="status" hidden></div>
+          <button type="button" class="btn btn-primary" data-next hidden></button>
+        </section>
+        <section class="fd-result" data-result hidden>
+          <canvas width="1200" height="630" data-canvas aria-hidden="true"></canvas>
+          <p class="fd-score" data-score role="status"></p>
+          <div class="game-actions">
+            <button type="button" class="btn btn-primary" data-share hidden>{t(lang, 'fd.share')}</button>
+            <a class="btn" data-save download="fallacy-detective.png">{t(lang, 'fd.save')}</a>
+            <button type="button" class="btn" data-again>{t(lang, 'fd.again')}</button>
+          </div>
+        </section>
+      </>
+    )}
+  </main>
+</Base>
+<script>
+  import '../scripts/fallacy.ts';
+</script>

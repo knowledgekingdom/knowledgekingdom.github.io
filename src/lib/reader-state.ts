@@ -18,6 +18,10 @@ const APP = 'knowledge-kingdom';
 type Lang = 'en' | 'bg';
 export type Titles = Partial<Record<Lang, string>>;
 
+/** Spaced-repetition state of one card (compact form of a ts-fsrs Card; times in ms). */
+export type StoredCard = { d: number; s: number; df: number; sd: number; r: number; l: number; ls: number; st: number; lr: number | null };
+export type DayActivity = { s?: number; r?: number; n?: number; g?: number };
+
 /** Per-chapter flashcard piles (the original flashcards, kept until spaced review replaces them). */
 export type DeckPiles = { order: number[]; known: number[]; review: number[]; idx: number; mode: 'all' | 'review' };
 
@@ -31,7 +35,13 @@ export type ReaderState = {
   /** chapter label → flashcard piles */
   decks: Record<string, DeckPiles>;
   /** card id → spaced-repetition scheduling data (Phase 2) */
-  srs: Record<string, unknown>;
+  srs: Record<string, StoredCard>;
+  /** daily review: which chapters (null = the ones the reader has started) and new cards per day */
+  review: { chapters: string[] | null; newPerDay: number };
+  /** what the reader did each day ("2026-11-25"): sections read, cards reviewed, new cards, games */
+  activity: Record<string, DayActivity>;
+  /** game id → times played and best score */
+  games: Record<string, { played: number; best: number }>;
   /** map region / place id → unix seconds first explored */
   explored: Record<string, number>;
   /** badge id → unix seconds earned */
@@ -59,6 +69,7 @@ export interface KV {
 
 export const emptyState = (): ReaderState => ({
   v: SCHEMA_VERSION, read: {}, last: null, bookmarks: {}, decks: {}, srs: {}, explored: {}, badges: {},
+  review: { chapters: null, newPerDay: 20 }, activity: {}, games: {},
 });
 
 // ---- validation helpers (imported files and old data are never trusted) --------------
@@ -110,7 +121,33 @@ export function migrate(raw: unknown, moved: Record<string, string> = {}): Reade
       }
     }
   }
-  if (isObj(raw.srs)) s.srs = { ...raw.srs };
+  if (isObj(raw.srs)) {
+    for (const [id, c] of Object.entries(raw.srs)) {
+      if (!/^\d{3}-\d+$/.test(id) || !isObj(c)) continue;
+      const n = (k: string) => num(c[k], 0, 1e15);
+      if (n('d') === null || n('s') === null || n('df') === null) continue;
+      s.srs[id] = { d: n('d')!, s: n('s')!, df: n('df')!, sd: n('sd') ?? 0, r: n('r') ?? 0, l: n('l') ?? 0, ls: n('ls') ?? 0,
+        st: n('st') ?? 0, lr: n('lr') };
+    }
+  }
+  if (isObj(raw.review)) {
+    const ch = raw.review.chapters;
+    s.review = { chapters: Array.isArray(ch) ? ch.filter((x): x is string => typeof x === 'string' && /^\d{3}$/.test(x)) : null,
+      newPerDay: num(raw.review.newPerDay, 0, 200) ?? 20 };
+  }
+  if (isObj(raw.activity)) {
+    for (const [day, a] of Object.entries(raw.activity)) {
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(day) || !isObj(a)) continue;
+      const out: DayActivity = {};
+      for (const k of ['s', 'r', 'n', 'g'] as const) { const v = num(a[k], 0, 1e6); if (v) out[k] = v; }
+      if (Object.keys(out).length) s.activity[day] = out;
+    }
+  }
+  if (isObj(raw.games)) {
+    for (const [g, v] of Object.entries(raw.games)) {
+      if (/^[a-z-]{1,40}$/.test(g) && isObj(v)) s.games[g] = { played: num(v.played, 0, 1e6) ?? 0, best: num(v.best, 0, 1e6) ?? 0 };
+    }
+  }
   s.explored = timeMap(raw.explored);
   s.badges = timeMap(raw.badges);
   return s;
@@ -127,6 +164,43 @@ export function cleanSettings(raw: unknown): Settings {
   const rate = num(raw.rate, 0.5, 2); if (rate !== null) out.rate = rate;
   if (typeof raw.autoNext === 'boolean') out.autoNext = raw.autoNext;
   return out;
+}
+
+function mergeActivity(a: Record<string, DayActivity>, b: Record<string, DayActivity>) {
+  const out: Record<string, DayActivity> = { ...a };
+  for (const [day, x] of Object.entries(b)) {
+    const y = out[day] ?? {};
+    out[day] = { ...(Math.max(y.s ?? 0, x.s ?? 0) ? { s: Math.max(y.s ?? 0, x.s ?? 0) } : {}),
+      ...(Math.max(y.r ?? 0, x.r ?? 0) ? { r: Math.max(y.r ?? 0, x.r ?? 0) } : {}),
+      ...(Math.max(y.n ?? 0, x.n ?? 0) ? { n: Math.max(y.n ?? 0, x.n ?? 0) } : {}),
+      ...(Math.max(y.g ?? 0, x.g ?? 0) ? { g: Math.max(y.g ?? 0, x.g ?? 0) } : {}) };
+  }
+  return out;
+}
+function mergeGames(a: ReaderState['games'], b: ReaderState['games']) {
+  const out = { ...a };
+  for (const [g, x] of Object.entries(b)) out[g] = { played: Math.max(out[g]?.played ?? 0, x.played), best: Math.max(out[g]?.best ?? 0, x.best) };
+  return out;
+}
+
+// ---- days and streaks --------------------------------------------------------------------
+/** The reader's local calendar day, "2026-11-25". */
+export function dayKey(d = new Date()): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+/** Count something the reader did today. */
+export function bump(s: ReaderState, kind: keyof DayActivity, by = 1, now = new Date()) {
+  const k = dayKey(now);
+  const a = (s.activity[k] ??= {});
+  a[kind] = (a[kind] ?? 0) + by;
+}
+/** Days in a row with any activity, ending today (or yesterday, if nothing yet today). */
+export function streak(activity: Record<string, DayActivity>, now = new Date()): number {
+  const d = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  if (!activity[dayKey(d)]) d.setDate(d.getDate() - 1);
+  let n = 0;
+  while (activity[dayKey(d)]) { n++; d.setDate(d.getDate() - 1); }
+  return n;
 }
 
 // ---- data kept by older versions of the site ------------------------------------------
@@ -256,6 +330,9 @@ export function createStore(kv: KV | null, opts: { moved?: Record<string, string
           bookmarks,
           decks: { ...incoming.decks, ...cur.decks },
           srs: { ...incoming.srs, ...cur.srs },
+          review: cur.review,
+          activity: mergeActivity(cur.activity, incoming.activity),
+          games: mergeGames(cur.games, incoming.games),
           explored: maxMap(cur.explored, incoming.explored),
           badges: maxMap(cur.badges, incoming.badges),
         };

@@ -1,6 +1,7 @@
 ---
 import Icon from './Icon.astro';
-import { t, langFromPath } from '../i18n/ui';
+import { t, langFromPath, localize } from '../i18n/ui';
+import { features } from '../config/features';
 
 interface Card { id: number; front: string; back: string }
 interface Props { chapter: string; cards: Card[]; deckTitle?: string; intro?: string }
@@ -60,6 +61,7 @@ const strings = Object.fromEntries(keys.map((k) => [k, t(lang, k)]));
       <button type="button" class="link-btn" data-action="shuffle"><Icon name="shuffle" /> {t(lang, 'fc.shuffle')}</button>
       <button type="button" class="link-btn" data-action="reset"><Icon name="repeat" /> {t(lang, 'fc.reset')}</button>
       <span class="fc-keys">{t(lang, 'fc.keys')}</span>
+      {features.review && <a class="link-btn" href={localize('/review/', lang)}><Icon name="flashcards" /> {t(lang, 'review.title')} →</a>}
     </div>
   </div>
 
@@ -80,6 +82,7 @@ const strings = Object.fromEntries(keys.map((k) => [k, t(lang, k)]));
 <script>
   import { store } from '../scripts/reader';
   import { track } from '../lib/analytics';
+  import { bump } from '../lib/reader-state';
   type Card = { id: number; front: string; back: string };
   type State = { order: number[]; known: number[]; review: number[]; idx: number; mode: 'all' | 'review' };
 
@@ -172,6 +175,14 @@ const strings = Object.fromEntries(keys.map((k) => [k, t(lang, k)]));
       st.known = st.known.filter((x) => x !== id);
       st.review = st.review.filter((x) => x !== id);
       st[pile].push(id);
+      // The same card in the site-wide daily review: "known" counts as Good, "review again" as Again.
+      const cid = `${chapter}-${id}`;
+      import('../lib/srs').then(({ rate }) => store.update((s) => {
+        const isNew = !s.srs[cid];
+        s.srs[cid] = rate(s.srs[cid], pile === 'known' ? 3 : 1);
+        bump(s, 'r');
+        if (isNew) bump(s, 'n');
+      }));
       flipped = false;
       const next = visible();
       if (st.mode === 'review' && pile === 'known') {

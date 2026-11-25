@@ -12,6 +12,7 @@ CC BY-SA) or non-commercial (CC BY-NC) material without asking Semir first.
 | App icons (`public/icons/`) and link-preview cards | install icon, share images | drawn for this site with Source Serif 4 / Inter (OFL) | — |
 | OPUS-MT en→bg model (Tiedemann & Thottingal), packaged by Argos Translate | draft Bulgarian translation (offline, at build time only) | CC BY 4.0 | yes: in the footer of every Bulgarian page, and in the README |
 | Astro, Pagefind, yaml and other npm packages | building the site | MIT / ISC (permissive) | no |
+| ts-fsrs 6.0.0 (open-spaced-repetition) | scheduling the daily review | MIT | no |
 | GoatCounter (hosted, free plan) | visitor counts | service terms; script is EUPL-1.2 but only loaded, not modified or distributed | no |
 | Wikidata coordinates (`content-meta/knowledge/places.yaml`, `source: wikidata:Q…`) | map positions of places | CC0 (public domain) | no |
 

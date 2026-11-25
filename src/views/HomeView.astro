@@ -116,6 +116,18 @@ const recent = (await Promise.all(latestLinks.map(async (l) => {
         </section>
       )}
 
+      {features.games && (
+        <section class="home-section" aria-labelledby="play-h">
+          <h2 id="play-h">{t(lang, 'play.homeTitle')}</h2>
+          <div class="play-grid">
+            <a class="play-card" href={L('/review/')}><Icon name="flashcards" class="icon" /><strong>{t(lang, 'review.title')}</strong><span>{t(lang, 'play.reviewBlurb')}</span></a>
+            <a class="play-card" href={L('/play/which-came-first/')}><Icon name="repeat" class="icon" /><strong>{t(lang, 'wf.title')}</strong><span>{t(lang, 'play.wfBlurb')}</span></a>
+            <a class="play-card" href={L('/play/fallacy-detective/')}><Icon name="search" class="icon" /><strong>{t(lang, 'fd.title')}</strong><span>{t(lang, 'play.fdBlurb')}</span></a>
+            <a class="play-card" href={L('/journey/')}><Icon name="bookmark" class="icon" /><strong>{t(lang, 'journey.title')}</strong><span>{t(lang, 'play.journeyBlurb')}</span></a>
+          </div>
+        </section>
+      )}
+
       {features.progressTransfer && (
         <section class="home-section transfer" aria-labelledby="your-progress" data-transfer hidden
                  data-exported={t(lang, 'transfer.exported')} data-imported={t(lang, 'transfer.imported')}

@@ -13,7 +13,8 @@ import PalettePicker from '../components/PalettePicker.astro';
 import Search from '../components/Search.astro';
 import { site, footerText } from '../site.config';
 import { features } from '../config/features';
-import { getBook } from '../lib/book';
+import { getBook, getChapters } from '../lib/book';
+import bookSettings from '../../content-meta/book-settings.json';
 import { t, langFromPath, localize, stripLang, htmlLang } from '../i18n/ui';
 
 interface Props {
@@ -48,6 +49,13 @@ const altBg = new URL(localize(stripLang(path), 'bg'), Astro.site);
 const chapterLabel = stripLang(path).match(/^\/(\d{3})-/)?.[1];
 const ogImage = new URL(ogImagePath ?? `/og/${chapterLabel ?? 'home'}-${lang}.jpg`, Astro.site);
 const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
+// What the badge rules need to know about the book (src/lib/badges.ts), ~2 KB.
+const regions = (bookSettings as { regions?: Record<string, string> }).regions ?? {};
+const bookMeta = features.games ? JSON.stringify({ chapters: (await getChapters('en')).map((c) => ({ path: `/${c.data.slug}/`,
+  label: c.data.label, part: c.data.part, total: c.data.sectionCount, region: regions[c.data.label] ?? null })) }) : '';
+const badgeNames = features.games ? JSON.stringify({ toast: t(lang, 'badge.toast'), journey: localize('/journey/', lang),
+  names: Object.fromEntries(['first-page', 'chapter-complete', 'part-1', 'part-2', 'part-3', 'world-reader', 'cards-100', 'cards-1000',
+    'mastered-50', 'streak-7', 'streak-30', 'time-keeper', 'fallacy-detective'].map((id) => [id, t(lang, `badge.${id}` as any)])) }) : '';
 ---
 <!doctype html>
 <html lang={htmlLang[lang]} data-palette={site.palette}>
@@ -150,6 +158,7 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
       </div>
     </header>
     <slot />
+    {bookMeta && <script type="application/json" id="kk-book" data-strings={badgeNames} set:html={bookMeta} />}
     <footer class="site-footer">
       <div class="inner">
         <p style="margin:0">{footerText()}{lang === 'bg' && (
@@ -162,6 +171,7 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
           <a href={L('/timeline/')}>{t(lang, 'nav.timeline')}</a>
           <a href={L('/random/')}>{t(lang, 'nav.random')}</a>
           <a href={L('/bookmarks/')}>{t(lang, 'bookmarks.title')}</a>
+          {features.games && <a href={L('/play/')}>{t(lang, 'play.nav')}</a>}
           {site.supportUrl && <a href={site.supportUrl} rel="noopener">☕ {t(lang, 'support.link')}</a>}
           <a href={switchHref} hreflang={other} lang={other}>{other === 'bg' ? 'Български' : 'English'}</a>
           <span>{book.edition ? `${t(lang, 'edition', { n: book.edition })} · ${book.editionDate}` : ''}</span>
@@ -183,6 +193,7 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
       if (features.previews) { import('../scripts/previews.ts'); import('../scripts/anchors.ts'); }
       if (features.listen && document.querySelector('[data-listen]')) import('../scripts/listen-button.ts');
       if (features.offline && import.meta.env.PROD) import('../scripts/offline.ts');
+      if (features.games && document.getElementById('kk-book')) import('../scripts/badges.ts');
     </script>
     <script>
       import { store } from '../scripts/reader';

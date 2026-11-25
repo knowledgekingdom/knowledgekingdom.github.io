@@ -1,0 +1,84 @@
+---
+// /review/: site-wide spaced-repetition review (v2 Phase 2.1). Everything happens in the browser
+// (src/scripts/review.ts); this page provides the layout, the chapter list and the text.
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { getChapters, getFlashcards } from '../lib/book';
+import { t, langFromPath, localize } from '../i18n/ui';
+
+const lang = langFromPath(Astro.url.pathname);
+const fc = getFlashcards(lang).chapters;
+const chapters = (await getChapters(lang))
+  .map((c) => ({ label: c.data.label, title: c.data.title, path: `/${c.data.slug}/`,
+    count: fc[c.data.label as keyof typeof fc]?.cards.length ?? 0 }))
+  .filter((c) => c.count > 0);
+const strings = Object.fromEntries(['due', 'new', 'none', 'empty', 'show', 'again', 'hard', 'good', 'easy', 'done', 'left',
+  'newCard', 'masteredOf'].map((k) => [k, t(lang, `review.${k}` as any)]));
+---
+<Base title={t(lang, 'review.title')} description={t(lang, 'review.lede')} noindex>
+  <main id="main" class="container learn-page" data-part="4" data-review data-lang={lang}
+        data-chapters={JSON.stringify(chapters)} data-strings={JSON.stringify(strings)}>
+    <header class="page-head">
+      <span class="kicker"><a href={localize('/play/', lang)}>{t(lang, 'play.title')}</a></span>
+      <h1>{t(lang, 'review.title')}</h1>
+      <p class="standfirst">{t(lang, 'review.lede')}</p>
+    </header>
+    <noscript><p class="placeholder">{t(lang, 'review.noJs')}</p></noscript>
+
+    <section class="review-summary" data-summary>
+      <p class="review-counts"><strong data-due-text></strong> <span class="meta" data-new-text></span></p>
+      <p class="meta" data-summary-note></p>
+      <button class="btn btn-primary" type="button" data-start hidden><Icon name="flashcards" /> {t(lang, 'review.start')}</button>
+    </section>
+
+    <section class="review-session" data-session hidden aria-live="polite">
+      <p class="meta review-progress"><span data-left></span> <span class="review-tag" data-tag hidden>{t(lang, 'review.newCard')}</span>
+        <span data-chapter-name></span></p>
+      <div class="review-card" data-card tabindex="0">
+        <div class="review-front" data-front></div>
+        <div class="review-back" data-back hidden></div>
+      </div>
+      <button class="btn btn-primary review-show" type="button" data-show>{t(lang, 'review.show')}</button>
+      <div class="review-rate" data-rate hidden>
+        {[1, 2, 3, 4].map((r) => (
+          <button type="button" class={`rate-btn rate-${r}`} data-rating={r}>
+            <span>{t(lang, (['review.again', 'review.hard', 'review.good', 'review.easy'] as const)[r - 1])}</span>
+            <small data-hint={r}></small>
+          </button>
+        ))}
+      </div>
+      <p class="meta review-keys">{t(lang, 'review.keys')}</p>
+    </section>
+
+    <section class="review-stats" aria-labelledby="stats-title">
+      <h2 id="stats-title">{t(lang, 'review.stats')}</h2>
+      <div class="stat-row">
+        <div><strong data-stat="streak">0</strong><span>{t(lang, 'review.streak')}</span></div>
+        <div><strong data-stat="today">0</strong><span>{t(lang, 'review.today')}</span></div>
+        <div><strong data-stat="total">0</strong><span>{t(lang, 'review.total')}</span></div>
+      </div>
+      <h3>{t(lang, 'review.masteredBy')}</h3>
+      <ul class="mastery" data-mastery></ul>
+    </section>
+
+    <details class="review-settings">
+      <summary>{t(lang, 'review.chapters')}</summary>
+      <fieldset>
+        <legend class="visually-hidden">{t(lang, 'review.chapters')}</legend>
+        <label class="radio"><input type="radio" name="mode" value="auto" data-mode /> {t(lang, 'review.auto')}</label>
+        <label class="radio"><input type="radio" name="mode" value="pick" data-mode /> {t(lang, 'review.pick')}</label>
+        <ul class="chapter-picks" data-picks>
+          {chapters.map((c) => (
+            <li><label><input type="checkbox" value={c.label} data-pick /> <span>{c.label} · {c.title}</span> <span class="meta">({c.count})</span></label></li>
+          ))}
+        </ul>
+      </fieldset>
+      <label class="new-per-day">{t(lang, 'review.newPerDay')}
+        <select data-new-per-day>{[5, 10, 20, 30, 50].map((n) => <option value={n}>{n}</option>)}</select>
+      </label>
+    </details>
+  </main>
+</Base>
+<script>
+  import '../scripts/review.ts';
+</script>

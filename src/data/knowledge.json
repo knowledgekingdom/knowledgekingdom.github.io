@@ -654,6 +654,1938 @@
         }
       ],
       "status": "approved"
+    },
+    {
+      "id": "egypt-unified",
+      "label": {
+        "en": "Egypt is unified under early dynastic rulers",
+        "bg": "Египет е обединен от ранните династични владетели"
+      },
+      "date": {
+        "en": "c. 3100 BCE"
+      },
+      "start": -3100,
+      "end": -3100,
+      "precision": "approximate",
+      "region": "africa",
+      "place": null,
+      "chapter": "012",
+      "sections": [
+        {
+          "id": "012/essential-timeline-chapter-012",
+          "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "egypt-old-kingdom",
+      "label": {
+        "en": "Egypt's Old Kingdom: the great pyramids",
+        "bg": "Старото царство в Египет: великите пирамиди"
+      },
+      "date": {
+        "en": "27th–22nd centuries BCE"
+      },
+      "start": -2700,
+      "end": -2101,
+      "precision": "approximate",
+      "region": "africa",
+      "place": null,
+      "chapter": "012",
+      "sections": [
+        {
+          "id": "012/essential-timeline-chapter-012",
+          "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "egypt-new-kingdom",
+      "label": {
+        "en": "Egypt's New Kingdom",
+        "bg": "Новото царство в Египет"
+      },
+      "date": {
+        "en": "c. 1550–1070 BCE"
+      },
+      "start": -1550,
+      "end": -1070,
+      "precision": "approximate",
+      "region": "africa",
+      "place": null,
+      "chapter": "012",
+      "sections": [
+        {
+          "id": "012/essential-timeline-chapter-012",
+          "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "egypt-under-rome",
+      "label": {
+        "en": "Egypt passes under Roman rule",
+        "bg": "Египет минава под римска власт"
+      },
+      "date": {
+        "en": "30 BCE"
+      },
+      "start": -30,
+      "end": -30,
+      "precision": "year",
+      "region": "africa",
+      "place": null,
+      "chapter": "012",
+      "sections": [
+        {
+          "id": "012/essential-timeline-chapter-012",
+          "url": "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "mature-harappan-cities",
+      "label": {
+        "en": "Mature Harappan cities: Harappa, Mohenjo-daro, Dholavira",
+        "bg": "Зрелите харапски градове: Хараппа, Мохенджо-даро, Дхолавира"
+      },
+      "date": {
+        "en": "c. 2600–1900 BCE"
+      },
+      "start": -2600,
+      "end": -1900,
+      "precision": "approximate",
+      "region": "south-asia",
+      "place": null,
+      "chapter": "013",
+      "sections": [
+        {
+          "id": "013/essential-timeline-chapter-013",
+          "url": "/013-the-indus-valley-civilization/essential-timeline-chapter-013/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "indus-cities-reorganize",
+      "label": {
+        "en": "Indus urban networks reorganize",
+        "bg": "Градските мрежи на Инд се преустройват"
+      },
+      "date": {
+        "en": "c. 1900 BCE"
+      },
+      "start": -1900,
+      "end": -1900,
+      "precision": "approximate",
+      "region": "south-asia",
+      "place": null,
+      "chapter": "013",
+      "sections": [
+        {
+          "id": "013/essential-timeline-chapter-013",
+          "url": "/013-the-indus-valley-civilization/essential-timeline-chapter-013/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "zhou-defeat-shang",
+      "label": {
+        "en": "The Zhou defeat the Shang",
+        "bg": "Джоу побеждават Шан"
+      },
+      "date": {
+        "en": "c. 1046 BCE"
+      },
+      "start": -1046,
+      "end": -1046,
+      "precision": "approximate",
+      "region": "east-asia",
+      "place": null,
+      "chapter": "014",
+      "sections": [
+        {
+          "id": "014/the-zhou-conquest-a-new-ruling-house",
+          "url": "/014-ancient-china-dynasties-and-statecraft/the-zhou-conquest-a-new-ruling-house/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "western-zhou-ends",
+      "label": {
+        "en": "A crisis ends Western Zhou rule",
+        "bg": "Криза слага край на управлението на Западна Джоу"
+      },
+      "date": {
+        "en": "771 BCE"
+      },
+      "start": -771,
+      "end": -771,
+      "precision": "year",
+      "region": "east-asia",
+      "place": null,
+      "chapter": "014",
+      "sections": [
+        {
+          "id": "014/how-the-zhou-center-weakened",
+          "url": "/014-ancient-china-dynasties-and-statecraft/how-the-zhou-center-weakened/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "qin-unification",
+      "label": {
+        "en": "The Qin unify China",
+        "bg": "Цин обединяват Китай"
+      },
+      "date": {
+        "en": "221 BCE"
+      },
+      "start": -221,
+      "end": -221,
+      "precision": "year",
+      "region": "east-asia",
+      "place": null,
+      "chapter": "014",
+      "sections": [
+        {
+          "id": "014/dates-dynasties-and-the-limits-of-a-familiar-timeline",
+          "url": "/014-ancient-china-dynasties-and-statecraft/dates-dynasties-and-the-limits-of-a-familiar-timeline/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "cyrus-takes-babylonia",
+      "label": {
+        "en": "Cyrus conquers Babylonia",
+        "bg": "Кир завладява Вавилония"
+      },
+      "date": {
+        "en": "539 BCE"
+      },
+      "start": -539,
+      "end": -539,
+      "precision": "year",
+      "region": "west-asia",
+      "place": null,
+      "chapter": "015",
+      "sections": [
+        {
+          "id": "015/cyrus-from-regional-ruler-to-imperial-founder",
+          "url": "/015-persia-and-the-politics-of-empire/cyrus-from-regional-ruler-to-imperial-founder/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "darius-crisis-522",
+      "label": {
+        "en": "The crisis that brings Darius to power",
+        "bg": "Кризата, която довежда Дарий на власт"
+      },
+      "date": {
+        "en": "522 BCE"
+      },
+      "start": -522,
+      "end": -522,
+      "precision": "year",
+      "region": "west-asia",
+      "place": null,
+      "chapter": "015",
+      "sections": [
+        {
+          "id": "015/the-crisis-of-522-bce-and-dariuss-account-of-legitimacy",
+          "url": "/015-persia-and-the-politics-of-empire/the-crisis-of-522-bce-and-dariuss-account-of-legitimacy/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "alexander-enters-asia",
+      "label": {
+        "en": "Alexander crosses into Asia against Persia",
+        "bg": "Александър преминава в Азия срещу Персия"
+      },
+      "date": {
+        "en": "334 BCE"
+      },
+      "start": -334,
+      "end": -334,
+      "precision": "year",
+      "region": "west-asia",
+      "place": null,
+      "chapter": "015",
+      "sections": [
+        {
+          "id": "015/alexanders-conquest-military-victory-and-administrative",
+          "url": "/015-persia-and-the-politics-of-empire/alexanders-conquest-military-victory-and-administrative/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "cleisthenes-reforms",
+      "label": {
+        "en": "Cleisthenes' reforms in Athens",
+        "bg": "Реформите на Клистен в Атина"
+      },
+      "date": {
+        "en": "c. 508–507 BCE"
+      },
+      "start": -508,
+      "end": -507,
+      "precision": "approximate",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "016",
+      "sections": [
+        {
+          "id": "016/cleisthenes-and-a-new-political-structure",
+          "url": "/016-the-greek-world-and-its-political-experiments/cleisthenes-and-a-new-political-structure/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "battle-of-marathon",
+      "label": {
+        "en": "Battle of Marathon",
+        "bg": "Битката при Маратон"
+      },
+      "date": {
+        "en": "490 BCE"
+      },
+      "start": -490,
+      "end": -490,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "016",
+      "sections": [
+        {
+          "id": "016/the-persian-wars-shared-danger-divided-greece",
+          "url": "/016-the-greek-world-and-its-political-experiments/the-persian-wars-shared-danger-divided-greece/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "xerxes-invades-greece",
+      "label": {
+        "en": "Xerxes invades Greece: Thermopylae and Salamis",
+        "bg": "Ксеркс нахлува в Гърция: Термопилите и Саламин"
+      },
+      "date": {
+        "en": "480 BCE"
+      },
+      "start": -480,
+      "end": -480,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "016",
+      "sections": [
+        {
+          "id": "016/the-persian-wars-shared-danger-divided-greece",
+          "url": "/016-the-greek-world-and-its-political-experiments/the-persian-wars-shared-danger-divided-greece/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "socrates-convicted",
+      "label": {
+        "en": "Socrates is tried and convicted",
+        "bg": "Сократ е съден и осъден"
+      },
+      "date": {
+        "en": "399 BCE"
+      },
+      "start": -399,
+      "end": -399,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "016",
+      "sections": [
+        {
+          "id": "016/socrates-on-trial-democracy-religion-and-public-fear",
+          "url": "/016-the-greek-world-and-its-political-experiments/socrates-on-trial-democracy-religion-and-public-fear/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "rome-becomes-republic",
+      "label": {
+        "en": "Rome moves from kings to a republic",
+        "bg": "Рим преминава от царе към република"
+      },
+      "date": {
+        "en": "c. 509 BCE"
+      },
+      "start": -509,
+      "end": -509,
+      "precision": "approximate",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "017",
+      "sections": [
+        {
+          "id": "017/from-kings-to-republic-what-changed-around-509-bce",
+          "url": "/017-rome-republic-empire-and-afterlives/from-kings-to-republic-what-changed-around-509-bce/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "caesar-assassinated",
+      "label": {
+        "en": "Julius Caesar is assassinated",
+        "bg": "Юлий Цезар е убит"
+      },
+      "date": {
+        "en": "44 BCE"
+      },
+      "start": -44,
+      "end": -44,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "017",
+      "sections": [
+        {
+          "id": "017/caesar-pompey-and-the-civil-wars",
+          "url": "/017-rome-republic-empire-and-afterlives/caesar-pompey-and-the-civil-wars/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "octavian-becomes-augustus",
+      "label": {
+        "en": "Octavian receives the name Augustus",
+        "bg": "Октавиан получава името Август"
+      },
+      "date": {
+        "en": "27 BCE"
+      },
+      "start": -27,
+      "end": -27,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "017",
+      "sections": [
+        {
+          "id": "017/augustus-monarchy-in-republican-clothing",
+          "url": "/017-rome-republic-empire-and-afterlives/augustus-monarchy-in-republican-clothing/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "edict-of-milan",
+      "label": {
+        "en": "The Edict of Milan",
+        "bg": "Миланският едикт"
+      },
+      "date": {
+        "en": "313"
+      },
+      "start": 313,
+      "end": 313,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "017",
+      "sections": [
+        {
+          "id": "017/belief-violence-and-the-rise-of-christianity",
+          "url": "/017-rome-republic-empire-and-afterlives/belief-violence-and-the-rise-of-christianity/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "mansa-musa-pilgrimage",
+      "label": {
+        "en": "Mansa Musa's pilgrimage to Mecca",
+        "bg": "Поклонението на Манса Муса до Мека"
+      },
+      "date": {
+        "en": "1324–1325"
+      },
+      "start": 1324,
+      "end": 1325,
+      "precision": "year",
+      "region": "africa",
+      "place": null,
+      "chapter": "018",
+      "sections": [
+        {
+          "id": "018/mansa-musa-and-the-danger-of-dramatic-numbers",
+          "url": "/018-africa-kingdoms-networks-and-cities/mansa-musa-and-the-danger-of-dramatic-numbers/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "battle-of-tondibi",
+      "label": {
+        "en": "Battle of Tondibi: Morocco defeats Songhai",
+        "bg": "Битката при Тондиби: Мароко побеждава Сонгай"
+      },
+      "date": {
+        "en": "1591"
+      },
+      "start": 1591,
+      "end": 1591,
+      "precision": "year",
+      "region": "africa",
+      "place": null,
+      "chapter": "018",
+      "sections": [
+        {
+          "id": "018/songhai-administration-and-the-fragility-of-empires",
+          "url": "/018-africa-kingdoms-networks-and-cities/songhai-administration-and-the-fragility-of-empires/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "benin-city-invaded",
+      "label": {
+        "en": "British forces invade Benin City",
+        "bg": "Британски войски нахлуват в град Бенин"
+      },
+      "date": {
+        "en": "1897"
+      },
+      "start": 1897,
+      "end": 1897,
+      "precision": "year",
+      "region": "africa",
+      "place": null,
+      "chapter": "018",
+      "sections": [
+        {
+          "id": "018/benin-court-institutions-brass-and-historical-memory",
+          "url": "/018-africa-kingdoms-networks-and-cities/benin-court-institutions-brass-and-historical-memory/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "cahokia-major-center",
+      "label": {
+        "en": "Cahokia becomes a major center",
+        "bg": "Кахокия става голям център"
+      },
+      "date": {
+        "en": "c. 1050"
+      },
+      "start": 1050,
+      "end": 1050,
+      "precision": "approximate",
+      "region": "americas",
+      "place": null,
+      "chapter": "019",
+      "sections": [
+        {
+          "id": "019/the-mississippi-basin-poverty-point-and-cahokia",
+          "url": "/019-the-americas-before-european-conquest/the-mississippi-basin-poverty-point-and-cahokia/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "tenochtitlan-founded",
+      "label": {
+        "en": "The Mexica found Tenochtitlan",
+        "bg": "Мексиките основават Теночтитлан"
+      },
+      "date": {
+        "en": "c. 1325"
+      },
+      "start": 1325,
+      "end": 1325,
+      "precision": "approximate",
+      "region": "americas",
+      "place": null,
+      "chapter": "019",
+      "sections": [
+        {
+          "id": "019/tenochtitlan-and-the-triple-alliance",
+          "url": "/019-the-americas-before-european-conquest/tenochtitlan-and-the-triple-alliance/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "fall-of-tenochtitlan",
+      "label": {
+        "en": "The fall of Tenochtitlan",
+        "bg": "Падането на Теночтитлан"
+      },
+      "date": {
+        "en": "1521"
+      },
+      "start": 1521,
+      "end": 1521,
+      "precision": "year",
+      "region": "americas",
+      "place": null,
+      "chapter": "019",
+      "sections": [
+        {
+          "id": "019/contact-conquest-and-indigenous-agency",
+          "url": "/019-the-americas-before-european-conquest/contact-conquest-and-indigenous-agency/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "the-hijra",
+      "label": {
+        "en": "The Hijra",
+        "bg": "Хиджра"
+      },
+      "date": {
+        "en": "622"
+      },
+      "start": 622,
+      "end": 622,
+      "precision": "year",
+      "region": "west-asia",
+      "place": null,
+      "chapter": "020",
+      "sections": [
+        {
+          "id": "020/the-hijra-of-622-a-new-political-setting",
+          "url": "/020-the-rise-of-islam-and-the-caliphates/the-hijra-of-622-a-new-political-setting/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "abbasid-revolution",
+      "label": {
+        "en": "The Abbasids overthrow the Umayyads",
+        "bg": "Абасидите свалят Омаядите"
+      },
+      "date": {
+        "en": "750"
+      },
+      "start": 750,
+      "end": 750,
+      "precision": "year",
+      "region": "west-asia",
+      "place": null,
+      "chapter": "020",
+      "sections": [
+        {
+          "id": "020/the-abbasid-revolution-and-a-new-capital",
+          "url": "/020-the-rise-of-islam-and-the-caliphates/the-abbasid-revolution-and-a-new-capital/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "baghdad-founded",
+      "label": {
+        "en": "Baghdad is founded",
+        "bg": "Основаването на Багдад"
+      },
+      "date": {
+        "en": "762"
+      },
+      "start": 762,
+      "end": 762,
+      "precision": "year",
+      "region": "west-asia",
+      "place": null,
+      "chapter": "020",
+      "sections": [
+        {
+          "id": "020/the-abbasid-revolution-and-a-new-capital",
+          "url": "/020-the-rise-of-islam-and-the-caliphates/the-abbasid-revolution-and-a-new-capital/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "first-turkic-khaganate",
+      "label": {
+        "en": "The First Turkic Khaganate emerges",
+        "bg": "Възниква Първият тюркски каганат"
+      },
+      "date": {
+        "en": "6th century"
+      },
+      "start": 501,
+      "end": 600,
+      "precision": "century",
+      "region": "central-asia-steppe",
+      "place": null,
+      "chapter": "021",
+      "sections": [
+        {
+          "id": "021/steppe-societies-were-not-an-empty-space",
+          "url": "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "chola-raid-srivijaya",
+      "label": {
+        "en": "Chola expedition against Srivijaya",
+        "bg": "Походът на Чола срещу Шривиджая"
+      },
+      "date": {
+        "en": "1025"
+      },
+      "start": 1025,
+      "end": 1025,
+      "precision": "year",
+      "region": "southeast-asia",
+      "place": null,
+      "chapter": "021",
+      "sections": [
+        {
+          "id": "021/srivijaya-and-southeast-asia-sea-lanes-created-regional",
+          "url": "/021-medieval-eurasia-and-the-silk-roads/srivijaya-and-southeast-asia-sea-lanes-created-regional/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "chinggis-khan-acclaimed",
+      "label": {
+        "en": "Temüjin is acclaimed Chinggis Khan",
+        "bg": "Темуджин е провъзгласен за Чингис хан"
+      },
+      "date": {
+        "en": "1206"
+      },
+      "start": 1206,
+      "end": 1206,
+      "precision": "year",
+      "region": "central-asia-steppe",
+      "place": null,
+      "chapter": "022",
+      "sections": [
+        {
+          "id": "022/the-assembly-of-1206-founding-a-new-order",
+          "url": "/022-the-mongols-and-the-connected-world/the-assembly-of-1206-founding-a-new-order/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "legnica-and-mohi",
+      "label": {
+        "en": "Mongol victories at Legnica and Mohi",
+        "bg": "Монголски победи при Легница и Мохи"
+      },
+      "date": {
+        "en": "1241"
+      },
+      "start": 1241,
+      "end": 1241,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "022",
+      "sections": [
+        {
+          "id": "022/the-european-campaigns-rus-poland-hungary-and-beyond",
+          "url": "/022-the-mongols-and-the-connected-world/the-european-campaigns-rus-poland-hungary-and-beyond/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "mongols-take-baghdad",
+      "label": {
+        "en": "The Mongols capture Baghdad",
+        "bg": "Монголите превземат Багдад"
+      },
+      "date": {
+        "en": "1258"
+      },
+      "start": 1258,
+      "end": 1258,
+      "precision": "year",
+      "region": "west-asia",
+      "place": null,
+      "chapter": "022",
+      "sections": [
+        {
+          "id": "022/the-fall-of-baghdad-and-the-ilkhanate",
+          "url": "/022-the-mongols-and-the-connected-world/the-fall-of-baghdad-and-the-ilkhanate/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "battle-of-manzikert",
+      "label": {
+        "en": "Battle of Manzikert",
+        "bg": "Битката при Манцикерт"
+      },
+      "date": {
+        "en": "1071"
+      },
+      "start": 1071,
+      "end": 1071,
+      "precision": "year",
+      "region": "west-asia",
+      "place": null,
+      "chapter": "023",
+      "sections": [
+        {
+          "id": "023/manzikert-a-turning-point-that-needs-an-explanation",
+          "url": "/023-europe-byzantium-and-the-ottoman-emergence/manzikert-a-turning-point-that-needs-an-explanation/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "urban-ii-crusade-call",
+      "label": {
+        "en": "Urban II calls for a crusade",
+        "bg": "Урбан II призовава към кръстоносен поход"
+      },
+      "date": {
+        "en": "1095"
+      },
+      "start": 1095,
+      "end": 1095,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "023",
+      "sections": [
+        {
+          "id": "023/crusading-a-movement-larger-than-a-single-expedition",
+          "url": "/023-europe-byzantium-and-the-ottoman-emergence/crusading-a-movement-larger-than-a-single-expedition/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "constantinople-sacked-1204",
+      "label": {
+        "en": "Crusaders sack Constantinople",
+        "bg": "Кръстоносците опустошават Константинопол"
+      },
+      "date": {
+        "en": "1204"
+      },
+      "start": 1204,
+      "end": 1204,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "023",
+      "sections": [
+        {
+          "id": "023/the-fourth-crusade-and-the-disaster-of-1204",
+          "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-fourth-crusade-and-the-disaster-of-1204/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "siege-of-constantinople-1453",
+      "label": {
+        "en": "Mehmed II besieges Constantinople",
+        "bg": "Мехмед II обсажда Константинопол"
+      },
+      "date": {
+        "en": "1453"
+      },
+      "start": 1453,
+      "end": 1453,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "023",
+      "sections": [
+        {
+          "id": "023/the-siege-of-1453-why-the-city-fell-and-what-survived",
+          "url": "/023-europe-byzantium-and-the-ottoman-emergence/the-siege-of-1453-why-the-city-fell-and-what-survived/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "oldest-metal-type-book",
+      "label": {
+        "en": "The oldest surviving book printed with movable metal type (Korea)",
+        "bg": "Най-старата запазена книга, отпечатана с подвижни метални букви (Корея)"
+      },
+      "date": {
+        "en": "1377"
+      },
+      "start": 1377,
+      "end": 1377,
+      "precision": "year",
+      "region": "east-asia",
+      "place": null,
+      "chapter": "024",
+      "sections": [
+        {
+          "id": "024/before-gutenberg-paper-woodblocks-and-asian-printing",
+          "url": "/024-renaissance-humanism-and-printing/before-gutenberg-paper-woodblocks-and-asian-printing/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "brunelleschi-dome",
+      "label": {
+        "en": "Brunelleschi builds the dome of Florence Cathedral",
+        "bg": "Брунелески изгражда купола на катедралата във Флоренция"
+      },
+      "date": {
+        "en": "1420–1436"
+      },
+      "start": 1420,
+      "end": 1436,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "024",
+      "sections": [
+        {
+          "id": "024/brunelleschis-dome-innovation-under-practical-constraints",
+          "url": "/024-renaissance-humanism-and-printing/brunelleschis-dome-innovation-under-practical-constraints/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "gutenberg-bible",
+      "label": {
+        "en": "The Gutenberg Bible",
+        "bg": "Библията на Гутенберг"
+      },
+      "date": {
+        "en": "c. 1454–1455"
+      },
+      "start": 1454,
+      "end": 1455,
+      "precision": "approximate",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "024",
+      "sections": [
+        {
+          "id": "024/gutenbergs-breakthrough-a-system-not-a-single-machine",
+          "url": "/024-renaissance-humanism-and-printing/gutenbergs-breakthrough-a-system-not-a-single-machine/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "luther-excommunicated",
+      "label": {
+        "en": "Martin Luther is excommunicated",
+        "bg": "Мартин Лутер е отлъчен"
+      },
+      "date": {
+        "en": "1521"
+      },
+      "start": 1521,
+      "end": 1521,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "025",
+      "sections": [
+        {
+          "id": "025/from-theological-debate-to-political-rupture",
+          "url": "/025-reformation-and-religious-conflict/from-theological-debate-to-political-rupture/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "thirty-years-war-begins",
+      "label": {
+        "en": "A revolt in Bohemia opens the Thirty Years' War",
+        "bg": "Въстание в Бохемия поставя началото на Тридесетгодишната война"
+      },
+      "date": {
+        "en": "1618"
+      },
+      "start": 1618,
+      "end": 1618,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "025",
+      "sections": [
+        {
+          "id": "025/the-thirty-years-war-from-bohemia-to-europe",
+          "url": "/025-reformation-and-religious-conflict/the-thirty-years-war-from-bohemia-to-europe/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "edict-of-nantes-revoked",
+      "label": {
+        "en": "Louis XIV revokes the Edict of Nantes",
+        "bg": "Луи XIV отменя Нантския едикт"
+      },
+      "date": {
+        "en": "1685"
+      },
+      "start": 1685,
+      "end": 1685,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "025",
+      "sections": [
+        {
+          "id": "025/the-french-wars-of-religion-civil-war-and-massacre",
+          "url": "/025-reformation-and-religious-conflict/the-french-wars-of-religion-civil-war-and-massacre/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "zheng-he-voyages",
+      "label": {
+        "en": "Zheng He's voyages",
+        "bg": "Плаванията на Джън Хъ"
+      },
+      "date": {
+        "en": "1405–1433"
+      },
+      "start": 1405,
+      "end": 1433,
+      "precision": "year",
+      "region": "east-asia",
+      "place": null,
+      "chapter": "026",
+      "sections": [
+        {
+          "id": "026/zheng-hes-voyages-diplomacy-power-and-spectacle",
+          "url": "/026-indian-ocean-commerce-and-asian-powers/zheng-hes-voyages-diplomacy-power-and-spectacle/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "da-gama-reaches-malabar",
+      "label": {
+        "en": "Vasco da Gama reaches the Malabar coast",
+        "bg": "Вашку да Гама достига Малабарския бряг"
+      },
+      "date": {
+        "en": "1498"
+      },
+      "start": 1498,
+      "end": 1498,
+      "precision": "year",
+      "region": "south-asia",
+      "place": null,
+      "chapter": "026",
+      "sections": [
+        {
+          "id": "026/a-chronology-of-connection-and-contest",
+          "url": "/026-indian-ocean-commerce-and-asian-powers/a-chronology-of-connection-and-contest/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "portuguese-take-melaka",
+      "label": {
+        "en": "The Portuguese capture Melaka",
+        "bg": "Португалците превземат Малака"
+      },
+      "date": {
+        "en": "1511"
+      },
+      "start": 1511,
+      "end": 1511,
+      "precision": "year",
+      "region": "southeast-asia",
+      "place": null,
+      "chapter": "026",
+      "sections": [
+        {
+          "id": "026/melaka-the-port-that-organized-a-crossing",
+          "url": "/026-indian-ocean-commerce-and-asian-powers/melaka-the-port-that-organized-a-crossing/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "portugal-takes-ceuta",
+      "label": {
+        "en": "Portugal takes Ceuta",
+        "bg": "Португалия превзема Сеута"
+      },
+      "date": {
+        "en": "1415"
+      },
+      "start": 1415,
+      "end": 1415,
+      "precision": "year",
+      "region": "africa",
+      "place": null,
+      "chapter": "027",
+      "sections": [
+        {
+          "id": "027/a-chronology-of-voyages-and-changing-power",
+          "url": "/027-european-maritime-expansion/a-chronology-of-voyages-and-changing-power/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "dias-rounds-africa",
+      "label": {
+        "en": "Bartolomeu Dias rounds southern Africa",
+        "bg": "Бартоломеу Диаш заобикаля Южна Африка"
+      },
+      "date": {
+        "en": "1488"
+      },
+      "start": 1488,
+      "end": 1488,
+      "precision": "year",
+      "region": "africa",
+      "place": null,
+      "chapter": "027",
+      "sections": [
+        {
+          "id": "027/bartolomeu-dias-and-the-african-cape",
+          "url": "/027-european-maritime-expansion/bartolomeu-dias-and-the-african-cape/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "columbus-reaches-bahamas",
+      "label": {
+        "en": "Columbus's ships reach the Bahamas",
+        "bg": "Корабите на Колумб достигат Бахамите"
+      },
+      "date": {
+        "en": "1492"
+      },
+      "start": 1492,
+      "end": 1492,
+      "precision": "year",
+      "region": "americas",
+      "place": null,
+      "chapter": "027",
+      "sections": [
+        {
+          "id": "027/columbuss-westward-wager",
+          "url": "/027-european-maritime-expansion/columbuss-westward-wager/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "magellan-sets-out",
+      "label": {
+        "en": "Magellan's expedition sets out",
+        "bg": "Експедицията на Магелан потегля"
+      },
+      "date": {
+        "en": "1519"
+      },
+      "start": 1519,
+      "end": 1519,
+      "precision": "year",
+      "region": "global",
+      "place": null,
+      "chapter": "027",
+      "sections": [
+        {
+          "id": "027/the-first-circumnavigation-magellan-elcano-and-the-pacific",
+          "url": "/027-european-maritime-expansion/the-first-circumnavigation-magellan-elcano-and-the-pacific/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "haiti-independence",
+      "label": {
+        "en": "Haiti declares independence",
+        "bg": "Хаити обявява независимост"
+      },
+      "date": {
+        "en": "1804"
+      },
+      "start": 1804,
+      "end": 1804,
+      "precision": "year",
+      "region": "americas",
+      "place": null,
+      "chapter": "029",
+      "sections": [
+        {
+          "id": "029/saint-domingue-and-the-haitian-revolution",
+          "url": "/029-atlantic-slavery-and-plantation-economies/saint-domingue-and-the-haitian-revolution/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "britain-bans-slave-trade",
+      "label": {
+        "en": "Britain bans its slave trade",
+        "bg": "Великобритания забранява своята търговия с роби"
+      },
+      "date": {
+        "en": "1807"
+      },
+      "start": 1807,
+      "end": 1807,
+      "precision": "year",
+      "region": "global",
+      "place": null,
+      "chapter": "029",
+      "sections": [
+        {
+          "id": "029/british-abolition-movement-law-and-limitation",
+          "url": "/029-atlantic-slavery-and-plantation-economies/british-abolition-movement-law-and-limitation/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "brazil-abolishes-slavery",
+      "label": {
+        "en": "Brazil abolishes slavery",
+        "bg": "Бразилия премахва робството"
+      },
+      "date": {
+        "en": "1888"
+      },
+      "start": 1888,
+      "end": 1888,
+      "precision": "year",
+      "region": "americas",
+      "place": null,
+      "chapter": "029",
+      "sections": [
+        {
+          "id": "029/brazil-cuba-and-the-long-nineteenth-century",
+          "url": "/029-atlantic-slavery-and-plantation-economies/brazil-cuba-and-the-long-nineteenth-century/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "battle-of-panipat",
+      "label": {
+        "en": "Babur wins at Panipat and founds Mughal rule",
+        "bg": "Бабур побеждава при Панипат и основава Моголската власт"
+      },
+      "date": {
+        "en": "1526"
+      },
+      "start": 1526,
+      "end": 1526,
+      "precision": "year",
+      "region": "south-asia",
+      "place": null,
+      "chapter": "030",
+      "sections": [
+        {
+          "id": "030/the-mughal-foundation-babur-and-humayun",
+          "url": "/030-the-qing-mughal-and-ottoman-worlds/the-mughal-foundation-babur-and-humayun/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "battle-of-mohacs",
+      "label": {
+        "en": "Battle of Mohács",
+        "bg": "Битката при Мохач"
+      },
+      "date": {
+        "en": "1526"
+      },
+      "start": 1526,
+      "end": 1526,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "030",
+      "sections": [
+        {
+          "id": "030/ottoman-expansion-and-imperial-consolidation",
+          "url": "/030-the-qing-mughal-and-ottoman-worlds/ottoman-expansion-and-imperial-consolidation/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "qing-enter-beijing",
+      "label": {
+        "en": "Qing forces enter Beijing",
+        "bg": "Силите на Цин влизат в Пекин"
+      },
+      "date": {
+        "en": "1644"
+      },
+      "start": 1644,
+      "end": 1644,
+      "precision": "year",
+      "region": "east-asia",
+      "place": null,
+      "chapter": "030",
+      "sections": [
+        {
+          "id": "030/the-manchu-rise-and-the-banners",
+          "url": "/030-the-qing-mughal-and-ottoman-worlds/the-manchu-rise-and-the-banners/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "copernicus-publishes",
+      "label": {
+        "en": "Copernicus publishes On the Revolutions",
+        "bg": "Коперник публикува „За въртенето на небесните сфери“"
+      },
+      "date": {
+        "en": "1543"
+      },
+      "start": 1543,
+      "end": 1543,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "031",
+      "sections": [
+        {
+          "id": "031/copernicus-and-the-rearrangement-of-the-cosmos",
+          "url": "/031-scientific-revolution-and-enlightenment/copernicus-and-the-rearrangement-of-the-cosmos/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "galileo-telescope",
+      "label": {
+        "en": "Galileo turns the telescope to the sky",
+        "bg": "Галилей насочва телескопа към небето"
+      },
+      "date": {
+        "en": "1609–1610"
+      },
+      "start": 1609,
+      "end": 1610,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "031",
+      "sections": [
+        {
+          "id": "031/galileo-and-the-telescope",
+          "url": "/031-scientific-revolution-and-enlightenment/galileo-and-the-telescope/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "newton-principia",
+      "label": {
+        "en": "Newton's Principia",
+        "bg": "„Принципите“ на Нютон"
+      },
+      "date": {
+        "en": "1687"
+      },
+      "start": 1687,
+      "end": 1687,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "031",
+      "sections": [
+        {
+          "id": "031/newtons-synthesis-motion-and-gravity",
+          "url": "/031-scientific-revolution-and-enlightenment/newtons-synthesis-motion-and-gravity/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "national-assembly-1789",
+      "label": {
+        "en": "The Third Estate declares itself the National Assembly",
+        "bg": "Третото съсловие се обявява за Национално събрание"
+      },
+      "date": {
+        "en": "1789"
+      },
+      "start": 1789,
+      "end": 1789,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "032",
+      "sections": [
+        {
+          "id": "032/from-estates-general-to-national-assembly",
+          "url": "/032-atlantic-revolutions-and-citizenship/from-estates-general-to-national-assembly/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "france-abolishes-slavery",
+      "label": {
+        "en": "France abolishes slavery in its colonies",
+        "bg": "Франция премахва робството в колониите си"
+      },
+      "date": {
+        "en": "1794"
+      },
+      "start": 1794,
+      "end": 1794,
+      "precision": "year",
+      "region": "global",
+      "place": null,
+      "chapter": "032",
+      "sections": [
+        {
+          "id": "032/emancipation-was-won-and-contested-1793-1794",
+          "url": "/032-atlantic-revolutions-and-citizenship/emancipation-was-won-and-contested-1793-1794/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "napoleon-brumaire-coup",
+      "label": {
+        "en": "Napoleon's coup of 18 Brumaire",
+        "bg": "Превратът на Наполеон на 18 брюмер"
+      },
+      "date": {
+        "en": "1799"
+      },
+      "start": 1799,
+      "end": 1799,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "032",
+      "sections": [
+        {
+          "id": "032/terror-emergency-power-and-the-limits-of-revolutionary",
+          "url": "/032-atlantic-revolutions-and-citizenship/terror-emergency-power-and-the-limits-of-revolutionary/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "hidalgo-uprising",
+      "label": {
+        "en": "Hidalgo's uprising begins in Mexico",
+        "bg": "Въстанието на Идалго започва в Мексико"
+      },
+      "date": {
+        "en": "1810"
+      },
+      "start": 1810,
+      "end": 1810,
+      "precision": "year",
+      "region": "americas",
+      "place": null,
+      "chapter": "033",
+      "sections": [
+        {
+          "id": "033/mexican-independence-began-as-a-social-crisis",
+          "url": "/033-latin-american-independence-and-state-building/mexican-independence-began-as-a-social-crisis/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "bolivar-andes-campaign",
+      "label": {
+        "en": "Bolívar crosses the Andes into New Granada",
+        "bg": "Боливар пресича Андите към Нова Гранада"
+      },
+      "date": {
+        "en": "1819"
+      },
+      "start": 1819,
+      "end": 1819,
+      "precision": "year",
+      "region": "americas",
+      "place": null,
+      "chapter": "033",
+      "sections": [
+        {
+          "id": "033/northern-south-america-and-the-andes-crossing",
+          "url": "/033-latin-american-independence-and-state-building/northern-south-america-and-the-andes-crossing/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "congress-of-panama",
+      "label": {
+        "en": "The Congress of Panama",
+        "bg": "Конгресът в Панама"
+      },
+      "date": {
+        "en": "1826"
+      },
+      "start": 1826,
+      "end": 1826,
+      "precision": "year",
+      "region": "americas",
+      "place": null,
+      "chapter": "033",
+      "sections": [
+        {
+          "id": "033/the-congress-of-panama-and-bolivars-continental-vision",
+          "url": "/033-latin-american-independence-and-state-building/the-congress-of-panama-and-bolivars-continental-vision/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "watt-condenser-patent",
+      "label": {
+        "en": "James Watt patents the separate condenser",
+        "bg": "Джеймс Ват патентова отделния кондензатор"
+      },
+      "date": {
+        "en": "1769"
+      },
+      "start": 1769,
+      "end": 1769,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "034",
+      "sections": [
+        {
+          "id": "034/steam-engines-invention-maintenance-and-efficiency",
+          "url": "/034-industrialization-and-urban-society/steam-engines-invention-maintenance-and-efficiency/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "stockton-darlington-railway",
+      "label": {
+        "en": "The Stockton and Darlington Railway opens",
+        "bg": "Открита е железницата Стоктън–Дарлингтън"
+      },
+      "date": {
+        "en": "1825"
+      },
+      "start": 1825,
+      "end": 1825,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "034",
+      "sections": [
+        {
+          "id": "034/railways-and-the-compression-of-distance",
+          "url": "/034-industrialization-and-urban-society/railways-and-the-compression-of-distance/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "snow-cholera-pump",
+      "label": {
+        "en": "John Snow traces cholera to a water pump",
+        "bg": "Джон Сноу проследява холерата до водна помпа"
+      },
+      "date": {
+        "en": "1854"
+      },
+      "start": 1854,
+      "end": 1854,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "034",
+      "sections": [
+        {
+          "id": "034/housing-sanitation-and-the-urban-disease-burden",
+          "url": "/034-industrialization-and-urban-society/housing-sanitation-and-the-urban-disease-burden/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "meiji-restoration",
+      "label": {
+        "en": "The Meiji Restoration in Japan",
+        "bg": "Реставрацията Мейджи в Япония"
+      },
+      "date": {
+        "en": "1868"
+      },
+      "start": 1868,
+      "end": 1868,
+      "precision": "year",
+      "region": "east-asia",
+      "place": null,
+      "chapter": "034",
+      "sections": [
+        {
+          "id": "034/asia-and-the-variety-of-industrial-pathways",
+          "url": "/034-industrialization-and-urban-society/asia-and-the-variety-of-industrial-pathways/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "battle-of-isandlwana",
+      "label": {
+        "en": "Battle of Isandlwana",
+        "bg": "Битката при Исандлвана"
+      },
+      "date": {
+        "en": "1879"
+      },
+      "start": 1879,
+      "end": 1879,
+      "precision": "year",
+      "region": "africa",
+      "place": null,
+      "chapter": "035",
+      "sections": [
+        {
+          "id": "035/southern-africa-settler-conquest-and-african-states",
+          "url": "/035-imperialism-and-african-partition/southern-africa-settler-conquest-and-african-states/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "berlin-conference",
+      "label": {
+        "en": "The Berlin Conference",
+        "bg": "Берлинската конференция"
+      },
+      "date": {
+        "en": "1884–1885"
+      },
+      "start": 1884,
+      "end": 1885,
+      "precision": "year",
+      "region": "africa",
+      "place": null,
+      "chapter": "035",
+      "sections": [
+        {
+          "id": "035/berlin-1884-1885-what-the-conference-actually-did",
+          "url": "/035-imperialism-and-african-partition/berlin-1884-1885-what-the-conference-actually-did/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "battle-of-omdurman",
+      "label": {
+        "en": "Battle of Omdurman",
+        "bg": "Битката при Омдурман"
+      },
+      "date": {
+        "en": "1898"
+      },
+      "start": 1898,
+      "end": 1898,
+      "precision": "year",
+      "region": "africa",
+      "place": null,
+      "chapter": "035",
+      "sections": [
+        {
+          "id": "035/the-nile-the-mahdist-state-and-the-fashoda-crisis",
+          "url": "/035-imperialism-and-african-partition/the-nile-the-mahdist-state-and-the-fashoda-crisis/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "revolutions-of-1848",
+      "label": {
+        "en": "Revolutionary wave across Europe",
+        "bg": "Революционна вълна в Европа"
+      },
+      "date": {
+        "en": "1848"
+      },
+      "start": 1848,
+      "end": 1848,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "036",
+      "sections": [
+        {
+          "id": "036/the-revolutionary-wave-of-1848",
+          "url": "/036-nationalism-and-the-nineteenth-century-nation-state/the-revolutionary-wave-of-1848/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "kingdom-of-italy",
+      "label": {
+        "en": "The Kingdom of Italy is proclaimed",
+        "bg": "Провъзгласено е Кралство Италия"
+      },
+      "date": {
+        "en": "1861"
+      },
+      "start": 1861,
+      "end": 1861,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "036",
+      "sections": [
+        {
+          "id": "036/garibaldi-1860-and-the-kingdom-of-italy",
+          "url": "/036-nationalism-and-the-nineteenth-century-nation-state/garibaldi-1860-and-the-kingdom-of-italy/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "prussia-defeats-austria",
+      "label": {
+        "en": "Prussia defeats Austria",
+        "bg": "Прусия побеждава Австрия"
+      },
+      "date": {
+        "en": "1866"
+      },
+      "start": 1866,
+      "end": 1866,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "036",
+      "sections": [
+        {
+          "id": "036/bismarck-and-the-sequence-of-unification-wars",
+          "url": "/036-nationalism-and-the-nineteenth-century-nation-state/bismarck-and-the-sequence-of-unification-wars/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "april-uprising",
+      "label": {
+        "en": "The April Uprising in Bulgaria",
+        "bg": "Априлското въстание в България"
+      },
+      "date": {
+        "en": "1876"
+      },
+      "start": 1876,
+      "end": 1876,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "037",
+      "sections": [
+        {
+          "id": "037/april-1876-uprising-repression-and-evidence",
+          "url": "/037-the-balkans-and-the-eastern-question/april-1876-uprising-repression-and-evidence/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "bulgarian-unification",
+      "label": {
+        "en": "Bulgaria's unification is proclaimed in Plovdiv",
+        "bg": "Съединението на България е провъзгласено в Пловдив"
+      },
+      "date": {
+        "en": "1885"
+      },
+      "start": 1885,
+      "end": 1885,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "037",
+      "sections": [
+        {
+          "id": "037/eastern-rumelia-and-the-unification-of-1885",
+          "url": "/037-the-balkans-and-the-eastern-question/eastern-rumelia-and-the-unification-of-1885/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "bulgarian-independence",
+      "label": {
+        "en": "The Young Turk Revolution and Bulgarian independence",
+        "bg": "Младотурската революция и независимостта на България"
+      },
+      "date": {
+        "en": "1908"
+      },
+      "start": 1908,
+      "end": 1908,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "037",
+      "sections": [
+        {
+          "id": "037/the-young-turk-revolution-and-bulgarian-independence-1908",
+          "url": "/037-the-balkans-and-the-eastern-question/the-young-turk-revolution-and-bulgarian-independence-1908/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "second-balkan-war",
+      "label": {
+        "en": "The Second Balkan War begins",
+        "bg": "Започва Втората балканска война"
+      },
+      "date": {
+        "en": "1913"
+      },
+      "start": 1913,
+      "end": 1913,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "037",
+      "sections": [
+        {
+          "id": "037/the-second-balkan-war-and-the-borders-of-1913",
+          "url": "/037-the-balkans-and-the-eastern-question/the-second-balkan-war-and-the-borders-of-1913/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "sarajevo-assassination",
+      "label": {
+        "en": "The assassination in Sarajevo",
+        "bg": "Атентатът в Сараево"
+      },
+      "date": {
+        "en": "1914"
+      },
+      "start": 1914,
+      "end": 1914,
+      "precision": "year",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "037",
+      "sections": [
+        {
+          "id": "037/bosnia-herzegovina-occupation-reform-and-annexation",
+          "url": "/037-the-balkans-and-the-eastern-question/bosnia-herzegovina-occupation-reform-and-annexation/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "bulgaria-joins-central-powers",
+      "label": {
+        "en": "Bulgaria joins the Central Powers",
+        "bg": "България се присъединява към Централните сили"
+      },
+      "date": {
+        "en": "1915"
+      },
+      "start": 1915,
+      "end": 1915,
+      "precision": "year",
+      "region": "global",
+      "place": null,
+      "chapter": "038",
+      "sections": [
+        {
+          "id": "038/bulgaria-joins-the-central-powers-october-1915",
+          "url": "/038-world-war-i-causes-and-consequences/bulgaria-joins-the-central-powers-october-1915/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "us-enters-war",
+      "label": {
+        "en": "The United States enters the war",
+        "bg": "САЩ влизат във войната"
+      },
+      "date": {
+        "en": "1917"
+      },
+      "start": 1917,
+      "end": 1917,
+      "precision": "year",
+      "region": "global",
+      "place": null,
+      "chapter": "038",
+      "sections": [
+        {
+          "id": "038/the-united-states-enters-the-war-in-1917",
+          "url": "/038-world-war-i-causes-and-consequences/the-united-states-enters-the-war-in-1917/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "treaty-of-neuilly",
+      "label": {
+        "en": "The Treaty of Neuilly",
+        "bg": "Ньойският договор"
+      },
+      "date": {
+        "en": "1919"
+      },
+      "start": 1919,
+      "end": 1919,
+      "precision": "year",
+      "region": "global",
+      "place": null,
+      "chapter": "038",
+      "sections": [
+        {
+          "id": "038/neuilly-bulgarias-peace-settlement-november-1919",
+          "url": "/038-world-war-i-causes-and-consequences/neuilly-bulgarias-peace-settlement-november-1919/"
+        }
+      ],
+      "status": "proposed"
     }
   ],
   "places": [

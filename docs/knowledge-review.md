@@ -6,7 +6,7 @@ Each entry below was proposed from the book. Skim a chapter, fix or delete anyth
 (or tell Claude), then approve the whole chapter with `node scripts/knowledge.mjs approve 009`.
 Only approved entries appear on the live site.
 
-**0 proposed, 200 approved.**
+**84 proposed, 200 approved.**
 
 ## Chapter 001 — all approved (13 entries)
 
@@ -286,3 +286,217 @@ Only approved entries appear on the live site.
 - ✅ **Cuneiform** (*Клинопис*): Wedge-shaped script able to represent words and speech sounds.<br>*Клиновидно писмо, способно да предава думи и звуци на речта.* · defined in [011/the-invention-of-writing-was-not-a-single-flash-of-genius](https://knowledgekingdom.github.io/011-mesopotamia-and-the-first-states/the-invention-of-writing-was-not-a-single-flash-of-genius/) · related: proto-cuneiform
 - ✅ **Legitimacy** (*Легитимност*): Reasons and symbols used to justify and sustain rule.<br>*Доводи и символи, с които властта се оправдава и поддържа.* · defined in [011/kingship-office-force-and-sacred-authority](https://knowledgekingdom.github.io/011-mesopotamia-and-the-first-states/kingship-office-force-and-sacred-authority/) · related: institution
 - ✅ **Ziggurat** (*Зикурат*): Monumental stepped temple platform or tower of Mesopotamia.<br>*Монументална стъпаловидна храмова платформа или кула в Месопотамия.* · defined in [011/ur-iii-a-state-that-counted-almost-everything](https://knowledgekingdom.github.io/011-mesopotamia-and-the-first-states/ur-iii-a-state-that-counted-almost-everything/)
+
+## Chapter 012 — 4 to review (4 entries)
+
+### Events
+
+- ⬜ **c. 3100 BCE** · Egypt is unified under early dynastic rulers — *Египет е обединен от ранните династични владетели* · africa, approximate · [012/essential-timeline-chapter-012](https://knowledgekingdom.github.io/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/)
+- ⬜ **27th–22nd centuries BCE** · Egypt's Old Kingdom: the great pyramids — *Старото царство в Египет: великите пирамиди* · africa, approximate · [012/essential-timeline-chapter-012](https://knowledgekingdom.github.io/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/)
+- ⬜ **c. 1550–1070 BCE** · Egypt's New Kingdom — *Новото царство в Египет* · africa, approximate · [012/essential-timeline-chapter-012](https://knowledgekingdom.github.io/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/)
+- ⬜ **30 BCE** · Egypt passes under Roman rule — *Египет минава под римска власт* · africa, year · [012/essential-timeline-chapter-012](https://knowledgekingdom.github.io/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/)
+
+## Chapter 013 — 2 to review (2 entries)
+
+### Events
+
+- ⬜ **c. 2600–1900 BCE** · Mature Harappan cities: Harappa, Mohenjo-daro, Dholavira — *Зрелите харапски градове: Хараппа, Мохенджо-даро, Дхолавира* · south-asia, approximate · [013/essential-timeline-chapter-013](https://knowledgekingdom.github.io/013-the-indus-valley-civilization/essential-timeline-chapter-013/)
+- ⬜ **c. 1900 BCE** · Indus urban networks reorganize — *Градските мрежи на Инд се преустройват* · south-asia, approximate · [013/essential-timeline-chapter-013](https://knowledgekingdom.github.io/013-the-indus-valley-civilization/essential-timeline-chapter-013/)
+
+## Chapter 014 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **c. 1046 BCE** · The Zhou defeat the Shang — *Джоу побеждават Шан* · east-asia, approximate · [014/the-zhou-conquest-a-new-ruling-house](https://knowledgekingdom.github.io/014-ancient-china-dynasties-and-statecraft/the-zhou-conquest-a-new-ruling-house/)
+- ⬜ **771 BCE** · A crisis ends Western Zhou rule — *Криза слага край на управлението на Западна Джоу* · east-asia, year · [014/how-the-zhou-center-weakened](https://knowledgekingdom.github.io/014-ancient-china-dynasties-and-statecraft/how-the-zhou-center-weakened/)
+- ⬜ **221 BCE** · The Qin unify China — *Цин обединяват Китай* · east-asia, year · [014/dates-dynasties-and-the-limits-of-a-familiar-timeline](https://knowledgekingdom.github.io/014-ancient-china-dynasties-and-statecraft/dates-dynasties-and-the-limits-of-a-familiar-timeline/)
+
+## Chapter 015 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **539 BCE** · Cyrus conquers Babylonia — *Кир завладява Вавилония* · west-asia, year · [015/cyrus-from-regional-ruler-to-imperial-founder](https://knowledgekingdom.github.io/015-persia-and-the-politics-of-empire/cyrus-from-regional-ruler-to-imperial-founder/)
+- ⬜ **522 BCE** · The crisis that brings Darius to power — *Кризата, която довежда Дарий на власт* · west-asia, year · [015/the-crisis-of-522-bce-and-dariuss-account-of-legitimacy](https://knowledgekingdom.github.io/015-persia-and-the-politics-of-empire/the-crisis-of-522-bce-and-dariuss-account-of-legitimacy/)
+- ⬜ **334 BCE** · Alexander crosses into Asia against Persia — *Александър преминава в Азия срещу Персия* · west-asia, year · [015/alexanders-conquest-military-victory-and-administrative](https://knowledgekingdom.github.io/015-persia-and-the-politics-of-empire/alexanders-conquest-military-victory-and-administrative/)
+
+## Chapter 016 — 4 to review (4 entries)
+
+### Events
+
+- ⬜ **c. 508–507 BCE** · Cleisthenes' reforms in Athens — *Реформите на Клистен в Атина* · mediterranean-europe, approximate · [016/cleisthenes-and-a-new-political-structure](https://knowledgekingdom.github.io/016-the-greek-world-and-its-political-experiments/cleisthenes-and-a-new-political-structure/)
+- ⬜ **490 BCE** · Battle of Marathon — *Битката при Маратон* · mediterranean-europe, year · [016/the-persian-wars-shared-danger-divided-greece](https://knowledgekingdom.github.io/016-the-greek-world-and-its-political-experiments/the-persian-wars-shared-danger-divided-greece/)
+- ⬜ **480 BCE** · Xerxes invades Greece: Thermopylae and Salamis — *Ксеркс нахлува в Гърция: Термопилите и Саламин* · mediterranean-europe, year · [016/the-persian-wars-shared-danger-divided-greece](https://knowledgekingdom.github.io/016-the-greek-world-and-its-political-experiments/the-persian-wars-shared-danger-divided-greece/)
+- ⬜ **399 BCE** · Socrates is tried and convicted — *Сократ е съден и осъден* · mediterranean-europe, year · [016/socrates-on-trial-democracy-religion-and-public-fear](https://knowledgekingdom.github.io/016-the-greek-world-and-its-political-experiments/socrates-on-trial-democracy-religion-and-public-fear/)
+
+## Chapter 017 — 4 to review (4 entries)
+
+### Events
+
+- ⬜ **c. 509 BCE** · Rome moves from kings to a republic — *Рим преминава от царе към република* · mediterranean-europe, approximate · [017/from-kings-to-republic-what-changed-around-509-bce](https://knowledgekingdom.github.io/017-rome-republic-empire-and-afterlives/from-kings-to-republic-what-changed-around-509-bce/)
+- ⬜ **44 BCE** · Julius Caesar is assassinated — *Юлий Цезар е убит* · mediterranean-europe, year · [017/caesar-pompey-and-the-civil-wars](https://knowledgekingdom.github.io/017-rome-republic-empire-and-afterlives/caesar-pompey-and-the-civil-wars/)
+- ⬜ **27 BCE** · Octavian receives the name Augustus — *Октавиан получава името Август* · mediterranean-europe, year · [017/augustus-monarchy-in-republican-clothing](https://knowledgekingdom.github.io/017-rome-republic-empire-and-afterlives/augustus-monarchy-in-republican-clothing/)
+- ⬜ **313** · The Edict of Milan — *Миланският едикт* · mediterranean-europe, year · [017/belief-violence-and-the-rise-of-christianity](https://knowledgekingdom.github.io/017-rome-republic-empire-and-afterlives/belief-violence-and-the-rise-of-christianity/)
+
+## Chapter 018 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1324–1325** · Mansa Musa's pilgrimage to Mecca — *Поклонението на Манса Муса до Мека* · africa, year · [018/mansa-musa-and-the-danger-of-dramatic-numbers](https://knowledgekingdom.github.io/018-africa-kingdoms-networks-and-cities/mansa-musa-and-the-danger-of-dramatic-numbers/)
+- ⬜ **1591** · Battle of Tondibi: Morocco defeats Songhai — *Битката при Тондиби: Мароко побеждава Сонгай* · africa, year · [018/songhai-administration-and-the-fragility-of-empires](https://knowledgekingdom.github.io/018-africa-kingdoms-networks-and-cities/songhai-administration-and-the-fragility-of-empires/)
+- ⬜ **1897** · British forces invade Benin City — *Британски войски нахлуват в град Бенин* · africa, year · [018/benin-court-institutions-brass-and-historical-memory](https://knowledgekingdom.github.io/018-africa-kingdoms-networks-and-cities/benin-court-institutions-brass-and-historical-memory/)
+
+## Chapter 019 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **c. 1050** · Cahokia becomes a major center — *Кахокия става голям център* · americas, approximate · [019/the-mississippi-basin-poverty-point-and-cahokia](https://knowledgekingdom.github.io/019-the-americas-before-european-conquest/the-mississippi-basin-poverty-point-and-cahokia/)
+- ⬜ **c. 1325** · The Mexica found Tenochtitlan — *Мексиките основават Теночтитлан* · americas, approximate · [019/tenochtitlan-and-the-triple-alliance](https://knowledgekingdom.github.io/019-the-americas-before-european-conquest/tenochtitlan-and-the-triple-alliance/)
+- ⬜ **1521** · The fall of Tenochtitlan — *Падането на Теночтитлан* · americas, year · [019/contact-conquest-and-indigenous-agency](https://knowledgekingdom.github.io/019-the-americas-before-european-conquest/contact-conquest-and-indigenous-agency/)
+
+## Chapter 020 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **622** · The Hijra — *Хиджра* · west-asia, year · [020/the-hijra-of-622-a-new-political-setting](https://knowledgekingdom.github.io/020-the-rise-of-islam-and-the-caliphates/the-hijra-of-622-a-new-political-setting/)
+- ⬜ **750** · The Abbasids overthrow the Umayyads — *Абасидите свалят Омаядите* · west-asia, year · [020/the-abbasid-revolution-and-a-new-capital](https://knowledgekingdom.github.io/020-the-rise-of-islam-and-the-caliphates/the-abbasid-revolution-and-a-new-capital/)
+- ⬜ **762** · Baghdad is founded — *Основаването на Багдад* · west-asia, year · [020/the-abbasid-revolution-and-a-new-capital](https://knowledgekingdom.github.io/020-the-rise-of-islam-and-the-caliphates/the-abbasid-revolution-and-a-new-capital/)
+
+## Chapter 021 — 2 to review (2 entries)
+
+### Events
+
+- ⬜ **6th century** · The First Turkic Khaganate emerges — *Възниква Първият тюркски каганат* · central-asia-steppe, century · [021/steppe-societies-were-not-an-empty-space](https://knowledgekingdom.github.io/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space/)
+- ⬜ **1025** · Chola expedition against Srivijaya — *Походът на Чола срещу Шривиджая* · southeast-asia, year · [021/srivijaya-and-southeast-asia-sea-lanes-created-regional](https://knowledgekingdom.github.io/021-medieval-eurasia-and-the-silk-roads/srivijaya-and-southeast-asia-sea-lanes-created-regional/)
+
+## Chapter 022 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1206** · Temüjin is acclaimed Chinggis Khan — *Темуджин е провъзгласен за Чингис хан* · central-asia-steppe, year · [022/the-assembly-of-1206-founding-a-new-order](https://knowledgekingdom.github.io/022-the-mongols-and-the-connected-world/the-assembly-of-1206-founding-a-new-order/)
+- ⬜ **1241** · Mongol victories at Legnica and Mohi — *Монголски победи при Легница и Мохи* · mediterranean-europe, year · [022/the-european-campaigns-rus-poland-hungary-and-beyond](https://knowledgekingdom.github.io/022-the-mongols-and-the-connected-world/the-european-campaigns-rus-poland-hungary-and-beyond/)
+- ⬜ **1258** · The Mongols capture Baghdad — *Монголите превземат Багдад* · west-asia, year · [022/the-fall-of-baghdad-and-the-ilkhanate](https://knowledgekingdom.github.io/022-the-mongols-and-the-connected-world/the-fall-of-baghdad-and-the-ilkhanate/)
+
+## Chapter 023 — 4 to review (4 entries)
+
+### Events
+
+- ⬜ **1071** · Battle of Manzikert — *Битката при Манцикерт* · west-asia, year · [023/manzikert-a-turning-point-that-needs-an-explanation](https://knowledgekingdom.github.io/023-europe-byzantium-and-the-ottoman-emergence/manzikert-a-turning-point-that-needs-an-explanation/)
+- ⬜ **1095** · Urban II calls for a crusade — *Урбан II призовава към кръстоносен поход* · mediterranean-europe, year · [023/crusading-a-movement-larger-than-a-single-expedition](https://knowledgekingdom.github.io/023-europe-byzantium-and-the-ottoman-emergence/crusading-a-movement-larger-than-a-single-expedition/)
+- ⬜ **1204** · Crusaders sack Constantinople — *Кръстоносците опустошават Константинопол* · mediterranean-europe, year · [023/the-fourth-crusade-and-the-disaster-of-1204](https://knowledgekingdom.github.io/023-europe-byzantium-and-the-ottoman-emergence/the-fourth-crusade-and-the-disaster-of-1204/)
+- ⬜ **1453** · Mehmed II besieges Constantinople — *Мехмед II обсажда Константинопол* · mediterranean-europe, year · [023/the-siege-of-1453-why-the-city-fell-and-what-survived](https://knowledgekingdom.github.io/023-europe-byzantium-and-the-ottoman-emergence/the-siege-of-1453-why-the-city-fell-and-what-survived/)
+
+## Chapter 024 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1377** · The oldest surviving book printed with movable metal type (Korea) — *Най-старата запазена книга, отпечатана с подвижни метални букви (Корея)* · east-asia, year · [024/before-gutenberg-paper-woodblocks-and-asian-printing](https://knowledgekingdom.github.io/024-renaissance-humanism-and-printing/before-gutenberg-paper-woodblocks-and-asian-printing/)
+- ⬜ **1420–1436** · Brunelleschi builds the dome of Florence Cathedral — *Брунелески изгражда купола на катедралата във Флоренция* · mediterranean-europe, year · [024/brunelleschis-dome-innovation-under-practical-constraints](https://knowledgekingdom.github.io/024-renaissance-humanism-and-printing/brunelleschis-dome-innovation-under-practical-constraints/)
+- ⬜ **c. 1454–1455** · The Gutenberg Bible — *Библията на Гутенберг* · mediterranean-europe, approximate · [024/gutenbergs-breakthrough-a-system-not-a-single-machine](https://knowledgekingdom.github.io/024-renaissance-humanism-and-printing/gutenbergs-breakthrough-a-system-not-a-single-machine/)
+
+## Chapter 025 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1521** · Martin Luther is excommunicated — *Мартин Лутер е отлъчен* · mediterranean-europe, year · [025/from-theological-debate-to-political-rupture](https://knowledgekingdom.github.io/025-reformation-and-religious-conflict/from-theological-debate-to-political-rupture/)
+- ⬜ **1618** · A revolt in Bohemia opens the Thirty Years' War — *Въстание в Бохемия поставя началото на Тридесетгодишната война* · mediterranean-europe, year · [025/the-thirty-years-war-from-bohemia-to-europe](https://knowledgekingdom.github.io/025-reformation-and-religious-conflict/the-thirty-years-war-from-bohemia-to-europe/)
+- ⬜ **1685** · Louis XIV revokes the Edict of Nantes — *Луи XIV отменя Нантския едикт* · mediterranean-europe, year · [025/the-french-wars-of-religion-civil-war-and-massacre](https://knowledgekingdom.github.io/025-reformation-and-religious-conflict/the-french-wars-of-religion-civil-war-and-massacre/)
+
+## Chapter 026 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1405–1433** · Zheng He's voyages — *Плаванията на Джън Хъ* · east-asia, year · [026/zheng-hes-voyages-diplomacy-power-and-spectacle](https://knowledgekingdom.github.io/026-indian-ocean-commerce-and-asian-powers/zheng-hes-voyages-diplomacy-power-and-spectacle/)
+- ⬜ **1498** · Vasco da Gama reaches the Malabar coast — *Вашку да Гама достига Малабарския бряг* · south-asia, year · [026/a-chronology-of-connection-and-contest](https://knowledgekingdom.github.io/026-indian-ocean-commerce-and-asian-powers/a-chronology-of-connection-and-contest/)
+- ⬜ **1511** · The Portuguese capture Melaka — *Португалците превземат Малака* · southeast-asia, year · [026/melaka-the-port-that-organized-a-crossing](https://knowledgekingdom.github.io/026-indian-ocean-commerce-and-asian-powers/melaka-the-port-that-organized-a-crossing/)
+
+## Chapter 027 — 4 to review (4 entries)
+
+### Events
+
+- ⬜ **1415** · Portugal takes Ceuta — *Португалия превзема Сеута* · africa, year · [027/a-chronology-of-voyages-and-changing-power](https://knowledgekingdom.github.io/027-european-maritime-expansion/a-chronology-of-voyages-and-changing-power/)
+- ⬜ **1488** · Bartolomeu Dias rounds southern Africa — *Бартоломеу Диаш заобикаля Южна Африка* · africa, year · [027/bartolomeu-dias-and-the-african-cape](https://knowledgekingdom.github.io/027-european-maritime-expansion/bartolomeu-dias-and-the-african-cape/)
+- ⬜ **1492** · Columbus's ships reach the Bahamas — *Корабите на Колумб достигат Бахамите* · americas, year · [027/columbuss-westward-wager](https://knowledgekingdom.github.io/027-european-maritime-expansion/columbuss-westward-wager/)
+- ⬜ **1519** · Magellan's expedition sets out — *Експедицията на Магелан потегля* · global, year · [027/the-first-circumnavigation-magellan-elcano-and-the-pacific](https://knowledgekingdom.github.io/027-european-maritime-expansion/the-first-circumnavigation-magellan-elcano-and-the-pacific/)
+
+## Chapter 029 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1804** · Haiti declares independence — *Хаити обявява независимост* · americas, year · [029/saint-domingue-and-the-haitian-revolution](https://knowledgekingdom.github.io/029-atlantic-slavery-and-plantation-economies/saint-domingue-and-the-haitian-revolution/)
+- ⬜ **1807** · Britain bans its slave trade — *Великобритания забранява своята търговия с роби* · global, year · [029/british-abolition-movement-law-and-limitation](https://knowledgekingdom.github.io/029-atlantic-slavery-and-plantation-economies/british-abolition-movement-law-and-limitation/)
+- ⬜ **1888** · Brazil abolishes slavery — *Бразилия премахва робството* · americas, year · [029/brazil-cuba-and-the-long-nineteenth-century](https://knowledgekingdom.github.io/029-atlantic-slavery-and-plantation-economies/brazil-cuba-and-the-long-nineteenth-century/)
+
+## Chapter 030 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1526** · Babur wins at Panipat and founds Mughal rule — *Бабур побеждава при Панипат и основава Моголската власт* · south-asia, year · [030/the-mughal-foundation-babur-and-humayun](https://knowledgekingdom.github.io/030-the-qing-mughal-and-ottoman-worlds/the-mughal-foundation-babur-and-humayun/)
+- ⬜ **1526** · Battle of Mohács — *Битката при Мохач* · mediterranean-europe, year · [030/ottoman-expansion-and-imperial-consolidation](https://knowledgekingdom.github.io/030-the-qing-mughal-and-ottoman-worlds/ottoman-expansion-and-imperial-consolidation/)
+- ⬜ **1644** · Qing forces enter Beijing — *Силите на Цин влизат в Пекин* · east-asia, year · [030/the-manchu-rise-and-the-banners](https://knowledgekingdom.github.io/030-the-qing-mughal-and-ottoman-worlds/the-manchu-rise-and-the-banners/)
+
+## Chapter 031 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1543** · Copernicus publishes On the Revolutions — *Коперник публикува „За въртенето на небесните сфери“* · mediterranean-europe, year · [031/copernicus-and-the-rearrangement-of-the-cosmos](https://knowledgekingdom.github.io/031-scientific-revolution-and-enlightenment/copernicus-and-the-rearrangement-of-the-cosmos/)
+- ⬜ **1609–1610** · Galileo turns the telescope to the sky — *Галилей насочва телескопа към небето* · mediterranean-europe, year · [031/galileo-and-the-telescope](https://knowledgekingdom.github.io/031-scientific-revolution-and-enlightenment/galileo-and-the-telescope/)
+- ⬜ **1687** · Newton's Principia — *„Принципите“ на Нютон* · mediterranean-europe, year · [031/newtons-synthesis-motion-and-gravity](https://knowledgekingdom.github.io/031-scientific-revolution-and-enlightenment/newtons-synthesis-motion-and-gravity/)
+
+## Chapter 032 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1789** · The Third Estate declares itself the National Assembly — *Третото съсловие се обявява за Национално събрание* · mediterranean-europe, year · [032/from-estates-general-to-national-assembly](https://knowledgekingdom.github.io/032-atlantic-revolutions-and-citizenship/from-estates-general-to-national-assembly/)
+- ⬜ **1794** · France abolishes slavery in its colonies — *Франция премахва робството в колониите си* · global, year · [032/emancipation-was-won-and-contested-1793-1794](https://knowledgekingdom.github.io/032-atlantic-revolutions-and-citizenship/emancipation-was-won-and-contested-1793-1794/)
+- ⬜ **1799** · Napoleon's coup of 18 Brumaire — *Превратът на Наполеон на 18 брюмер* · mediterranean-europe, year · [032/terror-emergency-power-and-the-limits-of-revolutionary](https://knowledgekingdom.github.io/032-atlantic-revolutions-and-citizenship/terror-emergency-power-and-the-limits-of-revolutionary/)
+
+## Chapter 033 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1810** · Hidalgo's uprising begins in Mexico — *Въстанието на Идалго започва в Мексико* · americas, year · [033/mexican-independence-began-as-a-social-crisis](https://knowledgekingdom.github.io/033-latin-american-independence-and-state-building/mexican-independence-began-as-a-social-crisis/)
+- ⬜ **1819** · Bolívar crosses the Andes into New Granada — *Боливар пресича Андите към Нова Гранада* · americas, year · [033/northern-south-america-and-the-andes-crossing](https://knowledgekingdom.github.io/033-latin-american-independence-and-state-building/northern-south-america-and-the-andes-crossing/)
+- ⬜ **1826** · The Congress of Panama — *Конгресът в Панама* · americas, year · [033/the-congress-of-panama-and-bolivars-continental-vision](https://knowledgekingdom.github.io/033-latin-american-independence-and-state-building/the-congress-of-panama-and-bolivars-continental-vision/)
+
+## Chapter 034 — 4 to review (4 entries)
+
+### Events
+
+- ⬜ **1769** · James Watt patents the separate condenser — *Джеймс Ват патентова отделния кондензатор* · mediterranean-europe, year · [034/steam-engines-invention-maintenance-and-efficiency](https://knowledgekingdom.github.io/034-industrialization-and-urban-society/steam-engines-invention-maintenance-and-efficiency/)
+- ⬜ **1825** · The Stockton and Darlington Railway opens — *Открита е железницата Стоктън–Дарлингтън* · mediterranean-europe, year · [034/railways-and-the-compression-of-distance](https://knowledgekingdom.github.io/034-industrialization-and-urban-society/railways-and-the-compression-of-distance/)
+- ⬜ **1854** · John Snow traces cholera to a water pump — *Джон Сноу проследява холерата до водна помпа* · mediterranean-europe, year · [034/housing-sanitation-and-the-urban-disease-burden](https://knowledgekingdom.github.io/034-industrialization-and-urban-society/housing-sanitation-and-the-urban-disease-burden/)
+- ⬜ **1868** · The Meiji Restoration in Japan — *Реставрацията Мейджи в Япония* · east-asia, year · [034/asia-and-the-variety-of-industrial-pathways](https://knowledgekingdom.github.io/034-industrialization-and-urban-society/asia-and-the-variety-of-industrial-pathways/)
+
+## Chapter 035 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1879** · Battle of Isandlwana — *Битката при Исандлвана* · africa, year · [035/southern-africa-settler-conquest-and-african-states](https://knowledgekingdom.github.io/035-imperialism-and-african-partition/southern-africa-settler-conquest-and-african-states/)
+- ⬜ **1884–1885** · The Berlin Conference — *Берлинската конференция* · africa, year · [035/berlin-1884-1885-what-the-conference-actually-did](https://knowledgekingdom.github.io/035-imperialism-and-african-partition/berlin-1884-1885-what-the-conference-actually-did/)
+- ⬜ **1898** · Battle of Omdurman — *Битката при Омдурман* · africa, year · [035/the-nile-the-mahdist-state-and-the-fashoda-crisis](https://knowledgekingdom.github.io/035-imperialism-and-african-partition/the-nile-the-mahdist-state-and-the-fashoda-crisis/)
+
+## Chapter 036 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1848** · Revolutionary wave across Europe — *Революционна вълна в Европа* · mediterranean-europe, year · [036/the-revolutionary-wave-of-1848](https://knowledgekingdom.github.io/036-nationalism-and-the-nineteenth-century-nation-state/the-revolutionary-wave-of-1848/)
+- ⬜ **1861** · The Kingdom of Italy is proclaimed — *Провъзгласено е Кралство Италия* · mediterranean-europe, year · [036/garibaldi-1860-and-the-kingdom-of-italy](https://knowledgekingdom.github.io/036-nationalism-and-the-nineteenth-century-nation-state/garibaldi-1860-and-the-kingdom-of-italy/)
+- ⬜ **1866** · Prussia defeats Austria — *Прусия побеждава Австрия* · mediterranean-europe, year · [036/bismarck-and-the-sequence-of-unification-wars](https://knowledgekingdom.github.io/036-nationalism-and-the-nineteenth-century-nation-state/bismarck-and-the-sequence-of-unification-wars/)
+
+## Chapter 037 — 5 to review (5 entries)
+
+### Events
+
+- ⬜ **1876** · The April Uprising in Bulgaria — *Априлското въстание в България* · mediterranean-europe, year · [037/april-1876-uprising-repression-and-evidence](https://knowledgekingdom.github.io/037-the-balkans-and-the-eastern-question/april-1876-uprising-repression-and-evidence/)
+- ⬜ **1885** · Bulgaria's unification is proclaimed in Plovdiv — *Съединението на България е провъзгласено в Пловдив* · mediterranean-europe, year · [037/eastern-rumelia-and-the-unification-of-1885](https://knowledgekingdom.github.io/037-the-balkans-and-the-eastern-question/eastern-rumelia-and-the-unification-of-1885/)
+- ⬜ **1908** · The Young Turk Revolution and Bulgarian independence — *Младотурската революция и независимостта на България* · mediterranean-europe, year · [037/the-young-turk-revolution-and-bulgarian-independence-1908](https://knowledgekingdom.github.io/037-the-balkans-and-the-eastern-question/the-young-turk-revolution-and-bulgarian-independence-1908/)
+- ⬜ **1913** · The Second Balkan War begins — *Започва Втората балканска война* · mediterranean-europe, year · [037/the-second-balkan-war-and-the-borders-of-1913](https://knowledgekingdom.github.io/037-the-balkans-and-the-eastern-question/the-second-balkan-war-and-the-borders-of-1913/)
+- ⬜ **1914** · The assassination in Sarajevo — *Атентатът в Сараево* · mediterranean-europe, year · [037/bosnia-herzegovina-occupation-reform-and-annexation](https://knowledgekingdom.github.io/037-the-balkans-and-the-eastern-question/bosnia-herzegovina-occupation-reform-and-annexation/)
+
+## Chapter 038 — 3 to review (3 entries)
+
+### Events
+
+- ⬜ **1915** · Bulgaria joins the Central Powers — *България се присъединява към Централните сили* · global, year · [038/bulgaria-joins-the-central-powers-october-1915](https://knowledgekingdom.github.io/038-world-war-i-causes-and-consequences/bulgaria-joins-the-central-powers-october-1915/)
+- ⬜ **1917** · The United States enters the war — *САЩ влизат във войната* · global, year · [038/the-united-states-enters-the-war-in-1917](https://knowledgekingdom.github.io/038-world-war-i-causes-and-consequences/the-united-states-enters-the-war-in-1917/)
+- ⬜ **1919** · The Treaty of Neuilly — *Ньойският договор* · global, year · [038/neuilly-bulgarias-peace-settlement-november-1919](https://knowledgekingdom.github.io/038-world-war-i-causes-and-consequences/neuilly-bulgarias-peace-settlement-november-1919/)

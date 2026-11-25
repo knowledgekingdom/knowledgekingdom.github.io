@@ -84,7 +84,7 @@ export function parseDate(input) {
 }
 
 // ---- sections that exist -------------------------------------------------------------------
-function sectionIndex() {
+export function sectionIndex() {
   const slugs = readJson('content-meta/slugs.json');
   const ids = new Map(); // "009/the-hominin-family-tree" → url
   for (const [key, slug] of Object.entries(slugs.sections)) {

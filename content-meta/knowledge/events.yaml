@@ -233,3 +233,676 @@
   place: babylon
   sections: [ 011/a-timeline-without-false-precision, 011/babylon-and-hammurabi-what-the-famous-code-really-tells-us ]
   status: approved
+
+- id: egypt-unified
+  label: "Egypt is unified under early dynastic rulers"
+  bg: "Египет е обединен от ранните династични владетели"
+  date: "c. 3100 BCE"
+  precision: approximate
+  region: africa
+  sections: [012/essential-timeline-chapter-012]
+  status: proposed
+- id: egypt-old-kingdom
+  label: "Egypt's Old Kingdom: the great pyramids"
+  bg: "Старото царство в Египет: великите пирамиди"
+  date: "27th–22nd centuries BCE"
+  precision: approximate
+  region: africa
+  sections: [012/essential-timeline-chapter-012]
+  status: proposed
+- id: egypt-new-kingdom
+  label: "Egypt's New Kingdom"
+  bg: "Новото царство в Египет"
+  date: "c. 1550–1070 BCE"
+  precision: approximate
+  region: africa
+  sections: [012/essential-timeline-chapter-012]
+  status: proposed
+- id: egypt-under-rome
+  label: "Egypt passes under Roman rule"
+  bg: "Египет минава под римска власт"
+  date: "30 BCE"
+  precision: year
+  region: africa
+  sections: [012/essential-timeline-chapter-012]
+  status: proposed
+- id: mature-harappan-cities
+  label: "Mature Harappan cities: Harappa, Mohenjo-daro, Dholavira"
+  bg: "Зрелите харапски градове: Хараппа, Мохенджо-даро, Дхолавира"
+  date: "c. 2600–1900 BCE"
+  precision: approximate
+  region: south-asia
+  sections: [013/essential-timeline-chapter-013]
+  status: proposed
+- id: indus-cities-reorganize
+  label: "Indus urban networks reorganize"
+  bg: "Градските мрежи на Инд се преустройват"
+  date: "c. 1900 BCE"
+  precision: approximate
+  region: south-asia
+  sections: [013/essential-timeline-chapter-013]
+  status: proposed
+- id: zhou-defeat-shang
+  label: "The Zhou defeat the Shang"
+  bg: "Джоу побеждават Шан"
+  date: "c. 1046 BCE"
+  precision: approximate
+  region: east-asia
+  sections: [014/the-zhou-conquest-a-new-ruling-house]
+  status: proposed
+- id: western-zhou-ends
+  label: "A crisis ends Western Zhou rule"
+  bg: "Криза слага край на управлението на Западна Джоу"
+  date: "771 BCE"
+  precision: year
+  region: east-asia
+  sections: [014/how-the-zhou-center-weakened]
+  status: proposed
+- id: qin-unification
+  label: "The Qin unify China"
+  bg: "Цин обединяват Китай"
+  date: "221 BCE"
+  precision: year
+  region: east-asia
+  sections: [014/dates-dynasties-and-the-limits-of-a-familiar-timeline]
+  status: proposed
+- id: cyrus-takes-babylonia
+  label: "Cyrus conquers Babylonia"
+  bg: "Кир завладява Вавилония"
+  date: "539 BCE"
+  precision: year
+  region: west-asia
+  sections: [015/cyrus-from-regional-ruler-to-imperial-founder]
+  status: proposed
+- id: darius-crisis-522
+  label: "The crisis that brings Darius to power"
+  bg: "Кризата, която довежда Дарий на власт"
+  date: "522 BCE"
+  precision: year
+  region: west-asia
+  sections: [015/the-crisis-of-522-bce-and-dariuss-account-of-legitimacy]
+  status: proposed
+- id: alexander-enters-asia
+  label: "Alexander crosses into Asia against Persia"
+  bg: "Александър преминава в Азия срещу Персия"
+  date: "334 BCE"
+  precision: year
+  region: west-asia
+  sections: [015/alexanders-conquest-military-victory-and-administrative]
+  status: proposed
+- id: cleisthenes-reforms
+  label: "Cleisthenes' reforms in Athens"
+  bg: "Реформите на Клистен в Атина"
+  date: "c. 508–507 BCE"
+  precision: approximate
+  region: mediterranean-europe
+  sections: [016/cleisthenes-and-a-new-political-structure]
+  status: proposed
+- id: battle-of-marathon
+  label: "Battle of Marathon"
+  bg: "Битката при Маратон"
+  date: "490 BCE"
+  precision: year
+  region: mediterranean-europe
+  sections: [016/the-persian-wars-shared-danger-divided-greece]
+  status: proposed
+- id: xerxes-invades-greece
+  label: "Xerxes invades Greece: Thermopylae and Salamis"
+  bg: "Ксеркс нахлува в Гърция: Термопилите и Саламин"
+  date: "480 BCE"
+  precision: year
+  region: mediterranean-europe
+  sections: [016/the-persian-wars-shared-danger-divided-greece]
+  status: proposed
+- id: socrates-convicted
+  label: "Socrates is tried and convicted"
+  bg: "Сократ е съден и осъден"
+  date: "399 BCE"
+  precision: year
+  region: mediterranean-europe
+  sections: [016/socrates-on-trial-democracy-religion-and-public-fear]
+  status: proposed
+- id: rome-becomes-republic
+  label: "Rome moves from kings to a republic"
+  bg: "Рим преминава от царе към република"
+  date: "c. 509 BCE"
+  precision: approximate
+  region: mediterranean-europe
+  sections: [017/from-kings-to-republic-what-changed-around-509-bce]
+  status: proposed
+- id: caesar-assassinated
+  label: "Julius Caesar is assassinated"
+  bg: "Юлий Цезар е убит"
+  date: "44 BCE"
+  precision: year
+  region: mediterranean-europe
+  sections: [017/caesar-pompey-and-the-civil-wars]
+  status: proposed
+- id: octavian-becomes-augustus
+  label: "Octavian receives the name Augustus"
+  bg: "Октавиан получава името Август"
+  date: "27 BCE"
+  precision: year
+  region: mediterranean-europe
+  sections: [017/augustus-monarchy-in-republican-clothing]
+  status: proposed
+- id: edict-of-milan
+  label: "The Edict of Milan"
+  bg: "Миланският едикт"
+  date: "313"
+  precision: year
+  region: mediterranean-europe
+  sections: [017/belief-violence-and-the-rise-of-christianity]
+  status: proposed
+- id: mansa-musa-pilgrimage
+  label: "Mansa Musa's pilgrimage to Mecca"
+  bg: "Поклонението на Манса Муса до Мека"
+  date: "1324–1325"
+  precision: year
+  region: africa
+  sections: [018/mansa-musa-and-the-danger-of-dramatic-numbers]
+  status: proposed
+- id: battle-of-tondibi
+  label: "Battle of Tondibi: Morocco defeats Songhai"
+  bg: "Битката при Тондиби: Мароко побеждава Сонгай"
+  date: "1591"
+  precision: year
+  region: africa
+  sections: [018/songhai-administration-and-the-fragility-of-empires]
+  status: proposed
+- id: benin-city-invaded
+  label: "British forces invade Benin City"
+  bg: "Британски войски нахлуват в град Бенин"
+  date: "1897"
+  precision: year
+  region: africa
+  sections: [018/benin-court-institutions-brass-and-historical-memory]
+  status: proposed
+- id: cahokia-major-center
+  label: "Cahokia becomes a major center"
+  bg: "Кахокия става голям център"
+  date: "c. 1050"
+  precision: approximate
+  region: americas
+  sections: [019/the-mississippi-basin-poverty-point-and-cahokia]
+  status: proposed
+- id: tenochtitlan-founded
+  label: "The Mexica found Tenochtitlan"
+  bg: "Мексиките основават Теночтитлан"
+  date: "c. 1325"
+  precision: approximate
+  region: americas
+  sections: [019/tenochtitlan-and-the-triple-alliance]
+  status: proposed
+- id: fall-of-tenochtitlan
+  label: "The fall of Tenochtitlan"
+  bg: "Падането на Теночтитлан"
+  date: "1521"
+  precision: year
+  region: americas
+  sections: [019/contact-conquest-and-indigenous-agency]
+  status: proposed
+- id: the-hijra
+  label: "The Hijra"
+  bg: "Хиджра"
+  date: "622"
+  precision: year
+  region: west-asia
+  sections: [020/the-hijra-of-622-a-new-political-setting]
+  status: proposed
+- id: abbasid-revolution
+  label: "The Abbasids overthrow the Umayyads"
+  bg: "Абасидите свалят Омаядите"
+  date: "750"
+  precision: year
+  region: west-asia
+  sections: [020/the-abbasid-revolution-and-a-new-capital]
+  status: proposed
+- id: baghdad-founded
+  label: "Baghdad is founded"
+  bg: "Основаването на Багдад"
+  date: "762"
+  precision: year
+  region: west-asia
+  sections: [020/the-abbasid-revolution-and-a-new-capital]
+  status: proposed
+- id: first-turkic-khaganate
+  label: "The First Turkic Khaganate emerges"
+  bg: "Възниква Първият тюркски каганат"
+  date: "6th century"
+  precision: century
+  region: central-asia-steppe
+  sections: [021/steppe-societies-were-not-an-empty-space]
+  status: proposed
+- id: chola-raid-srivijaya
+  label: "Chola expedition against Srivijaya"
+  bg: "Походът на Чола срещу Шривиджая"
+  date: "1025"
+  precision: year
+  region: southeast-asia
+  sections: [021/srivijaya-and-southeast-asia-sea-lanes-created-regional]
+  status: proposed
+- id: chinggis-khan-acclaimed
+  label: "Temüjin is acclaimed Chinggis Khan"
+  bg: "Темуджин е провъзгласен за Чингис хан"
+  date: "1206"
+  precision: year
+  region: central-asia-steppe
+  sections: [022/the-assembly-of-1206-founding-a-new-order]
+  status: proposed
+- id: legnica-and-mohi
+  label: "Mongol victories at Legnica and Mohi"
+  bg: "Монголски победи при Легница и Мохи"
+  date: "1241"
+  precision: year
+  region: mediterranean-europe
+  sections: [022/the-european-campaigns-rus-poland-hungary-and-beyond]
+  status: proposed
+- id: mongols-take-baghdad
+  label: "The Mongols capture Baghdad"
+  bg: "Монголите превземат Багдад"
+  date: "1258"
+  precision: year
+  region: west-asia
+  sections: [022/the-fall-of-baghdad-and-the-ilkhanate]
+  status: proposed
+- id: battle-of-manzikert
+  label: "Battle of Manzikert"
+  bg: "Битката при Манцикерт"
+  date: "1071"
+  precision: year
+  region: west-asia
+  sections: [023/manzikert-a-turning-point-that-needs-an-explanation]
+  status: proposed
+- id: urban-ii-crusade-call
+  label: "Urban II calls for a crusade"
+  bg: "Урбан II призовава към кръстоносен поход"
+  date: "1095"
+  precision: year
+  region: mediterranean-europe
+  sections: [023/crusading-a-movement-larger-than-a-single-expedition]
+  status: proposed
+- id: constantinople-sacked-1204
+  label: "Crusaders sack Constantinople"
+  bg: "Кръстоносците опустошават Константинопол"
+  date: "1204"
+  precision: year
+  region: mediterranean-europe
+  sections: [023/the-fourth-crusade-and-the-disaster-of-1204]
+  status: proposed
+- id: siege-of-constantinople-1453
+  label: "Mehmed II besieges Constantinople"
+  bg: "Мехмед II обсажда Константинопол"
+  date: "1453"
+  precision: year
+  region: mediterranean-europe
+  sections: [023/the-siege-of-1453-why-the-city-fell-and-what-survived]
+  status: proposed
+- id: oldest-metal-type-book
+  label: "The oldest surviving book printed with movable metal type (Korea)"
+  bg: "Най-старата запазена книга, отпечатана с подвижни метални букви (Корея)"
+  date: "1377"
+  precision: year
+  region: east-asia
+  sections: [024/before-gutenberg-paper-woodblocks-and-asian-printing]
+  status: proposed
+- id: brunelleschi-dome
+  label: "Brunelleschi builds the dome of Florence Cathedral"
+  bg: "Брунелески изгражда купола на катедралата във Флоренция"
+  date: "1420–1436"
+  precision: year
+  region: mediterranean-europe
+  sections: [024/brunelleschis-dome-innovation-under-practical-constraints]
+  status: proposed
+- id: gutenberg-bible
+  label: "The Gutenberg Bible"
+  bg: "Библията на Гутенберг"
+  date: "c. 1454–1455"
+  precision: approximate
+  region: mediterranean-europe
+  sections: [024/gutenbergs-breakthrough-a-system-not-a-single-machine]
+  status: proposed
+- id: luther-excommunicated
+  label: "Martin Luther is excommunicated"
+  bg: "Мартин Лутер е отлъчен"
+  date: "1521"
+  precision: year
+  region: mediterranean-europe
+  sections: [025/from-theological-debate-to-political-rupture]
+  status: proposed
+- id: thirty-years-war-begins
+  label: "A revolt in Bohemia opens the Thirty Years' War"
+  bg: "Въстание в Бохемия поставя началото на Тридесетгодишната война"
+  date: "1618"
+  precision: year
+  region: mediterranean-europe
+  sections: [025/the-thirty-years-war-from-bohemia-to-europe]
+  status: proposed
+- id: edict-of-nantes-revoked
+  label: "Louis XIV revokes the Edict of Nantes"
+  bg: "Луи XIV отменя Нантския едикт"
+  date: "1685"
+  precision: year
+  region: mediterranean-europe
+  sections: [025/the-french-wars-of-religion-civil-war-and-massacre]
+  status: proposed
+- id: zheng-he-voyages
+  label: "Zheng He's voyages"
+  bg: "Плаванията на Джън Хъ"
+  date: "1405–1433"
+  precision: year
+  region: east-asia
+  sections: [026/zheng-hes-voyages-diplomacy-power-and-spectacle]
+  status: proposed
+- id: da-gama-reaches-malabar
+  label: "Vasco da Gama reaches the Malabar coast"
+  bg: "Вашку да Гама достига Малабарския бряг"
+  date: "1498"
+  precision: year
+  region: south-asia
+  sections: [026/a-chronology-of-connection-and-contest]
+  status: proposed
+- id: portuguese-take-melaka
+  label: "The Portuguese capture Melaka"
+  bg: "Португалците превземат Малака"
+  date: "1511"
+  precision: year
+  region: southeast-asia
+  sections: [026/melaka-the-port-that-organized-a-crossing]
+  status: proposed
+- id: portugal-takes-ceuta
+  label: "Portugal takes Ceuta"
+  bg: "Португалия превзема Сеута"
+  date: "1415"
+  precision: year
+  region: africa
+  sections: [027/a-chronology-of-voyages-and-changing-power]
+  status: proposed
+- id: dias-rounds-africa
+  label: "Bartolomeu Dias rounds southern Africa"
+  bg: "Бартоломеу Диаш заобикаля Южна Африка"
+  date: "1488"
+  precision: year
+  region: africa
+  sections: [027/bartolomeu-dias-and-the-african-cape]
+  status: proposed
+- id: columbus-reaches-bahamas
+  label: "Columbus's ships reach the Bahamas"
+  bg: "Корабите на Колумб достигат Бахамите"
+  date: "1492"
+  precision: year
+  region: americas
+  sections: [027/columbuss-westward-wager]
+  status: proposed
+- id: magellan-sets-out
+  label: "Magellan's expedition sets out"
+  bg: "Експедицията на Магелан потегля"
+  date: "1519"
+  precision: year
+  region: global
+  sections: [027/the-first-circumnavigation-magellan-elcano-and-the-pacific]
+  status: proposed
+- id: haiti-independence
+  label: "Haiti declares independence"
+  bg: "Хаити обявява независимост"
+  date: "1804"
+  precision: year
+  region: americas
+  sections: [029/saint-domingue-and-the-haitian-revolution]
+  status: proposed
+- id: britain-bans-slave-trade
+  label: "Britain bans its slave trade"
+  bg: "Великобритания забранява своята търговия с роби"
+  date: "1807"
+  precision: year
+  region: global
+  sections: [029/british-abolition-movement-law-and-limitation]
+  status: proposed
+- id: brazil-abolishes-slavery
+  label: "Brazil abolishes slavery"
+  bg: "Бразилия премахва робството"
+  date: "1888"
+  precision: year
+  region: americas
+  sections: [029/brazil-cuba-and-the-long-nineteenth-century]
+  status: proposed
+- id: battle-of-panipat
+  label: "Babur wins at Panipat and founds Mughal rule"
+  bg: "Бабур побеждава при Панипат и основава Моголската власт"
+  date: "1526"
+  precision: year
+  region: south-asia
+  sections: [030/the-mughal-foundation-babur-and-humayun]
+  status: proposed
+- id: battle-of-mohacs
+  label: "Battle of Mohács"
+  bg: "Битката при Мохач"
+  date: "1526"
+  precision: year
+  region: mediterranean-europe
+  sections: [030/ottoman-expansion-and-imperial-consolidation]
+  status: proposed
+- id: qing-enter-beijing
+  label: "Qing forces enter Beijing"
+  bg: "Силите на Цин влизат в Пекин"
+  date: "1644"
+  precision: year
+  region: east-asia
+  sections: [030/the-manchu-rise-and-the-banners]
+  status: proposed
+- id: copernicus-publishes
+  label: "Copernicus publishes On the Revolutions"
+  bg: "Коперник публикува „За въртенето на небесните сфери“"
+  date: "1543"
+  precision: year
+  region: mediterranean-europe
+  sections: [031/copernicus-and-the-rearrangement-of-the-cosmos]
+  status: proposed
+- id: galileo-telescope
+  label: "Galileo turns the telescope to the sky"
+  bg: "Галилей насочва телескопа към небето"
+  date: "1609–1610"
+  precision: year
+  region: mediterranean-europe
+  sections: [031/galileo-and-the-telescope]
+  status: proposed
+- id: newton-principia
+  label: "Newton's Principia"
+  bg: "„Принципите“ на Нютон"
+  date: "1687"
+  precision: year
+  region: mediterranean-europe
+  sections: [031/newtons-synthesis-motion-and-gravity]
+  status: proposed
+- id: national-assembly-1789
+  label: "The Third Estate declares itself the National Assembly"
+  bg: "Третото съсловие се обявява за Национално събрание"
+  date: "1789"
+  precision: year
+  region: mediterranean-europe
+  sections: [032/from-estates-general-to-national-assembly]
+  status: proposed
+- id: france-abolishes-slavery
+  label: "France abolishes slavery in its colonies"
+  bg: "Франция премахва робството в колониите си"
+  date: "1794"
+  precision: year
+  region: global
+  sections: [032/emancipation-was-won-and-contested-1793-1794]
+  status: proposed
+- id: napoleon-brumaire-coup
+  label: "Napoleon's coup of 18 Brumaire"
+  bg: "Превратът на Наполеон на 18 брюмер"
+  date: "1799"
+  precision: year
+  region: mediterranean-europe
+  sections: [032/terror-emergency-power-and-the-limits-of-revolutionary]
+  status: proposed
+- id: hidalgo-uprising
+  label: "Hidalgo's uprising begins in Mexico"
+  bg: "Въстанието на Идалго започва в Мексико"
+  date: "1810"
+  precision: year
+  region: americas
+  sections: [033/mexican-independence-began-as-a-social-crisis]
+  status: proposed
+- id: bolivar-andes-campaign
+  label: "Bolívar crosses the Andes into New Granada"
+  bg: "Боливар пресича Андите към Нова Гранада"
+  date: "1819"
+  precision: year
+  region: americas
+  sections: [033/northern-south-america-and-the-andes-crossing]
+  status: proposed
+- id: congress-of-panama
+  label: "The Congress of Panama"
+  bg: "Конгресът в Панама"
+  date: "1826"
+  precision: year
+  region: americas
+  sections: [033/the-congress-of-panama-and-bolivars-continental-vision]
+  status: proposed
+- id: watt-condenser-patent
+  label: "James Watt patents the separate condenser"
+  bg: "Джеймс Ват патентова отделния кондензатор"
+  date: "1769"
+  precision: year
+  region: mediterranean-europe
+  sections: [034/steam-engines-invention-maintenance-and-efficiency]
+  status: proposed
+- id: stockton-darlington-railway
+  label: "The Stockton and Darlington Railway opens"
+  bg: "Открита е железницата Стоктън–Дарлингтън"
+  date: "1825"
+  precision: year
+  region: mediterranean-europe
+  sections: [034/railways-and-the-compression-of-distance]
+  status: proposed
+- id: snow-cholera-pump
+  label: "John Snow traces cholera to a water pump"
+  bg: "Джон Сноу проследява холерата до водна помпа"
+  date: "1854"
+  precision: year
+  region: mediterranean-europe
+  sections: [034/housing-sanitation-and-the-urban-disease-burden]
+  status: proposed
+- id: meiji-restoration
+  label: "The Meiji Restoration in Japan"
+  bg: "Реставрацията Мейджи в Япония"
+  date: "1868"
+  precision: year
+  region: east-asia
+  sections: [034/asia-and-the-variety-of-industrial-pathways]
+  status: proposed
+- id: battle-of-isandlwana
+  label: "Battle of Isandlwana"
+  bg: "Битката при Исандлвана"
+  date: "1879"
+  precision: year
+  region: africa
+  sections: [035/southern-africa-settler-conquest-and-african-states]
+  status: proposed
+- id: berlin-conference
+  label: "The Berlin Conference"
+  bg: "Берлинската конференция"
+  date: "1884–1885"
+  precision: year
+  region: africa
+  sections: [035/berlin-1884-1885-what-the-conference-actually-did]
+  status: proposed
+- id: battle-of-omdurman
+  label: "Battle of Omdurman"
+  bg: "Битката при Омдурман"
+  date: "1898"
+  precision: year
+  region: africa
+  sections: [035/the-nile-the-mahdist-state-and-the-fashoda-crisis]
+  status: proposed
+- id: revolutions-of-1848
+  label: "Revolutionary wave across Europe"
+  bg: "Революционна вълна в Европа"
+  date: "1848"
+  precision: year
+  region: mediterranean-europe
+  sections: [036/the-revolutionary-wave-of-1848]
+  status: proposed
+- id: kingdom-of-italy
+  label: "The Kingdom of Italy is proclaimed"
+  bg: "Провъзгласено е Кралство Италия"
+  date: "1861"
+  precision: year
+  region: mediterranean-europe
+  sections: [036/garibaldi-1860-and-the-kingdom-of-italy]
+  status: proposed
+- id: prussia-defeats-austria
+  label: "Prussia defeats Austria"
+  bg: "Прусия побеждава Австрия"
+  date: "1866"
+  precision: year
+  region: mediterranean-europe
+  sections: [036/bismarck-and-the-sequence-of-unification-wars]
+  status: proposed
+- id: april-uprising
+  label: "The April Uprising in Bulgaria"
+  bg: "Априлското въстание в България"
+  date: "1876"
+  precision: year
+  region: mediterranean-europe
+  sections: [037/april-1876-uprising-repression-and-evidence]
+  status: proposed
+- id: bulgarian-unification
+  label: "Bulgaria's unification is proclaimed in Plovdiv"
+  bg: "Съединението на България е провъзгласено в Пловдив"
+  date: "1885"
+  precision: year
+  region: mediterranean-europe
+  sections: [037/eastern-rumelia-and-the-unification-of-1885]
+  status: proposed
+- id: bulgarian-independence
+  label: "The Young Turk Revolution and Bulgarian independence"
+  bg: "Младотурската революция и независимостта на България"
+  date: "1908"
+  precision: year
+  region: mediterranean-europe
+  sections: [037/the-young-turk-revolution-and-bulgarian-independence-1908]
+  status: proposed
+- id: second-balkan-war
+  label: "The Second Balkan War begins"
+  bg: "Започва Втората балканска война"
+  date: "1913"
+  precision: year
+  region: mediterranean-europe
+  sections: [037/the-second-balkan-war-and-the-borders-of-1913]
+  status: proposed
+- id: sarajevo-assassination
+  label: "The assassination in Sarajevo"
+  bg: "Атентатът в Сараево"
+  date: "1914"
+  precision: year
+  region: mediterranean-europe
+  sections: [037/bosnia-herzegovina-occupation-reform-and-annexation]
+  status: proposed
+- id: bulgaria-joins-central-powers
+  label: "Bulgaria joins the Central Powers"
+  bg: "България се присъединява към Централните сили"
+  date: "1915"
+  precision: year
+  region: global
+  sections: [038/bulgaria-joins-the-central-powers-october-1915]
+  status: proposed
+- id: us-enters-war
+  label: "The United States enters the war"
+  bg: "САЩ влизат във войната"
+  date: "1917"
+  precision: year
+  region: global
+  sections: [038/the-united-states-enters-the-war-in-1917]
+  status: proposed
+- id: treaty-of-neuilly
+  label: "The Treaty of Neuilly"
+  bg: "Ньойският договор"
+  date: "1919"
+  precision: year
+  region: global
+  sections: [038/neuilly-bulgarias-peace-settlement-november-1919]
+  status: proposed

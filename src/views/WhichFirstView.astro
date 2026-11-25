@@ -1,0 +1,55 @@
+---
+// /play/which-came-first/: v2 Phase 2.2. Events come from the knowledge layer (approved only on
+// the live site); the game logic is src/scripts/which-first.ts.
+import Base from '../layouts/Base.astro';
+import { knowledge, tx, citeUrl } from '../lib/knowledge';
+import { formatDate } from '../lib/timeline';
+import { pageInfo } from '../lib/book';
+import { t, langFromPath, localize } from '../i18n/ui';
+
+const lang = langFromPath(Astro.url.pathname);
+const events = await Promise.all(knowledge.events.map(async (e) => ({
+  id: e.id, label: tx(e.label, lang), start: e.start, end: e.end, precision: e.precision, region: e.region,
+  date: formatDate({ start: e.start, end: e.end, approx: e.precision === 'approximate' }, lang),
+  url: citeUrl(e.sections[0], lang), title: (await pageInfo(e.sections[0].url, lang))?.title ?? '',
+})));
+const strings = Object.fromEntries(['streak', 'best', 'right', 'wrong', 'next', 'again', 'read', 'check', 'orderScore', 'newSet', 'choose']
+  .map((k) => [k, t(lang, `wf.${k}` as any)]));
+---
+<Base title={t(lang, 'wf.title')} description={t(lang, 'wf.lede')}>
+  <main id="main" class="container learn-page game" data-part="6" data-wf data-events={JSON.stringify(events)} data-strings={JSON.stringify(strings)}>
+    <header class="page-head">
+      <span class="kicker"><a href={localize('/play/', lang)}>{t(lang, 'play.title')}</a></span>
+      <h1>{t(lang, 'wf.title')}</h1>
+      <p class="standfirst">{t(lang, 'wf.lede')}</p>
+    </header>
+    {events.length < 6 ? <p class="placeholder">{t(lang, 'wf.few')}</p> : (
+      <>
+        <div class="mode-switch" role="tablist">
+          <button type="button" role="tab" aria-selected="true" data-mode="pairs">{t(lang, 'wf.modePairs')}</button>
+          <button type="button" role="tab" aria-selected="false" data-mode="order">{t(lang, 'wf.modeOrder')}</button>
+        </div>
+        <section data-pane="pairs">
+          <p class="game-score"><span>{t(lang, 'wf.streak')}: <strong data-streak>0</strong></span><span>{t(lang, 'wf.best')}: <strong data-best>0</strong></span></p>
+          <h2 class="visually-hidden">{t(lang, 'wf.choose')}</h2>
+          <div class="pair" data-pair></div>
+          <p class="game-feedback" data-feedback role="status"></p>
+          <button type="button" class="btn btn-primary" data-next hidden></button>
+        </section>
+        <section data-pane="order" hidden>
+          <p>{t(lang, 'wf.orderLede')}</p>
+          <ol class="order-placed" data-placed></ol>
+          <div class="order-pool" data-pool></div>
+          <p class="game-feedback" data-order-feedback role="status"></p>
+          <div class="game-actions">
+            <button type="button" class="btn btn-primary" data-check disabled>{t(lang, 'wf.check')}</button>
+            <button type="button" class="btn" data-new-set>{t(lang, 'wf.newSet')}</button>
+          </div>
+        </section>
+      </>
+    )}
+  </main>
+</Base>
+<script>
+  import '../scripts/which-first.ts';
+</script>
