@@ -535,6 +535,22 @@ main { flex: 1 0 auto; }
 @keyframes kk-fade-up { from { opacity: 0; translate: 0 calc(var(--rise) * .7); } }
 @keyframes kk-fade { from { opacity: 0; } }
 
+/* Reading in book order: the text column slides like a page turning (forward = to the left).
+   With reduced motion --slide is 0, so it simply crossfades. */
+.reading-main { view-transition-name: reading-main; }
+html:active-view-transition-type(forward)::view-transition-old(reading-main) { animation: var(--dur-2) var(--ease-in) both kk-out-left; }
+html:active-view-transition-type(forward)::view-transition-new(reading-main) { animation: var(--dur-3) var(--ease-out) both kk-in-right; }
+html:active-view-transition-type(backward)::view-transition-old(reading-main) { animation: var(--dur-2) var(--ease-in) both kk-out-right; }
+html:active-view-transition-type(backward)::view-transition-new(reading-main) { animation: var(--dur-3) var(--ease-out) both kk-in-left; }
+html:active-view-transition-type(forward)::view-transition-group(reading-main),
+html:active-view-transition-type(backward)::view-transition-group(reading-main) { animation: none; }
+@keyframes kk-out-left { to { opacity: 0; translate: calc(var(--slide) * -2) 0; } }
+@keyframes kk-in-right { from { opacity: 0; translate: calc(var(--slide) * 2) 0; } }
+@keyframes kk-out-right { to { opacity: 0; translate: calc(var(--slide) * 2) 0; } }
+@keyframes kk-in-left { from { opacity: 0; translate: calc(var(--slide) * -2) 0; } }
+/* The figure lightbox grows out of its figure. */
+::view-transition-group(figure-zoom) { animation-duration: var(--dur-3); animation-timing-function: var(--ease-out); }
+
 /* Entrances on load */
 @keyframes kk-rise { from { opacity: 0; translate: 0 var(--rise); } }
 .hero > * { animation: kk-rise var(--dur-4) var(--ease-out) both; }

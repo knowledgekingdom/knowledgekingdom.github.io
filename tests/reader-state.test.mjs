@@ -155,6 +155,14 @@ test('import rejects other files and newer versions, and cleans bad values', () 
   assert.deepEqual(s.settings, { rate: 1.5 });
 });
 
+test('listen settings: voice per language, speed and "then the next section" are kept', () => {
+  const s = createStore(new MemoryKV());
+  s.setSettings({ voice: { en: 'Daniel', bg: 'Ivan' }, rate: 1.25, autoNext: true });
+  assert.deepEqual(createStore(new MemoryKV({ [SETTINGS_KEY]: JSON.stringify(s.settings) })).settings,
+    { voice: { en: 'Daniel', bg: 'Ivan' }, rate: 1.25, autoNext: true });
+  assert.deepEqual(cleanSettings({ autoNext: 'yes', rate: 9 }), {});
+});
+
 test('migrate() and cleanSettings() never throw on garbage', () => {
   for (const junk of [null, 42, 'x', [], { read: [] }, { last: { path: 5 } }, { bookmarks: { '/a/': null } }]) {
     assert.equal(migrate(junk).v, SCHEMA_VERSION);

@@ -20,3 +20,6 @@ knowledge-kingdom-v2-interactive-plan.md
 
 # Local screenshots for phase checkpoints (not published)
 .checkpoints/
+
+# Section link-preview images: made by the GitHub build (cached there), not stored in git
+public/og/s/

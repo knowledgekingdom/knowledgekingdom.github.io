@@ -176,6 +176,7 @@ export function validate(data, index = sectionIndex()) {
         if (!e.defined) errors.push(`${at}: needs “defined”, the section where the book defines it`);
         if (e.bg && !e.definitionBg) warnings.push(`${at}: no Bulgarian definition (definitionBg) yet`);
         for (const r of e.related ?? []) if (!conceptIds.has(r)) errors.push(`${at}: related concept “${r}” isn't in concepts.yaml`);
+        if (e.link !== undefined && e.link !== 'chapter' && e.link !== false) errors.push(`${at}: link must be "chapter" or false (or left out)`);
       }
     });
   }
@@ -205,6 +206,7 @@ function compile(data, index) {
       chapter: chapterOf(r.sections), sections: sec(r.sections), status: r.status })),
     concepts: data.concepts.map((c) => ({ id: c.id, term: { en: c.term, bg: c.bg ?? null },
       definition: { en: c.definition, bg: c.definitionBg ?? null }, defined: sec([c.defined])[0], related: c.related ?? [],
+      link: c.link === false ? 'never' : c.link === 'chapter' ? 'chapter' : 'everywhere',
       chapter: chapterOf([c.defined]), sections: sec(c.sections), status: c.status })),
   };
 }

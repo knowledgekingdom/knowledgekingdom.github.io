@@ -1,0 +1,19 @@
+---
+// /offline/: shown when a page isn't available without a connection (served by the service worker).
+import Base from '../layouts/Base.astro';
+import { t, langFromPath, localize } from '../i18n/ui';
+const lang = langFromPath(Astro.url.pathname);
+---
+<Base title={t(lang, 'offline.title')} description={t(lang, 'offline.lede')} noindex>
+  <main id="main" class="container" style="padding-top:clamp(2rem,6vw,4rem);padding-bottom:4rem" data-part="1">
+    <header class="page-head">
+      <h1>{t(lang, 'offline.title')}</h1>
+      <p class="standfirst">{t(lang, 'offline.lede')}</p>
+    </header>
+    <section data-offline-list hidden>
+      <h2>{t(lang, 'offline.yourChapters')}</h2>
+      <ul class="bookmark-list"></ul>
+    </section>
+    <p><a class="btn" href={localize('/', lang)}>{t(lang, 'offline.home')}</a></p>
+  </main>
+</Base>

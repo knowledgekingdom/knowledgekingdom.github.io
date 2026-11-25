@@ -1625,6 +1625,7 @@
         "url": "/001-how-to-know-what-is-true/four-statements-that-sound-similar-but-do-different-work/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "001",
       "sections": [],
       "status": "approved"
@@ -1644,6 +1645,7 @@
         "url": "/001-how-to-know-what-is-true/the-right-evidence-for-the-right-question/"
       },
       "related": [],
+      "link": "chapter",
       "chapter": "001",
       "sections": [
         {
@@ -1670,6 +1672,7 @@
       "related": [
         "calibrated-confidence"
       ],
+      "link": "chapter",
       "chapter": "001",
       "sections": [
         {
@@ -1696,6 +1699,7 @@
       "related": [
         "sift"
       ],
+      "link": "everywhere",
       "chapter": "001",
       "sections": [],
       "status": "approved"
@@ -1717,6 +1721,7 @@
       "related": [
         "lateral-reading"
       ],
+      "link": "chapter",
       "chapter": "001",
       "sections": [],
       "status": "approved"
@@ -1738,6 +1743,7 @@
       "related": [
         "reverse-causation"
       ],
+      "link": "everywhere",
       "chapter": "001",
       "sections": [],
       "status": "approved"
@@ -1759,6 +1765,7 @@
       "related": [
         "counterfactual"
       ],
+      "link": "everywhere",
       "chapter": "001",
       "sections": [],
       "status": "approved"
@@ -1780,6 +1787,7 @@
       "related": [
         "peer-review"
       ],
+      "link": "everywhere",
       "chapter": "001",
       "sections": [],
       "status": "approved"
@@ -1801,6 +1809,7 @@
       "related": [
         "systematic-review"
       ],
+      "link": "everywhere",
       "chapter": "001",
       "sections": [],
       "status": "approved"
@@ -1820,6 +1829,7 @@
         "url": "/001-how-to-know-what-is-true/reading-a-research-headline-without-being-fooled/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "001",
       "sections": [],
       "status": "approved"
@@ -1839,6 +1849,7 @@
         "url": "/001-how-to-know-what-is-true/cognitive-bias-when-our-own-minds-become-part-of-the-problem/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "001",
       "sections": [],
       "status": "approved"
@@ -1860,6 +1871,7 @@
       "related": [
         "calibrated-confidence"
       ],
+      "link": "everywhere",
       "chapter": "001",
       "sections": [],
       "status": "approved"
@@ -1881,6 +1893,7 @@
       "related": [
         "corroboration"
       ],
+      "link": "everywhere",
       "chapter": "001",
       "sections": [],
       "status": "approved"
@@ -1905,6 +1918,7 @@
         "affirming-the-consequent",
         "modus-tollens"
       ],
+      "link": "chapter",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -1929,6 +1943,7 @@
         "affirming-the-consequent",
         "modus-tollens"
       ],
+      "link": "chapter",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -1953,6 +1968,7 @@
         "affirming-the-consequent",
         "modus-tollens"
       ],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -1977,6 +1993,7 @@
         "counterexample",
         "modus-tollens"
       ],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2001,6 +2018,7 @@
         "counterexample",
         "affirming-the-consequent"
       ],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2020,6 +2038,7 @@
         "url": "/002-logic-arguments-and-common-fallacies/necessary-sufficient-and-merely-associated/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2039,6 +2058,7 @@
         "url": "/002-logic-arguments-and-common-fallacies/necessary-sufficient-and-merely-associated/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2060,6 +2080,7 @@
       "related": [
         "abduction"
       ],
+      "link": "chapter",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2081,6 +2102,7 @@
       "related": [
         "induction"
       ],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2100,6 +2122,7 @@
         "url": "/002-logic-arguments-and-common-fallacies/the-anatomy-of-a-reasoned-claim/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2119,6 +2142,7 @@
         "url": "/002-logic-arguments-and-common-fallacies/facts-definitions-predictions-and-values/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2140,6 +2164,7 @@
       "related": [
         "steelman"
       ],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2161,6 +2186,7 @@
       "related": [
         "straw-man"
       ],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2180,6 +2206,7 @@
         "url": "/002-logic-arguments-and-common-fallacies/false-choices-slippery-slopes-and-arguments-from-fear/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2199,6 +2226,7 @@
         "url": "/002-logic-arguments-and-common-fallacies/popularity-authority-tradition-and-novelty/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2221,6 +2249,7 @@
         "counterexample",
         "survivorship-bias"
       ],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2243,6 +2272,7 @@
         "counterexample",
         "cherry-picking"
       ],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2262,6 +2292,7 @@
         "url": "/002-logic-arguments-and-common-fallacies/circular-arguments-moving-goalposts-and-the-burden-of-proof/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2281,6 +2312,7 @@
         "url": "/002-logic-arguments-and-common-fallacies/the-fallacy-fallacy-and-why-disagreement-remains-difficult/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "002",
       "sections": [],
       "status": "approved"
@@ -2302,6 +2334,7 @@
       "related": [
         "mutually-exclusive-events"
       ],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [],
       "status": "approved"
@@ -2323,6 +2356,7 @@
       "related": [
         "independent-events"
       ],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [],
       "status": "approved"
@@ -2342,6 +2376,7 @@
         "url": "/003-probability-risk-and-everyday-numbers/the-fraud-alarm-counted-properly/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [],
       "status": "approved"
@@ -2363,6 +2398,7 @@
       "related": [
         "base-rate"
       ],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [],
       "status": "approved"
@@ -2382,6 +2418,7 @@
         "url": "/003-probability-risk-and-everyday-numbers/the-size-of-a-risk-matters-as-much-as-its-direction/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [],
       "status": "approved"
@@ -2403,6 +2440,7 @@
       "related": [
         "absolute-risk-reduction"
       ],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [],
       "status": "approved"
@@ -2424,6 +2462,7 @@
       "related": [
         "mutually-exclusive-events"
       ],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [],
       "status": "approved"
@@ -2445,6 +2484,7 @@
       "related": [
         "expected-value"
       ],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [],
       "status": "approved"
@@ -2467,6 +2507,7 @@
         "independent-events",
         "regression-to-the-mean"
       ],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [],
       "status": "approved"
@@ -2489,6 +2530,7 @@
         "independent-events",
         "gamblers-fallacy"
       ],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [],
       "status": "approved"
@@ -2508,6 +2550,7 @@
         "url": "/003-probability-risk-and-everyday-numbers/forecasts-should-be-judged-as-forecasts/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [],
       "status": "approved"
@@ -2529,6 +2572,7 @@
       "related": [
         "independent-events"
       ],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [],
       "status": "approved"
@@ -2548,6 +2592,7 @@
         "url": "/003-probability-risk-and-everyday-numbers/how-statistics-become-misleading-without-any-false/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "003",
       "sections": [
         {
@@ -2575,6 +2620,7 @@
         "presentism",
         "archival-survivorship-bias"
       ],
+      "link": "everywhere",
       "chapter": "004",
       "sections": [],
       "status": "approved"
@@ -2597,6 +2643,7 @@
         "periodization",
         "archival-survivorship-bias"
       ],
+      "link": "everywhere",
       "chapter": "004",
       "sections": [],
       "status": "approved"
@@ -2618,6 +2665,7 @@
       "related": [
         "dendrochronology"
       ],
+      "link": "everywhere",
       "chapter": "004",
       "sections": [],
       "status": "approved"
@@ -2637,6 +2685,7 @@
         "url": "/004-historical-time-and-the-problem-of-sources/archaeology-reading-what-people-left-behind/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "004",
       "sections": [
         {
@@ -2665,6 +2714,7 @@
         "radiocarbon-dating",
         "old-wood-effect"
       ],
+      "link": "everywhere",
       "chapter": "004",
       "sections": [],
       "status": "approved"
@@ -2688,6 +2738,7 @@
         "dendrochronology",
         "old-wood-effect"
       ],
+      "link": "everywhere",
       "chapter": "004",
       "sections": [
         {
@@ -2716,6 +2767,7 @@
         "dendrochronology",
         "radiocarbon-dating"
       ],
+      "link": "everywhere",
       "chapter": "004",
       "sections": [],
       "status": "approved"
@@ -2735,6 +2787,7 @@
         "url": "/005-geography-maps-and-scale/what-exactly-does-geography-study/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -2759,6 +2812,7 @@
         "great-circle-route",
         "latitude"
       ],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -2783,6 +2837,7 @@
         "great-circle-route",
         "latitude"
       ],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -2807,6 +2862,7 @@
         "equal-area-projection",
         "latitude"
       ],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -2828,6 +2884,7 @@
       "related": [
         "great-circle-route"
       ],
+      "link": "chapter",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -2849,6 +2906,7 @@
       "related": [
         "drainage-divide"
       ],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -2868,6 +2926,7 @@
         "url": "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -2891,6 +2950,7 @@
         "latitude",
         "monsoon"
       ],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -2914,6 +2974,7 @@
         "latitude",
         "rain-shadow"
       ],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -2936,6 +2997,7 @@
         "maritime-chokepoint",
         "population-density"
       ],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -2958,6 +3020,7 @@
         "coastal-upwelling",
         "population-density"
       ],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -2980,6 +3043,7 @@
         "drainage-divide",
         "agglomeration-economy"
       ],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -3002,6 +3066,7 @@
         "drainage-divide",
         "population-density"
       ],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -3024,6 +3089,7 @@
         "population-density",
         "ecological-fallacy"
       ],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [],
       "status": "approved"
@@ -3046,6 +3112,7 @@
         "population-density",
         "choropleth-map"
       ],
+      "link": "everywhere",
       "chapter": "005",
       "sections": [
         {
@@ -3072,6 +3139,7 @@
       "related": [
         "weighted-mean"
       ],
+      "link": "everywhere",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3093,6 +3161,7 @@
       "related": [
         "nonresponse-bias"
       ],
+      "link": "everywhere",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3114,6 +3183,7 @@
       "related": [
         "sampling-frame"
       ],
+      "link": "everywhere",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3133,6 +3203,7 @@
         "url": "/006-reading-data-charts-and-statistics/mean-median-mode-and-the-people-behind-the-average/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3154,6 +3225,7 @@
       "related": [
         "outlier"
       ],
+      "link": "everywhere",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3175,6 +3247,7 @@
       "related": [
         "standard-deviation"
       ],
+      "link": "chapter",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3194,6 +3267,7 @@
         "url": "/006-reading-data-charts-and-statistics/reading-graphs-as-arguments/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3213,6 +3287,7 @@
         "url": "/006-reading-data-charts-and-statistics/time-series-where-the-chosen-starting-point-becomes/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3232,6 +3307,7 @@
         "url": "/006-reading-data-charts-and-statistics/percentages-percentage-points-and-changing-baselines/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3253,6 +3329,7 @@
       "related": [
         "outlier"
       ],
+      "link": "everywhere",
       "chapter": "006",
       "sections": [
         {
@@ -3277,6 +3354,7 @@
         "url": "/006-reading-data-charts-and-statistics/simpsons-paradox-when-every-subgroup-tells-the-opposite/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3298,6 +3376,7 @@
       "related": [
         "percentage-points"
       ],
+      "link": "everywhere",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3320,6 +3399,7 @@
         "nonresponse-bias",
         "percentage-points"
       ],
+      "link": "everywhere",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3339,6 +3419,7 @@
         "url": "/006-reading-data-charts-and-statistics/missing-data-revised-data-and-the-temptation-to-clean-away/"
       },
       "related": [],
+      "link": "chapter",
       "chapter": "006",
       "sections": [],
       "status": "approved"
@@ -3361,6 +3442,7 @@
         "system-boundary",
         "flow"
       ],
+      "link": "chapter",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3383,6 +3465,7 @@
         "system",
         "flow"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3405,6 +3488,7 @@
         "system",
         "flow"
       ],
+      "link": "chapter",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3427,6 +3511,7 @@
         "system",
         "system-boundary"
       ],
+      "link": "chapter",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3451,6 +3536,7 @@
         "feedback-delay",
         "bottleneck"
       ],
+      "link": "chapter",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3473,6 +3559,7 @@
         "system",
         "balancing-feedback"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3497,6 +3584,7 @@
         "reinforcing-feedback",
         "feedback-delay"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3521,6 +3609,7 @@
         "reinforcing-feedback",
         "balancing-feedback"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3545,6 +3634,7 @@
         "feedback-delay",
         "threshold"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3569,6 +3659,7 @@
         "feedback-delay",
         "nonlinearity"
       ],
+      "link": "chapter",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3593,6 +3684,7 @@
         "feedback-delay",
         "nonlinearity"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3617,6 +3709,7 @@
         "feedback-delay",
         "nonlinearity"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3638,6 +3731,7 @@
       "related": [
         "network-redundancy"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3659,6 +3753,7 @@
       "related": [
         "bottleneck"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3681,6 +3776,7 @@
         "system",
         "stock"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3705,6 +3801,7 @@
         "flow",
         "feedback-delay"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3726,6 +3823,7 @@
       "related": [
         "system"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3748,6 +3846,7 @@
         "system",
         "goodharts-law"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3770,6 +3869,7 @@
         "system",
         "unintended-consequence"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3794,6 +3894,7 @@
         "buffer",
         "feedback-delay"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3817,6 +3918,7 @@
         "flow",
         "feedback-delay"
       ],
+      "link": "everywhere",
       "chapter": "007",
       "sections": [],
       "status": "approved"
@@ -3839,6 +3941,7 @@
         "self-explanation",
         "transfer"
       ],
+      "link": "everywhere",
       "chapter": "008",
       "sections": [],
       "status": "approved"
@@ -3861,6 +3964,7 @@
         "retrieval-practice",
         "self-explanation"
       ],
+      "link": "everywhere",
       "chapter": "008",
       "sections": [],
       "status": "approved"
@@ -3882,6 +3986,7 @@
       "related": [
         "retrieval-practice"
       ],
+      "link": "chapter",
       "chapter": "008",
       "sections": [],
       "status": "approved"
@@ -3903,6 +4008,7 @@
       "related": [
         "fluency-illusion"
       ],
+      "link": "everywhere",
       "chapter": "008",
       "sections": [],
       "status": "approved"
@@ -3924,6 +4030,7 @@
       "related": [
         "transfer"
       ],
+      "link": "everywhere",
       "chapter": "008",
       "sections": [],
       "status": "approved"
@@ -3946,6 +4053,7 @@
         "retrieval-practice",
         "self-explanation"
       ],
+      "link": "chapter",
       "chapter": "008",
       "sections": [],
       "status": "approved"
@@ -3967,6 +4075,7 @@
       "related": [
         "self-explanation"
       ],
+      "link": "everywhere",
       "chapter": "008",
       "sections": [],
       "status": "approved"
@@ -3988,6 +4097,7 @@
       "related": [
         "self-explanation"
       ],
+      "link": "everywhere",
       "chapter": "008",
       "sections": [],
       "status": "approved"
@@ -4009,6 +4119,7 @@
       "related": [
         "cumulative-culture"
       ],
+      "link": "everywhere",
       "chapter": "009",
       "sections": [],
       "status": "approved"
@@ -4032,6 +4143,7 @@
         "introgression",
         "sahul"
       ],
+      "link": "everywhere",
       "chapter": "009",
       "sections": [],
       "status": "approved"
@@ -4053,6 +4165,7 @@
       "related": [
         "denisovans"
       ],
+      "link": "everywhere",
       "chapter": "009",
       "sections": [],
       "status": "approved"
@@ -4074,6 +4187,7 @@
       "related": [
         "introgression"
       ],
+      "link": "everywhere",
       "chapter": "009",
       "sections": [],
       "status": "approved"
@@ -4093,6 +4207,7 @@
         "url": "/009-human-evolution-and-the-first-migrations/crossing-water-the-settlement-of-sahul/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "009",
       "sections": [],
       "status": "approved"
@@ -4112,6 +4227,7 @@
         "url": "/009-human-evolution-and-the-first-migrations/toward-the-americas-ice-land-coast-and-unanswered-questions/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "009",
       "sections": [],
       "status": "approved"
@@ -4133,6 +4249,7 @@
       "related": [
         "cumulative-culture"
       ],
+      "link": "everywhere",
       "chapter": "009",
       "sections": [],
       "status": "approved"
@@ -4154,6 +4271,7 @@
       "related": [
         "minimum-age"
       ],
+      "link": "everywhere",
       "chapter": "009",
       "sections": [],
       "status": "approved"
@@ -4173,6 +4291,7 @@
         "url": "/010-the-agricultural-revolution/five-myths-to-retire/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "010",
       "sections": [],
       "status": "approved"
@@ -4194,6 +4313,7 @@
       "related": [
         "tell"
       ],
+      "link": "everywhere",
       "chapter": "010",
       "sections": [],
       "status": "approved"
@@ -4213,6 +4333,7 @@
         "url": "/010-the-agricultural-revolution/cultivation-is-not-the-same-as-domestication/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "010",
       "sections": [],
       "status": "approved"
@@ -4234,6 +4355,7 @@
       "related": [
         "rachis"
       ],
+      "link": "everywhere",
       "chapter": "010",
       "sections": [],
       "status": "approved"
@@ -4253,6 +4375,7 @@
         "url": "/010-the-agricultural-revolution/the-village-becomes-a-social-institution/"
       },
       "related": [],
+      "link": "chapter",
       "chapter": "010",
       "sections": [],
       "status": "approved"
@@ -4274,6 +4397,7 @@
       "related": [
         "surplus"
       ],
+      "link": "everywhere",
       "chapter": "010",
       "sections": [],
       "status": "approved"
@@ -4293,6 +4417,7 @@
         "url": "/010-the-agricultural-revolution/from-food-production-to-crafts-exchange-and-authority/"
       },
       "related": [],
+      "link": "chapter",
       "chapter": "010",
       "sections": [],
       "status": "approved"
@@ -4312,6 +4437,7 @@
         "url": "/010-the-agricultural-revolution/the-animal-partnership-herding-changes-the-clock/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "010",
       "sections": [],
       "status": "approved"
@@ -4331,6 +4457,7 @@
         "url": "/011-mesopotamia-and-the-first-states/a-landscape-that-demanded-ingenuity/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "011",
       "sections": [],
       "status": "approved"
@@ -4352,6 +4479,7 @@
       "related": [
         "institution"
       ],
+      "link": "everywhere",
       "chapter": "011",
       "sections": [],
       "status": "approved"
@@ -4371,6 +4499,7 @@
         "url": "/011-mesopotamia-and-the-first-states/uruk-when-settlement-became-something-larger/"
       },
       "related": [],
+      "link": "chapter",
       "chapter": "011",
       "sections": [],
       "status": "approved"
@@ -4392,6 +4521,7 @@
       "related": [
         "institution"
       ],
+      "link": "everywhere",
       "chapter": "011",
       "sections": [],
       "status": "approved"
@@ -4413,6 +4543,7 @@
       "related": [
         "cuneiform"
       ],
+      "link": "everywhere",
       "chapter": "011",
       "sections": [],
       "status": "approved"
@@ -4434,6 +4565,7 @@
       "related": [
         "proto-cuneiform"
       ],
+      "link": "everywhere",
       "chapter": "011",
       "sections": [],
       "status": "approved"
@@ -4455,6 +4587,7 @@
       "related": [
         "institution"
       ],
+      "link": "chapter",
       "chapter": "011",
       "sections": [],
       "status": "approved"
@@ -4474,6 +4607,7 @@
         "url": "/011-mesopotamia-and-the-first-states/ur-iii-a-state-that-counted-almost-everything/"
       },
       "related": [],
+      "link": "everywhere",
       "chapter": "011",
       "sections": [],
       "status": "approved"

@@ -46,6 +46,8 @@ export type Settings = {
   motion?: 'auto' | 'reduce';
   voice?: Partial<Record<Lang, string>>;
   rate?: number;
+  /** listen mode: carry on with the next section when one ends */
+  autoNext?: boolean;
 };
 
 /** Minimal storage interface (localStorage fits it; tests use a Map). */
@@ -123,6 +125,7 @@ export function cleanSettings(raw: unknown): Settings {
   if (raw.motion === 'auto' || raw.motion === 'reduce') out.motion = raw.motion;
   const voice = titles(raw.voice); if (Object.keys(voice).length) out.voice = voice;
   const rate = num(raw.rate, 0.5, 2); if (rate !== null) out.rate = rate;
+  if (typeof raw.autoNext === 'boolean') out.autoNext = raw.autoNext;
   return out;
 }
 

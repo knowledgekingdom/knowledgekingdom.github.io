@@ -9,6 +9,11 @@ export const site = {
    * Visits from localhost are never counted.
    */
   goatcounter: 'semirk24',
+  /**
+   * "Buy me a coffee" (or similar) page. A small, quiet link in the footer and on the About page;
+   * never a popup. Leave '' to hide it.
+   */
+  supportUrl: '',
   /** Footer line. `{year}` is replaced with the current year at build time. */
   footer: '© {year} Semir. Written with AI assistance',
   /** Short description used on the homepage and as the default meta description. */

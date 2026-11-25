@@ -9,9 +9,9 @@ const H = headingLevel;
 ---
 <a class="chapter-card" href={chapterUrl(chapter, lang)} data-part={d.part}>
   <span class="num" aria-hidden="true" style={`view-transition-name: ch-${d.label}`}>{d.label}</span>
-  <H><span class="visually-hidden">{t(lang, 'chapter', { n: d.label })}: </span>{d.title}</H>
+  <H style={`view-transition-name: ch-title-${d.label}`}><span class="visually-hidden">{t(lang, 'chapter', { n: d.label })}: </span>{d.title}</H>
   <p>{excerpt(d.standfirst, 150)}</p>
   <span class="meta">{t(lang, 'nSections', { n: d.sectionCount })}<span class="meta-sep">·</span>{formatMinutes(lang, d.readingTime)}</span>
   <span class="card-progress" data-chapter-progress={`/${d.slug}/`} data-total={d.sectionCount}
-        data-label={t(lang, 'progress.ofRead')} hidden><span class="bar"><span></span></span><span class="txt"></span></span>
+        data-label={t(lang, 'progress.ofRead')} hidden><span class="ring" aria-hidden="true"></span><span class="txt"></span></span>
 </a>

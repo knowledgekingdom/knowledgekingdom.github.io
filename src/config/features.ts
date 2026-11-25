@@ -12,10 +12,10 @@ export const features = {
   timeline: true,
 
   // v2 phases, switched on as they're built
-  pageTransitions: false,
-  previews: false,
-  listen: false,
-  offline: false,
+  pageTransitions: true,
+  previews: true,
+  listen: true,
+  offline: true,
   review: false,
   games: false,
   explorables: false,

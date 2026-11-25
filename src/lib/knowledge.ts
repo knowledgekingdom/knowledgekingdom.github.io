@@ -17,6 +17,7 @@ export type KPlace = { id: string; name: Text; lat: number; lon: number; type: s
 export type KRoute = { id: string; name: Text; places: string[]; active: KPlace['active']; chapter: string | null;
   sections: Cite[]; status: Status };
 export type KConcept = { id: string; term: Text; definition: Text; defined: Cite; related: string[];
+  link: 'everywhere' | 'chapter' | 'never';
   chapter: string | null; sections: Cite[]; status: Status };
 
 const shown = <T extends { status: Status }>(list: T[]) =>

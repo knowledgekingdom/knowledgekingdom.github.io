@@ -12,6 +12,8 @@ import {
   getBook, getChapters, sectionsOf, sectionUrl, partByNumber, isTranslated, type Chapter, type Part,
 } from '../lib/book';
 import { t, langFromPath, localize, formatMinutes, statusText, type UIKey } from '../i18n/ui';
+import { features } from '../config/features';
+import { chapterUrl } from '../lib/book';
 
 type Props = { kind: 'part'; part: Part } | { kind: 'chapter'; chapter: Chapter };
 const props = Astro.props as Props;
@@ -58,12 +60,20 @@ const hasTimeline = ch ? Boolean(getTimeline(lang).chapterSpans[ch.data.label]) 
       ]} />
       <header class="chapter-hero">
         <span class="chapter-number" aria-hidden="true" style={`view-transition-name: ch-${ch.data.label}`}>{ch.data.label}</span>
-        <h1><span class="visually-hidden">{t(lang, 'chapter', { n: ch.data.label })}: </span>{ch.data.title}</h1>
+        <h1 style={`view-transition-name: ch-title-${ch.data.label}`}><span class="visually-hidden">{t(lang, 'chapter', { n: ch.data.label })}: </span>{ch.data.title}</h1>
         <p class="standfirst" set:html={ch.data.standfirstHtml} />
         <div class="chapter-meta" data-pagefind-ignore>
           {ch.data.status && <span class="badge">{statusText(lang, ch.data.status)} · {t(lang, 'edition', { n: ch.data.edition ?? '' })}</span>}
           <span class="meta">{t(lang, 'nSections', { n: ch.data.sectionCount })}<span class="meta-sep">·</span>{formatMinutes(lang, ch.data.readingTime)} {t(lang, 'total')}</span>
         </div>
+        {features.offline && (
+          <div class="offline-save" data-offline hidden data-chapter={ch.data.label} data-title={`${ch.data.label} · ${ch.data.title}`}
+               data-urls={JSON.stringify([chapterUrl(ch, lang), ...secs.map((s) => sectionUrl(s, lang))])}
+               data-label-save={t(lang, 'offline.save')} data-label-saved={t(lang, 'offline.saved')}
+               data-label-saving={t(lang, 'offline.saving')} data-label-error={t(lang, 'offline.error')}>
+            <button class="tool-btn" type="button" aria-pressed="false"><Icon name="offline" /><span data-offline-label>{t(lang, 'offline.save')}</span></button>
+          </div>
+        )}
       </header>
       <MtNotice show={isTranslated(ch)} />
 

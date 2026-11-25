@@ -4,6 +4,7 @@ import Sidebar from '../components/Sidebar.astro';
 import Pager from '../components/Pager.astro';
 import Icon from '../components/Icon.astro';
 import { t, langFromPath } from '../i18n/ui';
+import { neighbours } from '../lib/book';
 
 interface Heading { depth: number; slug: string; text: string }
 interface Props {
@@ -12,13 +13,15 @@ interface Props {
   part?: number | null;
   chapter?: number;
   headings?: Heading[];
+  ogImagePath?: string;
 }
-const { title, description, part, chapter, headings = [] } = Astro.props;
+const { title, description, part, chapter, headings = [], ogImagePath } = Astro.props;
 const toc = headings.filter((h) => h.depth === 2);
 const url = Astro.url.pathname;
 const lang = langFromPath(url);
+const { prev, next } = neighbours(url, lang);
 ---
-<Base title={title} description={description} part={part} hasSidebar ogType="article">
+<Base title={title} description={description} part={part} hasSidebar ogType="article" prev={prev?.url} next={next?.url} ogImagePath={ogImagePath}>
   <div class="reading-progress" aria-hidden="true"></div>
   <div class="reading">
     <Sidebar currentChapter={chapter} currentUrl={url} />
@@ -85,7 +88,26 @@ const lang = langFromPath(url);
       const fc = img.closest('figure')?.querySelector('figcaption');
       cap.innerHTML = fc ? fc.innerHTML : '';
       cap.querySelector('.figure-anchor')?.remove();
-      dialog.showModal();
+      morph(img, big, () => dialog.showModal());
+    };
+    // The picture grows out of the figure (a same-page View Transition); a plain open
+    // where that isn't supported or motion is reduced.
+    const morph = (from: HTMLElement, to: HTMLElement, change: () => void) => {
+      const vt = (document as any).startViewTransition;
+      const calm = matchMedia('(prefers-reduced-motion: reduce)').matches || document.documentElement.dataset.motion === 'reduce';
+      if (!vt || calm) { change(); return; }
+      from.style.viewTransitionName = 'figure-zoom';
+      const t = vt.call(document, async () => {
+        from.style.viewTransitionName = '';
+        change();
+        to.style.viewTransitionName = 'figure-zoom';
+        if (to instanceof HTMLImageElement) await to.decode().catch(() => {});
+      });
+      t.finished.finally(() => { to.style.viewTransitionName = ''; from.style.viewTransitionName = ''; });
+    };
+    const close = () => {
+      if (!dialog?.open) return;
+      if (big && opener) morph(big, opener, () => dialog.close()); else dialog.close();
     };
     document.querySelectorAll<HTMLImageElement>('.prose figure.figure img').forEach((img) => {
       img.tabIndex = 0;
@@ -96,8 +118,9 @@ const lang = langFromPath(url);
         if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(img); }
       });
     });
-    dialog?.querySelector('[data-lightbox-close]')?.addEventListener('click', () => dialog.close());
-    dialog?.addEventListener('click', (e) => { if (e.target === dialog) dialog.close(); });
+    dialog?.querySelector('[data-lightbox-close]')?.addEventListener('click', close);
+    dialog?.addEventListener('click', (e) => { if (e.target === dialog) close(); });
+    dialog?.addEventListener('cancel', (e) => { e.preventDefault(); close(); }); // Escape
     dialog?.addEventListener('close', () => opener?.focus());
   </script>
 </Base>

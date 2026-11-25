@@ -4,6 +4,7 @@ import Reading from '../layouts/Reading.astro';
 import MtNotice from '../components/MtNotice.astro';
 import { getBook, getPage, isTranslated } from '../lib/book';
 import { t, langFromPath } from '../i18n/ui';
+import { site } from '../site.config';
 
 const lang = langFromPath(Astro.url.pathname);
 const book = getBook(lang);
@@ -20,5 +21,8 @@ const { Content, headings } = await render(about);
     </header>
     <div class="column"><MtNotice show={isTranslated(about)} /></div>
     <div class="prose"><Content /></div>
+    {site.supportUrl && (
+      <p class="column support-note">{t(lang, 'support.note')} <a href={site.supportUrl} rel="noopener">☕ {t(lang, 'support.link')}</a></p>
+    )}
   </article>
 </Reading>

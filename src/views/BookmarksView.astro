@@ -1,0 +1,28 @@
+---
+// /bookmarks/: the reader's own bookmarks. Stored in their browser only, so the list is
+// filled in by src/scripts/progress.ts; without JavaScript the page explains why it's empty.
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { t, langFromPath } from '../i18n/ui';
+const lang = langFromPath(Astro.url.pathname);
+---
+<Base title={t(lang, 'bookmarks.title')} description={t(lang, 'bookmarks.lede')} noindex>
+  <main id="main" class="container bookmarks-page" style="padding-top:clamp(2rem,6vw,4rem);padding-bottom:4rem" data-part="1">
+    <header class="page-head">
+      <span class="kicker">{t(lang, 'transfer.title')}</span>
+      <h1>{t(lang, 'bookmarks.title')}</h1>
+      <p class="standfirst">{t(lang, 'bookmarks.lede')}</p>
+    </header>
+    <div data-bookmarks>
+      <ul class="bookmark-list"></ul>
+      <p class="placeholder" data-bookmarks-empty>{t(lang, 'bookmarks.empty')}</p>
+      <template>
+        <li>
+          <a href="/"></a>
+          <span class="meta" data-when></span>
+          <button class="link-btn" type="button"><Icon name="close" /> {t(lang, 'bookmarks.remove')}</button>
+        </li>
+      </template>
+    </div>
+  </main>
+</Base>

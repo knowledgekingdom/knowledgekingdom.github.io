@@ -1,7 +1,9 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import { readFileSync } from 'node:fs';
+import { satteri } from '@astrojs/markdown-satteri';
 import { site } from './src/site.config.ts';
+import { paragraphIds } from './src/lib/paragraph-ids.mjs';
 
 // Renamed pages (content-meta/slug-overrides.json → src/data/redirects.json).
 // GitHub Pages has no server-side redirects, so Astro writes a small page at each
@@ -25,5 +27,7 @@ export default defineConfig({
     responsiveStyles: true,
     breakpoints: [480, 760, 1140, 1520],
   },
+  // Paragraph anchors for "Copy link to this paragraph".
+  markdown: { processor: satteri({ hastPlugins: [paragraphIds()] }) },
   devToolbar: { enabled: false },
 });

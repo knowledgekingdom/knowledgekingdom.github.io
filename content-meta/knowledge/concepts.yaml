@@ -7,6 +7,8 @@
 # defined     the section where the book defines it ("NNN/section-slug")
 # sections    other sections that also explain it (optional)
 # related     ids of related concepts (optional)
+# link        where the term gets a definition preview in the text: everywhere (default),
+#             "chapter" (only in its own chapter, for everyday words like "flow"), or false (never)
 # source      where the definition came from
 # status      proposed (only shown in a local preview) or approved (shown on the site)
 
@@ -27,6 +29,7 @@
   sections: [ 004/the-past-leaves-traces-not-finished-stories ]
   source: "flashcard 001 #5"
   status: approved
+  link: chapter
 - id: corroboration
   term: "Corroboration"
   bg: "Независимо потвърждение"
@@ -37,6 +40,7 @@
   related: [ calibrated-confidence ]
   source: "flashcard 001 #7"
   status: approved
+  link: chapter
 - id: lateral-reading
   term: "Lateral reading"
   bg: "Странично четене"
@@ -55,6 +59,7 @@
   related: [ lateral-reading ]
   source: "flashcard 001 #9"
   status: approved
+  link: chapter
 - id: counterfactual
   term: "Counterfactual"
   bg: "Контрафактически сценарий"
@@ -134,6 +139,7 @@
   related: [ sound-argument, counterexample, affirming-the-consequent, modus-tollens ]
   source: "flashcard 002 #2"
   status: approved
+  link: chapter
 - id: sound-argument
   term: "Sound argument"
   bg: "Коректен аргумент"
@@ -143,6 +149,7 @@
   related: [ deductive-validity, counterexample, affirming-the-consequent, modus-tollens ]
   source: "flashcard 002 #3"
   status: approved
+  link: chapter
 - id: counterexample
   term: "Counterexample"
   bg: "Контрапример"
@@ -195,6 +202,7 @@
   related: [ abduction ]
   source: "flashcard 002 #10"
   status: approved
+  link: chapter
 - id: abduction
   term: "Abduction"
   bg: "Абдукция"
@@ -510,6 +518,7 @@
   related: [ great-circle-route ]
   source: "flashcard 005 #7"
   status: approved
+  link: chapter
 - id: convergent-boundary
   term: "Convergent boundary"
   bg: "Конвергентна граница"
@@ -653,6 +662,7 @@
   related: [ standard-deviation ]
   source: "flashcard 006 #11"
   status: approved
+  link: chapter
 - id: log-scale
   term: "Logarithmic scale"
   bg: "Логаритмична скала"
@@ -721,6 +731,7 @@
   defined: 006/missing-data-revised-data-and-the-temptation-to-clean-away
   source: "flashcard 006 #24"
   status: approved
+  link: chapter
 - id: system
   term: "System"
   bg: "Система"
@@ -730,6 +741,7 @@
   related: [ system-boundary, flow ]
   source: "flashcard 007 #1"
   status: approved
+  link: chapter
 - id: system-boundary
   term: "System boundary"
   bg: "Граница на системата"
@@ -748,6 +760,7 @@
   related: [ system, flow ]
   source: "flashcard 007 #5"
   status: approved
+  link: chapter
 - id: flow
   term: "Flow"
   bg: "Поток"
@@ -757,6 +770,7 @@
   related: [ system, system-boundary ]
   source: "flashcard 007 #6"
   status: approved
+  link: chapter
 - id: buffer
   term: "Buffer"
   bg: "Буфер"
@@ -766,6 +780,7 @@
   related: [ system, flow, feedback-delay, bottleneck ]
   source: "flashcard 007 #8"
   status: approved
+  link: chapter
 - id: reinforcing-feedback
   term: "Reinforcing feedback"
   bg: "Подсилваща обратна връзка"
@@ -811,6 +826,7 @@
   related: [ system, flow, feedback-delay, nonlinearity ]
   source: "flashcard 007 #16"
   status: approved
+  link: chapter
 - id: hysteresis
   term: "Hysteresis"
   bg: "Хистерезис"
@@ -937,6 +953,7 @@
   related: [ retrieval-practice ]
   source: "flashcard 008 #4"
   status: approved
+  link: chapter
 - id: self-explanation
   term: "Self-explanation"
   bg: "Самообяснение"
@@ -964,6 +981,7 @@
   related: [ retrieval-practice, self-explanation ]
   source: "flashcard 008 #7"
   status: approved
+  link: chapter
 - id: error-log
   term: "Error log"
   bg: "Дневник на грешките"
@@ -1094,6 +1112,7 @@
   defined: 010/the-village-becomes-a-social-institution
   source: "flashcard 010 #16"
   status: approved
+  link: chapter
 - id: granary
   term: "Granary"
   bg: "Хамбар"
@@ -1111,6 +1130,7 @@
   defined: 010/from-food-production-to-crafts-exchange-and-authority
   source: "flashcard 010 #19"
   status: approved
+  link: chapter
 - id: demic-diffusion
   term: "Demic diffusion"
   bg: "Демична дифузия"
@@ -1144,6 +1164,7 @@
   defined: 011/uruk-when-settlement-became-something-larger
   source: "flashcard 011 #8"
   status: approved
+  link: chapter
 - id: cylinder-seal
   term: "Cylinder seal"
   bg: "Цилиндричен печат"
@@ -1180,6 +1201,7 @@
   related: [ institution ]
   source: "flashcard 011 #21"
   status: approved
+  link: chapter
 - id: ziggurat
   term: "Ziggurat"
   bg: "Зикурат"

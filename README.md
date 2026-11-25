@@ -85,6 +85,15 @@ When the importer itself changes an address (it did once, in November 2026, for 
 - **Updates page and RSS feed** (`/updates/`, `/rss.xml`, and the Bulgarian `/bg/…` versions): what each edition added or revised, built automatically from the import history in `content-meta/manifest.json`. Raising `edition` in `content-meta/book-settings.json` starts a new entry.
 - **Related sections** at the end of each section, found by comparing the text of every section on your computer during `npm run import` (`importer/related.py`, free and offline). They update by themselves as chapters are added.
 - **Timeline** (`/timeline/`): dated moments from the history chapters (Parts II and III) on one line, from the first stone tools to 1919, each linked to its section and filterable by chapter (`/timeline/#ch-012`; every history chapter's page links to its slice). The importer finds the events in the book's own text: dated lists, sentences that begin with a date, and section titles with a year (`importer/timeline.py`). New chapters appear by themselves; **`content-meta/timeline.json`** holds corrections: events to leave out, rewordings (for example naming who "he" is), extra sentences to include, and chapter date ranges. `IMPORT_REPORT.md` says if a correction stops matching after the text changes.
+- **Key-term previews:** the first mention of up to five key terms in a section (from `content-meta/knowledge/concepts.yaml`, approved ones only) gets a dotted underline; tapping or hovering shows the book's short definition and a link to where it's explained. Everyday words such as "flow" or "system" are marked `link: chapter` there, so they're only linked inside their own chapter.
+- **Link previews:** hovering (or pressing and holding on a phone) a citation, a "Down the rabbit hole" card, previous/next, the chapter contents or a timeline link shows the page's title and first ~40 words, or the cited source. The data is small per-chapter files (`/previews/en/001.json`), fetched only when needed.
+- **Down the rabbit hole:** three related sections at the end of each section, preferring other chapters and sections that share key terms.
+- **Listen:** the "Listen" button reads a section aloud with the browser's own voices (free; hidden if the browser has no voice for the language), highlights the sentence being read, and can carry on with the next section. Speed and voice are remembered. The voice sits behind one small interface (`src/scripts/listen-engine.ts`), so recorded audio could replace it later.
+- **Offline and installable:** the site can be installed as an app (phones: "Add to Home screen"). Pages you read are kept for offline use (the latest 150), and each chapter page has **Save chapter for offline**. After a new edition is published, saved chapters update themselves the next time you're online.
+- **Bookmarks** (`/bookmarks/`), **progress rings** on chapter cards, a progress bar per Part, and **Continue reading** returns to the exact place on the page.
+- **Share cards:** every section has its own link-preview image (`public/og/s/`, drawn by the GitHub build with `npm run og:sections` and cached there, not stored in git). Each paragraph and heading has a link button that copies a link straight to it.
+- **Page transitions** follow the book: next section slides in from the right, previous from the left; chapter cards grow into the chapter page and figures into the full-size view. With "reduce motion" turned on in the device settings, everything simply fades.
+- **Support link:** set `supportUrl` in `src/site.config.ts` (for example a "Buy me a coffee" page) and a quiet link appears in the footer and on the About page. Empty = hidden.
 - **Print / Save as PDF** on every section: the printout drops the navigation, uses black on white even in dark mode, opens all model answers, and prints flashcards as a list.
 
 ## Improving the Bulgarian translation
@@ -143,6 +152,7 @@ The first `npm run translate` creates a small Python environment (`.venv-transla
 | `npm run import` | all `.docx` in `manuscript/` → English content + `IMPORT_REPORT.md` |
 | `npm run translate` | English → Bulgarian (offline) |
 | `npm run og` | redraw link-preview images for changed chapters |
+| `npm run og:sections` | draw every section's link-preview image (the GitHub build does this; optional locally) |
 | `npm run dev` | local preview with live reload (no search) |
 | `npm run build` | build the static site into `dist/` and its search index |
 | `npm run preview` | serve the built site locally (search works here) |

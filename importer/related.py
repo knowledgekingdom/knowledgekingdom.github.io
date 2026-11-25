@@ -47,8 +47,15 @@ def tokens(text: str) -> list[str]:
 
 
 def compute(docs: list[tuple[str, int, str, str]], k: int = 4, same_chapter_max: int = 1,
-            min_score: float = 0.08) -> dict[str, list[str]]:
-    """docs: (url, chapter number, title, text). Returns {url: [related url, ...]}."""
+            min_score: float = 0.08, concepts: dict[str, set[str]] | None = None,
+            concept_bonus: float = 0.05, same_chapter_factor: float = 0.85) -> dict[str, list[str]]:
+    """docs: (url, chapter number, title, text). Returns {url: [related url, ...]}.
+
+    concepts: optional {url: {concept ids the section mentions}} from the knowledge layer;
+    each key term two sections share adds `concept_bonus` (up to three). Sections from the
+    same chapter count a little less, so the list leads the reader elsewhere in the book.
+    """
+    concepts = concepts or {}
     n = len(docs)
     if n < 2:
         return {}
@@ -73,6 +80,12 @@ def compute(docs: list[tuple[str, int, str, str]], k: int = 4, same_chapter_max:
             for j, y in postings[t]:
                 if j != i:
                     scores[j] += x * y
+        mine = concepts.get(docs[i][0], set())
+        for j in list(scores):
+            if mine:
+                scores[j] += concept_bonus * min(3, len(mine & concepts.get(docs[j][0], set())))
+            if docs[j][1] == docs[i][1]:
+                scores[j] *= same_chapter_factor
         ranked = sorted(scores.items(), key=lambda kv: (-round(kv[1], 9), docs[kv[0]][0]))
         picked, same = [], 0
         for j, s in ranked:

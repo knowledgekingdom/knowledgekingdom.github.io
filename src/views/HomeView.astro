@@ -76,6 +76,10 @@ const recent = (await Promise.all(latestLinks.map(async (l) => {
               <span class="kicker">{t(lang, 'part', { n: part.roman })}</span>
               <h2 id={`part-${part.number}`}><a href={L(`/${part.slug}/`)}>{part.title}</a></h2>
               <span class="meta">{t(lang, 'nChapters', { n: pcs.length })}</span>
+              <span class="part-progress" data-part-progress={pcs.map((c) => `/${c.data.slug}/`).join(' ')}
+                    data-total={pcs.reduce((n, c) => n + c.data.sectionCount, 0)} data-label={t(lang, 'progress.partOf')} hidden>
+                <span class="bar" aria-hidden="true"><span></span></span><span class="txt"></span>
+              </span>
             </header>
             <div class="card-grid">
               {pcs.map((c) => <ChapterCard chapter={c} />)}
@@ -123,6 +127,7 @@ const recent = (await Promise.all(latestLinks.map(async (l) => {
             <button class="btn" type="button" data-import><Icon name="upload" /> {t(lang, 'transfer.import')}</button>
             <input type="file" accept="application/json,.json" data-import-file hidden />
           </div>
+          <p><a class="more-link" href={L('/bookmarks/')}><Icon name="bookmark" /> {t(lang, 'bookmarks.link')} <Icon name="arrowRight" class="arrow" /></a></p>
           <p class="meta" role="status" data-transfer-status></p>
         </section>
       )}

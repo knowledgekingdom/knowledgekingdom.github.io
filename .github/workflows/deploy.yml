@@ -28,6 +28,14 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      # Link-preview cards for every section: drawn with the runner's Chrome and kept in the
+      # Actions cache between builds, so only changed sections are redrawn (free for public repos).
+      - uses: actions/cache@v6
+        with:
+          path: public/og/s
+          key: og-sections-${{ hashFiles('src/content/sections/**', 'src/content/bg/sections/**', 'scripts/og-sections.mjs') }}
+          restore-keys: og-sections-
+      - run: npm run og:sections
       - run: npm run build
       - uses: actions/upload-pages-artifact@v5
         with:

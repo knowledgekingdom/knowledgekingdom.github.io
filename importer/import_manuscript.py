@@ -647,7 +647,8 @@ class Builder:
         self.write_json("src/data/sources.json", sources)
         self.write_json("src/data/figures.json", self.figures)
         self.write_json("src/data/roadmap.json", self.roadmap_out)
-        self.write_json("src/data/related.json", RELATED.compute(self.related_docs))
+        self.write_json("src/data/related.json",
+                        RELATED.compute(self.related_docs, k=3, concepts=self.concept_index(self.related_docs)))
         self.build_timeline()
         self.write_redirects()
 
@@ -1155,6 +1156,28 @@ class Builder:
                                             if k.split("|", 1)[0] not in new_chapters) if x],
                 "changed": [x for x in (link(k) for k in info.get("changed", [])) if x],
             })
+        return out
+
+    # -- key terms ------------------------------------------------------------------
+    def concept_index(self, docs) -> dict[str, set[str]]:
+        """Which approved key terms (src/data/knowledge.json) each section mentions."""
+        path = self.root / "src/data/knowledge.json"
+        if not path.exists():
+            return {}
+        concepts = [c for c in json.loads(path.read_text(encoding="utf-8")).get("concepts", [])
+                    if c.get("status") == "approved" and c.get("link", "everywhere") == "everywhere"]
+        pats = []
+        for c in concepts:
+            words = [re.escape(w) for w in c["term"]["en"].replace("’", "'").split()]
+            body = r"[\s-]+".join(words)
+            flags = 0 if c["term"]["en"].isupper() else re.I
+            pats.append((c["id"], re.compile(rf"(?<![\w]){body}(?:s|es)?(?![\w])", flags)))
+        out = {}
+        for url, _, title, text in docs:
+            plain = re.sub(r"<[^>]+>", " ", text)
+            found = {cid for cid, pat in pats if pat.search(plain)}
+            if found:
+                out[url] = found
         return out
 
     # -- redirects -----------------------------------------------------------------

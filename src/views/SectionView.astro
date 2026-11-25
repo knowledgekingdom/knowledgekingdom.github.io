@@ -1,5 +1,6 @@
 ---
 import { render } from 'astro:content';
+import { existsSync } from 'node:fs';
 import Reading from '../layouts/Reading.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import MtNotice from '../components/MtNotice.astro';
@@ -8,9 +9,12 @@ import PracticeLab from '../components/PracticeLab.astro';
 import SourcesList from '../components/SourcesList.astro';
 import SectionEnd from '../components/SectionEnd.astro';
 import {
-  partByNumber, getFlashcards, getPractice, getSources, isTranslated, hasBulgarian, type Section,
+  partByNumber, getFlashcards, getPractice, getSources, isTranslated, hasBulgarian, pageInfo, type Section,
 } from '../lib/book';
-import { t, langFromPath, localize, type UIKey } from '../i18n/ui';
+import { termsFor } from '../lib/terms';
+import { features } from '../config/features';
+import Icon from '../components/Icon.astro';
+import { t, langFromPath, localize, stripLang, type UIKey } from '../i18n/ui';
 
 const { section } = Astro.props as { section: Section };
 const lang = langFromPath(Astro.url.pathname);
@@ -32,9 +36,18 @@ const toc = headings.filter((h) => h.depth === 2);
 const isSpecial = d.type === 'practice' || d.type === 'flashcards' || d.type === 'sources';
 const kicker = d.type === 'section' ? t(lang, d.number != null ? 'section' : 'feature') : t(lang, `special.${d.type}` as UIKey);
 const translated = lang === 'bg' && (isSpecial ? hasBulgarian : isTranslated(section));
+// Key terms this section mentions (definition popovers on their first mention).
+const terms = features.previews && d.type === 'section'
+  ? await Promise.all(termsFor({ body: section.body ?? '', path: stripLang(Astro.url.pathname), chapter: d.chapterLabel, lang })
+      .map(async (x) => ({ ...x, moreTitle: (await pageInfo(x.definedPath, lang))?.title ?? '' })))
+  : [];
+// This section's own link-preview card, if the build made one (scripts/og-sections.mjs).
+const ogSection = `/og/s/${lang}/${d.chapterLabel}/${d.slug}.jpg`;
+const ogImagePath = existsSync(`${process.cwd()}/public${ogSection}`) ? ogSection : undefined;
+const termJson = JSON.stringify(terms).replace(/</g, '\\u003c');
 ---
 <Reading title={`${d.title} · ${d.chapterLabel} ${d.chapterTitle}`} description={d.description} part={d.part}
-         chapter={d.chapter} headings={headings}>
+         chapter={d.chapter} headings={headings} ogImagePath={ogImagePath}>
   <article data-pagefind-meta={`chapter:${d.chapterLabel} · ${d.chapterTitle}`}>
     <div class="column">
       <Breadcrumbs items={[
@@ -48,7 +61,23 @@ const translated = lang === 'bg' && (isSpecial ? hasBulgarian : isTranslated(sec
           <span class="meta-sep">·</span><a href={L(`/${d.chapterSlug}/`)} style="color:inherit;text-decoration:none">{t(lang, 'chapter', { n: d.chapterLabel })}</a>
         </span>
         <h1>{d.title}</h1>
-        {!isSpecial && <span class="meta" data-pagefind-ignore>{t(lang, 'minRead', { n: d.readingTime })}</span>}
+        <div class="section-tools" data-pagefind-ignore>
+          {!isSpecial && <span class="meta">{t(lang, 'minRead', { n: d.readingTime })}</span>}
+          <button class="tool-btn" type="button" data-bookmark data-path={stripLang(Astro.url.pathname)}
+                  data-title={`${d.chapterLabel} · ${d.title}`} data-label-add={t(lang, 'bookmark.add')}
+                  data-label-on={t(lang, 'bookmark.on')} aria-pressed="false" hidden>
+            <Icon name="bookmark" /><span data-bookmark-label>{t(lang, 'bookmark.add')}</span>
+          </button>
+          {features.listen && (d.type === 'section' || d.type === 'summary') && (
+            <button class="tool-btn" type="button" data-listen hidden data-strings={JSON.stringify({
+              player: t(lang, 'listen.player'), play: t(lang, 'listen.play'), pause: t(lang, 'listen.pause'),
+              speed: t(lang, 'listen.speed'), voice: t(lang, 'listen.voice'), next: t(lang, 'listen.next'),
+              close: t(lang, 'listen.close'), progress: t(lang, 'listen.progress'), pressPlay: t(lang, 'listen.pressPlay'),
+            })}>
+              <Icon name="headphones" /><span>{t(lang, 'listen.button')}</span>
+            </button>
+          )}
+        </div>
       </header>
       <MtNotice show={translated} />
       {toc.length > 1 && (
@@ -77,6 +106,7 @@ const translated = lang === 'bg' && (isSpecial ? hasBulgarian : isTranslated(sec
       </div>
     )}
     {!isSpecial && <div class="prose"><Content /></div>}
+    {terms.length > 0 && <script type="application/json" data-terms set:html={termJson} />}
     <SectionEnd trackable={d.type === 'section' || d.type === 'summary'} related={d.type === 'section'}
                 title={`${d.chapterLabel} · ${d.title}`} />
   </article>

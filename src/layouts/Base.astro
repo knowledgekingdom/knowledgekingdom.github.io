@@ -12,6 +12,7 @@ import Icon from '../components/Icon.astro';
 import PalettePicker from '../components/PalettePicker.astro';
 import Search from '../components/Search.astro';
 import { site, footerText } from '../site.config';
+import { features } from '../config/features';
 import { getBook } from '../lib/book';
 import { t, langFromPath, localize, stripLang, htmlLang } from '../i18n/ui';
 
@@ -24,8 +25,14 @@ interface Props {
   ogType?: 'website' | 'article';
   /** Keep this page out of search engines (e.g. /random/). */
   noindex?: boolean;
+  /** Previous / next page in book order (reading pages), for direction-aware page transitions. */
+  prev?: string;
+  next?: string;
+  /** Link-preview image path under public/ (defaults to the chapter's or the homepage's). */
+  ogImagePath?: string;
 }
-const { title, description = site.description, part = null, hasSidebar = false, ogType = 'website', noindex = false } = Astro.props;
+const { title, description = site.description, part = null, hasSidebar = false, ogType = 'website', noindex = false,
+  prev, next, ogImagePath } = Astro.props;
 const path = Astro.url.pathname;
 const lang = langFromPath(path);
 const other = lang === 'en' ? 'bg' : 'en';
@@ -39,7 +46,7 @@ const altEn = new URL(localize(stripLang(path), 'en'), Astro.site);
 const altBg = new URL(localize(stripLang(path), 'bg'), Astro.site);
 // Link-preview image: the chapter's card for chapter pages, the homepage card otherwise (public/og/).
 const chapterLabel = stripLang(path).match(/^\/(\d{3})-/)?.[1];
-const ogImage = new URL(`/og/${chapterLabel ?? 'home'}-${lang}.jpg`, Astro.site);
+const ogImage = new URL(ogImagePath ?? `/og/${chapterLabel ?? 'home'}-${lang}.jpg`, Astro.site);
 const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
 ---
 <!doctype html>
@@ -71,6 +78,8 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
     <meta name="theme-color" content="#f7f3ea" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#12161b" media="(prefers-color-scheme: dark)" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    {features.offline && <link rel="manifest" href={lang === 'bg' ? '/bg/manifest.webmanifest' : '/manifest.webmanifest'} />}
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <link rel="preload" href={lang === 'bg' ? serifCyrillic : serifLatin} as="font" type="font/woff2" crossorigin />
     <script is:inline define:vars={{ allowPalette: site.paletteSwitcher }}>
       // Apply saved settings before the first paint (no light/dark flash). The full
@@ -88,11 +97,32 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
         if (s.motion === 'reduce') d.dataset.motion = 'reduce';
       } catch (e) {}
     </script>
+    {prev && <link rel="prev" href={prev} />}
+    {next && <link rel="next" href={next} />}
+    {features.pageTransitions && (
+      <script is:inline>
+        // Page transitions follow the book: arriving from the previous page slides forward,
+        // from the next page slides back (CSS in global.css). Must run before first render.
+        addEventListener('pagereveal', (e) => {
+          try {
+            const from = e.viewTransition && window.navigation && navigation.activation && navigation.activation.from;
+            if (!from || !from.url) return;
+            const p = new URL(from.url).pathname;
+            const rel = (r) => document.querySelector('link[rel="' + r + '"]')?.getAttribute('href');
+            if (p === rel('prev')) e.viewTransition.types.add('forward');
+            else if (p === rel('next')) e.viewTransition.types.add('backward');
+          } catch (err) {}
+        });
+      </script>
+    )}
     {site.goatcounter && import.meta.env.PROD && (
       <script is:inline async data-goatcounter={`https://${site.goatcounter}.goatcounter.com/count`} src="https://gc.zgo.at/count.js"></script>
     )}
   </head>
-  <body data-part={part ?? undefined}>
+  <body data-part={part ?? undefined} data-pv={features.previews ? JSON.stringify({
+    term: t(lang, 'pv.term'), readMore: t(lang, 'pv.readMore'), source: t(lang, 'pv.source'),
+    copyPara: t(lang, 'pv.copyPara'), copyHeading: t(lang, 'pv.copyHeading'), copied: t(lang, 'pv.copied'),
+  }) : undefined}>
     <a class="skip-link" href="#main">{t(lang, 'skip')}</a>
     <header class="site-header">
       <div class="inner">
@@ -131,6 +161,8 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
           <a href={L('/updates/')}>{t(lang, 'nav.updates')}</a>
           <a href={L('/timeline/')}>{t(lang, 'nav.timeline')}</a>
           <a href={L('/random/')}>{t(lang, 'nav.random')}</a>
+          <a href={L('/bookmarks/')}>{t(lang, 'bookmarks.title')}</a>
+          {site.supportUrl && <a href={site.supportUrl} rel="noopener">☕ {t(lang, 'support.link')}</a>}
           <a href={switchHref} hreflang={other} lang={other}>{other === 'bg' ? 'Български' : 'English'}</a>
           <span>{book.edition ? `${t(lang, 'edition', { n: book.edition })} · ${book.editionDate}` : ''}</span>
         </nav>
@@ -147,6 +179,10 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
     </style>
     <script>
       import '../scripts/progress.ts';
+      import { features } from '../config/features';
+      if (features.previews) { import('../scripts/previews.ts'); import('../scripts/anchors.ts'); }
+      if (features.listen && document.querySelector('[data-listen]')) import('../scripts/listen-button.ts');
+      if (features.offline && import.meta.env.PROD) import('../scripts/offline.ts');
     </script>
     <script>
       import { store } from '../scripts/reader';
