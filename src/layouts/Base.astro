@@ -194,6 +194,7 @@ const badgeNames = features.games ? JSON.stringify({ toast: t(lang, 'badge.toast
       if (features.listen && document.querySelector('[data-listen]')) import('../scripts/listen-button.ts');
       if (features.offline && import.meta.env.PROD) import('../scripts/offline.ts');
       if (features.games && document.getElementById('kk-book')) import('../scripts/badges.ts');
+      if (features.explorables && document.querySelector('script[data-explorables]')) import('../scripts/explorables.ts');
     </script>
     <script>
       import { store } from '../scripts/reader';

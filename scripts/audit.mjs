@@ -11,6 +11,8 @@ const pages = [
   '/001-how-to-know-what-is-true/following-a-claim-upstream/',
   '/001-how-to-know-what-is-true/flashcards/',
   '/timeline/',
+  '/003-probability-risk-and-everyday-numbers/the-fraud-alarm-counted-properly/',
+  '/009-human-evolution-and-the-first-migrations/a-timeline-that-changes-the-scale-of-everything/',
   '/play/which-came-first/',
   '/review/',
   '/bg/011-mesopotamia-and-the-first-states/the-canal-and-the-argument-over-water/',

@@ -12,6 +12,7 @@ import {
   partByNumber, getFlashcards, getPractice, getSources, isTranslated, hasBulgarian, pageInfo, type Section,
 } from '../lib/book';
 import { termsFor } from '../lib/terms';
+import explorablesData from '../data/explorables.json';
 import { features } from '../config/features';
 import Icon from '../components/Icon.astro';
 import { t, langFromPath, localize, stripLang, type UIKey } from '../i18n/ui';
@@ -44,6 +45,13 @@ const terms = features.previews && d.type === 'section'
 // This section's own link-preview card, if the build made one (scripts/og-sections.mjs).
 const ogSection = `/og/s/${lang}/${d.chapterLabel}/${d.slug}.jpg`;
 const ogImagePath = existsSync(`${process.cwd()}/public${ogSection}`) ? ogSection : undefined;
+// Explorable diagrams for this section (content-meta/explorables.yaml).
+const explorables = features.explorables
+  ? (explorablesData as { id: string; url: string; anchor: string; title: Record<string, string>; instruction: Record<string, string>; notice: Record<string, string> }[])
+      .filter((e) => e.url === stripLang(Astro.url.pathname))
+      .map((e) => ({ id: e.id, anchor: e.anchor, title: e.title[lang], instruction: e.instruction[lang], notice: e.notice[lang] }))
+  : [];
+const exStrings = JSON.stringify({ kicker: t(lang, 'ex.kicker'), loading: t(lang, 'ex.loading'), reset: t(lang, 'ex.reset'), notice: t(lang, 'ex.notice') });
 const termJson = JSON.stringify(terms).replace(/</g, '\\u003c');
 ---
 <Reading title={`${d.title} · ${d.chapterLabel} ${d.chapterTitle}`} description={d.description} part={d.part}
@@ -107,6 +115,44 @@ const termJson = JSON.stringify(terms).replace(/</g, '\\u003c');
     )}
     {!isSpecial && <div class="prose"><Content /></div>}
     {terms.length > 0 && <script type="application/json" data-terms set:html={termJson} />}
+    {explorables.length > 0 && (
+      <>
+        <script type="application/json" data-explorables data-strings={exStrings} set:html={JSON.stringify(explorables).replace(/</g, '\\u003c')} />
+        <script is:inline>
+          // Place explorable placeholders now, before the page is first shown (no layout jump later).
+          (function () {
+            var data = document.querySelector('script[data-explorables]');
+            var prose = document.querySelector('article .prose');
+            if (!data || !prose) return;
+            var S = JSON.parse(data.getAttribute('data-strings') || '{}');
+            var paras = [].filter.call(prose.children, function (c) { return c.tagName === 'P' && (c.textContent || '').trim(); });
+            JSON.parse(data.textContent || '[]').forEach(function (e) {
+              var a = e.anchor, after = null;
+              if (a.indexOf('figure-') === 0) { var f = document.getElementById(a); after = f && (f.closest('figure') || f); }
+              else if (a.indexOf('paragraph ') === 0) after = paras[Number(a.split(' ')[1]) - 1];
+              else after = prose.lastElementChild;
+              if (!after) return;
+              var box = document.createElement('section');
+              box.className = 'explorable';
+              box.setAttribute('data-ex-id', e.id);
+              box.setAttribute('aria-labelledby', 'ex-' + e.id);
+              box.innerHTML = '<header class="ex-head"><span class="ex-kicker"></span><h2 class="ex-title" id="ex-' + e.id + '"></h2><p class="ex-instruction"></p></header>'
+                + '<div class="ex-body" data-ex-body><p class="ex-loading"></p></div>'
+                + '<footer class="ex-foot"><button type="button" class="link-btn" data-ex-reset></button>'
+                + '<details class="ex-notice"><summary></summary><p></p></details></footer>';
+              box.querySelector('.ex-kicker').textContent = S.kicker || '';
+              box.querySelector('.ex-title').textContent = e.title;
+              box.querySelector('.ex-instruction').textContent = e.instruction;
+              box.querySelector('.ex-loading').textContent = S.loading || '';
+              box.querySelector('[data-ex-reset]').textContent = S.reset || '';
+              box.querySelector('.ex-notice summary').textContent = S.notice || '';
+              box.querySelector('.ex-notice p').textContent = e.notice;
+              after.after(box);
+            });
+          })();
+        </script>
+      </>
+    )}
     <SectionEnd trackable={d.type === 'section' || d.type === 'summary'} related={d.type === 'section'}
                 title={`${d.chapterLabel} · ${d.title}`} />
   </article>

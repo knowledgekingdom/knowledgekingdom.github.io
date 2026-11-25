@@ -18,7 +18,7 @@ export const features = {
   offline: true,
   review: true,
   games: true,
-  explorables: false,
+  explorables: true,
   kingdomMap: false,
   atlas: false,
   constellation: false,

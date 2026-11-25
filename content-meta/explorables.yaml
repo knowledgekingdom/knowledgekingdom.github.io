@@ -1,0 +1,100 @@
+# Explorable diagrams (v2 Phase 3): interactive versions that sit next to a figure (or after a
+# paragraph) in a section. The static figure always stays, for print and for readers without
+# JavaScript. The importer never touches this file. Checked by `node scripts/explorables.mjs check`.
+#
+# id          unique id; also the component file src/explorables/<id>.ts
+# section     where it appears ("NNN/section-slug")
+# anchor      "figure-N-M" (after that figure), "paragraph N" (after the Nth paragraph) or "end"
+# title / instruction / notice: English and Bulgarian. "notice" (What to notice) restates the section's
+#             own point; every number the component starts with comes from the section text.
+
+- id: fraud-alarm
+  section: 003/the-fraud-alarm-counted-properly
+  anchor: figure-3-2
+  title: { en: "Count the alarms", bg: "Пребройте сигналите" }
+  instruction: { en: "Change how common fraud is and how good the detector is; each dot is one of 10,000 transactions.", bg: "Променете колко честа е измамата и колко добър е детекторът; всяка точка е една от 10 000 трансакции." }
+  notice: { en: "With fraud at 1%, only about 15% of alerts are real fraud, even though the detector catches 90% of frauds. Raise the base rate to 10% and two in three alerts are real: the software did not change, the population did.", bg: "При 1% измами само около 15% от сигналите са истински измами, макар детекторът да хваща 90% от тях. Вдигнете базовата честота на 10% и два от три сигнала са истински: софтуерът не се е променил, променила се е съвкупността." }
+
+- id: compounding
+  section: 003/compounding-why-time-multiplies-small-differences
+  anchor: figure-3-7
+  title: { en: "Growth on growth", bg: "Растеж върху растеж" }
+  instruction: { en: "Change the yearly rate, the number of years and any yearly addition; compare compound growth with the same rate applied only to the start.", bg: "Променете годишния процент, броя години и евентуална годишна вноска; сравнете сложната лихва със същия процент, приложен само към началото." }
+  notice: { en: "€1,000 at 5% becomes about €1,628.89 after ten years, because each year's gain is calculated on a larger base. The rule of 72 gives a rough doubling time: at 6%, about 12 years (more exactly 11.9).", bg: "1000 € при 5% стават около 1628,89 € след десет години, защото всяка годишна печалба се изчислява върху по-голяма основа. Правилото на 72 дава грубо времето за удвояване: при 6% около 12 години (по-точно 11,9)." }
+
+- id: expected-value
+  section: 003/expected-value-the-average-you-may-never-personally-see
+  anchor: figure-3-4
+  title: { en: "The average you may never see", bg: "Средното, което може никога да не видите" }
+  instruction: { en: "Set the chance and the two outcomes of option B, then play it once or a hundred times.", bg: "Задайте шанса и двата изхода на вариант Б, след това го изиграйте веднъж или сто пъти." }
+  notice: { en: "Option B has the same expected €6 as a certain €6, but in a single play you lose money three times out of four. The average only appears over many plays.", bg: "Вариант Б има същите очаквани 6 € като сигурните 6 €, но при една игра губите пари три пъти от четири. Средното се появява едва при много игри." }
+
+- id: streaks
+  section: 003/small-samples-streaks-and-the-human-search-for-patterns
+  anchor: paragraph 2
+  title: { en: "How often do streaks happen by chance?", bg: "Колко често поредиците се случват случайно?" }
+  instruction: { en: "Choose how many fair coin flips to make, flip them, and see how often a run of five or more turns up by chance.", bg: "Изберете колко пъти да хвърлите честна монета, хвърлете и вижте колко често случайно се появява поредица от пет или повече." }
+  notice: { en: "Five heads in five flips has a probability of 1/32, about 3%. But in a longer sequence some run of five is common: streaks alone are rarely evidence of anything.", bg: "Пет ези от пет хвърляния имат вероятност 1/32, около 3%. Но в по-дълга поредица някаква серия от пет е нещо обичайно: само по себе си една поредица рядко е доказателство за нещо." }
+
+- id: cropped-axis
+  section: 006/reading-graphs-as-arguments
+  anchor: figure-6-3
+  title: { en: "Same numbers, different impression", bg: "Едни и същи числа, различно впечатление" }
+  instruction: { en: "Move where the vertical axis starts and switch between bars and a line.", bg: "Преместете началото на вертикалната ос и превключете между стълбове и линия." }
+  notice: { en: "From zero, a bar of 100 is only about 5.3% taller than 95. Start the axis at 94 and the visible heights are 1 and 6: the second bar looks six times as tall.", bg: "От нулата стълб от 100 е само с около 5,3% по-висок от 95. Започнете оста от 94 и видимите височини са 1 и 6: вторият стълб изглежда шест пъти по-висок." }
+
+- id: hidden-variable
+  section: 006/correlation-a-relationship-not-a-mechanism
+  anchor: figure-6-5
+  title: { en: "The hidden third variable", bg: "Скритата трета променлива" }
+  instruction: { en: "Change how far apart two invented groups sit, then show or hide the groups.", bg: "Променете колко отдалечени са две измислени групи, след това покажете или скрийте групите." }
+  notice: { en: "Two invented groups can show an overall pattern quite unlike the pattern within either group. A factor that separates the groups can create or hide an association.", bg: "Две измислени групи могат да показват обща закономерност, съвсем различна от тази във всяка група. Фактор, който разделя групите, може да създаде или да скрие връзка." }
+
+- id: loops
+  section: 007/reinforcing-feedback-when-change-feeds-more-change
+  anchor: figure-7-3
+  title: { en: "Reinforcing or balancing?", bg: "Подсилваща или балансираща?" }
+  instruction: { en: "Switch the loop type and its strength, then watch twenty steps unfold.", bg: "Превключете вида на кръга и силата му и вижте как се развиват двайсет стъпки." }
+  notice: { en: "A reinforcing loop amplifies change, like interest added to a balance; a balancing loop counteracts deviation and pursues a goal. Real systems eventually meet limits a simple loop leaves out.", bg: "Подсилващият кръг усилва промяната, като лихва, добавена към сметка; балансиращият противодейства на отклонението и се стреми към цел. Реалните системи рано или късно срещат граници, които простият кръг пропуска." }
+
+- id: inventory
+  section: 007/delays-why-sensible-corrections-can-cause-oscillations
+  anchor: figure-7-4
+  title: { en: "The shop with a delivery delay", bg: "Магазинът със забавена доставка" }
+  instruction: { en: "The fictional shop wants 100 boxes and starts with 50. Change the delivery delay, how strongly it corrects, and whether it counts orders already on the way.", bg: "Измисленият магазин иска 100 кашона и започва с 50. Променете забавянето на доставката, колко силно коригира и дали брои вече поръчаното." }
+  notice: { en: "Delay plus aggressive correction and incomplete information can generate cycles. Counting orders already on the way, or correcting more gently, calms the swings.", bg: "Забавяне, силна корекция и непълна информация могат да предизвикат цикли. Ако се броят вече поръчаните стоки или корекцията е по-мека, колебанията стихват." }
+
+- id: projection
+  section: 005/the-impossible-promise-of-a-perfect-map
+  anchor: figure-5-2
+  title: { en: "Drag a region toward the pole", bg: "Плъзнете област към полюса" }
+  instruction: { en: "Move the patch of land north or south on a Mercator grid; its real size never changes.", bg: "Преместете парчето земя на север или юг върху мрежа на Меркатор; истинският му размер не се променя." }
+  notice: { en: "Mercator magnifies areas more and more toward high latitudes. That is how Greenland can look immense next to Africa, although Africa is about fourteen times larger.", bg: "Меркатор увеличава площите все повече към високите ширини. Затова Гренландия може да изглежда огромна до Африка, макар Африка да е около четиринайсет пъти по-голяма." }
+
+- id: relay
+  section: 015/roads-messengers-and-the-speed-of-decisions
+  anchor: figure-15-7
+  title: { en: "Traveller against relay", bg: "Пътник срещу щафета" }
+  instruction: { en: "Set the distance and the two speeds, then start the race.", bg: "Задайте разстоянието и двете скорости и пуснете надпреварата." }
+  notice: { en: "Over 750 km, a traveller at 30 km a day needs 25 days; a relay at 150 km a day needs five. The speeds are a teaching calculation, but the political difference is enormous.", bg: "За 750 км пътник с 30 км на ден има нужда от 25 дни; щафета със 150 км на ден — от пет. Скоростите са учебно пресмятане, но политическата разлика е огромна." }
+
+- id: trade-risk
+  section: 021/commerce-needed-trust-but-power-still-mattered
+  anchor: figure-21-13
+  title: { en: "Profit, risk and ruin", bg: "Печалба, риск и разорение" }
+  instruction: { en: "Change the costs, the sale price, the chance of losing the shipment and the number of voyages.", bg: "Променете разходите, продажната цена, шанса да се загуби пратката и броя на плаванията." }
+  notice: { en: "With a 10% chance of losing everything, the expected gain is 22 units, yet losing the 230 paid could bankrupt a household. Expected value is not the whole of risk management.", bg: "При 10% шанс да се загуби всичко очакваната печалба е 22 единици, но загубата на платените 230 може да разори едно домакинство. Очакваната стойност не е цялото управление на риска." }
+
+- id: forage
+  section: 022/the-supply-problem-horses-are-not-fuel-free-machines
+  anchor: figure-22-4
+  title: { en: "Horses are not fuel-free", bg: "Конете не са машини без гориво" }
+  instruction: { en: "Change the riders, the horses each rider brings, the daily forage per horse and the days on the move.", bg: "Променете ездачите, конете на ездач, дневния фураж на кон и дните в поход." }
+  notice: { en: "8,000 riders with three horses each means 24,000 horses; at 7 kg of forage each, that is 168 tonnes every day. Numbers turn a vague word such as logistics into a physical constraint.", bg: "8000 ездачи с по три коня означават 24 000 коня; при 7 кг фураж всеки това са 168 тона всеки ден. Числата превръщат неясна дума като „логистика“ във физическо ограничение." }
+
+- id: deep-time-clock
+  section: 009/a-timeline-that-changes-the-scale-of-everything
+  anchor: paragraph 2
+  title: { en: "Three million years in one month", bg: "Три милиона години в един месец" }
+  instruction: { en: "Slide through a 30-day month in which each day stands for 100,000 years.", bg: "Плъзнете през месец от 30 дни, в който всеки ден е 100 000 години." }
+  notice: { en: "Our species' roughly 300,000 years fill only the last three days; the last 12,000 years about 2.9 hours; writing about 72 minutes at the very end.", bg: "Около 300 000-те години на нашия вид заемат само последните три дни; последните 12 000 години — около 2,9 часа; писмеността — около 72 минути в самия край." }
