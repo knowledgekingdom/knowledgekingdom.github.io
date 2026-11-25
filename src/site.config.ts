@@ -4,11 +4,11 @@ export const site = {
   /** Canonical origin, used for sitemap / Open Graph. Change this if you add your own domain. */
   url: 'https://knowledgekingdom.github.io',
   /**
-   * GoatCounter site code (https://knowledgekingdom.goatcounter.com) for privacy-friendly
+   * GoatCounter site code (https://semirk24.goatcounter.com) for privacy-friendly
    * visitor counts: no cookies, no personal data. Set to '' to turn analytics off.
    * Visits from localhost are never counted.
    */
-  goatcounter: 'knowledgekingdom',
+  goatcounter: 'semirk24',
   /** Footer line. `{year}` is replaced with the current year at build time. */
   footer: '© {year} Semir. Written with AI assistance',
   /** Short description used on the homepage and as the default meta description. */

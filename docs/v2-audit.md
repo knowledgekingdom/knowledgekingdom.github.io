@@ -12,7 +12,7 @@ exists instead of rebuilding it.
 - **Hosting:** GitHub Pages, deployed by GitHub Actions on every push (`npm ci && npm run build`, Node 24).
 - **Search:** Pagefind, built after Astro (`astro build && pagefind --site dist`), loaded on demand.
 - **Analytics:** GoatCounter script (no cookies) in `Base.astro`, production builds only.
-  The account `knowledgekingdom` must still be created by Semir before counts are kept.
+  Account: semirk24.goatcounter.com.
 - **Windows:** Smart App Control blocks three unsigned native helpers (Astro compiler, oxc parser,
   Markdown renderer); `scripts/windows-wasm-fallback.mjs` installs their WebAssembly versions locally.
 

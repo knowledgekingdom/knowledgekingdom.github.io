@@ -36,7 +36,7 @@ The live site is **https://knowledgekingdom.github.io/**. The `.docx` files are 
 
 ## Visitor statistics
 
-The site counts visits with [GoatCounter](https://www.goatcounter.com): free, no cookies, no personal data, so no cookie banner is needed. See your numbers at **https://knowledgekingdom.goatcounter.com**. Bulgarian pages show up with paths starting `/bg/`. Visits from your own computer while testing (localhost) are not counted. To turn it off, set `goatcounter: ''` in `src/site.config.ts`.
+The site counts visits with [GoatCounter](https://www.goatcounter.com): free, no cookies, no personal data, so no cookie banner is needed. See your numbers at **https://semirk24.goatcounter.com**. Bulgarian pages show up with paths starting `/bg/`. Visits from your own computer while testing (localhost) are not counted. To turn it off, set `goatcounter: ''` in `src/site.config.ts`.
 
 **Reading the dashboard:** the main graph is page views per day; below it, **Pages** lists the most-read pages, and the **Sizes** box shows phones vs tablets vs computers (by screen width). Feature use appears in **Pages** as *events* (marked with an "event" label), named after what happened: `flashcards-start/002` (someone started chapter 002's flashcards), `progress-export`, `progress-import`, and later `review-start`, `game-play/…`, `map-open`, `listen-start`. Each is counted at most once per page view. Event counting can be switched off with `analyticsEvents: false` in `src/config/features.ts`.
 
