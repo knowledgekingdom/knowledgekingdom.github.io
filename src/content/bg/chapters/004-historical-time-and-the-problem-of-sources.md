@@ -14,7 +14,7 @@ description: "Миналото го няма, но не е изчезнало б
 status: "REVISED DRAFT"
 edition: 41
 sectionCount: 21
-readingTime: 42
+readingTime: 45
 openingReadingTime: 3
 ---
 

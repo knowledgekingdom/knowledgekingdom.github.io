@@ -14,7 +14,7 @@ description: "How the combination of machinery, fossil energy, investment and so
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 39
+readingTime: 42
 openingReadingTime: 2
 ---
 

@@ -1,14 +1,11 @@
-// Reading progress, "Continue reading" and print helpers. Runs on every page.
-// Progress lives in this browser only (localStorage), shared by English and Bulgarian:
-// keys are language-neutral paths like "/001-how-to-know-what-is-true/following-a-claim-upstream/".
-// Every storage access is wrapped: in private windows or with storage blocked, the site
-// simply works without progress.
+// Reading progress, "Continue reading", progress export/import and print helpers. Runs on
+// every page. All data goes through the reader-state store (src/lib/reader-state.ts): it
+// lives in this browser only and is shared by English and Bulgarian (keys are
+// language-neutral paths like "/001-how-to-know-what-is-true/following-a-claim-upstream/").
+import { store } from './reader';
+import { track } from '../lib/analytics';
 
-const READ_KEY = 'kk-read';
-const LAST_KEY = 'kk-last';
 const AUTO_MARK_AFTER_MS = 10_000; // reaching the end only counts after 10 s on the page
-
-type Last = { path: string; titles: Record<string, string> };
 
 const lang = document.documentElement.lang === 'bg' ? 'bg' : 'en';
 const plain = (p: string) => p.replace(/^\/bg(?=\/)/, '');
@@ -16,28 +13,12 @@ const local = (p: string) => (lang === 'bg' ? `/bg${p}` : p);
 const fill = (s: string, vars: Record<string, string | number>) =>
   s.replace(/\{(\w+)\}/g, (_, k) => String(vars[k] ?? ''));
 
-function readJson<T>(key: string, fallback: T): T {
-  try {
-    const v = JSON.parse(localStorage.getItem(key) || 'null');
-    return v && typeof v === 'object' ? (v as T) : fallback;
-  } catch {
-    return fallback;
-  }
-}
-function writeJson(key: string, value: unknown) {
-  try {
-    if (value === null) localStorage.removeItem(key);
-    else localStorage.setItem(key, JSON.stringify(value));
-  } catch { /* storage unavailable: progress just isn't kept */ }
-}
-
-let read: Record<string, number> = readJson(READ_KEY, {});
-
 function chapterOf(path: string) {
   return path.match(/^\/[^/]+\//)?.[0] ?? '';
 }
 
 function paint() {
+  const read = store.state.read;
   const perChapter: Record<string, number> = {};
   for (const p of Object.keys(read)) {
     const ch = chapterOf(p);
@@ -79,25 +60,22 @@ if (toggle) {
   const label = toggle.querySelector('[data-read-label]')!;
   let userUnmarked = false;
   const render = () => {
-    const on = Boolean(read[path]);
+    const on = store.isRead(path);
     toggle.setAttribute('aria-pressed', String(on));
     toggle.classList.toggle('is-read', on);
     label.textContent = on ? toggle.dataset.labelDone! : toggle.dataset.labelMark!;
     toggle.title = on ? toggle.dataset.labelUnmark! : '';
   };
-  const set = (on: boolean) => {
-    read = readJson(READ_KEY, {}); // another tab may have changed it
-    if (on) read[path] = Math.floor(Date.now() / 1000);
-    else delete read[path];
-    writeJson(READ_KEY, read);
-    render();
-    paint();
-  };
+  const set = (on: boolean) => store.update((s) => {
+    if (on) s.read[path] = Math.floor(Date.now() / 1000);
+    else delete s.read[path];
+  });
+  store.subscribe(render);
   toggle.hidden = false;
   document.querySelector<HTMLElement>('[data-read-hint]')?.removeAttribute('hidden');
   render();
   toggle.addEventListener('click', () => {
-    const on = !read[path];
+    const on = !store.isRead(path);
     if (!on) userUnmarked = true;
     set(on);
   });
@@ -107,44 +85,87 @@ if (toggle) {
   if ('IntersectionObserver' in window) {
     const io = new IntersectionObserver((entries) => {
       for (const e of entries) {
-        if (!e.isIntersecting || userUnmarked || read[path]) continue;
+        if (!e.isIntersecting || userUnmarked || store.isRead(path)) continue;
         const wait = AUTO_MARK_AFTER_MS - (performance.now() - opened);
         setTimeout(() => {
-          if (!userUnmarked && !read[path] && e.target.getBoundingClientRect().top < innerHeight) set(true);
+          if (!userUnmarked && !store.isRead(path) && e.target.getBoundingClientRect().top < innerHeight) set(true);
         }, Math.max(0, wait));
       }
     }, { threshold: 0.5 });
     io.observe(toggle);
   }
 
-  // Remember the last section for "Continue reading" (titles kept per language).
-  const prev = readJson<Last | null>(LAST_KEY, null);
-  const titles = prev && prev.path === path ? prev.titles : {};
-  writeJson(LAST_KEY, { path, titles: { ...titles, [lang]: toggle.dataset.title ?? '' } } satisfies Last);
+  // Remember the last section and how far down it was read, for "Continue reading"
+  // (titles kept per language). Saved when the reader pauses scrolling or leaves.
+  const scrolled = () => {
+    const max = document.documentElement.scrollHeight - innerHeight;
+    return max > 0 ? Math.min(1, Math.max(0, scrollY / max)) : 0;
+  };
+  const remember = () => store.update((s) => {
+    const titles = s.last?.path === path ? s.last.titles : {};
+    s.last = { path, scroll: Math.round(scrolled() * 1000) / 1000, at: Math.floor(Date.now() / 1000),
+      titles: { ...titles, [lang]: toggle.dataset.title ?? '' } };
+  });
+  remember();
+  let timer = 0;
+  addEventListener('scroll', () => { clearTimeout(timer); timer = window.setTimeout(remember, 800); }, { passive: true });
+  addEventListener('pagehide', remember);
 }
 
-// --- Homepage: continue reading and reset ---------------------------------------
+// --- Homepage: continue reading, reset, export / import ----------------------------
 const cont = document.querySelector<HTMLAnchorElement>('[data-continue]');
-if (cont) {
-  const last = readJson<Last | null>(LAST_KEY, null);
-  if (last?.path) {
-    cont.href = local(last.path);
-    const title = last.titles?.[lang] || Object.values(last.titles ?? {})[0] || '';
-    cont.querySelector('[data-continue-title]')!.textContent = title;
-    cont.hidden = false;
-    document.querySelector('[data-start]')?.classList.remove('btn-primary');
-  }
-}
+const showContinue = () => {
+  if (!cont) return;
+  const last = store.state.last;
+  cont.hidden = !last?.path;
+  document.querySelector('[data-start]')?.classList.toggle('btn-primary', !last?.path);
+  if (!last?.path) return;
+  cont.href = local(last.path);
+  const title = last.titles?.[lang] || Object.values(last.titles ?? {})[0] || '';
+  cont.querySelector('[data-continue-title]')!.textContent = title;
+};
+showContinue();
+store.subscribe(showContinue);
+
 document.querySelector<HTMLButtonElement>('[data-progress-reset]')?.addEventListener('click', (e) => {
   const btn = e.currentTarget as HTMLButtonElement;
   if (!confirm(btn.dataset.confirm ?? '')) return;
-  read = {};
-  writeJson(READ_KEY, null);
-  writeJson(LAST_KEY, null);
-  if (cont) cont.hidden = true;
-  document.querySelector('[data-start]')?.classList.add('btn-primary');
-  paint();
+  store.reset();
 });
+
+const transfer = document.querySelector<HTMLElement>('[data-transfer]');
+if (transfer) {
+  const status = transfer.querySelector<HTMLElement>('[data-transfer-status]')!;
+  const say = (msg: string) => { status.textContent = msg; };
+  transfer.hidden = false;
+  transfer.querySelector('[data-export]')!.addEventListener('click', () => {
+    const blob = new Blob([store.exportJson()], { type: 'application/json' });
+    const a = Object.assign(document.createElement('a'), {
+      href: URL.createObjectURL(blob),
+      download: `knowledge-kingdom-progress-${new Date().toISOString().slice(0, 10)}.json`,
+    });
+    document.body.append(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    say(transfer.dataset.exported ?? '');
+    track('progress-export');
+  });
+  const file = transfer.querySelector<HTMLInputElement>('[data-import-file]')!;
+  transfer.querySelector('[data-import]')!.addEventListener('click', () => file.click());
+  file.addEventListener('change', async () => {
+    const f = file.files?.[0];
+    file.value = '';
+    if (!f) return;
+    const res = f.size > 5_000_000 ? { ok: false as const, error: 'format' as const } : store.importJson(await f.text(), 'merge');
+    if (res.ok) {
+      say(fill(transfer.dataset.imported ?? '', { n: res.read }));
+      track('progress-import');
+    } else {
+      say((res.error === 'newer' ? transfer.dataset.errorNewer : transfer.dataset.errorFormat) ?? '');
+    }
+  });
+}
 
 // --- Printing ---------------------------------------------------------------------
 // Open every collapsed answer and contents box for the printout, then restore them.
@@ -162,12 +183,6 @@ document.querySelectorAll<HTMLButtonElement>('[data-print]').forEach((b) => {
   b.addEventListener('click', () => print());
 });
 
-// Keep other tabs in sync.
-addEventListener('storage', (e) => {
-  if (e.key === READ_KEY) {
-    read = readJson(READ_KEY, {});
-    paint();
-  }
-});
-
+// Repaint whenever progress changes (here, or in another tab).
+store.subscribe(paint);
 paint();

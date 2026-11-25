@@ -14,7 +14,7 @@ description: "Как хората започнали да оформят рас�
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 22
-readingTime: 33
+readingTime: 41
 openingReadingTime: 2
 ---
 

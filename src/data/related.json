@@ -65,7 +65,7 @@
     "/004-historical-time-and-the-problem-of-sources/the-past-leaves-traces-not-finished-stories/",
     "/001-how-to-know-what-is-true/a-three-speed-method-for-checking-claims/"
   ],
-  "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim-and-a/": [
+  "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim/": [
     "/001-how-to-know-what-is-true/four-statements-that-sound-similar-but-do-different-work/",
     "/002-logic-arguments-and-common-fallacies/the-fallacy-fallacy-and-why-disagreement-remains-difficult/",
     "/002-logic-arguments-and-common-fallacies/facts-definitions-predictions-and-values/",
@@ -74,7 +74,7 @@
   "/001-how-to-know-what-is-true/what-does-it-mean-to-know-something/": [
     "/004-historical-time-and-the-problem-of-sources/a-historians-working-method-from-question-to-account/",
     "/002-logic-arguments-and-common-fallacies/circular-arguments-moving-goalposts-and-the-burden-of-proof/",
-    "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim-and-a/",
+    "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim/",
     "/002-logic-arguments-and-common-fallacies/why-fallacies-are-more-than-a-list-of-latin-names/"
   ],
   "/001-how-to-know-what-is-true/what-science-can-offer-and-what-it-cannot-settle-alone/": [
@@ -116,14 +116,14 @@
   "/002-logic-arguments-and-common-fallacies/case-study-the-city-center-car-restriction/": [
     "/002-logic-arguments-and-common-fallacies/straw-men-steel-men-and-the-temptation-to-win/",
     "/034-industrialization-and-urban-society/a-city-is-an-infrastructure-system/",
-    "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history-but/",
+    "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history/",
     "/001-how-to-know-what-is-true/cognitive-bias-when-our-own-minds-become-part-of-the-problem/"
   ],
   "/002-logic-arguments-and-common-fallacies/circular-arguments-moving-goalposts-and-the-burden-of-proof/": [
     "/002-logic-arguments-and-common-fallacies/valid-is-not-the-same-as-true/",
     "/001-how-to-know-what-is-true/the-danger-of-becoming-certain-that-nobody-knows-anything/",
     "/001-how-to-know-what-is-true/what-does-it-mean-to-know-something/",
-    "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim-and-a/"
+    "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim/"
   ],
   "/002-logic-arguments-and-common-fallacies/facts-definitions-predictions-and-values/": [
     "/001-how-to-know-what-is-true/four-statements-that-sound-similar-but-do-different-work/",
@@ -162,14 +162,14 @@
   "/002-logic-arguments-and-common-fallacies/straw-men-steel-men-and-the-temptation-to-win/": [
     "/002-logic-arguments-and-common-fallacies/case-study-the-city-center-car-restriction/",
     "/001-how-to-know-what-is-true/cognitive-bias-when-our-own-minds-become-part-of-the-problem/",
-    "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history-but/",
+    "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history/",
     "/008-how-to-learn-and-remember/notes-should-help-future-thinking/"
   ],
   "/002-logic-arguments-and-common-fallacies/the-anatomy-of-a-reasoned-claim/": [
     "/002-logic-arguments-and-common-fallacies/circular-arguments-moving-goalposts-and-the-burden-of-proof/",
     "/001-how-to-know-what-is-true/four-statements-that-sound-similar-but-do-different-work/",
     "/007-systems-thinking-and-feedback-loops/mapping-a-system-without-inventing-certainty/",
-    "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim-and-a/"
+    "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim/"
   ],
   "/002-logic-arguments-and-common-fallacies/the-fallacy-fallacy-and-why-disagreement-remains-difficult/": [
     "/002-logic-arguments-and-common-fallacies/why-fallacies-are-more-than-a-list-of-latin-names/",
@@ -187,7 +187,7 @@
     "/002-logic-arguments-and-common-fallacies/circular-arguments-moving-goalposts-and-the-burden-of-proof/",
     "/001-how-to-know-what-is-true/what-does-it-mean-to-know-something/",
     "/001-how-to-know-what-is-true/four-statements-that-sound-similar-but-do-different-work/",
-    "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim-and-a/"
+    "/001-how-to-know-what-is-true/three-investigations-a-photograph-a-historical-claim/"
   ],
   "/002-logic-arguments-and-common-fallacies/when-the-speaker-becomes-the-target/": [
     "/002-logic-arguments-and-common-fallacies/the-fallacy-fallacy-and-why-disagreement-remains-difficult/",
@@ -305,7 +305,7 @@
   ],
   "/003-probability-risk-and-everyday-numbers/why-sensible-people-buy-insurance/": [
     "/003-probability-risk-and-everyday-numbers/expected-value-the-average-you-may-never-personally-see/",
-    "/029-atlantic-slavery-and-plantation-economies/credit-insurance-and-the-commercial-infrastructure-of/",
+    "/029-atlantic-slavery-and-plantation-economies/credit-insurance-and-the-commercial-infrastructure/",
     "/007-systems-thinking-and-feedback-loops/why-stocks-produce-inertia-resilience-and-surprise/",
     "/021-medieval-eurasia-and-the-silk-roads/commerce-needed-trust-but-power-still-mattered/"
   ],
@@ -327,7 +327,7 @@
     "/004-historical-time-and-the-problem-of-sources/case-study-how-bulgaria-became-independent/",
     "/012-ancient-egypt-and-the-nile/a-year-measured-in-water/"
   ],
-  "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted-to/": [
+  "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted/": [
     "/018-africa-kingdoms-networks-and-cities/southern-africa-mapungubwe-and-great-zimbabwe/",
     "/018-africa-kingdoms-networks-and-cities/power-after-great-zimbabwe-changing-centers/",
     "/018-africa-kingdoms-networks-and-cities/a-historians-workshop-three-contested-claims/",
@@ -389,7 +389,7 @@
   ],
   "/004-historical-time-and-the-problem-of-sources/place-is-evidence-too/": [
     "/005-geography-maps-and-scale/the-political-map-borders-sovereignty-and-contested-space/",
-    "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history-but/",
+    "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history/",
     "/035-imperialism-and-african-partition/understanding-a-colonial-map/",
     "/021-medieval-eurasia-and-the-silk-roads/the-geography-of-exchange-why-roads-followed-constraints/"
   ],
@@ -430,7 +430,7 @@
     "/001-how-to-know-what-is-true/the-danger-of-becoming-certain-that-nobody-knows-anything/"
   ],
   "/005-geography-maps-and-scale/a-geographical-investigation-you-can-conduct-yourself/": [
-    "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history-but/",
+    "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history/",
     "/034-industrialization-and-urban-society/southeastern-europe-and-the-balkans/",
     "/004-historical-time-and-the-problem-of-sources/place-is-evidence-too/",
     "/026-indian-ocean-commerce-and-asian-powers/ports-as-cities-prosperity-was-constructed/"
@@ -476,7 +476,7 @@
     "/005-geography-maps-and-scale/what-exactly-does-geography-study/",
     "/023-europe-byzantium-and-the-ottoman-emergence/the-steppe-remained-in-the-balkans-after-the-mongol/"
   ],
-  "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways-and/": [
+  "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways/": [
     "/026-indian-ocean-commerce-and-asian-powers/java-and-the-indonesian-archipelago-producers-and-political/",
     "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/",
     "/026-indian-ocean-commerce-and-asian-powers/the-ocean-was-a-system-of-connected-seas/",
@@ -488,7 +488,7 @@
     "/027-european-maritime-expansion/the-pacific-was-a-world-of-its-own/",
     "/013-the-indus-valley-civilization/begin-with-a-map-not-a-legend/"
   ],
-  "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography-of/": [
+  "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography/": [
     "/012-ancient-egypt-and-the-nile/a-river-flowing-toward-the-north/",
     "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/",
     "/013-the-indus-valley-civilization/begin-with-a-map-not-a-legend/",
@@ -525,7 +525,7 @@
     "/037-the-balkans-and-the-eastern-question/geography-mountains-rivers-and-the-maritime-gateways/"
   ],
   "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/": [
-    "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography-of/",
+    "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography/",
     "/012-ancient-egypt-and-the-nile/a-river-flowing-toward-the-north/",
     "/014-ancient-china-dynasties-and-statecraft/start-with-geography-more-than-one-river-valley/",
     "/011-mesopotamia-and-the-first-states/a-landscape-that-demanded-ingenuity/"
@@ -542,7 +542,7 @@
     "/026-indian-ocean-commerce-and-asian-powers/monsoons-nature-as-a-commercial-calendar/",
     "/019-the-americas-before-european-conquest/the-andean-world-mountains-coast-and-vertical-economies/"
   ],
-  "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history-but/": [
+  "/005-geography-maps-and-scale/why-geography-matters-for-wars-economies-and-history/": [
     "/005-geography-maps-and-scale/regional-case-study-bulgaria-and-the-balkans/",
     "/004-historical-time-and-the-problem-of-sources/place-is-evidence-too/",
     "/035-imperialism-and-african-partition/the-colonial-economy-development-extraction-or-both/",
@@ -662,7 +662,7 @@
     "/003-probability-risk-and-everyday-numbers/how-statistics-become-misleading-without-any-false/",
     "/001-how-to-know-what-is-true/reading-a-research-headline-without-being-fooled/"
   ],
-  "/006-reading-data-charts-and-statistics/time-series-where-the-chosen-starting-point-becomes-the/": [
+  "/006-reading-data-charts-and-statistics/time-series-where-the-chosen-starting-point-becomes/": [
     "/006-reading-data-charts-and-statistics/spread-outliers-and-why-the-middle-is-never-the-whole-story/",
     "/007-systems-thinking-and-feedback-loops/nonlinearity-thresholds-and-tipping-points/",
     "/007-systems-thinking-and-feedback-loops/economic-cycles-stocks-expectations-and-delayed-adjustment/",
@@ -729,7 +729,7 @@
     "/007-systems-thinking-and-feedback-loops/a-practical-systems-thinking-toolkit/"
   ],
   "/007-systems-thinking-and-feedback-loops/networks-bottlenecks-and-the-weakest-link/": [
-    "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same-as/",
+    "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same/",
     "/003-probability-risk-and-everyday-numbers/three-simple-rules-for-combining-chances/",
     "/019-the-americas-before-european-conquest/the-road-and-the-storehouse-infrastructure-as-government/",
     "/034-industrialization-and-urban-society/invention-science-and-the-second-industrial-transformation/"
@@ -737,7 +737,7 @@
   "/007-systems-thinking-and-feedback-loops/nonlinearity-thresholds-and-tipping-points/": [
     "/007-systems-thinking-and-feedback-loops/what-is-a-system-and-what-is-not/",
     "/003-probability-risk-and-everyday-numbers/variability-two-roads-with-the-same-average/",
-    "/006-reading-data-charts-and-statistics/time-series-where-the-chosen-starting-point-becomes-the/",
+    "/006-reading-data-charts-and-statistics/time-series-where-the-chosen-starting-point-becomes/",
     "/006-reading-data-charts-and-statistics/confidence-intervals-being-precise-about-imprecision/"
   ],
   "/007-systems-thinking-and-feedback-loops/politics-and-the-security-dilemma/": [
@@ -884,7 +884,7 @@
     "/005-geography-maps-and-scale/soils-ecosystems-and-why-fertile-land-is-not-enough/"
   ],
   "/009-human-evolution-and-the-first-migrations/crossing-water-the-settlement-of-sahul/": [
-    "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process-not-an/",
+    "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process/",
     "/010-the-agricultural-revolution/new-guinea-a-revolution-without-grain-fields/",
     "/026-indian-ocean-commerce-and-asian-powers/the-ocean-was-a-system-of-connected-seas/",
     "/005-geography-maps-and-scale/a-mental-atlas-regions-that-connect-the-global-story/"
@@ -920,7 +920,7 @@
     "/014-ancient-china-dynasties-and-statecraft/a-working-toolkit-how-to-investigate-an-early-chinese-claim/"
   ],
   "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/": [
-    "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process-not-an/",
+    "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process/",
     "/013-the-indus-valley-civilization/ancient-dna-powerful-evidence-with-careful-limits/",
     "/018-africa-kingdoms-networks-and-cities/languages-farming-and-the-long-bantu-expansions/",
     "/028-the-columbian-exchange/how-we-know-archaeology-genetics-and-documents/"
@@ -931,7 +931,7 @@
     "/010-the-agricultural-revolution/cultivation-is-not-the-same-as-domestication/",
     "/028-the-columbian-exchange/how-we-know-archaeology-genetics-and-documents/"
   ],
-  "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process-not-an/": [
+  "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process/": [
     "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/",
     "/013-the-indus-valley-civilization/ancient-dna-powerful-evidence-with-careful-limits/",
     "/005-geography-maps-and-scale/a-mental-atlas-regions-that-connect-the-global-story/",
@@ -1114,7 +1114,7 @@
   "/011-mesopotamia-and-the-first-states/babylon-and-hammurabi-what-the-famous-code-really-tells-us/": [
     "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/",
     "/015-persia-and-the-politics-of-empire/religion-and-kingship-ahuramazda-without-anachronism/",
-    "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon-and/",
+    "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon/",
     "/015-persia-and-the-politics-of-empire/babylon-539-bce-conquest-as-a-change-of-language/"
   ],
   "/011-mesopotamia-and-the-first-states/before-sumer-villages-temples-and-the-ubaid-world/": [
@@ -1235,7 +1235,7 @@
     "/011-mesopotamia-and-the-first-states/sumer-was-not-one-unified-country/",
     "/007-systems-thinking-and-feedback-loops/politics-and-the-security-dilemma/",
     "/004-historical-time-and-the-problem-of-sources/historical-causes-sparks-structures-and-choices/",
-    "/035-imperialism-and-african-partition/why-the-late-nineteenth-century-multiple-engines-of/"
+    "/035-imperialism-and-african-partition/why-the-late-nineteenth-century-multiple-engines/"
   ],
   "/011-mesopotamia-and-the-first-states/women-power-and-the-case-of-enheduanna/": [
     "/011-mesopotamia-and-the-first-states/sargon-and-the-ambitions-of-empire/",
@@ -1250,7 +1250,7 @@
     "/014-ancient-china-dynasties-and-statecraft/shang-power-a-king-among-other-powers/"
   ],
   "/012-ancient-egypt-and-the-nile/a-river-flowing-toward-the-north/": [
-    "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography-of/",
+    "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography/",
     "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/",
     "/014-ancient-china-dynasties-and-statecraft/start-with-geography-more-than-one-river-valley/",
     "/018-africa-kingdoms-networks-and-cities/a-historians-map-environments-as-connections-and-constraints/"
@@ -1271,10 +1271,10 @@
     "/012-ancient-egypt-and-the-nile/essential-timeline-chapter-012/",
     "/017-rome-republic-empire-and-afterlives/the-hellenistic-bridge-the-mediterranean-after-alexander/",
     "/018-africa-kingdoms-networks-and-cities/the-nile-south-of-egypt-kerma-kush-and-changing-power/",
-    "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest-and/"
+    "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest/"
   ],
   "/012-ancient-egypt-and-the-nile/amarna-when-a-ruler-tried-to-change-the-gods/": [
-    "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon-and/",
+    "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon/",
     "/012-ancient-egypt-and-the-nile/a-new-kingdom-that-looked-outward/",
     "/011-mesopotamia-and-the-first-states/temples-worship-work-and-legitimacy/",
     "/014-ancient-china-dynasties-and-statecraft/fu-hao-a-woman-visible-in-an-unusually-rich-record/"
@@ -1331,7 +1331,7 @@
     "/011-mesopotamia-and-the-first-states/why-empires-fracture-the-end-of-akkadian-rule/",
     "/012-ancient-egypt-and-the-nile/after-the-new-kingdom-fragmentation-and-new-rulers/",
     "/018-africa-kingdoms-networks-and-cities/power-after-great-zimbabwe-changing-centers/",
-    "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest-and/"
+    "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest/"
   ],
   "/012-ancient-egypt-and-the-nile/the-middle-kingdom-reunification-and-a-different-political/": [
     "/012-ancient-egypt-and-the-nile/nubia-was-not-egypts-passive-southern-backdrop/",
@@ -1389,7 +1389,7 @@
   ],
   "/013-the-indus-valley-civilization/ancient-dna-powerful-evidence-with-careful-limits/": [
     "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/",
-    "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process-not-an/",
+    "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process/",
     "/028-the-columbian-exchange/how-we-know-archaeology-genetics-and-documents/",
     "/009-human-evolution-and-the-first-migrations/the-emergence-of-homo-sapiens-was-not-a-single-moment/"
   ],
@@ -1397,7 +1397,7 @@
     "/013-the-indus-valley-civilization/trade-overland-and-across-the-sea/",
     "/014-ancient-china-dynasties-and-statecraft/start-with-geography-more-than-one-river-valley/",
     "/012-ancient-egypt-and-the-nile/a-river-flowing-toward-the-north/",
-    "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography-of/"
+    "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography/"
   ],
   "/013-the-indus-valley-civilization/bricks-proportions-weights-and-the-problem-of-trust/": [
     "/013-the-indus-valley-civilization/harappa-a-city-that-grew-in-stages/",
@@ -1463,7 +1463,7 @@
     "/013-the-indus-valley-civilization/begin-with-a-map-not-a-legend/",
     "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/",
     "/014-ancient-china-dynasties-and-statecraft/start-with-geography-more-than-one-river-valley/",
-    "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography-of/"
+    "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography/"
   ],
   "/013-the-indus-valley-civilization/the-dates-development-rather-than-a-sudden-birth/": [
     "/013-the-indus-valley-civilization/essential-timeline-chapter-013/",
@@ -1541,7 +1541,7 @@
     "/014-ancient-china-dynasties-and-statecraft/anyang-where-archaeology-meets-writing/",
     "/013-the-indus-valley-civilization/a-civilizations-importance-does-not-depend-on-decipherment/",
     "/013-the-indus-valley-civilization/craftspeople-materials-and-technical-intelligence/",
-    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted-to/"
+    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted/"
   ],
   "/014-ancient-china-dynasties-and-statecraft/bronze-bells-ceremonial-order-and-political-memory/": [
     "/014-ancient-china-dynasties-and-statecraft/western-zhou-rule-kinship-bronze-inscriptions-and-regional/",
@@ -1673,7 +1673,7 @@
     "/015-persia-and-the-politics-of-empire/the-crisis-of-522-bce-and-dariuss-account-of-legitimacy/",
     "/011-mesopotamia-and-the-first-states/an-ordinary-persons-city-and-the-limits-of-our-sources/",
     "/032-atlantic-revolutions-and-citizenship/a-source-workshop-a-declaration-and-the-people-outside-it/",
-    "/016-the-greek-world-and-its-political-experiments/herodotus-and-thucydides-two-historians-two-kinds-of/"
+    "/016-the-greek-world-and-its-political-experiments/herodotus-and-thucydides-two-historians-two-kinds/"
   ],
   "/015-persia-and-the-politics-of-empire/alexanders-conquest-military-victory-and-administrative/": [
     "/017-rome-republic-empire-and-afterlives/the-hellenistic-bridge-the-mediterranean-after-alexander/",
@@ -1694,7 +1694,7 @@
     "/012-ancient-egypt-and-the-nile/before-the-pharaohs-the-valley-was-already-changing/"
   ],
   "/015-persia-and-the-politics-of-empire/clay-tablets-below-the-monuments-seeing-the-empire-at-work/": [
-    "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon-and/",
+    "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon/",
     "/011-mesopotamia-and-the-first-states/an-ordinary-persons-city-and-the-limits-of-our-sources/",
     "/011-mesopotamia-and-the-first-states/how-historians-turn-a-broken-tablet-into-an-argument/",
     "/011-mesopotamia-and-the-first-states/the-invention-of-writing-was-not-a-single-flash-of-genius/"
@@ -1718,7 +1718,7 @@
     "/011-mesopotamia-and-the-first-states/sargon-and-the-ambitions-of-empire/"
   ],
   "/015-persia-and-the-politics-of-empire/imperial-achievement-without-imperial-romance/": [
-    "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon-and/",
+    "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon/",
     "/017-rome-republic-empire-and-afterlives/rome-in-comparison-what-can-empire-teach-us/",
     "/022-the-mongols-and-the-connected-world/the-historians-comparison-mongols-romans-and-persians/",
     "/011-mesopotamia-and-the-first-states/sargon-and-the-ambitions-of-empire/"
@@ -1727,7 +1727,7 @@
     "/015-persia-and-the-politics-of-empire/cyrus-from-regional-ruler-to-imperial-founder/",
     "/016-the-greek-world-and-its-political-experiments/the-persian-wars-shared-danger-divided-greece/",
     "/016-the-greek-world-and-its-political-experiments/the-alphabet-oral-performance-and-a-shared-cultural-world/",
-    "/016-the-greek-world-and-its-political-experiments/herodotus-and-thucydides-two-historians-two-kinds-of/"
+    "/016-the-greek-world-and-its-political-experiments/herodotus-and-thucydides-two-historians-two-kinds/"
   ],
   "/015-persia-and-the-politics-of-empire/many-languages-one-political-order/": [
     "/015-persia-and-the-politics-of-empire/a-source-workshop-hearing-four-different-voices/",
@@ -1751,7 +1751,7 @@
     "/022-the-mongols-and-the-connected-world/the-great-relay-system-messages-and-imperial-power/",
     "/019-the-americas-before-european-conquest/the-road-and-the-storehouse-infrastructure-as-government/",
     "/020-the-rise-of-islam-and-the-caliphates/worked-reasoning-how-large-can-a-province-be-governed/",
-    "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same-as/"
+    "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same/"
   ],
   "/015-persia-and-the-politics-of-empire/satraps-ruling-across-distance/": [
     "/014-ancient-china-dynasties-and-statecraft/western-zhou-rule-kinship-bronze-inscriptions-and-regional/",
@@ -1793,7 +1793,7 @@
     "/016-the-greek-world-and-its-political-experiments/the-persian-wars-shared-danger-divided-greece/",
     "/015-persia-and-the-politics-of-empire/the-empire-after-xerxes-not-just-a-long-decline/",
     "/016-the-greek-world-and-its-political-experiments/beyond-athens-versus-sparta-corinth-thebes-and-macedonia/",
-    "/016-the-greek-world-and-its-political-experiments/herodotus-and-thucydides-two-historians-two-kinds-of/"
+    "/016-the-greek-world-and-its-political-experiments/herodotus-and-thucydides-two-historians-two-kinds/"
   ],
   "/015-persia-and-the-politics-of-empire/the-iranian-plateau-geography-without-destiny/": [
     "/013-the-indus-valley-civilization/begin-with-a-map-not-a-legend/",
@@ -1801,14 +1801,14 @@
     "/014-ancient-china-dynasties-and-statecraft/start-with-geography-more-than-one-river-valley/",
     "/021-medieval-eurasia-and-the-silk-roads/the-geography-of-exchange-why-roads-followed-constraints/"
   ],
-  "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon-and/": [
+  "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon/": [
     "/015-persia-and-the-politics-of-empire/clay-tablets-below-the-monuments-seeing-the-empire-at-work/",
     "/011-mesopotamia-and-the-first-states/babylon-and-hammurabi-what-the-famous-code-really-tells-us/",
     "/012-ancient-egypt-and-the-nile/amarna-when-a-ruler-tried-to-change-the-gods/",
     "/014-ancient-china-dynasties-and-statecraft/ancestors-shangdi-and-the-work-of-kingship/"
   ],
   "/015-persia-and-the-politics-of-empire/the-question-that-travels-forward/": [
-    "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon-and/",
+    "/015-persia-and-the-politics-of-empire/the-many-royal-centers-pasargadae-susa-babylon/",
     "/022-the-mongols-and-the-connected-world/the-great-relay-system-messages-and-imperial-power/",
     "/022-the-mongols-and-the-connected-world/the-connected-world-after-the-khans/",
     "/036-nationalism-and-the-nineteenth-century-nation-state/the-national-ideas-promise-and-its-unresolved-contradictions/"
@@ -1867,7 +1867,7 @@
     "/017-rome-republic-empire-and-afterlives/law-household-power-and-civic-obligation/",
     "/017-rome-republic-empire-and-afterlives/rome-in-comparison-what-can-empire-teach-us/"
   ],
-  "/016-the-greek-world-and-its-political-experiments/herodotus-and-thucydides-two-historians-two-kinds-of/": [
+  "/016-the-greek-world-and-its-political-experiments/herodotus-and-thucydides-two-historians-two-kinds/": [
     "/016-the-greek-world-and-its-political-experiments/three-sources-and-one-argument-a-practical-evidence-workshop/",
     "/015-persia-and-the-politics-of-empire/the-greek-wars-a-frontier-becomes-the-famous-story/",
     "/015-persia-and-the-politics-of-empire/lydia-croesus-and-the-dangers-of-a-perfect-story/",
@@ -2154,25 +2154,25 @@
   ],
   "/018-africa-kingdoms-networks-and-cities/a-historians-workshop-three-contested-claims/": [
     "/018-africa-kingdoms-networks-and-cities/southern-africa-mapungubwe-and-great-zimbabwe/",
-    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted-to/",
+    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted/",
     "/026-indian-ocean-commerce-and-asian-powers/religious-and-cultural-exchange-left-material-traces/",
     "/029-atlantic-slavery-and-plantation-economies/concepts-worth-retaining-and-the-bridge-to-chapter-30/"
   ],
   "/018-africa-kingdoms-networks-and-cities/africa-in-the-larger-story-of-world-history/": [
     "/018-africa-kingdoms-networks-and-cities/a-historians-map-environments-as-connections-and-constraints/",
     "/035-imperialism-and-african-partition/africa-before-the-partition-no-empty-continent/",
-    "/035-imperialism-and-african-partition/the-chapters-central-argument-conquest-was-a-process-not-a/",
+    "/035-imperialism-and-african-partition/the-chapters-central-argument-conquest-was-a-process/",
     "/020-the-rise-of-islam-and-the-caliphates/the-central-argument-faith-institutions-and-a-connected/"
   ],
   "/018-africa-kingdoms-networks-and-cities/african-trade-in-a-connected-world-a-network-model/": [
     "/021-medieval-eurasia-and-the-silk-roads/commerce-needed-trust-but-power-still-mattered/",
     "/018-africa-kingdoms-networks-and-cities/a-historians-map-environments-as-connections-and-constraints/",
-    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets-toward-the/",
+    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets/",
     "/026-indian-ocean-commerce-and-asian-powers/the-ocean-was-a-system-of-connected-seas/"
   ],
   "/018-africa-kingdoms-networks-and-cities/aksum-highlands-coins-and-the-red-sea/": [
     "/018-africa-kingdoms-networks-and-cities/religion-scholarship-and-multiple-traditions/",
-    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets-toward-the/",
+    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets/",
     "/019-the-americas-before-european-conquest/tiwanaku-wari-and-chimu-power-before-the-inka/",
     "/021-medieval-eurasia-and-the-silk-roads/rus-rivers-and-the-black-sea-baltic-connection/"
   ],
@@ -2219,7 +2219,7 @@
     "/027-european-maritime-expansion/why-portugal-and-castile-became-important-maritime-sponsors/"
   ],
   "/018-africa-kingdoms-networks-and-cities/languages-farming-and-the-long-bantu-expansions/": [
-    "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process-not-an/",
+    "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process/",
     "/010-the-agricultural-revolution/toward-europe-the-aegean-the-balkans-and-the-danube/",
     "/018-africa-kingdoms-networks-and-cities/the-swahili-coast-african-cities-on-the-indian-ocean/",
     "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/"
@@ -2238,7 +2238,7 @@
   ],
   "/018-africa-kingdoms-networks-and-cities/power-after-great-zimbabwe-changing-centers/": [
     "/018-africa-kingdoms-networks-and-cities/southern-africa-mapungubwe-and-great-zimbabwe/",
-    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted-to/",
+    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted/",
     "/019-the-americas-before-european-conquest/the-north-american-southwest-chaco-and-ancestral-pueblo/",
     "/012-ancient-egypt-and-the-nile/the-first-great-fragmentation/"
   ],
@@ -2255,7 +2255,7 @@
     "/023-europe-byzantium-and-the-ottoman-emergence/the-second-bulgarian-empire-a-new-center-at-tarnovo/"
   ],
   "/018-africa-kingdoms-networks-and-cities/southern-africa-mapungubwe-and-great-zimbabwe/": [
-    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted-to/",
+    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted/",
     "/018-africa-kingdoms-networks-and-cities/power-after-great-zimbabwe-changing-centers/",
     "/019-the-americas-before-european-conquest/the-mississippi-basin-poverty-point-and-cahokia/",
     "/019-the-americas-before-european-conquest/the-north-american-southwest-chaco-and-ancestral-pueblo/"
@@ -2292,7 +2292,7 @@
   ],
   "/018-africa-kingdoms-networks-and-cities/why-the-continents-histories-are-not-a-ladder-of-development/": [
     "/018-africa-kingdoms-networks-and-cities/power-after-great-zimbabwe-changing-centers/",
-    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted-to/",
+    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted/",
     "/035-imperialism-and-african-partition/africa-before-the-partition-no-empty-continent/",
     "/026-indian-ocean-commerce-and-asian-powers/the-swahili-coast-african-cities-in-an-oceanic-world/"
   ],
@@ -2322,7 +2322,7 @@
   ],
   "/019-the-americas-before-european-conquest/central-mexico-after-teotihuacan-changing-centers-of-power/": [
     "/019-the-americas-before-european-conquest/teotihuacan-a-planned-metropolis-with-unanswered-questions/",
-    "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans-were-not/",
+    "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans/",
     "/035-imperialism-and-african-partition/africa-before-the-partition-no-empty-continent/",
     "/012-ancient-egypt-and-the-nile/the-middle-kingdom-reunification-and-a-different-political/"
   ],
@@ -2333,7 +2333,7 @@
     "/014-ancient-china-dynasties-and-statecraft/bronze-bells-ceremonial-order-and-political-memory/"
   ],
   "/019-the-americas-before-european-conquest/contact-conquest-and-indigenous-agency/": [
-    "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans-were-not/",
+    "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans/",
     "/027-european-maritime-expansion/caribbean-communities-and-the-first-colonial-confrontations/",
     "/027-european-maritime-expansion/conquest-in-the-andes-civil-war-alliances-and-coercion/",
     "/019-the-americas-before-european-conquest/the-caribbean-and-circum-caribbean-worlds/"
@@ -2366,7 +2366,7 @@
     "/019-the-americas-before-european-conquest/central-mexico-after-teotihuacan-changing-centers-of-power/",
     "/027-european-maritime-expansion/conquest-in-the-andes-civil-war-alliances-and-coercion/",
     "/004-historical-time-and-the-problem-of-sources/the-past-leaves-traces-not-finished-stories/",
-    "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans-were-not/"
+    "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans/"
   ],
   "/019-the-americas-before-european-conquest/khipus-administration-and-the-limits-of-a-written-archive/": [
     "/019-the-americas-before-european-conquest/how-do-we-know-stones-inscriptions-and-living-knowledge/",
@@ -2377,7 +2377,7 @@
   "/019-the-americas-before-european-conquest/political-systems-compared-an-empire-is-not-a-civilization/": [
     "/019-the-americas-before-european-conquest/the-mississippi-basin-poverty-point-and-cahokia/",
     "/013-the-indus-valley-civilization/compare-three-urban-civilizations-without-ranking-them/",
-    "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans-were-not/",
+    "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans/",
     "/023-europe-byzantium-and-the-ottoman-emergence/byzantium-was-the-roman-empire-not-an-empire-beside-rome/"
   ],
   "/019-the-americas-before-european-conquest/reading-maya-writing-and-keeping-calendars-straight/": [
@@ -2387,7 +2387,7 @@
     "/013-the-indus-valley-civilization/what-would-actually-decipher-the-script/"
   ],
   "/019-the-americas-before-european-conquest/tenochtitlan-and-the-triple-alliance/": [
-    "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans-were-not/",
+    "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans/",
     "/027-european-maritime-expansion/conquest-in-the-andes-civil-war-alliances-and-coercion/",
     "/019-the-americas-before-european-conquest/political-systems-compared-an-empire-is-not-a-civilization/",
     "/027-european-maritime-expansion/a-chronology-of-voyages-and-changing-power/"
@@ -2396,7 +2396,7 @@
     "/019-the-americas-before-european-conquest/central-mexico-after-teotihuacan-changing-centers-of-power/",
     "/009-human-evolution-and-the-first-migrations/toward-the-americas-ice-land-coast-and-unanswered-questions/",
     "/013-the-indus-valley-civilization/was-there-a-king-a-council-or-something-else/",
-    "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans-were-not/"
+    "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans/"
   ],
   "/019-the-americas-before-european-conquest/the-andean-world-mountains-coast-and-vertical-economies/": [
     "/019-the-americas-before-european-conquest/farmers-towns-and-the-long-invention-of-complexity/",
@@ -2419,7 +2419,7 @@
   "/019-the-americas-before-european-conquest/the-main-argument-many-routes-to-complexity/": [
     "/014-ancient-china-dynasties-and-statecraft/three-early-civilizations-three-kinds-of-evidence/",
     "/019-the-americas-before-european-conquest/the-north-american-southwest-chaco-and-ancestral-pueblo/",
-    "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process-not-an/",
+    "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process/",
     "/004-historical-time-and-the-problem-of-sources/periods-are-questions-not-fences/"
   ],
   "/019-the-americas-before-european-conquest/the-maya-many-kingdoms-one-remarkable-cultural-world/": [
@@ -2468,7 +2468,7 @@
     "/019-the-americas-before-european-conquest/the-maya-many-kingdoms-one-remarkable-cultural-world/",
     "/013-the-indus-valley-civilization/after-1900-bce-transformation-not-disappearance/",
     "/021-medieval-eurasia-and-the-silk-roads/climate-disease-and-environmental-uncertainty/",
-    "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process-not-an/"
+    "/009-human-evolution-and-the-first-migrations/the-expanding-human-world-migration-as-a-process/"
   ],
   "/020-the-rise-of-islam-and-the-caliphates/a-historical-source-workshop-three-kinds-of-evidence/": [
     "/020-the-rise-of-islam-and-the-caliphates/how-do-we-know-the-story/",
@@ -2483,7 +2483,7 @@
     "/026-indian-ocean-commerce-and-asian-powers/religion-traveled-but-not-on-a-single-merchants-command/"
   ],
   "/020-the-rise-of-islam-and-the-caliphates/arabia-was-connected-not-isolated/": [
-    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets-toward-the/",
+    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets/",
     "/020-the-rise-of-islam-and-the-caliphates/muhammad-before-the-hijra-mecca-and-the-first-revelations/",
     "/021-medieval-eurasia-and-the-silk-roads/a-turning-point-around-1200-the-world-before-the-mongols/",
     "/018-africa-kingdoms-networks-and-cities/a-historians-map-environments-as-connections-and-constraints/"
@@ -2534,7 +2534,7 @@
     "/020-the-rise-of-islam-and-the-caliphates/the-hijra-of-622-a-new-political-setting/",
     "/018-africa-kingdoms-networks-and-cities/aksum-highlands-coins-and-the-red-sea/",
     "/017-rome-republic-empire-and-afterlives/belief-violence-and-the-rise-of-christianity/",
-    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets-toward-the/"
+    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets/"
   ],
   "/020-the-rise-of-islam-and-the-caliphates/sunni-and-shia-histories-the-need-for-precision/": [
     "/020-the-rise-of-islam-and-the-caliphates/the-succession-problem-after-632/",
@@ -2559,7 +2559,7 @@
     "/018-africa-kingdoms-networks-and-cities/religion-scholarship-and-multiple-traditions/"
   ],
   "/020-the-rise-of-islam-and-the-caliphates/the-empire-reaches-spain-and-central-asia/": [
-    "/023-europe-byzantium-and-the-ottoman-emergence/frontiers-within-europe-iberia-the-north-and-the/",
+    "/023-europe-byzantium-and-the-ottoman-emergence/frontiers-within-europe-iberia-the-north/",
     "/020-the-rise-of-islam-and-the-caliphates/a-politically-fragmented-but-connected-muslim-world/",
     "/027-european-maritime-expansion/spain-and-portugal-did-not-own-the-worlds-oceans/",
     "/022-the-mongols-and-the-connected-world/four-great-realms-many-local-realities/"
@@ -2687,7 +2687,7 @@
     "/020-the-rise-of-islam-and-the-caliphates/the-abbasid-economy-networks-rather-than-a-single-market/",
     "/011-mesopotamia-and-the-first-states/the-canal-and-the-argument-over-water/"
   ],
-  "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same-as/": [
+  "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same/": [
     "/021-medieval-eurasia-and-the-silk-roads/oasis-towns-small-patches-of-water-with-large-consequences/",
     "/007-systems-thinking-and-feedback-loops/networks-bottlenecks-and-the-weakest-link/",
     "/015-persia-and-the-politics-of-empire/roads-messengers-and-the-speed-of-decisions/",
@@ -2706,7 +2706,7 @@
     "/023-europe-byzantium-and-the-ottoman-emergence/learning-manuscripts-and-universities/"
   ],
   "/021-medieval-eurasia-and-the-silk-roads/oasis-towns-small-patches-of-water-with-large-consequences/": [
-    "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same-as/",
+    "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same/",
     "/018-africa-kingdoms-networks-and-cities/crossing-the-sahara-merchants-animals-and-risk/",
     "/022-the-mongols-and-the-connected-world/the-great-relay-system-messages-and-imperial-power/",
     "/019-the-americas-before-european-conquest/the-road-and-the-storehouse-infrastructure-as-government/"
@@ -2717,7 +2717,7 @@
     "/023-europe-byzantium-and-the-ottoman-emergence/the-steppe-remained-in-the-balkans-after-the-mongol/",
     "/037-the-balkans-and-the-eastern-question/geography-mountains-rivers-and-the-maritime-gateways/"
   ],
-  "/021-medieval-eurasia-and-the-silk-roads/samarkand-bukhara-and-merv-cities-built-on-much-more-than/": [
+  "/021-medieval-eurasia-and-the-silk-roads/samarkand-bukhara-and-merv-cities-built/": [
     "/021-medieval-eurasia-and-the-silk-roads/the-islamic-world-as-a-bridge-and-a-set-of-regions/",
     "/020-the-rise-of-islam-and-the-caliphates/the-abbasid-economy-networks-rather-than-a-single-market/",
     "/022-the-mongols-and-the-connected-world/the-khwarazmian-campaign-how-a-frontier-dispute-became/",
@@ -2738,10 +2738,10 @@
   "/021-medieval-eurasia-and-the-silk-roads/srivijaya-and-southeast-asia-sea-lanes-created-regional/": [
     "/021-medieval-eurasia-and-the-silk-roads/the-indian-subcontinent-a-source-and-a-destination-not-a-gap/",
     "/026-indian-ocean-commerce-and-asian-powers/java-and-the-indonesian-archipelago-producers-and-political/",
-    "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways-and/",
+    "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways/",
     "/026-indian-ocean-commerce-and-asian-powers/gujarat-an-industrial-and-commercial-coast/"
   ],
-  "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space-between/": [
+  "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space/": [
     "/022-the-mongols-and-the-connected-world/the-land-that-trained-mobility/",
     "/023-europe-byzantium-and-the-ottoman-emergence/the-steppe-remained-in-the-balkans-after-the-mongol/",
     "/021-medieval-eurasia-and-the-silk-roads/comparing-the-systems-three-kinds-of-power/",
@@ -2753,7 +2753,7 @@
     "/022-the-mongols-and-the-connected-world/kublai-khan-and-the-yuan-a-dynasty-ruling-china/",
     "/026-indian-ocean-commerce-and-asian-powers/ming-chinas-oceanic-world-before-the-europeans/"
   ],
-  "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem-of/": [
+  "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem/": [
     "/024-renaissance-humanism-and-printing/before-gutenberg-paper-woodblocks-and-asian-printing/",
     "/021-medieval-eurasia-and-the-silk-roads/song-china-markets-innovation-and-the-limits-of-simple/",
     "/024-renaissance-humanism-and-printing/printing-learning-and-the-controversy-over-a-revolution/",
@@ -2773,7 +2773,7 @@
   ],
   "/021-medieval-eurasia-and-the-silk-roads/the-indian-ocean-a-second-map-of-medieval-connectivity/": [
     "/026-indian-ocean-commerce-and-asian-powers/the-ocean-was-a-system-of-connected-seas/",
-    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets-toward-the/",
+    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets/",
     "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/",
     "/018-africa-kingdoms-networks-and-cities/the-swahili-coast-african-cities-on-the-indian-ocean/"
   ],
@@ -2784,13 +2784,13 @@
     "/031-scientific-revolution-and-enlightenment/science-across-borders-china-the-islamic-world-and-beyond/"
   ],
   "/021-medieval-eurasia-and-the-silk-roads/the-islamic-world-as-a-bridge-and-a-set-of-regions/": [
-    "/021-medieval-eurasia-and-the-silk-roads/samarkand-bukhara-and-merv-cities-built-on-much-more-than/",
+    "/021-medieval-eurasia-and-the-silk-roads/samarkand-bukhara-and-merv-cities-built/",
     "/020-the-rise-of-islam-and-the-caliphates/the-central-argument-faith-institutions-and-a-connected/",
     "/020-the-rise-of-islam-and-the-caliphates/a-politically-fragmented-but-connected-muslim-world/",
     "/020-the-rise-of-islam-and-the-caliphates/from-regional-rule-to-imperial-institutions/"
   ],
   "/021-medieval-eurasia-and-the-silk-roads/the-silk-roads-were-networks-not-an-ancient-express-delivery/": [
-    "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same-as/",
+    "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same/",
     "/026-indian-ocean-commerce-and-asian-powers/the-real-merchandise-textiles-grain-and-ordinary-goods/",
     "/018-africa-kingdoms-networks-and-cities/the-swahili-coast-african-cities-on-the-indian-ocean/",
     "/030-the-qing-mughal-and-ottoman-worlds/case-study-following-a-bolt-of-cloth-and-a-porcelain-bowl/"
@@ -2813,7 +2813,7 @@
     "/022-the-mongols-and-the-connected-world/the-khwarazmian-campaign-how-a-frontier-dispute-became/",
     "/022-the-mongols-and-the-connected-world/religion-accommodation-patronage-and-political-limits/"
   ],
-  "/022-the-mongols-and-the-connected-world/after-1227-the-empire-was-a-family-arrangement-and-a/": [
+  "/022-the-mongols-and-the-connected-world/after-1227-the-empire-was-a-family-arrangement/": [
     "/022-the-mongols-and-the-connected-world/women-dynastic-power-and-the-work-of-governing/",
     "/023-europe-byzantium-and-the-ottoman-emergence/the-steppe-remained-in-the-balkans-after-the-mongol/",
     "/030-the-qing-mughal-and-ottoman-worlds/women-households-and-the-politics-of-the-court/"
@@ -2845,7 +2845,7 @@
   "/022-the-mongols-and-the-connected-world/four-great-realms-many-local-realities/": [
     "/022-the-mongols-and-the-connected-world/why-the-empire-fragmented/",
     "/023-europe-byzantium-and-the-ottoman-emergence/the-steppe-remained-in-the-balkans-after-the-mongol/",
-    "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space-between/",
+    "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space/",
     "/020-the-rise-of-islam-and-the-caliphates/the-empire-reaches-spain-and-central-asia/"
   ],
   "/022-the-mongols-and-the-connected-world/kublai-khan-and-the-yuan-a-dynasty-ruling-china/": [
@@ -2896,7 +2896,7 @@
     "/021-medieval-eurasia-and-the-silk-roads/a-turning-point-around-1200-the-world-before-the-mongols/",
     "/021-medieval-eurasia-and-the-silk-roads/byzantium-the-caucasus-and-the-western-ends-of-the-networks/"
   ],
-  "/022-the-mongols-and-the-connected-world/the-cost-of-conquest-destruction-displacement-and/": [
+  "/022-the-mongols-and-the-connected-world/the-cost-of-conquest-destruction-displacement/": [
     "/035-imperialism-and-african-partition/case-study-why-the-congo-figures-are-disputed/",
     "/038-world-war-i-causes-and-consequences/the-human-toll-what-can-and-cannot-be-counted/",
     "/022-the-mongols-and-the-connected-world/the-khwarazmian-campaign-how-a-frontier-dispute-became/",
@@ -2940,13 +2940,13 @@
   ],
   "/022-the-mongols-and-the-connected-world/the-khwarazmian-campaign-how-a-frontier-dispute-became/": [
     "/022-the-mongols-and-the-connected-world/what-did-the-mongol-conquests-change/",
-    "/021-medieval-eurasia-and-the-silk-roads/samarkand-bukhara-and-merv-cities-built-on-much-more-than/",
+    "/021-medieval-eurasia-and-the-silk-roads/samarkand-bukhara-and-merv-cities-built/",
     "/023-europe-byzantium-and-the-ottoman-emergence/the-siege-of-1453-why-the-city-fell-and-what-survived/",
     "/020-the-rise-of-islam-and-the-caliphates/umar-and-the-astonishing-conquests/"
   ],
   "/022-the-mongols-and-the-connected-world/the-land-that-trained-mobility/": [
     "/028-the-columbian-exchange/horses-and-the-transformation-of-indigenous-mobility/",
-    "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space-between/",
+    "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space/",
     "/022-the-mongols-and-the-connected-world/the-supply-problem-horses-are-not-fuel-free-machines/",
     "/023-europe-byzantium-and-the-ottoman-emergence/the-steppe-remained-in-the-balkans-after-the-mongol/"
   ],
@@ -2958,7 +2958,7 @@
   ],
   "/022-the-mongols-and-the-connected-world/travelers-and-eyewitnesses-marco-polo-rubruck-and-other/": [
     "/022-the-mongols-and-the-connected-world/religion-accommodation-patronage-and-political-limits/",
-    "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same-as/",
+    "/021-medieval-eurasia-and-the-silk-roads/how-far-did-a-traveler-really-go-distance-is-not-the-same/",
     "/021-medieval-eurasia-and-the-silk-roads/source-workshop-a-silk-textile-a-pilgrim-and-an-emperor/",
     "/004-historical-time-and-the-problem-of-sources/eyewitnesses-memory-and-testimony/"
   ],
@@ -2981,7 +2981,7 @@
     "/030-the-qing-mughal-and-ottoman-worlds/mughal-fragmentation-and-powerful-regional-successors/"
   ],
   "/022-the-mongols-and-the-connected-world/women-dynastic-power-and-the-work-of-governing/": [
-    "/022-the-mongols-and-the-connected-world/after-1227-the-empire-was-a-family-arrangement-and-a/",
+    "/022-the-mongols-and-the-connected-world/after-1227-the-empire-was-a-family-arrangement/",
     "/030-the-qing-mughal-and-ottoman-worlds/women-households-and-the-politics-of-the-court/",
     "/015-persia-and-the-politics-of-empire/who-had-power-at-court-and-who-was-left-outside-the-story/",
     "/012-ancient-egypt-and-the-nile/women-marriage-property-and-social-difference/"
@@ -2998,7 +2998,7 @@
     "/037-the-balkans-and-the-eastern-question/bulgarias-national-revival-before-a-bulgarian-state/",
     "/031-scientific-revolution-and-enlightenment/a-connected-europe-the-balkans-and-ottoman-borderlands/"
   ],
-  "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest-and/": [
+  "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest/": [
     "/023-europe-byzantium-and-the-ottoman-emergence/the-second-bulgarian-empire-a-new-center-at-tarnovo/",
     "/012-ancient-egypt-and-the-nile/after-the-new-kingdom-fragmentation-and-new-rulers/",
     "/036-nationalism-and-the-nineteenth-century-nation-state/bulgarias-national-revival-schools-church-and-revolution/",
@@ -3052,7 +3052,7 @@
     "/024-renaissance-humanism-and-printing/the-medieval-foundations-of-innovation/",
     "/022-the-mongols-and-the-connected-world/the-connected-world-after-the-khans/"
   ],
-  "/023-europe-byzantium-and-the-ottoman-emergence/frontiers-within-europe-iberia-the-north-and-the/": [
+  "/023-europe-byzantium-and-the-ottoman-emergence/frontiers-within-europe-iberia-the-north/": [
     "/023-europe-byzantium-and-the-ottoman-emergence/what-and-where-was-medieval-europe/",
     "/025-reformation-and-religious-conflict/jews-muslims-and-the-boundaries-of-christian-europe/",
     "/020-the-rise-of-islam-and-the-caliphates/the-empire-reaches-spain-and-central-asia/",
@@ -3143,7 +3143,7 @@
     "/030-the-qing-mughal-and-ottoman-worlds/war-was-costly-even-when-the-empire-won/"
   ],
   "/023-europe-byzantium-and-the-ottoman-emergence/the-second-bulgarian-empire-a-new-center-at-tarnovo/": [
-    "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest-and/",
+    "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest/",
     "/021-medieval-eurasia-and-the-silk-roads/byzantium-the-caucasus-and-the-western-ends-of-the-networks/",
     "/037-the-balkans-and-the-eastern-question/a-bulgarian-principality-constitution-power-and-dependency/",
     "/004-historical-time-and-the-problem-of-sources/case-study-how-bulgaria-became-independent/"
@@ -3167,7 +3167,7 @@
     "/030-the-qing-mughal-and-ottoman-worlds/mughal-cities-and-indian-ocean-commerce/"
   ],
   "/023-europe-byzantium-and-the-ottoman-emergence/what-and-where-was-medieval-europe/": [
-    "/023-europe-byzantium-and-the-ottoman-emergence/frontiers-within-europe-iberia-the-north-and-the/",
+    "/023-europe-byzantium-and-the-ottoman-emergence/frontiers-within-europe-iberia-the-north/",
     "/017-rome-republic-empire-and-afterlives/the-eastern-roman-empire-and-the-afterlife-of-rome/",
     "/025-reformation-and-religious-conflict/scandinavia-and-the-baltic-reform-by-royal-and-local/",
     "/017-rome-republic-empire-and-afterlives/the-balkans-inside-roman-history/"
@@ -3192,7 +3192,7 @@
   ],
   "/024-renaissance-humanism-and-printing/before-gutenberg-paper-woodblocks-and-asian-printing/": [
     "/024-renaissance-humanism-and-printing/gutenbergs-breakthrough-a-system-not-a-single-machine/",
-    "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem-of/",
+    "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem/",
     "/021-medieval-eurasia-and-the-silk-roads/song-china-markets-innovation-and-the-limits-of-simple/",
     "/031-scientific-revolution-and-enlightenment/cities-courts-ships-and-printing-made-knowledge-mobile/"
   ],
@@ -3305,7 +3305,7 @@
   "/024-renaissance-humanism-and-printing/printing-learning-and-the-controversy-over-a-revolution/": [
     "/024-renaissance-humanism-and-printing/from-mainz-to-a-european-network/",
     "/031-scientific-revolution-and-enlightenment/cities-courts-ships-and-printing-made-knowledge-mobile/",
-    "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem-of/",
+    "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem/",
     "/025-reformation-and-religious-conflict/reform-did-not-begin-in-1517/"
   ],
   "/024-renaissance-humanism-and-printing/scripts-and-languages-what-got-printed-and-for-whom/": [
@@ -3450,7 +3450,7 @@
   ],
   "/025-reformation-and-religious-conflict/jews-muslims-and-the-boundaries-of-christian-europe/": [
     "/036-nationalism-and-the-nineteenth-century-nation-state/antisemitism-racism-and-exclusionary-national-politics/",
-    "/023-europe-byzantium-and-the-ottoman-emergence/frontiers-within-europe-iberia-the-north-and-the/",
+    "/023-europe-byzantium-and-the-ottoman-emergence/frontiers-within-europe-iberia-the-north/",
     "/026-indian-ocean-commerce-and-asian-powers/religion-traveled-but-not-on-a-single-merchants-command/",
     "/030-the-qing-mughal-and-ottoman-worlds/law-religion-and-community-under-ottoman-rule/"
   ],
@@ -3577,7 +3577,7 @@
     "/025-reformation-and-religious-conflict/the-schmalkaldic-war-and-the-peace-of-augsburg/",
     "/010-the-agricultural-revolution/five-myths-to-retire/",
     "/017-rome-republic-empire-and-afterlives/the-eastern-roman-empire-and-the-afterlife-of-rome/",
-    "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest-and/"
+    "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest/"
   ],
   "/025-reformation-and-religious-conflict/what-the-reformation-changed-and-what-persisted/": [
     "/025-reformation-and-religious-conflict/england-dynastic-rupture-and-religious-restructuring/",
@@ -3609,7 +3609,7 @@
     "/021-medieval-eurasia-and-the-silk-roads/the-indian-ocean-a-second-map-of-medieval-connectivity/",
     "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/"
   ],
-  "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets-toward-the/": [
+  "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets/": [
     "/020-the-rise-of-islam-and-the-caliphates/arabia-was-connected-not-isolated/",
     "/026-indian-ocean-commerce-and-asian-powers/diu-ottoman-responses-and-western-ocean-politics/",
     "/021-medieval-eurasia-and-the-silk-roads/the-indian-ocean-a-second-map-of-medieval-connectivity/",
@@ -3658,7 +3658,7 @@
     "/021-medieval-eurasia-and-the-silk-roads/the-indian-ocean-a-second-map-of-medieval-connectivity/"
   ],
   "/026-indian-ocean-commerce-and-asian-powers/java-and-the-indonesian-archipelago-producers-and-political/": [
-    "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways-and/",
+    "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways/",
     "/021-medieval-eurasia-and-the-silk-roads/srivijaya-and-southeast-asia-sea-lanes-created-regional/",
     "/026-indian-ocean-commerce-and-asian-powers/the-spice-islands-scarcity-was-geographic-and-political/",
     "/030-the-qing-mughal-and-ottoman-worlds/ottoman-towns-commerce-and-cultural-production/"
@@ -3727,7 +3727,7 @@
     "/018-africa-kingdoms-networks-and-cities/the-swahili-coast-african-cities-on-the-indian-ocean/",
     "/026-indian-ocean-commerce-and-asian-powers/the-swahili-coast-african-cities-in-an-oceanic-world/",
     "/022-the-mongols-and-the-connected-world/case-study-one-object-many-possible-routes/",
-    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted-to/"
+    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted/"
   ],
   "/026-indian-ocean-commerce-and-asian-powers/ships-sailors-and-navigational-knowledge/": [
     "/027-european-maritime-expansion/what-technology-advantage-can-and-cannot-explain/",
@@ -3769,7 +3769,7 @@
     "/021-medieval-eurasia-and-the-silk-roads/the-indian-ocean-a-second-map-of-medieval-connectivity/",
     "/026-indian-ocean-commerce-and-asian-powers/the-coromandel-coast-bengal-and-sri-lanka/",
     "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/",
-    "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways-and/"
+    "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways/"
   ],
   "/026-indian-ocean-commerce-and-asian-powers/the-persian-gulf-hormuz-and-overlapping-sovereignties/": [
     "/026-indian-ocean-commerce-and-asian-powers/portuguese-forts-fleets-and-the-cartaz/",
@@ -3793,7 +3793,7 @@
     "/018-africa-kingdoms-networks-and-cities/the-swahili-coast-african-cities-on-the-indian-ocean/",
     "/018-africa-kingdoms-networks-and-cities/kilwa-and-the-networks-behind-stone-houses/",
     "/026-indian-ocean-commerce-and-asian-powers/religious-and-cultural-exchange-left-material-traces/",
-    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted-to/"
+    "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted/"
   ],
   "/026-indian-ocean-commerce-and-asian-powers/why-this-ocean-matters-to-world-history/": [
     "/026-indian-ocean-commerce-and-asian-powers/the-swahili-coast-african-cities-in-an-oceanic-world/",
@@ -3873,7 +3873,7 @@
     "/026-indian-ocean-commerce-and-asian-powers/concepts-worth-retaining/",
     "/028-the-columbian-exchange/what-the-columbian-exchange-actually-means/"
   ],
-  "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans-were-not/": [
+  "/027-european-maritime-expansion/conquest-in-mesoamerica-why-a-few-hundred-europeans/": [
     "/019-the-americas-before-european-conquest/contact-conquest-and-indigenous-agency/",
     "/019-the-americas-before-european-conquest/tenochtitlan-and-the-triple-alliance/",
     "/019-the-americas-before-european-conquest/central-mexico-after-teotihuacan-changing-centers-of-power/",
@@ -3965,7 +3965,7 @@
   ],
   "/027-european-maritime-expansion/the-economics-of-a-long-voyage/": [
     "/027-european-maritime-expansion/case-study-the-budget-of-an-imaginary-atlantic-expedition/",
-    "/029-atlantic-slavery-and-plantation-economies/credit-insurance-and-the-commercial-infrastructure-of/",
+    "/029-atlantic-slavery-and-plantation-economies/credit-insurance-and-the-commercial-infrastructure/",
     "/026-indian-ocean-commerce-and-asian-powers/ships-sailors-and-navigational-knowledge/",
     "/029-atlantic-slavery-and-plantation-economies/the-profits-question-who-gained-who-paid/"
   ],
@@ -4013,7 +4013,7 @@
   ],
   "/027-european-maritime-expansion/why-portugal-and-castile-became-important-maritime-sponsors/": [
     "/027-european-maritime-expansion/after-1492-many-voyages-many-sponsors/",
-    "/023-europe-byzantium-and-the-ottoman-emergence/frontiers-within-europe-iberia-the-north-and-the/",
+    "/023-europe-byzantium-and-the-ottoman-emergence/frontiers-within-europe-iberia-the-north/",
     "/026-indian-ocean-commerce-and-asian-powers/1498-vasco-da-gama-reaches-a-world-already-trading/",
     "/026-indian-ocean-commerce-and-asian-powers/religion-traveled-but-not-on-a-single-merchants-command/"
   ],
@@ -4297,7 +4297,7 @@
     "/029-atlantic-slavery-and-plantation-economies/british-abolition-movement-law-and-limitation/",
     "/033-latin-american-independence-and-state-building/slavery-abolition-and-the-limits-of-republican-freedom/",
     "/033-latin-american-independence-and-state-building/cuba-puerto-rico-and-the-uneven-boundaries-of-independence/",
-    "/032-atlantic-revolutions-and-citizenship/the-declaration-of-independence-a-claim-not-a-census-of/"
+    "/032-atlantic-revolutions-and-citizenship/the-declaration-of-independence-a-claim-not-a-census/"
   ],
   "/029-atlantic-slavery-and-plantation-economies/central-africa-kongo-ndongo-and-angola/": [
     "/018-africa-kingdoms-networks-and-cities/kongo-and-central-african-political-worlds/",
@@ -4317,7 +4317,7 @@
     "/034-industrialization-and-urban-society/cotton-a-global-product-before-british-mills/",
     "/029-atlantic-slavery-and-plantation-economies/united-states-slavery-expansion-and-civil-war/"
   ],
-  "/029-atlantic-slavery-and-plantation-economies/credit-insurance-and-the-commercial-infrastructure-of/": [
+  "/029-atlantic-slavery-and-plantation-economies/credit-insurance-and-the-commercial-infrastructure/": [
     "/027-european-maritime-expansion/the-economics-of-a-long-voyage/",
     "/003-probability-risk-and-everyday-numbers/why-sensible-people-buy-insurance/",
     "/026-indian-ocean-commerce-and-asian-powers/markets-before-modern-banks-trust-credit-and-brokers/",
@@ -4507,7 +4507,7 @@
     "/030-the-qing-mughal-and-ottoman-worlds/kangxi-yongzheng-and-qianlong-consolidation-and-expansion/",
     "/021-medieval-eurasia-and-the-silk-roads/tibet-and-the-struggle-for-the-high-corridors/",
     "/023-europe-byzantium-and-the-ottoman-emergence/anatolia-before-the-ottomans-a-landscape-of-many-rulers/",
-    "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space-between/"
+    "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space/"
   ],
   "/030-the-qing-mughal-and-ottoman-worlds/how-imperial-courts-used-culture-to-make-authority-visible/": [
     "/022-the-mongols-and-the-connected-world/case-study-one-object-many-possible-routes/",
@@ -4548,12 +4548,12 @@
   "/030-the-qing-mughal-and-ottoman-worlds/mughal-fragmentation-and-powerful-regional-successors/": [
     "/030-the-qing-mughal-and-ottoman-worlds/the-mughal-foundation-babur-and-humayun/",
     "/023-europe-byzantium-and-the-ottoman-emergence/the-second-bulgarian-empire-a-new-center-at-tarnovo/",
-    "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest-and/",
+    "/023-europe-byzantium-and-the-ottoman-emergence/bulgaria-under-pressure-fragmentation-conquest/",
     "/026-indian-ocean-commerce-and-asian-powers/the-mughal-empire-and-commercial-worlds-it-did-not-invent/"
   ],
   "/030-the-qing-mughal-and-ottoman-worlds/ottoman-expansion-and-imperial-consolidation/": [
     "/030-the-qing-mughal-and-ottoman-worlds/safavid-iran-the-indispensable-fourth-power/",
-    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets-toward-the/",
+    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets/",
     "/020-the-rise-of-islam-and-the-caliphates/umar-and-the-astonishing-conquests/",
     "/026-indian-ocean-commerce-and-asian-powers/diu-ottoman-responses-and-western-ocean-politics/"
   ],
@@ -4573,7 +4573,7 @@
     "/030-the-qing-mughal-and-ottoman-worlds/the-manchu-rise-and-the-banners/",
     "/021-medieval-eurasia-and-the-silk-roads/tibet-and-the-struggle-for-the-high-corridors/",
     "/022-the-mongols-and-the-connected-world/kublai-khan-and-the-yuan-a-dynasty-ruling-china/",
-    "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space-between/"
+    "/021-medieval-eurasia-and-the-silk-roads/steppe-societies-were-not-an-empty-space/"
   ],
   "/030-the-qing-mughal-and-ottoman-worlds/safavid-iran-the-indispensable-fourth-power/": [
     "/030-the-qing-mughal-and-ottoman-worlds/why-comparison-is-useful-and-where-it-misleads/",
@@ -4776,7 +4776,7 @@
   ],
   "/031-scientific-revolution-and-enlightenment/locke-government-consent-and-limits-on-rulers/": [
     "/032-atlantic-revolutions-and-citizenship/subjects-citizens-and-the-political-vocabulary-of-freedom/",
-    "/032-atlantic-revolutions-and-citizenship/the-declaration-of-independence-a-claim-not-a-census-of/",
+    "/032-atlantic-revolutions-and-citizenship/the-declaration-of-independence-a-claim-not-a-census/",
     "/036-nationalism-and-the-nineteenth-century-nation-state/from-dynastic-legitimacy-to-popular-sovereignty/",
     "/016-the-greek-world-and-its-political-experiments/comparison-three-answers-to-the-problem-of-government/"
   ],
@@ -4982,7 +4982,7 @@
     "/035-imperialism-and-african-partition/southern-africa-settler-conquest-and-african-states/",
     "/027-european-maritime-expansion/encomienda-tribute-and-the-structure-of-colonial-extraction/"
   ],
-  "/032-atlantic-revolutions-and-citizenship/the-declaration-of-independence-a-claim-not-a-census-of/": [
+  "/032-atlantic-revolutions-and-citizenship/the-declaration-of-independence-a-claim-not-a-census/": [
     "/032-atlantic-revolutions-and-citizenship/the-declaration-of-the-rights-of-man-and-of-the-citizen/",
     "/031-scientific-revolution-and-enlightenment/locke-government-consent-and-limits-on-rulers/",
     "/033-latin-american-independence-and-state-building/slavery-abolition-and-the-limits-of-republican-freedom/",
@@ -5268,7 +5268,7 @@
     "/032-atlantic-revolutions-and-citizenship/another-revolution-was-taking-shape-in-spanish-america/",
     "/033-latin-american-independence-and-state-building/the-rio-de-la-plata-revolution-without-a-ready-made-nation/",
     "/032-atlantic-revolutions-and-citizenship/the-declaration-of-the-rights-of-man-and-of-the-citizen/",
-    "/032-atlantic-revolutions-and-citizenship/the-declaration-of-independence-a-claim-not-a-census-of/"
+    "/032-atlantic-revolutions-and-citizenship/the-declaration-of-independence-a-claim-not-a-census/"
   ],
   "/033-latin-american-independence-and-state-building/trade-after-independence-opportunity-and-dependency/": [
     "/027-european-maritime-expansion/silver-spices-and-the-unequal-movement-of-wealth/",
@@ -5392,7 +5392,7 @@
   ],
   "/034-industrialization-and-urban-society/invention-science-and-the-second-industrial-transformation/": [
     "/034-industrialization-and-urban-society/steam-engines-invention-maintenance-and-efficiency/",
-    "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem-of/",
+    "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem/",
     "/029-atlantic-slavery-and-plantation-economies/cotton-and-industrialization-a-transatlantic-connection/",
     "/038-world-war-i-causes-and-consequences/artillery-industry-and-an-unfamiliar-scale-of-destruction/"
   ],
@@ -5442,7 +5442,7 @@
   ],
   "/034-industrialization-and-urban-society/steam-engines-invention-maintenance-and-efficiency/": [
     "/034-industrialization-and-urban-society/water-power-coal-and-the-energy-constraint/",
-    "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem-of/",
+    "/021-medieval-eurasia-and-the-silk-roads/technology-transfer-paper-printing-and-the-problem/",
     "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/",
     "/024-renaissance-humanism-and-printing/before-gutenberg-paper-woodblocks-and-asian-printing/"
   ],
@@ -5633,7 +5633,7 @@
     "/033-latin-american-independence-and-state-building/the-late-colonial-order-authority-privilege-and-negotiation/"
   ],
   "/035-imperialism-and-african-partition/samori-toure-asante-and-african-political-initiative/": [
-    "/035-imperialism-and-african-partition/why-the-late-nineteenth-century-multiple-engines-of/",
+    "/035-imperialism-and-african-partition/why-the-late-nineteenth-century-multiple-engines/",
     "/029-atlantic-slavery-and-plantation-economies/western-africa-states-war-and-the-politics-of-captive-supply/",
     "/017-rome-republic-empire-and-afterlives/carthage-and-the-punic-wars-the-cost-of-mediterranean/",
     "/018-africa-kingdoms-networks-and-cities/ancient-ghana-a-kingdom-not-the-modern-country/"
@@ -5662,7 +5662,7 @@
     "/015-persia-and-the-politics-of-empire/the-army-a-coalition-held-together-by-supply-and-authority/",
     "/027-european-maritime-expansion/what-technology-advantage-can-and-cannot-explain/"
   ],
-  "/035-imperialism-and-african-partition/the-chapters-central-argument-conquest-was-a-process-not-a/": [
+  "/035-imperialism-and-african-partition/the-chapters-central-argument-conquest-was-a-process/": [
     "/035-imperialism-and-african-partition/case-study-was-the-berlin-conference-a-carving-up-meeting/",
     "/018-africa-kingdoms-networks-and-cities/africa-in-the-larger-story-of-world-history/",
     "/026-indian-ocean-commerce-and-asian-powers/why-this-ocean-matters-to-world-history/",
@@ -5684,7 +5684,7 @@
     "/035-imperialism-and-african-partition/the-nile-the-mahdist-state-and-the-fashoda-crisis/",
     "/037-the-balkans-and-the-eastern-question/geography-mountains-rivers-and-the-maritime-gateways/",
     "/012-ancient-egypt-and-the-nile/nubia-was-not-egypts-passive-southern-backdrop/",
-    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets-toward-the/"
+    "/026-indian-ocean-commerce-and-asian-powers/arabia-the-red-sea-and-egypt-markets/"
   ],
   "/035-imperialism-and-african-partition/three-explanations-for-african-defeat-and-their-limits/": [
     "/035-imperialism-and-african-partition/ethiopia-and-adwa-a-conquest-that-failed/",
@@ -5716,7 +5716,7 @@
     "/033-latin-american-independence-and-state-building/trade-after-independence-opportunity-and-dependency/",
     "/029-atlantic-slavery-and-plantation-economies/african-knowledge-and-the-making-of-new-cultures/"
   ],
-  "/035-imperialism-and-african-partition/why-the-late-nineteenth-century-multiple-engines-of/": [
+  "/035-imperialism-and-african-partition/why-the-late-nineteenth-century-multiple-engines/": [
     "/036-nationalism-and-the-nineteenth-century-nation-state/empire-overseas-expansion-and-the-national-prestige-paradox/",
     "/035-imperialism-and-african-partition/leopold-ii-and-the-congo-free-state/",
     "/037-the-balkans-and-the-eastern-question/commerce-railways-and-the-economic-eastern-question/",
@@ -5789,7 +5789,7 @@
     "/038-world-war-i-causes-and-consequences/alliances-commitments-and-illusions/"
   ],
   "/036-nationalism-and-the-nineteenth-century-nation-state/empire-overseas-expansion-and-the-national-prestige-paradox/": [
-    "/035-imperialism-and-african-partition/why-the-late-nineteenth-century-multiple-engines-of/",
+    "/035-imperialism-and-african-partition/why-the-late-nineteenth-century-multiple-engines/",
     "/036-nationalism-and-the-nineteenth-century-nation-state/the-national-ideas-promise-and-its-unresolved-contradictions/",
     "/035-imperialism-and-african-partition/imperialism-and-racial-ideology/",
     "/038-world-war-i-causes-and-consequences/the-europe-of-rival-empires/"

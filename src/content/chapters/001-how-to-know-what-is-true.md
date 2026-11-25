@@ -14,7 +14,7 @@ description: "The purpose of an educated mind is not to have a confident opinion
 status: "REVISED DRAFT"
 edition: 41
 sectionCount: 16
-readingTime: 32
+readingTime: 37
 openingReadingTime: 2
 ---
 

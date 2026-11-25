@@ -14,7 +14,7 @@ description: "В земята между две реки градовете се
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 27
-readingTime: 39
+readingTime: 53
 openingReadingTime: 2
 ---
 

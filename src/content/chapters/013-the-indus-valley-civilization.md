@@ -14,7 +14,7 @@ description: "A city can leave streets, wells, weights and beautiful seals witho
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 24
-readingTime: 36
+readingTime: 45
 openingReadingTime: 2
 ---
 

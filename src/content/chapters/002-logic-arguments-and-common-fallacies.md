@@ -14,7 +14,7 @@ description: "Clear reasoning does not guarantee that you will be right. It does
 status: "REVISED DRAFT"
 edition: 41
 sectionCount: 20
-readingTime: 33
+readingTime: 40
 openingReadingTime: 2
 ---
 

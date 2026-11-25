@@ -14,7 +14,7 @@ description: "The past is gone, but it has not vanished without a trace. History
 status: "REVISED DRAFT"
 edition: 41
 sectionCount: 21
-readingTime: 42
+readingTime: 45
 openingReadingTime: 3
 ---
 

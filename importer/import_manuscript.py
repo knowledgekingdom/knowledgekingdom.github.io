@@ -438,6 +438,13 @@ class Builder:
             slug = self.overrides["sections"][key]
         elif key in self.slugs["sections"]:
             slug = self.slugs["sections"][key]
+            # Slugs made by the old cutting rule ("…-claim-and-a") move to the new one,
+            # and the old address keeps working through a redirect.
+            if (sec.type not in SPECIAL_SLUGS and slug != default and default not in taken
+                    and slug == P.slugify_legacy(sec.display_title)):
+                self.move_url(f"/{ch.slug}/{slug}/", f"/{ch.slug}/{default}/")
+                self.report.note(ch.label, f"Section address “{slug}” renamed to “{default}”; the old address redirects.")
+                slug = default
         else:
             slug = default
             n = 2
@@ -772,7 +779,10 @@ class Builder:
                 if ch.number in self.roadmap_status:
                     self.roadmap_status[ch.number]["status"] = status
             section_entries = []
-            total_words = open_words + pre_words
+            # The chapter total is the sum of the rounded times readers see on the chapter
+            # page (opening + every numbered section in "In this chapter"), so the numbers
+            # always add up. Summary and study pages are shown as cards without a time.
+            total_minutes = P.reading_time(open_words + pre_words)
             for sec in ch.sections:
                 if sec.type == "opening":
                     continue
@@ -784,7 +794,8 @@ class Builder:
                     md, words, first = self.blocks_to_md(sec.blocks, ch, md_path, url, cite)
                     if not md.strip():
                         self.report.warn(url, "Empty section.")
-                total_words += words
+                if sec.type == "section":
+                    total_minutes += P.reading_time(words)
                 desc = {
                     "practice": f"Practice exercises and model reasoning for Chapter {ch.label}: {ch.title}.",
                     "flashcards": f"Interactive flashcards for Chapter {ch.label}: {ch.title}.",
@@ -835,7 +846,7 @@ class Builder:
                 "status": status,
                 "edition": book.edition,
                 "sectionCount": sum(1 for s in section_entries if s.type in ("section", "summary")),
-                "readingTime": P.reading_time(total_words),
+                "readingTime": total_minutes,
                 "openingReadingTime": P.reading_time(open_words + pre_words),
             }
             self.write_md(chapter_md_path, fm, body)
@@ -1147,11 +1158,22 @@ class Builder:
         return out
 
     # -- redirects -----------------------------------------------------------------
+    def move_url(self, old: str, new: str):
+        """Remember that a page moved, for good (kept in slugs.json under "moved")."""
+        moved = self.slugs.setdefault("moved", {})
+        for k, v in list(moved.items()):  # keep chains short: A→B, B→C becomes A→C, B→C
+            if v == old:
+                moved[k] = new
+        moved.pop(new, None)
+        moved[old] = new
+
     def write_redirects(self):
         # astro.config.mjs turns these into forwarding pages (GitHub Pages has no _redirects).
-        self.write_json("src/data/redirects.json", [{"from": r.get("from"), "to": r.get("to")}
-                                                    for r in self.overrides.get("redirects", [])
-                                                    if r.get("from") and r.get("to")])
+        manual = [{"from": r.get("from"), "to": r.get("to")} for r in self.overrides.get("redirects", [])
+                  if r.get("from") and r.get("to")]
+        seen = {r["from"] for r in manual}
+        auto = [{"from": k, "to": v} for k, v in sorted(self.slugs.get("moved", {}).items()) if k not in seen]
+        self.write_json("src/data/redirects.json", manual + auto)
 
     # -- writing ---------------------------------------------------------------------
     def write_json(self, rel: str, data):
@@ -1181,6 +1203,8 @@ class Builder:
         self.meta_dir.mkdir(exist_ok=True)
         slugs = {"chapters": dict(sorted(self.slugs["chapters"].items())),
                  "sections": dict(sorted(self.slugs["sections"].items()))}
+        if self.slugs.get("moved"):
+            slugs["moved"] = dict(sorted(self.slugs["moved"].items()))
         _write_json(self.meta_dir / "slugs.json", slugs)
         _write_json(self.meta_dir / "manifest.json", self.manifest)
         ov = self.meta_dir / "slug-overrides.json"

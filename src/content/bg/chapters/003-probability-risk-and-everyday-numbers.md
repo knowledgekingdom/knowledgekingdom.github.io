@@ -14,7 +14,7 @@ description: "Светът не обещава сигурност. Но неси
 status: "REVISED DRAFT"
 edition: 41
 sectionCount: 19
-readingTime: 34
+readingTime: 38
 openingReadingTime: 2
 ---
 

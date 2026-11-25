@@ -14,7 +14,7 @@ description: "От Арабския полуостров до взаимосвъ
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 29
-readingTime: 39
+readingTime: 60
 openingReadingTime: 2
 ---
 

@@ -14,7 +14,7 @@ description: "От вписана животинска кост до бронз�
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 25
-readingTime: 32
+readingTime: 39
 openingReadingTime: 2
 ---
 

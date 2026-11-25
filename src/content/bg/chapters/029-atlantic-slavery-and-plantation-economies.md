@@ -14,7 +14,7 @@ description: "Как насилственото транспортиране н�
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 35
+readingTime: 39
 openingReadingTime: 2
 ---
 

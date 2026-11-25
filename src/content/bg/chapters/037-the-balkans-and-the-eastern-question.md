@@ -14,7 +14,7 @@ description: "Как османската реформа, балканските
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 37
+readingTime: 40
 openingReadingTime: 2
 ---
 

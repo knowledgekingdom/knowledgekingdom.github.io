@@ -14,7 +14,7 @@ description: "How Iberian imperial crises became wars of independence, how diffe
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 36
+readingTime: 39
 openingReadingTime: 2
 ---
 

@@ -14,7 +14,7 @@ description: "How three immense Eurasian empires organized authority across dive
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 37
+readingTime: 39
 openingReadingTime: 2
 ---
 

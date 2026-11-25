@@ -14,7 +14,7 @@ description: "Как царство на иранското плато е изг
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 26
-readingTime: 34
+readingTime: 49
 openingReadingTime: 2
 ---
 

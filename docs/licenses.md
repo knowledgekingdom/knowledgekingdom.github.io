@@ -1,0 +1,18 @@
+# Licences of everything the site uses that the project didn't create
+
+Rule (v2 plan §0.8): only original, public-domain or openly licensed material. No copyleft (GPL,
+CC BY-SA) or non-commercial (CC BY-NC) material without asking Semir first.
+
+| What | Used for | Licence | Attribution needed |
+|---|---|---|---|
+| Book text and figures | the whole site | © Semir | — |
+| Source Serif 4 (Adobe), via @fontsource-variable | body and headings | SIL Open Font License 1.1 | no (licence file shipped with the package) |
+| Inter (Rasmus Andersson), via @fontsource-variable | interface text | SIL Open Font License 1.1 | no |
+| Icons in `src/components/Icon.astro` | interface | drawn for this site | — |
+| OPUS-MT en→bg model (Tiedemann & Thottingal), packaged by Argos Translate | draft Bulgarian translation (offline, at build time only) | CC BY 4.0 | yes: in the footer of every Bulgarian page, and in the README |
+| Astro, Pagefind, yaml and other npm packages | building the site | MIT / ISC (permissive) | no |
+| GoatCounter (hosted, free plan) | visitor counts | service terms; script is EUPL-1.2 but only loaded, not modified or distributed | no |
+| Wikidata coordinates (`content-meta/knowledge/places.yaml`, `source: wikidata:Q…`) | map positions of places | CC0 (public domain) | no |
+
+When a later phase adds map data (Natural Earth, public domain) or libraries (e.g. `ts-fsrs`, MIT),
+add a row here in the same commit.

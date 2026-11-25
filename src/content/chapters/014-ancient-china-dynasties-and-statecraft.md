@@ -14,7 +14,7 @@ description: "From an inscribed animal bone to a bronze vessel weighing hundreds
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 25
-readingTime: 32
+readingTime: 39
 openingReadingTime: 2
 ---
 

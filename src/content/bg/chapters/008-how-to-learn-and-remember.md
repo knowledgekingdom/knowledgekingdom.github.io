@@ -14,7 +14,7 @@ description: "Знанието не е броят на страниците, к�
 status: "DRAFT"
 edition: 41
 sectionCount: 13
-readingTime: 13
+readingTime: 15
 openingReadingTime: 1
 ---
 

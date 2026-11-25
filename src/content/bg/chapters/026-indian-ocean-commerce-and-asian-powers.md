@@ -14,7 +14,7 @@ description: "Как сезонните ветрове, крайбрежните
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 42
+readingTime: 50
 openingReadingTime: 2
 ---
 

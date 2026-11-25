@@ -14,7 +14,7 @@ description: "How Atlantic voyages connected worlds already inhabited and connec
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 38
+readingTime: 42
 openingReadingTime: 2
 ---
 

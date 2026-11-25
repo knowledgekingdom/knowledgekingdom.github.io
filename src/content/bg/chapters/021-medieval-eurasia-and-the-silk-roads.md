@@ -14,7 +14,7 @@ description: "Свят на движещи се стоки и движещи с�
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 29
-readingTime: 36
+readingTime: 52
 openingReadingTime: 2
 ---
 

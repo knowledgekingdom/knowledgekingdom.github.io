@@ -14,7 +14,7 @@ description: "Светът не е колекция от цветнокожи с
 status: "EXPANDED"
 edition: 41
 sectionCount: 21
-readingTime: 39
+readingTime: 45
 openingReadingTime: 2
 ---
 

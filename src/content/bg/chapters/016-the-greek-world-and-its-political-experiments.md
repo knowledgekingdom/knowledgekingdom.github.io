@@ -14,7 +14,7 @@ description: "От яростно независими градове-държа
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 29
-readingTime: 36
+readingTime: 49
 openingReadingTime: 2
 ---
 

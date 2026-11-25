@@ -4,6 +4,7 @@ from __future__ import annotations
 import hashlib
 import json
 import os
+import re
 import sys
 import tempfile
 import unittest
@@ -41,6 +42,15 @@ class PatternTests(unittest.TestCase):
                          "seeing-measuring-remembering-why-observation-is-not-simple")
         self.assertLessEqual(len(P.slugify("word " * 40)), 60)
         self.assertEqual(P.slugify("Meroë & Aksum’s trade"), "meroe-and-aksums-trade")
+
+    def test_slugify_never_ends_on_a_stop_word(self):
+        t = "Three investigations: a photograph, a historical claim, and a policy promise"
+        self.assertEqual(P.slugify_legacy(t), "three-investigations-a-photograph-a-historical-claim-and-a")
+        self.assertEqual(P.slugify(t), "three-investigations-a-photograph-a-historical-claim")
+        self.assertEqual(P.slugify("The chapter's central argument: conquest was a process, not a single event"),
+                         "the-chapters-central-argument-conquest-was-a-process")
+        self.assertEqual(P.slugify("Short and sweet"), "short-and-sweet")  # untouched when not shortened
+        self.assertEqual(P.slugify("x" * 80), "x" * 60)
 
     def test_title_case(self):
         self.assertEqual(P.title_case("HOW TO KNOW WHAT IS TRUE"), "How to Know What Is True")
@@ -168,6 +178,37 @@ class FixtureImportTests(unittest.TestCase):
         self.assertEqual([e["url"] for e in b.changes["removed"]],
                          ["/001-how-to-test-things/why-evidence-matters/"])
         self.assertIn("Edition 1", (self.root / "IMPORT_REPORT.md").read_text(encoding="utf-8"))
+
+    def test_chapter_time_is_sum_of_listed_times(self):
+        IM.run(self.docx, self.root, quiet=True)
+        def fm(path):
+            txt = path.read_text(encoding="utf-8")
+            return {m.group(1): json.loads(m.group(2)) for m in re.finditer(r"^(\w+): (.*)$", txt, re.M)}
+        ch = fm(self.root / "src/content/chapters/001-how-to-test-things.md")
+        secs = [fm(f) for f in (self.root / "src/content/sections/001-how-to-test-things").iterdir()]
+        listed = sum(s["readingTime"] for s in secs if s["type"] == "section")
+        self.assertEqual(ch["readingTime"], ch["openingReadingTime"] + listed)
+
+    def test_old_cut_off_slugs_move_and_redirect(self):
+        IM.run(self.docx, self.root, quiet=True)
+        # Pretend an earlier version had cut a slug off with a dangling stop-word.
+        slugs_path = self.root / "content-meta/slugs.json"
+        slugs = json.loads(slugs_path.read_text(encoding="utf-8"))
+        key = next(k for k, v in slugs["sections"].items() if v == "what-is-a-test")
+        slugs["sections"][key] = "what-is-a"
+        slugs_path.write_text(json.dumps(slugs), encoding="utf-8")
+        orig = P.slugify_legacy
+        P.slugify_legacy = lambda text, max_len=60: "what-is-a" if text == "What is a test?" else orig(text, max_len)
+        try:
+            IM.run(self.docx, self.root, quiet=True)
+        finally:
+            P.slugify_legacy = orig
+        self.assertTrue((self.root / "src/content/sections/001-how-to-test-things/what-is-a-test.md").exists())
+        self.assertEqual(self.load("src/data/redirects.json"),
+                         [{"from": "/001-how-to-test-things/what-is-a/", "to": "/001-how-to-test-things/what-is-a-test/"}])
+        # The redirect is remembered on later runs.
+        IM.run(self.docx, self.root, quiet=True)
+        self.assertEqual(len(self.load("src/data/redirects.json")), 1)
 
 
 class RelatedAndHistoryTests(unittest.TestCase):

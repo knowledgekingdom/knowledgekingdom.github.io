@@ -14,7 +14,7 @@ description: "От южните кралства на Нил до златнит
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 26
-readingTime: 31
+readingTime: 38
 openingReadingTime: 2
 ---
 

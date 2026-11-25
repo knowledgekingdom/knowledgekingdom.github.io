@@ -14,7 +14,7 @@ description: "Как три огромни евразийски империи �
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 37
+readingTime: 39
 openingReadingTime: 2
 ---
 

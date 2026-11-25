@@ -14,7 +14,7 @@ description: "Long before Europeans crossed the Atlantic, the Americas contained
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 28
-readingTime: 35
+readingTime: 52
 openingReadingTime: 2
 ---
 

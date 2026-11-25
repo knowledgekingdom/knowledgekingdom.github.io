@@ -14,7 +14,7 @@ description: "The river did not build the pyramids. People did—and their decis
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 23
-readingTime: 34
+readingTime: 44
 openingReadingTime: 2
 ---
 

@@ -73,14 +73,19 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preload" href={lang === 'bg' ? serifCyrillic : serifLatin} as="font" type="font/woff2" crossorigin />
     <script is:inline define:vars={{ allowPalette: site.paletteSwitcher }}>
+      // Apply saved settings before the first paint (no light/dark flash). The full
+      // reader-state module (src/lib/reader-state.ts) owns this data; this only reads it.
       try {
         const d = document.documentElement;
-        const t = localStorage.getItem('kk-theme');
+        let s = {};
+        try { s = JSON.parse(localStorage.getItem('kk-settings') || 'null') || {}; } catch (e) {}
+        const t = s.theme || localStorage.getItem('kk-theme');
         if (t === 'light' || t === 'dark') d.dataset.theme = t;
         const q = allowPalette && new URLSearchParams(location.search).get('palette');
-        if (q) localStorage.setItem('kk-palette', q);
-        const p = allowPalette && (q || localStorage.getItem('kk-palette'));
+        if (q && /^[a-z]{1,20}$/.test(q)) { s.palette = q; localStorage.setItem('kk-settings', JSON.stringify(s)); }
+        const p = allowPalette && (s.palette || localStorage.getItem('kk-palette'));
         if (p && /^[a-z]+$/.test(p)) d.dataset.palette = p;
+        if (s.motion === 'reduce') d.dataset.motion = 'reduce';
       } catch (e) {}
     </script>
     {site.goatcounter && import.meta.env.PROD && (
@@ -117,7 +122,9 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
     <slot />
     <footer class="site-footer">
       <div class="inner">
-        <p style="margin:0">{footerText()}</p>
+        <p style="margin:0">{footerText()}{lang === 'bg' && (
+          <><br /><small>{t(lang, 'mt.credit')} <a href="https://github.com/Helsinki-NLP/OPUS-MT" lang="en">OPUS-MT</a> (CC BY 4.0)</small></>
+        )}</p>
         <nav aria-label={t(lang, 'nav.footer')}>
           <a href={L('/about/')}>{t(lang, 'nav.about')}</a>
           <a href={L('/roadmap/')}>{t(lang, 'nav.roadmap')}</a>
@@ -142,6 +149,7 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
       import '../scripts/progress.ts';
     </script>
     <script>
+      import { store } from '../scripts/reader';
       const root = document.documentElement;
       const isDark = () =>
         root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
@@ -150,7 +158,7 @@ const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
         const apply = () => { root.dataset.theme = next; };
         const vt = (document as any).startViewTransition;
         if (vt && !matchMedia('(prefers-reduced-motion: reduce)').matches) vt.call(document, apply); else apply();
-        try { localStorage.setItem('kk-theme', next); } catch (e) {}
+        store.setSettings({ theme: next });
       });
 
       // Mobile contents drawer

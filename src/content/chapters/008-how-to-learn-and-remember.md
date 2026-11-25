@@ -14,7 +14,7 @@ description: "Knowledge is not the number of pages you have read. It is the unde
 status: "DRAFT"
 edition: 41
 sectionCount: 13
-readingTime: 13
+readingTime: 15
 openingReadingTime: 1
 ---
 

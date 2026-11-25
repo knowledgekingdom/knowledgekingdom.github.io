@@ -14,7 +14,7 @@ description: "From the Nile's southern kingdoms to the gold routes of the Sahel,
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 26
-readingTime: 31
+readingTime: 38
 openingReadingTime: 2
 ---
 

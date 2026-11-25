@@ -14,7 +14,7 @@ description: "Как растенията, животните, микроорг�
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 33
+readingTime: 37
 openingReadingTime: 1
 ---
 

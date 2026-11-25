@@ -14,7 +14,7 @@ description: "In the land between two rivers, cities learned to count, govern, t
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 27
-readingTime: 39
+readingTime: 53
 openingReadingTime: 2
 ---
 

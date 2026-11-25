@@ -14,7 +14,7 @@ description: "How a dispute about spiritual authority became a family of reform 
 status: "DRAFT"
 edition: 41
 sectionCount: 37
-readingTime: 44
+readingTime: 65
 openingReadingTime: 2
 ---
 

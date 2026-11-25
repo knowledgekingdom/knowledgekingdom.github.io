@@ -14,7 +14,7 @@ description: "Numbers make the world easier to compare—and easier to misunders
 status: "EXPANDED"
 edition: 41
 sectionCount: 22
-readingTime: 35
+readingTime: 43
 openingReadingTime: 2
 ---
 

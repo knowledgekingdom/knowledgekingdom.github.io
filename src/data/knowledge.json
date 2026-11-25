@@ -1,0 +1,4482 @@
+{
+  "_generated": "by scripts/knowledge.mjs from content-meta/knowledge/*.yaml. Edit those, not this.",
+  "events": [
+    {
+      "id": "laetoli-footprints",
+      "label": {
+        "en": "Bipedal footprints at Laetoli",
+        "bg": "Следи от двукрако ходене при Лаетоли"
+      },
+      "date": {
+        "en": "c. 3.6 million years ago"
+      },
+      "start": -3598000,
+      "end": -3598000,
+      "precision": "approximate",
+      "region": "africa",
+      "place": "laetoli",
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/africa-the-long-beginning",
+          "url": "/009-human-evolution-and-the-first-migrations/africa-the-long-beginning/"
+        },
+        {
+          "id": "009/summary",
+          "url": "/009-human-evolution-and-the-first-migrations/summary/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "australopithecus-afarensis",
+      "label": {
+        "en": "Australopithecus afarensis in eastern Africa",
+        "bg": "Australopithecus afarensis в Източна Африка"
+      },
+      "date": {
+        "en": "c. 3.9–2.9 million years ago"
+      },
+      "start": -3898000,
+      "end": -2898000,
+      "precision": "approximate",
+      "region": "africa",
+      "place": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/africa-the-long-beginning",
+          "url": "/009-human-evolution-and-the-first-migrations/africa-the-long-beginning/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "lomekwi-stone-tools",
+      "label": {
+        "en": "Stone working at Lomekwi 3, Kenya",
+        "bg": "Обработка на камък при Ломекуи 3, Кения"
+      },
+      "date": {
+        "en": "c. 3.3 million years ago"
+      },
+      "start": -3298000,
+      "end": -3298000,
+      "precision": "approximate",
+      "region": "africa",
+      "place": "lomekwi-3",
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/hands-stones-and-the-technology-nobody-photographed",
+          "url": "/009-human-evolution-and-the-first-migrations/hands-stones-and-the-technology-nobody-photographed/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "homo-beyond-africa",
+      "label": {
+        "en": "Early Homo appears outside Africa",
+        "bg": "Ранни Homo се появяват извън Африка"
+      },
+      "date": {
+        "en": "c. 1.8 million years ago"
+      },
+      "start": -1798000,
+      "end": -1798000,
+      "precision": "approximate",
+      "region": "global",
+      "place": "dmanisi",
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/the-travelers-before-us-homo-erectus-and-the-first-great",
+          "url": "/009-human-evolution-and-the-first-migrations/the-travelers-before-us-homo-erectus-and-the-first-great/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "acheulean-tools",
+      "label": {
+        "en": "Acheulean large cutting tools appear",
+        "bg": "Появяват се големите режещи сечива от ашелската традиция"
+      },
+      "date": {
+        "en": "c. 1.76 million years ago"
+      },
+      "start": -1758000,
+      "end": -1758000,
+      "precision": "approximate",
+      "region": "africa",
+      "place": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/hands-stones-and-the-technology-nobody-photographed",
+          "url": "/009-human-evolution-and-the-first-migrations/hands-stones-and-the-technology-nobody-photographed/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "jebel-irhoud-sapiens",
+      "label": {
+        "en": "Early Homo sapiens evidence at Jebel Irhoud, Morocco",
+        "bg": "Ранни свидетелства за Homo sapiens при Джебел Ирхуд, Мароко"
+      },
+      "date": {
+        "en": "c. 315,000 years ago"
+      },
+      "start": -313000,
+      "end": -313000,
+      "precision": "approximate",
+      "region": "africa",
+      "place": "jebel-irhoud",
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/the-emergence-of-homo-sapiens-was-not-a-single-moment",
+          "url": "/009-human-evolution-and-the-first-migrations/the-emergence-of-homo-sapiens-was-not-a-single-moment/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "madjedbebe-occupation",
+      "label": {
+        "en": "Occupation at Madjedbebe, northern Australia, as a 2017 study argued (debated)",
+        "bg": "Обитаване при Маджедбебе, Северна Австралия, според изследване от 2017 г. (спорно)"
+      },
+      "date": {
+        "en": "c. 65,000 years ago"
+      },
+      "start": -63000,
+      "end": -63000,
+      "precision": "approximate",
+      "region": "oceania",
+      "place": "madjedbebe",
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/crossing-water-the-settlement-of-sahul",
+          "url": "/009-human-evolution-and-the-first-migrations/crossing-water-the-settlement-of-sahul/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "people-in-sahul",
+      "label": {
+        "en": "People in Sahul by this time or earlier",
+        "bg": "Хора в Сахул по това време или по-рано"
+      },
+      "date": {
+        "en": "c. 50,000 years ago"
+      },
+      "start": -48000,
+      "end": -48000,
+      "precision": "approximate",
+      "region": "oceania",
+      "place": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/summary",
+          "url": "/009-human-evolution-and-the-first-migrations/summary/"
+        },
+        {
+          "id": "009/crossing-water-the-settlement-of-sahul",
+          "url": "/009-human-evolution-and-the-first-migrations/crossing-water-the-settlement-of-sahul/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "neanderthal-admixture",
+      "label": {
+        "en": "Main shared episode of Neanderthal admixture",
+        "bg": "Основният общ епизод на смесване с неандерталци"
+      },
+      "date": {
+        "en": "c. 49,000–45,000 years ago"
+      },
+      "start": -47000,
+      "end": -43000,
+      "precision": "approximate",
+      "region": "global",
+      "place": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/neanderthals-denisovans-and-our-complicated-relatives",
+          "url": "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "neanderthals-disappear",
+      "label": {
+        "en": "Neanderthals disappear",
+        "bg": "Неандерталците изчезват"
+      },
+      "date": {
+        "en": "c. 40,000 years ago"
+      },
+      "start": -38000,
+      "end": -38000,
+      "precision": "approximate",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/neanderthals-denisovans-and-our-complicated-relatives",
+          "url": "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "last-glacial-maximum",
+      "label": {
+        "en": "Last Glacial Maximum",
+        "bg": "Последният ледников максимум"
+      },
+      "date": {
+        "en": "c. 26,500–19,000 years ago"
+      },
+      "start": -24500,
+      "end": -17000,
+      "precision": "approximate",
+      "region": "global",
+      "place": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/climate-shaped-opportunities-but-people-made-histories",
+          "url": "/009-human-evolution-and-the-first-migrations/climate-shaped-opportunities-but-people-made-histories/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "white-sands-footprints",
+      "label": {
+        "en": "Human footprints at White Sands, if the dating is accepted",
+        "bg": "Човешки следи при Уайт Сендс, ако датирането се приеме"
+      },
+      "date": {
+        "en": "c. 23,000–21,000 years ago"
+      },
+      "start": -21000,
+      "end": -19000,
+      "precision": "approximate",
+      "region": "americas",
+      "place": "white-sands",
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/toward-the-americas-ice-land-coast-and-unanswered-questions",
+          "url": "/009-human-evolution-and-the-first-migrations/toward-the-americas-ice-land-coast-and-unanswered-questions/"
+        },
+        {
+          "id": "009/how-we-know-how-old-something-is",
+          "url": "/009-human-evolution-and-the-first-migrations/how-we-know-how-old-something-is/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "food-economies-change",
+      "label": {
+        "en": "Food economies change in several regions",
+        "bg": "Хранителните икономики се променят в няколко региона"
+      },
+      "date": {
+        "en": "c. 12,000–10,000 BCE"
+      },
+      "start": -12000,
+      "end": -10000,
+      "precision": "approximate",
+      "region": "global",
+      "place": null,
+      "chapter": "010",
+      "sections": [
+        {
+          "id": "010/a-timeline-without-false-precision",
+          "url": "/010-the-agricultural-revolution/a-timeline-without-false-precision/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "catalhoyuk-east-mound",
+      "label": {
+        "en": "Main Neolithic occupation of Çatalhöyük East",
+        "bg": "Основното неолитно обитаване на източната могила на Чаталхьоюк"
+      },
+      "date": {
+        "en": "c. 7400–6200 BCE"
+      },
+      "start": -7400,
+      "end": -6200,
+      "precision": "approximate",
+      "region": "west-asia",
+      "place": "catalhoyuk",
+      "chapter": "010",
+      "sections": [
+        {
+          "id": "010/a-timeline-without-false-precision",
+          "url": "/010-the-agricultural-revolution/a-timeline-without-false-precision/"
+        },
+        {
+          "id": "010/the-village-becomes-a-social-institution",
+          "url": "/010-the-agricultural-revolution/the-village-becomes-a-social-institution/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "farming-reaches-aegean",
+      "label": {
+        "en": "Farming spreads across the Aegean and southeastern Europe",
+        "bg": "Земеделието се разпространява в Егейския регион и Югоизточна Европа"
+      },
+      "date": {
+        "en": "7th millennium BCE"
+      },
+      "start": -7000,
+      "end": -6001,
+      "precision": "millennium",
+      "region": "mediterranean-europe",
+      "place": null,
+      "chapter": "010",
+      "sections": [
+        {
+          "id": "010/a-timeline-without-false-precision",
+          "url": "/010-the-agricultural-revolution/a-timeline-without-false-precision/"
+        },
+        {
+          "id": "010/toward-europe-the-aegean-the-balkans-and-the-danube",
+          "url": "/010-the-agricultural-revolution/toward-europe-the-aegean-the-balkans-and-the-danube/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "kuk-wetland-cultivation",
+      "label": {
+        "en": "Wetland cultivation in New Guinea",
+        "bg": "Земеделие във влажните земи на Нова Гвинея"
+      },
+      "date": {
+        "en": "c. 7,000–6,400 years ago"
+      },
+      "start": -5000,
+      "end": -4400,
+      "precision": "approximate",
+      "region": "oceania",
+      "place": "kuk-swamp",
+      "chapter": "010",
+      "sections": [
+        {
+          "id": "010/a-timeline-without-false-precision",
+          "url": "/010-the-agricultural-revolution/a-timeline-without-false-precision/"
+        },
+        {
+          "id": "010/new-guinea-a-revolution-without-grain-fields",
+          "url": "/010-the-agricultural-revolution/new-guinea-a-revolution-without-grain-fields/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "varna-cemetery",
+      "label": {
+        "en": "Varna cemetery with richly furnished burials",
+        "bg": "Варненският некропол с богати гробове"
+      },
+      "date": {
+        "en": "c. 4600–4300 BCE"
+      },
+      "start": -4600,
+      "end": -4300,
+      "precision": "approximate",
+      "region": "mediterranean-europe",
+      "place": "varna-necropolis",
+      "chapter": "010",
+      "sections": [
+        {
+          "id": "010/toward-europe-the-aegean-the-balkans-and-the-danube",
+          "url": "/010-the-agricultural-revolution/toward-europe-the-aegean-the-balkans-and-the-danube/"
+        },
+        {
+          "id": "010/did-farming-create-inequality",
+          "url": "/010-the-agricultural-revolution/did-farming-create-inequality/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "ubaid",
+      "label": {
+        "en": "Ubaid traditions in southern Mesopotamia",
+        "bg": "Убайдски традиции в Южна Месопотамия"
+      },
+      "date": {
+        "en": "c. 5500–4000 BCE"
+      },
+      "start": -5500,
+      "end": -4000,
+      "precision": "approximate",
+      "region": "west-asia",
+      "place": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/a-timeline-without-false-precision",
+          "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/"
+        },
+        {
+          "id": "011/before-sumer-villages-temples-and-the-ubaid-world",
+          "url": "/011-mesopotamia-and-the-first-states/before-sumer-villages-temples-and-the-ubaid-world/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "uruk-period",
+      "label": {
+        "en": "Uruk period: urban growth and new administration",
+        "bg": "Урукски период: градски растеж и нова администрация"
+      },
+      "date": {
+        "en": "c. 4000–3100 BCE"
+      },
+      "start": -4000,
+      "end": -3100,
+      "precision": "approximate",
+      "region": "west-asia",
+      "place": "uruk",
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/a-timeline-without-false-precision",
+          "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/"
+        },
+        {
+          "id": "011/uruk-when-settlement-became-something-larger",
+          "url": "/011-mesopotamia-and-the-first-states/uruk-when-settlement-became-something-larger/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "proto-cuneiform-accounts",
+      "label": {
+        "en": "Early proto-cuneiform accounts",
+        "bg": "Ранни протоклинописни сметки"
+      },
+      "date": {
+        "en": "c. 3300–3000 BCE"
+      },
+      "start": -3300,
+      "end": -3000,
+      "precision": "approximate",
+      "region": "west-asia",
+      "place": "uruk",
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/a-timeline-without-false-precision",
+          "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/"
+        },
+        {
+          "id": "011/the-invention-of-writing-was-not-a-single-flash-of-genius",
+          "url": "/011-mesopotamia-and-the-first-states/the-invention-of-writing-was-not-a-single-flash-of-genius/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "uruk-great-settlement",
+      "label": {
+        "en": "Uruk is an extraordinary settlement",
+        "bg": "Урук е изключително селище"
+      },
+      "date": {
+        "en": "c. 3200 BCE"
+      },
+      "start": -3200,
+      "end": -3200,
+      "precision": "approximate",
+      "region": "west-asia",
+      "place": "uruk",
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/uruk-when-settlement-became-something-larger",
+          "url": "/011-mesopotamia-and-the-first-states/uruk-when-settlement-became-something-larger/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "early-dynastic-city-states",
+      "label": {
+        "en": "Early Dynastic city-states compete",
+        "bg": "Раннодинастичните градове-държави си съперничат"
+      },
+      "date": {
+        "en": "c. 2900–2350 BCE"
+      },
+      "start": -2900,
+      "end": -2350,
+      "precision": "approximate",
+      "region": "west-asia",
+      "place": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/a-timeline-without-false-precision",
+          "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/"
+        },
+        {
+          "id": "011/sumer-was-not-one-unified-country",
+          "url": "/011-mesopotamia-and-the-first-states/sumer-was-not-one-unified-country/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "akkadian-dynasty",
+      "label": {
+        "en": "Akkadian dynasty rules a regional empire",
+        "bg": "Акадската династия управлява регионална империя"
+      },
+      "date": {
+        "en": "c. 2350–2150 BCE"
+      },
+      "start": -2350,
+      "end": -2150,
+      "precision": "approximate",
+      "region": "west-asia",
+      "place": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/a-timeline-without-false-precision",
+          "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/"
+        },
+        {
+          "id": "011/sargon-and-the-ambitions-of-empire",
+          "url": "/011-mesopotamia-and-the-first-states/sargon-and-the-ambitions-of-empire/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "ur-iii",
+      "label": {
+        "en": "Third Dynasty of Ur and its archives",
+        "bg": "Третата династия на Ур и нейните архиви"
+      },
+      "date": {
+        "en": "c. 2112–2004 BCE"
+      },
+      "start": -2112,
+      "end": -2004,
+      "precision": "approximate",
+      "region": "west-asia",
+      "place": "ur",
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/a-timeline-without-false-precision",
+          "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/"
+        },
+        {
+          "id": "011/ur-iii-a-state-that-counted-almost-everything",
+          "url": "/011-mesopotamia-and-the-first-states/ur-iii-a-state-that-counted-almost-everything/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "ur-nammu-ziggurat",
+      "label": {
+        "en": "Ur-Nammu sponsors the ziggurat at Ur",
+        "bg": "Ур-Наму поръчва зикурата в Ур"
+      },
+      "date": {
+        "en": "c. 2100 BCE"
+      },
+      "start": -2100,
+      "end": -2100,
+      "precision": "approximate",
+      "region": "west-asia",
+      "place": "ur",
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/ur-iii-a-state-that-counted-almost-everything",
+          "url": "/011-mesopotamia-and-the-first-states/ur-iii-a-state-that-counted-almost-everything/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "hammurabi-reign",
+      "label": {
+        "en": "Reign of Hammurabi (middle chronology)",
+        "bg": "Управлението на Хамурапи (средна хронология)"
+      },
+      "date": {
+        "en": "c. 1792–1750 BCE"
+      },
+      "start": -1792,
+      "end": -1750,
+      "precision": "approximate",
+      "region": "west-asia",
+      "place": "babylon",
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/a-timeline-without-false-precision",
+          "url": "/011-mesopotamia-and-the-first-states/a-timeline-without-false-precision/"
+        },
+        {
+          "id": "011/babylon-and-hammurabi-what-the-famous-code-really-tells-us",
+          "url": "/011-mesopotamia-and-the-first-states/babylon-and-hammurabi-what-the-famous-code-really-tells-us/"
+        }
+      ],
+      "status": "proposed"
+    }
+  ],
+  "places": [
+    {
+      "id": "great-zimbabwe",
+      "name": {
+        "en": "Great Zimbabwe",
+        "bg": "Велико Зимбабве"
+      },
+      "lat": -20.27,
+      "lon": 30.933,
+      "type": "site",
+      "region": "africa",
+      "active": null,
+      "chapter": "004",
+      "sections": [
+        {
+          "id": "004/case-study-great-zimbabwe-and-the-stories-people-wanted",
+          "url": "/004-historical-time-and-the-problem-of-sources/case-study-great-zimbabwe-and-the-stories-people-wanted/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "sahara",
+      "name": {
+        "en": "Sahara",
+        "bg": "Сахара"
+      },
+      "lat": 23.08,
+      "lon": 12.612,
+      "type": "region",
+      "region": "africa",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/regional-case-study-the-sahel-the-sahara-and-transitions",
+          "url": "/005-geography-maps-and-scale/regional-case-study-the-sahel-the-sahara-and-transitions/"
+        },
+        {
+          "id": "005/a-mental-atlas-regions-that-connect-the-global-story",
+          "url": "/005-geography-maps-and-scale/a-mental-atlas-regions-that-connect-the-global-story/"
+        },
+        {
+          "id": "010/africa-local-crops-and-imported-combinations",
+          "url": "/010-the-agricultural-revolution/africa-local-crops-and-imported-combinations/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "sahel",
+      "name": {
+        "en": "Sahel",
+        "bg": "Сахел"
+      },
+      "lat": 14.475,
+      "lon": 13.512,
+      "type": "region",
+      "region": "africa",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/regional-case-study-the-sahel-the-sahara-and-transitions",
+          "url": "/005-geography-maps-and-scale/regional-case-study-the-sahel-the-sahara-and-transitions/"
+        },
+        {
+          "id": "005/a-mental-atlas-regions-that-connect-the-global-story",
+          "url": "/005-geography-maps-and-scale/a-mental-atlas-regions-that-connect-the-global-story/"
+        },
+        {
+          "id": "010/africa-local-crops-and-imported-combinations",
+          "url": "/010-the-agricultural-revolution/africa-local-crops-and-imported-combinations/"
+        },
+        {
+          "id": "010/farming-remakes-landscapes",
+          "url": "/010-the-agricultural-revolution/farming-remakes-landscapes/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "nile",
+      "name": {
+        "en": "Nile",
+        "bg": "Нил"
+      },
+      "lat": 15.64,
+      "lon": 32.505,
+      "type": "river",
+      "region": "africa",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/water-gives-the-landscape-its-circulation",
+          "url": "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/"
+        },
+        {
+          "id": "005/regional-case-study-the-nile-and-the-geography",
+          "url": "/005-geography-maps-and-scale/regional-case-study-the-nile-and-the-geography/"
+        },
+        {
+          "id": "005/a-mental-atlas-regions-that-connect-the-global-story",
+          "url": "/005-geography-maps-and-scale/a-mental-atlas-regions-that-connect-the-global-story/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "ethiopian-highlands",
+      "name": {
+        "en": "Ethiopian Highlands",
+        "bg": "Етиопска планинска земя"
+      },
+      "lat": 10,
+      "lon": 38.167,
+      "type": "region",
+      "region": "africa",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/regional-case-study-the-sahel-the-sahara-and-transitions",
+          "url": "/005-geography-maps-and-scale/regional-case-study-the-sahel-the-sahara-and-transitions/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "andes",
+      "name": {
+        "en": "Andes",
+        "bg": "Анди"
+      },
+      "lat": -21.826,
+      "lon": -66.698,
+      "type": "mountain",
+      "region": "americas",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/earths-moving-shell-plates-mountains-and-earthquakes",
+          "url": "/005-geography-maps-and-scale/earths-moving-shell-plates-mountains-and-earthquakes/"
+        },
+        {
+          "id": "005/regional-case-study-the-andes-pacific-coasts-and-ocean",
+          "url": "/005-geography-maps-and-scale/regional-case-study-the-andes-pacific-coasts-and-ocean/"
+        },
+        {
+          "id": "005/a-mental-atlas-regions-that-connect-the-global-story",
+          "url": "/005-geography-maps-and-scale/a-mental-atlas-regions-that-connect-the-global-story/"
+        },
+        {
+          "id": "010/the-americas-maize-squash-potatoes-and-varied-histories",
+          "url": "/010-the-agricultural-revolution/the-americas-maize-squash-potatoes-and-varied-histories/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "amazon-river",
+      "name": {
+        "en": "Amazon",
+        "bg": "Амазонка"
+      },
+      "lat": -4.448,
+      "lon": -73.456,
+      "type": "river",
+      "region": "americas",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/water-gives-the-landscape-its-circulation",
+          "url": "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/"
+        },
+        {
+          "id": "005/a-mental-atlas-regions-that-connect-the-global-story",
+          "url": "/005-geography-maps-and-scale/a-mental-atlas-regions-that-connect-the-global-story/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "strait-of-malacca",
+      "name": {
+        "en": "Strait of Malacca",
+        "bg": "Малакски проток"
+      },
+      "lat": 2.833,
+      "lon": 101.037,
+      "type": "sea",
+      "region": "southeast-asia",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/oceans-the-great-highways-and-climate-engines",
+          "url": "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/"
+        },
+        {
+          "id": "005/regional-case-study-southeast-asias-waterways",
+          "url": "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "suez-canal",
+      "name": {
+        "en": "Suez Canal",
+        "bg": "Суецки канал"
+      },
+      "lat": 30.705,
+      "lon": 32.344,
+      "type": "route-point",
+      "region": "africa",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/oceans-the-great-highways-and-climate-engines",
+          "url": "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "panama-canal",
+      "name": {
+        "en": "Panama Canal",
+        "bg": "Панамски канал"
+      },
+      "lat": 9.12,
+      "lon": -79.75,
+      "type": "route-point",
+      "region": "americas",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/oceans-the-great-highways-and-climate-engines",
+          "url": "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "black-sea",
+      "name": {
+        "en": "Black Sea",
+        "bg": "Черно море"
+      },
+      "lat": 43.41,
+      "lon": 34.26,
+      "type": "sea",
+      "region": "mediterranean-europe",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/water-gives-the-landscape-its-circulation",
+          "url": "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/"
+        },
+        {
+          "id": "005/oceans-the-great-highways-and-climate-engines",
+          "url": "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/"
+        },
+        {
+          "id": "005/regional-case-study-bulgaria-and-the-balkans",
+          "url": "/005-geography-maps-and-scale/regional-case-study-bulgaria-and-the-balkans/"
+        },
+        {
+          "id": "010/toward-europe-the-aegean-the-balkans-and-the-danube",
+          "url": "/010-the-agricultural-revolution/toward-europe-the-aegean-the-balkans-and-the-danube/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "red-sea",
+      "name": {
+        "en": "Red Sea",
+        "bg": "Червено море"
+      },
+      "lat": 22,
+      "lon": 38,
+      "type": "sea",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/oceans-the-great-highways-and-climate-engines",
+          "url": "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "mediterranean-sea",
+      "name": {
+        "en": "Mediterranean Sea",
+        "bg": "Средиземно море"
+      },
+      "lat": 38,
+      "lon": 17,
+      "type": "sea",
+      "region": "mediterranean-europe",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/what-exactly-does-geography-study",
+          "url": "/005-geography-maps-and-scale/what-exactly-does-geography-study/"
+        },
+        {
+          "id": "005/oceans-the-great-highways-and-climate-engines",
+          "url": "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/"
+        },
+        {
+          "id": "005/regional-case-study-bulgaria-and-the-balkans",
+          "url": "/005-geography-maps-and-scale/regional-case-study-bulgaria-and-the-balkans/"
+        },
+        {
+          "id": "005/a-mental-atlas-regions-that-connect-the-global-story",
+          "url": "/005-geography-maps-and-scale/a-mental-atlas-regions-that-connect-the-global-story/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "danube",
+      "name": {
+        "en": "Danube",
+        "bg": "Дунав"
+      },
+      "lat": 45.222,
+      "lon": 29.743,
+      "type": "river",
+      "region": "mediterranean-europe",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/water-gives-the-landscape-its-circulation",
+          "url": "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/"
+        },
+        {
+          "id": "005/regional-case-study-bulgaria-and-the-balkans",
+          "url": "/005-geography-maps-and-scale/regional-case-study-bulgaria-and-the-balkans/"
+        },
+        {
+          "id": "010/toward-europe-the-aegean-the-balkans-and-the-danube",
+          "url": "/010-the-agricultural-revolution/toward-europe-the-aegean-the-balkans-and-the-danube/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "mekong",
+      "name": {
+        "en": "Mekong",
+        "bg": "Меконг"
+      },
+      "lat": 33.709,
+      "lon": 94.696,
+      "type": "river",
+      "region": "southeast-asia",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/regional-case-study-southeast-asias-waterways",
+          "url": "/005-geography-maps-and-scale/regional-case-study-southeast-asias-waterways/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "ganges",
+      "name": {
+        "en": "Ganges",
+        "bg": "Ганг"
+      },
+      "lat": 22,
+      "lon": 90.9,
+      "type": "river",
+      "region": "south-asia",
+      "active": null,
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "005/water-gives-the-landscape-its-circulation",
+          "url": "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "laetoli",
+      "name": {
+        "en": "Laetoli",
+        "bg": "Лаетоли"
+      },
+      "lat": -2.996,
+      "lon": 35.352,
+      "type": "site",
+      "region": "africa",
+      "active": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/africa-the-long-beginning",
+          "url": "/009-human-evolution-and-the-first-migrations/africa-the-long-beginning/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "lomekwi-3",
+      "name": {
+        "en": "Lomekwi 3",
+        "bg": "Ломекуи 3"
+      },
+      "lat": 3.911,
+      "lon": 35.85,
+      "type": "site",
+      "region": "africa",
+      "active": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/hands-stones-and-the-technology-nobody-photographed",
+          "url": "/009-human-evolution-and-the-first-migrations/hands-stones-and-the-technology-nobody-photographed/"
+        },
+        {
+          "id": "009/five-misconceptions-that-distort-prehistoric-history",
+          "url": "/009-human-evolution-and-the-first-migrations/five-misconceptions-that-distort-prehistoric-history/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "jebel-irhoud",
+      "name": {
+        "en": "Jebel Irhoud",
+        "bg": "Джебел Ирхуд"
+      },
+      "lat": 31.855,
+      "lon": -8.873,
+      "type": "site",
+      "region": "africa",
+      "active": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/the-emergence-of-homo-sapiens-was-not-a-single-moment",
+          "url": "/009-human-evolution-and-the-first-migrations/the-emergence-of-homo-sapiens-was-not-a-single-moment/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "dmanisi",
+      "name": {
+        "en": "Dmanisi",
+        "bg": "Дманиси"
+      },
+      "lat": 41.337,
+      "lon": 44.345,
+      "type": "site",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/the-travelers-before-us-homo-erectus-and-the-first-great",
+          "url": "/009-human-evolution-and-the-first-migrations/the-travelers-before-us-homo-erectus-and-the-first-great/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "madjedbebe",
+      "name": {
+        "en": "Madjedbebe",
+        "bg": "Маджедбебе"
+      },
+      "lat": -12.5,
+      "lon": 132.883,
+      "type": "site",
+      "region": "oceania",
+      "active": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/crossing-water-the-settlement-of-sahul",
+          "url": "/009-human-evolution-and-the-first-migrations/crossing-water-the-settlement-of-sahul/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "white-sands",
+      "name": {
+        "en": "White Sands",
+        "bg": "Уайт Сендс"
+      },
+      "lat": 32.78,
+      "lon": -106.172,
+      "type": "site",
+      "region": "americas",
+      "active": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/how-we-know-how-old-something-is",
+          "url": "/009-human-evolution-and-the-first-migrations/how-we-know-how-old-something-is/"
+        },
+        {
+          "id": "009/toward-the-americas-ice-land-coast-and-unanswered-questions",
+          "url": "/009-human-evolution-and-the-first-migrations/toward-the-americas-ice-land-coast-and-unanswered-questions/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "clovis-site",
+      "name": {
+        "en": "Clovis (Blackwater Draw)",
+        "bg": "Клоувис (Блекуотър Дроу)"
+      },
+      "lat": 34.278,
+      "lon": -103.324,
+      "type": "site",
+      "region": "americas",
+      "active": null,
+      "chapter": "009",
+      "sections": [
+        {
+          "id": "009/toward-the-americas-ice-land-coast-and-unanswered-questions",
+          "url": "/009-human-evolution-and-the-first-migrations/toward-the-americas-ice-land-coast-and-unanswered-questions/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "catalhoyuk",
+      "name": {
+        "en": "Çatalhöyük",
+        "bg": "Чаталхьоюк"
+      },
+      "lat": 37.667,
+      "lon": 32.828,
+      "type": "site",
+      "region": "west-asia",
+      "active": {
+        "from": -7400,
+        "to": -6200
+      },
+      "chapter": "010",
+      "sections": [
+        {
+          "id": "010/the-village-becomes-a-social-institution",
+          "url": "/010-the-agricultural-revolution/the-village-becomes-a-social-institution/"
+        },
+        {
+          "id": "010/a-timeline-without-false-precision",
+          "url": "/010-the-agricultural-revolution/a-timeline-without-false-precision/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "gobekli-tepe",
+      "name": {
+        "en": "Göbekli Tepe",
+        "bg": "Гьобекли тепе"
+      },
+      "lat": 37.223,
+      "lon": 38.922,
+      "type": "site",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "010",
+      "sections": [
+        {
+          "id": "010/why-did-people-begin-farming-five-explanations-that-interact",
+          "url": "/010-the-agricultural-revolution/why-did-people-begin-farming-five-explanations-that-interact/"
+        },
+        {
+          "id": "010/southwest-asia-an-early-complicated-transition",
+          "url": "/010-the-agricultural-revolution/southwest-asia-an-early-complicated-transition/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "jericho",
+      "name": {
+        "en": "Jericho",
+        "bg": "Йерихон"
+      },
+      "lat": 31.856,
+      "lon": 35.463,
+      "type": "city",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "010",
+      "sections": [
+        {
+          "id": "010/southwest-asia-an-early-complicated-transition",
+          "url": "/010-the-agricultural-revolution/southwest-asia-an-early-complicated-transition/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "varna-necropolis",
+      "name": {
+        "en": "Varna cemetery",
+        "bg": "Варненски некропол"
+      },
+      "lat": 43.213,
+      "lon": 27.864,
+      "type": "site",
+      "region": "mediterranean-europe",
+      "active": {
+        "from": -4600,
+        "to": -4300
+      },
+      "chapter": "010",
+      "sections": [
+        {
+          "id": "010/toward-europe-the-aegean-the-balkans-and-the-danube",
+          "url": "/010-the-agricultural-revolution/toward-europe-the-aegean-the-balkans-and-the-danube/"
+        },
+        {
+          "id": "010/did-farming-create-inequality",
+          "url": "/010-the-agricultural-revolution/did-farming-create-inequality/"
+        },
+        {
+          "id": "010/a-timeline-without-false-precision",
+          "url": "/010-the-agricultural-revolution/a-timeline-without-false-precision/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "kuk-swamp",
+      "name": {
+        "en": "Kuk",
+        "bg": "Кук"
+      },
+      "lat": -5.782,
+      "lon": 144.33,
+      "type": "site",
+      "region": "oceania",
+      "active": null,
+      "chapter": "010",
+      "sections": [
+        {
+          "id": "010/new-guinea-a-revolution-without-grain-fields",
+          "url": "/010-the-agricultural-revolution/new-guinea-a-revolution-without-grain-fields/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "yangtze",
+      "name": {
+        "en": "Yangtze",
+        "bg": "Яндзъ"
+      },
+      "lat": 33.429,
+      "lon": 91.183,
+      "type": "river",
+      "region": "east-asia",
+      "active": null,
+      "chapter": "010",
+      "sections": [
+        {
+          "id": "010/china-more-than-a-single-rice-story",
+          "url": "/010-the-agricultural-revolution/china-more-than-a-single-rice-story/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "uruk",
+      "name": {
+        "en": "Uruk",
+        "bg": "Урук"
+      },
+      "lat": 31.326,
+      "lon": 45.637,
+      "type": "city",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/before-sumer-villages-temples-and-the-ubaid-world",
+          "url": "/011-mesopotamia-and-the-first-states/before-sumer-villages-temples-and-the-ubaid-world/"
+        },
+        {
+          "id": "011/uruk-when-settlement-became-something-larger",
+          "url": "/011-mesopotamia-and-the-first-states/uruk-when-settlement-became-something-larger/"
+        },
+        {
+          "id": "011/the-mathematics-of-a-storehouse",
+          "url": "/011-mesopotamia-and-the-first-states/the-mathematics-of-a-storehouse/"
+        },
+        {
+          "id": "011/the-invention-of-writing-was-not-a-single-flash-of-genius",
+          "url": "/011-mesopotamia-and-the-first-states/the-invention-of-writing-was-not-a-single-flash-of-genius/"
+        },
+        {
+          "id": "011/sumer-was-not-one-unified-country",
+          "url": "/011-mesopotamia-and-the-first-states/sumer-was-not-one-unified-country/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "ur",
+      "name": {
+        "en": "Ur",
+        "bg": "Ур"
+      },
+      "lat": 30.962,
+      "lon": 46.104,
+      "type": "city",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/trade-a-city-cannot-eat-clay",
+          "url": "/011-mesopotamia-and-the-first-states/trade-a-city-cannot-eat-clay/"
+        },
+        {
+          "id": "011/sumer-was-not-one-unified-country",
+          "url": "/011-mesopotamia-and-the-first-states/sumer-was-not-one-unified-country/"
+        },
+        {
+          "id": "011/the-royal-cemetery-of-ur-splendid-objects-difficult",
+          "url": "/011-mesopotamia-and-the-first-states/the-royal-cemetery-of-ur-splendid-objects-difficult/"
+        },
+        {
+          "id": "011/women-power-and-the-case-of-enheduanna",
+          "url": "/011-mesopotamia-and-the-first-states/women-power-and-the-case-of-enheduanna/"
+        },
+        {
+          "id": "011/ur-iii-a-state-that-counted-almost-everything",
+          "url": "/011-mesopotamia-and-the-first-states/ur-iii-a-state-that-counted-almost-everything/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "eridu",
+      "name": {
+        "en": "Eridu",
+        "bg": "Ериду"
+      },
+      "lat": 30.826,
+      "lon": 45.995,
+      "type": "city",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/before-sumer-villages-temples-and-the-ubaid-world",
+          "url": "/011-mesopotamia-and-the-first-states/before-sumer-villages-temples-and-the-ubaid-world/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "lagash",
+      "name": {
+        "en": "Lagash",
+        "bg": "Лагаш"
+      },
+      "lat": 31.411,
+      "lon": 46.407,
+      "type": "city",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/sumer-was-not-one-unified-country",
+          "url": "/011-mesopotamia-and-the-first-states/sumer-was-not-one-unified-country/"
+        },
+        {
+          "id": "011/why-were-the-first-cities-sometimes-at-war",
+          "url": "/011-mesopotamia-and-the-first-states/why-were-the-first-cities-sometimes-at-war/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "umma",
+      "name": {
+        "en": "Umma",
+        "bg": "Ума"
+      },
+      "lat": 31.667,
+      "lon": 45.888,
+      "type": "city",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/sumer-was-not-one-unified-country",
+          "url": "/011-mesopotamia-and-the-first-states/sumer-was-not-one-unified-country/"
+        },
+        {
+          "id": "011/why-were-the-first-cities-sometimes-at-war",
+          "url": "/011-mesopotamia-and-the-first-states/why-were-the-first-cities-sometimes-at-war/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "kish",
+      "name": {
+        "en": "Kish",
+        "bg": "Киш"
+      },
+      "lat": 32.54,
+      "lon": 44.605,
+      "type": "city",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/sumer-was-not-one-unified-country",
+          "url": "/011-mesopotamia-and-the-first-states/sumer-was-not-one-unified-country/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "babylon",
+      "name": {
+        "en": "Babylon",
+        "bg": "Вавилон"
+      },
+      "lat": 32.542,
+      "lon": 44.421,
+      "type": "city",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/babylon-and-hammurabi-what-the-famous-code-really-tells-us",
+          "url": "/011-mesopotamia-and-the-first-states/babylon-and-hammurabi-what-the-famous-code-really-tells-us/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "susa",
+      "name": {
+        "en": "Susa",
+        "bg": "Суза"
+      },
+      "lat": 32.189,
+      "lon": 48.256,
+      "type": "city",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/babylon-and-hammurabi-what-the-famous-code-really-tells-us",
+          "url": "/011-mesopotamia-and-the-first-states/babylon-and-hammurabi-what-the-famous-code-really-tells-us/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "tigris",
+      "name": {
+        "en": "Tigris",
+        "bg": "Тигър"
+      },
+      "lat": 38.503,
+      "lon": 39.506,
+      "type": "river",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/a-landscape-that-demanded-ingenuity",
+          "url": "/011-mesopotamia-and-the-first-states/a-landscape-that-demanded-ingenuity/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "euphrates",
+      "name": {
+        "en": "Euphrates",
+        "bg": "Ефрат"
+      },
+      "lat": 39.728,
+      "lon": 40.257,
+      "type": "river",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/a-landscape-that-demanded-ingenuity",
+          "url": "/011-mesopotamia-and-the-first-states/a-landscape-that-demanded-ingenuity/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "zagros",
+      "name": {
+        "en": "Zagros Mountains",
+        "bg": "Загрос"
+      },
+      "lat": 33.667,
+      "lon": 47,
+      "type": "mountain",
+      "region": "west-asia",
+      "active": null,
+      "chapter": "011",
+      "sections": [
+        {
+          "id": "011/a-landscape-that-demanded-ingenuity",
+          "url": "/011-mesopotamia-and-the-first-states/a-landscape-that-demanded-ingenuity/"
+        }
+      ],
+      "status": "proposed"
+    }
+  ],
+  "routes": [],
+  "concepts": [
+    {
+      "id": "value-judgment",
+      "term": {
+        "en": "Value judgment",
+        "bg": "Ценностна преценка"
+      },
+      "definition": {
+        "en": "An assessment based partly on priorities or moral standards.",
+        "bg": "Оценка, основана отчасти на приоритети или морални норми."
+      },
+      "defined": {
+        "id": "001/four-statements-that-sound-similar-but-do-different-work",
+        "url": "/001-how-to-know-what-is-true/four-statements-that-sound-similar-but-do-different-work/"
+      },
+      "related": [],
+      "chapter": "001",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "provenance",
+      "term": {
+        "en": "Provenance",
+        "bg": "Произход"
+      },
+      "definition": {
+        "en": "A source’s origin and history of transmission or handling.",
+        "bg": "Произходът на източника и историята на предаването или съхраняването му."
+      },
+      "defined": {
+        "id": "001/the-right-evidence-for-the-right-question",
+        "url": "/001-how-to-know-what-is-true/the-right-evidence-for-the-right-question/"
+      },
+      "related": [],
+      "chapter": "001",
+      "sections": [
+        {
+          "id": "004/the-past-leaves-traces-not-finished-stories",
+          "url": "/004-historical-time-and-the-problem-of-sources/the-past-leaves-traces-not-finished-stories/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "corroboration",
+      "term": {
+        "en": "Corroboration",
+        "bg": "Независимо потвърждение"
+      },
+      "definition": {
+        "en": "Confirmation through evidence not merely copied from one source.",
+        "bg": "Потвърждение чрез доказателства, които не са просто копирани от един източник."
+      },
+      "defined": {
+        "id": "001/the-danger-of-becoming-certain-that-nobody-knows-anything",
+        "url": "/001-how-to-know-what-is-true/the-danger-of-becoming-certain-that-nobody-knows-anything/"
+      },
+      "related": [
+        "calibrated-confidence"
+      ],
+      "chapter": "001",
+      "sections": [
+        {
+          "id": "004/primary-source-is-a-relationship-to-a-question",
+          "url": "/004-historical-time-and-the-problem-of-sources/primary-source-is-a-relationship-to-a-question/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "lateral-reading",
+      "term": {
+        "en": "Lateral reading",
+        "bg": "Странично четене"
+      },
+      "definition": {
+        "en": "Checking an unfamiliar source using outside information and coverage.",
+        "bg": "Проверка на непознат източник чрез външна информация и отразяване."
+      },
+      "defined": {
+        "id": "001/following-a-claim-upstream",
+        "url": "/001-how-to-know-what-is-true/following-a-claim-upstream/"
+      },
+      "related": [
+        "sift"
+      ],
+      "chapter": "001",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "sift",
+      "term": {
+        "en": "SIFT",
+        "bg": "SIFT"
+      },
+      "definition": {
+        "en": "Stop; Investigate source; Find better coverage; Trace to original context.",
+        "bg": "Спри; проучи източника; намери по-добро отразяване; проследи до първоначалния контекст."
+      },
+      "defined": {
+        "id": "001/following-a-claim-upstream",
+        "url": "/001-how-to-know-what-is-true/following-a-claim-upstream/"
+      },
+      "related": [
+        "lateral-reading"
+      ],
+      "chapter": "001",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "counterfactual",
+      "term": {
+        "en": "Counterfactual",
+        "bg": "Контрафактически сценарий"
+      },
+      "definition": {
+        "en": "What would have happened in a comparable world without the proposed cause.",
+        "bg": "Какво би се случило в сравним свят без предполагаемата причина."
+      },
+      "defined": {
+        "id": "001/from-a-pattern-to-a-cause",
+        "url": "/001-how-to-know-what-is-true/from-a-pattern-to-a-cause/"
+      },
+      "related": [
+        "reverse-causation"
+      ],
+      "chapter": "001",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "reverse-causation",
+      "term": {
+        "en": "Reverse causation",
+        "bg": "Обратна причинност"
+      },
+      "definition": {
+        "en": "The supposed effect may influence the supposed cause.",
+        "bg": "Предполагаемото следствие може да влияе на предполагаемата причина."
+      },
+      "defined": {
+        "id": "001/from-a-pattern-to-a-cause",
+        "url": "/001-how-to-know-what-is-true/from-a-pattern-to-a-cause/"
+      },
+      "related": [
+        "counterfactual"
+      ],
+      "chapter": "001",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "systematic-review",
+      "term": {
+        "en": "Systematic review",
+        "bg": "Систематичен преглед"
+      },
+      "definition": {
+        "en": "Explicitly finds and appraises a body of research to address a question.",
+        "bg": "Изрично намира и оценява съвкупност от изследвания, за да отговори на въпрос."
+      },
+      "defined": {
+        "id": "001/what-science-can-offer-and-what-it-cannot-settle-alone",
+        "url": "/001-how-to-know-what-is-true/what-science-can-offer-and-what-it-cannot-settle-alone/"
+      },
+      "related": [
+        "peer-review"
+      ],
+      "chapter": "001",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "peer-review",
+      "term": {
+        "en": "Peer review",
+        "bg": "Експертно рецензиране"
+      },
+      "definition": {
+        "en": "Expert scrutiny before publication, not a guarantee of truth.",
+        "bg": "Експертна проверка преди публикуване, а не гаранция за истинност."
+      },
+      "defined": {
+        "id": "001/what-science-can-offer-and-what-it-cannot-settle-alone",
+        "url": "/001-how-to-know-what-is-true/what-science-can-offer-and-what-it-cannot-settle-alone/"
+      },
+      "related": [
+        "systematic-review"
+      ],
+      "chapter": "001",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "effect-size",
+      "term": {
+        "en": "Effect size",
+        "bg": "Размер на ефекта"
+      },
+      "definition": {
+        "en": "The magnitude of an observed difference or relationship.",
+        "bg": "Големината на наблюдавана разлика или връзка."
+      },
+      "defined": {
+        "id": "001/reading-a-research-headline-without-being-fooled",
+        "url": "/001-how-to-know-what-is-true/reading-a-research-headline-without-being-fooled/"
+      },
+      "related": [],
+      "chapter": "001",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "confirmation-bias",
+      "term": {
+        "en": "Confirmation bias",
+        "bg": "Склонност към потвърждение"
+      },
+      "definition": {
+        "en": "Selective attention or interpretation favoring existing beliefs.",
+        "bg": "Избирателно внимание или тълкуване в полза на вече съществуващи убеждения."
+      },
+      "defined": {
+        "id": "001/cognitive-bias-when-our-own-minds-become-part-of-the-problem",
+        "url": "/001-how-to-know-what-is-true/cognitive-bias-when-our-own-minds-become-part-of-the-problem/"
+      },
+      "related": [],
+      "chapter": "001",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "prior-probability",
+      "term": {
+        "en": "Prior probability",
+        "bg": "Априорна вероятност"
+      },
+      "definition": {
+        "en": "Background plausibility before assessing a new piece of evidence.",
+        "bg": "Изходната правдоподобност преди оценката на ново доказателство."
+      },
+      "defined": {
+        "id": "001/probability-is-the-language-of-reasonable-uncertainty",
+        "url": "/001-how-to-know-what-is-true/probability-is-the-language-of-reasonable-uncertainty/"
+      },
+      "related": [
+        "calibrated-confidence"
+      ],
+      "chapter": "001",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "calibrated-confidence",
+      "term": {
+        "en": "Calibrated confidence",
+        "bg": "Калибрирана увереност"
+      },
+      "definition": {
+        "en": "Strength of belief matched to strength and limits of the evidence.",
+        "bg": "Сила на убеждението, съобразена със силата и границите на доказателствата."
+      },
+      "defined": {
+        "id": "001/the-danger-of-becoming-certain-that-nobody-knows-anything",
+        "url": "/001-how-to-know-what-is-true/the-danger-of-becoming-certain-that-nobody-knows-anything/"
+      },
+      "related": [
+        "corroboration"
+      ],
+      "chapter": "001",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "deductive-validity",
+      "term": {
+        "en": "Validity",
+        "bg": "Валидност"
+      },
+      "definition": {
+        "en": "Impossible for all premises to be true and conclusion false.",
+        "bg": "Невъзможно е всички предпоставки да са верни, а заключението – невярно."
+      },
+      "defined": {
+        "id": "002/valid-is-not-the-same-as-true",
+        "url": "/002-logic-arguments-and-common-fallacies/valid-is-not-the-same-as-true/"
+      },
+      "related": [
+        "sound-argument",
+        "counterexample",
+        "affirming-the-consequent",
+        "modus-tollens"
+      ],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "sound-argument",
+      "term": {
+        "en": "Sound argument",
+        "bg": "Коректен аргумент"
+      },
+      "definition": {
+        "en": "A valid deductive argument whose premises are true.",
+        "bg": "Валиден дедуктивен аргумент, чиито предпоставки са верни."
+      },
+      "defined": {
+        "id": "002/valid-is-not-the-same-as-true",
+        "url": "/002-logic-arguments-and-common-fallacies/valid-is-not-the-same-as-true/"
+      },
+      "related": [
+        "deductive-validity",
+        "counterexample",
+        "affirming-the-consequent",
+        "modus-tollens"
+      ],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "counterexample",
+      "term": {
+        "en": "Counterexample",
+        "bg": "Контрапример"
+      },
+      "definition": {
+        "en": "A case with true premises but false conclusion; shows invalidity.",
+        "bg": "Случай с верни предпоставки, но невярно заключение; показва, че изводът не е валиден."
+      },
+      "defined": {
+        "id": "002/valid-is-not-the-same-as-true",
+        "url": "/002-logic-arguments-and-common-fallacies/valid-is-not-the-same-as-true/"
+      },
+      "related": [
+        "deductive-validity",
+        "sound-argument",
+        "affirming-the-consequent",
+        "modus-tollens"
+      ],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "affirming-the-consequent",
+      "term": {
+        "en": "Affirming the consequent",
+        "bg": "Утвърждаване на следствието"
+      },
+      "definition": {
+        "en": "Mistaking Q for proof of P in “if P, then Q”.",
+        "bg": "Грешката да приемем Q за доказателство за P при „ако P, то Q“."
+      },
+      "defined": {
+        "id": "002/valid-is-not-the-same-as-true",
+        "url": "/002-logic-arguments-and-common-fallacies/valid-is-not-the-same-as-true/"
+      },
+      "related": [
+        "deductive-validity",
+        "sound-argument",
+        "counterexample",
+        "modus-tollens"
+      ],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "modus-tollens",
+      "term": {
+        "en": "Modus tollens",
+        "bg": "Modus tollens"
+      },
+      "definition": {
+        "en": "From “if P then Q” and “not Q,” infer “not P”.",
+        "bg": "От „ако P, то Q“ и „не Q“ следва „не P“."
+      },
+      "defined": {
+        "id": "002/valid-is-not-the-same-as-true",
+        "url": "/002-logic-arguments-and-common-fallacies/valid-is-not-the-same-as-true/"
+      },
+      "related": [
+        "deductive-validity",
+        "sound-argument",
+        "counterexample",
+        "affirming-the-consequent"
+      ],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "sufficient-condition",
+      "term": {
+        "en": "Sufficient condition",
+        "bg": "Достатъчно условие"
+      },
+      "definition": {
+        "en": "A guarantees B under the stated relationship.",
+        "bg": "A гарантира B при посочената връзка."
+      },
+      "defined": {
+        "id": "002/necessary-sufficient-and-merely-associated",
+        "url": "/002-logic-arguments-and-common-fallacies/necessary-sufficient-and-merely-associated/"
+      },
+      "related": [],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "necessary-condition",
+      "term": {
+        "en": "Necessary condition",
+        "bg": "Необходимо условие"
+      },
+      "definition": {
+        "en": "B cannot occur unless A is present.",
+        "bg": "B не може да настъпи, ако A не е налице."
+      },
+      "defined": {
+        "id": "002/necessary-sufficient-and-merely-associated",
+        "url": "/002-logic-arguments-and-common-fallacies/necessary-sufficient-and-merely-associated/"
+      },
+      "related": [],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "induction",
+      "term": {
+        "en": "Induction",
+        "bg": "Индукция"
+      },
+      "definition": {
+        "en": "Generalization or prediction supported by observed cases.",
+        "bg": "Обобщение или прогноза, подкрепени от наблюдавани случаи."
+      },
+      "defined": {
+        "id": "002/three-ways-to-reason-about-the-unknown",
+        "url": "/002-logic-arguments-and-common-fallacies/three-ways-to-reason-about-the-unknown/"
+      },
+      "related": [
+        "abduction"
+      ],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "abduction",
+      "term": {
+        "en": "Abduction",
+        "bg": "Абдукция"
+      },
+      "definition": {
+        "en": "Reasoning to the best supported explanation of evidence.",
+        "bg": "Разсъждение към най-добре подкрепеното обяснение на доказателствата."
+      },
+      "defined": {
+        "id": "002/three-ways-to-reason-about-the-unknown",
+        "url": "/002-logic-arguments-and-common-fallacies/three-ways-to-reason-about-the-unknown/"
+      },
+      "related": [
+        "induction"
+      ],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "hidden-premise",
+      "term": {
+        "en": "Hidden premise",
+        "bg": "Скрита предпоставка"
+      },
+      "definition": {
+        "en": "An unstated assumption needed for an argument to work.",
+        "bg": "Неизказано допускане, без което аргументът не работи."
+      },
+      "defined": {
+        "id": "002/the-anatomy-of-a-reasoned-claim",
+        "url": "/002-logic-arguments-and-common-fallacies/the-anatomy-of-a-reasoned-claim/"
+      },
+      "related": [],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "causal-claim",
+      "term": {
+        "en": "Causal claim",
+        "bg": "Причинно твърдение"
+      },
+      "definition": {
+        "en": "Says what produced an outcome, not merely what occurred.",
+        "bg": "Казва какво е предизвикало даден резултат, а не само какво се е случило."
+      },
+      "defined": {
+        "id": "002/facts-definitions-predictions-and-values",
+        "url": "/002-logic-arguments-and-common-fallacies/facts-definitions-predictions-and-values/"
+      },
+      "related": [],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "straw-man",
+      "term": {
+        "en": "Straw man",
+        "bg": "Сламен човек"
+      },
+      "definition": {
+        "en": "Attacking a distorted version of someone’s real position.",
+        "bg": "Нападение срещу изкривена версия на действителната позиция на някого."
+      },
+      "defined": {
+        "id": "002/straw-men-steel-men-and-the-temptation-to-win",
+        "url": "/002-logic-arguments-and-common-fallacies/straw-men-steel-men-and-the-temptation-to-win/"
+      },
+      "related": [
+        "steelman"
+      ],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "steelman",
+      "term": {
+        "en": "Steelman",
+        "bg": "Стоманен човек"
+      },
+      "definition": {
+        "en": "Presenting an opponent’s strongest defensible argument fairly.",
+        "bg": "Честно представяне на най-силния защитим аргумент на опонента."
+      },
+      "defined": {
+        "id": "002/straw-men-steel-men-and-the-temptation-to-win",
+        "url": "/002-logic-arguments-and-common-fallacies/straw-men-steel-men-and-the-temptation-to-win/"
+      },
+      "related": [
+        "straw-man"
+      ],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "false-dilemma",
+      "term": {
+        "en": "False dilemma",
+        "bg": "Фалшива дилема"
+      },
+      "definition": {
+        "en": "Presenting an incomplete range as the only possible choices.",
+        "bg": "Представяне на непълен набор от възможности като единствените възможни."
+      },
+      "defined": {
+        "id": "002/false-choices-slippery-slopes-and-arguments-from-fear",
+        "url": "/002-logic-arguments-and-common-fallacies/false-choices-slippery-slopes-and-arguments-from-fear/"
+      },
+      "related": [],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "appeal-to-popularity",
+      "term": {
+        "en": "Appeal to popularity",
+        "bg": "Позоваване на популярността"
+      },
+      "definition": {
+        "en": "Numbers of believers do not themselves prove a factual claim.",
+        "bg": "Броят на вярващите сам по себе си не доказва едно фактическо твърдение."
+      },
+      "defined": {
+        "id": "002/popularity-authority-tradition-and-novelty",
+        "url": "/002-logic-arguments-and-common-fallacies/popularity-authority-tradition-and-novelty/"
+      },
+      "related": [],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "cherry-picking",
+      "term": {
+        "en": "Cherry-picking",
+        "bg": "Избирателно подбиране"
+      },
+      "definition": {
+        "en": "Selecting favorable evidence while hiding relevant contrary evidence.",
+        "bg": "Подбиране на удобните доказателства и скриване на съществените противоположни."
+      },
+      "defined": {
+        "id": "002/bad-generalizations-and-selective-evidence",
+        "url": "/002-logic-arguments-and-common-fallacies/bad-generalizations-and-selective-evidence/"
+      },
+      "related": [
+        "counterexample",
+        "survivorship-bias"
+      ],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "survivorship-bias",
+      "term": {
+        "en": "Survivorship bias",
+        "bg": "Изкривяване на оцелелите"
+      },
+      "definition": {
+        "en": "Ignoring failed or disappeared cases in a comparison.",
+        "bg": "Пренебрегване на неуспелите или изчезналите случаи при сравнение."
+      },
+      "defined": {
+        "id": "002/bad-generalizations-and-selective-evidence",
+        "url": "/002-logic-arguments-and-common-fallacies/bad-generalizations-and-selective-evidence/"
+      },
+      "related": [
+        "counterexample",
+        "cherry-picking"
+      ],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "circular-reasoning",
+      "term": {
+        "en": "Circular reasoning",
+        "bg": "Кръгово разсъждение"
+      },
+      "definition": {
+        "en": "Reasons already assume the disputed conclusion.",
+        "bg": "Доводите вече предполагат спорното заключение."
+      },
+      "defined": {
+        "id": "002/circular-arguments-moving-goalposts-and-the-burden-of-proof",
+        "url": "/002-logic-arguments-and-common-fallacies/circular-arguments-moving-goalposts-and-the-burden-of-proof/"
+      },
+      "related": [],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "fallacy-fallacy",
+      "term": {
+        "en": "Fallacy fallacy",
+        "bg": "Заблудата за заблудата"
+      },
+      "definition": {
+        "en": "Assuming a conclusion false because one defense of it is weak.",
+        "bg": "Допускането, че едно заключение е невярно, защото една негова защита е слаба."
+      },
+      "defined": {
+        "id": "002/the-fallacy-fallacy-and-why-disagreement-remains-difficult",
+        "url": "/002-logic-arguments-and-common-fallacies/the-fallacy-fallacy-and-why-disagreement-remains-difficult/"
+      },
+      "related": [],
+      "chapter": "002",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "independent-events",
+      "term": {
+        "en": "Independent events",
+        "bg": "Независими събития"
+      },
+      "definition": {
+        "en": "Knowing one outcome does not change the probability of the other.",
+        "bg": "Знанието за единия изход не променя вероятността на другия."
+      },
+      "defined": {
+        "id": "003/three-simple-rules-for-combining-chances",
+        "url": "/003-probability-risk-and-everyday-numbers/three-simple-rules-for-combining-chances/"
+      },
+      "related": [
+        "mutually-exclusive-events"
+      ],
+      "chapter": "003",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "mutually-exclusive-events",
+      "term": {
+        "en": "Mutually exclusive events",
+        "bg": "Несъвместими събития"
+      },
+      "definition": {
+        "en": "Events that cannot occur together in the same trial.",
+        "bg": "Събития, които не могат да настъпят заедно в един и същ опит."
+      },
+      "defined": {
+        "id": "003/three-simple-rules-for-combining-chances",
+        "url": "/003-probability-risk-and-everyday-numbers/three-simple-rules-for-combining-chances/"
+      },
+      "related": [
+        "independent-events"
+      ],
+      "chapter": "003",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "base-rate",
+      "term": {
+        "en": "Base rate",
+        "bg": "Базова честота"
+      },
+      "definition": {
+        "en": "Starting prevalence of an event in the relevant population.",
+        "bg": "Изходната честота на дадено събитие в съответната съвкупност."
+      },
+      "defined": {
+        "id": "003/the-fraud-alarm-counted-properly",
+        "url": "/003-probability-risk-and-everyday-numbers/the-fraud-alarm-counted-properly/"
+      },
+      "related": [],
+      "chapter": "003",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "false-positive",
+      "term": {
+        "en": "False positive",
+        "bg": "Фалшиво положителен резултат"
+      },
+      "definition": {
+        "en": "An alert occurs even though the target event is absent.",
+        "bg": "Сигнал се задейства, въпреки че търсеното събитие липсва."
+      },
+      "defined": {
+        "id": "003/the-fraud-alarm-counted-properly",
+        "url": "/003-probability-risk-and-everyday-numbers/the-fraud-alarm-counted-properly/"
+      },
+      "related": [
+        "base-rate"
+      ],
+      "chapter": "003",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "absolute-risk-reduction",
+      "term": {
+        "en": "Absolute risk reduction",
+        "bg": "Абсолютно намаление на риска"
+      },
+      "definition": {
+        "en": "Difference between event probabilities, in percentage points.",
+        "bg": "Разликата между вероятностите на събитието, в процентни пунктове."
+      },
+      "defined": {
+        "id": "003/the-size-of-a-risk-matters-as-much-as-its-direction",
+        "url": "/003-probability-risk-and-everyday-numbers/the-size-of-a-risk-matters-as-much-as-its-direction/"
+      },
+      "related": [],
+      "chapter": "003",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "relative-risk-reduction",
+      "term": {
+        "en": "Relative risk reduction",
+        "bg": "Относително намаление на риска"
+      },
+      "definition": {
+        "en": "Absolute risk reduction divided by original risk.",
+        "bg": "Абсолютното намаление на риска, разделено на първоначалния риск."
+      },
+      "defined": {
+        "id": "003/the-size-of-a-risk-matters-as-much-as-its-direction",
+        "url": "/003-probability-risk-and-everyday-numbers/the-size-of-a-risk-matters-as-much-as-its-direction/"
+      },
+      "related": [
+        "absolute-risk-reduction"
+      ],
+      "chapter": "003",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "expected-value",
+      "term": {
+        "en": "Expected value",
+        "bg": "Очаквана стойност"
+      },
+      "definition": {
+        "en": "Sum of outcome amounts, each weighted by its probability.",
+        "bg": "Сборът от възможните суми, всяка умножена по вероятността си."
+      },
+      "defined": {
+        "id": "003/expected-value-the-average-you-may-never-personally-see",
+        "url": "/003-probability-risk-and-everyday-numbers/expected-value-the-average-you-may-never-personally-see/"
+      },
+      "related": [
+        "mutually-exclusive-events"
+      ],
+      "chapter": "003",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "probability-distribution",
+      "term": {
+        "en": "Probability distribution",
+        "bg": "Вероятностно разпределение"
+      },
+      "definition": {
+        "en": "Possible outcomes and their respective probabilities.",
+        "bg": "Възможните изходи и съответните им вероятности."
+      },
+      "defined": {
+        "id": "003/variability-two-roads-with-the-same-average",
+        "url": "/003-probability-risk-and-everyday-numbers/variability-two-roads-with-the-same-average/"
+      },
+      "related": [
+        "expected-value"
+      ],
+      "chapter": "003",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "gamblers-fallacy",
+      "term": {
+        "en": "Gambler’s fallacy",
+        "bg": "Заблуда на комарджията"
+      },
+      "definition": {
+        "en": "Assuming independent random outcomes must compensate for a streak.",
+        "bg": "Убеждението, че независимите случайни изходи трябва да „компенсират“ поредица."
+      },
+      "defined": {
+        "id": "003/small-samples-streaks-and-the-human-search-for-patterns",
+        "url": "/003-probability-risk-and-everyday-numbers/small-samples-streaks-and-the-human-search-for-patterns/"
+      },
+      "related": [
+        "independent-events",
+        "regression-to-the-mean"
+      ],
+      "chapter": "003",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "regression-to-the-mean",
+      "term": {
+        "en": "Regression toward the mean",
+        "bg": "Регресия към средното"
+      },
+      "definition": {
+        "en": "Extreme observations are often followed by less extreme ones.",
+        "bg": "След крайни наблюдения често следват по-малко крайни."
+      },
+      "defined": {
+        "id": "003/small-samples-streaks-and-the-human-search-for-patterns",
+        "url": "/003-probability-risk-and-everyday-numbers/small-samples-streaks-and-the-human-search-for-patterns/"
+      },
+      "related": [
+        "independent-events",
+        "gamblers-fallacy"
+      ],
+      "chapter": "003",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "forecast-calibration",
+      "term": {
+        "en": "Forecast calibration",
+        "bg": "Калибриране на прогнозите"
+      },
+      "definition": {
+        "en": "How closely predicted frequencies match observed frequencies over cases.",
+        "bg": "Доколко прогнозираните честоти съвпадат с наблюдаваните в много случаи."
+      },
+      "defined": {
+        "id": "003/forecasts-should-be-judged-as-forecasts",
+        "url": "/003-probability-risk-and-everyday-numbers/forecasts-should-be-judged-as-forecasts/"
+      },
+      "related": [],
+      "chapter": "003",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "sampling-uncertainty",
+      "term": {
+        "en": "Sampling uncertainty",
+        "bg": "Извадкова неопределеност"
+      },
+      "definition": {
+        "en": "Variation in estimates arising from which sample was drawn.",
+        "bg": "Колебание в оценките, което идва от това коя извадка е взета."
+      },
+      "defined": {
+        "id": "003/where-confidence-comes-from-and-where-it-should-stop",
+        "url": "/003-probability-risk-and-everyday-numbers/where-confidence-comes-from-and-where-it-should-stop/"
+      },
+      "related": [
+        "independent-events"
+      ],
+      "chapter": "003",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "selection-bias",
+      "term": {
+        "en": "Selection bias",
+        "bg": "Изкривяване при подбора"
+      },
+      "definition": {
+        "en": "The observed group systematically differs from the target group.",
+        "bg": "Наблюдаваната група систематично се различава от целевата."
+      },
+      "defined": {
+        "id": "003/how-statistics-become-misleading-without-any-false",
+        "url": "/003-probability-risk-and-everyday-numbers/how-statistics-become-misleading-without-any-false/"
+      },
+      "related": [],
+      "chapter": "003",
+      "sections": [
+        {
+          "id": "006/sampling-who-gets-counted-and-who-never-had-a-chance",
+          "url": "/006-reading-data-charts-and-statistics/sampling-who-gets-counted-and-who-never-had-a-chance/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "periodization",
+      "term": {
+        "en": "Periodization",
+        "bg": "Периодизация"
+      },
+      "definition": {
+        "en": "Dividing history into interpretive periods.",
+        "bg": "Разделяне на историята на периоди, които са тълкувания."
+      },
+      "defined": {
+        "id": "004/periods-are-questions-not-fences",
+        "url": "/004-historical-time-and-the-problem-of-sources/periods-are-questions-not-fences/"
+      },
+      "related": [
+        "presentism",
+        "archival-survivorship-bias"
+      ],
+      "chapter": "004",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "presentism",
+      "term": {
+        "en": "Presentism",
+        "bg": "Презентизъм"
+      },
+      "definition": {
+        "en": "Projecting present-day categories onto the past without context.",
+        "bg": "Пренасяне на днешни категории върху миналото без отчитане на контекста."
+      },
+      "defined": {
+        "id": "004/periods-are-questions-not-fences",
+        "url": "/004-historical-time-and-the-problem-of-sources/periods-are-questions-not-fences/"
+      },
+      "related": [
+        "periodization",
+        "archival-survivorship-bias"
+      ],
+      "chapter": "004",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "archival-survivorship-bias",
+      "term": {
+        "en": "Archival survivorship bias",
+        "bg": "Архивно изкривяване на оцелелите"
+      },
+      "definition": {
+        "en": "Surviving records reflect preservation and selection, not all past life.",
+        "bg": "Оцелелите записи отразяват съхраняването и подбора, а не целия минал живот."
+      },
+      "defined": {
+        "id": "004/the-past-leaves-traces-not-finished-stories",
+        "url": "/004-historical-time-and-the-problem-of-sources/the-past-leaves-traces-not-finished-stories/"
+      },
+      "related": [
+        "dendrochronology"
+      ],
+      "chapter": "004",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "stratigraphy",
+      "term": {
+        "en": "Stratigraphy",
+        "bg": "Стратиграфия"
+      },
+      "definition": {
+        "en": "Studying the sequence and relationships of archaeological layers.",
+        "bg": "Изучаване на последователността и връзките между археологическите пластове."
+      },
+      "defined": {
+        "id": "004/archaeology-reading-what-people-left-behind",
+        "url": "/004-historical-time-and-the-problem-of-sources/archaeology-reading-what-people-left-behind/"
+      },
+      "related": [],
+      "chapter": "004",
+      "sections": [
+        {
+          "id": "009/how-we-know-how-old-something-is",
+          "url": "/009-human-evolution-and-the-first-migrations/how-we-know-how-old-something-is/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "dendrochronology",
+      "term": {
+        "en": "Dendrochronology",
+        "bg": "Дендрохронология"
+      },
+      "definition": {
+        "en": "Dating by patterns of tree-growth rings.",
+        "bg": "Датиране по рисунъка на годишните пръстени на дърветата."
+      },
+      "defined": {
+        "id": "004/how-historians-and-archaeologists-date-things",
+        "url": "/004-historical-time-and-the-problem-of-sources/how-historians-and-archaeologists-date-things/"
+      },
+      "related": [
+        "archival-survivorship-bias",
+        "radiocarbon-dating",
+        "old-wood-effect"
+      ],
+      "chapter": "004",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "radiocarbon-dating",
+      "term": {
+        "en": "Radiocarbon dating",
+        "bg": "Радиовъглеродно датиране"
+      },
+      "definition": {
+        "en": "Dating by the carbon-14 remaining in material from once-living organisms (with calibration and limits).",
+        "bg": "Датиране по останалия въглерод-14 в материал от някога живи организми (с калибриране и граници)."
+      },
+      "defined": {
+        "id": "004/how-historians-and-archaeologists-date-things",
+        "url": "/004-historical-time-and-the-problem-of-sources/how-historians-and-archaeologists-date-things/"
+      },
+      "related": [
+        "archival-survivorship-bias",
+        "dendrochronology",
+        "old-wood-effect"
+      ],
+      "chapter": "004",
+      "sections": [
+        {
+          "id": "009/how-we-know-how-old-something-is",
+          "url": "/009-human-evolution-and-the-first-migrations/how-we-know-how-old-something-is/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "old-wood-effect",
+      "term": {
+        "en": "Old-wood effect",
+        "bg": "Ефект на старата дървесина"
+      },
+      "definition": {
+        "en": "Wood growth can substantially predate its later use or burning.",
+        "bg": "Дървесината може да е израснала много преди по-късното ѝ използване или изгаряне."
+      },
+      "defined": {
+        "id": "004/how-historians-and-archaeologists-date-things",
+        "url": "/004-historical-time-and-the-problem-of-sources/how-historians-and-archaeologists-date-things/"
+      },
+      "related": [
+        "archival-survivorship-bias",
+        "dendrochronology",
+        "radiocarbon-dating"
+      ],
+      "chapter": "004",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "geographical-scale",
+      "term": {
+        "en": "Geographical scale",
+        "bg": "Географски мащаб"
+      },
+      "definition": {
+        "en": "The spatial extent and level of detail used to study a pattern.",
+        "bg": "Пространственият обхват и степента на подробност, с които изучаваме една закономерност."
+      },
+      "defined": {
+        "id": "005/what-exactly-does-geography-study",
+        "url": "/005-geography-maps-and-scale/what-exactly-does-geography-study/"
+      },
+      "related": [],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "mercator-projection",
+      "term": {
+        "en": "Mercator projection",
+        "bg": "Проекция на Меркатор"
+      },
+      "definition": {
+        "en": "A projection that preserves local angles, so constant-bearing rhumb lines appear straight.",
+        "bg": "Проекция, която запазва местните ъгли, така че линиите с постоянен курс (локсодромите) изглеждат прави."
+      },
+      "defined": {
+        "id": "005/the-impossible-promise-of-a-perfect-map",
+        "url": "/005-geography-maps-and-scale/the-impossible-promise-of-a-perfect-map/"
+      },
+      "related": [
+        "geographical-scale",
+        "equal-area-projection",
+        "great-circle-route",
+        "latitude"
+      ],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "equal-area-projection",
+      "term": {
+        "en": "Equal-area projection",
+        "bg": "Равноплощна проекция"
+      },
+      "definition": {
+        "en": "A projection that preserves proportional surface area, at the expense of some shapes.",
+        "bg": "Проекция, която запазва пропорциите на площите за сметка на някои форми."
+      },
+      "defined": {
+        "id": "005/the-impossible-promise-of-a-perfect-map",
+        "url": "/005-geography-maps-and-scale/the-impossible-promise-of-a-perfect-map/"
+      },
+      "related": [
+        "geographical-scale",
+        "mercator-projection",
+        "great-circle-route",
+        "latitude"
+      ],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "great-circle-route",
+      "term": {
+        "en": "Great-circle route",
+        "bg": "Маршрут по голям кръг"
+      },
+      "definition": {
+        "en": "The shortest surface path between points on an ideal sphere.",
+        "bg": "Най-краткият път по повърхността между две точки на идеална сфера."
+      },
+      "defined": {
+        "id": "005/the-impossible-promise-of-a-perfect-map",
+        "url": "/005-geography-maps-and-scale/the-impossible-promise-of-a-perfect-map/"
+      },
+      "related": [
+        "geographical-scale",
+        "mercator-projection",
+        "equal-area-projection",
+        "latitude"
+      ],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "latitude",
+      "term": {
+        "en": "Latitude",
+        "bg": "Географска ширина"
+      },
+      "definition": {
+        "en": "Angular position north or south of the Equator.",
+        "bg": "Ъгловото положение на север или на юг от екватора."
+      },
+      "defined": {
+        "id": "005/finding-any-place-coordinates-orientation-and-the-grid",
+        "url": "/005-geography-maps-and-scale/finding-any-place-coordinates-orientation-and-the-grid/"
+      },
+      "related": [
+        "great-circle-route"
+      ],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "convergent-boundary",
+      "term": {
+        "en": "Convergent boundary",
+        "bg": "Конвергентна граница"
+      },
+      "definition": {
+        "en": "A boundary where plates move toward one another.",
+        "bg": "Граница, при която плочите се движат една към друга."
+      },
+      "defined": {
+        "id": "005/earths-moving-shell-plates-mountains-and-earthquakes",
+        "url": "/005-geography-maps-and-scale/earths-moving-shell-plates-mountains-and-earthquakes/"
+      },
+      "related": [
+        "drainage-divide"
+      ],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "drainage-divide",
+      "term": {
+        "en": "Drainage divide",
+        "bg": "Вододел"
+      },
+      "definition": {
+        "en": "High ground separating neighbouring river catchments.",
+        "bg": "Възвишение, което разделя съседни речни водосборни басейни."
+      },
+      "defined": {
+        "id": "005/water-gives-the-landscape-its-circulation",
+        "url": "/005-geography-maps-and-scale/water-gives-the-landscape-its-circulation/"
+      },
+      "related": [],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "rain-shadow",
+      "term": {
+        "en": "Rain shadow",
+        "bg": "Дъждовна сянка"
+      },
+      "definition": {
+        "en": "Drier leeward conditions associated with moist air crossing relief.",
+        "bg": "По-сухи условия от подветрената страна, когато влажен въздух преминава над релеф."
+      },
+      "defined": {
+        "id": "005/why-climate-varies-sunlight-air-altitude-and-water",
+        "url": "/005-geography-maps-and-scale/why-climate-varies-sunlight-air-altitude-and-water/"
+      },
+      "related": [
+        "geographical-scale",
+        "latitude",
+        "monsoon"
+      ],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "monsoon",
+      "term": {
+        "en": "Monsoon",
+        "bg": "Мусон"
+      },
+      "definition": {
+        "en": "Seasonal large-scale change in atmospheric circulation and rainfall.",
+        "bg": "Сезонна мащабна промяна в атмосферната циркулация и валежите."
+      },
+      "defined": {
+        "id": "005/why-climate-varies-sunlight-air-altitude-and-water",
+        "url": "/005-geography-maps-and-scale/why-climate-varies-sunlight-air-altitude-and-water/"
+      },
+      "related": [
+        "geographical-scale",
+        "latitude",
+        "rain-shadow"
+      ],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "coastal-upwelling",
+      "term": {
+        "en": "Coastal upwelling",
+        "bg": "Крайбрежен ъпуелинг"
+      },
+      "definition": {
+        "en": "Cold, nutrient-rich deeper water replaces displaced surface water.",
+        "bg": "Студена, богата на хранителни вещества дълбока вода заменя изместената повърхностна вода."
+      },
+      "defined": {
+        "id": "005/oceans-the-great-highways-and-climate-engines",
+        "url": "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/"
+      },
+      "related": [
+        "maritime-chokepoint",
+        "population-density"
+      ],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "maritime-chokepoint",
+      "term": {
+        "en": "Maritime chokepoint",
+        "bg": "Морско тясно място"
+      },
+      "definition": {
+        "en": "A narrow route on which major shipping connections concentrate.",
+        "bg": "Тесен морски път, по който се съсредоточават големи корабни връзки."
+      },
+      "defined": {
+        "id": "005/oceans-the-great-highways-and-climate-engines",
+        "url": "/005-geography-maps-and-scale/oceans-the-great-highways-and-climate-engines/"
+      },
+      "related": [
+        "coastal-upwelling",
+        "population-density"
+      ],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "population-density",
+      "term": {
+        "en": "Population density",
+        "bg": "Гъстота на населението"
+      },
+      "definition": {
+        "en": "Number of people divided by area, usually per km².",
+        "bg": "Броят на хората, разделен на площта, обикновено на км²."
+      },
+      "defined": {
+        "id": "005/people-cities-and-the-uneven-map-of-opportunity",
+        "url": "/005-geography-maps-and-scale/people-cities-and-the-uneven-map-of-opportunity/"
+      },
+      "related": [
+        "drainage-divide",
+        "agglomeration-economy"
+      ],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "agglomeration-economy",
+      "term": {
+        "en": "Agglomeration economy",
+        "bg": "Агломерационна изгода"
+      },
+      "definition": {
+        "en": "Benefit from firms and workers locating near one another.",
+        "bg": "Изгода от това фирми и работници да се разполагат близо едни до други."
+      },
+      "defined": {
+        "id": "005/people-cities-and-the-uneven-map-of-opportunity",
+        "url": "/005-geography-maps-and-scale/people-cities-and-the-uneven-map-of-opportunity/"
+      },
+      "related": [
+        "drainage-divide",
+        "population-density"
+      ],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "choropleth-map",
+      "term": {
+        "en": "Choropleth map",
+        "bg": "Картограма"
+      },
+      "definition": {
+        "en": "A map shading geographic units by a specified data value.",
+        "bg": "Карта, която оцветява географски единици според дадена стойност на данните."
+      },
+      "defined": {
+        "id": "005/reading-thematic-maps-without-being-fooled",
+        "url": "/005-geography-maps-and-scale/reading-thematic-maps-without-being-fooled/"
+      },
+      "related": [
+        "population-density",
+        "ecological-fallacy"
+      ],
+      "chapter": "005",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "ecological-fallacy",
+      "term": {
+        "en": "Ecological fallacy",
+        "bg": "Екологична заблуда"
+      },
+      "definition": {
+        "en": "Mistaking a group-level relationship for an individual-level one.",
+        "bg": "Приемане на връзка на ниво група за връзка на ниво отделен човек."
+      },
+      "defined": {
+        "id": "005/reading-thematic-maps-without-being-fooled",
+        "url": "/005-geography-maps-and-scale/reading-thematic-maps-without-being-fooled/"
+      },
+      "related": [
+        "population-density",
+        "choropleth-map"
+      ],
+      "chapter": "005",
+      "sections": [
+        {
+          "id": "006/correlation-a-relationship-not-a-mechanism",
+          "url": "/006-reading-data-charts-and-statistics/correlation-a-relationship-not-a-mechanism/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "unit-of-observation",
+      "term": {
+        "en": "Unit of observation",
+        "bg": "Единица на наблюдение"
+      },
+      "definition": {
+        "en": "The person, event, place or object described by one record.",
+        "bg": "Лицето, събитието, мястото или обектът, описани от един запис."
+      },
+      "defined": {
+        "id": "006/a-number-is-an-answer-to-a-question",
+        "url": "/006-reading-data-charts-and-statistics/a-number-is-an-answer-to-a-question/"
+      },
+      "related": [
+        "weighted-mean"
+      ],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "sampling-frame",
+      "term": {
+        "en": "Sampling frame",
+        "bg": "Извадкова рамка"
+      },
+      "definition": {
+        "en": "The list or mechanism through which eligible units can be sampled.",
+        "bg": "Списъкът или механизмът, чрез който допустимите единици могат да попаднат в извадката."
+      },
+      "defined": {
+        "id": "006/sampling-who-gets-counted-and-who-never-had-a-chance",
+        "url": "/006-reading-data-charts-and-statistics/sampling-who-gets-counted-and-who-never-had-a-chance/"
+      },
+      "related": [
+        "nonresponse-bias"
+      ],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "nonresponse-bias",
+      "term": {
+        "en": "Nonresponse bias",
+        "bg": "Изкривяване от неотговорили"
+      },
+      "definition": {
+        "en": "Responders and nonresponders differ on a relevant characteristic.",
+        "bg": "Отговорилите и неотговорилите се различават по съществена характеристика."
+      },
+      "defined": {
+        "id": "006/sampling-who-gets-counted-and-who-never-had-a-chance",
+        "url": "/006-reading-data-charts-and-statistics/sampling-who-gets-counted-and-who-never-had-a-chance/"
+      },
+      "related": [
+        "sampling-frame"
+      ],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "weighted-mean",
+      "term": {
+        "en": "Weighted mean",
+        "bg": "Претеглена средна стойност"
+      },
+      "definition": {
+        "en": "Groups contribute in proportion to their relevant sizes or weights.",
+        "bg": "Групите допринасят пропорционално на съответните си размери или тегла."
+      },
+      "defined": {
+        "id": "006/mean-median-mode-and-the-people-behind-the-average",
+        "url": "/006-reading-data-charts-and-statistics/mean-median-mode-and-the-people-behind-the-average/"
+      },
+      "related": [],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "standard-deviation",
+      "term": {
+        "en": "Standard deviation",
+        "bg": "Стандартно отклонение"
+      },
+      "definition": {
+        "en": "Typical dispersion of numerical observations around their mean.",
+        "bg": "Типичното разсейване на числовите наблюдения около средната им стойност."
+      },
+      "defined": {
+        "id": "006/spread-outliers-and-why-the-middle-is-never-the-whole-story",
+        "url": "/006-reading-data-charts-and-statistics/spread-outliers-and-why-the-middle-is-never-the-whole-story/"
+      },
+      "related": [
+        "outlier"
+      ],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "outlier",
+      "term": {
+        "en": "Outlier",
+        "bg": "Отскачаща стойност"
+      },
+      "definition": {
+        "en": "An unusually distant value that may be real, erroneous or informative.",
+        "bg": "Необичайно отдалечена стойност, която може да е реална, погрешна или показателна."
+      },
+      "defined": {
+        "id": "006/spread-outliers-and-why-the-middle-is-never-the-whole-story",
+        "url": "/006-reading-data-charts-and-statistics/spread-outliers-and-why-the-middle-is-never-the-whole-story/"
+      },
+      "related": [
+        "standard-deviation"
+      ],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "log-scale",
+      "term": {
+        "en": "Logarithmic scale",
+        "bg": "Логаритмична скала"
+      },
+      "definition": {
+        "en": "Equal graph distances correspond to equal ratios, not equal differences.",
+        "bg": "Равните разстояния на графиката съответстват на равни съотношения, а не на равни разлики."
+      },
+      "defined": {
+        "id": "006/reading-graphs-as-arguments",
+        "url": "/006-reading-data-charts-and-statistics/reading-graphs-as-arguments/"
+      },
+      "related": [],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "moving-average",
+      "term": {
+        "en": "Moving average",
+        "bg": "Пълзяща средна"
+      },
+      "definition": {
+        "en": "Averages adjacent time periods to smooth short-term fluctuation.",
+        "bg": "Осреднява съседни периоди, за да изглади краткосрочните колебания."
+      },
+      "defined": {
+        "id": "006/time-series-where-the-chosen-starting-point-becomes",
+        "url": "/006-reading-data-charts-and-statistics/time-series-where-the-chosen-starting-point-becomes/"
+      },
+      "related": [],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "percentage-points",
+      "term": {
+        "en": "Percentage points",
+        "bg": "Процентни пунктове"
+      },
+      "definition": {
+        "en": "Absolute difference between percentages, not relative percent growth.",
+        "bg": "Абсолютната разлика между проценти, а не относителният ръст в проценти."
+      },
+      "defined": {
+        "id": "006/percentages-percentage-points-and-changing-baselines",
+        "url": "/006-reading-data-charts-and-statistics/percentages-percentage-points-and-changing-baselines/"
+      },
+      "related": [],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "confounder",
+      "term": {
+        "en": "Confounder",
+        "bg": "Смущаващ фактор"
+      },
+      "definition": {
+        "en": "A factor associated with both variables that complicates inference.",
+        "bg": "Фактор, свързан и с двете променливи, който усложнява извода."
+      },
+      "defined": {
+        "id": "006/correlation-a-relationship-not-a-mechanism",
+        "url": "/006-reading-data-charts-and-statistics/correlation-a-relationship-not-a-mechanism/"
+      },
+      "related": [
+        "outlier"
+      ],
+      "chapter": "006",
+      "sections": [
+        {
+          "id": "001/from-a-pattern-to-a-cause",
+          "url": "/001-how-to-know-what-is-true/from-a-pattern-to-a-cause/"
+        }
+      ],
+      "status": "proposed"
+    },
+    {
+      "id": "simpsons-paradox",
+      "term": {
+        "en": "Simpson's paradox",
+        "bg": "Парадокс на Симпсън"
+      },
+      "definition": {
+        "en": "An overall association can reverse when different groups are combined.",
+        "bg": "Общата връзка може да се обърне, когато различни групи се обединят."
+      },
+      "defined": {
+        "id": "006/simpsons-paradox-when-every-subgroup-tells-the-opposite",
+        "url": "/006-reading-data-charts-and-statistics/simpsons-paradox-when-every-subgroup-tells-the-opposite/"
+      },
+      "related": [],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "random-assignment",
+      "term": {
+        "en": "Random assignment",
+        "bg": "Случайно разпределение"
+      },
+      "definition": {
+        "en": "Reduces systematic preexisting differences between comparison groups.",
+        "bg": "Намалява систематичните предварителни разлики между сравняваните групи."
+      },
+      "defined": {
+        "id": "006/experiments-comparison-groups-and-plausible-alternatives",
+        "url": "/006-reading-data-charts-and-statistics/experiments-comparison-groups-and-plausible-alternatives/"
+      },
+      "related": [
+        "percentage-points"
+      ],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "confidence-interval",
+      "term": {
+        "en": "Confidence interval",
+        "bg": "Доверителен интервал"
+      },
+      "definition": {
+        "en": "An interval method: over repetitions, roughly 95% of the intervals it constructs cover the parameter.",
+        "bg": "Метод за интервали: при много повторения около 95% от построените интервали обхващат параметъра."
+      },
+      "defined": {
+        "id": "006/confidence-intervals-being-precise-about-imprecision",
+        "url": "/006-reading-data-charts-and-statistics/confidence-intervals-being-precise-about-imprecision/"
+      },
+      "related": [
+        "nonresponse-bias",
+        "percentage-points"
+      ],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "data-provenance",
+      "term": {
+        "en": "Data provenance",
+        "bg": "Произход на данните"
+      },
+      "definition": {
+        "en": "The documented path from original measurement to published figure.",
+        "bg": "Документираният път от първоначалното измерване до публикуваната цифра."
+      },
+      "defined": {
+        "id": "006/missing-data-revised-data-and-the-temptation-to-clean-away",
+        "url": "/006-reading-data-charts-and-statistics/missing-data-revised-data-and-the-temptation-to-clean-away/"
+      },
+      "related": [],
+      "chapter": "006",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "system",
+      "term": {
+        "en": "System",
+        "bg": "Система"
+      },
+      "definition": {
+        "en": "Elements linked by interactions that generate behavior over time.",
+        "bg": "Елементи, свързани чрез взаимодействия, които пораждат поведение във времето."
+      },
+      "defined": {
+        "id": "007/what-is-a-system-and-what-is-not",
+        "url": "/007-systems-thinking-and-feedback-loops/what-is-a-system-and-what-is-not/"
+      },
+      "related": [
+        "system-boundary",
+        "flow"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "system-boundary",
+      "term": {
+        "en": "System boundary",
+        "bg": "Граница на системата"
+      },
+      "definition": {
+        "en": "The chosen scope of actors and processes in an analysis.",
+        "bg": "Избраният обхват на участниците и процесите в един анализ."
+      },
+      "defined": {
+        "id": "007/what-is-a-system-and-what-is-not",
+        "url": "/007-systems-thinking-and-feedback-loops/what-is-a-system-and-what-is-not/"
+      },
+      "related": [
+        "system",
+        "flow"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "stock",
+      "term": {
+        "en": "Stock",
+        "bg": "Запас"
+      },
+      "definition": {
+        "en": "Quantity accumulated at a particular time.",
+        "bg": "Количество, натрупано към даден момент."
+      },
+      "defined": {
+        "id": "007/from-event-to-pattern-to-structure",
+        "url": "/007-systems-thinking-and-feedback-loops/from-event-to-pattern-to-structure/"
+      },
+      "related": [
+        "system",
+        "flow"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "flow",
+      "term": {
+        "en": "Flow",
+        "bg": "Поток"
+      },
+      "definition": {
+        "en": "Rate that adds to or removes from a stock.",
+        "bg": "Темп, който добавя към запаса или отнема от него."
+      },
+      "defined": {
+        "id": "007/what-is-a-system-and-what-is-not",
+        "url": "/007-systems-thinking-and-feedback-loops/what-is-a-system-and-what-is-not/"
+      },
+      "related": [
+        "system",
+        "system-boundary"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "buffer",
+      "term": {
+        "en": "Buffer",
+        "bg": "Буфер"
+      },
+      "definition": {
+        "en": "Reserve that absorbs shocks, often at a cost.",
+        "bg": "Резерв, който поема сътресения, често срещу някаква цена."
+      },
+      "defined": {
+        "id": "007/where-to-intervene-symptoms-rules-information-and-goals",
+        "url": "/007-systems-thinking-and-feedback-loops/where-to-intervene-symptoms-rules-information-and-goals/"
+      },
+      "related": [
+        "system",
+        "flow",
+        "feedback-delay",
+        "bottleneck"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "reinforcing-feedback",
+      "term": {
+        "en": "Reinforcing feedback",
+        "bg": "Подсилваща обратна връзка"
+      },
+      "definition": {
+        "en": "Loop amplifying growth or decline.",
+        "bg": "Кръг, който усилва растежа или спада."
+      },
+      "defined": {
+        "id": "007/reinforcing-feedback-when-change-feeds-more-change",
+        "url": "/007-systems-thinking-and-feedback-loops/reinforcing-feedback-when-change-feeds-more-change/"
+      },
+      "related": [
+        "system",
+        "balancing-feedback"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "balancing-feedback",
+      "term": {
+        "en": "Balancing feedback",
+        "bg": "Балансираща обратна връзка"
+      },
+      "definition": {
+        "en": "Loop counteracting deviation or pursuing a target.",
+        "bg": "Кръг, който противодейства на отклонението или се стреми към цел."
+      },
+      "defined": {
+        "id": "007/balancing-feedback-how-a-system-pushes-back",
+        "url": "/007-systems-thinking-and-feedback-loops/balancing-feedback-how-a-system-pushes-back/"
+      },
+      "related": [
+        "system",
+        "stock",
+        "reinforcing-feedback",
+        "feedback-delay"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "feedback-delay",
+      "term": {
+        "en": "Feedback delay",
+        "bg": "Забавяне на обратната връзка"
+      },
+      "definition": {
+        "en": "Time between a change, its signal and a response.",
+        "bg": "Времето между една промяна, сигнала за нея и реакцията."
+      },
+      "defined": {
+        "id": "007/balancing-feedback-how-a-system-pushes-back",
+        "url": "/007-systems-thinking-and-feedback-loops/balancing-feedback-how-a-system-pushes-back/"
+      },
+      "related": [
+        "system",
+        "stock",
+        "reinforcing-feedback",
+        "balancing-feedback"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "nonlinearity",
+      "term": {
+        "en": "Nonlinearity",
+        "bg": "Нелинейност"
+      },
+      "definition": {
+        "en": "Output does not scale proportionally with input.",
+        "bg": "Резултатът не се променя пропорционално на входа."
+      },
+      "defined": {
+        "id": "007/nonlinearity-thresholds-and-tipping-points",
+        "url": "/007-systems-thinking-and-feedback-loops/nonlinearity-thresholds-and-tipping-points/"
+      },
+      "related": [
+        "system",
+        "flow",
+        "feedback-delay",
+        "threshold"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "threshold",
+      "term": {
+        "en": "Threshold",
+        "bg": "Праг"
+      },
+      "definition": {
+        "en": "A region where behavior changes qualitatively.",
+        "bg": "Област, в която поведението се променя качествено."
+      },
+      "defined": {
+        "id": "007/nonlinearity-thresholds-and-tipping-points",
+        "url": "/007-systems-thinking-and-feedback-loops/nonlinearity-thresholds-and-tipping-points/"
+      },
+      "related": [
+        "system",
+        "flow",
+        "feedback-delay",
+        "nonlinearity"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "hysteresis",
+      "term": {
+        "en": "Hysteresis",
+        "bg": "Хистерезис"
+      },
+      "definition": {
+        "en": "Reversing a pressure does not immediately restore the old state.",
+        "bg": "Премахването на натиска не възстановява веднага предишното състояние."
+      },
+      "defined": {
+        "id": "007/nonlinearity-thresholds-and-tipping-points",
+        "url": "/007-systems-thinking-and-feedback-loops/nonlinearity-thresholds-and-tipping-points/"
+      },
+      "related": [
+        "system",
+        "flow",
+        "feedback-delay",
+        "nonlinearity"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "path-dependence",
+      "term": {
+        "en": "Path dependence",
+        "bg": "Зависимост от пътя"
+      },
+      "definition": {
+        "en": "Past adoption and constraints influence present outcomes.",
+        "bg": "Минали избори и ограничения влияят на сегашните резултати."
+      },
+      "defined": {
+        "id": "007/nonlinearity-thresholds-and-tipping-points",
+        "url": "/007-systems-thinking-and-feedback-loops/nonlinearity-thresholds-and-tipping-points/"
+      },
+      "related": [
+        "system",
+        "flow",
+        "feedback-delay",
+        "nonlinearity"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "bottleneck",
+      "term": {
+        "en": "Bottleneck",
+        "bg": "Тясно място"
+      },
+      "definition": {
+        "en": "The limiting stage or connection constraining throughput.",
+        "bg": "Етапът или връзката, които ограничават пропускателната способност."
+      },
+      "defined": {
+        "id": "007/networks-bottlenecks-and-the-weakest-link",
+        "url": "/007-systems-thinking-and-feedback-loops/networks-bottlenecks-and-the-weakest-link/"
+      },
+      "related": [
+        "network-redundancy"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "network-redundancy",
+      "term": {
+        "en": "Network redundancy",
+        "bg": "Резервираност на мрежата"
+      },
+      "definition": {
+        "en": "Alternative connections that can maintain service after failure.",
+        "bg": "Алтернативни връзки, които запазват работата след отпадане на някоя от тях."
+      },
+      "defined": {
+        "id": "007/networks-bottlenecks-and-the-weakest-link",
+        "url": "/007-systems-thinking-and-feedback-loops/networks-bottlenecks-and-the-weakest-link/"
+      },
+      "related": [
+        "bottleneck"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "common-pool-resource",
+      "term": {
+        "en": "Common-pool resource",
+        "bg": "Общ ресурс"
+      },
+      "definition": {
+        "en": "Resource where exclusion is difficult and use subtracts from others.",
+        "bg": "Ресурс, при който изключването е трудно, а използването му намалява наличното за другите."
+      },
+      "defined": {
+        "id": "007/shared-resources-why-reasonable-choices-can-produce",
+        "url": "/007-systems-thinking-and-feedback-loops/shared-resources-why-reasonable-choices-can-produce/"
+      },
+      "related": [
+        "system",
+        "stock"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "externality",
+      "term": {
+        "en": "Externality",
+        "bg": "Външен ефект"
+      },
+      "definition": {
+        "en": "Cost or benefit imposed on others outside the decision price.",
+        "bg": "Разход или полза за други, която не влиза в цената на решението."
+      },
+      "defined": {
+        "id": "007/economic-cycles-stocks-expectations-and-delayed-adjustment",
+        "url": "/007-systems-thinking-and-feedback-loops/economic-cycles-stocks-expectations-and-delayed-adjustment/"
+      },
+      "related": [
+        "system",
+        "stock",
+        "flow",
+        "feedback-delay"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "security-dilemma",
+      "term": {
+        "en": "Security dilemma",
+        "bg": "Дилема на сигурността"
+      },
+      "definition": {
+        "en": "Defensive measures can appear threatening and invite mutual escalation.",
+        "bg": "Отбранителните мерки могат да изглеждат заплашителни и да водят до взаимна ескалация."
+      },
+      "defined": {
+        "id": "007/politics-and-the-security-dilemma",
+        "url": "/007-systems-thinking-and-feedback-loops/politics-and-the-security-dilemma/"
+      },
+      "related": [
+        "system"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "unintended-consequence",
+      "term": {
+        "en": "Unintended consequence",
+        "bg": "Непреднамерено последствие"
+      },
+      "definition": {
+        "en": "Behavioral response or side effect beyond the planned impact.",
+        "bg": "Поведенческа реакция или страничен ефект извън планираното въздействие."
+      },
+      "defined": {
+        "id": "007/unintended-consequences-and-the-limits-of-incentives",
+        "url": "/007-systems-thinking-and-feedback-loops/unintended-consequences-and-the-limits-of-incentives/"
+      },
+      "related": [
+        "system",
+        "goodharts-law"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "goodharts-law",
+      "term": {
+        "en": "Goodhart's law",
+        "bg": "Законът на Гудхарт"
+      },
+      "definition": {
+        "en": "Targeting one proxy can distort incentives and weaken its meaning.",
+        "bg": "Преследването на един показател като цел може да изкриви стимулите и да обезсмисли показателя."
+      },
+      "defined": {
+        "id": "007/unintended-consequences-and-the-limits-of-incentives",
+        "url": "/007-systems-thinking-and-feedback-loops/unintended-consequences-and-the-limits-of-incentives/"
+      },
+      "related": [
+        "system",
+        "unintended-consequence"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "leverage-point",
+      "term": {
+        "en": "Leverage point",
+        "bg": "Точка на въздействие"
+      },
+      "definition": {
+        "en": "Place where intervention may meaningfully change system behavior.",
+        "bg": "Място, където намесата може съществено да промени поведението на системата."
+      },
+      "defined": {
+        "id": "007/where-to-intervene-symptoms-rules-information-and-goals",
+        "url": "/007-systems-thinking-and-feedback-loops/where-to-intervene-symptoms-rules-information-and-goals/"
+      },
+      "related": [
+        "system",
+        "flow",
+        "buffer",
+        "feedback-delay"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "sensitivity-analysis",
+      "term": {
+        "en": "Sensitivity analysis",
+        "bg": "Анализ на чувствителността"
+      },
+      "definition": {
+        "en": "Test how a conclusion changes with key assumptions.",
+        "bg": "Проверка как се променя заключението при промяна на ключовите допускания."
+      },
+      "defined": {
+        "id": "007/mapping-a-system-without-inventing-certainty",
+        "url": "/007-systems-thinking-and-feedback-loops/mapping-a-system-without-inventing-certainty/"
+      },
+      "related": [
+        "stock",
+        "flow",
+        "feedback-delay"
+      ],
+      "chapter": "007",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "retrieval-practice",
+      "term": {
+        "en": "Retrieval practice",
+        "bg": "Упражнение по извличане"
+      },
+      "definition": {
+        "en": "Reconstructing knowledge from memory and checking it.",
+        "bg": "Възстановяване на знанието по памет и проверката му."
+      },
+      "defined": {
+        "id": "008/four-stages-attention-encoding-retrieval-and-use",
+        "url": "/008-how-to-learn-and-remember/four-stages-attention-encoding-retrieval-and-use/"
+      },
+      "related": [
+        "self-explanation",
+        "transfer"
+      ],
+      "chapter": "008",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "spaced-practice",
+      "term": {
+        "en": "Spaced practice",
+        "bg": "Разпределено упражнение"
+      },
+      "definition": {
+        "en": "Revisiting material across time rather than one cram session.",
+        "bg": "Връщане към материала през интервали, вместо всичко наведнъж."
+      },
+      "defined": {
+        "id": "008/spacing-forgetting-a-little-can-help-you-learn-more",
+        "url": "/008-how-to-learn-and-remember/spacing-forgetting-a-little-can-help-you-learn-more/"
+      },
+      "related": [
+        "retrieval-practice",
+        "self-explanation"
+      ],
+      "chapter": "008",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "interleaving",
+      "term": {
+        "en": "Interleaving",
+        "bg": "Редуване"
+      },
+      "definition": {
+        "en": "Mixing related kinds of practice to improve discrimination.",
+        "bg": "Смесване на сродни видове упражнения, за да се научим да ги различаваме."
+      },
+      "defined": {
+        "id": "008/interleaving-mix-topics-for-a-reason",
+        "url": "/008-how-to-learn-and-remember/interleaving-mix-topics-for-a-reason/"
+      },
+      "related": [
+        "retrieval-practice"
+      ],
+      "chapter": "008",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "self-explanation",
+      "term": {
+        "en": "Self-explanation",
+        "bg": "Самообяснение"
+      },
+      "definition": {
+        "en": "Explaining steps or relationships in your own words.",
+        "bg": "Обясняване на стъпките или връзките със собствени думи."
+      },
+      "defined": {
+        "id": "008/understanding-needs-connection-not-just-repetition",
+        "url": "/008-how-to-learn-and-remember/understanding-needs-connection-not-just-repetition/"
+      },
+      "related": [
+        "fluency-illusion"
+      ],
+      "chapter": "008",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "mental-model",
+      "term": {
+        "en": "Mental model",
+        "bg": "Мисловен модел"
+      },
+      "definition": {
+        "en": "Organized framework describing how ideas and causes connect.",
+        "bg": "Подредена представа за това как се свързват идеите и причините."
+      },
+      "defined": {
+        "id": "008/the-difference-between-knowing-a-fact-and-having-a-model",
+        "url": "/008-how-to-learn-and-remember/the-difference-between-knowing-a-fact-and-having-a-model/"
+      },
+      "related": [
+        "transfer"
+      ],
+      "chapter": "008",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "transfer",
+      "term": {
+        "en": "Transfer",
+        "bg": "Пренос"
+      },
+      "definition": {
+        "en": "Using knowledge in a new context or task.",
+        "bg": "Използване на знанието в нов контекст или задача."
+      },
+      "defined": {
+        "id": "008/four-stages-attention-encoding-retrieval-and-use",
+        "url": "/008-how-to-learn-and-remember/four-stages-attention-encoding-retrieval-and-use/"
+      },
+      "related": [
+        "retrieval-practice",
+        "self-explanation"
+      ],
+      "chapter": "008",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "error-log",
+      "term": {
+        "en": "Error log",
+        "bg": "Дневник на грешките"
+      },
+      "definition": {
+        "en": "Record of a mistake, its cause, correction, and revisit date.",
+        "bg": "Запис на грешка, причината ѝ, поправката и дата за ново преглеждане."
+      },
+      "defined": {
+        "id": "008/feedback-turn-errors-into-information",
+        "url": "/008-how-to-learn-and-remember/feedback-turn-errors-into-information/"
+      },
+      "related": [
+        "self-explanation"
+      ],
+      "chapter": "008",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "fluency-illusion",
+      "term": {
+        "en": "Illusion of fluency",
+        "bg": "Илюзия за владеене"
+      },
+      "definition": {
+        "en": "Mistaking easy rereading for durable mastery.",
+        "bg": "Грешката да приемем лекото препрочитане за трайно владеене."
+      },
+      "defined": {
+        "id": "008/understanding-needs-connection-not-just-repetition",
+        "url": "/008-how-to-learn-and-remember/understanding-needs-connection-not-just-repetition/"
+      },
+      "related": [
+        "self-explanation"
+      ],
+      "chapter": "008",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "hominin",
+      "term": {
+        "en": "Hominin",
+        "bg": "Хоминин"
+      },
+      "definition": {
+        "en": "Members of the human lineage after its split from the chimpanzee lineage.",
+        "bg": "Представители на човешката линия след отделянето ѝ от линията на шимпанзетата."
+      },
+      "defined": {
+        "id": "009/what-evolution-actually-means",
+        "url": "/009-human-evolution-and-the-first-migrations/what-evolution-actually-means/"
+      },
+      "related": [
+        "cumulative-culture"
+      ],
+      "chapter": "009",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "bipedalism",
+      "term": {
+        "en": "Bipedalism",
+        "bg": "Двукрако ходене"
+      },
+      "definition": {
+        "en": "Habitually moving on two legs.",
+        "bg": "Обичайно придвижване на два крака."
+      },
+      "defined": {
+        "id": "009/what-we-can-say-with-confidence-and-what-remains-open",
+        "url": "/009-human-evolution-and-the-first-migrations/what-we-can-say-with-confidence-and-what-remains-open/"
+      },
+      "related": [
+        "hominin",
+        "introgression",
+        "sahul"
+      ],
+      "chapter": "009",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "introgression",
+      "term": {
+        "en": "Introgression",
+        "bg": "Интрогресия"
+      },
+      "definition": {
+        "en": "Genetic ancestry transferred between diverged populations via mixing.",
+        "bg": "Генетично наследство, пренесено между разделили се популации чрез смесване."
+      },
+      "defined": {
+        "id": "009/neanderthals-denisovans-and-our-complicated-relatives",
+        "url": "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/"
+      },
+      "related": [
+        "denisovans"
+      ],
+      "chapter": "009",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "denisovans",
+      "term": {
+        "en": "Denisovans",
+        "bg": "Денисовци"
+      },
+      "definition": {
+        "en": "Extinct human relatives recognized first by ancient DNA.",
+        "bg": "Изчезнали човешки родственици, разпознати първо по древна ДНК."
+      },
+      "defined": {
+        "id": "009/neanderthals-denisovans-and-our-complicated-relatives",
+        "url": "/009-human-evolution-and-the-first-migrations/neanderthals-denisovans-and-our-complicated-relatives/"
+      },
+      "related": [
+        "introgression"
+      ],
+      "chapter": "009",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "sahul",
+      "term": {
+        "en": "Sahul",
+        "bg": "Сахул"
+      },
+      "definition": {
+        "en": "Pleistocene landmass including Australia and New Guinea.",
+        "bg": "Плейстоценска суша, включваща Австралия и Нова Гвинея."
+      },
+      "defined": {
+        "id": "009/crossing-water-the-settlement-of-sahul",
+        "url": "/009-human-evolution-and-the-first-migrations/crossing-water-the-settlement-of-sahul/"
+      },
+      "related": [],
+      "chapter": "009",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "beringia",
+      "term": {
+        "en": "Beringia",
+        "bg": "Берингия"
+      },
+      "definition": {
+        "en": "Ancient land region connecting northeast Asia and northwest North America.",
+        "bg": "Древна суша, която е свързвала Североизточна Азия и северозападната част на Северна Америка."
+      },
+      "defined": {
+        "id": "009/toward-the-americas-ice-land-coast-and-unanswered-questions",
+        "url": "/009-human-evolution-and-the-first-migrations/toward-the-americas-ice-land-coast-and-unanswered-questions/"
+      },
+      "related": [],
+      "chapter": "009",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "minimum-age",
+      "term": {
+        "en": "Minimum age",
+        "bg": "Минимална възраст"
+      },
+      "definition": {
+        "en": "An object is at least as old as a younger layer covering it.",
+        "bg": "Обектът е поне толкова стар, колкото по-младия пласт, който го покрива."
+      },
+      "defined": {
+        "id": "009/language-images-stories-and-the-world-inside-the-mind",
+        "url": "/009-human-evolution-and-the-first-migrations/language-images-stories-and-the-world-inside-the-mind/"
+      },
+      "related": [
+        "cumulative-culture"
+      ],
+      "chapter": "009",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "cumulative-culture",
+      "term": {
+        "en": "Cumulative culture",
+        "bg": "Кумулативна култура"
+      },
+      "definition": {
+        "en": "Knowledge and techniques learned, modified, and transmitted over generations.",
+        "bg": "Знания и умения, научавани, променяни и предавани през поколенията."
+      },
+      "defined": {
+        "id": "009/language-images-stories-and-the-world-inside-the-mind",
+        "url": "/009-human-evolution-and-the-first-migrations/language-images-stories-and-the-world-inside-the-mind/"
+      },
+      "related": [
+        "minimum-age"
+      ],
+      "chapter": "009",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "sedentism",
+      "term": {
+        "en": "Sedentism",
+        "bg": "Уседналост"
+      },
+      "definition": {
+        "en": "Living in one place for extended periods, not necessarily farming.",
+        "bg": "Живот на едно място за дълги периоди – не непременно със земеделие."
+      },
+      "defined": {
+        "id": "010/five-myths-to-retire",
+        "url": "/010-the-agricultural-revolution/five-myths-to-retire/"
+      },
+      "related": [],
+      "chapter": "010",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "niche-construction",
+      "term": {
+        "en": "Niche construction",
+        "bg": "Изграждане на ниша"
+      },
+      "definition": {
+        "en": "Organisms—including people—alter environments that shape future selection.",
+        "bg": "Организмите – включително хората – променят средата, която оформя бъдещия подбор."
+      },
+      "defined": {
+        "id": "010/why-did-people-begin-farming-five-explanations-that-interact",
+        "url": "/010-the-agricultural-revolution/why-did-people-begin-farming-five-explanations-that-interact/"
+      },
+      "related": [
+        "tell"
+      ],
+      "chapter": "010",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "rachis",
+      "term": {
+        "en": "Rachis",
+        "bg": "Рахис"
+      },
+      "definition": {
+        "en": "The main axis of a cereal head; its breakage offers domestication clues.",
+        "bg": "Основната ос на житния клас; начинът, по който се чупи, дава улики за опитомяването."
+      },
+      "defined": {
+        "id": "010/cultivation-is-not-the-same-as-domestication",
+        "url": "/010-the-agricultural-revolution/cultivation-is-not-the-same-as-domestication/"
+      },
+      "related": [],
+      "chapter": "010",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "nonshattering-grain",
+      "term": {
+        "en": "Nonshattering grain",
+        "bg": "Неронливо зърно"
+      },
+      "definition": {
+        "en": "Grain that retains seed-bearing structures longer instead of freely dispersing.",
+        "bg": "Зърно, което по-дълго задържа семената, вместо да ги разпилява свободно."
+      },
+      "defined": {
+        "id": "010/cultivation-is-not-the-same-as-domestication",
+        "url": "/010-the-agricultural-revolution/cultivation-is-not-the-same-as-domestication/"
+      },
+      "related": [
+        "rachis"
+      ],
+      "chapter": "010",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "tell",
+      "term": {
+        "en": "Tell",
+        "bg": "Тел"
+      },
+      "definition": {
+        "en": "Mound formed from repeated occupation and rebuilding at one settlement.",
+        "bg": "Могила, образувана от многократно обитаване и презастрояване на едно селище."
+      },
+      "defined": {
+        "id": "010/the-village-becomes-a-social-institution",
+        "url": "/010-the-agricultural-revolution/the-village-becomes-a-social-institution/"
+      },
+      "related": [],
+      "chapter": "010",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "granary",
+      "term": {
+        "en": "Granary",
+        "bg": "Хамбар"
+      },
+      "definition": {
+        "en": "Structure or system for collecting and preserving stored food.",
+        "bg": "Постройка или система за събиране и запазване на складирана храна."
+      },
+      "defined": {
+        "id": "010/the-granary-storing-tomorrows-food",
+        "url": "/010-the-agricultural-revolution/the-granary-storing-tomorrows-food/"
+      },
+      "related": [
+        "surplus"
+      ],
+      "chapter": "010",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "surplus",
+      "term": {
+        "en": "Surplus",
+        "bg": "Излишък"
+      },
+      "definition": {
+        "en": "Output available beyond immediate uses after relevant costs and needs.",
+        "bg": "Продукция отвъд непосредствените нужди, след като се покрият съответните разходи."
+      },
+      "defined": {
+        "id": "010/from-food-production-to-crafts-exchange-and-authority",
+        "url": "/010-the-agricultural-revolution/from-food-production-to-crafts-exchange-and-authority/"
+      },
+      "related": [],
+      "chapter": "010",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "demic-diffusion",
+      "term": {
+        "en": "Demic diffusion",
+        "bg": "Демична дифузия"
+      },
+      "definition": {
+        "en": "Spread of farming alongside migration of populations.",
+        "bg": "Разпространение на земеделието заедно с преселването на хора."
+      },
+      "defined": {
+        "id": "010/the-animal-partnership-herding-changes-the-clock",
+        "url": "/010-the-agricultural-revolution/the-animal-partnership-herding-changes-the-clock/"
+      },
+      "related": [],
+      "chapter": "010",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "alluvial-plain",
+      "term": {
+        "en": "Alluvial plain",
+        "bg": "Алувиална равнина"
+      },
+      "definition": {
+        "en": "Lowland formed by river-deposited sediment.",
+        "bg": "Низина, образувана от наноси, отложени от реки."
+      },
+      "defined": {
+        "id": "011/a-landscape-that-demanded-ingenuity",
+        "url": "/011-mesopotamia-and-the-first-states/a-landscape-that-demanded-ingenuity/"
+      },
+      "related": [],
+      "chapter": "011",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "city-state",
+      "term": {
+        "en": "City-state",
+        "bg": "Град-държава"
+      },
+      "definition": {
+        "en": "A principal city and surrounding territory under a shared political authority.",
+        "bg": "Главен град и околната му територия под обща политическа власт."
+      },
+      "defined": {
+        "id": "011/what-is-a-city-and-what-is-a-state",
+        "url": "/011-mesopotamia-and-the-first-states/what-is-a-city-and-what-is-a-state/"
+      },
+      "related": [
+        "institution"
+      ],
+      "chapter": "011",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "institution",
+      "term": {
+        "en": "Institution",
+        "bg": "Институция"
+      },
+      "definition": {
+        "en": "An enduring rule, office or organization beyond any one individual.",
+        "bg": "Трайно правило, длъжност или организация, по-голяма от всеки отделен човек."
+      },
+      "defined": {
+        "id": "011/uruk-when-settlement-became-something-larger",
+        "url": "/011-mesopotamia-and-the-first-states/uruk-when-settlement-became-something-larger/"
+      },
+      "related": [],
+      "chapter": "011",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "cylinder-seal",
+      "term": {
+        "en": "Cylinder seal",
+        "bg": "Цилиндричен печат"
+      },
+      "definition": {
+        "en": "Carved cylinder rolled on clay to impress an identifying design.",
+        "bg": "Издълбан цилиндър, който се търкаля върху глина и оставя отличителен отпечатък."
+      },
+      "defined": {
+        "id": "011/seals-tokens-and-the-problem-of-trust",
+        "url": "/011-mesopotamia-and-the-first-states/seals-tokens-and-the-problem-of-trust/"
+      },
+      "related": [
+        "institution"
+      ],
+      "chapter": "011",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "proto-cuneiform",
+      "term": {
+        "en": "Proto-cuneiform",
+        "bg": "Протоклинопис"
+      },
+      "definition": {
+        "en": "Early Mesopotamian signs used especially for quantities and accounting.",
+        "bg": "Ранни месопотамски знаци, използвани най-вече за количества и сметки."
+      },
+      "defined": {
+        "id": "011/the-invention-of-writing-was-not-a-single-flash-of-genius",
+        "url": "/011-mesopotamia-and-the-first-states/the-invention-of-writing-was-not-a-single-flash-of-genius/"
+      },
+      "related": [
+        "cuneiform"
+      ],
+      "chapter": "011",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "cuneiform",
+      "term": {
+        "en": "Cuneiform",
+        "bg": "Клинопис"
+      },
+      "definition": {
+        "en": "Wedge-shaped script able to represent words and speech sounds.",
+        "bg": "Клиновидно писмо, способно да предава думи и звуци на речта."
+      },
+      "defined": {
+        "id": "011/the-invention-of-writing-was-not-a-single-flash-of-genius",
+        "url": "/011-mesopotamia-and-the-first-states/the-invention-of-writing-was-not-a-single-flash-of-genius/"
+      },
+      "related": [
+        "proto-cuneiform"
+      ],
+      "chapter": "011",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "political-legitimation",
+      "term": {
+        "en": "Legitimacy",
+        "bg": "Легитимност"
+      },
+      "definition": {
+        "en": "Reasons and symbols used to justify and sustain rule.",
+        "bg": "Доводи и символи, с които властта се оправдава и поддържа."
+      },
+      "defined": {
+        "id": "011/kingship-office-force-and-sacred-authority",
+        "url": "/011-mesopotamia-and-the-first-states/kingship-office-force-and-sacred-authority/"
+      },
+      "related": [
+        "institution"
+      ],
+      "chapter": "011",
+      "sections": [],
+      "status": "proposed"
+    },
+    {
+      "id": "ziggurat",
+      "term": {
+        "en": "Ziggurat",
+        "bg": "Зикурат"
+      },
+      "definition": {
+        "en": "Monumental stepped temple platform or tower of Mesopotamia.",
+        "bg": "Монументална стъпаловидна храмова платформа или кула в Месопотамия."
+      },
+      "defined": {
+        "id": "011/ur-iii-a-state-that-counted-almost-everything",
+        "url": "/011-mesopotamia-and-the-first-states/ur-iii-a-state-that-counted-almost-everything/"
+      },
+      "related": [],
+      "chapter": "011",
+      "sections": [],
+      "status": "proposed"
+    }
+  ]
+}

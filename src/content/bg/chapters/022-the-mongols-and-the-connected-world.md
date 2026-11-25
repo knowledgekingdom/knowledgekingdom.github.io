@@ -14,7 +14,7 @@ description: "Как коалиция от източната Евразийск
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 29
-readingTime: 35
+readingTime: 47
 openingReadingTime: 2
 ---
 

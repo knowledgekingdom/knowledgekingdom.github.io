@@ -14,7 +14,7 @@ description: "How people began to shape the plants, animals and landscapes that 
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 22
-readingTime: 33
+readingTime: 41
 openingReadingTime: 2
 ---
 

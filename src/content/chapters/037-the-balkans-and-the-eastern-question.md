@@ -14,7 +14,7 @@ description: "How Ottoman reform, Balkan national movements and the rival strate
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 37
+readingTime: 40
 openingReadingTime: 2
 ---
 

@@ -78,6 +78,8 @@ const strings = Object.fromEntries(keys.map((k) => [k, t(lang, k)]));
 </section>
 
 <script>
+  import { store } from '../scripts/reader';
+  import { track } from '../lib/analytics';
   type Card = { id: number; front: string; back: string };
   type State = { order: number[]; known: number[]; review: number[]; idx: number; mode: 'all' | 'review' };
 
@@ -86,7 +88,7 @@ const strings = Object.fromEntries(keys.map((k) => [k, t(lang, k)]));
     if (!cards.length) continue;
     const S: Record<string, string> = JSON.parse(root.dataset.strings || '{}');
     const fmt = (k: string, v: Record<string, number>) => (S[k] || k).replace(/\{(\w+)\}/g, (_, x) => String(v[x]));
-    const key = `kk-fc-${root.dataset.chapter}`;
+    const chapter = root.dataset.chapter!;
     const byId = new Map(cards.map((c) => [c.id, c]));
     const app = root.querySelector<HTMLElement>('.fc-app')!;
     const cardBtn = root.querySelector<HTMLButtonElement>('[data-card]')!;
@@ -100,18 +102,20 @@ const strings = Object.fromEntries(keys.map((k) => [k, t(lang, k)]));
 
     const fresh = (): State => ({ order: cards.map((c) => c.id), known: [], review: [], idx: 0, mode: 'all' });
     let st: State = fresh();
-    try {
-      const saved = JSON.parse(localStorage.getItem(key) || 'null');
-      if (saved && Array.isArray(saved.order)) {
-        const ids = new Set(cards.map((c) => c.id));
-        const order = saved.order.filter((id: number) => ids.has(id));
-        cards.forEach((c) => { if (!order.includes(c.id)) order.push(c.id); });
-        st = { ...fresh(), ...saved, order,
-          known: (saved.known || []).filter((id: number) => ids.has(id)),
-          review: (saved.review || []).filter((id: number) => ids.has(id)) };
-      }
-    } catch (e) {}
-    const save = () => { try { localStorage.setItem(key, JSON.stringify(st)); } catch (e) {} };
+    const saved = store.state.decks[chapter];
+    if (saved) {
+      // The deck may have gained or lost cards since this was saved.
+      const ids = new Set(cards.map((c) => c.id));
+      const order = saved.order.filter((id) => ids.has(id));
+      cards.forEach((c) => { if (!order.includes(c.id)) order.push(c.id); });
+      st = { ...fresh(), ...saved, order,
+        known: saved.known.filter((id) => ids.has(id)), review: saved.review.filter((id) => ids.has(id)) };
+    }
+    let started = false;
+    const save = () => {
+      store.update((s) => { s.decks[chapter] = { ...st, order: [...st.order], known: [...st.known], review: [...st.review] }; });
+      if (!started) { started = true; track('flashcards-start', chapter); }
+    };
 
     let flipped = false;
     const visible = () => (st.mode === 'review' ? st.order.filter((id) => st.review.includes(id)) : st.order);

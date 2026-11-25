@@ -1,0 +1,28 @@
+// Switch whole features on or off in one place. A feature that breaks can be turned off
+// here (set it to false, commit, push) without blocking the rest of the site.
+// Features that aren't built yet are listed as false so their place is reserved.
+export const features = {
+  /** Reading progress, "Continue reading", ticks on read sections. */
+  progress: true,
+  /** Export / import my progress as a file. */
+  progressTransfer: true,
+  /** Count feature use (flashcards, games, map, listen) in GoatCounter. No cookies. */
+  analyticsEvents: true,
+  /** Timeline page. */
+  timeline: true,
+
+  // v2 phases, switched on as they're built
+  pageTransitions: false,
+  previews: false,
+  listen: false,
+  offline: false,
+  review: false,
+  games: false,
+  explorables: false,
+  kingdomMap: false,
+  atlas: false,
+  constellation: false,
+} as const;
+
+export type Feature = keyof typeof features;
+export const enabled = (f: Feature): boolean => features[f];

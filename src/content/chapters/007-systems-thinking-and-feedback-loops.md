@@ -14,7 +14,7 @@ description: "Why the world refuses to behave like a row of dominoes: a guide to
 status: "EXPANDED"
 edition: 41
 sectionCount: 21
-readingTime: 33
+readingTime: 42
 openingReadingTime: 2
 ---
 

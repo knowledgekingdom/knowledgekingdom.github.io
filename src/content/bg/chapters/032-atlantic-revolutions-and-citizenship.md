@@ -14,7 +14,7 @@ description: "Как колонисти, реформатори, поробен�
 status: "DRAFT"
 edition: 41
 sectionCount: 37
-readingTime: 38
+readingTime: 40
 openingReadingTime: 2
 ---
 

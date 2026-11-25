@@ -14,7 +14,7 @@ description: "Как спорът за духовната власт се пре
 status: "DRAFT"
 edition: 41
 sectionCount: 37
-readingTime: 44
+readingTime: 65
 openingReadingTime: 2
 ---
 

@@ -14,7 +14,7 @@ description: "Реката не е построила пирамидите. Хо
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 23
-readingTime: 34
+readingTime: 44
 openingReadingTime: 2
 ---
 

@@ -14,7 +14,7 @@ description: "Как убийството на Балканите се прев�
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 32
+readingTime: 37
 openingReadingTime: 1
 ---
 

@@ -14,7 +14,7 @@ description: "Как астрономи, създатели на инструм�
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 32
+readingTime: 38
 openingReadingTime: 2
 ---
 

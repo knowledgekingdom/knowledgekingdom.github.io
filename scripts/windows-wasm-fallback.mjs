@@ -1,5 +1,5 @@
-// Windows Smart App Control can block unsigned native helpers (Astro's compiler and
-// the oxc parser). Both can run as WebAssembly instead, which Windows doesn't block.
+// Windows Smart App Control can block unsigned native helpers (Astro's compiler, the
+// oxc parser and the Markdown renderer). Both can run as WebAssembly instead, which Windows doesn't block.
 // This runs before `npm run dev` and `npm run build`: on Windows, if a native helper is
 // blocked and its WebAssembly version isn't installed, it installs it for this computer
 // only (package.json and package-lock.json are not changed). Elsewhere it does nothing.
@@ -22,6 +22,12 @@ const helpers = [
     native: '@oxc-parser/binding-win32-x64-msvc/parser.win32-x64-msvc.node',
     wasm: '@oxc-parser/binding-wasm32-wasi',
     version: () => pkg('oxc-parser')?.version,
+  },
+  {
+    // Astro's Markdown renderer (blocked after a Windows update in Nov 2026).
+    native: '@bruits/satteri-win32-x64-msvc/satteri_napi.win32-x64-msvc.node',
+    wasm: '@bruits/satteri-wasm32-wasi',
+    version: () => pkg('satteri')?.version,
   },
 ];
 

@@ -14,7 +14,7 @@ description: "How a coalition from the eastern Eurasian steppe built the largest
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 29
-readingTime: 35
+readingTime: 47
 openingReadingTime: 2
 ---
 

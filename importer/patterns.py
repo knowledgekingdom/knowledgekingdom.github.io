@@ -93,12 +93,41 @@ def normalize_key(text: str) -> str:
     return re.sub(r"\s+", " ", t).strip()
 
 
-def slugify(text: str, max_len: int = 60) -> str:
+# Words a shortened slug should never end on ("…-claim-and-a" reads as cut off).
+SLUG_STOP_WORDS = frozenset(
+    "a an the and or nor but of to in on at by for from with into onto as than that which who whom "
+    "whose what when where why how is are was were be its their his her our your vs versus not no "
+    "toward towards about between within without over under through across after before during "
+    "against among upon beyond this these those it if so more much".split())
+
+
+def _slug_base(text: str) -> str:
     t = unicodedata.normalize("NFKD", text)
     t = "".join(ch for ch in t if not unicodedata.combining(ch))
     t = t.lower().replace("&", " and ")
     t = re.sub(r"['’‘]", "", t)
-    t = re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def slugify(text: str, max_len: int = 60) -> str:
+    """URL slug, shortened at a word boundary without a dangling stop-word at the end."""
+    t = _slug_base(text)
+    if len(t) > max_len:
+        words = t.split("-")
+        kept: list[str] = []
+        for w in words:
+            if len("-".join(kept + [w])) > max_len:
+                break
+            kept.append(w)
+        while len(kept) > 1 and kept[-1] in SLUG_STOP_WORDS:
+            kept.pop()
+        t = "-".join(kept) or words[0][:max_len]
+    return t or "section"
+
+
+def slugify_legacy(text: str, max_len: int = 60) -> str:
+    """The pre-v2 rule (could end on "…-and-a"). Used only to migrate old registry entries."""
+    t = _slug_base(text)
     if len(t) > max_len:
         cut = t[:max_len]
         if "-" in cut and t[max_len:max_len + 1] not in ("", "-"):

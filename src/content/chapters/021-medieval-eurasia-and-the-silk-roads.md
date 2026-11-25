@@ -14,7 +14,7 @@ description: "A world of moving goods and moving ideas: cities, caravans, pilgri
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 29
-readingTime: 36
+readingTime: 52
 openingReadingTime: 2
 ---
 

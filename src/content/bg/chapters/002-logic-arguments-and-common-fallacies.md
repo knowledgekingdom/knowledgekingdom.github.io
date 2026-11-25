@@ -14,7 +14,7 @@ description: "Ясното разсъждение не гарантира, че 
 status: "REVISED DRAFT"
 edition: 41
 sectionCount: 20
-readingTime: 33
+readingTime: 40
 openingReadingTime: 2
 ---
 

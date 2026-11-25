@@ -14,7 +14,7 @@ description: "From the Arabian Peninsula to an interconnected world: revelation,
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 29
-readingTime: 39
+readingTime: 60
 openingReadingTime: 2
 ---
 

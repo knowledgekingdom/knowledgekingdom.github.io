@@ -14,7 +14,7 @@ description: "Целта на образования ум е да няма ув�
 status: "REVISED DRAFT"
 edition: 41
 sectionCount: 16
-readingTime: 32
+readingTime: 37
 openingReadingTime: 2
 ---
 

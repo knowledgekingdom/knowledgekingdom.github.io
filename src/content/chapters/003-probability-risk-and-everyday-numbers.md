@@ -14,7 +14,7 @@ description: "The world does not promise certainty. But uncertainty is not the s
 status: "REVISED DRAFT"
 edition: 41
 sectionCount: 19
-readingTime: 34
+readingTime: 38
 openingReadingTime: 2
 ---
 

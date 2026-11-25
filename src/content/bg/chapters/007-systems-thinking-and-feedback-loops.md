@@ -14,7 +14,7 @@ description: "Защо светът отказва да се държи като
 status: "EXPANDED"
 edition: 41
 sectionCount: 21
-readingTime: 33
+readingTime: 42
 openingReadingTime: 2
 ---
 

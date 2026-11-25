@@ -16,3 +16,7 @@ Thumbs.db
 # It is backed up separately to the private repository knowledgekingdom/manuscript.
 manuscript/
 knowledge-kingdom-website-plan.md
+knowledge-kingdom-v2-interactive-plan.md
+
+# Local screenshots for phase checkpoints (not published)
+.checkpoints/

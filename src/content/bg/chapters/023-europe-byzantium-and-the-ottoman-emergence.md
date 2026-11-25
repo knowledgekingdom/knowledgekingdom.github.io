@@ -14,7 +14,7 @@ description: "Как средновековните европейски съп�
 status: "DRAFT"
 edition: 41
 sectionCount: 31
-readingTime: 39
+readingTime: 64
 openingReadingTime: 2
 ---
 

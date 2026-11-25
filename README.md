@@ -38,6 +38,35 @@ The live site is **https://knowledgekingdom.github.io/**. The `.docx` files are 
 
 The site counts visits with [GoatCounter](https://www.goatcounter.com): free, no cookies, no personal data, so no cookie banner is needed. See your numbers at **https://knowledgekingdom.goatcounter.com**. Bulgarian pages show up with paths starting `/bg/`. Visits from your own computer while testing (localhost) are not counted. To turn it off, set `goatcounter: ''` in `src/site.config.ts`.
 
+**Reading the dashboard:** the main graph is page views per day; below it, **Pages** lists the most-read pages, and the **Sizes** box shows phones vs tablets vs computers (by screen width). Feature use appears in **Pages** as *events* (marked with an "event" label), named after what happened: `flashcards-start/002` (someone started chapter 002's flashcards), `progress-export`, `progress-import`, and later `review-start`, `game-play/…`, `map-open`, `listen-start`. Each is counted at most once per page view. Event counting can be switched off with `analyticsEvents: false` in `src/config/features.ts`.
+
+## The knowledge files (dates, places, key terms)
+
+Newer features (timeline, games, maps, term previews) need facts the book states but doesn't list in a
+structured way. They live in **`content-meta/knowledge/`**, as plain text files you can read and edit:
+
+- `events.yaml`: dated events (`date: "c. 3100 BCE"`, how precise it is, region, place)
+- `places.yaml`: real places with coordinates (from Wikidata, which is public domain)
+- `routes.yaml`: trade and travel routes as a list of places
+- `concepts.yaml`: key terms with a short definition and the section that defines them
+
+Every entry names the section(s) where the book says it, and has English and Bulgarian text. Claude
+proposes entries from the book; **only entries you approve appear on the live site** (`npm run dev`
+also shows proposed ones, so you can see them in place).
+
+To review: open **`docs/knowledge-review.md`** (one list per chapter, with links). Fix or delete
+anything wrong in the YAML files (or tell Claude), then approve a whole chapter:
+
+```
+npm run knowledge approve 009 010 011
+npm run knowledge review        (refreshes docs/knowledge-review.md)
+```
+
+The build stops with a clear message if an entry points to a section that no longer exists, has a date
+the script can't read, or uses an id twice. After each import, `npm run import` lists entries whose
+sections were revised in the new edition, so they can be re-checked. If a section was renamed,
+`npm run knowledge fix` updates the entries that cite it.
+
 ## Renaming a page without breaking links
 
 If a section's title changes, its address changes too, and old links would hit the "page isn't here" page. To forward the old address, add it to `redirects` in **`content-meta/slug-overrides.json`** (`IMPORT_REPORT.md` lists removed and new addresses after each import):
@@ -48,9 +77,11 @@ If a section's title changes, its address changes too, and old links would hit t
 
 The Bulgarian page is forwarded too. Alternatively, keep the old address by pinning the section's slug under `sections` in the same file.
 
+When the importer itself changes an address (it did once, in November 2026, for 21 addresses that ended mid-phrase, like `…-claim-and-a/`), it records the move under `moved` in `content-meta/slugs.json` and the old address forwards automatically. Readers' "read" ticks follow the move.
+
 ## What readers get (and where it comes from)
 
-- **Reading progress.** A section counts as read when the reader reaches its end (after at least 10 seconds on the page) or presses **Mark as read**. Ticks show in the sidebar and chapter contents, chapter cards get a progress bar, and the homepage offers **Continue reading**. It's stored in the reader's own browser only: nothing is sent anywhere, and English and Bulgarian share it.
+- **Reading progress.** A section counts as read when the reader reaches its end (after at least 10 seconds on the page) or presses **Mark as read**. Ticks show in the sidebar and chapter contents, chapter cards get a progress bar, and the homepage offers **Continue reading**. It's stored in the reader's own browser only: nothing is sent anywhere, and English and Bulgarian share it. Everything the site remembers (progress, flashcard piles, theme, palette) goes through one module, `src/lib/reader-state.ts`; the homepage's **Your progress** box saves it all to a file and loads it on another device.
 - **Updates page and RSS feed** (`/updates/`, `/rss.xml`, and the Bulgarian `/bg/…` versions): what each edition added or revised, built automatically from the import history in `content-meta/manifest.json`. Raising `edition` in `content-meta/book-settings.json` starts a new entry.
 - **Related sections** at the end of each section, found by comparing the text of every section on your computer during `npm run import` (`importer/related.py`, free and offline). They update by themselves as chapters are added.
 - **Timeline** (`/timeline/`): dated moments from the history chapters (Parts II and III) on one line, from the first stone tools to 1919, each linked to its section and filterable by chapter (`/timeline/#ch-012`; every history chapter's page links to its slice). The importer finds the events in the book's own text: dated lists, sentences that begin with a date, and section titles with a year (`importer/timeline.py`). New chapters appear by themselves; **`content-meta/timeline.json`** holds corrections: events to leave out, rewordings (for example naming who "he" is), extra sentences to include, and chapter date ranges. `IMPORT_REPORT.md` says if a correction stops matching after the text changes.
@@ -79,6 +110,8 @@ These are kept and safe to edit:
 
 - `content-meta/book-settings.json`: edition number and which chapters belong to which Part
 - `content-meta/timeline.json`: corrections for the timeline
+- `content-meta/knowledge/*.yaml`: dates, places, routes and key terms (see above)
+- `src/config/features.ts`: switch any feature off with one word (`false`) if it ever misbehaves
 - `content-meta/slug-overrides.json`: change a page's URL, or add a redirect after renaming a section
 - `content-meta/translations/bg-overrides.json`: your Bulgarian corrections
 - `src/site.config.ts`: site URL, footer line, analytics, the default colour palette, and whether readers can pick another
@@ -97,7 +130,7 @@ git clone https://github.com/knowledgekingdom/manuscript.git manuscript
 
 The first line lets Windows handle the long file names of some section pages. The last line brings back the manuscript files from the private backup.
 
-**Windows note:** if Windows' Smart App Control is on, it blocks two of the website's helper programs. `npm run dev`, `build` and `check` detect this and quietly install free WebAssembly versions of them (only on that computer; `package.json` is not changed), so nothing needs switching off.
+**Windows note:** if Windows' Smart App Control is on, it blocks three of the website's helper programs. `npm run dev`, `build` and `check` detect this and quietly install free WebAssembly versions of them (only on that computer; `package.json` is not changed), so nothing needs switching off.
 
 The first `npm run translate` creates a small Python environment (`.venv-translate`) and downloads the 70 MB translation model. Neither is committed to git.
 
@@ -114,7 +147,9 @@ The first `npm run translate` creates a small Python environment (`.venv-transla
 | `npm run build` | build the static site into `dist/` and its search index |
 | `npm run preview` | serve the built site locally (search works here) |
 | `npm run audit` | Lighthouse scores for key pages (run while `preview` is running) |
-| `npm run test:importer` | importer and translator tests |
+| `npm run knowledge` | knowledge files: `check`, `review`, `approve 009`, `changed`, `fix` |
+| `npm test` | all tests (reader state, knowledge files, importer, translator) |
+| `npm run test:importer` | importer and translator tests only |
 | `npm run check` | type-check the site |
 
 ## How it fits together

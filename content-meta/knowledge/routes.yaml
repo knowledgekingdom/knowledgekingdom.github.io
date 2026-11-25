@@ -1,0 +1,11 @@
+# Trade and travel routes as an ordered list of places (ids from places.yaml).
+#
+# id / name / bg     unique id, English name, Bulgarian name
+# places             place ids in order along the route (at least two)
+# active             from / to, when the book dates the route
+# sections           where the book describes it
+# status             proposed | approved
+#
+# Chapters 001-011 describe no specific routes; the first ones come with Persia (015) and the
+# Silk Roads (021).
+[]

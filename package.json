@@ -4,20 +4,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "import": "python importer/import_manuscript.py",
+    "import": "python importer/import_manuscript.py && node scripts/knowledge.mjs check && node scripts/knowledge.mjs changed",
     "translate": "node scripts/translate.mjs",
     "update": "npm run import && npm run translate && npm run og && npm run backup",
     "backup": "node scripts/backup-manuscript.mjs",
     "test:importer": "python -m unittest discover -s importer/tests",
-    "predev": "node scripts/windows-wasm-fallback.mjs",
+    "predev": "node scripts/windows-wasm-fallback.mjs && node scripts/knowledge.mjs check",
     "dev": "astro dev",
-    "prebuild": "node scripts/windows-wasm-fallback.mjs",
+    "prebuild": "node scripts/windows-wasm-fallback.mjs && node scripts/knowledge.mjs check",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
-    "precheck": "node scripts/windows-wasm-fallback.mjs",
+    "precheck": "node scripts/windows-wasm-fallback.mjs && node scripts/knowledge.mjs check",
     "check": "astro check",
     "og": "node scripts/og-images.mjs",
-    "audit": "node scripts/audit.mjs"
+    "audit": "node scripts/audit.mjs",
+    "test": "node --test tests/ && python -m unittest discover -s importer/tests",
+    "test:state": "node --test tests/",
+    "knowledge": "node scripts/knowledge.mjs"
   },
   "dependencies": {
     "@fontsource-variable/inter": "5.3.0",
@@ -28,6 +31,7 @@
     "@astrojs/check": "0.9.12",
     "lighthouse": "13.6.0",
     "pagefind": "1.6.0",
-    "typescript": "5.9.3"
+    "typescript": "5.9.3",
+    "yaml": "2.9.1"
   }
 }

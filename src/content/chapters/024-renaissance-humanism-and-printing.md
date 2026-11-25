@@ -14,7 +14,7 @@ description: "How city politics, the recovery and criticism of ancient texts, ar
 status: "DRAFT"
 edition: 41
 sectionCount: 34
-readingTime: 42
+readingTime: 65
 openingReadingTime: 2
 ---
 

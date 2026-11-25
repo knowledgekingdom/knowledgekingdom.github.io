@@ -14,7 +14,7 @@ description: "A republic became an empire, a city became a network of provinces,
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 26
-readingTime: 33
+readingTime: 43
 openingReadingTime: 2
 ---
 

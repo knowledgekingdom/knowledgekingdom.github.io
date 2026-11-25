@@ -14,7 +14,7 @@ description: "Как индустриалната власт, дипломаци
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 40
+readingTime: 47
 openingReadingTime: 2
 ---
 

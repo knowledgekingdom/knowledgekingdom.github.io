@@ -14,7 +14,7 @@ description: "How seasonal winds, coastal societies, inland producers and compet
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 42
+readingTime: 50
 openingReadingTime: 2
 ---
 

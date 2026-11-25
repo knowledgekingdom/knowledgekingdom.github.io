@@ -14,7 +14,7 @@ description: "Как градската политика, възстановяв
 status: "DRAFT"
 edition: 41
 sectionCount: 34
-readingTime: 42
+readingTime: 65
 openingReadingTime: 2
 ---
 

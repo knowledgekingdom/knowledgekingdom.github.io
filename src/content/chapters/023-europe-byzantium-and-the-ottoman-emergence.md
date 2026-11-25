@@ -14,7 +14,7 @@ description: "How medieval Europe's rival political systems, the enduring Roman 
 status: "DRAFT"
 edition: 41
 sectionCount: 31
-readingTime: 39
+readingTime: 64
 openingReadingTime: 2
 ---
 

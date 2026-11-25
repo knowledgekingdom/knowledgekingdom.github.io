@@ -5,6 +5,7 @@ import Icon from '../components/Icon.astro';
 import { getBook, getRoadmap, getFlashcards, updates, figures, getChapters, getSections, getPage, chapterUrl, pageInfo } from '../lib/book';
 import { t, langFromPath, localize } from '../i18n/ui';
 import { site } from '../site.config';
+import { features } from '../config/features';
 
 const lang = langFromPath(Astro.url.pathname);
 const L = (p: string) => localize(p, lang);
@@ -108,6 +109,21 @@ const recent = (await Promise.all(latestLinks.map(async (l) => {
             </div>
             <a class="btn" href={L('/roadmap/')}>{t(lang, 'home.seeRoadmap')} <Icon name="arrowRight" class="arrow" /></a>
           </div>
+        </section>
+      )}
+
+      {features.progressTransfer && (
+        <section class="home-section transfer" aria-labelledby="your-progress" data-transfer hidden
+                 data-exported={t(lang, 'transfer.exported')} data-imported={t(lang, 'transfer.imported')}
+                 data-error-format={t(lang, 'transfer.errorFormat')} data-error-newer={t(lang, 'transfer.errorNewer')}>
+          <h2 id="your-progress">{t(lang, 'transfer.title')}</h2>
+          <p>{t(lang, 'transfer.intro')}</p>
+          <div class="transfer-actions">
+            <button class="btn" type="button" data-export><Icon name="download" /> {t(lang, 'transfer.export')}</button>
+            <button class="btn" type="button" data-import><Icon name="upload" /> {t(lang, 'transfer.import')}</button>
+            <input type="file" accept="application/json,.json" data-import-file hidden />
+          </div>
+          <p class="meta" role="status" data-transfer-status></p>
         </section>
       )}
     </div>

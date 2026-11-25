@@ -14,7 +14,7 @@ description: "How communities came to imagine themselves as nations, how governm
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 38
+readingTime: 40
 openingReadingTime: 2
 ---
 

@@ -14,7 +14,7 @@ description: "How a Balkan assassination became a global war, why industrialized
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 32
+readingTime: 37
 openingReadingTime: 1
 ---
 

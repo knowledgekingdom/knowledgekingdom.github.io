@@ -14,7 +14,7 @@ description: "Как иберийските имперски кризи стан
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 36
+readingTime: 39
 openingReadingTime: 2
 ---
 

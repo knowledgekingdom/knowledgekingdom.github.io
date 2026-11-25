@@ -14,7 +14,7 @@ description: "Градът може да напусне улиците, клад
 status: "LONG-FORM DRAFT"
 edition: 41
 sectionCount: 24
-readingTime: 36
+readingTime: 45
 openingReadingTime: 2
 ---
 

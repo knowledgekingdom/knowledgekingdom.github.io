@@ -53,6 +53,7 @@ const lang = langFromPath(Astro.url.pathname);
 </style>
 
 <script>
+  import { store } from '../scripts/reader';
   const root = document.documentElement;
   const picker = document.querySelector<HTMLElement>('[data-palette-picker]');
   const toggle = picker?.querySelector<HTMLButtonElement>('.pp-toggle');
@@ -71,7 +72,7 @@ const lang = langFromPath(Astro.url.pathname);
     const apply = () => { root.dataset.palette = b.dataset.setPalette!; sync(); };
     const vt = (document as any).startViewTransition;
     if (vt && !matchMedia('(prefers-reduced-motion: reduce)').matches) vt.call(document, apply); else apply();
-    try { localStorage.setItem('kk-palette', b.dataset.setPalette!); } catch (e) {}
+    store.setSettings({ palette: b.dataset.setPalette! });
   }));
   document.addEventListener('click', (e) => {
     if (panel && !panel.hidden && !picker?.contains(e.target as Node)) setOpen(false);

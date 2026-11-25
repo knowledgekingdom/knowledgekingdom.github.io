@@ -14,7 +14,7 @@ description: "Всеки жив човек принадлежи към един 
 status: "DRAFT"
 edition: 41
 sectionCount: 17
-readingTime: 36
+readingTime: 43
 openingReadingTime: 2
 ---
 

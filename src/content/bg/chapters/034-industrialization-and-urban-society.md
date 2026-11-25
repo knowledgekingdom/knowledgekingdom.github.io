@@ -14,7 +14,7 @@ description: "Как комбинацията от машини, фосилна 
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 39
+readingTime: 42
 openingReadingTime: 2
 ---
 

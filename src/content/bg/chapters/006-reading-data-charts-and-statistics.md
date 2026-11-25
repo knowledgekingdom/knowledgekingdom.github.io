@@ -14,7 +14,7 @@ description: "Числата правят света по-лесен за сра
 status: "EXPANDED"
 edition: 41
 sectionCount: 22
-readingTime: 35
+readingTime: 43
 openingReadingTime: 2
 ---
 

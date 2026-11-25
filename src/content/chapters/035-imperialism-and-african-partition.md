@@ -14,7 +14,7 @@ description: "How industrial power, diplomacy, financial interests and military 
 status: "DRAFT"
 edition: 41
 sectionCount: 36
-readingTime: 40
+readingTime: 47
 openingReadingTime: 2
 ---
 
