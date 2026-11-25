@@ -144,14 +144,16 @@ const badgeNames = features.games ? JSON.stringify({ toast: t(lang, 'badge.toast
           <a class="hide-sm" href={L('/about/')} aria-current={stripLang(path) === '/about/' ? 'page' : undefined}>{t(lang, 'nav.about')}</a>
           <a class="hide-sm" href={L('/roadmap/')} aria-current={stripLang(path) === '/roadmap/' ? 'page' : undefined}>{t(lang, 'nav.roadmap')}</a>
           <a class="hide-sm" href={L('/timeline/')} aria-current={stripLang(path) === '/timeline/' ? 'page' : undefined}>{t(lang, 'nav.timeline')}</a>
-          <a class="hide-sm hide-md" href={L('/random/')}>{t(lang, 'nav.random')}</a>
+          {features.games
+            ? <a class="hide-sm" href={L('/play/')} aria-current={stripLang(path).startsWith('/play/') ? 'page' : undefined}>{t(lang, 'nav.play')}</a>
+            : <a class="hide-sm hide-md" href={L('/random/')}>{t(lang, 'nav.random')}</a>}
           <Search />
           {site.paletteSwitcher && <PalettePicker />}
           <button class="icon-btn" type="button" data-theme-toggle aria-label={t(lang, 'nav.toggleTheme')}>
             <Icon name="moon" class="theme-icon-moon" /><Icon name="sun" class="theme-icon-sun" />
           </button>
           <a class="icon-btn lang-switch" href={switchHref} hreflang={other} lang={other} data-lang-switch
-             aria-label={t(lang, 'nav.switchLang')} title={t(lang, 'nav.switchLang')}>
+             aria-label={`${t(lang, 'nav.switchLangShort')}: ${t(lang, 'nav.switchLang')}`} title={t(lang, 'nav.switchLang')}>
             <Icon name="globe" /><span>{t(lang, 'nav.switchLangShort')}</span>
           </a>
         </nav>
