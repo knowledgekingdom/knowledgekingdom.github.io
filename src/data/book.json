@@ -2,7 +2,7 @@
   "title": "Knowledge Kingdom",
   "titleDisplay": "KNOWLEDGE KINGDOM",
   "subtitle": "An Illustrated Guide to Understanding the World",
-  "edition": 41,
+  "edition": 42,
   "editionDate": "November 2026",
   "statusNote": "long-form chapter drafts. Factual and editorial quality checks remain part of the final publication process.",
   "parts": [
@@ -65,7 +65,25 @@
         35,
         36,
         37,
-        38
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "number": 4,
+      "roman": "IV",
+      "title": "War, Peace, and Geopolitics",
+      "slug": "part-4-war-peace-and-geopolitics",
+      "chapters": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
       ]
     }
   ],
@@ -7490,6 +7508,2712 @@
       "title": "Sources and further reading",
       "kind": "sources",
       "chapter": 38
+    },
+    {
+      "url": "/039-the-interwar-world/",
+      "title": "The Interwar World",
+      "kind": "chapter",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/three-problems-at-once-security-legitimacy-and-livelihoods/",
+      "title": "Three problems at once: security, legitimacy, and livelihoods",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/paris-new-borders-and-contested-self-determination/",
+      "title": "Paris, new borders, and contested self-determination",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/the-league-of-nations-more-than-a-failed-security-experiment/",
+      "title": "The League of Nations: more than a failed security experiment",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/the-fragile-financial-order-left-by-world-war-i/",
+      "title": "The fragile financial order left by World War I",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/revolutionary-russia-and-the-soviet-alternative/",
+      "title": "Revolutionary Russia and the Soviet alternative",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/germanys-weimar-republic-a-democracy-under-pressure/",
+      "title": "Germany's Weimar Republic: a democracy under pressure",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/hyperinflation-and-the-memory-of-1923/",
+      "title": "Hyperinflation and the memory of 1923",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/a-recovery-that-rested-on-unstable-foundations/",
+      "title": "A recovery that rested on unstable foundations",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/cities-cinema-radio-and-new-mass-cultures/",
+      "title": "Cities, cinema, radio, and new mass cultures",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/self-determination-beyond-europe/",
+      "title": "Self-determination beyond Europe",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/turkey-and-the-end-of-the-ottoman-imperial-order/",
+      "title": "Turkey and the end of the Ottoman imperial order",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/italy-the-march-on-rome-and-the-consolidation-of-fascism/",
+      "title": "Italy: the March on Rome and the consolidation of fascism",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/what-fascism-was-and-what-it-was-not/",
+      "title": "What fascism was—and what it was not",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/stalins-revolution-from-above/",
+      "title": "Stalin's revolution from above",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/collectivization-famine-and-the-holodomor/",
+      "title": "Collectivization, famine, and the Holodomor",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/terror-surveillance-and-the-limits-of-apparent-consensus/",
+      "title": "Terror, surveillance, and the limits of apparent consensus",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/1929-a-crash-not-a-complete-explanation/",
+      "title": "1929: a crash, not a complete explanation",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/how-a-national-downturn-became-a-world-depression/",
+      "title": "How a national downturn became a world depression",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/unemployment-farms-and-the-human-experience-of-collapse/",
+      "title": "Unemployment, farms, and the human experience of collapse",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/democracys-responses-the-new-deal-and-other-reforms/",
+      "title": "Democracy's responses: the New Deal and other reforms",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/the-temptation-of-simple-economic-explanations/",
+      "title": "The temptation of simple economic explanations",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/weimars-collapse-was-a-political-process/",
+      "title": "Weimar's collapse was a political process",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/from-appointment-to-dictatorship-in-1933/",
+      "title": "From appointment to dictatorship in 1933",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/race-antisemitism-and-the-nazi-state/",
+      "title": "Race, antisemitism, and the Nazi state",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/why-some-parliamentary-systems-survived/",
+      "title": "Why some parliamentary systems survived",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/spain-a-civil-war-with-international-consequences/",
+      "title": "Spain: a civil war with international consequences",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/japan-and-the-transformation-of-east-asian-security/",
+      "title": "Japan and the transformation of East Asian security",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/chinas-republic-revolution-and-invasion/",
+      "title": "China's republic, revolution, and invasion",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/india-africa-latin-america-and-the-wider-interwar-world/",
+      "title": "India, Africa, Latin America, and the wider interwar world",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/bulgaria-after-neuilly-land-grievances-and-parliamentary/",
+      "title": "Bulgaria after Neuilly: land, grievances, and parliamentary tension",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/bulgarias-1923-coup-and-the-spiral-of-violence/",
+      "title": "Bulgaria's 1923 coup and the spiral of violence",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/bulgaria-in-the-1930s-coup-monarchy-and-revisionism/",
+      "title": "Bulgaria in the 1930s: coup, monarchy, and revisionism",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/manchuria-and-ethiopia-collective-security-under-strain/",
+      "title": "Manchuria and Ethiopia: collective security under strain",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/the-road-toward-a-new-general-war/",
+      "title": "The road toward a new general war",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/munich-and-the-failure-of-appeasement/",
+      "title": "Munich and the failure of appeasement",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/1939-the-end-of-the-interwar-order-and-the-questions/",
+      "title": "1939: the end of the interwar order—and the questions it leaves",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/case-study-did-the-depression-cause-hitler/",
+      "title": "Case study: did the Depression cause Hitler?",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/synthesis-five-connected-systems/",
+      "title": "Synthesis: five connected systems",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/practice/",
+      "title": "Exercises",
+      "kind": "practice",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 39
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/",
+      "title": "World War II and the Holocaust",
+      "kind": "chapter",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/what-makes-a-war-global/",
+      "title": "What makes a war global?",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/from-the-failed-peace-to-expansionist-dictatorships/",
+      "title": "From the failed peace to expansionist dictatorships",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/poland-september-1939-and-the-destruction-of-a-state/",
+      "title": "Poland, September 1939, and the destruction of a state",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/scandinavia-france-and-the-limits-of-the-early-german/",
+      "title": "Scandinavia, France and the limits of the early German victories",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/britain-air-defense-and-the-atlantic-supply-line/",
+      "title": "Britain, air defense and the Atlantic supply line",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/north-africa-the-mediterranean-and-colonial-soldiers/",
+      "title": "North Africa, the Mediterranean and colonial soldiers",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/the-balkan-campaigns-and-the-axis-order-in-southeastern/",
+      "title": "The Balkan campaigns and the Axis order in southeastern Europe",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/operation-barbarossa-a-war-of-annihilation/",
+      "title": "Operation Barbarossa: a war of annihilation",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/the-siege-of-leningrad-and-suffering-behind-front-lines/",
+      "title": "The siege of Leningrad and suffering behind front lines",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/japans-war-in-china-and-asian-imperialism/",
+      "title": "Japan's war in China and Asian imperialism",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/pearl-harbor-and-the-widening-pacific-war/",
+      "title": "Pearl Harbor and the widening Pacific War",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/midway-guadalcanal-and-the-cost-of-island-warfare/",
+      "title": "Midway, Guadalcanal and the cost of island warfare",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/how-a-coalition-sustains-a-long-war/",
+      "title": "How a coalition sustains a long war",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/from-antisemitic-exclusion-to-mass-murder/",
+      "title": "From antisemitic exclusion to mass murder",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/ghettos-deportation-and-the-language-of-administration/",
+      "title": "Ghettos, deportation and the language of administration",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/mass-shootings-after-the-invasion-of-the-soviet-union/",
+      "title": "Mass shootings after the invasion of the Soviet Union",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/the-final-solution-and-the-killing-centers/",
+      "title": "The 'Final Solution' and the killing centers",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/other-victims-of-nazi-persecution-and-murder/",
+      "title": "Other victims of Nazi persecution and murder",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/resistance-rescue-and-difficult-choices-under-occupation/",
+      "title": "Resistance, rescue and difficult choices under occupation",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/bulgaria-and-the-axis-policy-territory-and-responsibility/",
+      "title": "Bulgaria and the Axis: policy, territory and responsibility",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/bulgarias-jews-protection-in-the-old-kingdom-deportation/",
+      "title": "Bulgaria's Jews: protection in the old kingdom, deportation from occupied lands",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/life-under-occupation-labor-hunger-and-terror/",
+      "title": "Life under occupation: labor, hunger and terror",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/the-turning-years-1942-and-1943/",
+      "title": "The turning years: 1942 and 1943",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/kursk-italy-and-the-relentless-eastern-front/",
+      "title": "Kursk, Italy and the relentless Eastern Front",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/strategic-bombing-and-the-dilemma-of-civilian-targets/",
+      "title": "Strategic bombing and the dilemma of civilian targets",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/d-day-liberation-of-france-and-competing-memories/",
+      "title": "D-Day, liberation of France and competing memories",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/the-road-to-1945-in-europe/",
+      "title": "The road to 1945 in Europe",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/bulgaria-in-1944-1945-changing-sides-and-changing-regimes/",
+      "title": "Bulgaria in 1944–1945: changing sides and changing regimes",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/auschwitzs-liberation-and-the-evidence-of-genocide/",
+      "title": "Auschwitz's liberation and the evidence of genocide",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/okinawa-and-the-final-pacific-campaigns/",
+      "title": "Okinawa and the final Pacific campaigns",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/hiroshima-nagasaki-and-the-question-of-surrender/",
+      "title": "Hiroshima, Nagasaki and the question of surrender",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/counting-the-dead-without-hiding-uncertainty/",
+      "title": "Counting the dead without hiding uncertainty",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/wartime-displacement-and-the-question-of-home/",
+      "title": "Wartime displacement and the question of home",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/justice-after-mass-atrocity-nuremberg-and-tokyo/",
+      "title": "Justice after mass atrocity: Nuremberg and Tokyo",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/a-new-security-order-and-the-united-nations/",
+      "title": "A new security order and the United Nations",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/the-collapse-of-empires-and-the-beginning-of-the-cold-war/",
+      "title": "The collapse of empires and the beginning of the Cold War",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/how-historians-know-archives-memory-and-propaganda/",
+      "title": "How historians know: archives, memory and propaganda",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/synthesis-victory-catastrophe-and-unfinished-peace/",
+      "title": "Synthesis: victory, catastrophe and unfinished peace",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/practice/",
+      "title": "Exercises",
+      "kind": "practice",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 40
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/",
+      "title": "Cold War, Decolonization, and the Post-1991 World",
+      "kind": "chapter",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-strange-outcome-of-the-wartime-alliance/",
+      "title": "The strange outcome of the wartime alliance",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/what-the-term-cold-war-explains-and-what-it-hides/",
+      "title": "What the term Cold War explains—and what it hides",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/containment-the-truman-doctrine-and-the-marshall-plan/",
+      "title": "Containment, the Truman Doctrine and the Marshall Plan",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/berlin-germany-and-the-formation-of-opposing-blocs/",
+      "title": "Berlin, Germany and the formation of opposing blocs",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/eastern-europe-control-reform-and-resistance/",
+      "title": "Eastern Europe: control, reform and resistance",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/nuclear-weapons-and-the-logic-of-deterrence/",
+      "title": "Nuclear weapons and the logic of deterrence",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-chinese-revolution-and-the-remaking-of-east-asia/",
+      "title": "The Chinese Revolution and the remaking of East Asia",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/korea-local-war-international-escalation/",
+      "title": "Korea: local war, international escalation",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/decolonization-independence-as-a-world-making-process/",
+      "title": "Decolonization: independence as a world-making process",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/south-asia-india-pakistan-and-the-cost-of-partition/",
+      "title": "South Asia: India, Pakistan and the cost of partition",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/indonesia-and-southeast-asia-independence-and-competing/",
+      "title": "Indonesia and Southeast Asia: independence and competing projects",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bandung-and-the-non-aligned-movement/",
+      "title": "Bandung and the Non-Aligned Movement",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/africas-diverse-independence-movements/",
+      "title": "Africa's diverse independence movements",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-congo-crisis-sovereignty-under-pressure/",
+      "title": "The Congo Crisis: sovereignty under pressure",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/middle-eastern-transformations-independence-oil-and-conflict/",
+      "title": "Middle Eastern transformations: independence, oil and conflict",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-cuban-revolution-and-the-missile-crisis/",
+      "title": "The Cuban Revolution and the missile crisis",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/vietnam-war-nationalism-and-intervention/",
+      "title": "Vietnam: war, nationalism and intervention",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-arms-race-space-race-and-scientific-development/",
+      "title": "The arms race, space race and scientific development",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bulgaria-after-1944-the-communist-state/",
+      "title": "Bulgaria after 1944: the communist state",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/everyday-life-and-bulgarias-economic-transformation/",
+      "title": "Everyday life and Bulgaria's economic transformation",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bulgarias-forced-assimilation-campaign-and-1989/",
+      "title": "Bulgaria's forced assimilation campaign and 1989",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/detente-and-the-limits-of-superpower-cooperation/",
+      "title": "Détente and the limits of superpower cooperation",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/southern-africa-angola-and-the-struggle-against-apartheid/",
+      "title": "Southern Africa, Angola and the struggle against apartheid",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/latin-america-and-the-cold-wars-domestic-costs/",
+      "title": "Latin America and the Cold War's domestic costs",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/afghanistan-iran-and-the-renewed-cold-war-of-the-1980s/",
+      "title": "Afghanistan, Iran and the renewed Cold War of the 1980s",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/gorbachev-and-reform-from-within-the-soviet-union/",
+      "title": "Gorbachev and reform from within the Soviet Union",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-revolutions-of-1989-and-the-fall-of-the-wall/",
+      "title": "The revolutions of 1989 and the fall of the Wall",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/germany-reunifies-and-the-soviet-union-dissolves/",
+      "title": "Germany reunifies and the Soviet Union dissolves",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/postcommunist-transitions-democracy-markets-and-costs/",
+      "title": "Postcommunist transitions: democracy, markets and costs",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-balkans-after-1991-yugoslavias-violent-dissolution/",
+      "title": "The Balkans after 1991: Yugoslavia's violent dissolution",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-european-union-and-nato-expand/",
+      "title": "The European Union and NATO expand",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/globalization-trade-technology-and-uneven-development/",
+      "title": "Globalization: trade, technology and uneven development",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-post-1991-international-order-and-its-limits/",
+      "title": "The post-1991 international order and its limits",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/environment-health-and-global-public-goods/",
+      "title": "Environment, health and global public goods",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/why-the-cold-war-ended-and-why-historians-disagree/",
+      "title": "Why the Cold War ended—and why historians disagree",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/cold-war-narratives-propaganda-and-contested-memory/",
+      "title": "Cold War narratives, propaganda and contested memory",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/case-study-one-bulgarian-town-across-three-political-systems/",
+      "title": "Case study: one Bulgarian town across three political systems",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/what-changed-by-1991-and-what-did-not/",
+      "title": "What changed by 1991—and what did not",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/a-concise-comparative-chronology/",
+      "title": "A concise comparative chronology",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/how-to-read-the-postwar-world-without-a-single-storyline/",
+      "title": "How to read the postwar world without a single storyline",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/practice/",
+      "title": "Exercises",
+      "kind": "practice",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 41
+    },
+    {
+      "url": "/042-why-wars-begin/",
+      "title": "Why Wars Begin",
+      "kind": "chapter",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/what-counts-as-war-and-why-definitions-matter/",
+      "title": "What counts as war, and why definitions matter",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/three-levels-of-explanation/",
+      "title": "Three levels of explanation",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/the-puzzle-why-not-settle-instead/",
+      "title": "The puzzle: why not settle instead?",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/a-bargaining-range-worked-through/",
+      "title": "A bargaining range, worked through",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/private-information-and-optimistic-expectations/",
+      "title": "Private information and optimistic expectations",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/threats-bluffs-and-costly-signals/",
+      "title": "Threats, bluffs and costly signals",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/commitment-problems-the-danger-of-tomorrow/",
+      "title": "Commitment problems: the danger of tomorrow",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/preventive-war-versus-preemptive-attack/",
+      "title": "Preventive war versus preemptive attack",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/indivisible-issues-and-the-meaning-of-territory/",
+      "title": "Indivisible issues and the meaning of territory",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/the-security-dilemma-defence-looks-like-danger/",
+      "title": "The security dilemma: defence looks like danger",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/offence-defence-and-the-power-of-geography/",
+      "title": "Offence, defence and the power of geography",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/alliances-reassurance-entrapment-and-abandonment/",
+      "title": "Alliances: reassurance, entrapment and abandonment",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/balances-of-power-and-power-transitions/",
+      "title": "Balances of power and power transitions",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/territory-resources-and-strategic-routes/",
+      "title": "Territory, resources and strategic routes",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/trade-and-economic-interdependence/",
+      "title": "Trade and economic interdependence",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/economic-pressure-without-economic-determinism/",
+      "title": "Economic pressure without economic determinism",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/leaders-political-survival-and-unequal-costs/",
+      "title": "Leaders, political survival and unequal costs",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/democracy-authoritarianism-and-conflict/",
+      "title": "Democracy, authoritarianism and conflict",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/diversionary-war-and-the-risk-of-convenient-stories/",
+      "title": "Diversionary war and the risk of convenient stories",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/nationalism-historical-memory-and-mass-mobilization/",
+      "title": "Nationalism, historical memory and mass mobilization",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/ideology-and-rival-visions-of-legitimate-rule/",
+      "title": "Ideology and rival visions of legitimate rule",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/perception-analogy-and-the-human-mind/",
+      "title": "Perception, analogy and the human mind",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/fear-humiliation-honor-and-emotions/",
+      "title": "Fear, humiliation, honor and emotions",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/miscalculation-mobilization-and-unintended-escalation/",
+      "title": "Miscalculation, mobilization and unintended escalation",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/case-study-europes-july-crisis-of-1914/",
+      "title": "Case study: Europe's July Crisis of 1914",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/case-study-the-road-to-world-war-ii/",
+      "title": "Case study: the road to World War II",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/case-study-the-cuban-missile-crisis-1962/",
+      "title": "Case study: the Cuban Missile Crisis, 1962",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/case-study-iraq-and-kuwait-1990-1991/",
+      "title": "Case study: Iraq and Kuwait, 1990–1991",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/case-study-iraq-in-2003-and-the-problem-of-intelligence/",
+      "title": "Case study: Iraq in 2003 and the problem of intelligence",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/civil-wars-different-participants-overlapping-logics/",
+      "title": "Civil wars: different participants, overlapping logics",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/civil-war-bargaining-and-the-problem-of-disarmament/",
+      "title": "Civil-war bargaining and the problem of disarmament",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/ethnic-violence-communal-fear-and-local-agency/",
+      "title": "Ethnic violence, communal fear and local agency",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/why-some-wars-keep-going/",
+      "title": "Why some wars keep going",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/bulgaria-and-the-balkan-wars-a-comparative-exercise/",
+      "title": "Bulgaria and the Balkan wars: a comparative exercise",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/deterrence-reassurance-and-restraint/",
+      "title": "Deterrence, reassurance and restraint",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/conflict-prevention-practical-instruments-and-limitations/",
+      "title": "Conflict prevention: practical instruments and limitations",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/evidence-uncertainty-and-the-ethics-of-explanation/",
+      "title": "Evidence, uncertainty and the ethics of explanation",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/a-worked-exercise-the-dam-on-a-contested-river/",
+      "title": "A worked exercise: the dam on a contested river",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/synthesis-turning-a-war-story-into-a-causal-explanation/",
+      "title": "Synthesis: turning a war story into a causal explanation",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/practice/",
+      "title": "Exercises",
+      "kind": "practice",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 42
+    },
+    {
+      "url": "/043-the-geography-of-power/",
+      "title": "The Geography of Power",
+      "kind": "chapter",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/what-geographers-mean-by-power/",
+      "title": "What geographers mean by power",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/physical-geography-and-human-geography-belong-together/",
+      "title": "Physical geography and human geography belong together",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/distance-is-a-cost-not-just-a-measurement/",
+      "title": "Distance is a cost, not just a measurement",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/mountains-protection-separation-and-passage/",
+      "title": "Mountains: protection, separation and passage",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/plains-and-corridors-the-ease-and-danger-of-movement/",
+      "title": "Plains and corridors: the ease and danger of movement",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/rivers-connect-and-divide/",
+      "title": "Rivers connect and divide",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/coastlines-and-the-advantage-of-sea-access/",
+      "title": "Coastlines and the advantage of sea access",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/landlocked-states-and-the-politics-of-transit/",
+      "title": "Landlocked states and the politics of transit",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/straits-canals-and-maritime-chokepoints/",
+      "title": "Straits, canals and maritime chokepoints",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/sea-power-fleets-and-the-shore/",
+      "title": "Sea power, fleets and the shore",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/islands-archipelagos-and-competing-scales/",
+      "title": "Islands, archipelagos and competing scales",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/resources-wealth-dependency-and-the-resource-trap/",
+      "title": "Resources: wealth, dependency and the resource trap",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/food-farmland-and-strategic-resilience/",
+      "title": "Food, farmland and strategic resilience",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/energy-geography-fixed-deposits-and-moving-systems/",
+      "title": "Energy geography: fixed deposits and moving systems",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/population-geography-and-the-problem-of-concentrated-assets/",
+      "title": "Population geography and the problem of concentrated assets",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/cities-and-ports-as-network-nodes/",
+      "title": "Cities and ports as network nodes",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/borders-are-institutions-drawn-across-space/",
+      "title": "Borders are institutions drawn across space",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/maritime-law-territorial-waters-and-economic-zones/",
+      "title": "Maritime law: territorial waters and economic zones",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/climate-hazards-and-environmental-security/",
+      "title": "Climate, hazards and environmental security",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/technology-changes-the-meaning-of-terrain/",
+      "title": "Technology changes the meaning of terrain",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/the-geography-of-information-and-undersea-cables/",
+      "title": "The geography of information and undersea cables",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/mapping-the-supply-chain-instead-of-the-mine/",
+      "title": "Mapping the supply chain instead of the mine",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/classic-theories-useful-questions-dangerous-shortcuts/",
+      "title": "Classic theories: useful questions, dangerous shortcuts",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/critical-geopolitics-whose-map-is-being-drawn/",
+      "title": "Critical geopolitics: whose map is being drawn?",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/russia-and-the-problem-of-distance-and-access/",
+      "title": "Russia and the problem of distance and access",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/the-united-states-oceans-rivers-and-continental-networks/",
+      "title": "The United States: oceans, rivers and continental networks",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/china-and-east-asia-coast-interior-and-regional-networks/",
+      "title": "China and East Asia: coast, interior and regional networks",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/the-mediterranean-and-its-narrow-passages/",
+      "title": "The Mediterranean and its narrow passages",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/bulgaria-a-crossroads-is-not-a-destiny/",
+      "title": "Bulgaria: a crossroads is not a destiny",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/bulgarias-routes-danube-black-sea-and-balkan-passes/",
+      "title": "Bulgaria's routes: Danube, Black Sea and Balkan passes",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/turkey-and-the-straits-geography-under-law-and-diplomacy/",
+      "title": "Turkey and the Straits: geography under law and diplomacy",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/egypt-and-panama-infrastructure-creates-new-geography/",
+      "title": "Egypt and Panama: infrastructure creates new geography",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/the-arctic-opportunity-hazards-and-misleading-headlines/",
+      "title": "The Arctic: opportunity, hazards and misleading headlines",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/strategic-vulnerability-measuring-dependence/",
+      "title": "Strategic vulnerability: measuring dependence",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/an-exercise-in-comparative-power-three-fictional-states/",
+      "title": "An exercise in comparative power: three fictional states",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/how-to-read-a-strategic-map-without-being-deceived/",
+      "title": "How to read a strategic map without being deceived",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/geography-and-the-ethics-of-strategic-language/",
+      "title": "Geography and the ethics of strategic language",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/worked-case-a-disputed-mountain-transit-corridor/",
+      "title": "Worked case: a disputed mountain transit corridor",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/a-seven-question-diagnostic-of-geographic-power/",
+      "title": "A seven-question diagnostic of geographic power",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/practice/",
+      "title": "Exercises",
+      "kind": "practice",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 43
+    },
+    {
+      "url": "/044-military-organization-and-logistics/",
+      "title": "Military Organization and Logistics",
+      "kind": "chapter",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/resources-capability-and-political-power/",
+      "title": "Resources, capability and political power",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/the-strategic-operational-and-tactical-levels/",
+      "title": "The strategic, operational and tactical levels",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/what-is-an-armed-force/",
+      "title": "What is an armed force?",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/units-formations-and-ranks/",
+      "title": "Units, formations and ranks",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/command-staff-and-accountability/",
+      "title": "Command, staff and accountability",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/civilian-control-and-the-purpose-of-military-institutions/",
+      "title": "Civilian control and the purpose of military institutions",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/conscription-volunteers-and-professional-forces/",
+      "title": "Conscription, volunteers and professional forces",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/active-service-reserves-and-mobilisation/",
+      "title": "Active service, reserves and mobilisation",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/training-education-and-the-human-institution/",
+      "title": "Training, education and the human institution",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/morale-cohesion-and-legitimacy/",
+      "title": "Morale, cohesion and legitimacy",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/what-logistics-means/",
+      "title": "What logistics means",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/the-stock-and-the-flow/",
+      "title": "The stock and the flow",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/supply-is-a-chain-of-institutions/",
+      "title": "Supply is a chain of institutions",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/transport-geography-and-the-meaning-of-distance/",
+      "title": "Transport, geography and the meaning of distance",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/fuel-energy-and-industrial-consumption/",
+      "title": "Fuel, energy and industrial consumption",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/maintenance-and-life-cycle-costs/",
+      "title": "Maintenance and life-cycle costs",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/readiness-is-not-a-single-number/",
+      "title": "Readiness is not a single number",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/health-sanitation-and-the-limits-of-the-human-body/",
+      "title": "Health, sanitation and the limits of the human body",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/information-intelligence-and-uncertainty/",
+      "title": "Information, intelligence and uncertainty",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/communications-and-institutional-coordination/",
+      "title": "Communications and institutional coordination",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/joint-institutions-and-combined-arms/",
+      "title": "Joint institutions and combined arms",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/the-ancient-world-organising-an-army-before-engines/",
+      "title": "The ancient world: organising an army before engines",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/the-mongol-empire-and-the-ecology-of-mobility/",
+      "title": "The Mongol Empire and the ecology of mobility",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/early-modern-fiscal-and-military-states/",
+      "title": "Early modern fiscal and military states",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/napoleon-in-russia-a-failure-beyond-the-weather/",
+      "title": "Napoleon in Russia: a failure beyond the weather",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/industrialisation-and-the-first-world-war/",
+      "title": "Industrialisation and the First World War",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/the-second-world-war-as-a-global-institutional-struggle/",
+      "title": "The Second World War as a global institutional struggle",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/the-berlin-airlift-logistics-as-political-communication/",
+      "title": "The Berlin Airlift: logistics as political communication",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/limited-war-and-the-difficulty-of-political-victory/",
+      "title": "Limited war and the difficulty of political victory",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/alliances-standardisation-and-shared-responsibility/",
+      "title": "Alliances, standardisation and shared responsibility",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/bulgaria-military-institutions-in-constitutional-context/",
+      "title": "Bulgaria: military institutions in constitutional context",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/military-expenditure-and-the-economics-of-security/",
+      "title": "Military expenditure and the economics of security",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/corruption-procurement-and-the-illusion-of-modernisation/",
+      "title": "Corruption, procurement and the illusion of modernisation",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/civilians-forced-labour-and-the-moral-cost-of-supply/",
+      "title": "Civilians, forced labour and the moral cost of supply",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/technology-changes-dependencies-rather-than-ending-them/",
+      "title": "Technology changes dependencies rather than ending them",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/a-worked-case-the-two-emergency-service-budgets/",
+      "title": "A worked case: the two emergency-service budgets",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/how-to-read-claims-about-military-strength/",
+      "title": "How to read claims about military strength",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/synthesis-why-strength-does-not-guarantee-success/",
+      "title": "Synthesis: why strength does not guarantee success",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/summary/",
+      "title": "Key concepts to retain",
+      "kind": "summary",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/connections-across-knowledge-kingdom/",
+      "title": "Connections across Knowledge Kingdom",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/practice/",
+      "title": "Exercises",
+      "kind": "practice",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 44
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/",
+      "title": "Diplomacy, Alliances, and Balance of Power",
+      "kind": "chapter",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/foreign-policy-diplomacy-and-statecraft/",
+      "title": "Foreign policy, diplomacy and statecraft",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/before-ambassadors-ancient-diplomacy/",
+      "title": "Before ambassadors: ancient diplomacy",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/diplomacy-in-unequal-worlds/",
+      "title": "Diplomacy in unequal worlds",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/sovereignty-and-the-westphalian-story/",
+      "title": "Sovereignty and the Westphalian story",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-embassy-as-an-institution/",
+      "title": "The embassy as an institution",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-many-channels-of-diplomacy/",
+      "title": "The many channels of diplomacy",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-difference-between-a-position-and-an-interest/",
+      "title": "The difference between a position and an interest",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bargaining-ranges-and-the-cost-of-disagreement/",
+      "title": "Bargaining ranges and the cost of disagreement",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/information-credibility-and-verification/",
+      "title": "Information, credibility and verification",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/domestic-politics-negotiating-at-two-tables/",
+      "title": "Domestic politics: negotiating at two tables",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/mediation-arbitration-and-adjudication/",
+      "title": "Mediation, arbitration and adjudication",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/treaties-declarations-and-political-commitments/",
+      "title": "Treaties, declarations and political commitments",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/what-is-an-alliance/",
+      "title": "What is an alliance?",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/balance-of-power-a-distribution-and-a-policy/",
+      "title": "Balance of power: a distribution and a policy",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/polarity-one-two-or-many-centres-of-power/",
+      "title": "Polarity: one, two or many centres of power",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/balancing-threats-not-just-capabilities/",
+      "title": "Balancing threats, not just capabilities",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bandwagoning-neutrality-and-hedging/",
+      "title": "Bandwagoning, neutrality and hedging",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-security-dilemma/",
+      "title": "The security dilemma",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-alliance-dilemma-abandonment-and-entrapment/",
+      "title": "The alliance dilemma: abandonment and entrapment",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/burden-sharing-and-the-problem-of-common-goods/",
+      "title": "Burden-sharing and the problem of common goods",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/collective-defence-and-collective-security/",
+      "title": "Collective defence and collective security",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-congress-of-vienna-a-defeated-power-returns/",
+      "title": "The Congress of Vienna: a defeated power returns",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-concert-and-the-limits-of-great-power-management/",
+      "title": "The Concert and the limits of great-power management",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/alliances-before-1914-commitments-without-inevitability/",
+      "title": "Alliances before 1914: commitments without inevitability",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-league-of-nations-a-promise-and-a-capacity-problem/",
+      "title": "The League of Nations: a promise and a capacity problem",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-united-nations-law-authority-and-political-disagreement/",
+      "title": "The United Nations: law, authority and political disagreement",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/nato-the-warsaw-pact-and-institutional-asymmetry/",
+      "title": "NATO, the Warsaw Pact and institutional asymmetry",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bandung-and-the-refusal-to-be-treated-as-a-chess-piece/",
+      "title": "Bandung and the refusal to be treated as a chess piece",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-cuban-missile-crisis-the-value-and-cost-of-communication/",
+      "title": "The Cuban Missile Crisis: the value and cost of communication",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/rapprochement-across-ideological-divides/",
+      "title": "Rapprochement across ideological divides",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/camp-david-a-durable-agreement-with-unresolved-questions/",
+      "title": "Camp David: a durable agreement with unresolved questions",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/helsinki-managing-rivalry-without-ending-it/",
+      "title": "Helsinki: managing rivalry without ending it",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/regional-institutions-beyond-the-atlantic/",
+      "title": "Regional institutions beyond the Atlantic",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bulgaria-diplomacy-as-a-smaller-states-institution/",
+      "title": "Bulgaria: diplomacy as a smaller state's institution",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/neutrality-and-the-limits-of-independence/",
+      "title": "Neutrality and the limits of independence",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/economic-diplomacy-and-interdependence/",
+      "title": "Economic diplomacy and interdependence",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/a-worked-case-a-river-basin-conference/",
+      "title": "A worked case: a river basin conference",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/how-to-read-diplomatic-news/",
+      "title": "How to read diplomatic news",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/synthesis-security-is-a-relationship-not-an-inventory/",
+      "title": "Synthesis: security is a relationship, not an inventory",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/summary/",
+      "title": "Key concepts to retain",
+      "kind": "summary",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/connections-across-knowledge-kingdom/",
+      "title": "Connections across Knowledge Kingdom",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/practice/",
+      "title": "Exercises",
+      "kind": "practice",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 45
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/",
+      "title": "International Law and Armed Conflict",
+      "kind": "chapter",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/is-international-law-really-law/",
+      "title": "Is international law really law?",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/where-international-rules-come-from/",
+      "title": "Where international rules come from",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/sovereignty-consent-and-the-limits-of-independence/",
+      "title": "Sovereignty, consent and the limits of independence",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/two-legal-questions-which-must-not-be-confused/",
+      "title": "Two legal questions which must not be confused",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/the-long-history-of-restraint-in-war/",
+      "title": "The long history of restraint in war",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/solferino-the-red-cross-and-the-geneva-movement/",
+      "title": "Solferino, the Red Cross and the Geneva movement",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/from-the-hague-to-the-geneva-conventions/",
+      "title": "From the Hague to the Geneva Conventions",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/how-the-prohibition-on-interstate-force-developed/",
+      "title": "How the prohibition on interstate force developed",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/self-defence-and-the-difference-between-fear-and-entitlement/",
+      "title": "Self-defence and the difference between fear and entitlement",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/collective-security-and-the-united-nations/",
+      "title": "Collective security and the United Nations",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/humanitarian-intervention-and-responsibility-to-protect/",
+      "title": "Humanitarian intervention and responsibility to protect",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/aggression-a-legal-concept-and-a-political-accusation/",
+      "title": "Aggression: a legal concept and a political accusation",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/when-humanitarian-law-begins-to-apply/",
+      "title": "When humanitarian law begins to apply",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/common-article-3-and-the-minimum-floor-of-humanity/",
+      "title": "Common Article 3 and the minimum floor of humanity",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/distinction-people-are-not-interchangeable/",
+      "title": "Distinction: people are not interchangeable with their governments",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/proportionality-and-precautions-why-numbers-alone-cannot/",
+      "title": "Proportionality and precautions: why numbers alone cannot decide",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/necessity-humanity-and-prohibited-treatment/",
+      "title": "Necessity, humanity and prohibited treatment",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/the-wounded-medical-services-and-humanitarian-emblems/",
+      "title": "The wounded, medical services and humanitarian emblems",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/captivity-and-the-legal-status-of-prisoners/",
+      "title": "Captivity and the legal status of prisoners",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/occupation-authority-without-sovereignty/",
+      "title": "Occupation: authority without sovereignty",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/siege-scarcity-and-the-protection-of-civilian-survival/",
+      "title": "Siege, scarcity and the protection of civilian survival",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/humanitarian-relief-and-the-problem-of-access/",
+      "title": "Humanitarian relief and the problem of access",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/displacement-refugees-and-the-right-to-seek-protection/",
+      "title": "Displacement, refugees and the right to seek protection",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/children-families-and-people-who-disappear/",
+      "title": "Children, families and people who disappear",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/culture-memory-and-the-natural-environment/",
+      "title": "Culture, memory and the natural environment",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/human-rights-law-does-not-simply-switch-off/",
+      "title": "Human rights law does not simply switch off",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/state-responsibility-who-owes-what-to-whom/",
+      "title": "State responsibility: who owes what to whom?",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/individual-criminal-responsibility-from-nuremberg-onward/",
+      "title": "Individual criminal responsibility: from Nuremberg onward",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/war-crimes-crimes-against-humanity-and-genocide/",
+      "title": "War crimes, crimes against humanity and genocide",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/the-international-criminal-court-and-the-limits/",
+      "title": "The International Criminal Court and the limits of jurisdiction",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/the-international-court-of-justice-is-not-the-icc/",
+      "title": "The International Court of Justice is not the ICC",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/proving-a-crime-evidence-intent-and-responsibility/",
+      "title": "Proving a crime: evidence, intent and responsibility",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/case-study-nicaragua-and-the-reach-of-customary-law/",
+      "title": "Case study: Nicaragua and the reach of customary law",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/case-study-rwanda-bosnia-and-the-different-meanings/",
+      "title": "Case study: Rwanda, Bosnia and the different meanings of responsibility",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/case-study-congo-uganda-and-the-long-journey-to-reparation/",
+      "title": "Case study: Congo, Uganda and the long journey to reparation",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/reading-judicial-documents-palestine-israel-and-procedural/",
+      "title": "Reading judicial documents: Palestine, Israel and procedural distinctions",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/new-technology-arms-regulation-and-old-principles/",
+      "title": "New technology, arms regulation and old principles",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/bulgaria-and-the-everyday-implementation-of-international/",
+      "title": "Bulgaria and the everyday implementation of international law",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/a-fictional-case-the-river-valley-and-four-legal-questions/",
+      "title": "A fictional case: the river valley and four legal questions",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/why-law-is-obeyed-why-it-is-broken-and-why-enforcement/",
+      "title": "Why law is obeyed, why it is broken and why enforcement matters",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/summary/",
+      "title": "Key concepts to retain",
+      "kind": "summary",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/connections-across-knowledge-kingdom/",
+      "title": "Connections across Knowledge Kingdom",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/practice/",
+      "title": "Exercises",
+      "kind": "practice",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 46
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/",
+      "title": "Deterrence and Nuclear Strategy",
+      "kind": "chapter",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/what-deterrence-means-before-we-mention-nuclear-weapons/",
+      "title": "What deterrence means before we mention nuclear weapons",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/deterrence-compellence-and-the-limits-of-coercion/",
+      "title": "Deterrence, compellence and the limits of coercion",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/why-the-nuclear-age-changed-the-political-question/",
+      "title": "Why the nuclear age changed the political question",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/1945-scientific-achievement-and-human-catastrophe/",
+      "title": "1945: scientific achievement and human catastrophe",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-early-monopoly-and-the-end-of-atomic-exclusivity/",
+      "title": "The early monopoly and the end of atomic exclusivity",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-cold-war-as-an-international-system/",
+      "title": "The Cold War as an international system",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/mutual-vulnerability-and-mutually-assured-destruction/",
+      "title": "Mutual vulnerability and mutually assured destruction",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-difference-between-rationality-and-omniscience/",
+      "title": "The difference between rationality and omniscience",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-security-dilemma-returns/",
+      "title": "The security dilemma returns",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/strategic-stability-a-concept-with-several-meanings/",
+      "title": "Strategic stability: a concept with several meanings",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-stability-instability-paradox/",
+      "title": "The stability–instability paradox",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/extended-deterrence-and-the-nuclear-umbrella/",
+      "title": "Extended deterrence and the nuclear umbrella",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/nato-collective-defence-and-an-institutional-perspective/",
+      "title": "NATO: collective defence and an institutional perspective",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-cuban-missile-crisis-the-value-of-diplomacy/",
+      "title": "The Cuban Missile Crisis: the value of diplomacy",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/near-misses-and-organizational-fallibility/",
+      "title": "Near misses and organizational fallibility",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/escalation-and-the-difference-between-intention-and-outcome/",
+      "title": "Escalation and the difference between intention and outcome",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/communication-perception-and-the-role-of-institutions/",
+      "title": "Communication, perception and the role of institutions",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-nuclear-taboo-and-the-evidence-of-non-use/",
+      "title": "The nuclear taboo and the evidence of non-use",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/what-would-count-as-evidence-that-deterrence-works/",
+      "title": "What would count as evidence that deterrence works?",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-geography-of-nuclear-security-is-not-a-map-of-arsenals/",
+      "title": "The geography of nuclear security is not a map of arsenals",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-proliferation-more-than-the-spread-of-technology/",
+      "title": "Nuclear proliferation: more than the spread of technology",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-npt-an-international-bargain-with-three-pillars/",
+      "title": "The NPT: an international bargain with three pillars",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/peaceful-nuclear-energy-and-international-safeguards/",
+      "title": "Peaceful nuclear energy and international safeguards",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/south-africa-and-the-possibility-of-reversal/",
+      "title": "South Africa and the possibility of reversal",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/ukraine-kazakhstan-and-belarus-after-the-soviet-collapse/",
+      "title": "Ukraine, Kazakhstan and Belarus after the Soviet collapse",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/south-asia-and-the-challenge-of-regional-comparison/",
+      "title": "South Asia and the challenge of regional comparison",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-korean-peninsula-and-the-persistence-of-insecurity/",
+      "title": "The Korean Peninsula and the persistence of insecurity",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-ambiguity-and-the-difficulty-of-counting-possession/",
+      "title": "Nuclear ambiguity and the difficulty of counting possession",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/reading-the-global-inventory-without-false-precision/",
+      "title": "Reading the global inventory without false precision",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/arms-control-and-disarmament-related-but-distinct/",
+      "title": "Arms control and disarmament: related but distinct",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/from-the-test-ban-to-superpower-agreements/",
+      "title": "From the test ban to superpower agreements",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/new-start-and-the-consequences-of-lost-transparency/",
+      "title": "New START and the consequences of lost transparency",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-comprehensive-nuclear-test-ban-treaty/",
+      "title": "The Comprehensive Nuclear-Test-Ban Treaty",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/regions-that-have-chosen-to-remain-nuclear-weapon-free/",
+      "title": "Regions that have chosen to remain nuclear-weapon-free",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-people-who-lived-beside-nuclear-tests/",
+      "title": "The people who lived beside nuclear tests",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/humanitarian-consequences-beyond-the-moment-of-destruction/",
+      "title": "Humanitarian consequences: beyond the moment of destruction",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/climate-agriculture-and-the-uncertainty-of-global/",
+      "title": "Climate, agriculture and the uncertainty of global consequences",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-weapons-and-international-law-the-1996-advisory/",
+      "title": "Nuclear weapons and international law: the 1996 advisory opinion",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-treaty-on-the-prohibition-of-nuclear-weapons/",
+      "title": "The Treaty on the Prohibition of Nuclear Weapons",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-risk-new-technology-and-the-human-decision/",
+      "title": "Nuclear risk, new technology and the human decision",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/bulgaria-nuclear-energy-alliance-membership/",
+      "title": "Bulgaria: nuclear energy, alliance membership and international obligations",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/a-numerical-exercise-in-cumulative-uncertainty/",
+      "title": "A numerical exercise in cumulative uncertainty",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/a-fictional-summit-separating-shared-interests/",
+      "title": "A fictional summit: separating shared interests from unresolved disputes",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-ethical-question-that-remains-after-the-strategic/",
+      "title": "The ethical question that remains after the strategic argument",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/summary/",
+      "title": "Key concepts to retain",
+      "kind": "summary",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/connections-across-knowledge-kingdom/",
+      "title": "Connections across Knowledge Kingdom",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/practice/",
+      "title": "Exercises",
+      "kind": "practice",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 47
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/",
+      "title": "Civil Wars and Fragile States",
+      "kind": "chapter",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/civil-war-is-a-category-not-an-explanation/",
+      "title": "Civil war is a category, not an explanation",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-law-asks-a-different-question/",
+      "title": "The law asks a different question",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/what-makes-a-state-a-state/",
+      "title": "What makes a state a state?",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/capacity-legitimacy-and-authority-are-not-interchangeable/",
+      "title": "Capacity, legitimacy and authority are not interchangeable",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/fragility-is-not-a-permanent-national-identity/",
+      "title": "Fragility is not a permanent national identity",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/how-history-creates-unequal-institutions/",
+      "title": "How history creates unequal institutions",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-grievance-explanation-what-people-believe-they-have-been/",
+      "title": "The grievance explanation: what people believe they have been denied",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-economic-explanation-incentives-and-resources/",
+      "title": "The economic explanation: incentives and resources",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/opportunity-and-the-limits-of-statistical-prediction/",
+      "title": "Opportunity and the limits of statistical prediction",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/ethnicity-nationalism-and-the-politics-of-exclusion/",
+      "title": "Ethnicity, nationalism and the politics of exclusion",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/inequality-between-individuals-and-between-groups/",
+      "title": "Inequality between individuals and between groups",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/political-transitions-and-the-dangers-of-uncertainty/",
+      "title": "Political transitions and the dangers of uncertainty",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/repression-protest-and-the-difference-between-sequence/",
+      "title": "Repression, protest and the difference between sequence and cause",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/resources-dependence-and-the-war-economy/",
+      "title": "Resources, dependence and the war economy",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/outside-powers-and-the-internationalization-of-civil-wars/",
+      "title": "Outside powers and the internationalization of civil wars",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/borders-displacement-and-regional-spillovers/",
+      "title": "Borders, displacement and regional spillovers",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-everyday-economics-of-institutional-collapse/",
+      "title": "The everyday economics of institutional collapse",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-feedback-loop-between-fragility-and-violence/",
+      "title": "The feedback loop between fragility and violence",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-english-civil-wars-power-before-the-modern-nation-state/",
+      "title": "The English Civil Wars: power before the modern nation-state",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-united-states-slavery-secession-and-the-constitutional/",
+      "title": "The United States: slavery, secession and the constitutional order",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-spanish-civil-war-a-national-conflict-with-international/",
+      "title": "The Spanish Civil War: a national conflict with international dimensions",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/china-revolution-civil-war-and-competing-state-building/",
+      "title": "China: revolution, civil war and competing state-building projects",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/mozambique-the-long-negotiation-after-independence/",
+      "title": "Mozambique: the long negotiation after independence",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/guatemala-exclusion-and-the-meaning-of-historical-truth/",
+      "title": "Guatemala: exclusion and the meaning of historical truth",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/sierra-leone-resources-are-not-destiny/",
+      "title": "Sierra Leone: resources are not destiny",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/somalia-public-authority-does-not-simply-vanish/",
+      "title": "Somalia: public authority does not simply vanish",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/bosnia-and-herzegovina-ending-violence-and-designing-a-state/",
+      "title": "Bosnia and Herzegovina: ending violence and designing a state",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/nepal-transforming-a-conflict-into-constitutional-politics/",
+      "title": "Nepal: transforming a conflict into constitutional politics",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/colombia-a-peace-agreement-is-not-the-end-of-all-insecurity/",
+      "title": "Colombia: a peace agreement is not the end of all insecurity",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/sudan-and-south-sudan-borders-do-not-solve-every-political/",
+      "title": "Sudan and South Sudan: borders do not solve every political dispute",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/syria-and-myanmar-why-a-countrys-transition-cannot/",
+      "title": "Syria and Myanmar: why a country's transition cannot be summarized by one headline",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/what-is-lost-when-civilians-flee/",
+      "title": "What is lost when civilians flee?",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/food-health-education-and-the-long-shadow-of-war/",
+      "title": "Food, health, education and the long shadow of war",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/gender-children-and-participation-in-recovery/",
+      "title": "Gender, children and participation in recovery",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/climate-environmental-stress-and-the-temptation-of-one-cause/",
+      "title": "Climate, environmental stress and the temptation of one-cause stories",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/why-a-ceasefire-is-not-the-same-as-a-peace-settlement/",
+      "title": "Why a ceasefire is not the same as a peace settlement",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-credible-commitment-problem/",
+      "title": "The credible commitment problem",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/power-sharing-federalism-and-equal-citizenship/",
+      "title": "Power-sharing, federalism and equal citizenship",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/international-peacekeeping-and-its-limits/",
+      "title": "International peacekeeping and its limits",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/disarmament-demobilization-and-civilian-reintegration/",
+      "title": "Disarmament, demobilization and civilian reintegration",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/transitional-justice-remembering-without-reproducing/",
+      "title": "Transitional justice: remembering without reproducing collective blame",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/liberia-what-a-completed-international-mission-does-and-does/",
+      "title": "Liberia: what a completed international mission does and does not mean",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/bulgaria-and-the-western-balkans-the-institutional-value/",
+      "title": "Bulgaria and the Western Balkans: the institutional value of peaceful disagreement",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/a-worked-example-what-an-average-hides/",
+      "title": "A worked example: what an average hides",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/a-fictional-peace-commission-turning-promises-into-evidence/",
+      "title": "A fictional peace commission: turning promises into evidence",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/what-peace-means-after-the-last-battle/",
+      "title": "What peace means after the last battle",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/summary/",
+      "title": "Key concepts to retain",
+      "kind": "summary",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/connections-across-knowledge-kingdom/",
+      "title": "Connections across Knowledge Kingdom",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/practice/",
+      "title": "Exercises",
+      "kind": "practice",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/flashcards/",
+      "title": "Flashcard prompts",
+      "kind": "flashcards",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/sources/",
+      "title": "Sources and further reading",
+      "kind": "sources",
+      "chapter": 48
     }
   ]
 }

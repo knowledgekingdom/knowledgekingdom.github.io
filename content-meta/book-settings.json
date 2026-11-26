@@ -1,6 +1,6 @@
 {
   "_help": "Hand-edited book settings. edition/editionDate override the manuscript's 'WORKING EDITION' line (chapter files don't have one); leave edition at 0 to use the manuscript's. parts: which chapters belong to which Part, used for chapters whose file has no 'PART …' line. chapters is [first, last].",
-  "edition": 41,
+  "edition": 42,
   "editionDate": "",
   "parts": [
     {
@@ -25,6 +25,14 @@
       "chapters": [
         24,
         41
+      ]
+    },
+    {
+      "number": 4,
+      "title": "War, Peace, and Geopolitics",
+      "chapters": [
+        42,
+        48
       ]
     }
   ],
@@ -59,6 +67,16 @@
     "035": "africa",
     "036": "mediterranean-europe",
     "037": "mediterranean-europe",
-    "038": "global"
+    "038": "global",
+    "039": "global",
+    "040": "global",
+    "041": "global",
+    "042": "global",
+    "043": "global",
+    "044": "global",
+    "045": "global",
+    "046": "global",
+    "047": "global",
+    "048": "global"
   }
 }

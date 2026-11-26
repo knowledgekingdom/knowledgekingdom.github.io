@@ -12,7 +12,7 @@ standfirstHtml: "Как три огромни евразийски импери�
 openingTitle: "Три букви от свързан свят"
 description: "Как три огромни евразийски империи организирали властта в различни общества, черпили сила от земеделието и търговията, покровителствали забележителни..."
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 39
 openingReadingTime: 2

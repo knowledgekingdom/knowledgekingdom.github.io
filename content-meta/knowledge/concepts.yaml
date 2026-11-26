@@ -66,6 +66,7 @@
   definition: "What would have happened in a comparable world without the proposed cause."
   definitionBg: "Какво би се случило в сравним свят без предполагаемата причина."
   defined: 001/from-a-pattern-to-a-cause
+  sections: [ 047/ukraine-kazakhstan-and-belarus-after-the-soviet-collapse ]
   related: [ reverse-causation ]
   source: "flashcard 001 #11"
   status: approved
@@ -75,6 +76,7 @@
   definition: "The supposed effect may influence the supposed cause."
   definitionBg: "Предполагаемото следствие може да влияе на предполагаемата причина."
   defined: 001/from-a-pattern-to-a-cause
+  sections: [ 048/opportunity-and-the-limits-of-statistical-prediction ]
   related: [ counterfactual ]
   source: "flashcard 001 #12"
   status: approved
@@ -407,7 +409,7 @@
   definition: "The observed group systematically differs from the target group."
   definitionBg: "Наблюдаваната група систематично се различава от целевата."
   defined: 003/how-statistics-become-misleading-without-any-false
-  sections: [ 006/sampling-who-gets-counted-and-who-never-had-a-chance ]
+  sections: [ 006/sampling-who-gets-counted-and-who-never-had-a-chance, 047/connections-across-knowledge-kingdom ]
   source: "flashcard 003 #22"
   status: approved
 - id: periodization
@@ -569,6 +571,7 @@
   definition: "A narrow route on which major shipping connections concentrate."
   definitionBg: "Тесен морски път, по който се съсредоточават големи корабни връзки."
   defined: 005/oceans-the-great-highways-and-climate-engines
+  sections: [ 043/straits-canals-and-maritime-chokepoints, 043/technology-changes-the-meaning-of-terrain, 043/turkey-and-the-straits-geography-under-law-and-diplomacy ]
   related: [ coastal-upwelling, population-density ]
   source: "flashcard 005 #19"
   status: approved
@@ -587,6 +590,7 @@
   definition: "Benefit from firms and workers locating near one another."
   definitionBg: "Изгода от това фирми и работници да се разполагат близо едни до други."
   defined: 005/people-cities-and-the-uneven-map-of-opportunity
+  sections: [ 043/population-geography-and-the-problem-of-concentrated-assets ]
   related: [ drainage-divide, population-density ]
   source: "flashcard 005 #21"
   status: approved
@@ -757,6 +761,7 @@
   definition: "Quantity accumulated at a particular time."
   definitionBg: "Количество, натрупано към даден момент."
   defined: 007/from-event-to-pattern-to-structure
+  sections: [ 044/connections-across-knowledge-kingdom, 044/fuel-energy-and-industrial-consumption, 044/the-stock-and-the-flow ]
   related: [ system, flow ]
   source: "flashcard 007 #5"
   status: approved
@@ -767,6 +772,7 @@
   definition: "Rate that adds to or removes from a stock."
   definitionBg: "Темп, който добавя към запаса или отнема от него."
   defined: 007/what-is-a-system-and-what-is-not
+  sections: [ 044/connections-across-knowledge-kingdom, 044/the-stock-and-the-flow, 044/what-logistics-means ]
   related: [ system, system-boundary ]
   source: "flashcard 007 #6"
   status: approved
@@ -851,6 +857,7 @@
   definition: "The limiting stage or connection constraining throughput."
   definitionBg: "Етапът или връзката, които ограничават пропускателната способност."
   defined: 007/networks-bottlenecks-and-the-weakest-link
+  sections: [ 043/bulgaria-a-crossroads-is-not-a-destiny, 043/energy-geography-fixed-deposits-and-moving-systems, 043/mapping-the-supply-chain-instead-of-the-mine ]
   related: [ network-redundancy ]
   source: "flashcard 007 #19"
   status: approved
@@ -860,6 +867,7 @@
   definition: "Alternative connections that can maintain service after failure."
   definitionBg: "Алтернативни връзки, които запазват работата след отпадане на някоя от тях."
   defined: 007/networks-bottlenecks-and-the-weakest-link
+  sections: [ 043/strategic-vulnerability-measuring-dependence, 043/the-geography-of-information-and-undersea-cables, 043/worked-case-a-disputed-mountain-transit-corridor ]
   related: [ bottleneck ]
   source: "flashcard 007 #20"
   status: approved
@@ -878,6 +886,7 @@
   definition: "Cost or benefit imposed on others outside the decision price."
   definitionBg: "Разход или полза за други, която не влиза в цената на решението."
   defined: 007/economic-cycles-stocks-expectations-and-delayed-adjustment
+  sections: [ 047/the-geography-of-nuclear-security-is-not-a-map-of-arsenals ]
   related: [ system, stock, flow, feedback-delay ]
   source: "flashcard 007 #22"
   status: approved
@@ -887,6 +896,7 @@
   definition: "Defensive measures can appear threatening and invite mutual escalation."
   definitionBg: "Отбранителните мерки могат да изглеждат заплашителни и да водят до взаимна ескалация."
   defined: 007/politics-and-the-security-dilemma
+  sections: [ 042/the-security-dilemma-defence-looks-like-danger, 045/the-security-dilemma, 047/the-security-dilemma-returns ]
   related: [ system ]
   source: "flashcard 007 #23"
   status: approved
@@ -1210,3 +1220,833 @@
   defined: 011/ur-iii-a-state-that-counted-almost-everything
   source: "flashcard 011 #24"
   status: approved
+
+# ---- Chapters 042-048 (proposed, Edition 42) ----
+- id: bargaining-range
+  term: "Bargaining range"
+  bg: "Пространство за договаряне"
+  definition: "Deals each side prefers to its expected payoff from war."
+  definitionBg: "Споразумения, които всяка страна предпочита пред очакваната си печалба от война."
+  defined: 042/a-bargaining-range-worked-through
+  sections: [ 045/bargaining-ranges-and-the-cost-of-disagreement, 045/summary ]
+  related: [ commitment-problem ]
+  source: "flashcard 042 #1"
+  status: proposed
+- id: private-information
+  term: "Private information"
+  bg: "Скрита информация"
+  definition: "Relevant facts one party knows but the other cannot verify."
+  definitionBg: "Значими факти, които едната страна знае, а другата не може да провери."
+  defined: 042/private-information-and-optimistic-expectations
+  related: [ costly-signal ]
+  source: "flashcard 042 #2"
+  status: proposed
+- id: costly-signal
+  term: "Costly signal"
+  bg: "Скъпоструващ сигнал"
+  definition: "A hard-to-fake action meant to demonstrate commitment."
+  definitionBg: "Трудно за имитиране действие, което има за цел да покаже решимост."
+  defined: 042/threats-bluffs-and-costly-signals
+  related: [ private-information ]
+  source: "flashcard 042 #3"
+  status: proposed
+- id: commitment-problem
+  term: "Commitment problem"
+  bg: "Проблем с ангажимента"
+  definition: "Inability to credibly promise future compliance."
+  definitionBg: "Невъзможност да се обещае достоверно, че обещанието ще бъде спазено и в бъдеще."
+  defined: 042/commitment-problems-the-danger-of-tomorrow
+  sections: [ 042/a-worked-exercise-the-dam-on-a-contested-river, 042/synthesis-turning-a-war-story-into-a-causal-explanation, 048/the-credible-commitment-problem ]
+  related: [ bargaining-range ]
+  source: "flashcard 042 #4"
+  status: proposed
+- id: preventive-war
+  term: "Preventive war"
+  bg: "Превантивна война"
+  definition: "Fighting now to avoid a worse future balance of power."
+  definitionBg: "Война сега, за да се избегне по-неблагоприятен бъдещ баланс на силите."
+  defined: 042/preventive-war-versus-preemptive-attack
+  related: [ preemptive-strike ]
+  source: "flashcard 042 #5"
+  status: proposed
+- id: preemptive-strike
+  term: "Preemptive strike"
+  bg: "Изпреварващ удар"
+  definition: "Attack based on a perceived imminent enemy assault."
+  definitionBg: "Нападение, основано на убеждението, че противникът се кани да нападне незабавно."
+  defined: 042/preventive-war-versus-preemptive-attack
+  related: [ preventive-war ]
+  source: "flashcard 042 #6"
+  status: proposed
+- id: entrapment
+  term: "Entrapment"
+  bg: "Въвличане"
+  definition: "Risk of being drawn into an ally's reckless conflict."
+  definitionBg: "Рискът да бъдеш въвлечен в безразсъдния конфликт на съюзник."
+  defined: 042/alliances-reassurance-entrapment-and-abandonment
+  sections: [ 045/the-alliance-dilemma-abandonment-and-entrapment ]
+  related: [ abandonment ]
+  source: "flashcard 042 #8"
+  status: proposed
+- id: abandonment
+  term: "Abandonment"
+  bg: "Изоставяне"
+  definition: "Fear an ally will fail to provide promised support."
+  definitionBg: "Страхът, че съюзникът няма да окаже обещаната подкрепа."
+  defined: 042/alliances-reassurance-entrapment-and-abandonment
+  sections: [ 042/case-study-europes-july-crisis-of-1914, 045/bandwagoning-neutrality-and-hedging, 045/the-alliance-dilemma-abandonment-and-entrapment ]
+  related: [ entrapment ]
+  source: "flashcard 042 #9"
+  status: proposed
+- id: power-transition
+  term: "Power transition"
+  bg: "Преход на силата"
+  definition: "A changing distribution of power among states."
+  definitionBg: "Промяна в разпределението на силата между държавите."
+  defined: 042/balances-of-power-and-power-transitions
+  source: "flashcard 042 #10"
+  status: proposed
+- id: offence-defence-balance
+  term: "Offence-defence balance"
+  bg: "Баланс между нападение и отбрана"
+  definition: "Relative ease of seizing territory versus defending it."
+  definitionBg: "Относителната лекота да се завземе територия в сравнение с това да се отбранява."
+  defined: 042/offence-defence-and-the-power-of-geography
+  source: "flashcard 042 #11"
+  status: proposed
+- id: diversionary-war
+  term: "Diversionary war"
+  bg: "Война за отвличане на вниманието"
+  definition: "Leaders may use external conflict to shift domestic attention."
+  definitionBg: "Хипотезата, че лидерите могат да използват външен конфликт, за да отклонят вниманието от вътрешните проблеми."
+  defined: 042/diversionary-war-and-the-risk-of-convenient-stories
+  source: "flashcard 042 #12"
+  status: proposed
+- id: democratic-peace
+  term: "Democratic peace"
+  bg: "Демократичен мир"
+  definition: "Established democracies rarely fight one another."
+  definitionBg: "Утвърдените демокрации рядко воюват помежду си."
+  defined: 042/democracy-authoritarianism-and-conflict
+  source: "flashcard 042 #13"
+  status: proposed
+- id: indivisibility-problem
+  term: "Indivisibility problem"
+  bg: "Проблем на неделимостта"
+  definition: "Disputed claims perceived as impossible to split acceptably."
+  definitionBg: "Спорни претенции, които се възприемат като невъзможни за приемливо разделяне."
+  defined: 042/indivisible-issues-and-the-meaning-of-territory
+  source: "flashcard 042 #14"
+  status: proposed
+- id: reassurance
+  term: "Reassurance"
+  bg: "Успокояване"
+  definition: "Showing protective measures are not preparation for conquest."
+  definitionBg: "Показване, че защитните мерки не са подготовка за завоевание."
+  defined: 042/deterrence-reassurance-and-restraint
+  sections: [ 042/alliances-reassurance-entrapment-and-abandonment, 047/what-deterrence-means-before-we-mention-nuclear-weapons ]
+  related: [ deterrence ]
+  link: chapter
+  source: "flashcard 042 #19"
+  status: proposed
+- id: effective-distance
+  term: "Effective distance"
+  bg: "Ефективно разстояние"
+  definition: "Time, cost and reliability of connecting two places."
+  definitionBg: "Времето, цената и надеждността на връзката между две места."
+  defined: 043/distance-is-a-cost-not-just-a-measurement
+  sections: [ 044/transport-geography-and-the-meaning-of-distance ]
+  source: "flashcard 043 #1"
+  status: proposed
+- id: strategic-depth
+  term: "Strategic depth"
+  bg: "Стратегическа дълбочина"
+  definition: "Capacity and space to absorb or resist attack."
+  definitionBg: "Капацитетът и пространството да се поеме или отблъсне нападение."
+  defined: 043/plains-and-corridors-the-ease-and-danger-of-movement
+  sections: [ 043/russia-and-the-problem-of-distance-and-access ]
+  source: "flashcard 043 #3"
+  status: proposed
+- id: transport-corridor
+  term: "Corridor"
+  bg: "Коридор"
+  definition: "A route concentrating travel between places."
+  definitionBg: "Път, по който се съсредоточава движението между места."
+  defined: 043/plains-and-corridors-the-ease-and-danger-of-movement
+  sections: [ 043/bulgarias-routes-danube-black-sea-and-balkan-passes, 043/landlocked-states-and-the-politics-of-transit, 043/worked-case-a-disputed-mountain-transit-corridor ]
+  link: chapter
+  source: "flashcard 043 #4"
+  status: proposed
+- id: resource-curse
+  term: "Resource curse"
+  bg: "Ресурсно проклятие"
+  definition: "Resource wealth may promote volatility or elite capture."
+  definitionBg: "Богатството от природни ресурси може да подхранва нестабилност или завладяване от елитите."
+  defined: 043/resources-wealth-dependency-and-the-resource-trap
+  sections: [ 048/resources-dependence-and-the-war-economy ]
+  source: "flashcard 043 #14"
+  status: proposed
+- id: territorial-sea
+  term: "Territorial sea"
+  bg: "Териториално море"
+  definition: "Coastal waters under a state's sovereignty, up to 12 nautical miles from the baseline (UNCLOS)."
+  definitionBg: "Крайбрежни води под суверенитета на държавата, до 12 морски мили от изходната линия (UNCLOS)."
+  defined: 043/maritime-law-territorial-waters-and-economic-zones
+  related: [ exclusive-economic-zone ]
+  source: "flashcard 043 #17, reworded"
+  status: proposed
+- id: exclusive-economic-zone
+  term: "Exclusive economic zone"
+  bg: "Изключителна икономическа зона"
+  definition: "Waters up to 200 nautical miles out where a coastal state has rights over resources (UNCLOS)."
+  definitionBg: "Води до 200 морски мили навътре в морето, в които крайбрежната държава има права върху ресурсите (UNCLOS)."
+  defined: 043/maritime-law-territorial-waters-and-economic-zones
+  related: [ territorial-sea ]
+  source: "flashcard 043 #18, reworded"
+  status: proposed
+- id: critical-geopolitics
+  term: "Critical geopolitics"
+  bg: "Критична геополитика"
+  definition: "How power and narratives shape maps and claims."
+  definitionBg: "Как властта и разказите оформят картите и претенциите."
+  defined: 043/critical-geopolitics-whose-map-is-being-drawn
+  source: "flashcard 043 #23"
+  status: proposed
+- id: potential-power
+  term: "Potential power"
+  bg: "Потенциална мощ"
+  definition: "Underlying population, resources, wealth and skills."
+  definitionBg: "Населението, ресурсите, богатството и уменията, на които се крепи силата."
+  defined: 044/resources-capability-and-political-power
+  related: [ military-capability ]
+  source: "flashcard 044 #1"
+  status: proposed
+- id: military-capability
+  term: "Military capability"
+  bg: "Военна способност"
+  definition: "Ability to perform a defined military task."
+  definitionBg: "Способността да се изпълни определена военна задача."
+  defined: 044/summary
+  sections: [ 044/joint-institutions-and-combined-arms, 044/resources-capability-and-political-power, 044/synthesis-why-strength-does-not-guarantee-success ]
+  related: [ potential-power ]
+  source: "flashcard 044 #2"
+  status: proposed
+- id: military-strategy
+  term: "Strategy"
+  bg: "Стратегия"
+  definition: "Relationship between political aims and means."
+  definitionBg: "Връзката между политическите цели и средствата за постигането им."
+  defined: 044/the-strategic-operational-and-tactical-levels
+  related: [ operational-level ]
+  link: chapter
+  source: "flashcard 044 #4"
+  status: proposed
+- id: operational-level
+  term: "Operational level"
+  bg: "Оперативно равнище"
+  definition: "Organisation of activities across campaigns or theatres."
+  definitionBg: "Организирането на действия в цели кампании или театри на военни действия."
+  defined: 044/the-strategic-operational-and-tactical-levels
+  related: [ military-strategy ]
+  source: "flashcard 044 #5"
+  status: proposed
+- id: civilian-control
+  term: "Civilian control"
+  bg: "Граждански контрол"
+  definition: "Military power accountable to lawful civilian authority."
+  definitionBg: "Военната сила се отчита пред законната гражданска власт."
+  defined: 044/summary
+  sections: [ 044/civilian-control-and-the-purpose-of-military-institutions ]
+  source: "flashcard 044 #8"
+  status: proposed
+- id: conscription
+  term: "Conscription"
+  bg: "Наборна военна служба"
+  definition: "Compulsory military service under law."
+  definitionBg: "Задължителна военна служба по закон."
+  defined: 044/conscription-volunteers-and-professional-forces
+  related: [ mobilisation ]
+  source: "flashcard 044 #9"
+  status: proposed
+- id: mobilisation
+  term: "Mobilisation"
+  bg: "Мобилизация"
+  definition: "Activation of personnel, institutions and resources."
+  definitionBg: "Привеждане в действие на хора, институции и ресурси."
+  defined: 044/active-service-reserves-and-mobilisation
+  sections: [ 044/limited-war-and-the-difficulty-of-political-victory, 044/morale-cohesion-and-legitimacy ]
+  related: [ conscription ]
+  link: chapter
+  source: "flashcard 044 #11"
+  status: proposed
+- id: logistics
+  term: "Logistics"
+  bg: "Логистика"
+  definition: "Movement and provision of required resources and services."
+  definitionBg: "Придвижването и осигуряването на нужните ресурси и услуги."
+  defined: 044/summary
+  sections: [ 044/synthesis-why-strength-does-not-guarantee-success, 044/the-berlin-airlift-logistics-as-political-communication, 044/the-second-world-war-as-a-global-institutional-struggle ]
+  related: [ sustainment ]
+  link: chapter
+  source: "flashcard 044 #14"
+  status: proposed
+- id: sustainment
+  term: "Sustainment"
+  bg: "Издръжка на силите"
+  definition: "Maintaining an organisation and its services over time."
+  definitionBg: "Поддържането на една организация и нейните служби във времето."
+  defined: 044/summary
+  sections: [ 044/maintenance-and-life-cycle-costs, 044/what-logistics-means ]
+  related: [ logistics ]
+  source: "flashcard 044 #15"
+  status: proposed
+- id: life-cycle-cost
+  term: "Life-cycle cost"
+  bg: "Разходи за целия жизнен цикъл"
+  definition: "Total costs over an asset's defined service life."
+  definitionBg: "Всички разходи за едно средство през определения му срок на служба."
+  defined: 044/maintenance-and-life-cycle-costs
+  source: "flashcard 044 #20"
+  status: proposed
+- id: military-readiness
+  term: "Readiness"
+  bg: "Готовност"
+  definition: "Ability to meet a specified task standard when required."
+  definitionBg: "Способността да се изпълни задача по определен стандарт, когато е нужно."
+  defined: 044/summary
+  sections: [ 044/how-to-read-claims-about-military-strength, 044/maintenance-and-life-cycle-costs, 044/readiness-is-not-a-single-number ]
+  link: chapter
+  source: "flashcard 044 #21"
+  status: proposed
+- id: combined-arms
+  term: "Combined arms"
+  bg: "Общовойскови действия"
+  definition: "Integration of different kinds of military capability."
+  definitionBg: "Обединяването на различни видове военни способности."
+  defined: 044/joint-institutions-and-combined-arms
+  source: "flashcard 044 #24"
+  status: proposed
+- id: interoperability
+  term: "Interoperability"
+  bg: "Оперативна съвместимост"
+  definition: "Ability of organisations to work together effectively."
+  definitionBg: "Способността на организациите да работят ефективно заедно."
+  defined: 044/summary
+  sections: [ 044/alliances-standardisation-and-shared-responsibility ]
+  source: "flashcard 044 #25"
+  status: proposed
+- id: fiscal-military-state
+  term: "Fiscal-military state"
+  bg: "Фискално-военна държава"
+  definition: "State institutions linking war, taxation and borrowing."
+  definitionBg: "Държавни институции, които свързват войната, данъчното облагане и заемите."
+  defined: 044/early-modern-fiscal-and-military-states
+  source: "flashcard 044 #26"
+  status: proposed
+- id: statecraft
+  term: "Statecraft"
+  bg: "Държавническо изкуство"
+  definition: "Use of the wider instruments of political influence."
+  definitionBg: "Използването на по-широкия набор от средства за политическо влияние."
+  defined: 045/foreign-policy-diplomacy-and-statecraft
+  source: "flashcard 045 #3"
+  status: proposed
+- id: sovereignty
+  term: "Sovereignty"
+  bg: "Суверенитет"
+  definition: "Authority to govern and international legal standing."
+  definitionBg: "Властта да се управлява и международноправният статут на държавата."
+  defined: 045/summary
+  sections: [ 045/before-ambassadors-ancient-diplomacy, 045/sovereignty-and-the-westphalian-story, 046/occupation-authority-without-sovereignty ]
+  link: chapter
+  source: "flashcard 045 #4"
+  status: proposed
+- id: international-anarchy
+  term: "International anarchy"
+  bg: "Международна анархия"
+  definition: "Absence of a single overarching sovereign; not absence of rules."
+  definitionBg: "Липса на един-единствен върховен суверен; не означава липса на правила."
+  defined: 045/sovereignty-and-the-westphalian-story
+  source: "flashcard 045 #5"
+  status: proposed
+- id: diplomatic-immunity
+  term: "Diplomatic immunity"
+  bg: "Дипломатически имунитет"
+  definition: "Functional legal protections for diplomatic agents and missions."
+  definitionBg: "Функционална правна защита за дипломатическите представители и мисии."
+  defined: 045/the-embassy-as-an-institution
+  related: [ persona-non-grata ]
+  source: "flashcard 045 #7"
+  status: proposed
+- id: persona-non-grata
+  term: "Persona non grata"
+  bg: "Персона нон грата"
+  definition: "A representative declared unacceptable by the receiving state."
+  definitionBg: "Представител, обявен за неприемлив от приемащата държава."
+  defined: 045/the-embassy-as-an-institution
+  related: [ diplomatic-immunity ]
+  source: "flashcard 045 #8"
+  status: proposed
+- id: track-two-diplomacy
+  term: "Track II diplomacy"
+  bg: "Дипломация по втората писта"
+  definition: "Unofficial dialogue, without authority to bind governments."
+  definitionBg: "Неофициален диалог без правомощия да обвързва правителствата."
+  defined: 045/the-many-channels-of-diplomacy
+  source: "flashcard 045 #11"
+  status: proposed
+- id: two-level-game
+  term: "Two-level game"
+  bg: "Игра на две равнища"
+  definition: "International bargaining constrained by domestic approval."
+  definitionBg: "Международни преговори, ограничени от нуждата от одобрение у дома."
+  defined: 045/summary
+  sections: [ 045/domestic-politics-negotiating-at-two-tables ]
+  source: "flashcard 045 #15"
+  status: proposed
+- id: mediation
+  term: "Mediation"
+  bg: "Посредничество"
+  definition: "Third-party facilitation of a negotiated settlement."
+  definitionBg: "Трета страна помага да се постигне договорено уреждане."
+  defined: 045/the-many-channels-of-diplomacy
+  sections: [ 045/balancing-threats-not-just-capabilities, 045/mediation-arbitration-and-adjudication, 045/treaties-declarations-and-political-commitments ]
+  related: [ arbitration ]
+  link: chapter
+  source: "flashcard 045 #16"
+  status: proposed
+- id: arbitration
+  term: "Arbitration"
+  bg: "Арбитраж"
+  definition: "Submission of a dispute to an agreed decision-making tribunal."
+  definitionBg: "Отнасяне на спор до договорен орган, който взема решение."
+  defined: 045/mediation-arbitration-and-adjudication
+  related: [ mediation ]
+  source: "flashcard 045 #17"
+  status: proposed
+- id: polarity
+  term: "Polarity"
+  bg: "Полярност"
+  definition: "Number of predominant centres of power."
+  definitionBg: "Броят на преобладаващите центрове на сила."
+  defined: 045/polarity-one-two-or-many-centres-of-power
+  source: "flashcard 045 #22"
+  status: proposed
+- id: balance-of-threat
+  term: "Balance of threat"
+  bg: "Баланс на заплахите"
+  definition: "Alignment responding to perceived threats, not only raw power."
+  definitionBg: "Подреждане на съюзите според възприетите заплахи, а не само според голата сила."
+  defined: 045/balancing-threats-not-just-capabilities
+  related: [ bandwagoning ]
+  source: "flashcard 045 #23"
+  status: proposed
+- id: bandwagoning
+  term: "Bandwagoning"
+  bg: "Присъединяване към по-силния"
+  definition: "Alignment with a stronger or threatening power."
+  definitionBg: "Присъединяване към по-силната или заплашващата сила."
+  defined: 045/bandwagoning-neutrality-and-hedging
+  related: [ balance-of-threat ]
+  source: "flashcard 045 #24"
+  status: proposed
+- id: collective-defence
+  term: "Collective defence"
+  bg: "Колективна отбрана"
+  definition: "Mutual assistance against a covered attack."
+  definitionBg: "Взаимна помощ срещу нападение, обхванато от споразумението."
+  defined: 045/collective-defence-and-collective-security
+  sections: [ 045/nato-the-warsaw-pact-and-institutional-asymmetry, 045/summary, 047/nato-collective-defence-and-an-institutional-perspective ]
+  related: [ collective-security ]
+  source: "flashcard 045 #28"
+  status: proposed
+- id: collective-security
+  term: "Collective security"
+  bg: "Колективна сигурност"
+  definition: "Common institutional response to threats to peace."
+  definitionBg: "Общ институционален отговор на заплахите за мира."
+  defined: 045/summary
+  sections: [ 039/manchuria-and-ethiopia-collective-security-under-strain, 039/the-road-toward-a-new-general-war, 045/collective-defence-and-collective-security ]
+  related: [ collective-defence ]
+  source: "flashcard 045 #29"
+  status: proposed
+- id: soft-power
+  term: "Soft power"
+  bg: "Мека сила"
+  definition: "Influence through attraction rather than coercion or payment."
+  definitionBg: "Влияние чрез привлекателност, а не чрез принуда или плащане."
+  defined: 045/economic-diplomacy-and-interdependence
+  source: "flashcard 045 #30"
+  status: proposed
+- id: customary-international-law
+  term: "Customary international law"
+  bg: "Международно обичайно право"
+  definition: "General practice accepted as law."
+  definitionBg: "Обща практика, приета като право."
+  defined: 046/where-international-rules-come-from
+  sections: [ 046/case-study-nicaragua-and-the-reach-of-customary-law, 046/self-defence-and-the-difference-between-fear-and-entitlement, 046/state-responsibility-who-owes-what-to-whom ]
+  related: [ opinio-juris ]
+  source: "flashcard 046 #2"
+  status: proposed
+- id: opinio-juris
+  term: "Opinio juris"
+  bg: "Opinio juris"
+  definition: "Acceptance of a practice as legally required or permitted."
+  definitionBg: "Убеждението, че една практика е правно задължителна или позволена."
+  defined: 046/where-international-rules-come-from
+  related: [ customary-international-law ]
+  source: "flashcard 046 #3"
+  status: proposed
+- id: jus-cogens
+  term: "Jus cogens"
+  bg: "Jus cogens"
+  definition: "Peremptory norm from which derogation is not permitted."
+  definitionBg: "Императивна норма, от която не се допуска отклонение."
+  defined: 046/sovereignty-consent-and-the-limits-of-independence
+  source: "flashcard 046 #4"
+  status: proposed
+- id: jus-ad-bellum
+  term: "Jus ad bellum"
+  bg: "Jus ad bellum"
+  definition: "Law governing resort to interstate force."
+  definitionBg: "Правото, което урежда прибягването до сила между държави."
+  defined: 046/summary
+  sections: [ 046/two-legal-questions-which-must-not-be-confused ]
+  related: [ jus-in-bello ]
+  source: "flashcard 046 #6"
+  status: proposed
+- id: jus-in-bello
+  term: "Jus in bello"
+  bg: "Jus in bello"
+  definition: "Law governing conduct during armed conflict."
+  definitionBg: "Правото, което урежда поведението по време на въоръжен конфликт."
+  defined: 046/summary
+  sections: [ 046/two-legal-questions-which-must-not-be-confused ]
+  related: [ jus-ad-bellum ]
+  source: "flashcard 046 #7"
+  status: proposed
+- id: responsibility-to-protect
+  term: "Responsibility to protect"
+  bg: "Отговорност за защита"
+  definition: "Commitment to prevent four atrocity categories and respond under the Charter."
+  definitionBg: "Ангажимент да се предотвратяват четири вида масови зверства и да се реагира съгласно Хартата на ООН."
+  defined: 046/humanitarian-intervention-and-responsibility-to-protect
+  source: "flashcard 046 #11"
+  status: proposed
+- id: common-article-3
+  term: "Common Article 3"
+  bg: "Общ член 3"
+  definition: "Minimum humane treatment and judicial safeguards in NIAC."
+  definitionBg: "Минимално хуманно отношение и съдебни гаранции в немеждународен въоръжен конфликт."
+  defined: 046/common-article-3-and-the-minimum-floor-of-humanity
+  sections: [ 046/captivity-and-the-legal-status-of-prisoners, 048/the-law-asks-a-different-question ]
+  source: "flashcard 046 #14"
+  status: proposed
+- id: principle-of-distinction
+  term: "Distinction"
+  bg: "Принцип на разграничението"
+  definition: "Distinguish civilians and civilian objects from lawful military categories."
+  definitionBg: "Задължението цивилните и гражданските обекти да се разграничават от законните военни цели."
+  defined: 046/from-the-hague-to-the-geneva-conventions
+  sections: [ 046/distinction-people-are-not-interchangeable, 046/proportionality-and-precautions-why-numbers-alone-cannot, 046/self-defence-and-the-difference-between-fear-and-entitlement ]
+  related: [ ihl-proportionality ]
+  source: "flashcard 046 #15"
+  status: proposed
+- id: ihl-proportionality
+  term: "Proportionality (in war)"
+  bg: "Пропорционалност (във войната)"
+  definition: "Prohibition of excessive expected incidental civilian harm relative to anticipated military advantage."
+  definitionBg: "Забрана на очаквани случайни вреди за цивилните, които са прекомерни спрямо очакваното военно предимство."
+  defined: 046/self-defence-and-the-difference-between-fear-and-entitlement
+  sections: [ 046/proportionality-and-precautions-why-numbers-alone-cannot, 046/summary ]
+  related: [ principle-of-distinction ]
+  source: "flashcard 046 #16"
+  status: proposed
+- id: military-occupation
+  term: "Occupation"
+  bg: "Окупация"
+  definition: "Unconsented effective authority over foreign territory, without sovereign title."
+  definitionBg: "Действителна власт над чужда територия без съгласие и без суверенно право."
+  defined: 046/summary
+  sections: [ 046/occupation-authority-without-sovereignty, 046/when-humanitarian-law-begins-to-apply ]
+  link: chapter
+  source: "flashcard 046 #20"
+  status: proposed
+- id: non-refoulement
+  term: "Non-refoulement"
+  bg: "Забрана за връщане (non-refoulement)"
+  definition: "Protection against return to specified serious dangers."
+  definitionBg: "Закрила срещу връщане към определени сериозни опасности."
+  defined: 046/displacement-refugees-and-the-right-to-seek-protection
+  source: "flashcard 046 #23"
+  status: proposed
+- id: genocide
+  term: "Genocide"
+  bg: "Геноцид"
+  definition: "Specified acts with intent to destroy a protected group, wholly or partly."
+  definitionBg: "Определени деяния, извършени с умисъл да се унищожи изцяло или отчасти защитена група."
+  defined: 046/humanitarian-intervention-and-responsibility-to-protect
+  sections: [ 040/auschwitzs-liberation-and-the-evidence-of-genocide, 040/the-final-solution-and-the-killing-centers, 046/case-study-rwanda-bosnia-and-the-different-meanings ]
+  related: [ crimes-against-humanity ]
+  source: "flashcard 046 #25"
+  status: proposed
+- id: crimes-against-humanity
+  term: "Crimes against humanity"
+  bg: "Престъпления срещу човечеството"
+  definition: "Specified acts within a widespread or systematic attack on civilians, with knowledge."
+  definitionBg: "Определени деяния като част от широко разпространено или систематично нападение срещу цивилни, извършени съзнателно."
+  defined: 046/humanitarian-intervention-and-responsibility-to-protect
+  sections: [ 046/case-study-rwanda-bosnia-and-the-different-meanings, 046/the-international-criminal-court-and-the-limits, 046/war-crimes-crimes-against-humanity-and-genocide ]
+  related: [ genocide ]
+  source: "flashcard 046 #26"
+  status: proposed
+- id: war-crime
+  term: "War crime"
+  bg: "Военно престъпление"
+  definition: "Recognized serious offense linked to armed conflict."
+  definitionBg: "Признато тежко престъпление, свързано с въоръжен конфликт."
+  defined: 046/humanitarian-intervention-and-responsibility-to-protect
+  sections: [ 046/children-families-and-people-who-disappear, 046/culture-memory-and-the-natural-environment, 046/war-crimes-crimes-against-humanity-and-genocide ]
+  source: "flashcard 046 #27"
+  status: proposed
+- id: complementarity
+  term: "Complementarity"
+  bg: "Принцип на допълняемостта"
+  definition: "ICC supplements genuine national criminal proceedings, subject to statutory rules."
+  definitionBg: "Международният наказателен съд допълва истинските национални наказателни производства, по правилата на своя статут."
+  defined: 046/summary
+  sections: [ 046/the-international-criminal-court-and-the-limits ]
+  source: "flashcard 046 #30"
+  status: proposed
+- id: internally-displaced-person
+  term: "Internally displaced person"
+  bg: "Вътрешно разселено лице"
+  definition: "Forced from home without crossing an internationally recognized state border."
+  definitionBg: "Човек, прогонен от дома си, без да е пресякъл международно призната държавна граница."
+  defined: 046/displacement-refugees-and-the-right-to-seek-protection
+  sections: [ 048/what-is-lost-when-civilians-flee ]
+  source: "flashcard 046 #22"
+  status: proposed
+- id: deterrence
+  term: "Deterrence"
+  bg: "Възпиране"
+  definition: "Influencing another actor not to undertake an action."
+  definitionBg: "Въздействие върху друг участник, така че да не предприеме дадено действие."
+  defined: 047/summary
+  sections: [ 041/nuclear-weapons-and-the-logic-of-deterrence, 042/deterrence-reassurance-and-restraint, 047/extended-deterrence-and-the-nuclear-umbrella ]
+  related: [ compellence ]
+  source: "flashcard 047 #1"
+  status: proposed
+- id: compellence
+  term: "Compellence"
+  bg: "Принуждаване"
+  definition: "Pressure intended to induce action or reversal."
+  definitionBg: "Натиск, целящ да предизвика действие или да накара някого да се откаже от вече предприетото."
+  defined: 047/deterrence-compellence-and-the-limits-of-coercion
+  related: [ deterrence ]
+  source: "flashcard 047 #2"
+  status: proposed
+- id: mutually-assured-destruction
+  term: "Mutually assured destruction"
+  bg: "Взаимно гарантирано унищожение"
+  definition: "Mutual vulnerability to catastrophic nuclear harm."
+  definitionBg: "Взаимна уязвимост от катастрофални ядрени щети."
+  defined: 047/mutual-vulnerability-and-mutually-assured-destruction
+  sections: [ 041/nuclear-weapons-and-the-logic-of-deterrence ]
+  source: "flashcard 047 #4"
+  status: proposed
+- id: crisis-stability
+  term: "Crisis stability"
+  bg: "Кризисна стабилност"
+  definition: "Reduced risk that acute confrontations escalate catastrophically."
+  definitionBg: "По-малък риск острите конфронтации да ескалират до катастрофа."
+  defined: 047/strategic-stability-a-concept-with-several-meanings
+  source: "flashcard 047 #7"
+  status: proposed
+- id: stability-instability-paradox
+  term: "Stability–instability paradox"
+  bg: "Парадоксът стабилност–нестабилност"
+  definition: "High-level restraint may coexist with lower-level conflict."
+  definitionBg: "Въздържаността на най-високо равнище може да съществува заедно с конфликти на по-ниско равнище."
+  defined: 047/the-stability-instability-paradox
+  source: "flashcard 047 #9"
+  status: proposed
+- id: extended-deterrence
+  term: "Extended deterrence"
+  bg: "Разширено възпиране"
+  definition: "Security assurances extending to allies."
+  definitionBg: "Гаранции за сигурност, които обхващат и съюзниците."
+  defined: 047/extended-deterrence-and-the-nuclear-umbrella
+  sections: [ 047/the-treaty-on-the-prohibition-of-nuclear-weapons ]
+  related: [ deterrence ]
+  source: "flashcard 047 #10"
+  status: proposed
+- id: nuclear-taboo
+  term: "Nuclear taboo"
+  bg: "Ядрено табу"
+  definition: "Normative inhibition against nuclear use."
+  definitionBg: "Нормативна забрана, която възпира използването на ядрено оръжие."
+  defined: 047/summary
+  sections: [ 047/the-nuclear-taboo-and-the-evidence-of-non-use ]
+  source: "flashcard 047 #13"
+  status: proposed
+- id: horizontal-proliferation
+  term: "Horizontal proliferation"
+  bg: "Хоризонтално разпространение"
+  definition: "Spread to additional possessors."
+  definitionBg: "Разпространение на ядрено оръжие към нови притежатели."
+  defined: 047/nuclear-proliferation-more-than-the-spread-of-technology
+  related: [ vertical-proliferation ]
+  source: "flashcard 047 #15"
+  status: proposed
+- id: vertical-proliferation
+  term: "Vertical proliferation"
+  bg: "Вертикално разпространение"
+  definition: "Expansion or development of existing arsenals."
+  definitionBg: "Разширяване или развитие на съществуващите арсенали."
+  defined: 047/nuclear-proliferation-more-than-the-spread-of-technology
+  related: [ horizontal-proliferation ]
+  source: "flashcard 047 #16"
+  status: proposed
+- id: arms-control
+  term: "Arms control"
+  bg: "Контрол над въоръженията"
+  definition: "Agreed measures regulating military competition and risk."
+  definitionBg: "Договорени мерки, които регулират военното съперничество и риска."
+  defined: 047/summary
+  sections: [ 047/arms-control-and-disarmament-related-but-distinct, 047/the-cuban-missile-crisis-the-value-of-diplomacy, 047/the-treaty-on-the-prohibition-of-nuclear-weapons ]
+  source: "flashcard 047 #23"
+  status: proposed
+- id: nuclear-winter
+  term: "Nuclear winter"
+  bg: "Ядрена зима"
+  definition: "Potential climate disruption following nuclear conflict."
+  definitionBg: "Възможно нарушаване на климата след ядрен конфликт."
+  defined: 047/climate-agriculture-and-the-uncertainty-of-global
+  source: "flashcard 047 #28"
+  status: proposed
+- id: civil-war
+  term: "Civil war"
+  bg: "Гражданска война"
+  definition: "Sustained organized armed conflict within a political community."
+  definitionBg: "Продължителен организиран въоръжен конфликт в рамките на една политическа общност."
+  defined: 048/summary
+  sections: [ 042/civil-wars-different-participants-overlapping-logics, 048/china-revolution-civil-war-and-competing-state-building, 048/civil-war-is-a-category-not-an-explanation ]
+  link: chapter
+  source: "flashcard 048 #1"
+  status: proposed
+- id: state-capacity
+  term: "State capacity"
+  bg: "Държавен капацитет"
+  definition: "Ability to implement public decisions."
+  definitionBg: "Способността да се изпълняват публичните решения."
+  defined: 048/summary
+  sections: [ 048/capacity-legitimacy-and-authority-are-not-interchangeable, 048/fragility-is-not-a-permanent-national-identity, 048/the-united-states-slavery-secession-and-the-constitutional ]
+  related: [ legitimacy ]
+  source: "flashcard 048 #6"
+  status: proposed
+- id: legitimacy
+  term: "Legitimacy"
+  bg: "Легитимност"
+  definition: "Accepted or justified right to govern."
+  definitionBg: "Прието или обосновано право да се управлява."
+  defined: 048/summary
+  sections: [ 048/capacity-legitimacy-and-authority-are-not-interchangeable, 048/international-peacekeeping-and-its-limits, 048/the-grievance-explanation-what-people-believe-they-have-been ]
+  related: [ state-capacity ]
+  link: chapter
+  source: "flashcard 048 #7"
+  status: proposed
+- id: state-fragility
+  term: "Fragility"
+  bg: "Крехкост на държавата"
+  definition: "Exposure to risk combined with insufficient resilience."
+  definitionBg: "Изложеност на рискове, съчетана с недостатъчна устойчивост."
+  defined: 048/summary
+  sections: [ 048/fragility-is-not-a-permanent-national-identity, 048/international-peacekeeping-and-its-limits, 048/resources-dependence-and-the-war-economy ]
+  related: [ resilience ]
+  source: "flashcard 048 #9"
+  status: proposed
+- id: resilience
+  term: "Resilience"
+  bg: "Устойчивост"
+  definition: "Ability to absorb, adapt to and recover from shocks."
+  definitionBg: "Способността да се понасят сътресения, да се приспособява към тях и да се възстановява след тях."
+  defined: 048/fragility-is-not-a-permanent-national-identity
+  sections: [ 048/summary ]
+  related: [ state-fragility ]
+  link: chapter
+  source: "flashcard 048 #10"
+  status: proposed
+- id: horizontal-inequality
+  term: "Horizontal inequality"
+  bg: "Хоризонтално неравенство"
+  definition: "Disparities between socially meaningful groups."
+  definitionBg: "Неравенства между обществено значими групи."
+  defined: 048/summary
+  sections: [ 048/inequality-between-individuals-and-between-groups ]
+  source: "flashcard 048 #12"
+  status: proposed
+- id: war-economy
+  term: "War economy"
+  bg: "Военна икономика"
+  definition: "Economic relationships reshaped by ongoing conflict."
+  definitionBg: "Икономически отношения, преобразени от продължаващ конфликт."
+  defined: 048/summary
+  sections: [ 048/resources-dependence-and-the-war-economy, 048/sierra-leone-resources-are-not-destiny ]
+  source: "flashcard 048 #15"
+  status: proposed
+- id: internationalized-civil-war
+  term: "Internationalized civil war"
+  bg: "Интернационализирана гражданска война"
+  definition: "Internal conflict with external involvement; coding criteria vary."
+  definitionBg: "Вътрешен конфликт с външна намеса; критериите за класифициране се различават."
+  defined: 048/summary
+  sections: [ 048/outside-powers-and-the-internationalization-of-civil-wars ]
+  related: [ civil-war ]
+  source: "flashcard 048 #16"
+  status: proposed
+- id: ceasefire
+  term: "Ceasefire"
+  bg: "Примирие"
+  definition: "Agreement or arrangement suspending or reducing fighting."
+  definitionBg: "Споразумение или договореност, които спират или намаляват боевете."
+  defined: 048/why-a-ceasefire-is-not-the-same-as-a-peace-settlement
+  link: chapter
+  source: "flashcard 048 #25"
+  status: proposed
+- id: ddr
+  term: "DDR (disarmament, demobilization and reintegration)"
+  bg: "Разоръжаване, демобилизация и реинтеграция"
+  definition: "Disarmament, demobilization and reintegration of former fighters into civilian life."
+  definitionBg: "Разоръжаване, демобилизация и връщане на бившите бойци към цивилния живот."
+  defined: 048/disarmament-demobilization-and-civilian-reintegration
+  source: "flashcard 048 #27, reworded"
+  status: proposed
+- id: transitional-justice
+  term: "Transitional justice"
+  bg: "Преходно правосъдие"
+  definition: "Processes addressing serious violations and their legacies."
+  definitionBg: "Процеси, които се занимават с тежките нарушения и тяхното наследство."
+  defined: 048/summary
+  sections: [ 048/nepal-transforming-a-conflict-into-constitutional-politics, 048/transitional-justice-remembering-without-reproducing ]
+  source: "flashcard 048 #28"
+  status: proposed
+- id: negative-peace
+  term: "Negative peace"
+  bg: "Негативен мир"
+  definition: "Absence of direct violence."
+  definitionBg: "Липса на пряко насилие."
+  defined: 048/what-peace-means-after-the-last-battle
+  related: [ positive-peace ]
+  source: "flashcard 048 #29"
+  status: proposed
+- id: positive-peace
+  term: "Positive peace"
+  bg: "Позитивен мир"
+  definition: "Broader conditions supporting peaceful, just social relations."
+  definitionBg: "По-широки условия, които поддържат мирни и справедливи обществени отношения."
+  defined: 048/summary
+  sections: [ 048/what-peace-means-after-the-last-battle ]
+  related: [ negative-peace ]
+  source: "flashcard 048 #30"
+  status: proposed

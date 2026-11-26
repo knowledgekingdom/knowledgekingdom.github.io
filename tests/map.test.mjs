@@ -62,7 +62,9 @@ test('town states: done, started, next, unread, planned', () => {
   assert.equal(next, '003');
   assert.equal(current, '002');
   assert.equal(states['010'], 'unread');
-  assert.equal(states['040'], 'planned');
+  const planned = map.towns.find((t) => t.planned);
+  assert.ok(planned, 'the roadmap still has planned chapters');
+  assert.equal(states[planned.label], 'planned');
   const fresh = townStates(map.towns, {});
   assert.equal(fresh.states['001'], 'next');
   assert.equal(fresh.current, '001');

@@ -12,7 +12,7 @@ standfirstHtml: "Как колонисти, реформатори, поробе
 openingTitle: "Три декларации, три различни свята."
 description: "Как колонисти, реформатори, поробени хора, войници и обикновени домакинства предизвикали имперската и монархическа власт и как споровете за свободата..."
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 37
 readingTime: 40
 openingReadingTime: 2

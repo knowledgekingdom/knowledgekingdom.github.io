@@ -11,7 +11,7 @@ const isMastered = (x: StoredCard) => x.st === 2 && x.s >= 21;
 /** What the rules need to know about the book (embedded in every page by Base.astro). */
 export type BookMeta = { chapters: { path: string; label: string; part: number | null; total: number; region: string | null }[] };
 
-export type BadgeId = 'first-page' | 'chapter-complete' | 'part-1' | 'part-2' | 'part-3' | 'world-reader' | 'cards-100'
+export type BadgeId = 'first-page' | 'chapter-complete' | 'part-1' | 'part-2' | 'part-3' | 'part-4' | 'world-reader' | 'cards-100'
   | 'cards-1000' | 'mastered-50' | 'streak-7' | 'streak-30' | 'time-keeper' | 'fallacy-detective';
 
 /** Glyph (icon path, 24 × 24) and which Part colour the seal uses. */
@@ -21,6 +21,7 @@ export const BADGES: { id: BadgeId; glyph: string; part: number }[] = [
   { id: 'part-1', part: 1, glyph: '<circle cx="12" cy="12" r="4"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/>' },
   { id: 'part-2', part: 2, glyph: '<path d="M3 20h18M6 20V10l6-5 6 5v10"/><path d="M10 20v-5h4v5"/>' },
   { id: 'part-3', part: 3, glyph: '<path d="M3 17h18l-2 4H5z"/><path d="M7 17V9h4v8M13 17V5h4v12"/>' },
+  { id: 'part-4', part: 4, glyph: '<path d="M4 14c3 0 5-1.5 6.5-4C12 13 14.5 14.5 18 14l3-3l-3-.5c-1-3.2-3.5-5-6.5-5c1 2 .8 3.8-.8 5"/><path d="M7 18c2.5 1 5 1 7.5-.5M9.5 18.5l-1 2.5M13 18.2l.8 2.3"/>' },
   { id: 'world-reader', part: 2, glyph: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>' },
   { id: 'cards-100', part: 4, glyph: '<rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/>' },
   { id: 'cards-1000', part: 4, glyph: '<rect x="3" y="7" width="14" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v11"/><path d="m7 13 2 2 4-4"/>' },
@@ -63,7 +64,7 @@ export function earned(s: ReaderState, meta: BookMeta, now = new Date()): BadgeI
   const out: BadgeId[] = [];
   if (f.read >= 1) out.push('first-page');
   if (f.finished.length >= 1) out.push('chapter-complete');
-  for (const n of [1, 2, 3] as const) if (f.partDone(n)) out.push(`part-${n}`);
+  for (const n of [1, 2, 3, 4] as const) if (f.partDone(n)) out.push(`part-${n}`);
   if (WORLD_REGIONS.every((r) => f.regions.has(r))) out.push('world-reader');
   if (f.reviews >= 100) out.push('cards-100');
   if (f.reviews >= 1000) out.push('cards-1000');

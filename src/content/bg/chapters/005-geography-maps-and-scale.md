@@ -12,7 +12,7 @@ standfirstHtml: "Светът не е колекция от цветнокожи
 openingTitle: "Контейнер, планина и една невидима карта"
 description: "Светът не е колекция от цветнокожи страни. Тя е движеща се система от скали, вода, въздух, живот, инфраструктура и човешки избор. Географията учи..."
 status: "EXPANDED"
-edition: 41
+edition: 42
 sectionCount: 21
 readingTime: 45
 openingReadingTime: 2

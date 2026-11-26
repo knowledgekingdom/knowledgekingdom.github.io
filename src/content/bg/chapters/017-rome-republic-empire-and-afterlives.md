@@ -12,7 +12,7 @@ standfirstHtml: "Една република станала империя, ед
 openingTitle: "Утрото след Републиката"
 description: "Една република станала империя, един град станал мрежа от провинции и политическият свят надживял западния император: Рим ни принуждава да попитаме какво прави..."
 status: "LONG-FORM DRAFT"
-edition: 41
+edition: 42
 sectionCount: 26
 readingTime: 43
 openingReadingTime: 2

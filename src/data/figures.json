@@ -4048,5 +4048,1463 @@
     "alt": "A peace system with unresolved tensions",
     "file": "figure-38-15.png",
     "page": "/038-world-war-i-causes-and-consequences/other-settlements-the-middle-east-and-the-mandates/"
+  },
+  {
+    "id": "figure-39-1",
+    "number": "39.1",
+    "chapter": 39,
+    "caption": "Figure 39.1. Three linked problems of the interwar order. A failure in one system could undermine the others.",
+    "alt": "Three linked problems of the interwar order. A failure in one system could undermine the others.",
+    "file": "figure-39-1.png",
+    "page": "/039-the-interwar-world/three-problems-at-once-security-legitimacy-and-livelihoods/"
+  },
+  {
+    "id": "figure-39-2",
+    "number": "39.2",
+    "chapter": 39,
+    "caption": "Figure 39.2. Postwar finances: a fragile circle. A web of claims was vulnerable to sudden withdrawal of lending.",
+    "alt": "Postwar finances: a fragile circle. A web of claims was vulnerable to sudden withdrawal of lending.",
+    "file": "figure-39-2.png",
+    "page": "/039-the-interwar-world/the-fragile-financial-order-left-by-world-war-i/"
+  },
+  {
+    "id": "figure-39-3",
+    "number": "39.3",
+    "chapter": 39,
+    "caption": "Figure 39.3. Two German economic crises, not one. Do not use the 1923 inflation crisis as a substitute for the 1930s slump.",
+    "alt": "Two German economic crises, not one. Do not use the 1923 inflation crisis as a substitute for the 1930s slump.",
+    "file": "figure-39-3.png",
+    "page": "/039-the-interwar-world/a-recovery-that-rested-on-unstable-foundations/"
+  },
+  {
+    "id": "figure-39-4",
+    "number": "39.4",
+    "chapter": 39,
+    "caption": "Figure 39.4. From intimidation to dictatorship in Italy. The transformation unfolded through decisions and institutions, not one electoral victory.",
+    "alt": "From intimidation to dictatorship in Italy. The transformation unfolded through decisions and institutions, not one electoral victory.",
+    "file": "figure-39-4.png",
+    "page": "/039-the-interwar-world/italy-the-march-on-rome-and-the-consolidation-of-fascism/"
+  },
+  {
+    "id": "figure-39-5",
+    "number": "39.5",
+    "chapter": 39,
+    "caption": "Figure 39.5. Collectivization and the famine mechanism. Political mechanisms aggravated famine; exact regional mortality estimates require care.",
+    "alt": "Collectivization and the famine mechanism. Political mechanisms aggravated famine; exact regional mortality estimates require care.",
+    "file": "figure-39-5.png",
+    "page": "/039-the-interwar-world/collectivization-famine-and-the-holodomor/"
+  },
+  {
+    "id": "figure-39-6",
+    "number": "39.6",
+    "chapter": 39,
+    "caption": "Figure 39.6. How the Depression crossed borders. The 1929 stock-market crash was a trigger, not a complete causal explanation.",
+    "alt": "How the Depression crossed borders. The 1929 stock-market crash was a trigger, not a complete causal explanation.",
+    "file": "figure-39-6.png",
+    "page": "/039-the-interwar-world/how-a-national-downturn-became-a-world-depression/"
+  },
+  {
+    "id": "figure-39-7",
+    "number": "39.7",
+    "chapter": 39,
+    "caption": "Figure 39.7. Economic distress did not determine political outcomes. Institutions and decisions mediated similar economic pressures.",
+    "alt": "Economic distress did not determine political outcomes. Institutions and decisions mediated similar economic pressures.",
+    "file": "figure-39-7.png",
+    "page": "/039-the-interwar-world/the-temptation-of-simple-economic-explanations/"
+  },
+  {
+    "id": "figure-39-8",
+    "number": "39.8",
+    "chapter": 39,
+    "caption": "Figure 39.8. Nazi destruction of constitutional safeguards. Nazi rule was consolidated through a sequence, not a simple majority mandate.",
+    "alt": "Nazi destruction of constitutional safeguards. Nazi rule was consolidated through a sequence, not a simple majority mandate.",
+    "file": "figure-39-8.png",
+    "page": "/039-the-interwar-world/race-antisemitism-and-the-nazi-state/"
+  },
+  {
+    "id": "figure-39-9",
+    "number": "39.9",
+    "chapter": 39,
+    "caption": "Figure 39.9. The interwar war in East Asia. The global security crisis predated Europe's September 1939 war.",
+    "alt": "The interwar war in East Asia. The global security crisis predated Europe's September 1939 war.",
+    "file": "figure-39-9.png",
+    "page": "/039-the-interwar-world/japan-and-the-transformation-of-east-asian-security/"
+  },
+  {
+    "id": "figure-39-10",
+    "number": "39.10",
+    "chapter": 39,
+    "caption": "Figure 39.10. Bulgaria after Neuilly: three intersecting pressures. The collapse of trust cannot be reduced to one grievance.",
+    "alt": "Bulgaria after Neuilly: three intersecting pressures. The collapse of trust cannot be reduced to one grievance.",
+    "file": "figure-39-10.png",
+    "page": "/039-the-interwar-world/bulgaria-after-neuilly-land-grievances-and-parliamentary/"
+  },
+  {
+    "id": "figure-39-11",
+    "number": "39.11",
+    "chapter": 39,
+    "caption": "Figure 39.11. Bulgaria's interwar political sequence. The dates mark successive ruptures, not identical political movements.",
+    "alt": "Bulgaria's interwar political sequence. The dates mark successive ruptures, not identical political movements.",
+    "file": "figure-39-11.png",
+    "page": "/039-the-interwar-world/bulgaria-in-the-1930s-coup-monarchy-and-revisionism/"
+  },
+  {
+    "id": "figure-39-12",
+    "number": "39.12",
+    "chapter": 39,
+    "caption": "Figure 39.12. Collective security's enforcement dilemma. Commitment mattered only when member governments chose to act.",
+    "alt": "Collective security's enforcement dilemma. Commitment mattered only when member governments chose to act.",
+    "file": "figure-39-12.png",
+    "page": "/039-the-interwar-world/the-road-toward-a-new-general-war/"
+  },
+  {
+    "id": "figure-39-13",
+    "number": "39.13",
+    "chapter": 39,
+    "caption": "Figure 39.13. Why 1939 cannot be explained by a single crisis. A multicausal account preserves agency and alternatives.",
+    "alt": "Why 1939 cannot be explained by a single crisis. A multicausal account preserves agency and alternatives.",
+    "file": "figure-39-13.png",
+    "page": "/039-the-interwar-world/1939-the-end-of-the-interwar-order-and-the-questions/"
+  },
+  {
+    "id": "figure-39-14",
+    "number": "39.14",
+    "chapter": 39,
+    "caption": "Figure 39.14. Case-study method: Depression and Nazi dictatorship. Do not mistake an enabling condition for a sufficient cause.",
+    "alt": "Case-study method: Depression and Nazi dictatorship. Do not mistake an enabling condition for a sufficient cause.",
+    "file": "figure-39-14.png",
+    "page": "/039-the-interwar-world/case-study-did-the-depression-cause-hitler/"
+  },
+  {
+    "id": "figure-39-15",
+    "number": "39.15",
+    "chapter": 39,
+    "caption": "Figure 39.15. Five systems to remember. Study interactions across systems without assuming every country followed one path.",
+    "alt": "Five systems to remember. Study interactions across systems without assuming every country followed one path.",
+    "file": "figure-39-15.png",
+    "page": "/039-the-interwar-world/synthesis-five-connected-systems/"
+  },
+  {
+    "id": "figure-40-1",
+    "number": "40.1",
+    "chapter": 40,
+    "caption": "Figure 40.1. World conflict: connected theaters. Regional campaigns interacted through resources, alliances and shipping.",
+    "alt": "World conflict: connected theaters. Regional campaigns interacted through resources, alliances and shipping.",
+    "file": "figure-40-1.png",
+    "page": "/040-world-war-ii-and-the-holocaust/what-makes-a-war-global/"
+  },
+  {
+    "id": "figure-40-2",
+    "number": "40.2",
+    "chapter": 40,
+    "caption": "Figure 40.2. Why Atlantic supply mattered. Factories could not win without functioning transport routes.",
+    "alt": "Why Atlantic supply mattered. Factories could not win without functioning transport routes.",
+    "file": "figure-40-2.png",
+    "page": "/040-world-war-ii-and-the-holocaust/britain-air-defense-and-the-atlantic-supply-line/"
+  },
+  {
+    "id": "figure-40-3",
+    "number": "40.3",
+    "chapter": 40,
+    "caption": "Figure 40.3. Barbarossa: war beyond the battlefield. German military invasion and genocidal policy were linked.",
+    "alt": "Barbarossa: war beyond the battlefield. German military invasion and genocidal policy were linked.",
+    "file": "figure-40-3.png",
+    "page": "/040-world-war-ii-and-the-holocaust/operation-barbarossa-a-war-of-annihilation/"
+  },
+  {
+    "id": "figure-40-4",
+    "number": "40.4",
+    "chapter": 40,
+    "caption": "Figure 40.4. Japan's strategic gamble in 1941. Short-term conquest raised the stakes of a prolonged conflict.",
+    "alt": "Japan's strategic gamble in 1941. Short-term conquest raised the stakes of a prolonged conflict.",
+    "file": "figure-40-4.png",
+    "page": "/040-world-war-ii-and-the-holocaust/pearl-harbor-and-the-widening-pacific-war/"
+  },
+  {
+    "id": "figure-40-5",
+    "number": "40.5",
+    "chapter": 40,
+    "caption": "Figure 40.5. Allied coalition as a supply system. Different contributions reinforced one another across theaters.",
+    "alt": "Allied coalition as a supply system. Different contributions reinforced one another across theaters.",
+    "file": "figure-40-5.png",
+    "page": "/040-world-war-ii-and-the-holocaust/how-a-coalition-sustains-a-long-war/"
+  },
+  {
+    "id": "figure-40-6",
+    "number": "40.6",
+    "chapter": 40,
+    "caption": "Figure 40.6. Escalation of anti-Jewish persecution. The Holocaust developed through decisions and stages.",
+    "alt": "Escalation of anti-Jewish persecution. The Holocaust developed through decisions and stages.",
+    "file": "figure-40-6.png",
+    "page": "/040-world-war-ii-and-the-holocaust/ghettos-deportation-and-the-language-of-administration/"
+  },
+  {
+    "id": "figure-40-7",
+    "number": "40.7",
+    "chapter": 40,
+    "caption": "Figure 40.7. How genocide was administered. Bureaucratic participation did not diminish responsibility.",
+    "alt": "How genocide was administered. Bureaucratic participation did not diminish responsibility.",
+    "file": "figure-40-7.png",
+    "page": "/040-world-war-ii-and-the-holocaust/the-final-solution-and-the-killing-centers/"
+  },
+  {
+    "id": "figure-40-8",
+    "number": "40.8",
+    "chapter": 40,
+    "caption": "Figure 40.8. Bulgaria's two contrasting wartime outcomes. Citizenship and administrative geography shaped survival.",
+    "alt": "Bulgaria's two contrasting wartime outcomes. Citizenship and administrative geography shaped survival.",
+    "file": "figure-40-8.png",
+    "page": "/040-world-war-ii-and-the-holocaust/bulgarias-jews-protection-in-the-old-kingdom-deportation/"
+  },
+  {
+    "id": "figure-40-9",
+    "number": "40.9",
+    "chapter": 40,
+    "caption": "Figure 40.9. 1942–43: shifting initiative. Turning points differed by theater and depended on subsequent operations.",
+    "alt": "1942–43: shifting initiative. Turning points differed by theater and depended on subsequent operations.",
+    "file": "figure-40-9.png",
+    "page": "/040-world-war-ii-and-the-holocaust/the-turning-years-1942-and-1943/"
+  },
+  {
+    "id": "figure-40-10",
+    "number": "40.10",
+    "chapter": 40,
+    "caption": "Figure 40.10. The defeat of Nazi Germany. Victory required simultaneous pressures and long-term attrition.",
+    "alt": "The defeat of Nazi Germany. Victory required simultaneous pressures and long-term attrition.",
+    "file": "figure-40-10.png",
+    "page": "/040-world-war-ii-and-the-holocaust/d-day-liberation-of-france-and-competing-memories/"
+  },
+  {
+    "id": "figure-40-11",
+    "number": "40.11",
+    "chapter": 40,
+    "caption": "Figure 40.11. Bulgaria's 1944 political turn. Changes in alliance and government did not rewrite earlier conduct.",
+    "alt": "Bulgaria's 1944 political turn. Changes in alliance and government did not rewrite earlier conduct.",
+    "file": "figure-40-11.png",
+    "page": "/040-world-war-ii-and-the-holocaust/bulgaria-in-1944-1945-changing-sides-and-changing-regimes/"
+  },
+  {
+    "id": "figure-40-12",
+    "number": "40.12",
+    "chapter": 40,
+    "caption": "Figure 40.12. Japan's surrender: interacting pressures. Relative causal weights remain debated; chronology is established.",
+    "alt": "Japan's surrender: interacting pressures. Relative causal weights remain debated; chronology is established.",
+    "file": "figure-40-12.png",
+    "page": "/040-world-war-ii-and-the-holocaust/hiroshima-nagasaki-and-the-question-of-surrender/"
+  },
+  {
+    "id": "figure-40-13",
+    "number": "40.13",
+    "chapter": 40,
+    "caption": "Figure 40.13. From wartime crimes to postwar justice. Trials established important precedents but were not comprehensive.",
+    "alt": "From wartime crimes to postwar justice. Trials established important precedents but were not comprehensive.",
+    "file": "figure-40-13.png",
+    "page": "/040-world-war-ii-and-the-holocaust/justice-after-mass-atrocity-nuremberg-and-tokyo/"
+  },
+  {
+    "id": "figure-40-14",
+    "number": "40.14",
+    "chapter": 40,
+    "caption": "Figure 40.14. Reading Second World War sources. No one type of source explains the entire conflict.",
+    "alt": "Reading Second World War sources. No one type of source explains the entire conflict.",
+    "file": "figure-40-14.png",
+    "page": "/040-world-war-ii-and-the-holocaust/how-historians-know-archives-memory-and-propaganda/"
+  },
+  {
+    "id": "figure-40-15",
+    "number": "40.15",
+    "chapter": 40,
+    "caption": "Figure 40.15. Five questions for the postwar world. The war's aftermath leads to Cold War, decolonization and human rights.",
+    "alt": "Five questions for the postwar world. The war's aftermath leads to Cold War, decolonization and human rights.",
+    "file": "figure-40-15.png",
+    "page": "/040-world-war-ii-and-the-holocaust/synthesis-victory-catastrophe-and-unfinished-peace/"
+  },
+  {
+    "id": "figure-41-1",
+    "number": "41.1",
+    "chapter": 41,
+    "caption": "Figure 41.1. From wartime alliance to rivalry. A coalition can break down when its common purpose disappears.",
+    "alt": "From wartime alliance to rivalry. A coalition can break down when its common purpose disappears.",
+    "file": "figure-41-1.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/the-strange-outcome-of-the-wartime-alliance/"
+  },
+  {
+    "id": "figure-41-2",
+    "number": "41.2",
+    "chapter": 41,
+    "caption": "Figure 41.2. Divided Germany as a system. Territory, legitimacy and everyday movement were tightly linked.",
+    "alt": "Divided Germany as a system. Territory, legitimacy and everyday movement were tightly linked.",
+    "file": "figure-41-2.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/berlin-germany-and-the-formation-of-opposing-blocs/"
+  },
+  {
+    "id": "figure-41-3",
+    "number": "41.3",
+    "chapter": 41,
+    "caption": "Figure 41.3. The deterrence dilemma. Mutual vulnerability did not make accidental war impossible.",
+    "alt": "The deterrence dilemma. Mutual vulnerability did not make accidental war impossible.",
+    "file": "figure-41-3.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/nuclear-weapons-and-the-logic-of-deterrence/"
+  },
+  {
+    "id": "figure-41-4",
+    "number": "41.4",
+    "chapter": 41,
+    "caption": "Figure 41.4. Paths to independence. Formal independence is not the same as successful governance.",
+    "alt": "Paths to independence. Formal independence is not the same as successful governance.",
+    "file": "figure-41-4.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/decolonization-independence-as-a-world-making-process/"
+  },
+  {
+    "id": "figure-41-5",
+    "number": "41.5",
+    "chapter": 41,
+    "caption": "Figure 41.5. What non-alignment meant. Non-alignment was political agency, not necessarily neutrality.",
+    "alt": "What non-alignment meant. Non-alignment was political agency, not necessarily neutrality.",
+    "file": "figure-41-5.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/bandung-and-the-non-aligned-movement/"
+  },
+  {
+    "id": "figure-41-6",
+    "number": "41.6",
+    "chapter": 41,
+    "caption": "Figure 41.6. Regional conflict and superpower rivalry. Local actors did not become irrelevant when outside powers intervened.",
+    "alt": "Regional conflict and superpower rivalry. Local actors did not become irrelevant when outside powers intervened.",
+    "file": "figure-41-6.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/middle-eastern-transformations-independence-oil-and-conflict/"
+  },
+  {
+    "id": "figure-41-7",
+    "number": "41.7",
+    "chapter": 41,
+    "caption": "Figure 41.7. Military research and civilian consequences. Public investment produced innovations and significant risks.",
+    "alt": "Military research and civilian consequences. Public investment produced innovations and significant risks.",
+    "file": "figure-41-7.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/the-arms-race-space-race-and-scientific-development/"
+  },
+  {
+    "id": "figure-41-8",
+    "number": "41.8",
+    "chapter": 41,
+    "caption": "Figure 41.8. Bulgarian communist rule: mixed outcomes. Modernization does not erase human-rights violations.",
+    "alt": "Bulgarian communist rule: mixed outcomes. Modernization does not erase human-rights violations.",
+    "file": "figure-41-8.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/bulgarias-forced-assimilation-campaign-and-1989/"
+  },
+  {
+    "id": "figure-41-9",
+    "number": "41.9",
+    "chapter": 41,
+    "caption": "Figure 41.9. How proxy wars expand. Foreign support can prolong rather than settle local conflicts.",
+    "alt": "How proxy wars expand. Foreign support can prolong rather than settle local conflicts.",
+    "file": "figure-41-9.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/afghanistan-iran-and-the-renewed-cold-war-of-the-1980s/"
+  },
+  {
+    "id": "figure-41-10",
+    "number": "41.10",
+    "chapter": 41,
+    "caption": "Figure 41.10. Three different turning points. The end of one regime was not an instantaneous world settlement.",
+    "alt": "Three different turning points. The end of one regime was not an instantaneous world settlement.",
+    "file": "figure-41-10.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/germany-reunifies-and-the-soviet-union-dissolves/"
+  },
+  {
+    "id": "figure-41-11",
+    "number": "41.11",
+    "chapter": 41,
+    "caption": "Figure 41.11. Institutions after the Cold War. Post-1991 choices created new opportunities and security dilemmas.",
+    "alt": "Institutions after the Cold War. Post-1991 choices created new opportunities and security dilemmas.",
+    "file": "figure-41-11.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/the-european-union-and-nato-expand/"
+  },
+  {
+    "id": "figure-41-12",
+    "number": "41.12",
+    "chapter": 41,
+    "caption": "Figure 41.12. Explaining Soviet collapse. No single cause explains both the timing and form of the collapse.",
+    "alt": "Explaining Soviet collapse. No single cause explains both the timing and form of the collapse.",
+    "file": "figure-41-12.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/why-the-cold-war-ended-and-why-historians-disagree/"
+  },
+  {
+    "id": "figure-41-13",
+    "number": "41.13",
+    "chapter": 41,
+    "caption": "Figure 41.13. The post-1991 world remains connected. Interdependence changes problems without eliminating state competition.",
+    "alt": "The post-1991 world remains connected. Interdependence changes problems without eliminating state competition.",
+    "file": "figure-41-13.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/what-changed-by-1991-and-what-did-not/"
+  },
+  {
+    "id": "figure-41-14",
+    "number": "41.14",
+    "chapter": 41,
+    "caption": "Figure 41.14. Periodization is a tool. Different historical processes overlap rather than neatly replace one another.",
+    "alt": "Periodization is a tool. Different historical processes overlap rather than neatly replace one another.",
+    "file": "figure-41-14.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/a-concise-comparative-chronology/"
+  },
+  {
+    "id": "figure-41-15",
+    "number": "41.15",
+    "chapter": 41,
+    "caption": "Figure 41.15. Reading global history at three scales. Comparison across scales prevents a single narrative from dominating.",
+    "alt": "Reading global history at three scales. Comparison across scales prevents a single narrative from dominating.",
+    "file": "figure-41-15.png",
+    "page": "/041-cold-war-decolonization-and-the-post-1991-world/how-to-read-the-postwar-world-without-a-single-storyline/"
+  },
+  {
+    "id": "figure-42-1",
+    "number": "42.1",
+    "chapter": 42,
+    "caption": "Figure 42.1. Classifying violent conflict. Dataset labels guide measurement; they are not moral rankings.",
+    "alt": "Classifying violent conflict. Dataset labels guide measurement; they are not moral rankings.",
+    "file": "figure-42-1.png",
+    "page": "/042-why-wars-begin/what-counts-as-war-and-why-definitions-matter/"
+  },
+  {
+    "id": "figure-42-2",
+    "number": "42.2",
+    "chapter": 42,
+    "caption": "Figure 42.2. A possible bargaining range. Fictional 100-unit example: compatible deals can exist despite rivalry.",
+    "alt": "A possible bargaining range. Fictional 100-unit example: compatible deals can exist despite rivalry.",
+    "file": "figure-42-2.png",
+    "page": "/042-why-wars-begin/a-bargaining-range-worked-through/"
+  },
+  {
+    "id": "figure-42-3",
+    "number": "42.3",
+    "chapter": 42,
+    "caption": "Figure 42.3. How commitments become doubtful. A promise may be sincerely made but still not credibly enforceable.",
+    "alt": "How commitments become doubtful. A promise may be sincerely made but still not credibly enforceable.",
+    "file": "figure-42-3.png",
+    "page": "/042-why-wars-begin/commitment-problems-the-danger-of-tomorrow/"
+  },
+  {
+    "id": "figure-42-4",
+    "number": "42.4",
+    "chapter": 42,
+    "caption": "Figure 42.4. Security-dilemma spiral. Defensive intentions can produce mutual escalation; aggression is a distinct case.",
+    "alt": "Security-dilemma spiral. Defensive intentions can produce mutual escalation; aggression is a distinct case.",
+    "file": "figure-42-4.png",
+    "page": "/042-why-wars-begin/the-security-dilemma-defence-looks-like-danger/"
+  },
+  {
+    "id": "figure-42-5",
+    "number": "42.5",
+    "chapter": 42,
+    "caption": "Figure 42.5. Power transition and decision. Changing capabilities shape choices but do not determine them.",
+    "alt": "Power transition and decision. Changing capabilities shape choices but do not determine them.",
+    "file": "figure-42-5.png",
+    "page": "/042-why-wars-begin/balances-of-power-and-power-transitions/"
+  },
+  {
+    "id": "figure-42-6",
+    "number": "42.6",
+    "chapter": 42,
+    "caption": "Figure 42.6. The costs and incentives problem. The people choosing war do not necessarily bear its largest costs.",
+    "alt": "The costs and incentives problem. The people choosing war do not necessarily bear its largest costs.",
+    "file": "figure-42-6.png",
+    "page": "/042-why-wars-begin/leaders-political-survival-and-unequal-costs/"
+  },
+  {
+    "id": "figure-42-7",
+    "number": "42.7",
+    "chapter": 42,
+    "caption": "Figure 42.7. From evidence to belief. Question how officials knew what they claimed to know.",
+    "alt": "From evidence to belief. Question how officials knew what they claimed to know.",
+    "file": "figure-42-7.png",
+    "page": "/042-why-wars-begin/perception-analogy-and-the-human-mind/"
+  },
+  {
+    "id": "figure-42-8",
+    "number": "42.8",
+    "chapter": 42,
+    "caption": "Figure 42.8. July 1914 escalation chain. A crisis had choices at each step; escalation was not automatic.",
+    "alt": "July 1914 escalation chain. A crisis had choices at each step; escalation was not automatic.",
+    "file": "figure-42-8.png",
+    "page": "/042-why-wars-begin/case-study-europes-july-crisis-of-1914/"
+  },
+  {
+    "id": "figure-42-9",
+    "number": "42.9",
+    "chapter": 42,
+    "caption": "Figure 42.9. Cuban Missile Crisis: avoiding war. Crisis management balanced coercion with an exit route.",
+    "alt": "Cuban Missile Crisis: avoiding war. Crisis management balanced coercion with an exit route.",
+    "file": "figure-42-9.png",
+    "page": "/042-why-wars-begin/case-study-the-cuban-missile-crisis-1962/"
+  },
+  {
+    "id": "figure-42-10",
+    "number": "42.10",
+    "chapter": 42,
+    "caption": "Figure 42.10. Civil-war pathways. Not every grievance becomes an armed insurgency.",
+    "alt": "Civil-war pathways. Not every grievance becomes an armed insurgency.",
+    "file": "figure-42-10.png",
+    "page": "/042-why-wars-begin/civil-wars-different-participants-overlapping-logics/"
+  },
+  {
+    "id": "figure-42-11",
+    "number": "42.11",
+    "chapter": 42,
+    "caption": "Figure 42.11. War duration as a separate puzzle. The causes of fighting today may differ from the causes of its start.",
+    "alt": "War duration as a separate puzzle. The causes of fighting today may differ from the causes of its start.",
+    "file": "figure-42-11.png",
+    "page": "/042-why-wars-begin/why-some-wars-keep-going/"
+  },
+  {
+    "id": "figure-42-12",
+    "number": "42.12",
+    "chapter": 42,
+    "caption": "Figure 42.12. Two directions of security policy. An effective mix varies with the evidence of another state's intentions.",
+    "alt": "Two directions of security policy. An effective mix varies with the evidence of another state's intentions.",
+    "file": "figure-42-12.png",
+    "page": "/042-why-wars-begin/deterrence-reassurance-and-restraint/"
+  },
+  {
+    "id": "figure-42-13",
+    "number": "42.13",
+    "chapter": 42,
+    "caption": "Figure 42.13. Peace mechanisms and limits. Peace depends on incentives, capacity, legitimacy and follow-through.",
+    "alt": "Peace mechanisms and limits. Peace depends on incentives, capacity, legitimacy and follow-through.",
+    "file": "figure-42-13.png",
+    "page": "/042-why-wars-begin/conflict-prevention-practical-instruments-and-limitations/"
+  },
+  {
+    "id": "figure-42-14",
+    "number": "42.14",
+    "chapter": 42,
+    "caption": "Figure 42.14. Diagnosing the river-dam crisis. Different conflict mechanisms require different remedies.",
+    "alt": "Diagnosing the river-dam crisis. Different conflict mechanisms require different remedies.",
+    "file": "figure-42-14.png",
+    "page": "/042-why-wars-begin/a-worked-exercise-the-dam-on-a-contested-river/"
+  },
+  {
+    "id": "figure-42-15",
+    "number": "42.15",
+    "chapter": 42,
+    "caption": "Figure 42.15. A seven-question war diagnostic. A causal account connects evidence, mechanisms and identifiable decisions.",
+    "alt": "A seven-question war diagnostic. A causal account connects evidence, mechanisms and identifiable decisions.",
+    "file": "figure-42-15.png",
+    "page": "/042-why-wars-begin/synthesis-turning-a-war-story-into-a-causal-explanation/"
+  },
+  {
+    "id": "figure-43-1",
+    "number": "43.1",
+    "chapter": 43,
+    "caption": "Figure 43.1. The layers of strategic geography. Physical features become capabilities only through networks and policy.",
+    "alt": "The layers of strategic geography. Physical features become capabilities only through networks and policy.",
+    "file": "figure-43-1.png",
+    "page": "/043-the-geography-of-power/what-geographers-mean-by-power/"
+  },
+  {
+    "id": "figure-43-2",
+    "number": "43.2",
+    "chapter": 43,
+    "caption": "Figure 43.2. Effective distance is not a straight line. Fictional illustration: the shorter route can cost more.",
+    "alt": "Effective distance is not a straight line. Fictional illustration: the shorter route can cost more.",
+    "file": "figure-43-2.png",
+    "page": "/043-the-geography-of-power/distance-is-a-cost-not-just-a-measurement/"
+  },
+  {
+    "id": "figure-43-3",
+    "number": "43.3",
+    "chapter": 43,
+    "caption": "Figure 43.3. Routes and barriers. Terrain changes costs; outcomes depend on supply and decisions.",
+    "alt": "Routes and barriers. Terrain changes costs; outcomes depend on supply and decisions.",
+    "file": "figure-43-3.png",
+    "page": "/043-the-geography-of-power/plains-and-corridors-the-ease-and-danger-of-movement/"
+  },
+  {
+    "id": "figure-43-4",
+    "number": "43.4",
+    "chapter": 43,
+    "caption": "Figure 43.4. Coast to market. A coastline has commercial value through working connections.",
+    "alt": "Coast to market. A coastline has commercial value through working connections.",
+    "file": "figure-43-4.png",
+    "page": "/043-the-geography-of-power/coastlines-and-the-advantage-of-sea-access/"
+  },
+  {
+    "id": "figure-43-5",
+    "number": "43.5",
+    "chapter": 43,
+    "caption": "Figure 43.5. Chokepoint shock. Diversions reduce dependence but can raise freight costs.",
+    "alt": "Chokepoint shock. Diversions reduce dependence but can raise freight costs.",
+    "file": "figure-43-5.png",
+    "page": "/043-the-geography-of-power/straits-canals-and-maritime-chokepoints/"
+  },
+  {
+    "id": "figure-43-6",
+    "number": "43.6",
+    "chapter": 43,
+    "caption": "Figure 43.6. From deposit to product. A mineral deposit is one stage in a strategic supply chain.",
+    "alt": "From deposit to product. A mineral deposit is one stage in a strategic supply chain.",
+    "file": "figure-43-6.png",
+    "page": "/043-the-geography-of-power/resources-wealth-dependency-and-the-resource-trap/"
+  },
+  {
+    "id": "figure-43-7",
+    "number": "43.7",
+    "chapter": 43,
+    "caption": "Figure 43.7. Population and concentration. Concentration can increase both productivity and vulnerability.",
+    "alt": "Population and concentration. Concentration can increase both productivity and vulnerability.",
+    "file": "figure-43-7.png",
+    "page": "/043-the-geography-of-power/population-geography-and-the-problem-of-concentrated-assets/"
+  },
+  {
+    "id": "figure-43-8",
+    "number": "43.8",
+    "chapter": 43,
+    "caption": "Figure 43.8. Law at sea: simplified bands. Schematic only. An EEZ is not equivalent to territorial sovereignty.",
+    "alt": "Law at sea: simplified bands. Schematic only. An EEZ is not equivalent to territorial sovereignty.",
+    "file": "figure-43-8.png",
+    "page": "/043-the-geography-of-power/maritime-law-territorial-waters-and-economic-zones/"
+  },
+  {
+    "id": "figure-43-9",
+    "number": "43.9",
+    "chapter": 43,
+    "caption": "Figure 43.9. Three classical lenses. Historical arguments, not geographic laws.",
+    "alt": "Three classical lenses. Historical arguments, not geographic laws.",
+    "file": "figure-43-9.png",
+    "page": "/043-the-geography-of-power/classic-theories-useful-questions-dangerous-shortcuts/"
+  },
+  {
+    "id": "figure-43-10",
+    "number": "43.10",
+    "chapter": 43,
+    "caption": "Figure 43.10. The Mediterranean system. Connections concentrate commercial and political stakes.",
+    "alt": "The Mediterranean system. Connections concentrate commercial and political stakes.",
+    "file": "figure-43-10.png",
+    "page": "/043-the-geography-of-power/the-mediterranean-and-its-narrow-passages/"
+  },
+  {
+    "id": "figure-43-11",
+    "number": "43.11",
+    "chapter": 43,
+    "caption": "Figure 43.11. Bulgaria’s geographic networks. Infrastructure and institutions turn location into access.",
+    "alt": "Bulgaria’s geographic networks. Infrastructure and institutions turn location into access.",
+    "file": "figure-43-11.png",
+    "page": "/043-the-geography-of-power/bulgarias-routes-danube-black-sea-and-balkan-passes/"
+  },
+  {
+    "id": "figure-43-12",
+    "number": "43.12",
+    "chapter": 43,
+    "caption": "Figure 43.12. Why shorter is not always safer. Route suitability depends on more than nautical miles.",
+    "alt": "Why shorter is not always safer. Route suitability depends on more than nautical miles.",
+    "file": "figure-43-12.png",
+    "page": "/043-the-geography-of-power/the-arctic-opportunity-hazards-and-misleading-headlines/"
+  },
+  {
+    "id": "figure-43-13",
+    "number": "43.13",
+    "chapter": 43,
+    "caption": "Figure 43.13. A vulnerability assessment. Resilience requires realistic fallback capacity.",
+    "alt": "A vulnerability assessment. Resilience requires realistic fallback capacity.",
+    "file": "figure-43-13.png",
+    "page": "/043-the-geography-of-power/strategic-vulnerability-measuring-dependence/"
+  },
+  {
+    "id": "figure-43-14",
+    "number": "43.14",
+    "chapter": 43,
+    "caption": "Figure 43.14. The fictional mountain corridor. Identify routes, legal rules and choices before predicting conflict.",
+    "alt": "The fictional mountain corridor. Identify routes, legal rules and choices before predicting conflict.",
+    "file": "figure-43-14.png",
+    "page": "/043-the-geography-of-power/worked-case-a-disputed-mountain-transit-corridor/"
+  },
+  {
+    "id": "figure-43-15",
+    "number": "43.15",
+    "chapter": 43,
+    "caption": "Figure 43.15. Seven questions for a strategic map. Test the geographic claim instead of treating it as destiny.",
+    "alt": "Seven questions for a strategic map. Test the geographic claim instead of treating it as destiny.",
+    "file": "figure-43-15.png",
+    "page": "/043-the-geography-of-power/a-seven-question-diagnostic-of-geographic-power/"
+  },
+  {
+    "id": "figure-44-1",
+    "number": "44.1",
+    "chapter": 44,
+    "caption": "Figure 44.1. Each transition depends on institutions, choices and circumstances.",
+    "alt": "Each transition depends on institutions, choices and circumstances.",
+    "file": "figure-44-1.png",
+    "page": "/044-military-organization-and-logistics/resources-capability-and-political-power/"
+  },
+  {
+    "id": "figure-44-2",
+    "number": "44.2",
+    "chapter": 44,
+    "caption": "Figure 44.2. Success at one level does not necessarily mean success at another.",
+    "alt": "Success at one level does not necessarily mean success at another.",
+    "file": "figure-44-2.png",
+    "page": "/044-military-organization-and-logistics/the-strategic-operational-and-tactical-levels/"
+  },
+  {
+    "id": "figure-44-3",
+    "number": "44.3",
+    "chapter": 44,
+    "caption": "Figure 44.3. Identical titles can conceal different organisation and functions.",
+    "alt": "Identical titles can conceal different organisation and functions.",
+    "file": "figure-44-3.png",
+    "page": "/044-military-organization-and-logistics/units-formations-and-ranks/"
+  },
+  {
+    "id": "figure-44-4",
+    "number": "44.4",
+    "chapter": 44,
+    "caption": "Figure 44.4. Public power must remain subject to lawful authority.",
+    "alt": "Public power must remain subject to lawful authority.",
+    "file": "figure-44-4.png",
+    "page": "/044-military-organization-and-logistics/civilian-control-and-the-purpose-of-military-institutions/"
+  },
+  {
+    "id": "figure-44-5",
+    "number": "44.5",
+    "chapter": 44,
+    "caption": "Figure 44.5. The categories interact; personnel totals alone obscure social costs.",
+    "alt": "The categories interact; personnel totals alone obscure social costs.",
+    "file": "figure-44-5.png",
+    "page": "/044-military-organization-and-logistics/active-service-reserves-and-mobilisation/"
+  },
+  {
+    "id": "figure-44-6",
+    "number": "44.6",
+    "chapter": 44,
+    "caption": "Figure 44.6. Logistics connects ownership to actual institutional capacity.",
+    "alt": "Logistics connects ownership to actual institutional capacity.",
+    "file": "figure-44-6.png",
+    "page": "/044-military-organization-and-logistics/what-logistics-means/"
+  },
+  {
+    "id": "figure-44-7",
+    "number": "44.7",
+    "chapter": 44,
+    "caption": "Figure 44.7. Civilian example: closing stock = 200 + 60 − 75 = 185 bottles.",
+    "alt": "Civilian example: closing stock = 200 + 60 − 75 = 185 bottles.",
+    "file": "figure-44-7.png",
+    "page": "/044-military-organization-and-logistics/the-stock-and-the-flow/"
+  },
+  {
+    "id": "figure-44-8",
+    "number": "44.8",
+    "chapter": 44,
+    "caption": "Figure 44.8. Distance is experienced through time, cost and uncertainty.",
+    "alt": "Distance is experienced through time, cost and uncertainty.",
+    "file": "figure-44-8.png",
+    "page": "/044-military-organization-and-logistics/transport-geography-and-the-meaning-of-distance/"
+  },
+  {
+    "id": "figure-44-9",
+    "number": "44.9",
+    "chapter": 44,
+    "caption": "Figure 44.9. An initial invoice is only part of the total ownership cost.",
+    "alt": "An initial invoice is only part of the total ownership cost.",
+    "file": "figure-44-9.png",
+    "page": "/044-military-organization-and-logistics/maintenance-and-life-cycle-costs/"
+  },
+  {
+    "id": "figure-44-10",
+    "number": "44.10",
+    "chapter": 44,
+    "caption": "Figure 44.10. Medical care has ethical and legal protections, independent of allegiance.",
+    "alt": "Medical care has ethical and legal protections, independent of allegiance.",
+    "file": "figure-44-10.png",
+    "page": "/044-military-organization-and-logistics/health-sanitation-and-the-limits-of-the-human-body/"
+  },
+  {
+    "id": "figure-44-11",
+    "number": "44.11",
+    "chapter": 44,
+    "caption": "Figure 44.11. Joint institutions depend on cooperation as well as expertise.",
+    "alt": "Joint institutions depend on cooperation as well as expertise.",
+    "file": "figure-44-11.png",
+    "page": "/044-military-organization-and-logistics/joint-institutions-and-combined-arms/"
+  },
+  {
+    "id": "figure-44-12",
+    "number": "44.12",
+    "chapter": 44,
+    "caption": "Figure 44.12. The fiscal-military state is an analytical concept, not a universal model.",
+    "alt": "The fiscal-military state is an analytical concept, not a universal model.",
+    "file": "figure-44-12.png",
+    "page": "/044-military-organization-and-logistics/early-modern-fiscal-and-military-states/"
+  },
+  {
+    "id": "figure-44-13",
+    "number": "44.13",
+    "chapter": 44,
+    "caption": "Figure 44.13. World War II depended on social and economic institutions across borders.",
+    "alt": "World War II depended on social and economic institutions across borders.",
+    "file": "figure-44-13.png",
+    "page": "/044-military-organization-and-logistics/the-second-world-war-as-a-global-institutional-struggle/"
+  },
+  {
+    "id": "figure-44-14",
+    "number": "44.14",
+    "chapter": 44,
+    "caption": "Figure 44.14. A political agreement is not the same thing as practical compatibility.",
+    "alt": "A political agreement is not the same thing as practical compatibility.",
+    "file": "figure-44-14.png",
+    "page": "/044-military-organization-and-logistics/alliances-standardisation-and-shared-responsibility/"
+  },
+  {
+    "id": "figure-44-15",
+    "number": "44.15",
+    "chapter": 44,
+    "caption": "Figure 44.15. Illustrative civilian ambulance fleets: ownership does not establish service capacity.",
+    "alt": "Illustrative civilian ambulance fleets: ownership does not establish service capacity.",
+    "file": "figure-44-15.png",
+    "page": "/044-military-organization-and-logistics/a-worked-case-the-two-emergency-service-budgets/"
+  },
+  {
+    "id": "figure-45-1",
+    "number": "45.1",
+    "chapter": 45,
+    "caption": "Figure 45.1. The three concepts overlap but describe different functions.",
+    "alt": "The three concepts overlap but describe different functions.",
+    "file": "figure-45-1.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/foreign-policy-diplomacy-and-statecraft/"
+  },
+  {
+    "id": "figure-45-2",
+    "number": "45.2",
+    "chapter": 45,
+    "caption": "Figure 45.2. Legal standing and effective control are distinct dimensions.",
+    "alt": "Legal standing and effective control are distinct dimensions.",
+    "file": "figure-45-2.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/sovereignty-and-the-westphalian-story/"
+  },
+  {
+    "id": "figure-45-3",
+    "number": "45.3",
+    "chapter": 45,
+    "caption": "Figure 45.3. Channels can operate in parallel.",
+    "alt": "Channels can operate in parallel.",
+    "file": "figure-45-3.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/the-many-channels-of-diplomacy/"
+  },
+  {
+    "id": "figure-45-4",
+    "number": "45.4",
+    "chapter": 45,
+    "caption": "Figure 45.4. Fictional cultural-centre budget: A can pay 45–60 of 100 units.",
+    "alt": "Fictional cultural-centre budget: A can pay 45–60 of 100 units.",
+    "file": "figure-45-4.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/bargaining-ranges-and-the-cost-of-disagreement/"
+  },
+  {
+    "id": "figure-45-5",
+    "number": "45.5",
+    "chapter": 45,
+    "caption": "Figure 45.5. A bargain that cannot be ratified may never take effect.",
+    "alt": "A bargain that cannot be ratified may never take effect.",
+    "file": "figure-45-5.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/domestic-politics-negotiating-at-two-tables/"
+  },
+  {
+    "id": "figure-45-6",
+    "number": "45.6",
+    "chapter": 45,
+    "caption": "Figure 45.6. A mediator normally does not impose a decision.",
+    "alt": "A mediator normally does not impose a decision.",
+    "file": "figure-45-6.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/mediation-arbitration-and-adjudication/"
+  },
+  {
+    "id": "figure-45-7",
+    "number": "45.7",
+    "chapter": 45,
+    "caption": "Figure 45.7. The precise sequence depends on the treaty.",
+    "alt": "The precise sequence depends on the treaty.",
+    "file": "figure-45-7.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/treaties-declarations-and-political-commitments/"
+  },
+  {
+    "id": "figure-45-8",
+    "number": "45.8",
+    "chapter": 45,
+    "caption": "Figure 45.8. Balancing is a possible response, not an inevitable outcome.",
+    "alt": "Balancing is a possible response, not an inevitable outcome.",
+    "file": "figure-45-8.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/balance-of-power-a-distribution-and-a-policy/"
+  },
+  {
+    "id": "figure-45-9",
+    "number": "45.9",
+    "chapter": 45,
+    "caption": "Figure 45.9. Illustrative centres of power; not measured national capabilities.",
+    "alt": "Illustrative centres of power; not measured national capabilities.",
+    "file": "figure-45-9.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/polarity-one-two-or-many-centres-of-power/"
+  },
+  {
+    "id": "figure-45-10",
+    "number": "45.10",
+    "chapter": 45,
+    "caption": "Figure 45.10. Threat perceptions cannot be inferred from resources alone.",
+    "alt": "Threat perceptions cannot be inferred from resources alone.",
+    "file": "figure-45-10.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/balancing-threats-not-just-capabilities/"
+  },
+  {
+    "id": "figure-45-11",
+    "number": "45.11",
+    "chapter": 45,
+    "caption": "Figure 45.11. A reciprocal feedback loop can amplify insecurity.",
+    "alt": "A reciprocal feedback loop can amplify insecurity.",
+    "file": "figure-45-11.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/the-security-dilemma/"
+  },
+  {
+    "id": "figure-45-12",
+    "number": "45.12",
+    "chapter": 45,
+    "caption": "Figure 45.12. The same alliance can produce both anxieties.",
+    "alt": "The same alliance can produce both anxieties.",
+    "file": "figure-45-12.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/the-alliance-dilemma-abandonment-and-entrapment/"
+  },
+  {
+    "id": "figure-45-13",
+    "number": "45.13",
+    "chapter": 45,
+    "caption": "Figure 45.13. Distinct triggers and institutions; frameworks can coexist.",
+    "alt": "Distinct triggers and institutions; frameworks can coexist.",
+    "file": "figure-45-13.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/collective-defence-and-collective-security/"
+  },
+  {
+    "id": "figure-45-14",
+    "number": "45.14",
+    "chapter": 45,
+    "caption": "Figure 45.14. Nonalignment was not the absence of foreign relationships.",
+    "alt": "Nonalignment was not the absence of foreign relationships.",
+    "file": "figure-45-14.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/bandung-and-the-refusal-to-be-treated-as-a-chess-piece/"
+  },
+  {
+    "id": "figure-45-15",
+    "number": "45.15",
+    "chapter": 45,
+    "caption": "Figure 45.15. A fictional example: evidence, law and participation matter.",
+    "alt": "A fictional example: evidence, law and participation matter.",
+    "file": "figure-45-15.png",
+    "page": "/045-diplomacy-alliances-and-balance-of-power/a-worked-case-a-river-basin-conference/"
+  },
+  {
+    "id": "figure-46-1",
+    "number": "46.1",
+    "chapter": 46,
+    "caption": "Figure 46.1. A binding rule, a competent forum and effective enforcement are different things.",
+    "alt": "A binding rule, a competent forum and effective enforcement are different things.",
+    "file": "figure-46-1.png",
+    "page": "/046-international-law-and-armed-conflict/is-international-law-really-law/"
+  },
+  {
+    "id": "figure-46-2",
+    "number": "46.2",
+    "chapter": 46,
+    "caption": "Figure 46.2. Article 38 also identifies subsidiary means of determining rules.",
+    "alt": "Article 38 also identifies subsidiary means of determining rules.",
+    "file": "figure-46-2.png",
+    "page": "/046-international-law-and-armed-conflict/where-international-rules-come-from/"
+  },
+  {
+    "id": "figure-46-3",
+    "number": "46.3",
+    "chapter": 46,
+    "caption": "Figure 46.3. The humanitarian obligations do not depend on the political justice of a cause.",
+    "alt": "The humanitarian obligations do not depend on the political justice of a cause.",
+    "file": "figure-46-3.png",
+    "page": "/046-international-law-and-armed-conflict/two-legal-questions-which-must-not-be-confused/"
+  },
+  {
+    "id": "figure-46-4",
+    "number": "46.4",
+    "chapter": 46,
+    "caption": "Figure 46.4. Timeline of selected milestones; many other treaties also matter.",
+    "alt": "Timeline of selected milestones; many other treaties also matter.",
+    "file": "figure-46-4.png",
+    "page": "/046-international-law-and-armed-conflict/from-the-hague-to-the-geneva-conventions/"
+  },
+  {
+    "id": "figure-46-5",
+    "number": "46.5",
+    "chapter": 46,
+    "caption": "Figure 46.5. These legal routes are not interchangeable with political approval.",
+    "alt": "These legal routes are not interchangeable with political approval.",
+    "file": "figure-46-5.png",
+    "page": "/046-international-law-and-armed-conflict/collective-security-and-the-united-nations/"
+  },
+  {
+    "id": "figure-46-6",
+    "number": "46.6",
+    "chapter": 46,
+    "caption": "Figure 46.6. Classification depends on facts rather than the label used by governments.",
+    "alt": "Classification depends on facts rather than the label used by governments.",
+    "file": "figure-46-6.png",
+    "page": "/046-international-law-and-armed-conflict/when-humanitarian-law-begins-to-apply/"
+  },
+  {
+    "id": "figure-46-7",
+    "number": "46.7",
+    "chapter": 46,
+    "caption": "Figure 46.7. Basic safeguards apply to people not actively participating in hostilities.",
+    "alt": "Basic safeguards apply to people not actively participating in hostilities.",
+    "file": "figure-46-7.png",
+    "page": "/046-international-law-and-armed-conflict/common-article-3-and-the-minimum-floor-of-humanity/"
+  },
+  {
+    "id": "figure-46-8",
+    "number": "46.8",
+    "chapter": 46,
+    "caption": "Figure 46.8. These are complementary rules, not a numerical formula.",
+    "alt": "These are complementary rules, not a numerical formula.",
+    "file": "figure-46-8.png",
+    "page": "/046-international-law-and-armed-conflict/proportionality-and-precautions-why-numbers-alone-cannot/"
+  },
+  {
+    "id": "figure-46-9",
+    "number": "46.9",
+    "chapter": 46,
+    "caption": "Figure 46.9. Effective control gives rise to obligations without transferring sovereignty.",
+    "alt": "Effective control gives rise to obligations without transferring sovereignty.",
+    "file": "figure-46-9.png",
+    "page": "/046-international-law-and-armed-conflict/occupation-authority-without-sovereignty/"
+  },
+  {
+    "id": "figure-46-10",
+    "number": "46.10",
+    "chapter": 46,
+    "caption": "Figure 46.10. Principled humanitarian access is not political endorsement.",
+    "alt": "Principled humanitarian access is not political endorsement.",
+    "file": "figure-46-10.png",
+    "page": "/046-international-law-and-armed-conflict/humanitarian-relief-and-the-problem-of-access/"
+  },
+  {
+    "id": "figure-46-11",
+    "number": "46.11",
+    "chapter": 46,
+    "caption": "Figure 46.11. Legal categories differ; all displaced people retain applicable rights.",
+    "alt": "Legal categories differ; all displaced people retain applicable rights.",
+    "file": "figure-46-11.png",
+    "page": "/046-international-law-and-armed-conflict/displacement-refugees-and-the-right-to-seek-protection/"
+  },
+  {
+    "id": "figure-46-12",
+    "number": "46.12",
+    "chapter": 46,
+    "caption": "Figure 46.12. A finding against a state is not itself a criminal conviction.",
+    "alt": "A finding against a state is not itself a criminal conviction.",
+    "file": "figure-46-12.png",
+    "page": "/046-international-law-and-armed-conflict/state-responsibility-who-owes-what-to-whom/"
+  },
+  {
+    "id": "figure-46-13",
+    "number": "46.13",
+    "chapter": 46,
+    "caption": "Figure 46.13. Different legal elements; overlapping conduct is possible.",
+    "alt": "Different legal elements; overlapping conduct is possible.",
+    "file": "figure-46-13.png",
+    "page": "/046-international-law-and-armed-conflict/war-crimes-crimes-against-humanity-and-genocide/"
+  },
+  {
+    "id": "figure-46-14",
+    "number": "46.14",
+    "chapter": 46,
+    "caption": "Figure 46.14. The International Court of Justice and International Criminal Court are separate institutions.",
+    "alt": "The International Court of Justice and International Criminal Court are separate institutions.",
+    "file": "figure-46-14.png",
+    "page": "/046-international-law-and-armed-conflict/the-international-court-of-justice-is-not-the-icc/"
+  },
+  {
+    "id": "figure-46-15",
+    "number": "46.15",
+    "chapter": 46,
+    "caption": "Figure 46.15. US$325 million in judicial compensation, divided into three categories. Source: ICJ [48].",
+    "alt": "US$325 million in judicial compensation, divided into three categories. Source: ICJ [48].",
+    "file": "figure-46-15.png",
+    "page": "/046-international-law-and-armed-conflict/case-study-congo-uganda-and-the-long-journey-to-reparation/"
+  },
+  {
+    "id": "figure-46-16",
+    "number": "46.16",
+    "chapter": 46,
+    "caption": "Figure 46.16. The form and date of a decision tell you what it can establish.",
+    "alt": "The form and date of a decision tell you what it can establish.",
+    "file": "figure-46-16.png",
+    "page": "/046-international-law-and-armed-conflict/reading-judicial-documents-palestine-israel-and-procedural/"
+  },
+  {
+    "id": "figure-46-17",
+    "number": "46.17",
+    "chapter": 46,
+    "caption": "Figure 46.17. The fictional river-valley case combines four distinct legal inquiries.",
+    "alt": "The fictional river-valley case combines four distinct legal inquiries.",
+    "file": "figure-46-17.png",
+    "page": "/046-international-law-and-armed-conflict/a-fictional-case-the-river-valley-and-four-legal-questions/"
+  },
+  {
+    "id": "figure-47-1",
+    "number": "47.1",
+    "chapter": 47,
+    "caption": "Figure 47.1. These concepts identify different objectives, not a hierarchy of policies.",
+    "alt": "These concepts identify different objectives, not a hierarchy of policies.",
+    "file": "figure-47-1.png",
+    "page": "/047-deterrence-and-nuclear-strategy/what-deterrence-means-before-we-mention-nuclear-weapons/"
+  },
+  {
+    "id": "figure-47-2",
+    "number": "47.2",
+    "chapter": 47,
+    "caption": "Figure 47.2. Selected historical milestones in the early nuclear age.",
+    "alt": "Selected historical milestones in the early nuclear age.",
+    "file": "figure-47-2.png",
+    "page": "/047-deterrence-and-nuclear-strategy/the-early-monopoly-and-the-end-of-atomic-exclusivity/"
+  },
+  {
+    "id": "figure-47-3",
+    "number": "47.3",
+    "chapter": 47,
+    "caption": "Figure 47.3. Mutual vulnerability is not a guarantee of peace.",
+    "alt": "Mutual vulnerability is not a guarantee of peace.",
+    "file": "figure-47-3.png",
+    "page": "/047-deterrence-and-nuclear-strategy/mutual-vulnerability-and-mutually-assured-destruction/"
+  },
+  {
+    "id": "figure-47-4",
+    "number": "47.4",
+    "chapter": 47,
+    "caption": "Figure 47.4. Rational choice does not imply perfect knowledge.",
+    "alt": "Rational choice does not imply perfect knowledge.",
+    "file": "figure-47-4.png",
+    "page": "/047-deterrence-and-nuclear-strategy/the-difference-between-rationality-and-omniscience/"
+  },
+  {
+    "id": "figure-47-5",
+    "number": "47.5",
+    "chapter": 47,
+    "caption": "Figure 47.5. A self-reinforcing process; actual aggression requires separate assessment.",
+    "alt": "A self-reinforcing process; actual aggression requires separate assessment.",
+    "file": "figure-47-5.png",
+    "page": "/047-deterrence-and-nuclear-strategy/the-security-dilemma-returns/"
+  },
+  {
+    "id": "figure-47-6",
+    "number": "47.6",
+    "chapter": 47,
+    "caption": "Figure 47.6. Stability has several dimensions.",
+    "alt": "Stability has several dimensions.",
+    "file": "figure-47-6.png",
+    "page": "/047-deterrence-and-nuclear-strategy/strategic-stability-a-concept-with-several-meanings/"
+  },
+  {
+    "id": "figure-47-7",
+    "number": "47.7",
+    "chapter": 47,
+    "caption": "Figure 47.7. Selected political milestones, not an operational account.",
+    "alt": "Selected political milestones, not an operational account.",
+    "file": "figure-47-7.png",
+    "page": "/047-deterrence-and-nuclear-strategy/the-cuban-missile-crisis-the-value-of-diplomacy/"
+  },
+  {
+    "id": "figure-47-8",
+    "number": "47.8",
+    "chapter": 47,
+    "caption": "Figure 47.8. Several explanations can operate together.",
+    "alt": "Several explanations can operate together.",
+    "file": "figure-47-8.png",
+    "page": "/047-deterrence-and-nuclear-strategy/the-nuclear-taboo-and-the-evidence-of-non-use/"
+  },
+  {
+    "id": "figure-47-9",
+    "number": "47.9",
+    "chapter": 47,
+    "caption": "Figure 47.9. Different aspects of the proliferation problem.",
+    "alt": "Different aspects of the proliferation problem.",
+    "file": "figure-47-9.png",
+    "page": "/047-deterrence-and-nuclear-strategy/nuclear-proliferation-more-than-the-spread-of-technology/"
+  },
+  {
+    "id": "figure-47-10",
+    "number": "47.10",
+    "chapter": 47,
+    "caption": "Figure 47.10. The three pillars are interconnected.",
+    "alt": "The three pillars are interconnected.",
+    "file": "figure-47-10.png",
+    "page": "/047-deterrence-and-nuclear-strategy/the-npt-an-international-bargain-with-three-pillars/"
+  },
+  {
+    "id": "figure-47-11",
+    "number": "47.11",
+    "chapter": 47,
+    "caption": "Figure 47.11. The three functions are related but not synonymous.",
+    "alt": "The three functions are related but not synonymous.",
+    "file": "figure-47-11.png",
+    "page": "/047-deterrence-and-nuclear-strategy/peaceful-nuclear-energy-and-international-safeguards/"
+  },
+  {
+    "id": "figure-47-12",
+    "number": "47.12",
+    "chapter": 47,
+    "caption": "Figure 47.12. SIPRI estimates: 9,745 in military stockpiles; 2,442 outside that category; total 12,187 [40].",
+    "alt": "SIPRI estimates: 9,745 in military stockpiles; 2,442 outside that category; total 12,187 [40].",
+    "file": "figure-47-12.png",
+    "page": "/047-deterrence-and-nuclear-strategy/reading-the-global-inventory-without-false-precision/"
+  },
+  {
+    "id": "figure-47-13",
+    "number": "47.13",
+    "chapter": 47,
+    "caption": "Figure 47.13. An agreement may contribute to more than one objective.",
+    "alt": "An agreement may contribute to more than one objective.",
+    "file": "figure-47-13.png",
+    "page": "/047-deterrence-and-nuclear-strategy/arms-control-and-disarmament-related-but-distinct/"
+  },
+  {
+    "id": "figure-47-14",
+    "number": "47.14",
+    "chapter": 47,
+    "caption": "Figure 47.14. Status as of November 2026.",
+    "alt": "Status as of November 2026.",
+    "file": "figure-47-14.png",
+    "page": "/047-deterrence-and-nuclear-strategy/the-comprehensive-nuclear-test-ban-treaty/"
+  },
+  {
+    "id": "figure-47-15",
+    "number": "47.15",
+    "chapter": 47,
+    "caption": "Figure 47.15. Selected treaty signature milestones.",
+    "alt": "Selected treaty signature milestones.",
+    "file": "figure-47-15.png",
+    "page": "/047-deterrence-and-nuclear-strategy/regions-that-have-chosen-to-remain-nuclear-weapon-free/"
+  },
+  {
+    "id": "figure-47-16",
+    "number": "47.16",
+    "chapter": 47,
+    "caption": "Figure 47.16. Multiple social systems can be affected together.",
+    "alt": "Multiple social systems can be affected together.",
+    "file": "figure-47-16.png",
+    "page": "/047-deterrence-and-nuclear-strategy/humanitarian-consequences-beyond-the-moment-of-destruction/"
+  },
+  {
+    "id": "figure-47-17",
+    "number": "47.17",
+    "chapter": 47,
+    "caption": "Figure 47.17. The unresolved question is not an authorization.",
+    "alt": "The unresolved question is not an authorization.",
+    "file": "figure-47-17.png",
+    "page": "/047-deterrence-and-nuclear-strategy/nuclear-weapons-and-international-law-the-1996-advisory/"
+  },
+  {
+    "id": "figure-47-18",
+    "number": "47.18",
+    "chapter": 47,
+    "caption": "Figure 47.18. Civilian nuclear energy and alliance membership are distinct from possession.",
+    "alt": "Civilian nuclear energy and alliance membership are distinct from possession.",
+    "file": "figure-47-18.png",
+    "page": "/047-deterrence-and-nuclear-strategy/bulgaria-nuclear-energy-alliance-membership/"
+  },
+  {
+    "id": "figure-47-19",
+    "number": "47.19",
+    "chapter": 47,
+    "caption": "Figure 47.19. Illustrative independent-event arithmetic, not a nuclear-war forecast.",
+    "alt": "Illustrative independent-event arithmetic, not a nuclear-war forecast.",
+    "file": "figure-47-19.png",
+    "page": "/047-deterrence-and-nuclear-strategy/a-numerical-exercise-in-cumulative-uncertainty/"
+  },
+  {
+    "id": "figure-48-1",
+    "number": "48.1",
+    "chapter": 48,
+    "caption": "Figure 48.1. Historical, statistical and legal categories serve different purposes.",
+    "alt": "Historical, statistical and legal categories serve different purposes.",
+    "file": "figure-48-1.png",
+    "page": "/048-civil-wars-and-fragile-states/civil-war-is-a-category-not-an-explanation/"
+  },
+  {
+    "id": "figure-48-2",
+    "number": "48.2",
+    "chapter": 48,
+    "caption": "Figure 48.2. Capacity, legitimacy and coercion can vary independently.",
+    "alt": "Capacity, legitimacy and coercion can vary independently.",
+    "file": "figure-48-2.png",
+    "page": "/048-civil-wars-and-fragile-states/capacity-legitimacy-and-authority-are-not-interchangeable/"
+  },
+  {
+    "id": "figure-48-3",
+    "number": "48.3",
+    "chapter": 48,
+    "caption": "Figure 48.3. The OECD framework assesses risks across six dimensions [8].",
+    "alt": "The OECD framework assesses risks across six dimensions [8].",
+    "file": "figure-48-3.png",
+    "page": "/048-civil-wars-and-fragile-states/fragility-is-not-a-permanent-national-identity/"
+  },
+  {
+    "id": "figure-48-4",
+    "number": "48.4",
+    "chapter": 48,
+    "caption": "Figure 48.4. The three approaches need not be mutually exclusive [10–12].",
+    "alt": "The three approaches need not be mutually exclusive [10–12].",
+    "file": "figure-48-4.png",
+    "page": "/048-civil-wars-and-fragile-states/the-economic-explanation-incentives-and-resources/"
+  },
+  {
+    "id": "figure-48-5",
+    "number": "48.5",
+    "chapter": 48,
+    "caption": "Figure 48.5. Political arrangements matter more than identity categories alone.",
+    "alt": "Political arrangements matter more than identity categories alone.",
+    "file": "figure-48-5.png",
+    "page": "/048-civil-wars-and-fragile-states/ethnicity-nationalism-and-the-politics-of-exclusion/"
+  },
+  {
+    "id": "figure-48-6",
+    "number": "48.6",
+    "chapter": 48,
+    "caption": "Figure 48.6. Identical national averages can conceal different group-level distributions.",
+    "alt": "Identical national averages can conceal different group-level distributions.",
+    "file": "figure-48-6.png",
+    "page": "/048-civil-wars-and-fragile-states/inequality-between-individuals-and-between-groups/"
+  },
+  {
+    "id": "figure-48-7",
+    "number": "48.7",
+    "chapter": 48,
+    "caption": "Figure 48.7. A conceptual feedback loop, not an inevitable sequence.",
+    "alt": "A conceptual feedback loop, not an inevitable sequence.",
+    "file": "figure-48-7.png",
+    "page": "/048-civil-wars-and-fragile-states/the-feedback-loop-between-fragility-and-violence/"
+  },
+  {
+    "id": "figure-48-8",
+    "number": "48.8",
+    "chapter": 48,
+    "caption": "Figure 48.8. Selected historical milestones, not a military chronology.",
+    "alt": "Selected historical milestones, not a military chronology.",
+    "file": "figure-48-8.png",
+    "page": "/048-civil-wars-and-fragile-states/china-revolution-civil-war-and-competing-state-building/"
+  },
+  {
+    "id": "figure-48-9",
+    "number": "48.9",
+    "chapter": 48,
+    "caption": "Figure 48.9. Selected political milestones [22][23].",
+    "alt": "Selected political milestones [22][23].",
+    "file": "figure-48-9.png",
+    "page": "/048-civil-wars-and-fragile-states/mozambique-the-long-negotiation-after-independence/"
+  },
+  {
+    "id": "figure-48-10",
+    "number": "48.10",
+    "chapter": 48,
+    "caption": "Figure 48.10. The end of fighting and institutional transformation are distinct achievements.",
+    "alt": "The end of fighting and institutional transformation are distinct achievements.",
+    "file": "figure-48-10.png",
+    "page": "/048-civil-wars-and-fragile-states/bosnia-and-herzegovina-ending-violence-and-designing-a-state/"
+  },
+  {
+    "id": "figure-48-11",
+    "number": "48.11",
+    "chapter": 48,
+    "caption": "Figure 48.11. Independence resolved one territorial question, not every political dispute.",
+    "alt": "Independence resolved one territorial question, not every political dispute.",
+    "file": "figure-48-11.png",
+    "page": "/048-civil-wars-and-fragile-states/sudan-and-south-sudan-borders-do-not-solve-every-political/"
+  },
+  {
+    "id": "figure-48-12",
+    "number": "48.12",
+    "chapter": 48,
+    "caption": "Figure 48.12. The categories differ; a person’s legal status and circumstances can change.",
+    "alt": "The categories differ; a person’s legal status and circumstances can change.",
+    "file": "figure-48-12.png",
+    "page": "/048-civil-wars-and-fragile-states/what-is-lost-when-civilians-flee/"
+  },
+  {
+    "id": "figure-48-13",
+    "number": "48.13",
+    "chapter": 48,
+    "caption": "Figure 48.13. The effects of conflict continue beyond direct violence.",
+    "alt": "The effects of conflict continue beyond direct violence.",
+    "file": "figure-48-13.png",
+    "page": "/048-civil-wars-and-fragile-states/food-health-education-and-the-long-shadow-of-war/"
+  },
+  {
+    "id": "figure-48-14",
+    "number": "48.14",
+    "chapter": 48,
+    "caption": "Figure 48.14. Environmental pressures do not determine political outcomes [41].",
+    "alt": "Environmental pressures do not determine political outcomes [41].",
+    "file": "figure-48-14.png",
+    "page": "/048-civil-wars-and-fragile-states/climate-environmental-stress-and-the-temptation-of-one-cause/"
+  },
+  {
+    "id": "figure-48-15",
+    "number": "48.15",
+    "chapter": 48,
+    "caption": "Figure 48.15. A document records commitments; implementation requires institutions.",
+    "alt": "A document records commitments; implementation requires institutions.",
+    "file": "figure-48-15.png",
+    "page": "/048-civil-wars-and-fragile-states/why-a-ceasefire-is-not-the-same-as-a-peace-settlement/"
+  },
+  {
+    "id": "figure-48-16",
+    "number": "48.16",
+    "chapter": 48,
+    "caption": "Figure 48.16. A commitment problem concerns enforcement across time.",
+    "alt": "A commitment problem concerns enforcement across time.",
+    "file": "figure-48-16.png",
+    "page": "/048-civil-wars-and-fragile-states/the-credible-commitment-problem/"
+  },
+  {
+    "id": "figure-48-17",
+    "number": "48.17",
+    "chapter": 48,
+    "caption": "Figure 48.17. Use of force is limited to self-defence and defence of the mandate [44].",
+    "alt": "Use of force is limited to self-defence and defence of the mandate [44].",
+    "file": "figure-48-17.png",
+    "page": "/048-civil-wars-and-fragile-states/international-peacekeeping-and-its-limits/"
+  },
+  {
+    "id": "figure-48-18",
+    "number": "48.18",
+    "chapter": 48,
+    "caption": "Figure 48.18. DDR does not replace criminal accountability or community recovery.",
+    "alt": "DDR does not replace criminal accountability or community recovery.",
+    "file": "figure-48-18.png",
+    "page": "/048-civil-wars-and-fragile-states/disarmament-demobilization-and-civilian-reintegration/"
+  },
+  {
+    "id": "figure-48-19",
+    "number": "48.19",
+    "chapter": 48,
+    "caption": "Figure 48.19. The mechanisms have distinct purposes and may reinforce each other.",
+    "alt": "The mechanisms have distinct purposes and may reinforce each other.",
+    "file": "figure-48-19.png",
+    "page": "/048-civil-wars-and-fragile-states/transitional-justice-remembering-without-reproducing/"
+  },
+  {
+    "id": "figure-48-20",
+    "number": "48.20",
+    "chapter": 48,
+    "caption": "Figure 48.20. Fictional data: regional disparity is 48 percentage points.",
+    "alt": "Fictional data: regional disparity is 48 percentage points.",
+    "file": "figure-48-20.png",
+    "page": "/048-civil-wars-and-fragile-states/a-worked-example-what-an-average-hides/"
+  },
+  {
+    "id": "figure-48-21",
+    "number": "48.21",
+    "chapter": 48,
+    "caption": "Figure 48.21. Outputs matter, but outcomes test whether the policy serves citizens.",
+    "alt": "Outputs matter, but outcomes test whether the policy serves citizens.",
+    "file": "figure-48-21.png",
+    "page": "/048-civil-wars-and-fragile-states/a-fictional-peace-commission-turning-promises-into-evidence/"
   }
 ]

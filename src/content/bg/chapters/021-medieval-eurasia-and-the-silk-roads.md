@@ -12,7 +12,7 @@ standfirstHtml: "Свят на движещи се стоки и движещи 
 openingTitle: "Писмото от края на пустинята"
 description: "Свят на движещи се стоки и движещи се идеи: градове, каравани, поклонение, степни сили, морета и хората, които свързваха далечните общества преди..."
 status: "LONG-FORM DRAFT"
-edition: 41
+edition: 42
 sectionCount: 29
 readingTime: 52
 openingReadingTime: 2

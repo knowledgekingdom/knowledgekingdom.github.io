@@ -12,7 +12,7 @@ standfirstHtml: "How a coalition from the eastern Eurasian steppe built the larg
 openingTitle: "A message crossing the steppe"
 description: "How a coalition from the eastern Eurasian steppe built the largest contiguous land empire in history, shattered kingdoms and cities, and reorganized…"
 status: "LONG-FORM DRAFT"
-edition: 41
+edition: 42
 sectionCount: 29
 readingTime: 47
 openingReadingTime: 2

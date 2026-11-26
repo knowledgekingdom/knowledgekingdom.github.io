@@ -12,7 +12,7 @@ standfirstHtml: "How Atlantic voyages connected worlds already inhabited and con
 openingTitle: "A coast that was not waiting to be found"
 description: "How Atlantic voyages connected worlds already inhabited and connected in their own ways, and how navigation, commerce, religion, conquest and labor shaped…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 42
 openingReadingTime: 2

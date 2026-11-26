@@ -12,7 +12,7 @@ standfirstHtml: "How three immense Eurasian empires organized authority across d
 openingTitle: "Three letters from a connected world"
 description: "How three immense Eurasian empires organized authority across diverse societies, drew strength from agriculture and commerce, patronized remarkable…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 39
 openingReadingTime: 2

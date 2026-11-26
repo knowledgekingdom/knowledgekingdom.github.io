@@ -7658,5 +7658,2243 @@
         ]
       }
     ]
+  },
+  "039": {
+    "title": "Exercises",
+    "answerIntro": "These answers model a defensible explanation. Open-ended exercises have multiple possible strong responses; the criteria below explain what good reasoning should include.",
+    "groups": [
+      {
+        "title": null,
+        "intro": [
+          "Explain your reasoning before consulting the model answer bank. Questions are designed to develop causal analysis and source criticism, not merely factual recall."
+        ],
+        "exercises": [
+          {
+            "n": 1,
+            "html": [
+              "Why is the phrase 'interwar period' useful but potentially misleading?"
+            ],
+            "answer": "<p>It groups the years between major European wars, but makes a second war sound predetermined. People in the 1920s pursued genuine alternatives, including disarmament and social reform; outcomes depended on later decisions.</p>"
+          },
+          {
+            "n": 2,
+            "html": [
+              "Identify the three stability problems examined at the chapter's beginning and illustrate how they reinforced each other."
+            ],
+            "answer": "<p>Security required credible borders, legitimacy required accepted governing institutions, and livelihoods required employment and stable prices. Economic shocks could undermine public trust, while political instability discouraged investment and diplomatic compromise.</p>"
+          },
+          {
+            "n": 3,
+            "html": [
+              "Why did the post-1918 peace settlement generate both new sovereignties and new grievances?"
+            ],
+            "answer": "<p>Old empires broke apart and some peoples gained internationally recognized states. Mixed populations, mandates, reparations and revised borders also created minorities and frustrated nationalist claims; a treaty line was not necessarily a settled political community.</p>"
+          },
+          {
+            "n": 4,
+            "html": [
+              "Distinguish the League of Nations' humanitarian work from its collective-security limitations."
+            ],
+            "answer": "<p>The League contributed to refugee relief, public health and international cooperation. However, sanctions and collective defense required member states to accept significant costs, and the League had no independent enforcement army; major powers' choices proved decisive.</p>"
+          },
+          {
+            "n": 5,
+            "html": [
+              "Explain how war debts, reparations, and gold-standard policies contributed to economic vulnerability."
+            ],
+            "answer": "<p>The war created debts, disrupted currencies and fractured markets. Reparations disputes and dependence on international credit added pressure; defending gold parities constrained monetary responses when financial conditions deteriorated.</p>"
+          },
+          {
+            "n": 6,
+            "html": [
+              "Compare Lenin's New Economic Policy with Stalin's later industrial and agricultural programs."
+            ],
+            "answer": "<p>The NEP allowed limited markets while keeping Bolshevik political monopoly. Stalin's programs imposed rapid state-led heavy-industry targets and compulsory agricultural collectivization, producing industrial capacity together with violent coercion and famine.</p>"
+          },
+          {
+            "n": 7,
+            "html": [
+              "What strengths did Weimar's democratic constitution possess, and what political vulnerabilities developed?"
+            ],
+            "answer": "<p>Weimar offered competitive elections and civil liberties. Anti-republican elites, political violence, difficult coalition-building, and growing reliance on presidential emergency authority created vulnerabilities exploited during economic crisis.</p>"
+          },
+          {
+            "n": 8,
+            "html": [
+              "Explain why Germany's hyperinflation of 1923 and deflationary crisis after 1929 should not be confused."
+            ],
+            "answer": "<p>Hyperinflation involved collapsing currency purchasing power and the Ruhr crisis; deflation after 1929 involved falling prices, unemployment, contracting credit and banking failures. Both hurt trust, but their causes and redistributive effects differed.</p>"
+          },
+          {
+            "n": 9,
+            "html": [
+              "What made the apparent stabilization of Europe in 1924–1929 financially fragile?"
+            ],
+            "answer": "<p>American lending, reparations arrangements and cross-border financial flows supported recovery but were vulnerable to withdrawal. Rural distress and unequal sectoral growth remained even during the period's cultural and industrial expansion.</p>"
+          },
+          {
+            "n": 10,
+            "html": [
+              "How did radio, film, and mass consumption create opportunities for both freedom and control?"
+            ],
+            "answer": "<p>Media broadened entertainment, shared culture and political participation. The same transmission technologies enabled coordinated propaganda and state persuasion; their social effects depended on ownership, institutions and freedom of expression.</p>"
+          },
+          {
+            "n": 11,
+            "html": [
+              "Why were the postwar promises of self-determination especially contested in colonies and mandates?"
+            ],
+            "answer": "<p>European powers often withheld full sovereignty from colonized populations while endorsing it selectively in Europe. The mandate system supervised administration but frequently preserved outside rule, inspiring nationalist criticism and mobilization.</p>"
+          },
+          {
+            "n": 12,
+            "html": [
+              "Trace Turkey's change from defeated empire to republic between 1919 and 1924; include a human cost."
+            ],
+            "answer": "<p>Turkish nationalists resisted the proposed Sèvres settlement; the sultanate ended in 1922 and the republic was proclaimed in 1923, with the caliphate abolished in 1924. Population exchange, coercion and displacement accompanied state formation.</p>"
+          },
+          {
+            "n": 13,
+            "html": [
+              "How did Mussolini move from appointment as prime minister in 1922 toward dictatorship?"
+            ],
+            "answer": "<p>Mussolini was appointed by the king amid squad violence and elite bargains; he did not win a normal electoral majority for dictatorship. His government subsequently attacked opposition, censored the press and built authoritarian law and institutions.</p>"
+          },
+          {
+            "n": 14,
+            "html": [
+              "Define interwar fascism historically, then distinguish it from Nazism and Soviet Stalinism."
+            ],
+            "answer": "<p>Italian fascism emphasized militant ultranationalism, a leader cult, anti-liberalism and political violence. Nazism made racist antisemitism and eastern expansion especially central. Stalinism was also dictatorial but based on a different party ideology and planned economy.</p>"
+          },
+          {
+            "n": 15,
+            "html": [
+              "Assess one material achievement and two human costs of Stalin's first Five-Year Plans."
+            ],
+            "answer": "<p>Industrial output and technical training expanded, but coercive labor discipline and falsified targets distorted achievement. Compulsory collectivization, deportations, famine and political terror imposed severe human costs.</p>"
+          },
+          {
+            "n": 16,
+            "html": [
+              "What caused the 1932–1933 Soviet famines, and how should contested interpretations of the Holodomor be handled?"
+            ],
+            "answer": "<p>Forced collectivization, requisitions, movement controls and political repression caused and intensified catastrophe in Ukraine and other Soviet regions. Millions died; demographic estimates and debates about specific intent should be reported with their scope and evidence rather than erased or overstated.</p>"
+          },
+          {
+            "n": 17,
+            "html": [
+              "Explain why public rallies and official production statistics are imperfect evidence of genuine support under dictatorship."
+            ],
+            "answer": "<p>People under threat may perform public loyalty without privately agreeing. Official targets encourage misreporting, and uncontrolled media prevent independent checking. Diaries, archival documents, local records and careful comparisons provide additional evidence.</p>"
+          },
+          {
+            "n": 18,
+            "html": [
+              "Why was the stock-market crash of 1929 insufficient to explain the Great Depression by itself?"
+            ],
+            "answer": "<p>The crash damaged confidence, but bank failures, falling credit, monetary mistakes, debt burdens and international financial transmission explain the persistence and reach of the Depression. A crash alone does not specify those mechanisms.</p>"
+          },
+          {
+            "n": 19,
+            "html": [
+              "Use a causal chain to show how the gold standard and banking failures internationalized economic contraction."
+            ],
+            "answer": "<p>Bank failures reduced lending and spending; gold commitments induced restrictive policy and transferred shocks across borders. Falling trade, commodity prices, and capital flows harmed economies far from Wall Street, with differing national recovery dates.</p>"
+          },
+          {
+            "n": 20,
+            "html": [
+              "Explain why economic crisis did not automatically produce the same political outcome in every country."
+            ],
+            "answer": "<p>Institutions, elite alliances, military loyalties, party organization and the availability of democratic reform differed. Severe depression occurred in countries that did not install fascist regimes, so unemployment was neither a sufficient nor an identical cause.</p>"
+          },
+          {
+            "n": 21,
+            "html": [
+              "What did the New Deal attempt to accomplish, and what limits or exclusions remained?"
+            ],
+            "answer": "<p>Roosevelt's programs sought bank stabilization, relief, public employment, and stronger regulation and welfare institutions. Unemployment persisted and racial discrimination or program exclusions limited access; wartime mobilization later changed the economy markedly.</p>"
+          },
+          {
+            "n": 22,
+            "html": [
+              "How did Hitler actually become chancellor, and why is it false that he won an electoral majority for dictatorship?"
+            ],
+            "answer": "<p>President Hindenburg appointed Hitler chancellor on 30 January 1933 after elite bargaining. The Nazis were the largest party but had not won a majority of the popular vote; the dictatorship emerged through subsequent violence, decrees and lawmaking.</p>"
+          },
+          {
+            "n": 23,
+            "html": [
+              "Identify three steps in the Nazi destruction of the Weimar constitutional order in 1933."
+            ],
+            "answer": "<p>The Reichstag Fire Decree curtailed rights; opposition was arrested and intimidated before the March election; and the Enabling Act transferred legislative powers to the cabinet. Trade unions, parties and regional autonomy were subsequently suppressed.</p>"
+          },
+          {
+            "n": 24,
+            "html": [
+              "What do the Nuremberg Laws and Kristallnacht reveal about Nazi policy before World War II?"
+            ],
+            "answer": "<p>The 1935 laws codified racist citizenship and marriage exclusions, while the November 1938 pogrom involved nationwide attacks, arrests and organized humiliation of Jews. These were major steps in persecution before the wartime Holocaust.</p>"
+          },
+          {
+            "n": 25,
+            "html": [
+              "Compare the Spanish Civil War's domestic causes with the significance of foreign intervention."
+            ],
+            "answer": "<p>Domestic conflict involved land, religion, army reform and competing visions of the republic. German and Italian aid to the insurgents, Soviet support to Republicans, international volunteers, and uneven non-intervention policies materially influenced the war.</p>"
+          },
+          {
+            "n": 26,
+            "html": [
+              "Why must Manchuria in 1931 and China after 1937 be included in a global interwar history?"
+            ],
+            "answer": "<p>Japan's 1931 seizure of Manchuria exposed the League's weaknesses. China's war from 1937 caused mass destruction before Europe's 1939 war; a Eurocentric narrative would miss both major Asian agency and large-scale conflict.</p>"
+          },
+          {
+            "n": 27,
+            "html": [
+              "How did Bulgaria's territorial grievances and Stamboliyski's agrarian policies shape postwar politics?"
+            ],
+            "answer": "<p>Neuilly's territorial and financial obligations, refugees and veterans shaped resentment. Stamboliyski advocated agrarian reforms and regional accommodation but clashed with officers, elites and rivals over policy and coercive methods.</p>"
+          },
+          {
+            "n": 28,
+            "html": [
+              "Trace the cycle linking Bulgaria's June 1923 coup, September uprising, and April 1925 bombing, without treating all actors as identical."
+            ],
+            "answer": "<p>Military-backed opponents overthrew and murdered Stamboliyski in June 1923; a communist-led September uprising was violently suppressed; militant communists carried out the St Nedelya bombing in April 1925, followed by fierce repression. Identify each perpetrator and avoid equating victims with organizers.</p>"
+          },
+          {
+            "n": 29,
+            "html": [
+              "Describe the political consequences of Bulgaria's May 1934 coup and Boris III's subsequent consolidation of power."
+            ],
+            "answer": "<p>Zveno and Military League officers overthrew parliamentary government in May 1934 and centralized authority. Boris III gradually sidelined them from 1935 and established personal royal rule, while foreign policy sought territorial revision without immediate entry into another war.</p>"
+          },
+          {
+            "n": 30,
+            "html": [
+              "Compare Manchuria, Ethiopia, Munich, and the 1939 invasion of Poland: what failed, and what decisions mattered?"
+            ],
+            "answer": "<p>League members failed to reverse Japanese and Italian aggression; Munich conceded territory under threat while excluding Czechoslovakia from equal negotiation. The 1939 German invasion of Poland breached any premise of limited revisions, and Britain and France finally declared war; different leaders' enforcement decisions mattered throughout.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "040": {
+    "title": "Exercises",
+    "answerIntro": "These answers model a defensible explanation. Open-ended exercises have multiple possible strong responses; the criteria below explain what good reasoning should include.",
+    "groups": [
+      {
+        "title": null,
+        "intro": [
+          "Work through the causal relationships and source problems before reading the model answers. Many questions have more than one well-supported response."
+        ],
+        "exercises": [
+          {
+            "n": 1,
+            "html": [
+              "Why is 1939 a useful but incomplete starting date for the global war?"
+            ],
+            "answer": "<p>Germany's 1 September 1939 invasion of Poland marks the war's European beginning, but Japan's full-scale war with China was under way in 1937, rooted in earlier expansion. A global chronology must recognize both.</p>"
+          },
+          {
+            "n": 2,
+            "html": [
+              "Compare the Axis and Allied coalitions: why did their composition and objectives change?"
+            ],
+            "answer": "<p>Germany, Italy and Japan had different imperial goals; Bulgaria, Italy and others changed their alignments or levels of involvement. Allied members also had divergent strategic priorities, especially over Europe, the Pacific and postwar borders.</p>"
+          },
+          {
+            "n": 3,
+            "html": [
+              "Distinguish the long-term conditions for war from the choices that produced the German invasion of Poland."
+            ],
+            "answer": "<p>Long-term factors included Nazi expansionism, failed collective security and rearmament. The immediate invasion resulted from decisions by German leaders, facilitated by the Nazi-Soviet agreement and amid the failure of deterrence.</p>"
+          },
+          {
+            "n": 4,
+            "html": [
+              "What did the Nazi-Soviet pact mean for Polish sovereignty in September 1939?"
+            ],
+            "answer": "<p>German forces invaded on 1 September and Soviet forces entered eastern Poland on 17 September. Poland was divided by occupiers; its state continued through exile institutions and resistance even after losing territorial control.</p>"
+          },
+          {
+            "n": 5,
+            "html": [
+              "How did Dunkirk and the fall of France reveal both German strengths and Allied vulnerabilities?"
+            ],
+            "answer": "<p>German mobile operations exploited operational surprise and Allied vulnerabilities. Dunkirk evacuated substantial personnel while abandoning equipment; France's collapse did not end French resistance or imply German invincibility.</p>"
+          },
+          {
+            "n": 6,
+            "html": [
+              "Explain why Britain's defense depended on the Atlantic as well as the Battle of Britain."
+            ],
+            "answer": "<p>Radar-aided air defense helped resist invasion pressure, while Atlantic convoys delivered essential food, oil and arms. Without shipping, aircraft and factories could not sustain the population and armed forces.</p>"
+          },
+          {
+            "n": 7,
+            "html": [
+              "Why were supply routes, rather than famous commanders alone, essential to campaigns in North Africa?"
+            ],
+            "answer": "<p>Desert armies depended on ports, fuel, trucks and sea control. Supply limits and the Allied victory at El Alamein, together with landings in northwest Africa, mattered more than individual reputations.</p>"
+          },
+          {
+            "n": 8,
+            "html": [
+              "Explain the difference between Bulgarian prewar territory and Bulgarian-occupied lands in 1941."
+            ],
+            "answer": "<p>Southern Dobruja returned to Bulgaria through a 1940 treaty. Vardar Macedonia, Thrace and Pirot were administered under wartime occupation, not universally recognized as sovereign Bulgaria; this affected legal status and the treatment of Jews.</p>"
+          },
+          {
+            "n": 9,
+            "html": [
+              "What made Operation Barbarossa a war of annihilation rather than only a military campaign?"
+            ],
+            "answer": "<p>German objectives included territory, racial hierarchy, exploitation and destruction of Soviet institutions. Starvation policies, mass shootings, murders of POWs and civilian crimes were integral to the invasion and occupation.</p>"
+          },
+          {
+            "n": 10,
+            "html": [
+              "How did Soviet industry, geography, logistical constraints, and civilian mobilization limit Germany's gains?"
+            ],
+            "answer": "<p>German supply lines lengthened across enormous distances. Soviet production shifts, reinforcements, industrial mobilization and resistance, along with terrain and weather, prevented an early collapse and supported recovery.</p>"
+          },
+          {
+            "n": 11,
+            "html": [
+              "Why must Japan's war in China from 1937 figure centrally in World War II history?"
+            ],
+            "answer": "<p>China's war caused mass violence before September 1939 and tied down Japanese military forces. The Nanjing massacre and Chinese resistance are essential to understanding the Asian theater and global war chronology.</p>"
+          },
+          {
+            "n": 12,
+            "html": [
+              "What strategic problems led Japan to attack Pearl Harbor and other Pacific possessions in 1941?"
+            ],
+            "answer": "<p>Japan sought access to oil and raw materials while fearing U.S. and British naval opposition; embargo pressures increased urgency. Pearl Harbor and simultaneous attacks were designed to enable a wider conquest, though they risked prolonged industrial war.</p>"
+          },
+          {
+            "n": 13,
+            "html": [
+              "Explain why Midway and Guadalcanal were important but did not instantly decide the Pacific War."
+            ],
+            "answer": "<p>Midway damaged Japan's carrier strength; Guadalcanal imposed prolonged attrition and shifted initiative. Yet China, the Philippines, Pacific islands and the Japanese mainland still saw years of war.</p>"
+          },
+          {
+            "n": 14,
+            "html": [
+              "How did Allied industrial production and shipping help connect otherwise separate theaters?"
+            ],
+            "answer": "<p>The U.S., Soviet Union, Britain, China and others contributed different strengths; Lend-Lease, trucks, food, fuel, convoys and factory output enabled operations far from production sites. Coalition priorities still differed.</p>"
+          },
+          {
+            "n": 15,
+            "html": [
+              "Trace the stages of Nazi persecution from the 1930s to the Holocaust without portraying genocide as inevitable."
+            ],
+            "answer": "<p>Nazi antisemitic exclusion, laws and violence preceded war. Occupation then enabled ghettos, mass shootings and organized killing centers; distinct decisions and stages matter even though Nazi ideology created the murderous framework.</p>"
+          },
+          {
+            "n": 16,
+            "html": [
+              "Distinguish Nazi ghettos, concentration camps, and killing centers by purpose and practice."
+            ],
+            "answer": "<p>Ghettos confined Jews in occupied towns; concentration camps imprisoned and exploited groups under brutal conditions; killing centers were organized primarily for mass murder. Some sites performed multiple functions.</p>"
+          },
+          {
+            "n": 17,
+            "html": [
+              "Why are mass shootings in Soviet-occupied territories indispensable to explaining the Holocaust?"
+            ],
+            "answer": "<p>Einsatzgruppen and other units murdered vast numbers of Jews near their homes, as at Babi Yar. The Holocaust was not confined to deportations or gas chambers; local and regional evidence is indispensable.</p>"
+          },
+          {
+            "n": 18,
+            "html": [
+              "What did the Wannsee Conference coordinate, and why is it wrong to describe it as the start of all mass murder?"
+            ],
+            "answer": "<p>The January 1942 conference coordinated deportation and genocide policy across agencies. Mass shootings and other killings had already been underway, so it was neither the first murder nor the sole origin of the Holocaust.</p>"
+          },
+          {
+            "n": 19,
+            "html": [
+              "Distinguish the Holocaust from other genocides and mass atrocities committed by Nazi Germany."
+            ],
+            "answer": "<p>The Holocaust was the genocide of about six million European Jews. Roma and Sinti, people with disabilities, Soviet POWs, Polish civilians and other groups suffered distinct Nazi persecution and killings, which require accurate separate description.</p>"
+          },
+          {
+            "n": 20,
+            "html": [
+              "Give two examples of Jewish or other resistance that did not depend on conventional armed battle."
+            ],
+            "answer": "<p>Examples include clandestine education and archives such as Oneg Shabbat, smuggling, mutual aid, forged documents and hiding persecuted people. Armed uprisings are important but not the only forms of agency.</p>"
+          },
+          {
+            "n": 21,
+            "html": [
+              "Explain the two-part history of the survival of most Jews in Bulgaria's prewar borders and the March 1943 deportations."
+            ],
+            "answer": "<p>Most Jews within Bulgaria's prewar borders survived deportation because plans were blocked amid varied forms of opposition; they nonetheless faced harsh laws. Bulgarian authorities deported 11,343 Jews from occupied territories in March 1943, nearly all murdered.</p>"
+          },
+          {
+            "n": 22,
+            "html": [
+              "What are the limits of a national narrative claiming that Bulgaria 'saved its Jews'?"
+            ],
+            "answer": "<p>It excludes the Jews of occupied Macedonia, Thrace and Pirot from the category of people supposedly saved and can obscure the role of Bulgarian institutions in deportations. The geography and citizenship distinction must be stated openly.</p>"
+          },
+          {
+            "n": 23,
+            "html": [
+              "How could forced labor, bureaucracy, transport, and property seizure become parts of occupation violence?"
+            ],
+            "answer": "<p>Registrations and confiscation identified victims and seized property; trains, police and officials organized deportation; forced labor supported occupation economies. Bureaucratic diffusion never removes responsibility for the larger system.</p>"
+          },
+          {
+            "n": 24,
+            "html": [
+              "Why is the term 'turning point' useful for 1942–1943 only when explained through mechanisms?"
+            ],
+            "answer": "<p>Axis reversals occurred at Midway, Guadalcanal, El Alamein and Stalingrad, but their consequences depended on attrition, production, logistics and initiative across different theaters; Axis defeat was not immediate.</p>"
+          },
+          {
+            "n": 25,
+            "html": [
+              "Compare Kursk and the Italian campaign as examples of sustained warfare after Axis reversals."
+            ],
+            "answer": "<p>Kursk and subsequent Soviet offensives sustained pressure on Germany; the Allied invasion of Sicily and collapse of Mussolini's regime did not end Italy's fighting because German occupation continued. Both show warfare's persistence after major reversals.</p>"
+          },
+          {
+            "n": 26,
+            "html": [
+              "How should historians evaluate strategic bombing when its military goals and civilian costs overlap?"
+            ],
+            "answer": "<p>Use evidence on target choice, accuracy, industrial disruption, military necessity, and civilian casualties. Allied aims can be acknowledged without treating every bombing as automatically justified or identical to Axis atrocities.</p>"
+          },
+          {
+            "n": 27,
+            "html": [
+              "Why should Normandy and Soviet offensives in 1944 be studied together rather than competitively?"
+            ],
+            "answer": "<p>Normandy opened a major Western European front while Soviet offensives devastated German forces farther east. Their simultaneous demands on German personnel, fuel and transport help explain defeat; national memory need not become a competition.</p>"
+          },
+          {
+            "n": 28,
+            "html": [
+              "Trace Bulgaria's political and military change in September 1944, including its aftermath."
+            ],
+            "answer": "<p>As Soviet forces approached, Bulgaria's government fell in the 9 September 1944 Fatherland Front takeover. Bulgaria fought Germany afterward, while Communist power expanded and the People's Court prosecuted and executed political figures.</p>"
+          },
+          {
+            "n": 29,
+            "html": [
+              "Discuss competing interpretations of Japan's 1945 surrender, citing the atomic bombs and Soviet entry."
+            ],
+            "answer": "<p>The Hiroshima and Nagasaki bombings, Soviet declaration of war and attack in Manchuria, blockade, prior bombing and domestic Japanese deliberations all shaped August 1945. Historians dispute their relative causal weight; Japan formally surrendered on 2 September.</p>"
+          },
+          {
+            "n": 30,
+            "html": [
+              "Explain how postwar trials, displacement, decolonization and the United Nations made 1945 a beginning as well as an ending."
+            ],
+            "answer": "<p>Postwar courts pursued responsibility for atrocities, displaced populations needed relief and resettlement, colonial rule was challenged, and the UN created a new diplomatic structure. Rival U.S.–Soviet visions also launched the Cold War.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "041": {
+    "title": "Exercises",
+    "answerIntro": "These answers model a defensible explanation. Open-ended exercises have multiple possible strong responses; the criteria below explain what good reasoning should include.",
+    "groups": [
+      {
+        "title": null,
+        "intro": [
+          "Try to explain mechanisms and evaluate sources rather than merely list dates. Check the model answers only after drafting your own responses."
+        ],
+        "exercises": [
+          {
+            "n": 1,
+            "html": [
+              "Why did the United States and Soviet Union shift from wartime allies to rivals after 1945?"
+            ],
+            "answer": "<p>Their common opponent had been defeated, leaving disputes over Germany, Poland, spheres of influence, reconstruction and political legitimacy. Soviet security fears interacted with American fears of coercive communist expansion; policies each side described as defensive often threatened the other.</p>"
+          },
+          {
+            "n": 2,
+            "html": [
+              "What does 'Cold War' describe accurately, and what suffering can the term conceal?"
+            ],
+            "answer": "<p>It describes sustained U.S.-Soviet rivalry without direct full-scale war between the superpowers. It conceals severe conventional wars, mass displacement and repression in Korea, Vietnam, Afghanistan, Africa and elsewhere; people outside the two capitals experienced no general peace.</p>"
+          },
+          {
+            "n": 3,
+            "html": [
+              "Explain containment and identify two different aims of the Marshall Plan."
+            ],
+            "answer": "<p>Containment sought to constrain further Soviet expansion. The Marshall Plan helped restore production, food supply and transport in war-torn Europe while also strengthening political stability, trade links and non-communist alliances. Local European policymaking and domestic resources also mattered.</p>"
+          },
+          {
+            "n": 4,
+            "html": [
+              "Why was the Berlin Airlift a political as well as a logistical operation?"
+            ],
+            "answer": "<p>The airlift sustained civilians when Soviet authorities blocked land routes to West Berlin in 1948-1949. Politically it demonstrated that Western powers would not abandon their position, avoiding a direct land assault that might have escalated into war.</p>"
+          },
+          {
+            "n": 5,
+            "html": [
+              "Compare NATO and the Warsaw Pact without assuming they functioned identically."
+            ],
+            "answer": "<p>Both alliances coordinated military policy under superpower leadership, but membership, decision processes, sovereignty and treatment of dissent were not identical. NATO began in 1949; the Warsaw Pact emerged in 1955, with Soviet intervention in allied countries showing the limits of their autonomy.</p>"
+          },
+          {
+            "n": 6,
+            "html": [
+              "How can Soviet-era education and industrial growth coexist with accounts of repression?"
+            ],
+            "answer": "<p>A government can increase literacy, healthcare or industrial output and still suppress parties, religion, speech and movement. Evaluate measurable outcomes separately from coercive institutions, and compare differences among generations and communities rather than treating one account as the whole story.</p>"
+          },
+          {
+            "n": 7,
+            "html": [
+              "How might a credible second-strike capacity deter war while also creating risks?"
+            ],
+            "answer": "<p>The expectation of retaliation can discourage a first strike. Yet early-warning errors, command failure, accidents and misperception may provoke escalation. Stability requires communication, safeguards and restraint; it is not an automatic property of possessing weapons.</p>"
+          },
+          {
+            "n": 8,
+            "html": [
+              "Why does the Sino-Soviet split challenge a simple two-bloc map of the world?"
+            ],
+            "answer": "<p>China and the USSR were initially aligned after 1949 but fell into intense strategic and ideological rivalry. Their split shows that national interests and leadership disputes divided states sharing communist rhetoric, and that smaller countries could exploit these tensions.</p>"
+          },
+          {
+            "n": 9,
+            "html": [
+              "Which internal and international factors shaped the Korean War, and what remained unresolved in 1953?"
+            ],
+            "answer": "<p>Korean divisions had roots in occupation, competing local governments and civil conflict. North Korea invaded in 1950; UN-authorized forces, China and Soviet support widened the war. The 1953 armistice stopped major fighting but no comprehensive peace treaty resolved the peninsula's division.</p>"
+          },
+          {
+            "n": 10,
+            "html": [
+              "Why should decolonization be studied as a process led by colonized peoples rather than simply a Cold War outcome?"
+            ],
+            "answer": "<p>Colonized peoples organized parties, strikes, mass protests, diplomacy and wars with their own goals. U.S. and Soviet policy influenced some outcomes but did not create all national movements. Formal independence also left questions of borders, land, institutions and economic dependence unresolved.</p>"
+          },
+          {
+            "n": 11,
+            "html": [
+              "Explain why India's independence in 1947 and partition must be considered together."
+            ],
+            "answer": "<p>Independence established states but partition divided populations and territories amid communal violence and forced migration. The border's hurried drawing, political mobilization and conflicting visions of representation shaped the human cost and later India-Pakistan disputes.</p>"
+          },
+          {
+            "n": 12,
+            "html": [
+              "Compare the paths to independence in Indonesia, Vietnam and Malaya."
+            ],
+            "answer": "<p>Indonesia fought and negotiated against Dutch restoration before recognition in 1949. Vietnam fought French colonial forces and later faced prolonged internal and international war. Malaya's independence in 1957 developed through security conflict and negotiated constitutional change. None followed a universal template.</p>"
+          },
+          {
+            "n": 13,
+            "html": [
+              "What goals united the Bandung Conference, and why did non-alignment not mean passivity?"
+            ],
+            "answer": "<p>Participants emphasized sovereignty, equality, anticolonialism and non-interference. Non-aligned states still made alliances, bought arms and accepted aid where useful; non-alignment was an attempt to preserve diplomatic room rather than avoid global politics.</p>"
+          },
+          {
+            "n": 14,
+            "html": [
+              "Name three distinct routes to African independence and explain the importance of local institutions."
+            ],
+            "answer": "<p>Ghana's transfer in 1957 relied heavily on political mobilization and negotiations; Algeria endured a brutal independence war; Portuguese colonies gained independence after long wars and regime change in Portugal. Local institutions, regional interests and administrative preparation shaped later governance.</p>"
+          },
+          {
+            "n": 15,
+            "html": [
+              "How did the Congo Crisis expose the limits of formal sovereignty?"
+            ],
+            "answer": "<p>Congo became independent in 1960 but faced mutiny, secession, outside intervention and struggles over minerals. The murder of Lumumba and subsequent authoritarian rule exposed how state sovereignty could be undermined by external powers and domestic institutional weakness.</p>"
+          },
+          {
+            "n": 16,
+            "html": [
+              "Why does the creation of Israel and the Nakba require discussion from different historical perspectives?"
+            ],
+            "answer": "<p>For Israelis, 1948 marks statehood following persecution, war and political mobilization; for Palestinians, the Nakba identifies mass displacement and lost homes. Responsible history explains the creation of the state, the war and refugees without erasing either community's experiences or claims.</p>"
+          },
+          {
+            "n": 17,
+            "html": [
+              "Reconstruct the Cuban Missile Crisis as a sequence of choices rather than an inevitable nuclear catastrophe."
+            ],
+            "answer": "<p>Soviet missiles were discovered in Cuba in October 1962. Kennedy chose a naval quarantine, leaders communicated through public and private channels, Soviet missiles were removed and the United States pledged not to invade, with a confidential missile-related understanding over Turkey. Escalation was avoided through choices under uncertainty.</p>"
+          },
+          {
+            "n": 18,
+            "html": [
+              "Why was the Vietnam War simultaneously a domestic struggle and an international conflict?"
+            ],
+            "answer": "<p>Vietnamese governments and movements disputed legitimate rule and independence after colonialism. China, the USSR and the U.S. supported different sides, changing military resources and incentives. Ideology, domestic legitimacy, rural politics and civilian suffering all mattered.</p>"
+          },
+          {
+            "n": 19,
+            "html": [
+              "What were the civilian and military consequences of the Cold War's technological competition?"
+            ],
+            "answer": "<p>Space and nuclear programs stimulated rockets, electronics, satellite systems and research but also diverted vast resources into weapons and testing, exposing populations to risks. Political propaganda and military funding shaped the direction of innovation while many advances later had civilian uses.</p>"
+          },
+          {
+            "n": 20,
+            "html": [
+              "Identify major material and political changes in Bulgaria under communist rule."
+            ],
+            "answer": "<p>State planning nationalized industries, expanded schooling, public services and urban employment, and reorganized agriculture. One-party rule also imposed censorship, surveillance, political restrictions and coercive campaigns. The record requires both sets of evidence.</p>"
+          },
+          {
+            "n": 21,
+            "html": [
+              "What evidence would you use to judge Bulgarian living standards during and after state socialism?"
+            ],
+            "answer": "<p>Compare real household consumption, work opportunities, healthcare access, housing quality, education, travel freedom, available goods, environmental pollution and rural-urban differences; use price and wage series, surveys, demographic evidence and testimony from different groups.</p>"
+          },
+          {
+            "n": 22,
+            "html": [
+              "Why is 'voluntary migration' an inadequate description of the 1989 departure of many Bulgarian Turks?"
+            ],
+            "answer": "<p>Forced renaming, restrictions on religion and language, threats and intimidation shaped the 1989 departures. Authorities called it the 'Big Excursion', but scholarly work characterizes the coercive displacement as ethnic cleansing. The label should not obscure victims' loss of choice.</p>"
+          },
+          {
+            "n": 23,
+            "html": [
+              "What did détente and Helsinki change, and what did they fail to resolve?"
+            ],
+            "answer": "<p>Détente limited some weapons and opened diplomacy; Helsinki commitments gave human-rights movements principles to cite. The superpowers still competed globally, kept large arsenals and supported opposing regional actors. A treaty can alter incentives without solving all conflicts.</p>"
+          },
+          {
+            "n": 24,
+            "html": [
+              "How does the Angolan conflict illustrate the interaction between anticolonial struggles and superpower rivalry?"
+            ],
+            "answer": "<p>Angola's struggle after Portuguese decolonization involved competing domestic parties and intervention from Cuba, South Africa, the United States and Soviet Union. This combination shows why internal political interests and global ideological support must be analyzed together.</p>"
+          },
+          {
+            "n": 25,
+            "html": [
+              "Explain how anticommunism and political repression interacted in one Latin American case."
+            ],
+            "answer": "<p>In Chile, intense polarization and external pressure preceded the 1973 military coup, after which Pinochet's regime used torture and disappearances. Anticommunist justifications did not eliminate the government's responsibility for abuses or settle underlying economic disagreements.</p>"
+          },
+          {
+            "n": 26,
+            "html": [
+              "Why did Soviet intervention in Afghanistan fail to establish a durable political settlement?"
+            ],
+            "answer": "<p>Soviet forces propped up an embattled government from 1979 but faced diverse Afghan resistance with external backing. Military control did not create political legitimacy, and Soviet withdrawal in 1989 left civil conflict. Ending intervention did not create stable settlement.</p>"
+          },
+          {
+            "n": 27,
+            "html": [
+              "What roles did Gorbachev and social movements play in the end of communist rule in Europe?"
+            ],
+            "answer": "<p>Gorbachev reduced use of Soviet coercion abroad and opened reforms that destabilized one-party institutions. Labor movements, dissidents, religious networks, national campaigns and ordinary demonstrators drove change from below. Neither leadership diplomacy nor grassroots protest alone explains 1989-1991.</p>"
+          },
+          {
+            "n": 28,
+            "html": [
+              "Distinguish 9 November 1989, 3 October 1990 and December 1991."
+            ],
+            "answer": "<p>On 9 November 1989 the Berlin Wall opened; on 3 October 1990 Germany formally reunified; in December 1991 the Soviet Union dissolved. These were different institutional events, not a single instantaneous end to all Cold War structures.</p>"
+          },
+          {
+            "n": 29,
+            "html": [
+              "Why did postcommunist privatization and democratization produce uneven results in Bulgaria and elsewhere?"
+            ],
+            "answer": "<p>Market reforms created possibilities but also inflation, job losses, insider privatization and banking crises where institutions were weak. Bulgaria's severe 1996-1997 crisis and currency board illustrate the challenge of stabilizing money while rebuilding markets, welfare and governance.</p>"
+          },
+          {
+            "n": 30,
+            "html": [
+              "Why is 1991 not a satisfactory date for the end of global conflict? Provide examples from the Balkans and later decades."
+            ],
+            "answer": "<p>Yugoslavia's dissolution produced wars, ethnic cleansing and the Srebrenica genocide; Russia's 2022 full-scale invasion of Ukraine later showed that territorial conquest remained possible in Europe. Rivalries and institutional weaknesses survived the end of bipolar confrontation.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "042": {
+    "title": "Exercises",
+    "answerIntro": "These answers model a defensible explanation. Open-ended exercises have multiple possible strong responses; the criteria below explain what good reasoning should include.",
+    "groups": [
+      {
+        "title": null,
+        "intro": [
+          "Try to explain mechanisms and evaluate sources rather than merely list dates. Check the model answers only after drafting your own responses."
+        ],
+        "exercises": [
+          {
+            "n": 1,
+            "html": [
+              "Why is the fact that war destroys resources not enough to guarantee a negotiated settlement?"
+            ],
+            "answer": "<p>War creates losses that could be avoided through bargaining, but the parties may disagree about likely victory, fear future betrayal, face domestic constraints, or regard concessions as politically or symbolically unacceptable. An available deal must also be credible.</p>"
+          },
+          {
+            "n": 2,
+            "html": [
+              "What does the UCDP mean by state-based armed conflict, and why does a dataset threshold not define the full human cost?"
+            ],
+            "answer": "<p>UCDP identifies disputes over government or territory with armed force involving a state and at least 25 battle-related deaths in a year; its war category uses 1,000. Civilian deaths, starvation and displacement need additional measurement.</p>"
+          },
+          {
+            "n": 3,
+            "html": [
+              "Compare the international, domestic and individual levels of explanation with one hypothetical example."
+            ],
+            "answer": "<p>The international level might capture a rival's military buildup; the domestic level an election or elite faction; the individual level a leader who overestimates victory. The case should show how they interacted.</p>"
+          },
+          {
+            "n": 4,
+            "html": [
+              "Work through the chapter's 100-unit bargaining example. Why does the interval run from 40 to 80 for Country A?"
+            ],
+            "answer": "<p>A expects a 60-unit victory payoff before 20 in costs, so its war alternative is 40. B expects 40 minus 20 = 20; therefore B accepts keeping at least 20, meaning A could take up to 80.</p>"
+          },
+          {
+            "n": 5,
+            "html": [
+              "How can private information and incentives to bluff make an armed conflict more likely?"
+            ],
+            "answer": "<p>Each side privately knows things about its forces and resolve, and has incentives to exaggerate strength. Both can expect the other to give way, creating incompatible demands even though war is costly.</p>"
+          },
+          {
+            "n": 6,
+            "html": [
+              "Explain the difference between a cheap diplomatic statement and a costly signal. Why can the latter still be dangerous?"
+            ],
+            "answer": "<p>A speech is easy to imitate; mobilizing is costly and may seem more credible. Yet the other state may interpret mobilization as imminent attack and accelerate its own military plans.</p>"
+          },
+          {
+            "n": 7,
+            "html": [
+              "What is a commitment problem? Give an example that does not depend on either government lying."
+            ],
+            "answer": "<p>A state may promise restraint sincerely today but be unable to bind a future government or a strengthened rival. A demobilizing rebel group may reasonably fear repression after surrendering weapons.</p>"
+          },
+          {
+            "n": 8,
+            "html": [
+              "Contrast preventive war and preemptive attack. Why do these labels not determine legality?"
+            ],
+            "answer": "<p>Preventive war counters a possible future shift of power; preemption claims to avert an imminent attack. The motives are analytical categories; legality depends on separate rules concerning the use of force.</p>"
+          },
+          {
+            "n": 9,
+            "html": [
+              "Explain how a political leader might portray a divisible resource as an indivisible national symbol."
+            ],
+            "answer": "<p>Leaders may present shared fishing rights or a border compromise as surrender of sacred national territory. The framing raises domestic political costs and can make a technically divisible issue seem non-negotiable.</p>"
+          },
+          {
+            "n": 10,
+            "html": [
+              "Create a three-step security-dilemma spiral involving two states that initially want only self-defence."
+            ],
+            "answer": "<p>A buys defensive weapons; B fears offensive use and rearms; A takes B's buildup as proof of hostile intent. The spiral can develop without either side initially planning conquest.</p>"
+          },
+          {
+            "n": 11,
+            "html": [
+              "How do terrain and offensive-defensive advantages change the probability or expected cost of war?"
+            ],
+            "answer": "<p>Geography changes who can mobilize, hold ground or attack cheaply. Mountains, fortifications and supply routes can favor defenders; perceived first-strike advantages may encourage rapid action.</p>"
+          },
+          {
+            "n": 12,
+            "html": [
+              "Compare entrapment with abandonment in alliance politics."
+            ],
+            "answer": "<p>Entrapment is fear an ally will act recklessly because it expects support. Abandonment is fear that the ally will not honor the commitment when danger appears.</p>"
+          },
+          {
+            "n": 13,
+            "html": [
+              "Why can a changing balance of power be a cause of fear without making war inevitable?"
+            ],
+            "answer": "<p>A rising state may demand concessions and an established power may fear future weakness. But negotiations, deterrence, institutions and leadership choices can still prevent violence.</p>"
+          },
+          {
+            "n": 14,
+            "html": [
+              "Why is claiming that a war was simply \"about oil\" usually an incomplete explanation?"
+            ],
+            "answer": "<p>Resources may motivate territorial demands or finance combatants, but a causal explanation needs evidence that they shaped decisions. Ideology, identity, security, alliances and political survival can also matter.</p>"
+          },
+          {
+            "n": 15,
+            "html": [
+              "Give one way trade may discourage war and one way economic dependence may intensify strategic fear."
+            ],
+            "answer": "<p>Commercial links make war costly by interrupting markets and finance; dependence on a vulnerable supply route can also produce fears of embargo or blockade. Expectations about future trade matter.</p>"
+          },
+          {
+            "n": 16,
+            "html": [
+              "Why should analysts distinguish incentives facing leaders from the costs borne by populations?"
+            ],
+            "answer": "<p>Rulers may gain power, prestige or political survival from conflict while soldiers and civilians absorb most losses. The relevant incentives and accountability rules can therefore diverge.</p>"
+          },
+          {
+            "n": 17,
+            "html": [
+              "What precisely does the democratic-peace argument claim, and what does it not claim?"
+            ],
+            "answer": "<p>The argument concerns the rarity of war between established democracies. It does not claim that democracies never use force, that every democratic policy is peaceful or that democratic status alone explains outcomes.</p>"
+          },
+          {
+            "n": 18,
+            "html": [
+              "What evidence would be needed to argue that a leader started a diversionary war?"
+            ],
+            "answer": "<p>Internal records or credible testimony would need to show concern about domestic unrest shaped the decision to fight. Mere coincidence between low popularity and conflict is inadequate.</p>"
+          },
+          {
+            "n": 19,
+            "html": [
+              "How can nationalism support self-determination in one context and territorial conquest in another?"
+            ],
+            "answer": "<p>Nationalism may justify protection of self-government against empire, or claim that foreign populations and land must be annexed. Organizations and narratives translate identity into specific political aims.</p>"
+          },
+          {
+            "n": 20,
+            "html": [
+              "Explain how confirmation bias or a misleading historical analogy might shape decisions during a crisis."
+            ],
+            "answer": "<p>Officials may accept reports confirming a pre-existing threat and discard contradictory evidence; an analogy may import an inappropriate lesson from another era. Analysts should test differences and counterevidence.</p>"
+          },
+          {
+            "n": 21,
+            "html": [
+              "What is the difference between an unintended escalation mechanism and a claim that no leader was responsible?"
+            ],
+            "answer": "<p>Escalation mechanisms make choices appear urgent or constrained, but mobilization plans and fears do not sign declarations of war. Specific leaders still choose whether to threaten, mobilize or attack.</p>"
+          },
+          {
+            "n": 22,
+            "html": [
+              "Identify at least three distinct mechanisms that operated during the July Crisis of 1914."
+            ],
+            "answer": "<p>Uncertainty, alliances, military timetables and fears of future power interacted, but the sequence of ultimatums and decisions is essential. Governments had differing motives and responsibilities at identifiable moments.</p>"
+          },
+          {
+            "n": 23,
+            "html": [
+              "Why is it misleading to present the outbreak of World War II in Europe as merely a symmetrical security dilemma?"
+            ],
+            "answer": "<p>Documented Nazi expansionist and racial ambitions, repeated coercion and deliberate invasion decisions cannot be replaced by a story of two states simply misunderstanding each other's defensive measures.</p>"
+          },
+          {
+            "n": 24,
+            "html": [
+              "What helped U.S. and Soviet leaders avoid war during the Cuban Missile Crisis?"
+            ],
+            "answer": "<p>Backchannel messages, a naval quarantine instead of immediate assault, control of forces, and a reciprocal agreement to withdraw missiles and give assurances created a path away from direct war.</p>"
+          },
+          {
+            "n": 25,
+            "html": [
+              "Compare the causes of the 1990 invasion of Kuwait and the claims used to justify the 2003 invasion of Iraq."
+            ],
+            "answer": "<p>In 1990 Iraq attacked and occupied Kuwait amid financial, territorial and regional disputes. In 2003 U.S.-led leaders cited WMD and security claims later subjected to major intelligence criticism; the two decisions require separate evidence.</p>"
+          },
+          {
+            "n": 26,
+            "html": [
+              "Why do the opportunities for insurgency matter when explaining which grievances escalate into civil war?"
+            ],
+            "answer": "<p>Many groups have grievances, but sustained insurgency requires organization, financing, recruits, potential sanctuaries and weak enough countermeasures. An environment facilitating armed rebellion affects whether violence persists.</p>"
+          },
+          {
+            "n": 27,
+            "html": [
+              "What makes implementing a peace agreement after a civil war particularly difficult?"
+            ],
+            "answer": "<p>Former enemies may have to share one state while fearing repression after disarmament. Institutions are weakened and guarantors may be unreliable, so credible implementation matters as much as the signed text.</p>"
+          },
+          {
+            "n": 28,
+            "html": [
+              "Why should historians avoid describing ethnic violence as the natural expression of ancient hatreds?"
+            ],
+            "answer": "<p>Communities are internally divided, and organizers, militias, propaganda and political breakdowns often produce violence. A timeless-hatred story hides choices and the local agency of people who resisted.</p>"
+          },
+          {
+            "n": 29,
+            "html": [
+              "What is the difference between explaining war onset and explaining why an ongoing war continues?"
+            ],
+            "answer": "<p>War onset concerns the initial calculation to use force; continuation involves new information, sunk-cost thinking, changed objectives, profiteering groups, outside support and uncertainty about peace.</p>"
+          },
+          {
+            "n": 30,
+            "html": [
+              "Apply at least five chapter mechanisms to the fictional upstream dam crisis and propose two targeted remedies."
+            ],
+            "answer": "<p>The dam involves a material water dispute, threat perceptions, information gaps, future commitment problems and domestic political incentives. Shared sensors, joint management, arbitration and emergency communications target different mechanisms.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "043": {
+    "title": "Exercises",
+    "answerIntro": "These answers model a defensible explanation. Open-ended exercises have multiple possible strong responses; the criteria below explain what good reasoning should include.",
+    "groups": [
+      {
+        "title": null,
+        "intro": [],
+        "exercises": [
+          {
+            "n": 1,
+            "html": [
+              "Why does geographic location not automatically determine national power?"
+            ],
+            "answer": "<p>Location creates opportunities and obstacles, but infrastructure, institutions, technologies, alliances and choices affect whether these turn into capabilities. Power must be evaluated against a goal and time period.</p>"
+          },
+          {
+            "n": 2,
+            "html": [
+              "Distinguish physical geography from human geography in a security analysis."
+            ],
+            "answer": "<p>Physical geography concerns terrain, climate and water; human geography includes settlements, transport, law, economic networks and political identity. A useful explanation studies their interaction.</p>"
+          },
+          {
+            "n": 3,
+            "html": [
+              "What is the difference between straight-line distance and effective distance?"
+            ],
+            "answer": "<p>Effective distance accounts for travel time, expense, reliability and administrative barriers. A longer highway route can be cheaper than a short mountainous road.</p>"
+          },
+          {
+            "n": 4,
+            "html": [
+              "Why can a mountain range both protect and weaken a state?"
+            ],
+            "answer": "<p>It can slow movement by outside forces and channel access through passes, but also increase the cost of internal transport, administration and essential services.</p>"
+          },
+          {
+            "n": 5,
+            "html": [
+              "Why does a broad plain not automatically make invasion successful?"
+            ],
+            "answer": "<p>Plains can aid manoeuvre, yet supply, rivers, weather, defenders, political legitimacy and military organization determine what an army can accomplish.</p>"
+          },
+          {
+            "n": 6,
+            "html": [
+              "Give two ways a river acts as a connector and two ways it can become a source of dispute."
+            ],
+            "answer": "<p>It can carry trade and link farms to cities; disputes may involve water allocation, dams, shifting boundaries or control of bridges.</p>"
+          },
+          {
+            "n": 7,
+            "html": [
+              "What makes a seaport economically important beyond its physical location?"
+            ],
+            "answer": "<p>Harbour depth, connections to inland markets, efficient customs, storage, finance, workforce capacity, reliability and wider shipping networks.</p>"
+          },
+          {
+            "n": 8,
+            "html": [
+              "Why can landlocked countries still achieve high economic connectivity?"
+            ],
+            "answer": "<p>Regional agreements, modern rail and road links, effective borders, services exports and diversified routes can compensate partly for lack of direct sea access.</p>"
+          },
+          {
+            "n": 9,
+            "html": [
+              "Define a maritime chokepoint and explain why alternative routes matter."
+            ],
+            "answer": "<p>A chokepoint concentrates shipping through a restricted passage. Alternatives limit a bottleneck’s leverage but may add time, fuel, costs and risk.</p>"
+          },
+          {
+            "n": 10,
+            "html": [
+              "Why is the expression \"control of a strait\" potentially misleading?"
+            ],
+            "answer": "<p>A coastal government’s location is not identical to legal rights, actual naval capacity or freedom to suspend all traffic. Passage regimes and international agreements matter.</p>"
+          },
+          {
+            "n": 11,
+            "html": [
+              "How do bases and logistics affect sea power?"
+            ],
+            "answer": "<p>Ships require ports, maintenance, fuel, personnel, supplies and communications. Naval hardware alone does not guarantee sustained access far from home.</p>"
+          },
+          {
+            "n": 12,
+            "html": [
+              "Why is it inadequate to treat an island solely as a military platform?"
+            ],
+            "answer": "<p>Island residents have rights and livelihoods, and the island has ecosystems, economic and social networks. A base may create both benefits and costs.</p>"
+          },
+          {
+            "n": 13,
+            "html": [
+              "What is meant by the resource curse, and why is it not inevitable?"
+            ],
+            "answer": "<p>Resource revenues can encourage corruption or volatility under some conditions, but strong institutions and diversified economies can turn them into public benefits.</p>"
+          },
+          {
+            "n": 14,
+            "html": [
+              "How does food security differ from national agricultural self-sufficiency?"
+            ],
+            "answer": "<p>Food security concerns access, reliability, affordability and nutrition. Diverse imports and reserves may provide resilience even when not all food is produced domestically.</p>"
+          },
+          {
+            "n": 15,
+            "html": [
+              "Explain how solar power and electricity storage can change energy geopolitics."
+            ],
+            "answer": "<p>They may reduce fossil-fuel import dependence, but introduce needs for grids, batteries, minerals, equipment and regulatory cooperation. Geography is transformed rather than abolished.</p>"
+          },
+          {
+            "n": 16,
+            "html": [
+              "Why does population concentration produce both wealth and vulnerability?"
+            ],
+            "answer": "<p>Agglomeration supports specialization and services, but concentrating firms and people in a few nodes can increase exposure to flooding or network failure.</p>"
+          },
+          {
+            "n": 17,
+            "html": [
+              "What does it mean to call a port or city a network node?"
+            ],
+            "answer": "<p>It links flows of cargo, people, information and services. Its significance depends on the connectivity and substitutability of those links.</p>"
+          },
+          {
+            "n": 18,
+            "html": [
+              "Why are borders more than physical lines?"
+            ],
+            "answer": "<p>They involve laws, citizenship, inspections, trade rules and political relationships. Their practical role can change without any alteration to the line on a map.</p>"
+          },
+          {
+            "n": 19,
+            "html": [
+              "How do a territorial sea and exclusive economic zone differ?"
+            ],
+            "answer": "<p>Under UNCLOS, the territorial sea may extend up to 12 nautical miles; an EEZ may generally extend up to 200 and confers specified sovereign resource rights, not full territorial sovereignty.</p>"
+          },
+          {
+            "n": 20,
+            "html": [
+              "What distinguishes climate hazard from climate-driven political conflict?"
+            ],
+            "answer": "<p>Drought or flooding is an environmental pressure; violence depends on exposure, governance, inequality, political decisions and conflict mechanisms. Climate does not mechanically cause war.</p>"
+          },
+          {
+            "n": 21,
+            "html": [
+              "Give two examples of how technology changes the strategic meaning of geography."
+            ],
+            "answer": "<p>Tunnels reduce mountain crossing costs; satellites and undersea cables change communication links, though power stations, landing points and maintenance remain physical bottlenecks.</p>"
+          },
+          {
+            "n": 22,
+            "html": [
+              "Why must cyber power still be analyzed geographically?"
+            ],
+            "answer": "<p>Digital networks depend on physical fibre-optic cables, data centres, electricity supplies, landing points and institutions that maintain or regulate them.</p>"
+          },
+          {
+            "n": 23,
+            "html": [
+              "How is a supply-chain map different from a map of mineral deposits?"
+            ],
+            "answer": "<p>It traces refining, processing, component production, transport and alternative suppliers, revealing vulnerabilities that may lie far from the original deposit.</p>"
+          },
+          {
+            "n": 24,
+            "html": [
+              "Compare the core emphases of Mahan, Mackinder and Spykman."
+            ],
+            "answer": "<p>Mahan stressed maritime power and commerce; Mackinder examined the Eurasian interior and railways; Spykman emphasized the Eurasian coastal rimland. None supplies an infallible rule.</p>"
+          },
+          {
+            "n": 25,
+            "html": [
+              "What is the central warning of critical geopolitics?"
+            ],
+            "answer": "<p>Maps and strategic labels are framed by political interests. They may erase people and turn disputed claims or imperial ambitions into apparently natural facts.</p>"
+          },
+          {
+            "n": 26,
+            "html": [
+              "How might the United States and Russia have different geographic vulnerabilities?"
+            ],
+            "answer": "<p>The U.S. has extensive maritime access and interior waterways; Russia has vast land distances and varied climates. Both outcomes also depend on infrastructure and political choices.</p>"
+          },
+          {
+            "n": 27,
+            "html": [
+              "Name three geographic features important to Bulgaria and explain a resulting opportunity or risk."
+            ],
+            "answer": "<p>The Danube offers river transport, the Black Sea enables maritime access, and mountain passes channel land routes. Benefits depend on infrastructure, navigation conditions and neighbor relations.</p>"
+          },
+          {
+            "n": 28,
+            "html": [
+              "Why do geography and law both matter for the Turkish Straits?"
+            ],
+            "answer": "<p>The Bosphorus and Dardanelles are narrow physical passages, while the Montreux Convention and other applicable rules shape the legal treatment of shipping and warships.</p>"
+          },
+          {
+            "n": 29,
+            "html": [
+              "What is a practical four-step assessment of infrastructure vulnerability?"
+            ],
+            "answer": "<p>Identify an essential flow; locate the bottleneck; evaluate realistic alternatives and switching time; estimate who suffers if it fails.</p>"
+          },
+          {
+            "n": 30,
+            "html": [
+              "Apply the seven-question geography diagnostic to a fictional mountain corridor."
+            ],
+            "answer": "<p>Identify the feature, dependencies and substitutes; check legal and operational control; assess technology and institutions; include affected communities; seek evidence that could falsify claims of inevitability.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "044": {
+    "title": "Exercises",
+    "answerIntro": "These answers model a defensible explanation. Open-ended exercises have multiple possible strong responses; the criteria below explain what good reasoning should include.",
+    "groups": [
+      {
+        "title": null,
+        "intro": [
+          "Attempt these without looking at the text. Questions 12, 16 and 30 require application and reasoning, not just recall."
+        ],
+        "exercises": [
+          {
+            "n": 1,
+            "html": [
+              "Distinguish potential power, military capability and political power."
+            ],
+            "answer": "<p>Potential power is the underlying resource base. Capability concerns performing a defined task. Political power concerns influencing outcomes, which may depend on nonmilitary actors and institutions.</p>"
+          },
+          {
+            "n": 2,
+            "html": [
+              "Why is an inventory not a measure of usable capability?"
+            ],
+            "answer": "<p>Ownership does not establish condition, trained personnel, appropriate support or suitability for the task. An inventory may include assets unavailable for ordinary duties.</p>"
+          },
+          {
+            "n": 3,
+            "html": [
+              "Explain the difference between strategy, the operational level and tactics."
+            ],
+            "answer": "<p>Strategy relates means to political objectives; the operational level concerns organisation across campaigns; tactics concerns individual military engagements or actions. Local outcomes may not advance political goals.</p>"
+          },
+          {
+            "n": 4,
+            "html": [
+              "Why should comparisons of military unit sizes be treated cautiously?"
+            ],
+            "answer": "<p>Unit titles differ across countries, services and periods. Authorised strength may differ from actual strength, and identical titles may describe different functions.</p>"
+          },
+          {
+            "n": 5,
+            "html": [
+              "Distinguish rank, appointment, command and staff work."
+            ],
+            "answer": "<p>Rank is formal status; an appointment is a job; command is delegated authority over a defined responsibility; staff work provides specialist support for decisions and administration.</p>"
+          },
+          {
+            "n": 6,
+            "html": [
+              "What does civilian control mean in a constitutional democracy?"
+            ],
+            "answer": "<p>Lawful civilian institutions determine policy and exercise oversight through constitutional responsibilities. Military professionals advise and administer; technical expertise does not confer political sovereignty.</p>"
+          },
+          {
+            "n": 7,
+            "html": [
+              "Describe two trade-offs between conscription and voluntary recruitment."
+            ],
+            "answer": "<p>Conscription distributes obligations under law but may disrupt education or employment and requires recurring training. Volunteers choose service but recruitment and retention compete with civilian opportunities.</p>"
+          },
+          {
+            "n": 8,
+            "html": [
+              "Why are reserve personnel totals insufficient evidence of preparedness?"
+            ],
+            "answer": "<p>Records may include people with different training, health, eligibility and civilian obligations. Legal and administrative arrangements determine whether personnel can be called upon.</p>"
+          },
+          {
+            "n": 9,
+            "html": [
+              "How can an institution appear well trained while learning very little?"
+            ],
+            "answer": "<p>Exercises may be scripted to impress observers, or failures concealed. Learning requires truthful feedback, evaluation of evidence and willingness to reconsider assumptions.</p>"
+          },
+          {
+            "n": 10,
+            "html": [
+              "Distinguish morale from cohesion."
+            ],
+            "answer": "<p>Morale concerns psychological disposition, confidence or commitment. Cohesion concerns bonds enabling people to function together. They overlap but need not vary in the same way.</p>"
+          },
+          {
+            "n": 11,
+            "html": [
+              "Explain logistics using a grocery shop analogy."
+            ],
+            "answer": "<p>Visible stock depends on delivery, refrigeration, workers, payments, inventory records and repair. An armed force likewise depends on a system beyond its visible assets.</p>"
+          },
+          {
+            "n": 12,
+            "html": [
+              "A fictional public shelter holds 200 bottles of water, receives 60 and distributes 75. What is its new stock? What does the result illustrate?"
+            ],
+            "answer": "<p>200 + 60 − 75 = 185 bottles. A stock changes according to net flows; an initially high stock does not imply that it will remain high.</p>"
+          },
+          {
+            "n": 13,
+            "html": [
+              "Why does domestic assembly not establish industrial self-sufficiency?"
+            ],
+            "answer": "<p>Finished products may depend on imported components, specialist machinery, energy, intellectual property or repair services. Assembly is one stage in a wider production network.</p>"
+          },
+          {
+            "n": 14,
+            "html": [
+              "Explain effective distance with a civilian transport example."
+            ],
+            "answer": "<p>A longer route with reliable connections can take less time and cost less than a short but poorly connected route. Administrative permissions and reliability matter too.</p>"
+          },
+          {
+            "n": 15,
+            "html": [
+              "Why does ownership of energy resources differ from energy availability?"
+            ],
+            "answer": "<p>Extraction, refining, electricity generation, transport, regulations and infrastructure are needed to turn a resource into usable energy. Ownership is only one part of the system.</p>"
+          },
+          {
+            "n": 16,
+            "html": [
+              "A town compares two bus contracts: €2 million purchase plus €3 million lifetime support versus €3 million purchase plus €1 million support. Which costs less on the stated assumptions?"
+            ],
+            "answer": "<p>The first totals €5 million; the second €4 million. The second costs €1 million less, assuming comparable service, time horizon and cost definitions. A full evaluation would consider quality, risk and discounting.</p>"
+          },
+          {
+            "n": 17,
+            "html": [
+              "Why can one readiness percentage conceal important differences?"
+            ],
+            "answer": "<p>The measure depends on the specified task and definition. Personnel, training, maintenance and equipment may be assessed differently. A snapshot can omit long-term sustainability.</p>"
+          },
+          {
+            "n": 18,
+            "html": [
+              "Why is public health part of military history?"
+            ],
+            "answer": "<p>Disease, exhaustion, sanitation and medical care shape human well-being and institutional capacity. Conflict also disrupts civilian health systems, generating indirect suffering.</p>"
+          },
+          {
+            "n": 19,
+            "html": [
+              "Distinguish information from intelligence, and capability from intention."
+            ],
+            "answer": "<p>Information is an observation or report; intelligence is assessed information relevant to decisions. Capability is what an actor may be able to do; intention is what it plans or wishes to do. Evidence for one does not prove the other.</p>"
+          },
+          {
+            "n": 20,
+            "html": [
+              "What is the difference between joint institutions and interoperability?"
+            ],
+            "answer": "<p>Joint usually describes cooperation across military services. Interoperability describes the ability of organisations to work together effectively; it also applies across countries and civilian agencies.</p>"
+          },
+          {
+            "n": 21,
+            "html": [
+              "Why should Rome's military capacity be studied using more than written chronicles?"
+            ],
+            "answer": "<p>Literary accounts may emphasise famous figures. Archaeology, inscriptions and documents reveal aspects of provisioning and administration; combining evidence can correct selection bias.</p>"
+          },
+          {
+            "n": 22,
+            "html": [
+              "Explain why the Mongol Empire's expansion cannot be explained solely by steppe geography."
+            ],
+            "answer": "<p>Pastoral ecology shaped available skills and resources, but political unification, institutional organisation, incorporation of other peoples and the circumstances of neighbours also mattered.</p>"
+          },
+          {
+            "n": 23,
+            "html": [
+              "What does the fiscal-military state concept highlight? What is one limitation?"
+            ],
+            "answer": "<p>It highlights links between war, taxation, borrowing and state administration. It derives largely from particular European experiences and should not be imposed as a universal developmental sequence.</p>"
+          },
+          {
+            "n": 24,
+            "html": [
+              "Why is winter alone an inadequate explanation for Napoleon's 1812 failure?"
+            ],
+            "answer": "<p>The campaign also involved earlier exhaustion, provisioning difficulties, illness, distance and a failure to obtain the desired political settlement. Cold intensified interacting problems.</p>"
+          },
+          {
+            "n": 25,
+            "html": [
+              "How did industrialisation change the relationship between military institutions and civilian society?"
+            ],
+            "answer": "<p>Mass production, railways and communications enabled larger institutions, while war economies depended on labour, finance, factories and domestic political endurance. Old and new transport methods coexisted.</p>"
+          },
+          {
+            "n": 26,
+            "html": [
+              "What does the Red Ball Express reveal beyond a story about transport?"
+            ],
+            "answer": "<p>It highlights the labour of people who supported Allied operations, including African American soldiers in a segregated military. It connects institutional achievement to social inequality and historical recognition.</p>"
+          },
+          {
+            "n": 27,
+            "html": [
+              "Explain the Berlin Airlift as an example of logistics and political commitment."
+            ],
+            "answer": "<p>The Western Allies supplied West Berlin in response to the Soviet blockade in 1948–49. Sustained civilian provision reinforced a political commitment while avoiding direct military confrontation.</p>"
+          },
+          {
+            "n": 28,
+            "html": [
+              "Who is Bulgaria's Supreme Commander-in-Chief, and why is this title insufficient to describe the entire system of control?"
+            ],
+            "answer": "<p>The President. The Constitution also assigns powers to the National Assembly and Council of Ministers; lawful authority is distributed across institutions. Bulgaria joined NATO on 29 March 2004.</p>"
+          },
+          {
+            "n": 29,
+            "html": [
+              "Why is military expenditure an input rather than an outcome? Include one opportunity cost."
+            ],
+            "answer": "<p>Spending measures allocated or incurred financial resources, not the capability created or security achieved. Spending can displace alternative public investment, reduce other expenditure or increase debt; evaluating the trade-off requires context.</p>"
+          },
+          {
+            "n": 30,
+            "html": [
+              "A commentator claims that Country A will achieve its political goals because it spends twice as much as Country B. Evaluate the argument and identify a legal or ethical constraint."
+            ],
+            "answer": "<p>The conclusion does not follow. Accounting, prices, institutions, readiness, task, geography, objectives, external actors and legitimacy matter. The pursuit of any objective remains subject to applicable law, including protections for civilians and the wounded.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "045": {
+    "title": "Exercises",
+    "answerIntro": "These answers model a defensible explanation. Open-ended exercises have multiple possible strong responses; the criteria below explain what good reasoning should include.",
+    "groups": [
+      {
+        "title": null,
+        "intro": [
+          "Attempt these before consulting the answers. Explain your reasoning in complete sentences, and distinguish factual, analytical and evaluative claims."
+        ],
+        "exercises": [
+          {
+            "n": 1,
+            "html": [
+              "Distinguish foreign policy, diplomacy and statecraft using one example."
+            ],
+            "answer": "<p>Foreign policy sets goals; diplomacy manages relations and negotiates; statecraft uses the wider instruments of influence. A government may seek trade access, negotiate a customs agreement and change domestic regulations to implement it.</p>"
+          },
+          {
+            "n": 2,
+            "html": [
+              "Explain why a handshake is not evidence of an alliance."
+            ],
+            "answer": "<p>It shows that a meeting occurred and may signal cooperation; it does not establish a security commitment. Examine the actual documents, authority, obligations and subsequent conduct.</p>"
+          },
+          {
+            "n": 3,
+            "html": [
+              "What do the Amarna letters reveal about early diplomacy?"
+            ],
+            "answer": "<p>They document communication, exchanges, status distinctions and bargaining among ancient courts. They show organised interstate relationships without implying a modern system of equal sovereign states.</p>"
+          },
+          {
+            "n": 4,
+            "html": [
+              "Why is Westphalia not a simple birth date for sovereignty?"
+            ],
+            "answer": "<p>The 1648 settlements altered European political arrangements, but overlapping jurisdictions and empires persisted. Sovereignty developed unevenly over centuries; a convenient date is not a complete causal explanation.</p>"
+          },
+          {
+            "n": 5,
+            "html": [
+              "Correct the statement that an embassy is foreign territory."
+            ],
+            "answer": "<p>Its premises are inviolable under diplomatic law but remain within the receiving state's territory. Immunities protect diplomatic functions rather than transfer sovereignty.</p>"
+          },
+          {
+            "n": 6,
+            "html": [
+              "Compare an embassy with a consulate."
+            ],
+            "answer": "<p>An embassy represents the sending state and negotiates with the receiving government; a consulate focuses on consular services and protection of nationals. Functions can overlap.</p>"
+          },
+          {
+            "n": 7,
+            "html": [
+              "Give examples of bilateral, multilateral and unofficial diplomacy."
+            ],
+            "answer": "<p>Two governments negotiating a trade agreement; several governments negotiating a regional environmental accord; researchers or former officials discussing possible solutions without authority to bind governments.</p>"
+          },
+          {
+            "n": 8,
+            "html": [
+              "Identify positions and interests in a shared river dispute."
+            ],
+            "answer": "<p>Positions might be a fixed allocation and a right to build a dam. Interests could include agriculture, electricity, drinking water and legal recognition. Examine hydrology, law and affected groups before judging solutions.</p>"
+          },
+          {
+            "n": 9,
+            "html": [
+              "In the cultural-centre example, if A can contribute 65 and B 50 of a total 100, what range is feasible?"
+            ],
+            "answer": "<p>A can contribute between 50 and 65; B covers the balance, 35–50. The range identifies feasible allocations, not the uniquely fair one.</p>"
+          },
+          {
+            "n": 10,
+            "html": [
+              "If the centre costs 120 and the maxima remain 65 and 50, what happens?"
+            ],
+            "answer": "<p>The maximum combined contribution is 115, leaving a gap of 5. Under the assumed constraints no allocation finances the entire project; assumptions or alternatives must change.</p>"
+          },
+          {
+            "n": 11,
+            "html": [
+              "Distinguish verification, adjudication and enforcement."
+            ],
+            "answer": "<p>Verification establishes evidence about compliance; adjudication applies or interprets rules; enforcement concerns responses to violations. Each requires authority and institutional capacity.</p>"
+          },
+          {
+            "n": 12,
+            "html": [
+              "Explain Putnam's two-level game using a trade agreement."
+            ],
+            "answer": "<p>An authorised negotiator needs terms acceptable abroad and sufficient domestic approval. Parliamentary rules, coalition politics and affected industries can constrain an internationally feasible compromise.</p>"
+          },
+          {
+            "n": 13,
+            "html": [
+              "Compare mediation and arbitration."
+            ],
+            "answer": "<p>A mediator facilitates a voluntary agreement, while arbitration refers a dispute to an agreed tribunal for a decision under the applicable framework. Neither should be confused with ordinary informal discussion.</p>"
+          },
+          {
+            "n": 14,
+            "html": [
+              "Why can signing a treaty differ from entering it into force?"
+            ],
+            "answer": "<p>Some treaties require ratification or other conditions; a signature may not alone make all obligations operative. Check the consent and entry-into-force clauses and domestic rules.</p>"
+          },
+          {
+            "n": 15,
+            "html": [
+              "What is the difference between an alliance and a coalition?"
+            ],
+            "answer": "<p>An alliance is a commitment to security cooperation, often enduring; a coalition may be organised for a specific purpose. The labels are imperfect, so the actual commitments matter.</p>"
+          },
+          {
+            "n": 16,
+            "html": [
+              "Distinguish internal and external balancing."
+            ],
+            "answer": "<p>Internal balancing builds domestic capacity; external balancing seeks cooperation with other actors. Neither automatically establishes equilibrium or peace.</p>"
+          },
+          {
+            "n": 17,
+            "html": [
+              "Why is bipolarity not equivalent to a world of only two actors?"
+            ],
+            "answer": "<p>It identifies two predominant centres, not the absence of other states. Regional powers, nonaligned actors and institutions retain agency and influence.</p>"
+          },
+          {
+            "n": 18,
+            "html": [
+              "Explain the difference between balance of power and balance of threat."
+            ],
+            "answer": "<p>Power concerns capabilities and their distribution; threat incorporates perceived intentions, proximity and other factors. The same strong state may be perceived differently by different governments.</p>"
+          },
+          {
+            "n": 19,
+            "html": [
+              "Distinguish neutrality, nonalignment and hedging."
+            ],
+            "answer": "<p>Neutrality concerns nonparticipation in conflict under applicable law; nonalignment avoids exclusive bloc alignment as a political stance; hedging describes preserving options amid uncertainty. They are not interchangeable.</p>"
+          },
+          {
+            "n": 20,
+            "html": [
+              "Draw a security-dilemma feedback loop and identify one limitation."
+            ],
+            "answer": "<p>A fears B, increases defensive capacity, B interprets the change as threatening and responds, reinforcing A's fear. The mechanism does not explain deliberate aggression or prove equal responsibility.</p>"
+          },
+          {
+            "n": 21,
+            "html": [
+              "Contrast abandonment and entrapment."
+            ],
+            "answer": "<p>Abandonment is fear of missing expected allied support. Entrapment is fear of being drawn into an undesired confrontation. Treaty conditions and national decisions affect both.</p>"
+          },
+          {
+            "n": 22,
+            "html": [
+              "Why is equal spending not necessarily equal burden-sharing?"
+            ],
+            "answer": "<p>States differ in resources, needs and contributions. Equal absolute costs can impose unequal relative burdens; inputs do not necessarily measure effective outputs.</p>"
+          },
+          {
+            "n": 23,
+            "html": [
+              "Compare collective defence and collective security."
+            ],
+            "answer": "<p>Collective defence promises assistance to covered partners; collective security seeks wider responses to threats to peace through a common institution. Both depend on rules, authority and implementation.</p>"
+          },
+          {
+            "n": 24,
+            "html": [
+              "Evaluate the claim that the Congress of Vienna produced a century of peace."
+            ],
+            "answer": "<p>It helped establish a framework of consultation and restraint, but European wars and colonial violence continued. Distinguish absence of a general European war from universal peace, and avoid attributing causation to one institution alone.</p>"
+          },
+          {
+            "n": 25,
+            "html": [
+              "Why does Italy's behaviour in 1914 complicate alliance determinism?"
+            ],
+            "answer": "<p>Italy was a Triple Alliance member but stayed out initially and joined the opposing side in 1915. Treaty interpretation, political interests and decisions mattered; bloc diagrams do not mechanically predict behaviour.</p>"
+          },
+          {
+            "n": 26,
+            "html": [
+              "Give one success and one major failure of the League of Nations."
+            ],
+            "answer": "<p>It helped address the Åland Islands dispute or Greek-Bulgarian crisis; it failed to secure effective responses to aggression in Manchuria or Ethiopia. The contrast illustrates the role of political support and capacity.</p>"
+          },
+          {
+            "n": 27,
+            "html": [
+              "Compare UN Security Council authority with NATO Article 5."
+            ],
+            "answer": "<p>The Council has Charter responsibilities for international peace and security and can adopt binding decisions under relevant powers; Article 5 concerns assistance to covered allies after an armed attack. Each NATO party chooses necessary action; the legal bases differ.</p>"
+          },
+          {
+            "n": 28,
+            "html": [
+              "What do Bandung and US–China rapprochement teach about bloc politics?"
+            ],
+            "answer": "<p>Bandung shows the independent priorities of postcolonial states; rapprochement shows that rivalry and ideology do not preclude cooperation on shared interests. Neither implies complete agreement or a new formal alliance.</p>"
+          },
+          {
+            "n": 29,
+            "html": [
+              "Compare Camp David and Helsinki as diplomatic outcomes."
+            ],
+            "answer": "<p>Camp David led to a bilateral peace treaty, while wider Palestinian issues remained unresolved. Helsinki created broad political commitments without ending the Cold War. Evaluate each against its scope, implementation and affected parties.</p>"
+          },
+          {
+            "n": 30,
+            "html": [
+              "A headline says Bulgaria has signed a new security agreement. How would you analyse it?"
+            ],
+            "answer": "<p>Locate the original document, identify parties, legal status, authority, conditions and entry into force; compare existing EU, NATO and UN obligations; consult multiple sources and separate facts, causal claims, predictions and values.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "046": {
+    "title": "Exercises",
+    "answerIntro": "These answers model a defensible explanation. Open-ended exercises have multiple possible strong responses; the criteria below explain what good reasoning should include.",
+    "groups": [
+      {
+        "title": null,
+        "intro": [
+          "Attempt these before consulting the answers. Explain your reasoning in complete sentences, distinguishing legal rules, factual evidence, institutional authority and moral judgment."
+        ],
+        "exercises": [
+          {
+            "n": 1,
+            "html": [
+              "Explain why international law can be binding despite the absence of a single world police force."
+            ],
+            "answer": "<p>A legal obligation can exist independently of universal judicial jurisdiction or effective enforcement. Treaties, customary law, domestic implementation and institutional cooperation all create or support obligations. Weak enforcement is a serious practical limitation, not proof that the rule does not exist.</p>"
+          },
+          {
+            "n": 2,
+            "html": [
+              "Distinguish a treaty from customary international law. What evidence is required for custom?"
+            ],
+            "answer": "<p>A treaty binds according to its terms and the consent of parties. Custom requires general practice and acceptance of that practice as law. Repeated conduct alone may reflect convenience; statements, practice and other evidence must be examined together.</p>"
+          },
+          {
+            "n": 3,
+            "html": [
+              "A parliament passes a law contradicting a treaty in force. Does this automatically end the international obligation?"
+            ],
+            "answer": "<p>No. International obligations are not normally extinguished by contradictory domestic legislation. The treaty's terms, applicable withdrawal procedures and any specific exceptions must be examined separately from the domestic legal effect.</p>"
+          },
+          {
+            "n": 4,
+            "html": [
+              "Explain jus ad bellum and jus in bello using the example of a wounded enemy soldier."
+            ],
+            "answer": "<p>Jus ad bellum addresses the legality of resorting to force; jus in bello governs conduct during armed conflict. The wounded soldier's right to applicable humane treatment is independent of whether their state unlawfully initiated the war.</p>"
+          },
+          {
+            "n": 5,
+            "html": [
+              "Compare the historical Hague and Geneva traditions. Why is the distinction not absolute?"
+            ],
+            "answer": "<p>Hague law historically emphasized conduct of warfare and occupation; Geneva law emphasized victims and protected persons. Modern humanitarian law includes both traditions, and their subject matter overlaps.</p>"
+          },
+          {
+            "n": 6,
+            "html": [
+              "What changed in 1949 and 1977? Name the four Geneva Conventions in broad terms."
+            ],
+            "answer": "<p>The four 1949 Conventions address wounded and sick on land; wounded, sick and shipwrecked at sea; prisoners of war; and civilian protection. The 1977 Protocols developed protection in international and certain non-international conflicts. Treaty participation and customary rules still need checking.</p>"
+          },
+          {
+            "n": 7,
+            "html": [
+              "How did the League Covenant and Kellogg-Briand Pact differ from the post-1945 Charter framework?"
+            ],
+            "answer": "<p>The League imposed procedures restricting war and Kellogg-Briand renounced war as national policy among parties. The Charter established a broader prohibition on interstate force, a collective security structure and a defined right of self-defence. Earlier instruments had significant enforcement limitations.</p>"
+          },
+          {
+            "n": 8,
+            "html": [
+              "Why is a sincere perception of threat not sufficient to establish lawful self-defence?"
+            ],
+            "answer": "<p>The legal inquiry requires a basis under Article 51 and customary law, including an armed attack under the ordinary rule, necessity and proportionality. Claims about anticipatory defence and non-state actors remain contested; general fear is not a freestanding entitlement.</p>"
+          },
+          {
+            "n": 9,
+            "html": [
+              "Compare the legal effect of a Security Council authorization with a General Assembly recommendation."
+            ],
+            "answer": "<p>The Council can authorize force under Chapter VII within defined terms. Assembly recommendations are generally not equivalent authorizations. Read the actual text, institutional authority and scope; a veto or silence does not establish legality.</p>"
+          },
+          {
+            "n": 10,
+            "html": [
+              "What does responsibility to protect mean, and why is it not a blanket exception to the Charter?"
+            ],
+            "answer": "<p>The 2005 commitment concerns prevention of four atrocity categories, state responsibility, assistance and collective action through the Council in accordance with the Charter. It does not establish a general unilateral military entitlement.</p>"
+          },
+          {
+            "n": 11,
+            "html": [
+              "Differentiate an unlawful interstate use of force from the individual crime of aggression."
+            ],
+            "answer": "<p>The former concerns a state's obligations. The latter requires statutory elements, a leadership role, a manifest Charter violation and the applicable jurisdictional conditions. A political resolution or state responsibility finding is not itself a criminal conviction.</p>"
+          },
+          {
+            "n": 12,
+            "html": [
+              "Why can an armed conflict exist without a declaration of war? Contrast IAC and NIAC."
+            ],
+            "answer": "<p>Classification follows facts. Armed force between states generally triggers IAC; NIAC ordinarily requires sufficient organization and intensity. Common Article 3 and customary rules apply in NIAC, while Protocol II has a more specific threshold.</p>"
+          },
+          {
+            "n": 13,
+            "html": [
+              "Why is Common Article 3 so important in civil wars?"
+            ],
+            "answer": "<p>It imposes minimum humane-treatment and judicial safeguards regardless of recognition or political status. Governments and organized armed groups cannot treat people outside combat as legally unprotected because the conflict is internal.</p>"
+          },
+          {
+            "n": 14,
+            "html": [
+              "A civilian expresses support for a belligerent on social media. Does that alone remove civilian protection?"
+            ],
+            "answer": "<p>No. Political sympathy is not itself direct participation in hostilities. Civilian protection against direct attack depends on the applicable law and facts, not ideology, nationality or association.</p>"
+          },
+          {
+            "n": 15,
+            "html": [
+              "Why is proportionality not a mathematical comparison of casualties on opposing sides?"
+            ],
+            "answer": "<p>IHL proportionality concerns expected incidental civilian harm compared with the concrete and direct military advantage anticipated from a particular attack. It is not a casualty ratio; distinction and precautions are separate obligations. An investigation needs evidence beyond outcome statistics.</p>"
+          },
+          {
+            "n": 16,
+            "html": [
+              "Can a party torture a prisoner because the opposing party has tortured its own prisoners?"
+            ],
+            "answer": "<p>No. The prohibition of torture does not disappear in response to another party's violation. Humane treatment is owed independently of reciprocal behavior, including in an emergency.</p>"
+          },
+          {
+            "n": 17,
+            "html": [
+              "Why is treating wounded enemy fighters not a breach of medical neutrality?"
+            ],
+            "answer": "<p>Impartial medical care allocates treatment according to medical need. Treating an injured enemy is part of the medical function, not by itself harmful activity outside that function. Applicable protections cover patients and medical services.</p>"
+          },
+          {
+            "n": 18,
+            "html": [
+              "Distinguish prisoner-of-war status from the minimum humane treatment owed to other detainees."
+            ],
+            "answer": "<p>POW status under GC III depends on IAC and the relevant criteria. Fighters in NIAC do not automatically have POW status or combatant immunity, but humane treatment and fundamental judicial safeguards remain obligatory.</p>"
+          },
+          {
+            "n": 19,
+            "html": [
+              "Explain why occupation does not transfer territorial sovereignty."
+            ],
+            "answer": "<p>Occupation is based on factual effective control without valid consent, rather than legal title. The occupying authority has duties toward the population and must comply with rules limiting changes, transfers and treatment. Annexation claims do not erase those duties.</p>"
+          },
+          {
+            "n": 20,
+            "html": [
+              "Why can disruption of civilian food and health systems be legally relevant without proving every element of a crime?"
+            ],
+            "answer": "<p>Humanitarian duties address civilian survival, relief and health. Evidence of deprivation can establish urgent humanitarian needs and trigger investigation; proving an individual crime additionally requires specific legal elements and the requisite evidence of responsibility.</p>"
+          },
+          {
+            "n": 21,
+            "html": [
+              "Distinguish neutrality, impartiality and independence in humanitarian assistance."
+            ],
+            "answer": "<p>Neutrality concerns not taking sides in hostilities, impartiality allocates help by need without adverse discrimination, and independence preserves humanitarian autonomy. Negotiating with a party to reach victims does not necessarily endorse that party.</p>"
+          },
+          {
+            "n": 22,
+            "html": [
+              "Explain the difference between a refugee and an internally displaced person, and define non-refoulement."
+            ],
+            "answer": "<p>An IDP remains within the state's borders. A refugee is outside the country and meets an applicable protection definition. Non-refoulement restricts returning a person to certain serious dangers under the relevant legal regime.</p>"
+          },
+          {
+            "n": 23,
+            "html": [
+              "Why did the Lubanga and Al Mahdi cases address different kinds of wartime injury?"
+            ],
+            "answer": "<p>Lubanga concerned recruitment and use of children under fifteen; Al Mahdi concerned historic and religious monuments. Both involved specific Rome Statute offenses, illustrating protection of children and cultural heritage rather than a verdict on every aspect of a conflict.</p>"
+          },
+          {
+            "n": 24,
+            "html": [
+              "What is the relationship between human rights law and humanitarian law during war?"
+            ],
+            "answer": "<p>They can operate concurrently. Human rights obligations may be subject to treaty-specific limitations or valid derogations, while some are non-derogable. IHL regulates armed conflict; precise interaction depends on applicable rules and jurisdiction.</p>"
+          },
+          {
+            "n": 25,
+            "html": [
+              "Distinguish state responsibility from individual criminal responsibility. Give two possible remedies for a state breach."
+            ],
+            "answer": "<p>State responsibility addresses attributable breaches of international obligations; criminal responsibility concerns individuals and offense elements. State remedies may include cessation, restitution, compensation or satisfaction. A finding against a state is not automatically a personal conviction.</p>"
+          },
+          {
+            "n": 26,
+            "html": [
+              "Explain why genocide, crimes against humanity and war crimes are not interchangeable terms."
+            ],
+            "answer": "<p>Genocide requires specific intent to destroy a protected group in whole or part; crimes against humanity have a wider civilian-attack context and required knowledge; war crimes require a relevant armed-conflict nexus and a recognized offense. Their gravity is not a simple ranking of suffering.</p>"
+          },
+          {
+            "n": 27,
+            "html": [
+              "Compare the ICJ and ICC, including jurisdiction, subjects and typical decisions."
+            ],
+            "answer": "<p>The ICJ resolves interstate disputes based on consent and provides authorized advisory opinions. The ICC prosecutes natural persons within statutory jurisdiction and admissibility rules. ICJ judgments, advisory opinions and ICC convictions are legally different instruments.</p>"
+          },
+          {
+            "n": 28,
+            "html": [
+              "How can an arrest warrant, a criminal conviction and an ICJ provisional order be confused in the news? Explain why that is incorrect."
+            ],
+            "answer": "<p>An ICC warrant is an earlier procedural decision, not proof beyond reasonable doubt. A conviction follows the criminal standard of proof. An ICJ provisional order protects rights pending a contentious case, rather than deciding the merits or imposing individual guilt.</p>"
+          },
+          {
+            "n": 29,
+            "html": [
+              "The Congo-Uganda reparations judgment allocated $225m, $40m and $60m across three categories. Calculate total and explain its limits."
+            ],
+            "answer": "<p>The total is $325 million. Approximately 69.2% concerned harm to persons, 12.3% property and 18.5% natural resources. These are judicial compensation categories, not a complete valuation of human suffering or proof that compensation reached every victim.</p>"
+          },
+          {
+            "n": 30,
+            "html": [
+              "Use the fictional Eastmere–Westmere case to outline four separate legal inquiries and explain what further evidence is needed."
+            ],
+            "answer": "<p>Examine the interstate use of force, IHL applicability and protected persons, factual control and occupation duties, and state or individual accountability. Verify facts and documents, relevant rules, attribution or individual elements and the forum's jurisdiction. Urgent protection need not await a verdict.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "047": {
+    "title": "Exercises",
+    "answerIntro": "These answers model a defensible explanation. Open-ended exercises have multiple possible strong responses; the criteria below explain what good reasoning should include.",
+    "groups": [
+      {
+        "title": null,
+        "intro": [
+          "Attempt these before consulting the answers. Explain your reasoning in complete sentences, distinguishing historical evidence, theoretical claims, legal obligations and moral judgment."
+        ],
+        "exercises": [
+          {
+            "n": 1,
+            "html": [
+              "Explain why the absence of a nuclear war does not prove that deterrence was its sole cause."
+            ],
+            "answer": "<p>Non-occurrence is compatible with several explanations. One needs evidence of changed decisions and comparisons with plausible alternatives; the counterfactual cannot be observed directly.</p>"
+          },
+          {
+            "n": 2,
+            "html": [
+              "Distinguish deterrence, defence and compellence using a nonmilitary example."
+            ],
+            "answer": "<p>A lock may discourage theft (deterrence) and physically impede it (defence). A demand to return stolen property concerns compellence. The categories concern different objectives.</p>"
+          },
+          {
+            "n": 3,
+            "html": [
+              "Why does overwhelming destructive power not necessarily produce political influence in every dispute?"
+            ],
+            "answer": "<p>Political objectives, legal obligations, resistance, alliances and other costs matter. Destructive capacity cannot automatically secure cooperation or legitimacy.</p>"
+          },
+          {
+            "n": 4,
+            "html": [
+              "Describe two rival interpretations of the 1945 Japanese surrender and the evidence you would seek."
+            ],
+            "answer": "<p>The bombings and the desire to avoid invasion are one explanation; Soviet entry and diplomatic or domestic factors are others. Examine contemporaneous records from multiple governments, not merely later recollections.</p>"
+          },
+          {
+            "n": 5,
+            "html": [
+              "Put the five first nuclear test years of the NPT-recognized nuclear-weapon states in order."
+            ],
+            "answer": "<p>United States 1945; Soviet Union 1949; United Kingdom 1952; France 1960; China 1964. The list records historical milestones, not treaty privileges without obligations.</p>"
+          },
+          {
+            "n": 6,
+            "html": [
+              "What is mutually assured destruction, and what does it not establish?"
+            ],
+            "answer": "<p>It describes mutual vulnerability to catastrophic harm. It is not a treaty, an assurance of perfect control, or proof that war is impossible.</p>"
+          },
+          {
+            "n": 7,
+            "html": [
+              "Why can rational decisions produce bad outcomes?"
+            ],
+            "answer": "<p>Rationality is relative to goals and beliefs. Incorrect information, organizational errors and uncertainty can lead to damaging outcomes even when choices are internally consistent.</p>"
+          },
+          {
+            "n": 8,
+            "html": [
+              "Explain the security dilemma without assuming that all adversaries are equally responsible."
+            ],
+            "answer": "<p>Measures perceived as defensive by one party can appear threatening to another. The mechanism can coexist with deliberate aggression; responsibility must be assessed from evidence.</p>"
+          },
+          {
+            "n": 9,
+            "html": [
+              "Separate crisis stability from arms-race stability."
+            ],
+            "answer": "<p>The former concerns danger during acute confrontations; the latter concerns pressures for continuing military competition. Improvements in one dimension need not resolve the other.</p>"
+          },
+          {
+            "n": 10,
+            "html": [
+              "Explain the stability–instability paradox as a hypothesis rather than a law."
+            ],
+            "answer": "<p>Restraint against the most catastrophic form of confrontation may coexist with less severe conflicts. Evidence and rival explanations determine whether the hypothesis fits a specific case.</p>"
+          },
+          {
+            "n": 11,
+            "html": [
+              "What does a nuclear umbrella mean, and why is it not physical protection?"
+            ],
+            "answer": "<p>It is a political assurance related to an ally's security expectations. It cannot guarantee either future decisions or protection from nuclear effects.</p>"
+          },
+          {
+            "n": 12,
+            "html": [
+              "Does Article 5 of NATO automatically mandate a nuclear response? Explain."
+            ],
+            "answer": "<p>No. The treaty calls for collective assistance, with each party taking action it deems necessary, including possible armed force. It does not stipulate automatic nuclear use.</p>"
+          },
+          {
+            "n": 13,
+            "html": [
+              "Identify the public and private elements of the Cuban crisis settlement."
+            ],
+            "answer": "<p>Soviet withdrawal from Cuba, a US non-invasion commitment, and a private US undertaking to remove missiles from Türkiye. The example illustrates reciprocal concessions and diplomacy.</p>"
+          },
+          {
+            "n": 14,
+            "html": [
+              "What can a near miss reveal that a simple count of catastrophes cannot?"
+            ],
+            "answer": "<p>It can expose errors, organizational weaknesses, misperceptions and the role of corrective judgment. A peaceful outcome does not prove a system was free of danger.</p>"
+          },
+          {
+            "n": 15,
+            "html": [
+              "Contrast a nuclear taboo with a formal treaty obligation."
+            ],
+            "answer": "<p>A taboo is an informal normative inhibition or shared judgment about appropriateness; a treaty obligation derives from binding legal commitments. Both may influence behavior.</p>"
+          },
+          {
+            "n": 16,
+            "html": [
+              "Explain why comparing nuclear and non-nuclear states can introduce selection bias."
+            ],
+            "answer": "<p>States acquire weapons under different preexisting political and security conditions. Those conditions may also influence conflict, so possession is not randomly assigned.</p>"
+          },
+          {
+            "n": 17,
+            "html": [
+              "Describe horizontal and vertical proliferation."
+            ],
+            "answer": "<p>Horizontal proliferation concerns additional possessors; vertical proliferation concerns the expansion or development of existing arsenals. Non-proliferation and disarmament address related but distinct issues.</p>"
+          },
+          {
+            "n": 18,
+            "html": [
+              "Name the NPT's three pillars and explain Article VI."
+            ],
+            "answer": "<p>Non-proliferation, peaceful uses and disarmament. Article VI requires parties to pursue good-faith negotiations on effective measures concerning the arms race and nuclear disarmament, among other objectives.</p>"
+          },
+          {
+            "n": 19,
+            "html": [
+              "Distinguish IAEA safeguards, nuclear safety and nuclear security."
+            ],
+            "answer": "<p>Safeguards concern verification of specified non-proliferation obligations, safety concerns accident prevention and protection, and security concerns protection against malicious acts.</p>"
+          },
+          {
+            "n": 20,
+            "html": [
+              "Why is South Africa an important case in proliferation studies?"
+            ],
+            "answer": "<p>It dismantled its former arsenal and joined the NPT as a non-nuclear-weapon state; verification and changing political conditions show that possession is not irreversible.</p>"
+          },
+          {
+            "n": 21,
+            "html": [
+              "Why are the Budapest Memorandum and NATO Article 5 not interchangeable?"
+            ],
+            "answer": "<p>The memorandum records particular security assurances, while Article 5 creates a collective-defence obligation with its own terms. Their legal and institutional forms differ.</p>"
+          },
+          {
+            "n": 22,
+            "html": [
+              "Using the January 2026 estimates, calculate the number outside the military-stockpile category and its share of total inventory."
+            ],
+            "answer": "<p>12,187 minus 9,745 equals 2,442. Dividing by 12,187 gives about 20.0%. Both numbers remain approximate because the underlying estimates are uncertain.</p>"
+          },
+          {
+            "n": 23,
+            "html": [
+              "Distinguish arms control, disarmament and non-proliferation, giving one institutional example of each."
+            ],
+            "answer": "<p>The CTBT concerns restrictions on tests; disarmament concerns reductions or elimination, including the TPNW's elimination framework; the NPT addresses spread and also contains a disarmament commitment.</p>"
+          },
+          {
+            "n": 24,
+            "html": [
+              "Why does the expiry of New START not establish that either party instantly changed every practice?"
+            ],
+            "answer": "<p>Expiry removes the treaty's operative obligations, but subsequent behavior must be established independently. Voluntary restraint or new agreements are distinct from an expired treaty.</p>"
+          },
+          {
+            "n": 25,
+            "html": [
+              "Why is the CTBT not yet in force despite the existence of its monitoring system?"
+            ],
+            "answer": "<p>Its special ratification and entry-into-force conditions have not been fulfilled. The Preparatory Commission's work is distinct from the full set of powers available under an in-force treaty.</p>"
+          },
+          {
+            "n": 26,
+            "html": [
+              "Name three nuclear-weapon-free regions and explain why their treaties matter globally."
+            ],
+            "answer": "<p>Examples include Latin America and the Caribbean, Africa and Central Asia. Regional commitments can reduce local risks and reinforce international norms but cannot eliminate hazards from conflict elsewhere.</p>"
+          },
+          {
+            "n": 27,
+            "html": [
+              "Explain why the 1996 ICJ opinion is not an unlimited legal permission for nuclear use in self-defence."
+            ],
+            "answer": "<p>The Court found general incompatibility with humanitarian-law rules and left a narrow extreme circumstance unresolved; it did not authorize use in that circumstance. Other applicable law remains relevant.</p>"
+          },
+          {
+            "n": 28,
+            "html": [
+              "What is the significance of the TPNW's victim-assistance and environmental-remediation provisions?"
+            ],
+            "answer": "<p>They address the continuing consequences of past use and testing, not only prevention of future harm, subject to treaty terms and party obligations.</p>"
+          },
+          {
+            "n": 29,
+            "html": [
+              "For a fictional independent annual failure risk of 0.1%, calculate the cumulative probability over 50 years. State the assumptions."
+            ],
+            "answer": "<p>1 minus 0.999 to the power 50 is approximately 4.9%. This assumes constant independent annual probabilities and is not an empirical estimate of nuclear war.</p>"
+          },
+          {
+            "n": 30,
+            "html": [
+              "Essay: Can a policy be strategically effective yet ethically objectionable? Use two contrasting approaches and acknowledge uncertainty."
+            ],
+            "answer": "<p>A consequentialist may compare different risks and outcomes; a rights-based perspective may emphasize the impermissibility of threatening civilians. A strong answer separates factual claims from moral assumptions and considers people outside nuclear-armed states.</p>"
+          }
+        ]
+      }
+    ]
+  },
+  "048": {
+    "title": "Exercises",
+    "answerIntro": "These answers model a defensible explanation. Open-ended exercises have multiple possible strong responses; the criteria below explain what good reasoning should include.",
+    "groups": [
+      {
+        "title": null,
+        "intro": [
+          "Attempt these before consulting the answers. Explain your reasoning in complete sentences, distinguishing historical evidence, causal explanations, legal obligations and moral judgment."
+        ],
+        "exercises": [
+          {
+            "n": 1,
+            "html": [
+              "Define a civil war in ordinary historical language. Why must a research definition be identified separately?"
+            ],
+            "answer": "<p>Civil war is sustained organized conflict within a political community, commonly involving a state and organized challengers. Datasets impose explicit coding criteria to make observations comparable; those conventions are not universal legal or historical definitions.</p>"
+          },
+          {
+            "n": 2,
+            "html": [
+              "Distinguish UCDP's state-based armed-conflict threshold from its war-intensity threshold."
+            ],
+            "answer": "<p>For a dispute over government or territory involving at least one government, the former requires 25 battle-related deaths in a calendar year; the latter requires 1,000. These categories are research conventions, not measures of all harm.</p>"
+          },
+          {
+            "n": 3,
+            "html": [
+              "Why might a situation qualify as a non-international armed conflict even if it is not called a civil war by its government?"
+            ],
+            "answer": "<p>Legal classification depends on facts including intensity and organization, not political labels. Common Article 3 protects people independently of recognition of the parties.</p>"
+          },
+          {
+            "n": 4,
+            "html": [
+              "Explain the difference between state capacity, legitimacy and coercion."
+            ],
+            "answer": "<p>Capacity concerns the ability to implement decisions; legitimacy concerns the right to govern or its acceptance; coercion concerns compelled compliance. These can vary independently.</p>"
+          },
+          {
+            "n": 5,
+            "html": [
+              "Name the six OECD fragility dimensions and explain why fragility is a spectrum."
+            ],
+            "answer": "<p>Economic, environmental, human, political, security and societal. Risk and resilience differ across dimensions, institutions and periods; fragility is not a permanent national trait.</p>"
+          },
+          {
+            "n": 6,
+            "html": [
+              "Explain why the absence of central state authority does not imply the absence of local institutions."
+            ],
+            "answer": "<p>Municipal, customary, civic and commercial arrangements can continue to perform functions. Their authority, inclusiveness and effectiveness vary, and they may not provide all national public goods.</p>"
+          },
+          {
+            "n": 7,
+            "html": [
+              "Compare grievance, economic incentives and institutional opportunity explanations."
+            ],
+            "answer": "<p>Grievance concerns perceived or actual injustice; incentives concern material and political interests; opportunity concerns conditions making conflict possible. They may coexist and require separate evidence.</p>"
+          },
+          {
+            "n": 8,
+            "html": [
+              "Explain why an association between low income and civil war does not establish a causal mechanism."
+            ],
+            "answer": "<p>Income can represent several mechanisms; conflict can itself reduce income. Examine chronology, alternative explanations and comparable cases without war.</p>"
+          },
+          {
+            "n": 9,
+            "html": [
+              "Distinguish horizontal and vertical inequality."
+            ],
+            "answer": "<p>Vertical inequality compares individuals or households; horizontal inequality compares socially meaningful groups. Group averages cannot establish individual circumstances.</p>"
+          },
+          {
+            "n": 10,
+            "html": [
+              "Why is ethnic diversity a poor standalone explanation for civil war?"
+            ],
+            "answer": "<p>Diverse societies can coexist peacefully. Political exclusion and the institutions linking identities to unequal rights and resources are more informative than diversity alone.</p>"
+          },
+          {
+            "n": 11,
+            "html": [
+              "How can disputed political transitions create uncertainty without inevitably producing violence?"
+            ],
+            "answer": "<p>Rules and guarantees may become less credible. Independent courts, fair elections, legitimate opposition and continuity of services can help manage disputes without armed conflict.</p>"
+          },
+          {
+            "n": 12,
+            "html": [
+              "Why does a chronology of protests followed by repression and conflict not prove a single cause?"
+            ],
+            "answer": "<p>Sequence alone does not establish a mechanism or exclude competing explanations. Examine decisions, institutional conditions, evidence and comparable peaceful cases.</p>"
+          },
+          {
+            "n": 13,
+            "html": [
+              "Explain why oil or diamonds are not a sufficient explanation for war."
+            ],
+            "answer": "<p>Resource dependence can interact with unequal revenue distribution and weak oversight; resources can also support development. Political institutions and the origins of the conflict matter.</p>"
+          },
+          {
+            "n": 14,
+            "html": [
+              "Explain how civil war may become internationalized without losing its domestic origins."
+            ],
+            "answer": "<p>External actors may support parties or intervene, while domestic parties retain interests and agency. The domestic and external dimensions can coexist.</p>"
+          },
+          {
+            "n": 15,
+            "html": [
+              "How can war damage businesses without physically destroying their buildings?"
+            ],
+            "answer": "<p>Disrupted supplies, declining demand, uncertain contracts, weak banks, currency problems and loss of labor can make ordinary commerce unviable.</p>"
+          },
+          {
+            "n": 16,
+            "html": [
+              "Compare the English Civil Wars and American Civil War without treating them as identical."
+            ],
+            "answer": "<p>Both involved conflicts over political authority, but their institutions and historical conditions differed. Slavery and secession were central to the American conflict, while monarchy, religion and Parliament shaped the English cases.</p>"
+          },
+          {
+            "n": 17,
+            "html": [
+              "What did Spain and China illustrate about the relationship between domestic conflicts and external involvement?"
+            ],
+            "answer": "<p>Both had domestic political origins and major international dimensions. The external context altered their trajectories without erasing local causes.</p>"
+          },
+          {
+            "n": 18,
+            "html": [
+              "What did Mozambique's 1992 agreement accomplish, and what did it not guarantee?"
+            ],
+            "answer": "<p>It established a framework ending the conflict between its parties and supported a political transition. It did not guarantee permanent stability or eliminate all later violence.</p>"
+          },
+          {
+            "n": 19,
+            "html": [
+              "Compare the roles of a truth commission and a criminal court in Guatemala or Bosnia."
+            ],
+            "answer": "<p>A commission investigates patterns and establishes a historical record; a court determines legal responsibility under specified procedures and evidentiary rules. Neither assigns collective guilt.</p>"
+          },
+          {
+            "n": 20,
+            "html": [
+              "Explain why independence did not resolve all disputes in South Sudan."
+            ],
+            "answer": "<p>It settled a territorial and sovereignty question but left domestic challenges concerning authority, public resources and institutions. Internal conflict followed independence.</p>"
+          },
+          {
+            "n": 21,
+            "html": [
+              "Why does Colombia's 2016 agreement not establish that all violence in Colombia ended?"
+            ],
+            "answer": "<p>It was an agreement between specified parties. Other actors and unresolved local disputes remained; implementation varied across time and place.</p>"
+          },
+          {
+            "n": 22,
+            "html": [
+              "Distinguish a refugee, asylum seeker and internally displaced person."
+            ],
+            "answer": "<p>A refugee meets a relevant legal definition after crossing a border; an asylum seeker requests protection and awaits a determination where applicable; an IDP remains within national borders.</p>"
+          },
+          {
+            "n": 23,
+            "html": [
+              "What does UNHCR's estimated displacement stock tell us, and what does it not tell us?"
+            ],
+            "answer": "<p>It estimates the number of people forcibly displaced at a specified date. It does not measure new displacement over the year or the number displaced exclusively by civil wars.</p>"
+          },
+          {
+            "n": 24,
+            "html": [
+              "Why should climate-related conflict claims be made carefully?"
+            ],
+            "answer": "<p>Environmental stresses can affect livelihoods and food security, but institutions and political decisions mediate outcomes. Evidence differs across forms of violence; no deterministic conclusion follows.</p>"
+          },
+          {
+            "n": 25,
+            "html": [
+              "Explain the credible commitment problem in a peace agreement."
+            ],
+            "answer": "<p>Parties may prefer settlement yet doubt whether promises will be honored when circumstances change. Credible institutions, guarantees and monitoring can reduce but not eliminate uncertainty.</p>"
+          },
+          {
+            "n": 26,
+            "html": [
+              "Explain one benefit and one limitation of power-sharing."
+            ],
+            "answer": "<p>It may reduce exclusion and fear; it may also entrench political categories or create deadlock. Evaluate individual rights, participation and institutional outcomes.</p>"
+          },
+          {
+            "n": 27,
+            "html": [
+              "What are the three principles of UN peacekeeping? Why is impartiality not indifference?"
+            ],
+            "answer": "<p>Consent, impartiality and restricted use of force except in self-defence and defence of the mandate. Impartiality requires applying the mandate consistently, including responding to violations within its terms.</p>"
+          },
+          {
+            "n": 28,
+            "html": [
+              "Explain the relationship between DDR, security sector reform and transitional justice."
+            ],
+            "answer": "<p>DDR concerns exit from armed organizations and civilian reintegration; security sector reform concerns accountable public security institutions; transitional justice addresses violations and their legacies. They are complementary, not substitutes.</p>"
+          },
+          {
+            "n": 29,
+            "html": [
+              "In Lydora, 75% of households have 92% healthcare access and 25% have 44%. Calculate the average and the regional gap."
+            ],
+            "answer": "<p>0.75 × 92% + 0.25 × 44% = 80%. The regional gap is 48 percentage points. The average does not establish causes of unequal access.</p>"
+          },
+          {
+            "n": 30,
+            "html": [
+              "Write a short essay: Is an absence of fighting sufficient to describe a society as peaceful? Use two historical examples and one concept from the chapter."
+            ],
+            "answer": "<p>A strong answer distinguishes negative peace from more substantive institutional conditions, uses specific cases such as Dayton and Colombia, acknowledges the value of ending violence, and assesses the evidence for inclusion, accountability and peaceful dispute resolution.</p>"
+          }
+        ]
+      }
+    ]
   }
 }

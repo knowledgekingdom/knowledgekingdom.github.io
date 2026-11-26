@@ -12,7 +12,7 @@ standfirstHtml: "Как комбинацията от машини, фосилн
 openingTitle: "Звукът на различен работен ден"
 description: "Как комбинацията от машини, фосилна енергия, инвестиции и социални промени преформулира производството, премества хората в градовете, и създава двете..."
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 42
 openingReadingTime: 2

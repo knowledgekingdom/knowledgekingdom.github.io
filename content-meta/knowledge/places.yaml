@@ -88,7 +88,7 @@
   lon: 101.037
   type: sea
   region: southeast-asia
-  sections: [ 005/oceans-the-great-highways-and-climate-engines, 005/regional-case-study-southeast-asias-waterways ]
+  sections: [ 005/oceans-the-great-highways-and-climate-engines, 005/regional-case-study-southeast-asias-waterways, 043/straits-canals-and-maritime-chokepoints ]
   source: "wikidata:Q48359"
   status: approved
 - id: suez-canal
@@ -98,7 +98,7 @@
   lon: 32.344
   type: route-point
   region: africa
-  sections: [ 005/oceans-the-great-highways-and-climate-engines ]
+  sections: [ 005/oceans-the-great-highways-and-climate-engines, 041/middle-eastern-transformations-independence-oil-and-conflict, 043/egypt-and-panama-infrastructure-creates-new-geography, 043/straits-canals-and-maritime-chokepoints, 043/the-mediterranean-and-its-narrow-passages ]
   source: "wikidata:Q899"
   status: approved
 - id: panama-canal
@@ -108,7 +108,7 @@
   lon: -79.75
   type: route-point
   region: americas
-  sections: [ 005/oceans-the-great-highways-and-climate-engines ]
+  sections: [ 005/oceans-the-great-highways-and-climate-engines, 043/egypt-and-panama-infrastructure-creates-new-geography, 043/straits-canals-and-maritime-chokepoints ]
   source: "wikidata:Q7350"
   status: approved
 - id: black-sea
@@ -118,7 +118,7 @@
   lon: 34.26
   type: sea
   region: mediterranean-europe
-  sections: [ 005/water-gives-the-landscape-its-circulation, 005/oceans-the-great-highways-and-climate-engines, 005/regional-case-study-bulgaria-and-the-balkans, 010/toward-europe-the-aegean-the-balkans-and-the-danube ]
+  sections: [ 005/water-gives-the-landscape-its-circulation, 005/oceans-the-great-highways-and-climate-engines, 005/regional-case-study-bulgaria-and-the-balkans, 010/toward-europe-the-aegean-the-balkans-and-the-danube, 043/bulgaria-a-crossroads-is-not-a-destiny, 043/bulgarias-routes-danube-black-sea-and-balkan-passes, 043/straits-canals-and-maritime-chokepoints, 043/turkey-and-the-straits-geography-under-law-and-diplomacy ]
   source: "wikidata:Q166"
   status: approved
 - id: red-sea
@@ -148,7 +148,7 @@
   lon: 29.743
   type: river
   region: mediterranean-europe
-  sections: [ 005/water-gives-the-landscape-its-circulation, 005/regional-case-study-bulgaria-and-the-balkans, 010/toward-europe-the-aegean-the-balkans-and-the-danube ]
+  sections: [ 005/water-gives-the-landscape-its-circulation, 005/regional-case-study-bulgaria-and-the-balkans, 010/toward-europe-the-aegean-the-balkans-and-the-danube, 043/bulgaria-a-crossroads-is-not-a-destiny, 043/bulgarias-routes-danube-black-sea-and-balkan-passes, 043/rivers-connect-and-divide ]
   source: "wikidata:Q1653"
   status: approved
 - id: mekong
@@ -892,7 +892,7 @@
   lon: 12.483
   type: city
   region: mediterranean-europe
-  sections: [ 017/an-alliance-system-became-a-path-to-domination, 017/augustus-monarchy-in-republican-clothing, 017/carthage-and-the-punic-wars-the-cost-of-mediterranean, 017/citizenship-as-a-changing-imperial-policy, 017/conquest-land-and-the-pressures-of-imperial-wealth, 017/foundation-stories-and-the-problem-of-early-evidence, 017/italy-before-roman-supremacy, 017/law-household-power-and-civic-obligation, 017/rome-in-comparison-what-can-empire-teach-us, 017/social-worlds-citizenship-slavery-women-and-religious, 017/soldiers-generals-and-the-failure-of-republican-restraint, 017/the-balkans-inside-roman-history, 017/the-economy-grain-money-taxes-and-unequal-opportunity, 017/the-hellenistic-bridge-the-mediterranean-after-alexander, 017/the-historians-verdict-not-one-rise-and-one-fall, 017/the-third-century-crisis-and-the-problem-of-resilience, 004/primary-source-is-a-relationship-to-a-question, 011/why-empires-fracture-the-end-of-akkadian-rule, 018/songhai-administration-and-the-fragility-of-empires, 018/why-the-continents-histories-are-not-a-ladder-of-development, 019/political-systems-compared-an-empire-is-not-a-civilization, 019/the-main-argument-many-routes-to-complexity, 020/the-empire-reaches-spain-and-central-asia, 021/the-historians-final-map-a-connected-world-with-changing, 024/the-high-renaissance-and-the-danger-of-a-golden-age-story, 024/why-the-italian-city-states-mattered, 025/before-the-reformation-a-church-with-many-communities, 025/england-dynastic-rupture-and-religious-restructuring, 025/indulgences-money-and-authority, 025/the-ninety-five-theses-and-a-rapidly-changing-dispute, 025/the-swiss-reformations-zurich-and-competing-visions, 036/garibaldi-1860-and-the-kingdom-of-italy ]
+  sections: [ 017/an-alliance-system-became-a-path-to-domination, 017/augustus-monarchy-in-republican-clothing, 017/carthage-and-the-punic-wars-the-cost-of-mediterranean, 017/citizenship-as-a-changing-imperial-policy, 017/conquest-land-and-the-pressures-of-imperial-wealth, 017/foundation-stories-and-the-problem-of-early-evidence, 017/italy-before-roman-supremacy, 017/law-household-power-and-civic-obligation, 017/rome-in-comparison-what-can-empire-teach-us, 017/social-worlds-citizenship-slavery-women-and-religious, 017/soldiers-generals-and-the-failure-of-republican-restraint, 017/the-balkans-inside-roman-history, 017/the-economy-grain-money-taxes-and-unequal-opportunity, 017/the-hellenistic-bridge-the-mediterranean-after-alexander, 017/the-historians-verdict-not-one-rise-and-one-fall, 017/the-third-century-crisis-and-the-problem-of-resilience, 004/primary-source-is-a-relationship-to-a-question, 011/why-empires-fracture-the-end-of-akkadian-rule, 018/songhai-administration-and-the-fragility-of-empires, 018/why-the-continents-histories-are-not-a-ladder-of-development, 019/political-systems-compared-an-empire-is-not-a-civilization, 019/the-main-argument-many-routes-to-complexity, 020/the-empire-reaches-spain-and-central-asia, 021/the-historians-final-map-a-connected-world-with-changing, 024/the-high-renaissance-and-the-danger-of-a-golden-age-story, 024/why-the-italian-city-states-mattered, 025/before-the-reformation-a-church-with-many-communities, 025/england-dynastic-rupture-and-religious-restructuring, 025/indulgences-money-and-authority, 025/the-ninety-five-theses-and-a-rapidly-changing-dispute, 025/the-swiss-reformations-zurich-and-competing-visions, 036/garibaldi-1860-and-the-kingdom-of-italy, 039/italy-the-march-on-rome-and-the-consolidation-of-fascism, 046/aggression-a-legal-concept-and-a-political-accusation, 046/children-families-and-people-who-disappear, 046/war-crimes-crimes-against-humanity-and-genocide ]
   source: "wikidata:Q220"
   status: approved
 - id: carthage
@@ -1222,7 +1222,7 @@
   lon: 36.292
   type: city
   region: west-asia
-  sections: [ 020/architecture-literature-and-a-changing-cultural-world, 020/from-regional-rule-to-imperial-institutions, 020/the-umayyad-dynasty-an-empire-ruled-from-damascus, 030/ottoman-towns-commerce-and-cultural-production ]
+  sections: [ 020/architecture-literature-and-a-changing-cultural-world, 020/from-regional-rule-to-imperial-institutions, 020/the-umayyad-dynasty-an-empire-ruled-from-damascus, 030/ottoman-towns-commerce-and-cultural-production, 048/syria-and-myanmar-why-a-countrys-transition-cannot ]
   source: "wikidata:Q3766"
   status: approved
 - id: baghdad
@@ -1232,7 +1232,7 @@
   lon: 44.366
   type: city
   region: west-asia
-  sections: [ 020/the-abbasid-economy-networks-rather-than-a-single-market, 020/the-abbasid-revolution-and-a-new-capital, 020/translation-mathematics-and-the-making-of-knowledge, 021/the-indian-ocean-a-second-map-of-medieval-connectivity, 021/the-islamic-world-as-a-bridge-and-a-set-of-regions, 022/the-fall-of-baghdad-and-the-ilkhanate ]
+  sections: [ 020/the-abbasid-economy-networks-rather-than-a-single-market, 020/the-abbasid-revolution-and-a-new-capital, 020/translation-mathematics-and-the-making-of-knowledge, 021/the-indian-ocean-a-second-map-of-medieval-connectivity, 021/the-islamic-world-as-a-bridge-and-a-set-of-regions, 022/the-fall-of-baghdad-and-the-ilkhanate, 042/case-study-iraq-and-kuwait-1990-1991, 042/case-study-iraq-in-2003-and-the-problem-of-intelligence ]
   source: "wikidata:Q1530"
   status: approved
 - id: jerusalem
@@ -1432,7 +1432,7 @@
   lon: 30.524
   type: city
   region: mediterranean-europe
-  sections: [ 021/rus-rivers-and-the-black-sea-baltic-connection, 022/the-european-campaigns-rus-poland-hungary-and-beyond ]
+  sections: [ 021/rus-rivers-and-the-black-sea-baltic-connection, 022/the-european-campaigns-rus-poland-hungary-and-beyond, 039/collectivization-famine-and-the-holodomor, 040/mass-shootings-after-the-invasion-of-the-soviet-union ]
   source: "wikidata:Q1899"
   status: approved
 - id: constantinople
@@ -1622,7 +1622,7 @@
   lon: 6.15
   type: city
   region: mediterranean-europe
-  sections: [ 025/calvin-geneva-and-the-international-reformed-churches ]
+  sections: [ 025/calvin-geneva-and-the-international-reformed-churches, 046/common-article-3-and-the-minimum-floor-of-humanity, 046/from-the-hague-to-the-geneva-conventions, 046/solferino-the-red-cross-and-the-geneva-movement, 046/the-long-history-of-restraint-in-war ]
   source: "wikidata:Q71"
   status: approved
 - id: strasbourg
@@ -1642,7 +1642,7 @@
   lon: 7.626
   type: city
   region: mediterranean-europe
-  sections: [ 025/radical-reform-and-the-anabaptist-challenge, 025/westphalia-and-the-myths-of-modern-sovereignty ]
+  sections: [ 025/radical-reform-and-the-anabaptist-challenge, 025/westphalia-and-the-myths-of-modern-sovereignty, 045/sovereignty-and-the-westphalian-story ]
   source: "wikidata:Q2742"
   status: approved
 - id: worms
@@ -2012,7 +2012,7 @@
   lon: 13.23
   type: city
   region: africa
-  sections: [ 029/case-study-was-the-atlantic-trade-truly-triangular, 029/central-africa-kongo-ndongo-and-angola ]
+  sections: [ 029/case-study-was-the-atlantic-trade-truly-triangular, 029/central-africa-kongo-ndongo-and-angola, 041/southern-africa-angola-and-the-struggle-against-apartheid, 041/what-the-term-cold-war-explains-and-what-it-hides ]
   source: "wikidata:Q3897"
   status: approved
 - id: bight-of-benin
@@ -2092,7 +2092,7 @@
   lon: 77.217
   type: city
   region: south-asia
-  sections: [ 030/mughal-cities-and-indian-ocean-commerce, 030/mughal-fragmentation-and-powerful-regional-successors, 030/the-mughal-foundation-babur-and-humayun ]
+  sections: [ 030/mughal-cities-and-indian-ocean-commerce, 030/mughal-fragmentation-and-powerful-regional-successors, 030/the-mughal-foundation-babur-and-humayun, 041/a-concise-comparative-chronology, 041/middle-eastern-transformations-independence-oil-and-conflict, 041/south-asia-india-pakistan-and-the-cost-of-partition ]
   source: "wikidata:Q1353"
   status: approved
 - id: agra
@@ -2142,7 +2142,7 @@
   lon: 116.408
   type: city
   region: east-asia
-  sections: [ 030/before-the-qing-the-late-ming-world, 030/the-manchu-rise-and-the-banners, 022/kublai-khan-and-the-yuan-a-dynasty-ruling-china ]
+  sections: [ 030/before-the-qing-the-late-ming-world, 030/the-manchu-rise-and-the-banners, 022/kublai-khan-and-the-yuan-a-dynasty-ruling-china, 041/bulgaria-after-1944-the-communist-state, 041/the-chinese-revolution-and-the-remaking-of-east-asia ]
   source: "wikidata:Q956"
   status: approved
 - id: vienna
@@ -2152,7 +2152,7 @@
   lon: 16.372
   type: city
   region: mediterranean-europe
-  sections: [ 036/a-short-chronology-of-nationalist-transformations, 036/the-congress-of-vienna-and-the-restoration-settlement, 036/the-habsburg-monarchy-and-the-challenge-of-plurality, 030/ottoman-expansion-and-imperial-consolidation, 037/serbia-and-montenegro-after-independence, 037/the-romanian-principalities-and-the-danubian-question, 038/the-july-crisis-ultimatum-and-decision, 038/who-was-responsible-a-historical-debate ]
+  sections: [ 036/a-short-chronology-of-nationalist-transformations, 036/the-congress-of-vienna-and-the-restoration-settlement, 036/the-habsburg-monarchy-and-the-challenge-of-plurality, 030/ottoman-expansion-and-imperial-consolidation, 037/serbia-and-montenegro-after-independence, 037/the-romanian-principalities-and-the-danubian-question, 038/the-july-crisis-ultimatum-and-decision, 038/who-was-responsible-a-historical-debate, 045/the-concert-and-the-limits-of-great-power-management, 045/the-congress-of-vienna-a-defeated-power-returns, 045/the-embassy-as-an-institution, 045/treaties-declarations-and-political-commitments ]
   source: "wikidata:Q1741"
   status: approved
 - id: bengal
@@ -2212,7 +2212,7 @@
   lon: 2.352
   type: city
   region: mediterranean-europe
-  sections: [ 032/another-revolution-was-taking-shape-in-spanish-america, 032/bastille-rural-upheaval-and-the-end-of-privilege, 032/emancipation-was-won-and-contested-1793-1794, 032/from-estates-general-to-national-assembly, 032/saint-domingue-inequality-built-into-law-and-labor, 032/why-the-caribbean-belongs-at-the-center-of-the-story, 032/winning-independence-required-diplomacy, 032/women-marched-wrote-and-challenged-exclusion, 023/learning-manuscripts-and-universities, 025/the-french-wars-of-religion-civil-war-and-massacre, 031/a-connected-europe-the-balkans-and-ottoman-borderlands, 031/hume-smith-and-difficult-questions-about-human-nature, 031/the-republic-of-letters-institutions-and-correspondence, 035/colonial-administrations-direct-indirect-and-negotiated-rule, 037/the-crimean-war-and-the-limits-of-russian-predominance, 038/the-paris-peace-conference-and-its-competing-principles ]
+  sections: [ 032/another-revolution-was-taking-shape-in-spanish-america, 032/bastille-rural-upheaval-and-the-end-of-privilege, 032/emancipation-was-won-and-contested-1793-1794, 032/from-estates-general-to-national-assembly, 032/saint-domingue-inequality-built-into-law-and-labor, 032/why-the-caribbean-belongs-at-the-center-of-the-story, 032/winning-independence-required-diplomacy, 032/women-marched-wrote-and-challenged-exclusion, 023/learning-manuscripts-and-universities, 025/the-french-wars-of-religion-civil-war-and-massacre, 031/a-connected-europe-the-balkans-and-ottoman-borderlands, 031/hume-smith-and-difficult-questions-about-human-nature, 031/the-republic-of-letters-institutions-and-correspondence, 035/colonial-administrations-direct-indirect-and-negotiated-rule, 037/the-crimean-war-and-the-limits-of-russian-predominance, 038/the-paris-peace-conference-and-its-competing-principles, 039/chinas-republic-revolution-and-invasion, 039/cities-cinema-radio-and-new-mass-cultures, 039/paris-new-borders-and-contested-self-determination, 040/d-day-liberation-of-france-and-competing-memories ]
   source: "wikidata:Q90"
   status: approved
 - id: london
@@ -2222,7 +2222,7 @@
   lon: -0.128
   type: city
   region: mediterranean-europe
-  sections: [ 034/housing-sanitation-and-the-urban-disease-burden, 034/why-cities-grew-and-why-they-struggled, 025/scotland-and-ireland-linked-islands-different-stories, 031/the-republic-of-letters-institutions-and-correspondence, 035/colonial-administrations-direct-indirect-and-negotiated-rule, 036/ireland-constitutional-politics-famine-and-national-memory, 037/the-albanian-national-movement-and-1912-independence, 037/the-balkan-league-and-the-first-balkan-war-1912-1913 ]
+  sections: [ 034/housing-sanitation-and-the-urban-disease-burden, 034/why-cities-grew-and-why-they-struggled, 025/scotland-and-ireland-linked-islands-different-stories, 031/the-republic-of-letters-institutions-and-correspondence, 035/colonial-administrations-direct-indirect-and-negotiated-rule, 036/ireland-constitutional-politics-famine-and-national-memory, 037/the-albanian-national-movement-and-1912-independence, 037/the-balkan-league-and-the-first-balkan-war-1912-1913, 040/britain-air-defense-and-the-atlantic-supply-line, 040/from-the-failed-peace-to-expansionist-dictatorships, 040/how-a-coalition-sustains-a-long-war, 040/what-makes-a-war-global ]
   source: "wikidata:Q84"
   status: approved
 - id: boston
@@ -2412,7 +2412,7 @@
   lon: 13.383
   type: city
   region: mediterranean-europe
-  sections: [ 037/albania-regional-identities-and-fears-of-partition, 037/bosnia-herzegovina-occupation-reform-and-annexation, 037/eastern-rumelia-and-the-unification-of-1885, 037/herzegovina-bosnia-and-the-crisis-of-1875, 037/san-stefano-a-dramatic-but-provisional-settlement, 037/serbia-revolts-autonomy-and-changing-political-status, 037/the-romanian-principalities-and-the-danubian-question, 037/the-treaty-of-berlin-what-changed-on-the-map, 037/the-young-turk-revolution-and-bulgarian-independence-1908, 037/why-the-great-powers-met-in-berlin, 004/case-study-how-bulgaria-became-independent, 031/hume-smith-and-difficult-questions-about-human-nature, 035/berlin-1884-1885-what-the-conference-actually-did, 035/borders-states-and-the-long-legacy-of-partition, 035/case-study-was-the-berlin-conference-a-carving-up-meeting, 035/leopold-ii-and-the-congo-free-state, 035/the-chapters-central-argument-conquest-was-a-process, 036/a-short-chronology-of-nationalist-transformations, 036/bulgarias-national-revival-schools-church-and-revolution, 036/greece-serbia-and-the-balkan-beginnings ]
+  sections: [ 037/albania-regional-identities-and-fears-of-partition, 037/bosnia-herzegovina-occupation-reform-and-annexation, 037/eastern-rumelia-and-the-unification-of-1885, 037/herzegovina-bosnia-and-the-crisis-of-1875, 037/san-stefano-a-dramatic-but-provisional-settlement, 037/serbia-revolts-autonomy-and-changing-political-status, 037/the-romanian-principalities-and-the-danubian-question, 037/the-treaty-of-berlin-what-changed-on-the-map, 037/the-young-turk-revolution-and-bulgarian-independence-1908, 037/why-the-great-powers-met-in-berlin, 004/case-study-how-bulgaria-became-independent, 031/hume-smith-and-difficult-questions-about-human-nature, 035/berlin-1884-1885-what-the-conference-actually-did, 035/borders-states-and-the-long-legacy-of-partition, 035/case-study-was-the-berlin-conference-a-carving-up-meeting, 035/leopold-ii-and-the-congo-free-state, 035/the-chapters-central-argument-conquest-was-a-process, 036/a-short-chronology-of-nationalist-transformations, 036/bulgarias-national-revival-schools-church-and-revolution, 036/greece-serbia-and-the-balkan-beginnings, 041/a-concise-comparative-chronology, 041/berlin-germany-and-the-formation-of-opposing-blocs, 041/the-revolutions-of-1989-and-the-fall-of-the-wall, 044/the-berlin-airlift-logistics-as-political-communication ]
   source: "wikidata:Q64"
   status: approved
 - id: isandlwana
@@ -2502,7 +2502,7 @@
   lon: 21.011
   type: city
   region: mediterranean-europe
-  sections: [ 025/central-europe-poland-lithuania-bohemia-and-habsburg-lands ]
+  sections: [ 025/central-europe-poland-lithuania-bohemia-and-habsburg-lands, 040/from-antisemitic-exclusion-to-mass-murder, 040/ghettos-deportation-and-the-language-of-administration, 040/poland-september-1939-and-the-destruction-of-a-state, 041/eastern-europe-control-reform-and-resistance ]
   source: "wikidata:Q270"
   status: approved
 - id: thessaloniki
@@ -2522,7 +2522,7 @@
   lon: 18.413
   type: city
   region: mediterranean-europe
-  sections: [ 037/bosnia-herzegovina-occupation-reform-and-annexation, 037/the-eastern-question-was-never-merely-a-question-of-decline, 002/from-one-cause-to-a-chain-of-causes, 004/historical-causes-sparks-structures-and-choices, 008/spacing-forgetting-a-little-can-help-you-learn-more, 038/the-july-crisis-ultimatum-and-decision, 038/what-actually-needs-explaining ]
+  sections: [ 037/bosnia-herzegovina-occupation-reform-and-annexation, 037/the-eastern-question-was-never-merely-a-question-of-decline, 002/from-one-cause-to-a-chain-of-causes, 004/historical-causes-sparks-structures-and-choices, 008/spacing-forgetting-a-little-can-help-you-learn-more, 038/the-july-crisis-ultimatum-and-decision, 038/what-actually-needs-explaining, 041/the-balkans-after-1991-yugoslavias-violent-dissolution, 042/case-study-europes-july-crisis-of-1914, 048/bosnia-and-herzegovina-ending-violence-and-designing-a-state ]
   source: "wikidata:Q11194"
   status: approved
 - id: plovdiv
@@ -2562,7 +2562,7 @@
   lon: 23.322
   type: city
   region: mediterranean-europe
-  sections: [ 017/the-balkans-inside-roman-history, 001/what-does-it-mean-to-know-something ]
+  sections: [ 017/the-balkans-inside-roman-history, 001/what-does-it-mean-to-know-something, 039/bulgarias-1923-coup-and-the-spiral-of-violence, 041/everyday-life-and-bulgarias-economic-transformation ]
   source: "wikidata:Q472"
   status: approved
 - id: belgrade
@@ -2572,7 +2572,7 @@
   lon: 20.457
   type: city
   region: mediterranean-europe
-  sections: [ 037/bulgarias-national-revival-before-a-bulgarian-state, 038/the-july-crisis-ultimatum-and-decision ]
+  sections: [ 037/bulgarias-national-revival-before-a-bulgarian-state, 038/the-july-crisis-ultimatum-and-decision, 041/a-concise-comparative-chronology, 041/eastern-europe-control-reform-and-resistance, 041/the-balkans-after-1991-yugoslavias-violent-dissolution ]
   source: "wikidata:Q3711"
   status: approved
 - id: bucharest
@@ -2622,7 +2622,7 @@
   lon: 26
   type: region
   region: mediterranean-europe
-  sections: [ 037/san-stefano-a-dramatic-but-provisional-settlement, 037/the-balkan-league-and-the-first-balkan-war-1912-1913, 037/the-eastern-question-was-never-merely-a-question-of-decline, 037/the-second-balkan-war-and-the-borders-of-1913, 037/the-treaty-of-berlin-what-changed-on-the-map, 038/neuilly-bulgarias-peace-settlement-november-1919 ]
+  sections: [ 037/san-stefano-a-dramatic-but-provisional-settlement, 037/the-balkan-league-and-the-first-balkan-war-1912-1913, 037/the-eastern-question-was-never-merely-a-question-of-decline, 037/the-second-balkan-war-and-the-borders-of-1913, 037/the-treaty-of-berlin-what-changed-on-the-map, 038/neuilly-bulgarias-peace-settlement-november-1919, 040/bulgaria-and-the-axis-policy-territory-and-responsibility, 040/bulgarias-jews-protection-in-the-old-kingdom-deportation, 040/the-balkan-campaigns-and-the-axis-order-in-southeastern ]
   source: "wikidata:Q41741"
   status: approved
 - id: macedonia-region
@@ -2632,7 +2632,7 @@
   lon: 22.509
   type: region
   region: mediterranean-europe
-  sections: [ 037/greece-independence-and-international-intervention, 037/macedonia-a-region-many-claims-and-uncertain-categories, 037/san-stefano-a-dramatic-but-provisional-settlement, 037/serbia-revolts-autonomy-and-changing-political-status, 037/the-balkan-league-and-the-first-balkan-war-1912-1913, 037/the-second-balkan-war-and-the-borders-of-1913, 037/the-serbo-bulgarian-war-and-the-danger-of-comparison, 037/the-treaty-of-berlin-what-changed-on-the-map, 016/beyond-athens-versus-sparta-corinth-thebes-and-macedonia, 017/the-balkans-inside-roman-history, 030/the-balkans-inside-the-ottoman-world, 038/bulgaria-in-1914-wounded-ambitions-and-neutrality, 038/bulgaria-joins-the-central-powers-october-1915, 038/neuilly-bulgarias-peace-settlement-november-1919, 038/romania-dobruja-and-bulgarias-second-war-theater, 038/the-europe-of-rival-empires, 038/the-macedonian-or-salonika-front ]
+  sections: [ 037/greece-independence-and-international-intervention, 037/macedonia-a-region-many-claims-and-uncertain-categories, 037/san-stefano-a-dramatic-but-provisional-settlement, 037/serbia-revolts-autonomy-and-changing-political-status, 037/the-balkan-league-and-the-first-balkan-war-1912-1913, 037/the-second-balkan-war-and-the-borders-of-1913, 037/the-serbo-bulgarian-war-and-the-danger-of-comparison, 037/the-treaty-of-berlin-what-changed-on-the-map, 016/beyond-athens-versus-sparta-corinth-thebes-and-macedonia, 017/the-balkans-inside-roman-history, 030/the-balkans-inside-the-ottoman-world, 038/bulgaria-in-1914-wounded-ambitions-and-neutrality, 038/bulgaria-joins-the-central-powers-october-1915, 038/neuilly-bulgarias-peace-settlement-november-1919, 038/romania-dobruja-and-bulgarias-second-war-theater, 038/the-europe-of-rival-empires, 038/the-macedonian-or-salonika-front, 040/bulgaria-and-the-axis-policy-territory-and-responsibility, 040/bulgarias-jews-protection-in-the-old-kingdom-deportation, 040/the-balkan-campaigns-and-the-axis-order-in-southeastern ]
   source: "wikidata:Q103251"
   status: approved
 - id: bosnia
@@ -2672,7 +2672,7 @@
   lon: 29.08
   type: sea
   region: mediterranean-europe
-  sections: [ 023/crossing-into-europe-and-building-a-balkan-power, 030/a-map-of-three-political-ecologies, 037/geography-mountains-rivers-and-the-maritime-gateways, 038/the-ottoman-empire-and-the-war-beyond-europe ]
+  sections: [ 023/crossing-into-europe-and-building-a-balkan-power, 030/a-map-of-three-political-ecologies, 037/geography-mountains-rivers-and-the-maritime-gateways, 038/the-ottoman-empire-and-the-war-beyond-europe, 043/maritime-law-territorial-waters-and-economic-zones, 043/straits-canals-and-maritime-chokepoints, 043/the-mediterranean-and-its-narrow-passages, 043/turkey-and-the-straits-geography-under-law-and-diplomacy ]
   source: "wikidata:Q35958"
   status: approved
 - id: doiran
@@ -2702,7 +2702,7 @@
   lon: 2.268
   type: city
   region: mediterranean-europe
-  sections: [ 038/memory-myths-and-the-next-crises, 038/neuilly-bulgarias-peace-settlement-november-1919, 038/other-settlements-the-middle-east-and-the-mandates ]
+  sections: [ 038/memory-myths-and-the-next-crises, 038/neuilly-bulgarias-peace-settlement-november-1919, 038/other-settlements-the-middle-east-and-the-mandates, 039/bulgaria-after-neuilly-land-grievances-and-parliamentary, 039/paris-new-borders-and-contested-self-determination ]
   source: "wikidata:Q48958"
   status: approved
 - id: verdun
@@ -2887,3 +2887,545 @@
   sections: [ 030/the-manchu-rise-and-the-banners, 030/kangxi-yongzheng-and-qianlong-consolidation-and-expansion ]
   source: "centre of its extent cities"
   status: approved
+
+# ---- Chapters 039-048 (proposed, Edition 42) ----
+- id: munich
+  name: "Munich"
+  bg: "Мюнхен"
+  lat: 48.137
+  lon: 11.575
+  type: city
+  region: mediterranean-europe
+  sections: [ 039/munich-and-the-failure-of-appeasement, 040/from-the-failed-peace-to-expansionist-dictatorships ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: moscow
+  name: "Moscow"
+  bg: "Москва"
+  lat: 55.756
+  lon: 37.617
+  type: city
+  region: mediterranean-europe
+  sections: [ 040/bulgaria-and-the-axis-policy-territory-and-responsibility, 040/operation-barbarossa-a-war-of-annihilation, 041/decolonization-independence-as-a-world-making-process, 041/eastern-europe-control-reform-and-resistance, 041/the-chinese-revolution-and-the-remaking-of-east-asia, 041/the-strange-outcome-of-the-wartime-alliance ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: new-york
+  name: "New York"
+  bg: "Ню Йорк"
+  lat: 40.713
+  lon: -74.006
+  type: city
+  region: americas
+  sections: [ 039/1929-a-crash-not-a-complete-explanation, 039/cities-cinema-radio-and-new-mass-cultures, 039/the-fragile-financial-order-left-by-world-war-i ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: guernica
+  name: "Guernica"
+  bg: "Герника"
+  lat: 43.317
+  lon: -2.678
+  type: city
+  region: mediterranean-europe
+  sections: [ 039/spain-a-civil-war-with-international-consequences ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: addis-ababa
+  name: "Addis Ababa"
+  bg: "Адис Абеба"
+  lat: 9.03
+  lon: 38.74
+  type: city
+  region: africa
+  sections: [ 039/manchuria-and-ethiopia-collective-security-under-strain, 039/the-road-toward-a-new-general-war ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: mukden
+  name: "Mukden (Shenyang)"
+  bg: "Мукден (Шънян)"
+  lat: 41.806
+  lon: 123.432
+  type: city
+  region: east-asia
+  sections: [ 039/japan-and-the-transformation-of-east-asian-security, 039/manchuria-and-ethiopia-collective-security-under-strain, 040/hiroshima-nagasaki-and-the-question-of-surrender, 040/japans-war-in-china-and-asian-imperialism ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: nanjing
+  name: "Nanjing"
+  bg: "Нанкин"
+  lat: 32.06
+  lon: 118.797
+  type: city
+  region: east-asia
+  sections: [ 039/japan-and-the-transformation-of-east-asian-security, 040/japans-war-in-china-and-asian-imperialism ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: leningrad
+  name: "Leningrad (St Petersburg)"
+  bg: "Ленинград (Санкт Петербург)"
+  lat: 59.939
+  lon: 30.316
+  type: city
+  region: mediterranean-europe
+  sections: [ 040/the-siege-of-leningrad-and-suffering-behind-front-lines ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: stalingrad
+  name: "Stalingrad (Volgograd)"
+  bg: "Сталинград (Волгоград)"
+  lat: 48.708
+  lon: 44.513
+  type: city
+  region: mediterranean-europe
+  sections: [ 040/kursk-italy-and-the-relentless-eastern-front, 040/the-turning-years-1942-and-1943 ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: kursk
+  name: "Kursk"
+  bg: "Курск"
+  lat: 51.73
+  lon: 36.19
+  type: city
+  region: mediterranean-europe
+  sections: [ 040/kursk-italy-and-the-relentless-eastern-front ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: dunkirk
+  name: "Dunkirk"
+  bg: "Дюнкерк"
+  lat: 51.034
+  lon: 2.377
+  type: city
+  region: mediterranean-europe
+  sections: [ 040/scandinavia-france-and-the-limits-of-the-early-german ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: el-alamein
+  name: "El Alamein"
+  bg: "Ел Аламейн"
+  lat: 30.83
+  lon: 28.95
+  type: site
+  region: africa
+  sections: [ 040/north-africa-the-mediterranean-and-colonial-soldiers, 040/the-turning-years-1942-and-1943 ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: normandy
+  name: "Normandy"
+  bg: "Нормандия"
+  lat: 49.2
+  lon: -0.6
+  type: region
+  region: mediterranean-europe
+  sections: [ 040/d-day-liberation-of-france-and-competing-memories ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: auschwitz
+  name: "Auschwitz-Birkenau"
+  bg: "Аушвиц-Биркенау"
+  lat: 50.035
+  lon: 19.178
+  type: site
+  region: mediterranean-europe
+  sections: [ 040/auschwitzs-liberation-and-the-evidence-of-genocide, 040/mass-shootings-after-the-invasion-of-the-soviet-union, 040/the-final-solution-and-the-killing-centers ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: treblinka
+  name: "Treblinka"
+  bg: "Треблинка"
+  lat: 52.631
+  lon: 22.053
+  type: site
+  region: mediterranean-europe
+  sections: [ 040/bulgarias-jews-protection-in-the-old-kingdom-deportation, 040/the-final-solution-and-the-killing-centers ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: skopje
+  name: "Skopje"
+  bg: "Скопие"
+  lat: 41.998
+  lon: 21.425
+  type: city
+  region: mediterranean-europe
+  sections: [ 040/bulgaria-and-the-axis-policy-territory-and-responsibility, 040/bulgarias-jews-protection-in-the-old-kingdom-deportation, 040/the-balkan-campaigns-and-the-axis-order-in-southeastern ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: pearl-harbor
+  name: "Pearl Harbor"
+  bg: "Пърл Харбър"
+  lat: 21.35
+  lon: -157.97
+  type: site
+  region: oceania
+  sections: [ 040/pearl-harbor-and-the-widening-pacific-war ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: midway-atoll
+  name: "Midway"
+  bg: "Мидуей"
+  lat: 28.21
+  lon: -177.38
+  type: site
+  region: oceania
+  sections: [ 040/midway-guadalcanal-and-the-cost-of-island-warfare, 040/the-turning-years-1942-and-1943 ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: guadalcanal
+  name: "Guadalcanal"
+  bg: "Гуадалканал"
+  lat: -9.6
+  lon: 160.2
+  type: region
+  region: oceania
+  sections: [ 040/midway-guadalcanal-and-the-cost-of-island-warfare, 040/the-turning-years-1942-and-1943 ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: okinawa
+  name: "Okinawa"
+  bg: "Окинава"
+  lat: 26.5
+  lon: 127.9
+  type: region
+  region: east-asia
+  sections: [ 040/midway-guadalcanal-and-the-cost-of-island-warfare, 040/okinawa-and-the-final-pacific-campaigns ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: hiroshima
+  name: "Hiroshima"
+  bg: "Хирошима"
+  lat: 34.385
+  lon: 132.455
+  type: city
+  region: east-asia
+  sections: [ 040/hiroshima-nagasaki-and-the-question-of-surrender, 047/1945-scientific-achievement-and-human-catastrophe, 047/the-nuclear-taboo-and-the-evidence-of-non-use ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: nagasaki
+  name: "Nagasaki"
+  bg: "Нагасаки"
+  lat: 32.75
+  lon: 129.877
+  type: city
+  region: east-asia
+  sections: [ 040/hiroshima-nagasaki-and-the-question-of-surrender, 047/1945-scientific-achievement-and-human-catastrophe, 047/the-nuclear-taboo-and-the-evidence-of-non-use ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: tokyo
+  name: "Tokyo"
+  bg: "Токио"
+  lat: 35.68
+  lon: 139.69
+  type: city
+  region: east-asia
+  sections: [ 040/justice-after-mass-atrocity-nuremberg-and-tokyo, 040/okinawa-and-the-final-pacific-campaigns ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: nuremberg
+  name: "Nuremberg"
+  bg: "Нюрнберг"
+  lat: 49.454
+  lon: 11.077
+  type: city
+  region: mediterranean-europe
+  sections: [ 040/from-antisemitic-exclusion-to-mass-murder, 040/justice-after-mass-atrocity-nuremberg-and-tokyo, 046/individual-criminal-responsibility-from-nuremberg-onward ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: san-francisco
+  name: "San Francisco"
+  bg: "Сан Франциско"
+  lat: 37.775
+  lon: -122.418
+  type: city
+  region: americas
+  sections: [ 040/a-new-security-order-and-the-united-nations ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: bandung
+  name: "Bandung"
+  bg: "Бандунг"
+  lat: -6.917
+  lon: 107.619
+  type: city
+  region: southeast-asia
+  sections: [ 041/a-concise-comparative-chronology, 041/bandung-and-the-non-aligned-movement, 045/bandung-and-the-refusal-to-be-treated-as-a-chess-piece ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: havana
+  name: "Havana"
+  bg: "Хавана"
+  lat: 23.113
+  lon: -82.366
+  type: city
+  region: americas
+  sections: [ 041/detente-and-the-limits-of-superpower-cooperation, 041/southern-africa-angola-and-the-struggle-against-apartheid, 041/the-cuban-revolution-and-the-missile-crisis, 042/case-study-the-cuban-missile-crisis-1962, 045/the-cuban-missile-crisis-the-value-and-cost-of-communication, 047/the-cuban-missile-crisis-the-value-of-diplomacy ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: seoul
+  name: "Seoul"
+  bg: "Сеул"
+  lat: 37.566
+  lon: 126.978
+  type: city
+  region: east-asia
+  sections: [ 041/a-concise-comparative-chronology, 041/korea-local-war-international-escalation, 041/the-chinese-revolution-and-the-remaking-of-east-asia, 041/what-the-term-cold-war-explains-and-what-it-hides, 047/the-early-monopoly-and-the-end-of-atomic-exclusivity, 047/the-korean-peninsula-and-the-persistence-of-insecurity ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: kinshasa
+  name: "Léopoldville (Kinshasa)"
+  bg: "Леополдвил (Киншаса)"
+  lat: -4.322
+  lon: 15.307
+  type: city
+  region: africa
+  sections: [ 041/the-congo-crisis-sovereignty-under-pressure ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: helsinki
+  name: "Helsinki"
+  bg: "Хелзинки"
+  lat: 60.169
+  lon: 24.938
+  type: city
+  region: mediterranean-europe
+  sections: [ 041/detente-and-the-limits-of-superpower-cooperation, 045/helsinki-managing-rivalry-without-ending-it ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: kabul
+  name: "Kabul"
+  bg: "Кабул"
+  lat: 34.555
+  lon: 69.207
+  type: city
+  region: south-asia
+  sections: [ 041/afghanistan-iran-and-the-renewed-cold-war-of-the-1980s, 041/the-post-1991-international-order-and-its-limits, 041/what-the-term-cold-war-explains-and-what-it-hides ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: tehran
+  name: "Tehran"
+  bg: "Техеран"
+  lat: 35.689
+  lon: 51.389
+  type: city
+  region: west-asia
+  sections: [ 041/afghanistan-iran-and-the-renewed-cold-war-of-the-1980s, 041/middle-eastern-transformations-independence-oil-and-conflict ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: hanoi
+  name: "Hanoi"
+  bg: "Ханой"
+  lat: 21.028
+  lon: 105.854
+  type: city
+  region: southeast-asia
+  sections: [ 041/a-concise-comparative-chronology, 041/indonesia-and-southeast-asia-independence-and-competing, 041/vietnam-war-nationalism-and-intervention, 041/what-the-term-cold-war-explains-and-what-it-hides ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: jakarta
+  name: "Jakarta"
+  bg: "Джакарта"
+  lat: -6.2
+  lon: 106.85
+  type: city
+  region: southeast-asia
+  sections: [ 041/bandung-and-the-non-aligned-movement, 041/indonesia-and-southeast-asia-independence-and-competing ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: brussels
+  name: "Brussels"
+  bg: "Брюксел"
+  lat: 50.85
+  lon: 4.35
+  type: city
+  region: mediterranean-europe
+  sections: [ 041/a-concise-comparative-chronology, 041/berlin-germany-and-the-formation-of-opposing-blocs, 041/postcommunist-transitions-democracy-markets-and-costs, 041/the-european-union-and-nato-expand, 045/bulgaria-diplomacy-as-a-smaller-states-institution, 045/nato-the-warsaw-pact-and-institutional-asymmetry ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: kuwait-city
+  name: "Kuwait City"
+  bg: "Кувейт"
+  lat: 29.376
+  lon: 47.977
+  type: city
+  region: west-asia
+  sections: [ 042/case-study-iraq-and-kuwait-1990-1991 ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: strait-of-hormuz
+  name: "Strait of Hormuz"
+  bg: "Ормузки проток"
+  lat: 26.57
+  lon: 56.25
+  type: sea
+  region: west-asia
+  sections: [ 043/straits-canals-and-maritime-chokepoints ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: camp-david
+  name: "Camp David"
+  bg: "Кемп Дейвид"
+  lat: 39.648
+  lon: -77.465
+  type: site
+  region: americas
+  sections: [ 045/camp-david-a-durable-agreement-with-unresolved-questions ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: solferino
+  name: "Solferino"
+  bg: "Солферино"
+  lat: 45.372
+  lon: 10.566
+  type: site
+  region: mediterranean-europe
+  sections: [ 046/solferino-the-red-cross-and-the-geneva-movement ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: the-hague
+  name: "The Hague"
+  bg: "Хага"
+  lat: 52.07
+  lon: 4.3
+  type: city
+  region: mediterranean-europe
+  sections: [ 046/case-study-congo-uganda-and-the-long-journey-to-reparation, 046/from-the-hague-to-the-geneva-conventions, 046/occupation-authority-without-sovereignty, 046/self-defence-and-the-difference-between-fear-and-entitlement, 046/the-international-court-of-justice-is-not-the-icc, 046/where-international-rules-come-from ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: kigali
+  name: "Kigali"
+  bg: "Кигали"
+  lat: -1.944
+  lon: 30.06
+  type: city
+  region: africa
+  sections: [ 046/case-study-rwanda-bosnia-and-the-different-meanings, 046/individual-criminal-responsibility-from-nuremberg-onward ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: srebrenica
+  name: "Srebrenica"
+  bg: "Сребреница"
+  lat: 44.106
+  lon: 19.297
+  type: site
+  region: mediterranean-europe
+  sections: [ 041/the-balkans-after-1991-yugoslavias-violent-dissolution, 046/case-study-rwanda-bosnia-and-the-different-meanings, 048/bosnia-and-herzegovina-ending-violence-and-designing-a-state ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: semipalatinsk
+  name: "Semipalatinsk test site"
+  bg: "Полигонът край Семипалатинск"
+  lat: 50.41
+  lon: 78.0
+  type: site
+  region: central-asia-steppe
+  sections: [ 047/regions-that-have-chosen-to-remain-nuclear-weapon-free, 047/the-people-who-lived-beside-nuclear-tests, 047/ukraine-kazakhstan-and-belarus-after-the-soviet-collapse ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: bikini-atoll
+  name: "Bikini Atoll"
+  bg: "Атолът Бикини"
+  lat: 11.6
+  lon: 165.38
+  type: site
+  region: oceania
+  sections: [ 047/the-people-who-lived-beside-nuclear-tests ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: budapest
+  name: "Budapest"
+  bg: "Будапеща"
+  lat: 47.498
+  lon: 19.04
+  type: city
+  region: mediterranean-europe
+  sections: [ 047/ukraine-kazakhstan-and-belarus-after-the-soviet-collapse ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: maputo
+  name: "Maputo"
+  bg: "Мапуто"
+  lat: -25.969
+  lon: 32.573
+  type: city
+  region: africa
+  sections: [ 048/mozambique-the-long-negotiation-after-independence ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: guatemala-city
+  name: "Guatemala City"
+  bg: "Гватемала"
+  lat: 14.634
+  lon: -90.507
+  type: city
+  region: americas
+  sections: [ 048/guatemala-exclusion-and-the-meaning-of-historical-truth ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: freetown
+  name: "Freetown"
+  bg: "Фрийтаун"
+  lat: 8.484
+  lon: -13.229
+  type: city
+  region: africa
+  sections: [ 048/sierra-leone-resources-are-not-destiny ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: mogadishu
+  name: "Mogadishu"
+  bg: "Могадишу"
+  lat: 2.047
+  lon: 45.318
+  type: city
+  region: africa
+  sections: [ 048/somalia-public-authority-does-not-simply-vanish ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: dayton
+  name: "Dayton"
+  bg: "Дейтън"
+  lat: 39.759
+  lon: -84.192
+  type: city
+  region: americas
+  sections: [ 048/bosnia-and-herzegovina-ending-violence-and-designing-a-state ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: kathmandu
+  name: "Kathmandu"
+  bg: "Катманду"
+  lat: 27.717
+  lon: 85.324
+  type: city
+  region: south-asia
+  sections: [ 048/nepal-transforming-a-conflict-into-constitutional-politics ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: juba
+  name: "Juba"
+  bg: "Джуба"
+  lat: 4.859
+  lon: 31.571
+  type: city
+  region: africa
+  sections: [ 048/sudan-and-south-sudan-borders-do-not-solve-every-political ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: monrovia
+  name: "Monrovia"
+  bg: "Монровия"
+  lat: 6.301
+  lon: -10.797
+  type: city
+  region: africa
+  sections: [ 048/liberia-what-a-completed-international-mission-does-and-does, 048/sierra-leone-resources-are-not-destiny ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed
+- id: fort-sumter
+  name: "Fort Sumter"
+  bg: "Форт Съмтър"
+  lat: 32.752
+  lon: -79.875
+  type: site
+  region: americas
+  sections: [ 048/civil-war-is-a-category-not-an-explanation, 048/sudan-and-south-sudan-borders-do-not-solve-every-political, 048/the-united-states-slavery-secession-and-the-constitutional ]
+  source: "hand-entered coordinates (approximate)"
+  status: proposed

@@ -12,7 +12,7 @@ standfirstHtml: "Как спорът за духовната власт се п�
 openingTitle: "Градът чува нов спор."
 description: "Как спорът за духовната власт се превърна в семейство на реформисти движения, промени владетелите и общностите и помогна да се създаде и двете религиозни обновления..."
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 37
 readingTime: 65
 openingReadingTime: 2

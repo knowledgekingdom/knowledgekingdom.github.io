@@ -61,7 +61,7 @@ const bookMeta = features.games ? JSON.stringify({ chapters: (await getChapters(
   parts: getBook(lang).parts.map((p) => ({ n: p.number, roman: p.roman, t: p.title })) }) : '';
 const badgeNames = features.games ? JSON.stringify({ toast: t(lang, 'badge.toast'), journey: localize('/journey/', lang),
   cel: { chapter: t(lang, 'cel.chapter'), part: t(lang, 'cel.part'), journey: t(lang, 'cel.journey'), close: t(lang, 'cel.close'), next: t(lang, 'cel.next') },
-  names: Object.fromEntries(['first-page', 'chapter-complete', 'part-1', 'part-2', 'part-3', 'world-reader', 'cards-100', 'cards-1000',
+  names: Object.fromEntries(['first-page', 'chapter-complete', 'part-1', 'part-2', 'part-3', 'part-4', 'world-reader', 'cards-100', 'cards-1000',
     'mastered-50', 'streak-7', 'streak-30', 'time-keeper', 'fallacy-detective'].map((id) => [id, t(lang, `badge.${id}` as any)])) }) : '';
 ---
 <!doctype html>

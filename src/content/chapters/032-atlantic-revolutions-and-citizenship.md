@@ -12,7 +12,7 @@ standfirstHtml: "How colonists, reformers, enslaved people, soldiers, and ordina
 openingTitle: "Three declarations, three different worlds"
 description: "How colonists, reformers, enslaved people, soldiers, and ordinary households challenged imperial and monarchical power—and how arguments about liberty…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 37
 readingTime: 40
 openingReadingTime: 2

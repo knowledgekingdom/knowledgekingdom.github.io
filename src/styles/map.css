@@ -267,6 +267,7 @@
 .km-frame.is-awakening .km-crest[data-part='1'] .km-crest-in { animation-delay: 1.7s; }
 .km-frame.is-awakening .km-crest[data-part='2'] .km-crest-in { animation-delay: 1.95s; }
 .km-frame.is-awakening .km-crest[data-part='3'] .km-crest-in { animation-delay: 2.2s; }
+.km-frame.is-awakening .km-crest[data-part='4'] .km-crest-in { animation-delay: 2.45s; }
 .km-frame.is-awakening .km-region-name { animation: km-fade-in 1.2s 1.3s both; }
 @keyframes km-fade-in { from { opacity: 0; } }
 .km-skip-intro { position: absolute; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 5; min-height: 40px; padding: .4rem 1rem; border-radius: 999px;

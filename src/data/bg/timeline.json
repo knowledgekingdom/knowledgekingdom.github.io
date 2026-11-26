@@ -119,6 +119,46 @@
     "038": [
       1914,
       1919
+    ],
+    "039": [
+      1921,
+      1939
+    ],
+    "040": [
+      1939,
+      1945
+    ],
+    "041": [
+      1944,
+      2009
+    ],
+    "042": [
+      1914,
+      2003
+    ],
+    "043": [
+      1801,
+      2000
+    ],
+    "044": [
+      1801,
+      2024
+    ],
+    "045": [
+      1814,
+      1978
+    ],
+    "046": [
+      101,
+      2022
+    ],
+    "047": [
+      1945,
+      2024
+    ],
+    "048": [
+      1949,
+      2016
     ]
   },
   "events": [
@@ -840,6 +880,17 @@
       "approx": true,
       "qual": "by",
       "text": "До втори век CE гражданинът бил разпръснат из провинциите.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-44ad2b25",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/individual-criminal-responsibility-from-nuremberg-onward/",
+      "start": 101,
+      "end": 200,
+      "approx": false,
+      "qual": "after",
+      "text": "След Втората световна война трибуналите в Нюрнберг и Токио осъдиха лица за престъпления, свързани с военно време на поведение и агресия по силата на съответните им харти.",
       "source": "sentence"
     },
     {
@@ -2223,6 +2274,26 @@
       "source": "sentence"
     },
     {
+      "id": "043-b6d33664",
+      "chapter": "043",
+      "url": "/043-the-geography-of-power/technology-changes-the-meaning-of-terrain/",
+      "start": 1801,
+      "end": 1900,
+      "approx": true,
+      "text": "През деветнадесети век железниците променили скоростта, с която държавите можели да доставят армии и да свързват вътрешни индустрии.",
+      "source": "sentence"
+    },
+    {
+      "id": "044-9b4a9775",
+      "chapter": "044",
+      "url": "/044-military-organization-and-logistics/industrialisation-and-the-first-world-war/",
+      "start": 1801,
+      "end": 1900,
+      "approx": false,
+      "text": "През деветнадесети и началото на двадесети век железниците, телеграфията, фабриките, механизирания транспорт и научните разработки също променили войната.",
+      "source": "sentence"
+    },
+    {
       "id": "029-06c29362",
       "chapter": "029",
       "url": "/029-atlantic-slavery-and-plantation-economies/saint-domingue-and-the-haitian-revolution/",
@@ -2270,6 +2341,16 @@
       "end": 1810,
       "approx": false,
       "text": "През 1810 г. свещеникът Мигел Идалго и Костил започва въстание, което често се запомня чрез Грито де Долорес.",
+      "source": "sentence"
+    },
+    {
+      "id": "045-b7c68b84",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-congress-of-vienna-a-defeated-power-returns/",
+      "start": 1814,
+      "end": 1815,
+      "approx": false,
+      "text": "През 1814 и 1815 г. европейските сили договорили споразумение след Наполеоновите войни.",
       "source": "sentence"
     },
     {
@@ -2412,6 +2493,16 @@
       "end": 1859,
       "approx": false,
       "text": "През 1859 г. Молдова и Влашко избират един и същ княз, Александру Йоан Куза, и така създават фактически политически съюз.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-0d2f1594",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/solferino-the-red-cross-and-the-geneva-movement/",
+      "start": 1859,
+      "end": 1859,
+      "approx": false,
+      "text": "През 1859 г. Хенри Дънант става свидетел на страданието, свързано с битката при Солферино.",
       "source": "sentence"
     },
     {
@@ -2647,6 +2738,37 @@
       "source": "sentence"
     },
     {
+      "id": "045-bca6051e",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/alliances-before-1914-commitments-without-inevitability/",
+      "start": 1901,
+      "end": 1934,
+      "approx": true,
+      "qual": "by",
+      "text": "Към началото на ХХ век европейската политика включваше припокриващи се споразумения и все по-конкурентни групи.",
+      "source": "sentence"
+    },
+    {
+      "id": "043-a9a5cd28",
+      "chapter": "043",
+      "url": "/043-the-geography-of-power/technology-changes-the-meaning-of-terrain/",
+      "start": 1901,
+      "end": 2000,
+      "approx": true,
+      "text": "През двадесети век самолетите достигали през бариерите, които ограничавали войските пеша.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-e6cd8e79",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/the-long-history-of-restraint-in-war/",
+      "start": 1901,
+      "end": 2000,
+      "approx": true,
+      "text": "През двадесети век новите независими държави участвали в по-нататъшното им разработване.",
+      "source": "sentence"
+    },
+    {
       "id": "035-7c9076fd",
       "chapter": "035",
       "url": "/035-imperialism-and-african-partition/german-south-west-africa-and-genocide/",
@@ -2749,6 +2871,26 @@
       "source": "title"
     },
     {
+      "id": "042-adbcb712",
+      "chapter": "042",
+      "url": "/042-why-wars-begin/case-study-europes-july-crisis-of-1914/",
+      "start": 1914,
+      "end": 1914,
+      "approx": false,
+      "text": "Пример: Юлската криза в Европа през 1914 г.",
+      "source": "title"
+    },
+    {
+      "id": "045-4305314e",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/alliances-before-1914-commitments-without-inevitability/",
+      "start": 1914,
+      "end": 1914,
+      "approx": false,
+      "text": "Съюзите преди 1914 г.: ангажименти без неизбежност",
+      "source": "title"
+    },
+    {
       "id": "038-f1174bd8",
       "chapter": "038",
       "url": "/038-world-war-i-causes-and-consequences/bulgaria-joins-the-central-powers-october-1915/",
@@ -2837,6 +2979,798 @@
       "approx": false,
       "text": "Значението на Харапа и Мохенджо-Даро като останки от древна градска цивилизация става международно призната чрез археологически изследвания.",
       "source": "list"
+    },
+    {
+      "id": "039-d021dde9",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/revolutionary-russia-and-the-soviet-alternative/",
+      "start": 1921,
+      "end": 1921,
+      "approx": false,
+      "text": "През 1921 г. новата икономическа политика на Ленин позволява частично завръщане на пазарите, особено в дребномащабната търговия и селското стопанство, докато управляващата партия запазва водещата политическа позиция.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-280bfd9c",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/hyperinflation-and-the-memory-of-1923/",
+      "start": 1923,
+      "end": 1923,
+      "approx": false,
+      "text": "Хиперинфлацията и споменът за 1923 г.",
+      "source": "title"
+    },
+    {
+      "id": "039-dd1b20cd",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/bulgarias-1923-coup-and-the-spiral-of-violence/",
+      "start": 1923,
+      "end": 1923,
+      "approx": false,
+      "text": "През септември 1923 г. едно комунистическо въстание е потиснато със значително насилие.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-ca1400fc",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/italy-the-march-on-rome-and-the-consolidation-of-fascism/",
+      "start": 1924,
+      "end": 1924,
+      "approx": false,
+      "qual": "after",
+      "text": "След убийството през 1924 г. на депутата от социалистите Джакомо Матеоти, фашистките лидери са изправени пред криза; през 1925г.1926г. Мусолини разглобява голяма част от оставащата политическа опозиция и свободната преса.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-f052d609",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/1929-a-crash-not-a-complete-explanation/",
+      "start": 1929,
+      "end": 1929,
+      "approx": false,
+      "text": "1929 г.: срив, а не цялостно обяснение",
+      "source": "title"
+    },
+    {
+      "id": "039-871ef1b0",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/the-road-toward-a-new-general-war/",
+      "start": 1930,
+      "end": 1939,
+      "approx": false,
+      "text": "През 1930 г. нацистка Германия преследва ревизия и завоевание, превъоръжаване и подкопава европейската заповед за сигурност.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-36b78103",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/japan-and-the-transformation-of-east-asian-security/",
+      "start": 1931,
+      "end": 1931,
+      "approx": false,
+      "text": "През септември 1931 г. японски офицери организирали инцидент на южната манджурска железница и го използвали като претекст за окупиране на Манджурия.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-e7ba292c",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/weimars-collapse-was-a-political-process/",
+      "start": 1932,
+      "end": 1932,
+      "approx": false,
+      "qual": "by",
+      "text": "До юли 1932 г. нацистите били най-голямата партия в Райхстага, но приблизително 37 процента от гласовете им не били мнозинство.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-406526cc",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/collectivization-famine-and-the-holodomor/",
+      "start": 1932,
+      "end": 1933,
+      "approx": false,
+      "text": "През 1932 и 1933 г. катастрофален глад порази Украйна и други съветски региони, включително Казахстан и части от Русия.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-beb399be",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/from-appointment-to-dictatorship-in-1933/",
+      "start": 1933,
+      "end": 1933,
+      "approx": false,
+      "text": "От назначението до диктатурата през 1933 г.",
+      "source": "title"
+    },
+    {
+      "id": "039-ab1425c6",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/japan-and-the-transformation-of-east-asian-security/",
+      "start": 1937,
+      "end": 1937,
+      "approx": false,
+      "text": "През 1937 г. избухна война с пълен мащаб между Япония и Китай след подновени битки близо до Пекин.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-a3605b65",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/munich-and-the-failure-of-appeasement/",
+      "start": 1938,
+      "end": 1938,
+      "approx": false,
+      "text": "През март 1938 г. Германия прилага Австрия.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-a00a3a8d",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/synthesis-five-connected-systems/",
+      "start": 1939,
+      "end": 1939,
+      "approx": false,
+      "qual": "by",
+      "text": "До 1939 г. бяха трансформирани пет основни системи.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-89fc01c0",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/bulgaria-in-the-1930s-coup-monarchy-and-revisionism/",
+      "start": 1939,
+      "end": 1939,
+      "approx": false,
+      "text": "През 1939 г. България все още не се е присъединила към Втората световна война; нейният по-късен военновременен съюз и опитът на българските евреи принадлежат към следващата глава.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-ff8b43e1",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/1939-the-end-of-the-interwar-order-and-the-questions/",
+      "start": 1939,
+      "end": 1939,
+      "approx": false,
+      "text": "През август 1939 г. Германия и Съветският съюз сключват пакт за ненападение с тайни протоколи, разделящи сферите на влияние в Източна Европа.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-25c99c30",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/poland-september-1939-and-the-destruction-of-a-state/",
+      "start": 1939,
+      "end": 1939,
+      "approx": false,
+      "text": "Полша, септември 1939 г., и унищожаването на една държава",
+      "source": "title"
+    },
+    {
+      "id": "040-4ed41ebb",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/the-final-solution-and-the-killing-centers/",
+      "start": 1941,
+      "end": 1942,
+      "approx": false,
+      "qual": "by",
+      "text": "През 1942 г. лидерите на нацистите са се преместили да организират масово убийство в цяла Европа.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-6a809009",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/the-turning-years-1942-and-1943/",
+      "start": 1942,
+      "end": 1942,
+      "approx": false,
+      "qual": "by",
+      "text": "До края на 1942 г. силите на Оста са изправени пред няколко сериозни обрати.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-ed9e85fe",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/kursk-italy-and-the-relentless-eastern-front/",
+      "start": 1943,
+      "end": 1943,
+      "approx": false,
+      "text": "През юли 1943 г. съюзнически сили нахлуха в Сицилия.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-ef95b545",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/bulgarias-jews-protection-in-the-old-kingdom-deportation/",
+      "start": 1943,
+      "end": 1943,
+      "approx": false,
+      "text": "През март 1943 г. българската полиция и военни власти арестуваха и депортираха 11 334 евреи от окупираните от България територии на Вардарска Македония, Тракия и Пирот.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-2253a3ec",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/okinawa-and-the-final-pacific-campaigns/",
+      "start": 1944,
+      "end": 1944,
+      "approx": false,
+      "qual": "by",
+      "text": "До 1944 г. Съединените щати и неговите съюзници завзеха стратегически важни тихоокеански позиции и можеха все повече да нападат местните острови в Япония.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-22715edc",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bulgaria-after-1944-the-communist-state/",
+      "start": 1944,
+      "end": 1944,
+      "approx": false,
+      "text": "През септември 1944 г. България промени военното подравняване на фона на съветското военно влизане и превземането на Отечествения фронт.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-2ba39402",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/bulgaria-in-1944-1945-changing-sides-and-changing-regimes/",
+      "start": 1944,
+      "end": 1945,
+      "approx": false,
+      "text": "България през 1944–1945 г.: смяна на страната и смяна на режима",
+      "source": "title"
+    },
+    {
+      "id": "040-ff202758",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/okinawa-and-the-final-pacific-campaigns/",
+      "start": 1945,
+      "end": 1945,
+      "approx": false,
+      "text": "През 1945 г. американските сили залавят Иво Джима и Окинава на изключително висока цена.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-80112cfd",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/the-road-to-1945-in-europe/",
+      "start": 1945,
+      "end": 1945,
+      "approx": false,
+      "text": "През април 1945 г. съветските войски се борили за Берлин.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-7b8f870c",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/decolonization-independence-as-a-world-making-process/",
+      "start": 1945,
+      "end": 1945,
+      "approx": false,
+      "text": "През 1945 г. стотици милиони хора живеели под колониално управление.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-93d4a79b",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/a-concise-comparative-chronology/",
+      "start": 1945,
+      "end": 1945,
+      "approx": false,
+      "text": "През 1945 г. е основана Организацията на обединените нации и военните империи започват да се изправят пред по-силни изисквания за независимост.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-0d02f8c3",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-strange-outcome-of-the-wartime-alliance/",
+      "start": 1945,
+      "end": 1945,
+      "approx": false,
+      "text": "През 1945 г. Съединените щати притежават несравним индустриален капацитет, световни военни бази и единствените разположени атомни оръжия.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-2c9d430b",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/1945-scientific-achievement-and-human-catastrophe/",
+      "start": 1945,
+      "end": 1945,
+      "approx": false,
+      "text": "През август 1945 г. САЩ използват ядрени оръжия срещу Хирошима и Нагасаки.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-818536ee",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/a-concise-comparative-chronology/",
+      "start": 1947,
+      "end": 1949,
+      "approx": false,
+      "text": "През 1947 и 1949 г. доктрината \"Труман,\" план \"Маршал,\" Берлинската блокада, Индийското разделение, китайската революция и формирането на НАТО създават нови политически реалности.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-670c5bc3",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/berlin-germany-and-the-formation-of-opposing-blocs/",
+      "start": 1948,
+      "end": 1948,
+      "approx": false,
+      "text": "През 1948 г. съветските власти блокираха достъпа на повечето земи до западните сектори на Берлин, които се намираха в съветската окупационна зона.",
+      "source": "sentence"
+    },
+    {
+      "id": "044-3f4cbffc",
+      "chapter": "044",
+      "url": "/044-military-organization-and-logistics/the-berlin-airlift-logistics-as-political-communication/",
+      "start": 1948,
+      "end": 1948,
+      "approx": false,
+      "text": "През 1948 г. Съветският съюз блокира достъпа до земите в западните сектори на Берлин.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-976ee0cb",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/from-the-hague-to-the-geneva-conventions/",
+      "start": 1949,
+      "end": 1949,
+      "approx": false,
+      "text": "През 1949 г. правителствата приеха четири Женевски конвенции.",
+      "source": "sentence"
+    },
+    {
+      "id": "048-0df74746",
+      "chapter": "048",
+      "url": "/048-civil-wars-and-fragile-states/china-revolution-civil-war-and-competing-state-building/",
+      "start": 1949,
+      "end": 1949,
+      "approx": false,
+      "text": "През 1949 г. Китайската народна република е обявена на континента, докато правителството на Република Китай се премества в Тайван.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-13f76a99",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/culture-memory-and-the-natural-environment/",
+      "start": 1954,
+      "end": 1954,
+      "approx": false,
+      "text": "През 1954 г. държавите приеха Хагската конвенция за защита на културната собственост в Събитието за въоръжен конфликт.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-9fac30c6",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bandung-and-the-non-aligned-movement/",
+      "start": 1955,
+      "end": 1955,
+      "approx": false,
+      "text": "През април 1955 г. делегати от двадесет и девет азиатски и африкански правителства се срещнаха в Бандунг в Индонезия, за да обсъдят мира, суверенитета, расизма, развитието и противопоставянето на колониализма.",
+      "source": "sentence"
+    },
+    {
+      "id": "045-84d99b6d",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bandung-and-the-refusal-to-be-treated-as-a-chess-piece/",
+      "start": 1955,
+      "end": 1955,
+      "approx": false,
+      "text": "През април 1955 г. представители на двадесет и девет азиатски и африкански правителства се срещнаха в Бандунг (Индонезия).",
+      "source": "sentence"
+    },
+    {
+      "id": "041-b72d1667",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/africas-diverse-independence-movements/",
+      "start": 1960,
+      "end": 1960,
+      "approx": false,
+      "text": "През 1960 г. много бивши френски и белгийски територии станаха суверенни държави, една година понякога наречена Годината на Африка.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-45f701d7",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/berlin-germany-and-the-formation-of-opposing-blocs/",
+      "start": 1961,
+      "end": 1961,
+      "approx": false,
+      "text": "През 1961 г. източногерманските власти издигнаха Берлинската стена, за да спре емиграцията и да контролира движението, превръщайки Берлин в мощен символ на европейската политическа география.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-2e2e84cb",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-cuban-revolution-and-the-missile-crisis/",
+      "start": 1962,
+      "end": 1962,
+      "approx": false,
+      "text": "През 1962 г. разузнаването на САЩ разкрива, че съветските ядрени ракети са в процес на изграждане в Куба, предизвиквайки изключително опасна конфронтация.",
+      "source": "sentence"
+    },
+    {
+      "id": "042-e66bcc42",
+      "chapter": "042",
+      "url": "/042-why-wars-begin/case-study-the-cuban-missile-crisis-1962/",
+      "start": 1962,
+      "end": 1962,
+      "approx": false,
+      "text": "През октомври 1962 г. Съединените щати откриват, че съветските ядрени ракети са инсталирани в Куба.",
+      "source": "sentence"
+    },
+    {
+      "id": "045-65cd97dd",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-cuban-missile-crisis-the-value-and-cost-of-communication/",
+      "start": 1962,
+      "end": 1962,
+      "approx": false,
+      "text": "През октомври 1962 г. конфронтация между Съединените щати и Съветския съюз над съветските ракети в Куба доведе силите до опасна криза.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-9b89c495",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/the-cuban-missile-crisis-the-value-of-diplomacy/",
+      "start": 1962,
+      "end": 1962,
+      "approx": false,
+      "text": "През октомври 1962 г. конфронтация, засягаща Съединените щати, Съветския съюз и Куба, доведе до острата опасност от ядрена война.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-2731e9e6",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/indonesia-and-southeast-asia-independence-and-competing/",
+      "start": 1965,
+      "end": 1966,
+      "approx": false,
+      "text": "На фона на политически преход, който издигнал авторитарното управление на Сухарто, се случили масови антикомунистически убийства.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-9a5c20ca",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/middle-eastern-transformations-independence-oil-and-conflict/",
+      "start": 1970,
+      "end": 1979,
+      "approx": false,
+      "text": "През 70-те години на миналия век шокът от цените на петрола разкри как производителите и потребителите зависят един от друг.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-35636653",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/from-the-test-ban-to-superpower-agreements/",
+      "start": 1970,
+      "end": 1979,
+      "approx": false,
+      "text": "През 70-те години на миналия век Съединените щати и Съветският съюз договориха стратегическите преговори за ограничаване на оръжията или САЛТ.",
+      "source": "sentence"
+    },
+    {
+      "id": "045-4187358a",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/rapprochement-across-ideological-divides/",
+      "start": 1972,
+      "end": 1972,
+      "approx": false,
+      "text": "През 1972 г. американският президент Ричард Никсън посети Китайската народна република.",
+      "source": "sentence"
+    },
+    {
+      "id": "045-ab73b797",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/camp-david-a-durable-agreement-with-unresolved-questions/",
+      "start": 1978,
+      "end": 1978,
+      "approx": false,
+      "text": "През септември 1978 г. египетският президент Анвар Садат и израелският премиер Менахем започват преговори с американския президент Джими Картър в Кемп Дейвид.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-e82a1fcd",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/afghanistan-iran-and-the-renewed-cold-war-of-the-1980s/",
+      "start": 1979,
+      "end": 1979,
+      "approx": false,
+      "text": "През 1979 г. Съветският съюз се намесва военно в Афганистан, за да подкрепи комунистическо правителство, което се изправя срещу широко разпространен бунт и вътрешен конфликт.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-bb303d0f",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bulgarias-forced-assimilation-campaign-and-1989/",
+      "start": 1980,
+      "end": 1989,
+      "approx": false,
+      "text": "През 80-те години българските комунистически власти засилиха принудителните политики към турски и други мюсюлмански общности.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-96150955",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/case-study-nicaragua-and-the-reach-of-customary-law/",
+      "start": 1984,
+      "end": 1984,
+      "approx": false,
+      "text": "През 1984 г. Никарагуа заведе дело срещу Съединените щати пред МС относно военни и паравоенни дейности.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-a4b3d083",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/case-study-one-bulgarian-town-across-three-political-systems/",
+      "start": 1985,
+      "end": 1985,
+      "approx": false,
+      "qual": "by",
+      "text": "До 1985 г. има жилищни блокове, държавна фабрика, обучени техници, болница и подобрени пътища, но гражданите не могат да организират независима политическа партия и някои семейства от малцинствата са изправени пред принудителна асимилация.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-aa0f9bac",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/case-study-one-bulgarian-town-across-three-political-systems/",
+      "start": 1989,
+      "end": 1989,
+      "approx": false,
+      "qual": "after",
+      "text": "След 1989 г. градът печели свободни избори и търговски избор, докато фабриката губи пазари, безработицата се повишава и младите хора мигрират в по-големи градове или в чужбина.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-d3359527",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-revolutions-of-1989-and-the-fall-of-the-wall/",
+      "start": 1989,
+      "end": 1989,
+      "approx": false,
+      "text": "През 1989 г. полските преговори позволиха частично свободни избори и появата на некомунистическо правителство.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-5a9db0d0",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bulgarias-forced-assimilation-campaign-and-1989/",
+      "start": 1989,
+      "end": 1989,
+      "approx": false,
+      "text": "През 1989 г. режимът оказва натиск и дава възможност за отпътуването на голям брой български турци в Турция - епизод, често описван като \"Голямото екскурзия\" в официалния евфемизъм, но разследван от учени като насилствено изместване и етническо прочистване.",
+      "source": "sentence"
+    },
+    {
+      "id": "042-38186830",
+      "chapter": "042",
+      "url": "/042-why-wars-begin/case-study-iraq-and-kuwait-1990-1991/",
+      "start": 1990,
+      "end": 1990,
+      "approx": false,
+      "text": "През август 1990 г. иракските сили нахлуха и окупираха Кувейт.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-522ce354",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/globalization-trade-technology-and-uneven-development/",
+      "start": 1991,
+      "end": 1991,
+      "approx": false,
+      "qual": "after",
+      "text": "След 1991 разширяване на търговията, цифровите мрежи, контейнера корабоплаването и мултинационалната продукция свързаха много икономики по-тясно.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-c755238d",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/what-changed-by-1991-and-what-did-not/",
+      "start": 1991,
+      "end": 1991,
+      "approx": false,
+      "qual": "by",
+      "text": "До 1991 г. европейската колониална карта е била фундаментално трансформирана, ръководеният от СССР блок се е срутил, Германия е обединена и Съединените щати заемат необичайно мощна международна позиция.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-1a28009d",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/germany-reunifies-and-the-soviet-union-dissolves/",
+      "start": 1991,
+      "end": 1991,
+      "approx": false,
+      "qual": "by",
+      "text": "До декември 1991 г. СССР се разпуска и съставните му републики стават независими държави.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-5f5d9ca7",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-balkans-after-1991-yugoslavias-violent-dissolution/",
+      "start": 1991,
+      "end": 1991,
+      "approx": false,
+      "text": "Балканите след 1991 г.: насилственият разпад на Югославия",
+      "source": "title"
+    },
+    {
+      "id": "041-1afe5100",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-post-1991-international-order-and-its-limits/",
+      "start": 1991,
+      "end": 1991,
+      "approx": false,
+      "text": "Международният ред след 1991 г. и неговите граници",
+      "source": "title"
+    },
+    {
+      "id": "047-c911757b",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/south-africa-and-the-possibility-of-reversal/",
+      "start": 1993,
+      "end": 1993,
+      "approx": false,
+      "text": "През 1993 г. президентът Ф.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-f22ee9bd",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/the-npt-an-international-bargain-with-three-pillars/",
+      "start": 1995,
+      "end": 1995,
+      "approx": false,
+      "text": "През 1995 г. нейните страни се съгласиха да го разширят за неопределено време.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-29391271",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-weapons-and-international-law-the-1996-advisory/",
+      "start": 1996,
+      "end": 1996,
+      "approx": false,
+      "text": "През 1996 г. Международният съд даде консултативно становище относно законосъобразността на тяхната заплаха или употреба, в отговор на въпрос от Общото събрание на ООН.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-891351f9",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/case-study-rwanda-bosnia-and-the-different-meanings/",
+      "start": 1998,
+      "end": 1998,
+      "approx": false,
+      "text": "През 1998 г. Международният наказателен съд за Руанда осъди Жан-Пол Акайесу за геноцид и престъпления срещу човечеството.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-d6f82da5",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/case-study-one-bulgarian-town-across-three-political-systems/",
+      "start": 2000,
+      "end": 2009,
+      "approx": false,
+      "qual": "by",
+      "text": "До новите инвестиции през 2000 г. и свързаните с ЕС проекти могат да пристигнат, но предимствата се разпределят неравномерно.",
+      "source": "sentence"
+    },
+    {
+      "id": "042-f32e41f6",
+      "chapter": "042",
+      "url": "/042-why-wars-begin/case-study-iraq-in-2003-and-the-problem-of-intelligence/",
+      "start": 2003,
+      "end": 2003,
+      "approx": false,
+      "text": "Пример: Ирак през 2003 г. и проблемът с разузнаването",
+      "source": "title"
+    },
+    {
+      "id": "046-877d8bf3",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/humanitarian-intervention-and-responsibility-to-protect/",
+      "start": 2005,
+      "end": 2005,
+      "approx": false,
+      "text": "През 2005 г. членовете на ООН одобриха отговорността за защита на населението от геноцид, военни престъпления, етническо прочистване и престъпления срещу човечеството.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-f0d1a9d7",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/case-study-congo-uganda-and-the-long-journey-to-reparation/",
+      "start": 2005,
+      "end": 2005,
+      "approx": false,
+      "text": "През 2005 г. МС установи, че Уганда е нарушила международните си задължения в Демократична република Конго, включително правилата за използване на сила и задължения, произтичащи от нейното поведение на окупирана територия.",
+      "source": "sentence"
+    },
+    {
+      "id": "048-a67a49a4",
+      "chapter": "048",
+      "url": "/048-civil-wars-and-fragile-states/nepal-transforming-a-conflict-into-constitutional-politics/",
+      "start": 2006,
+      "end": 2006,
+      "approx": false,
+      "text": "През ноември 2006 г. правителството и комунистическата партия на Непал (Маоист) сключиха Всеобхватно мирно споразумение.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-5f898e4f",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/case-study-rwanda-bosnia-and-the-different-meanings/",
+      "start": 2007,
+      "end": 2007,
+      "approx": false,
+      "text": "През 2007 г. МС реши делото на Босна и Херцеговина срещу Сърбия съгласно Геноцидната конвенция.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-cb60c503",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/culture-memory-and-the-natural-environment/",
+      "start": 2016,
+      "end": 2016,
+      "approx": false,
+      "text": "През 2016 г. Международният наказателен съд осъди Ahmad Al Faqi Al Mahdi за военно престъпление, свързано със защитени исторически и религиозни паметници в Тимбукту, Мали.",
+      "source": "sentence"
+    },
+    {
+      "id": "048-3b74ad3e",
+      "chapter": "048",
+      "url": "/048-civil-wars-and-fragile-states/colombia-a-peace-agreement-is-not-the-end-of-all-insecurity/",
+      "start": 2016,
+      "end": 2016,
+      "approx": false,
+      "text": "През ноември 2016 г. правителството и FARC-EP подписаха окончателно мирно споразумение, след като по-ранна версия беше отхвърлена на референдум.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-0d19a994",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/the-treaty-on-the-prohibition-of-nuclear-weapons/",
+      "start": 2017,
+      "end": 2017,
+      "approx": false,
+      "text": "През юли 2017 г. конференция на ООН прие Договора за забрана на ядрените оръжия, който влезе в сила на 22 януари 2021 г.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-3d3c4f42",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/case-study-congo-uganda-and-the-long-journey-to-reparation/",
+      "start": 2022,
+      "end": 2022,
+      "approx": false,
+      "text": "През 2022 г. Палатата определи компенсация на обща стойност 325 млн. щатски долара, разделена на 225 млн. долара за щети на лица, 40 млн. долара за щети на имущество и 60 млн. долара за природни ресурси.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-3b90e7ea",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/aggression-a-legal-concept-and-a-political-accusation/",
+      "start": 2022,
+      "end": 2022,
+      "approx": false,
+      "text": "През март 2022 г. Общото събрание на ООН прие Резолюция ES-11/1, осъждаща агресията на Русия срещу Украйна и изискваща оттегляне.",
+      "source": "sentence"
+    },
+    {
+      "id": "044-24b18820",
+      "chapter": "044",
+      "url": "/044-military-organization-and-logistics/maintenance-and-life-cycle-costs/",
+      "start": 2024,
+      "end": 2024,
+      "approx": false,
+      "text": "През 2024 г. САЩ",
+      "source": "sentence"
+    },
+    {
+      "id": "047-e4666695",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/1945-scientific-achievement-and-human-catastrophe/",
+      "start": 2024,
+      "end": 2024,
+      "approx": false,
+      "text": "През 2024 г. Нобеловата награда за мир бе връчена на Нихон Хиданкио, организация от японски оцелели от атомна бомба, чиито показания и застъпничество помогнаха тези последствия да бъдат видими.",
+      "source": "sentence"
     }
   ]
 }

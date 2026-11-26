@@ -2,7 +2,7 @@
   "title": "Knowledge Kingdom",
   "titleDisplay": "KNOWLEDGE KINGDOM",
   "subtitle": "Илюстрован пътеводител за разбирането на света",
-  "edition": 41,
+  "edition": 42,
   "editionDate": "ноември 2026",
   "statusNote": "дългоформов проект на глава. Фактическите и редакционните проверки на качеството остават част от окончателния процес на публикуване.",
   "parts": [
@@ -65,7 +65,25 @@
         35,
         36,
         37,
-        38
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "number": 4,
+      "roman": "IV",
+      "title": "Война, мир и геополитика",
+      "slug": "part-4-war-peace-and-geopolitics",
+      "chapters": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
       ]
     }
   ],
@@ -7490,6 +7508,2712 @@
       "title": "Източници и допълнително четене",
       "kind": "sources",
       "chapter": 38
+    },
+    {
+      "url": "/039-the-interwar-world/",
+      "title": "Светът между войните",
+      "kind": "chapter",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/three-problems-at-once-security-legitimacy-and-livelihoods/",
+      "title": "Три проблема наведнъж: сигурност, легитимност и препитание",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/paris-new-borders-and-contested-self-determination/",
+      "title": "Париж, нови граници и оспорваното самоопределение",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/the-league-of-nations-more-than-a-failed-security-experiment/",
+      "title": "Обществото на народите: повече от един провален опит за сигурност",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/the-fragile-financial-order-left-by-world-war-i/",
+      "title": "Крехкият финансов ред, оставен от Първата световна война",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/revolutionary-russia-and-the-soviet-alternative/",
+      "title": "Революционна Русия и съветската алтернатива",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/germanys-weimar-republic-a-democracy-under-pressure/",
+      "title": "Ваймарската република в Германия: демокрация под натиск",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/hyperinflation-and-the-memory-of-1923/",
+      "title": "Хиперинфлацията и споменът за 1923 г.",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/a-recovery-that-rested-on-unstable-foundations/",
+      "title": "Възстановяване върху нестабилни основи",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/cities-cinema-radio-and-new-mass-cultures/",
+      "title": "Градове, кино, радио и нови масови култури",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/self-determination-beyond-europe/",
+      "title": "Самоопределението извън Европа",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/turkey-and-the-end-of-the-ottoman-imperial-order/",
+      "title": "Турция и краят на османския имперски ред",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/italy-the-march-on-rome-and-the-consolidation-of-fascism/",
+      "title": "Италия: Походът към Рим и утвърждаването на фашизма",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/what-fascism-was-and-what-it-was-not/",
+      "title": "Какво беше фашизмът – и какво не беше",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/stalins-revolution-from-above/",
+      "title": "Революцията отгоре на Сталин",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/collectivization-famine-and-the-holodomor/",
+      "title": "Колективизация, глад и Гладоморът",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/terror-surveillance-and-the-limits-of-apparent-consensus/",
+      "title": "Терор, наблюдение и границите на привидното съгласие",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/1929-a-crash-not-a-complete-explanation/",
+      "title": "1929 г.: срив, а не цялостно обяснение",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/how-a-national-downturn-became-a-world-depression/",
+      "title": "Как един национален спад се превърна в световна депресия",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/unemployment-farms-and-the-human-experience-of-collapse/",
+      "title": "Безработица, ферми и човешкото преживяване на срива",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/democracys-responses-the-new-deal-and-other-reforms/",
+      "title": "Отговорите на демокрацията: Новият курс и други реформи",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/the-temptation-of-simple-economic-explanations/",
+      "title": "Изкушението на простите икономически обяснения",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/weimars-collapse-was-a-political-process/",
+      "title": "Рухването на Ваймар беше политически процес",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/from-appointment-to-dictatorship-in-1933/",
+      "title": "От назначението до диктатурата през 1933 г.",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/race-antisemitism-and-the-nazi-state/",
+      "title": "Раса, антисемитизъм и нацистката държава",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/why-some-parliamentary-systems-survived/",
+      "title": "Защо някои парламентарни системи оцеляха",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/spain-a-civil-war-with-international-consequences/",
+      "title": "Испания: гражданска война с международни последици",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/japan-and-the-transformation-of-east-asian-security/",
+      "title": "Япония и преобразяването на сигурността в Източна Азия",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/chinas-republic-revolution-and-invasion/",
+      "title": "Китай: република, революция и нашествие",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/india-africa-latin-america-and-the-wider-interwar-world/",
+      "title": "Индия, Африка, Латинска Америка и по-широкият свят между войните",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/bulgaria-after-neuilly-land-grievances-and-parliamentary/",
+      "title": "България след Ньой: земя, обиди и парламентарно напрежение",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/bulgarias-1923-coup-and-the-spiral-of-violence/",
+      "title": "Превратът от 1923 г. в България и спиралата на насилието",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/bulgaria-in-the-1930s-coup-monarchy-and-revisionism/",
+      "title": "България през 30-те години: преврат, монархия и ревизионизъм",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/manchuria-and-ethiopia-collective-security-under-strain/",
+      "title": "Манджурия и Етиопия: колективната сигурност под напрежение",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/the-road-toward-a-new-general-war/",
+      "title": "Пътят към нова всеобща война",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/munich-and-the-failure-of-appeasement/",
+      "title": "Мюнхен и провалът на политиката на умиротворяване",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/1939-the-end-of-the-interwar-order-and-the-questions/",
+      "title": "1939 г.: краят на междувоенния ред – и въпросите, които той оставя",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/case-study-did-the-depression-cause-hitler/",
+      "title": "Пример: Голямата депресия ли доведе Хитлер?",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/synthesis-five-connected-systems/",
+      "title": "Синтез: пет свързани системи",
+      "kind": "section",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 39
+    },
+    {
+      "url": "/039-the-interwar-world/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 39
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/",
+      "title": "Втората световна война и Холокостът",
+      "kind": "chapter",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/what-makes-a-war-global/",
+      "title": "Какво прави една война световна?",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/from-the-failed-peace-to-expansionist-dictatorships/",
+      "title": "От провалилия се мир до експанзионистичните диктатури",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/poland-september-1939-and-the-destruction-of-a-state/",
+      "title": "Полша, септември 1939 г., и унищожаването на една държава",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/scandinavia-france-and-the-limits-of-the-early-german/",
+      "title": "Скандинавия, Франция и границите на ранните германски победи",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/britain-air-defense-and-the-atlantic-supply-line/",
+      "title": "Великобритания, противовъздушната отбрана и атлантическата линия за снабдяване",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/north-africa-the-mediterranean-and-colonial-soldiers/",
+      "title": "Северна Африка, Средиземноморието и колониалните войници",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/the-balkan-campaigns-and-the-axis-order-in-southeastern/",
+      "title": "Балканските кампании и редът на Оста в Югоизточна Европа",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/operation-barbarossa-a-war-of-annihilation/",
+      "title": "Операция „Барбароса“: война на унищожение",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/the-siege-of-leningrad-and-suffering-behind-front-lines/",
+      "title": "Обсадата на Ленинград и страданието зад фронтовата линия",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/japans-war-in-china-and-asian-imperialism/",
+      "title": "Войната на Япония в Китай и азиатският империализъм",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/pearl-harbor-and-the-widening-pacific-war/",
+      "title": "Пърл Харбър и разширяващата се война в Тихия океан",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/midway-guadalcanal-and-the-cost-of-island-warfare/",
+      "title": "Мидуей, Гуадалканал и цената на войната за островите",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/how-a-coalition-sustains-a-long-war/",
+      "title": "Как една коалиция издържа дълга война",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/from-antisemitic-exclusion-to-mass-murder/",
+      "title": "От антисемитското изключване до масовото убийство",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/ghettos-deportation-and-the-language-of-administration/",
+      "title": "Гета, депортации и езикът на администрацията",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/mass-shootings-after-the-invasion-of-the-soviet-union/",
+      "title": "Масовите разстрели след нахлуването в Съветския съюз",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/the-final-solution-and-the-killing-centers/",
+      "title": "„Окончателното решение“ и лагерите на смъртта",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/other-victims-of-nazi-persecution-and-murder/",
+      "title": "Другите жертви на нацистките преследвания и убийства",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/resistance-rescue-and-difficult-choices-under-occupation/",
+      "title": "Съпротива, спасяване и трудни избори под окупация",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/bulgaria-and-the-axis-policy-territory-and-responsibility/",
+      "title": "България и Оста: политика, територия и отговорност",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/bulgarias-jews-protection-in-the-old-kingdom-deportation/",
+      "title": "Евреите в България: закрила в старите предели на царството, депортация от окупираните земи",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/life-under-occupation-labor-hunger-and-terror/",
+      "title": "Животът под окупация: труд, глад и терор",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/the-turning-years-1942-and-1943/",
+      "title": "Годините на обрата: 1942 и 1943",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/kursk-italy-and-the-relentless-eastern-front/",
+      "title": "Курск, Италия и безмилостният Източен фронт",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/strategic-bombing-and-the-dilemma-of-civilian-targets/",
+      "title": "Стратегическите бомбардировки и дилемата на гражданските цели",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/d-day-liberation-of-france-and-competing-memories/",
+      "title": "Денят Д, освобождението на Франция и съперничещите си спомени",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/the-road-to-1945-in-europe/",
+      "title": "Пътят към 1945 г. в Европа",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/bulgaria-in-1944-1945-changing-sides-and-changing-regimes/",
+      "title": "България през 1944–1945 г.: смяна на страната и смяна на режима",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/auschwitzs-liberation-and-the-evidence-of-genocide/",
+      "title": "Освобождението на Аушвиц и доказателствата за геноцида",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/okinawa-and-the-final-pacific-campaigns/",
+      "title": "Окинава и последните кампании в Тихия океан",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/hiroshima-nagasaki-and-the-question-of-surrender/",
+      "title": "Хирошима, Нагасаки и въпросът за капитулацията",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/counting-the-dead-without-hiding-uncertainty/",
+      "title": "Преброяване на загиналите, без да се крие несигурността",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/wartime-displacement-and-the-question-of-home/",
+      "title": "Прогонването по време на войната и въпросът за дома",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/justice-after-mass-atrocity-nuremberg-and-tokyo/",
+      "title": "Правосъдие след масови зверства: Нюрнберг и Токио",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/a-new-security-order-and-the-united-nations/",
+      "title": "Нов ред на сигурността и Организацията на обединените нации",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/the-collapse-of-empires-and-the-beginning-of-the-cold-war/",
+      "title": "Разпадът на империите и началото на Студената война",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/how-historians-know-archives-memory-and-propaganda/",
+      "title": "Откъде знаят историците: архиви, памет и пропаганда",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/synthesis-victory-catastrophe-and-unfinished-peace/",
+      "title": "Синтез: победа, катастрофа и недовършен мир",
+      "kind": "section",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 40
+    },
+    {
+      "url": "/040-world-war-ii-and-the-holocaust/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 40
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/",
+      "title": "Студената война, деколонизацията и светът след 1991 г.",
+      "kind": "chapter",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-strange-outcome-of-the-wartime-alliance/",
+      "title": "Странният изход от военновременния съюз",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/what-the-term-cold-war-explains-and-what-it-hides/",
+      "title": "Какво обяснява понятието „Студена война“ – и какво скрива",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/containment-the-truman-doctrine-and-the-marshall-plan/",
+      "title": "Сдържането, доктрината „Труман“ и планът „Маршал“",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/berlin-germany-and-the-formation-of-opposing-blocs/",
+      "title": "Берлин, Германия и образуването на противостоящите блокове",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/eastern-europe-control-reform-and-resistance/",
+      "title": "Източна Европа: контрол, реформи и съпротива",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/nuclear-weapons-and-the-logic-of-deterrence/",
+      "title": "Ядреното оръжие и логиката на възпирането",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-chinese-revolution-and-the-remaking-of-east-asia/",
+      "title": "Китайската революция и преустройството на Източна Азия",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/korea-local-war-international-escalation/",
+      "title": "Корея: местна война, международна ескалация",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/decolonization-independence-as-a-world-making-process/",
+      "title": "Деколонизацията: независимостта като процес, който изгражда нов свят",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/south-asia-india-pakistan-and-the-cost-of-partition/",
+      "title": "Южна Азия: Индия, Пакистан и цената на разделянето",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/indonesia-and-southeast-asia-independence-and-competing/",
+      "title": "Индонезия и Югоизточна Азия: независимост и съперничещи си проекти",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bandung-and-the-non-aligned-movement/",
+      "title": "Бандунг и Движението на необвързаните страни",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/africas-diverse-independence-movements/",
+      "title": "Многообразните движения за независимост в Африка",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-congo-crisis-sovereignty-under-pressure/",
+      "title": "Кризата в Конго: суверенитет под натиск",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/middle-eastern-transformations-independence-oil-and-conflict/",
+      "title": "Промените в Близкия изток: независимост, петрол и конфликти",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-cuban-revolution-and-the-missile-crisis/",
+      "title": "Кубинската революция и ракетната криза",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/vietnam-war-nationalism-and-intervention/",
+      "title": "Виетнам: война, национализъм и намеса",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-arms-race-space-race-and-scientific-development/",
+      "title": "Надпреварата във въоръжаването, космическата надпревара и развитието на науката",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bulgaria-after-1944-the-communist-state/",
+      "title": "България след 1944 г.: комунистическата държава",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/everyday-life-and-bulgarias-economic-transformation/",
+      "title": "Всекидневието и икономическото преобразяване на България",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bulgarias-forced-assimilation-campaign-and-1989/",
+      "title": "Насилствената асимилационна кампания в България и 1989 г.",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/detente-and-the-limits-of-superpower-cooperation/",
+      "title": "Разведряването и границите на сътрудничеството между свръхсилите",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/southern-africa-angola-and-the-struggle-against-apartheid/",
+      "title": "Южна Африка, Ангола и борбата срещу апартейда",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/latin-america-and-the-cold-wars-domestic-costs/",
+      "title": "Латинска Америка и вътрешната цена на Студената война",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/afghanistan-iran-and-the-renewed-cold-war-of-the-1980s/",
+      "title": "Афганистан, Иран и подновената Студена война през 80-те години",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/gorbachev-and-reform-from-within-the-soviet-union/",
+      "title": "Горбачов и реформите отвътре в Съветския съюз",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-revolutions-of-1989-and-the-fall-of-the-wall/",
+      "title": "Революциите от 1989 г. и падането на Стената",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/germany-reunifies-and-the-soviet-union-dissolves/",
+      "title": "Германия се обединява, а Съветският съюз се разпада",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/postcommunist-transitions-democracy-markets-and-costs/",
+      "title": "Посткомунистическите преходи: демокрация, пазари и цена",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-balkans-after-1991-yugoslavias-violent-dissolution/",
+      "title": "Балканите след 1991 г.: насилственият разпад на Югославия",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-european-union-and-nato-expand/",
+      "title": "Разширяването на Европейския съюз и НАТО",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/globalization-trade-technology-and-uneven-development/",
+      "title": "Глобализацията: търговия, технологии и неравномерно развитие",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-post-1991-international-order-and-its-limits/",
+      "title": "Международният ред след 1991 г. и неговите граници",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/environment-health-and-global-public-goods/",
+      "title": "Околна среда, здраве и световни обществени блага",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/why-the-cold-war-ended-and-why-historians-disagree/",
+      "title": "Защо свърши Студената война – и защо историците не са единодушни",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/cold-war-narratives-propaganda-and-contested-memory/",
+      "title": "Разкази за Студената война, пропаганда и оспорвана памет",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/case-study-one-bulgarian-town-across-three-political-systems/",
+      "title": "Пример: един български град през три политически системи",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/what-changed-by-1991-and-what-did-not/",
+      "title": "Какво се промени до 1991 г. – и какво не",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/a-concise-comparative-chronology/",
+      "title": "Кратка сравнителна хронология",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/how-to-read-the-postwar-world-without-a-single-storyline/",
+      "title": "Как да четем следвоенния свят без една-единствена сюжетна линия",
+      "kind": "section",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 41
+    },
+    {
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 41
+    },
+    {
+      "url": "/042-why-wars-begin/",
+      "title": "Защо започват войните",
+      "kind": "chapter",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/what-counts-as-war-and-why-definitions-matter/",
+      "title": "Какво се смята за война и защо определенията имат значение",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/three-levels-of-explanation/",
+      "title": "Три равнища на обяснение",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/the-puzzle-why-not-settle-instead/",
+      "title": "Загадката: защо не се постига споразумение вместо това?",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/a-bargaining-range-worked-through/",
+      "title": "Пространството за договаряне, разгледано стъпка по стъпка",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/private-information-and-optimistic-expectations/",
+      "title": "Скрита информация и оптимистични очаквания",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/threats-bluffs-and-costly-signals/",
+      "title": "Заплахи, блъфове и скъпоструващи сигнали",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/commitment-problems-the-danger-of-tomorrow/",
+      "title": "Проблемите с ангажиментите: опасността на утрешния ден",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/preventive-war-versus-preemptive-attack/",
+      "title": "Превантивна война срещу изпреварващ удар",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/indivisible-issues-and-the-meaning-of-territory/",
+      "title": "Неделимите въпроси и значението на територията",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/the-security-dilemma-defence-looks-like-danger/",
+      "title": "Дилемата на сигурността: отбраната изглежда като опасност",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/offence-defence-and-the-power-of-geography/",
+      "title": "Нападение, отбрана и силата на географията",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/alliances-reassurance-entrapment-and-abandonment/",
+      "title": "Съюзите: успокояване, въвличане и изоставяне",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/balances-of-power-and-power-transitions/",
+      "title": "Баланс на силите и преходи на силата",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/territory-resources-and-strategic-routes/",
+      "title": "Територия, ресурси и стратегически пътища",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/trade-and-economic-interdependence/",
+      "title": "Търговията и икономическата взаимозависимост",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/economic-pressure-without-economic-determinism/",
+      "title": "Икономически натиск без икономически детерминизъм",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/leaders-political-survival-and-unequal-costs/",
+      "title": "Лидери, политическо оцеляване и неравни разходи",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/democracy-authoritarianism-and-conflict/",
+      "title": "Демокрация, авторитаризъм и конфликт",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/diversionary-war-and-the-risk-of-convenient-stories/",
+      "title": "Войната за отвличане на вниманието и рискът от удобните истории",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/nationalism-historical-memory-and-mass-mobilization/",
+      "title": "Национализъм, историческа памет и масова мобилизация",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/ideology-and-rival-visions-of-legitimate-rule/",
+      "title": "Идеологията и съперничещите си представи за законна власт",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/perception-analogy-and-the-human-mind/",
+      "title": "Възприятие, аналогия и човешкият ум",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/fear-humiliation-honor-and-emotions/",
+      "title": "Страх, унижение, чест и емоции",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/miscalculation-mobilization-and-unintended-escalation/",
+      "title": "Грешни сметки, мобилизация и непреднамерена ескалация",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/case-study-europes-july-crisis-of-1914/",
+      "title": "Пример: Юлската криза в Европа през 1914 г.",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/case-study-the-road-to-world-war-ii/",
+      "title": "Пример: пътят към Втората световна война",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/case-study-the-cuban-missile-crisis-1962/",
+      "title": "Пример: Кубинската ракетна криза, 1962 г.",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/case-study-iraq-and-kuwait-1990-1991/",
+      "title": "Пример: Ирак и Кувейт, 1990–1991 г.",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/case-study-iraq-in-2003-and-the-problem-of-intelligence/",
+      "title": "Пример: Ирак през 2003 г. и проблемът с разузнаването",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/civil-wars-different-participants-overlapping-logics/",
+      "title": "Гражданските войни: различни участници, припокриващи се логики",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/civil-war-bargaining-and-the-problem-of-disarmament/",
+      "title": "Договарянето в гражданска война и проблемът с разоръжаването",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/ethnic-violence-communal-fear-and-local-agency/",
+      "title": "Етническо насилие, страх в общностите и местна инициатива",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/why-some-wars-keep-going/",
+      "title": "Защо някои войни продължават",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/bulgaria-and-the-balkan-wars-a-comparative-exercise/",
+      "title": "България и Балканските войни: сравнително упражнение",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/deterrence-reassurance-and-restraint/",
+      "title": "Възпиране, успокояване и въздържаност",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/conflict-prevention-practical-instruments-and-limitations/",
+      "title": "Предотвратяване на конфликти: практически инструменти и ограничения",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/evidence-uncertainty-and-the-ethics-of-explanation/",
+      "title": "Доказателства, несигурност и етиката на обяснението",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/a-worked-exercise-the-dam-on-a-contested-river/",
+      "title": "Решено упражнение: язовирът на спорна река",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/synthesis-turning-a-war-story-into-a-causal-explanation/",
+      "title": "Синтез: как разказът за една война става причинно обяснение",
+      "kind": "section",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 42
+    },
+    {
+      "url": "/042-why-wars-begin/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 42
+    },
+    {
+      "url": "/043-the-geography-of-power/",
+      "title": "Географията на властта",
+      "kind": "chapter",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/what-geographers-mean-by-power/",
+      "title": "Какво разбират географите под сила",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/physical-geography-and-human-geography-belong-together/",
+      "title": "Физическата и човешката география са неразделни",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/distance-is-a-cost-not-just-a-measurement/",
+      "title": "Разстоянието е разход, а не само мярка",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/mountains-protection-separation-and-passage/",
+      "title": "Планините: защита, разделение и преход",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/plains-and-corridors-the-ease-and-danger-of-movement/",
+      "title": "Равнини и коридори: лекотата и опасността на движението",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/rivers-connect-and-divide/",
+      "title": "Реките свързват и разделят",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/coastlines-and-the-advantage-of-sea-access/",
+      "title": "Бреговете и предимството на излаза на море",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/landlocked-states-and-the-politics-of-transit/",
+      "title": "Държавите без излаз на море и политиката на транзита",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/straits-canals-and-maritime-chokepoints/",
+      "title": "Протоци, канали и морски тесни места",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/sea-power-fleets-and-the-shore/",
+      "title": "Морска мощ, флоти и брегът",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/islands-archipelagos-and-competing-scales/",
+      "title": "Острови, архипелази и съперничещи си мащаби",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/resources-wealth-dependency-and-the-resource-trap/",
+      "title": "Ресурсите: богатство, зависимост и ресурсният капан",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/food-farmland-and-strategic-resilience/",
+      "title": "Храна, обработваема земя и стратегическа устойчивост",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/energy-geography-fixed-deposits-and-moving-systems/",
+      "title": "Енергийна география: неподвижни находища и подвижни системи",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/population-geography-and-the-problem-of-concentrated-assets/",
+      "title": "География на населението и проблемът със съсредоточените активи",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/cities-and-ports-as-network-nodes/",
+      "title": "Градовете и пристанищата като възли в мрежата",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/borders-are-institutions-drawn-across-space/",
+      "title": "Границите са институции, начертани в пространството",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/maritime-law-territorial-waters-and-economic-zones/",
+      "title": "Морско право: териториални води и икономически зони",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/climate-hazards-and-environmental-security/",
+      "title": "Климат, природни опасности и екологична сигурност",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/technology-changes-the-meaning-of-terrain/",
+      "title": "Технологиите променят значението на терена",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/the-geography-of-information-and-undersea-cables/",
+      "title": "Географията на информацията и подводните кабели",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/mapping-the-supply-chain-instead-of-the-mine/",
+      "title": "Картографиране на веригата на доставки вместо на рудника",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/classic-theories-useful-questions-dangerous-shortcuts/",
+      "title": "Класическите теории: полезни въпроси, опасни преки пътища",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/critical-geopolitics-whose-map-is-being-drawn/",
+      "title": "Критична геополитика: чия карта се чертае?",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/russia-and-the-problem-of-distance-and-access/",
+      "title": "Русия и проблемът с разстоянието и достъпа",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/the-united-states-oceans-rivers-and-continental-networks/",
+      "title": "Съединените щати: океани, реки и континентални мрежи",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/china-and-east-asia-coast-interior-and-regional-networks/",
+      "title": "Китай и Източна Азия: крайбрежие, вътрешност и регионални мрежи",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/the-mediterranean-and-its-narrow-passages/",
+      "title": "Средиземноморието и неговите тесни проходи",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/bulgaria-a-crossroads-is-not-a-destiny/",
+      "title": "България: кръстопътят не е съдба",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/bulgarias-routes-danube-black-sea-and-balkan-passes/",
+      "title": "Пътищата на България: Дунав, Черно море и балканските проходи",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/turkey-and-the-straits-geography-under-law-and-diplomacy/",
+      "title": "Турция и Протоците: география под властта на правото и дипломацията",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/egypt-and-panama-infrastructure-creates-new-geography/",
+      "title": "Египет и Панама: инфраструктурата създава нова география",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/the-arctic-opportunity-hazards-and-misleading-headlines/",
+      "title": "Арктика: възможности, опасности и подвеждащи заглавия",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/strategic-vulnerability-measuring-dependence/",
+      "title": "Стратегическа уязвимост: как се измерва зависимостта",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/an-exercise-in-comparative-power-three-fictional-states/",
+      "title": "Упражнение по сравнителна сила: три измислени държави",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/how-to-read-a-strategic-map-without-being-deceived/",
+      "title": "Как да четем стратегическа карта, без да бъдем заблудени",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/geography-and-the-ethics-of-strategic-language/",
+      "title": "Географията и етиката на стратегическия език",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/worked-case-a-disputed-mountain-transit-corridor/",
+      "title": "Решен пример: спорен планински транзитен коридор",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/a-seven-question-diagnostic-of-geographic-power/",
+      "title": "Диагностика на географската сила в седем въпроса",
+      "kind": "section",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 43
+    },
+    {
+      "url": "/043-the-geography-of-power/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 43
+    },
+    {
+      "url": "/044-military-organization-and-logistics/",
+      "title": "Военна организация и логистика",
+      "kind": "chapter",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/resources-capability-and-political-power/",
+      "title": "Ресурси, способности и политическа власт",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/the-strategic-operational-and-tactical-levels/",
+      "title": "Стратегическото, оперативното и тактическото равнище",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/what-is-an-armed-force/",
+      "title": "Какво е въоръжена сила?",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/units-formations-and-ranks/",
+      "title": "Подразделения, съединения и звания",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/command-staff-and-accountability/",
+      "title": "Командване, щаб и отчетност",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/civilian-control-and-the-purpose-of-military-institutions/",
+      "title": "Граждански контрол и предназначението на военните институции",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/conscription-volunteers-and-professional-forces/",
+      "title": "Наборна служба, доброволци и професионална армия",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/active-service-reserves-and-mobilisation/",
+      "title": "Действаща служба, резерв и мобилизация",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/training-education-and-the-human-institution/",
+      "title": "Подготовка, образование и човешката институция",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/morale-cohesion-and-legitimacy/",
+      "title": "Боен дух, сплотеност и легитимност",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/what-logistics-means/",
+      "title": "Какво означава логистика",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/the-stock-and-the-flow/",
+      "title": "Запасът и потокът",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/supply-is-a-chain-of-institutions/",
+      "title": "Снабдяването е верига от институции",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/transport-geography-and-the-meaning-of-distance/",
+      "title": "Транспорт, география и значението на разстоянието",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/fuel-energy-and-industrial-consumption/",
+      "title": "Гориво, енергия и промишлено потребление",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/maintenance-and-life-cycle-costs/",
+      "title": "Поддръжка и разходи през целия жизнен цикъл",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/readiness-is-not-a-single-number/",
+      "title": "Готовността не е едно-единствено число",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/health-sanitation-and-the-limits-of-the-human-body/",
+      "title": "Здраве, хигиена и границите на човешкото тяло",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/information-intelligence-and-uncertainty/",
+      "title": "Информация, разузнаване и несигурност",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/communications-and-institutional-coordination/",
+      "title": "Комуникации и институционална координация",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/joint-institutions-and-combined-arms/",
+      "title": "Съвместни институции и общовойскови действия",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/the-ancient-world-organising-an-army-before-engines/",
+      "title": "Древният свят: организиране на армия преди двигателите",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/the-mongol-empire-and-the-ecology-of-mobility/",
+      "title": "Монголската империя и екологията на подвижността",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/early-modern-fiscal-and-military-states/",
+      "title": "Ранномодерните фискално-военни държави",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/napoleon-in-russia-a-failure-beyond-the-weather/",
+      "title": "Наполеон в Русия: провал, който не се свежда до времето",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/industrialisation-and-the-first-world-war/",
+      "title": "Индустриализацията и Първата световна война",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/the-second-world-war-as-a-global-institutional-struggle/",
+      "title": "Втората световна война като световна борба на институции",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/the-berlin-airlift-logistics-as-political-communication/",
+      "title": "Берлинският въздушен мост: логистиката като политическо послание",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/limited-war-and-the-difficulty-of-political-victory/",
+      "title": "Ограничената война и трудността на политическата победа",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/alliances-standardisation-and-shared-responsibility/",
+      "title": "Съюзи, стандартизация и споделена отговорност",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/bulgaria-military-institutions-in-constitutional-context/",
+      "title": "България: военните институции в конституционен контекст",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/military-expenditure-and-the-economics-of-security/",
+      "title": "Военните разходи и икономиката на сигурността",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/corruption-procurement-and-the-illusion-of-modernisation/",
+      "title": "Корупция, обществени поръчки и илюзията за модернизация",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/civilians-forced-labour-and-the-moral-cost-of-supply/",
+      "title": "Цивилни, принудителен труд и моралната цена на снабдяването",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/technology-changes-dependencies-rather-than-ending-them/",
+      "title": "Технологиите променят зависимостите, вместо да ги премахват",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/a-worked-case-the-two-emergency-service-budgets/",
+      "title": "Решен пример: двата бюджета на спешните служби",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/how-to-read-claims-about-military-strength/",
+      "title": "Как да четем твърденията за военна мощ",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/synthesis-why-strength-does-not-guarantee-success/",
+      "title": "Синтез: защо силата не гарантира успех",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/summary/",
+      "title": "Основни понятия за запомняне",
+      "kind": "summary",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/connections-across-knowledge-kingdom/",
+      "title": "Връзки в цялото Кралство на знанието",
+      "kind": "section",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 44
+    },
+    {
+      "url": "/044-military-organization-and-logistics/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 44
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/",
+      "title": "Дипломация, съюзи и баланс на силите",
+      "kind": "chapter",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/foreign-policy-diplomacy-and-statecraft/",
+      "title": "Външна политика, дипломация и държавническо изкуство",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/before-ambassadors-ancient-diplomacy/",
+      "title": "Преди посланиците: древната дипломация",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/diplomacy-in-unequal-worlds/",
+      "title": "Дипломация в неравни светове",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/sovereignty-and-the-westphalian-story/",
+      "title": "Суверенитетът и вестфалският разказ",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-embassy-as-an-institution/",
+      "title": "Посолството като институция",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-many-channels-of-diplomacy/",
+      "title": "Многото канали на дипломацията",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-difference-between-a-position-and-an-interest/",
+      "title": "Разликата между позиция и интерес",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bargaining-ranges-and-the-cost-of-disagreement/",
+      "title": "Пространството за договаряне и цената на несъгласието",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/information-credibility-and-verification/",
+      "title": "Информация, достоверност и проверка",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/domestic-politics-negotiating-at-two-tables/",
+      "title": "Вътрешната политика: преговори на две маси",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/mediation-arbitration-and-adjudication/",
+      "title": "Посредничество, арбитраж и съдебно решаване",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/treaties-declarations-and-political-commitments/",
+      "title": "Договори, декларации и политически ангажименти",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/what-is-an-alliance/",
+      "title": "Какво е съюз?",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/balance-of-power-a-distribution-and-a-policy/",
+      "title": "Балансът на силите: разпределение и политика",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/polarity-one-two-or-many-centres-of-power/",
+      "title": "Полярност: един, два или много центъра на сила",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/balancing-threats-not-just-capabilities/",
+      "title": "Уравновесяване на заплахи, а не само на способности",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bandwagoning-neutrality-and-hedging/",
+      "title": "Присъединяване към по-силния, неутралитет и застраховане",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-security-dilemma/",
+      "title": "Дилемата на сигурността",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-alliance-dilemma-abandonment-and-entrapment/",
+      "title": "Дилемата на съюза: изоставяне и въвличане",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/burden-sharing-and-the-problem-of-common-goods/",
+      "title": "Споделяне на тежестта и проблемът с общите блага",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/collective-defence-and-collective-security/",
+      "title": "Колективна отбрана и колективна сигурност",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-congress-of-vienna-a-defeated-power-returns/",
+      "title": "Виенският конгрес: една победена сила се завръща",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-concert-and-the-limits-of-great-power-management/",
+      "title": "Европейският концерт и границите на управлението от великите сили",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/alliances-before-1914-commitments-without-inevitability/",
+      "title": "Съюзите преди 1914 г.: ангажименти без неизбежност",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-league-of-nations-a-promise-and-a-capacity-problem/",
+      "title": "Обществото на народите: обещание и проблем с капацитета",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-united-nations-law-authority-and-political-disagreement/",
+      "title": "Организацията на обединените нации: право, авторитет и политическо несъгласие",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/nato-the-warsaw-pact-and-institutional-asymmetry/",
+      "title": "НАТО, Варшавският договор и институционалната асиметрия",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bandung-and-the-refusal-to-be-treated-as-a-chess-piece/",
+      "title": "Бандунг и отказът да бъдеш пешка на шахматната дъска",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-cuban-missile-crisis-the-value-and-cost-of-communication/",
+      "title": "Кубинската ракетна криза: стойността и цената на общуването",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/rapprochement-across-ideological-divides/",
+      "title": "Сближаване отвъд идеологическите разделения",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/camp-david-a-durable-agreement-with-unresolved-questions/",
+      "title": "Кемп Дейвид: трайно споразумение с нерешени въпроси",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/helsinki-managing-rivalry-without-ending-it/",
+      "title": "Хелзинки: управление на съперничеството, без то да бъде прекратено",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/regional-institutions-beyond-the-atlantic/",
+      "title": "Регионални институции отвъд Атлантика",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bulgaria-diplomacy-as-a-smaller-states-institution/",
+      "title": "България: дипломацията като институция на по-малката държава",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/neutrality-and-the-limits-of-independence/",
+      "title": "Неутралитетът и границите на независимостта",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/economic-diplomacy-and-interdependence/",
+      "title": "Икономическа дипломация и взаимозависимост",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/a-worked-case-a-river-basin-conference/",
+      "title": "Решен пример: конференция за поречието на една река",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/how-to-read-diplomatic-news/",
+      "title": "Как да четем дипломатическите новини",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/synthesis-security-is-a-relationship-not-an-inventory/",
+      "title": "Синтез: сигурността е отношение, а не опис",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/summary/",
+      "title": "Основни понятия за запомняне",
+      "kind": "summary",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/connections-across-knowledge-kingdom/",
+      "title": "Връзки в цялото Кралство на знанието",
+      "kind": "section",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 45
+    },
+    {
+      "url": "/045-diplomacy-alliances-and-balance-of-power/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 45
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/",
+      "title": "Международното право и въоръжените конфликти",
+      "kind": "chapter",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/is-international-law-really-law/",
+      "title": "Наистина ли международното право е право?",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/where-international-rules-come-from/",
+      "title": "Откъде идват международните правила",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/sovereignty-consent-and-the-limits-of-independence/",
+      "title": "Суверенитет, съгласие и границите на независимостта",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/two-legal-questions-which-must-not-be-confused/",
+      "title": "Два правни въпроса, които не бива да се смесват",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/the-long-history-of-restraint-in-war/",
+      "title": "Дългата история на въздържаността във войната",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/solferino-the-red-cross-and-the-geneva-movement/",
+      "title": "Солферино, Червеният кръст и Женевското движение",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/from-the-hague-to-the-geneva-conventions/",
+      "title": "От Хага до Женевските конвенции",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/how-the-prohibition-on-interstate-force-developed/",
+      "title": "Как се развива забраната за използване на сила между държавите",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/self-defence-and-the-difference-between-fear-and-entitlement/",
+      "title": "Самоотбраната и разликата между страх и право",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/collective-security-and-the-united-nations/",
+      "title": "Колективната сигурност и Организацията на обединените нации",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/humanitarian-intervention-and-responsibility-to-protect/",
+      "title": "Хуманитарната намеса и отговорността за защита",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/aggression-a-legal-concept-and-a-political-accusation/",
+      "title": "Агресията: правно понятие и политическо обвинение",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/when-humanitarian-law-begins-to-apply/",
+      "title": "Кога започва да се прилага хуманитарното право",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/common-article-3-and-the-minimum-floor-of-humanity/",
+      "title": "Общият член 3 и минималният праг на човечност",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/distinction-people-are-not-interchangeable/",
+      "title": "Разграничението: хората не са равнозначни на своите правителства",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/proportionality-and-precautions-why-numbers-alone-cannot/",
+      "title": "Пропорционалност и предпазни мерки: защо самите числа не могат да решат",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/necessity-humanity-and-prohibited-treatment/",
+      "title": "Необходимост, човечност и забранено отношение",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/the-wounded-medical-services-and-humanitarian-emblems/",
+      "title": "Ранените, медицинските служби и хуманитарните емблеми",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/captivity-and-the-legal-status-of-prisoners/",
+      "title": "Пленничеството и правният статут на военнопленниците",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/occupation-authority-without-sovereignty/",
+      "title": "Окупацията: власт без суверенитет",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/siege-scarcity-and-the-protection-of-civilian-survival/",
+      "title": "Обсада, недостиг и защитата на оцеляването на цивилните",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/humanitarian-relief-and-the-problem-of-access/",
+      "title": "Хуманитарната помощ и проблемът с достъпа",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/displacement-refugees-and-the-right-to-seek-protection/",
+      "title": "Прогонване, бежанци и правото да се търси закрила",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/children-families-and-people-who-disappear/",
+      "title": "Деца, семейства и хора, които изчезват",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/culture-memory-and-the-natural-environment/",
+      "title": "Култура, памет и природната среда",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/human-rights-law-does-not-simply-switch-off/",
+      "title": "Правото на правата на човека не просто спира да действа",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/state-responsibility-who-owes-what-to-whom/",
+      "title": "Отговорността на държавата: кой какво дължи и на кого?",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/individual-criminal-responsibility-from-nuremberg-onward/",
+      "title": "Индивидуалната наказателна отговорност: от Нюрнберг насам",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/war-crimes-crimes-against-humanity-and-genocide/",
+      "title": "Военни престъпления, престъпления срещу човечеството и геноцид",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/the-international-criminal-court-and-the-limits/",
+      "title": "Международният наказателен съд и границите на юрисдикцията",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/the-international-court-of-justice-is-not-the-icc/",
+      "title": "Международният съд не е Международният наказателен съд",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/proving-a-crime-evidence-intent-and-responsibility/",
+      "title": "Доказване на престъпление: доказателства, умисъл и отговорност",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/case-study-nicaragua-and-the-reach-of-customary-law/",
+      "title": "Пример: Никарагуа и обхватът на обичайното право",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/case-study-rwanda-bosnia-and-the-different-meanings/",
+      "title": "Пример: Руанда, Босна и различните значения на отговорността",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/case-study-congo-uganda-and-the-long-journey-to-reparation/",
+      "title": "Пример: Конго, Уганда и дългият път към обезщетението",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/reading-judicial-documents-palestine-israel-and-procedural/",
+      "title": "Четене на съдебни документи: Палестина, Израел и процесуалните разграничения",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/new-technology-arms-regulation-and-old-principles/",
+      "title": "Нови технологии, регулиране на оръжията и стари принципи",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/bulgaria-and-the-everyday-implementation-of-international/",
+      "title": "България и всекидневното прилагане на международното право",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/a-fictional-case-the-river-valley-and-four-legal-questions/",
+      "title": "Измислен случай: речната долина и четири правни въпроса",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/why-law-is-obeyed-why-it-is-broken-and-why-enforcement/",
+      "title": "Защо правото се спазва, защо се нарушава и защо прилагането му има значение",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/summary/",
+      "title": "Основни понятия за запомняне",
+      "kind": "summary",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/connections-across-knowledge-kingdom/",
+      "title": "Връзки в цялото Кралство на знанието",
+      "kind": "section",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 46
+    },
+    {
+      "url": "/046-international-law-and-armed-conflict/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 46
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/",
+      "title": "Възпиране и ядрена стратегия",
+      "kind": "chapter",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/what-deterrence-means-before-we-mention-nuclear-weapons/",
+      "title": "Какво означава възпиране, преди да споменем ядреното оръжие",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/deterrence-compellence-and-the-limits-of-coercion/",
+      "title": "Възпиране, принуждаване и границите на натиска",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/why-the-nuclear-age-changed-the-political-question/",
+      "title": "Защо ядрената епоха промени политическия въпрос",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/1945-scientific-achievement-and-human-catastrophe/",
+      "title": "1945 г.: научно постижение и човешка катастрофа",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-early-monopoly-and-the-end-of-atomic-exclusivity/",
+      "title": "Ранният монопол и краят на атомната изключителност",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-cold-war-as-an-international-system/",
+      "title": "Студената война като международна система",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/mutual-vulnerability-and-mutually-assured-destruction/",
+      "title": "Взаимна уязвимост и взаимно гарантирано унищожение",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-difference-between-rationality-and-omniscience/",
+      "title": "Разликата между рационалност и всезнание",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-security-dilemma-returns/",
+      "title": "Дилемата на сигурността се завръща",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/strategic-stability-a-concept-with-several-meanings/",
+      "title": "Стратегическа стабилност: понятие с няколко значения",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-stability-instability-paradox/",
+      "title": "Парадоксът стабилност–нестабилност",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/extended-deterrence-and-the-nuclear-umbrella/",
+      "title": "Разширеното възпиране и ядреният чадър",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/nato-collective-defence-and-an-institutional-perspective/",
+      "title": "НАТО: колективна отбрана и институционален поглед",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-cuban-missile-crisis-the-value-of-diplomacy/",
+      "title": "Кубинската ракетна криза: стойността на дипломацията",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/near-misses-and-organizational-fallibility/",
+      "title": "Избегнатите на косъм катастрофи и грешимостта на организациите",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/escalation-and-the-difference-between-intention-and-outcome/",
+      "title": "Ескалацията и разликата между намерение и резултат",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/communication-perception-and-the-role-of-institutions/",
+      "title": "Общуване, възприятие и ролята на институциите",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-nuclear-taboo-and-the-evidence-of-non-use/",
+      "title": "Ядреното табу и доказателствата за неизползване",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/what-would-count-as-evidence-that-deterrence-works/",
+      "title": "Какво би било доказателство, че възпирането действа?",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-geography-of-nuclear-security-is-not-a-map-of-arsenals/",
+      "title": "Географията на ядрената сигурност не е карта на арсеналите",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-proliferation-more-than-the-spread-of-technology/",
+      "title": "Ядреното разпространение: повече от разпространението на технология",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-npt-an-international-bargain-with-three-pillars/",
+      "title": "ДНЯО: международна сделка с три стълба",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/peaceful-nuclear-energy-and-international-safeguards/",
+      "title": "Мирната ядрена енергия и международните гаранции",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/south-africa-and-the-possibility-of-reversal/",
+      "title": "Южна Африка и възможността за обратен път",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/ukraine-kazakhstan-and-belarus-after-the-soviet-collapse/",
+      "title": "Украйна, Казахстан и Беларус след разпада на Съветския съюз",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/south-asia-and-the-challenge-of-regional-comparison/",
+      "title": "Южна Азия и предизвикателството на регионалното сравнение",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-korean-peninsula-and-the-persistence-of-insecurity/",
+      "title": "Корейският полуостров и трайната несигурност",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-ambiguity-and-the-difficulty-of-counting-possession/",
+      "title": "Ядрената двусмисленост и трудността да се преброи притежаваното",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/reading-the-global-inventory-without-false-precision/",
+      "title": "Четене на световния опис без фалшива точност",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/arms-control-and-disarmament-related-but-distinct/",
+      "title": "Контрол над въоръженията и разоръжаване: свързани, но различни",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/from-the-test-ban-to-superpower-agreements/",
+      "title": "От забраната на опитите до споразуменията между свръхсилите",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/new-start-and-the-consequences-of-lost-transparency/",
+      "title": "Новият СТАРТ и последиците от загубената прозрачност",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-comprehensive-nuclear-test-ban-treaty/",
+      "title": "Договорът за всеобхватна забрана на ядрените опити",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/regions-that-have-chosen-to-remain-nuclear-weapon-free/",
+      "title": "Региони, избрали да останат свободни от ядрено оръжие",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-people-who-lived-beside-nuclear-tests/",
+      "title": "Хората, които живееха до ядрените опити",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/humanitarian-consequences-beyond-the-moment-of-destruction/",
+      "title": "Хуманитарните последици: отвъд мига на разрушението",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/climate-agriculture-and-the-uncertainty-of-global/",
+      "title": "Климат, земеделие и несигурността на световните последици",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-weapons-and-international-law-the-1996-advisory/",
+      "title": "Ядреното оръжие и международното право: консултативното мнение от 1996 г.",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-treaty-on-the-prohibition-of-nuclear-weapons/",
+      "title": "Договорът за забрана на ядреното оръжие",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-risk-new-technology-and-the-human-decision/",
+      "title": "Ядреният риск, новите технологии и човешкото решение",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/bulgaria-nuclear-energy-alliance-membership/",
+      "title": "България: ядрена енергия, членство в съюз и международни задължения",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/a-numerical-exercise-in-cumulative-uncertainty/",
+      "title": "Числово упражнение за натрупващата се несигурност",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/a-fictional-summit-separating-shared-interests/",
+      "title": "Измислена среща на върха: разграничаване на общите интереси от нерешените спорове",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/the-ethical-question-that-remains-after-the-strategic/",
+      "title": "Етичният въпрос, който остава след стратегическия довод",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/summary/",
+      "title": "Основни понятия за запомняне",
+      "kind": "summary",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/connections-across-knowledge-kingdom/",
+      "title": "Връзки в цялото Кралство на знанието",
+      "kind": "section",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 47
+    },
+    {
+      "url": "/047-deterrence-and-nuclear-strategy/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 47
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/",
+      "title": "Граждански войни и нестабилни държави",
+      "kind": "chapter",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/civil-war-is-a-category-not-an-explanation/",
+      "title": "Гражданската война е категория, а не обяснение",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-law-asks-a-different-question/",
+      "title": "Правото задава различен въпрос",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/what-makes-a-state-a-state/",
+      "title": "Какво прави една държава държава?",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/capacity-legitimacy-and-authority-are-not-interchangeable/",
+      "title": "Капацитет, легитимност и власт не са взаимозаменяеми",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/fragility-is-not-a-permanent-national-identity/",
+      "title": "Крехкостта не е постоянна национална идентичност",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/how-history-creates-unequal-institutions/",
+      "title": "Как историята създава неравни институции",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-grievance-explanation-what-people-believe-they-have-been/",
+      "title": "Обяснението чрез недоволство: какво смятат хората, че им е отказано",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-economic-explanation-incentives-and-resources/",
+      "title": "Икономическото обяснение: стимули и ресурси",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/opportunity-and-the-limits-of-statistical-prediction/",
+      "title": "Възможността и границите на статистическото предсказване",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/ethnicity-nationalism-and-the-politics-of-exclusion/",
+      "title": "Етничност, национализъм и политиката на изключване",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/inequality-between-individuals-and-between-groups/",
+      "title": "Неравенство между отделните хора и между групите",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/political-transitions-and-the-dangers-of-uncertainty/",
+      "title": "Политическите преходи и опасностите на несигурността",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/repression-protest-and-the-difference-between-sequence/",
+      "title": "Репресии, протести и разликата между последователност и причина",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/resources-dependence-and-the-war-economy/",
+      "title": "Ресурси, зависимост и военната икономика",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/outside-powers-and-the-internationalization-of-civil-wars/",
+      "title": "Външните сили и интернационализирането на гражданските войни",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/borders-displacement-and-regional-spillovers/",
+      "title": "Граници, прогонване и разливане на конфликта в региона",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-everyday-economics-of-institutional-collapse/",
+      "title": "Всекидневната икономика на институционалния срив",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-feedback-loop-between-fragility-and-violence/",
+      "title": "Обратната връзка между крехкостта и насилието",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-english-civil-wars-power-before-the-modern-nation-state/",
+      "title": "Английските граждански войни: властта преди модерната национална държава",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-united-states-slavery-secession-and-the-constitutional/",
+      "title": "Съединените щати: робство, отцепване и конституционният ред",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-spanish-civil-war-a-national-conflict-with-international/",
+      "title": "Испанската гражданска война: национален конфликт с международни измерения",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/china-revolution-civil-war-and-competing-state-building/",
+      "title": "Китай: революция, гражданска война и съперничещи си проекти за изграждане на държава",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/mozambique-the-long-negotiation-after-independence/",
+      "title": "Мозамбик: дългите преговори след независимостта",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/guatemala-exclusion-and-the-meaning-of-historical-truth/",
+      "title": "Гватемала: изключването и смисълът на историческата истина",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/sierra-leone-resources-are-not-destiny/",
+      "title": "Сиера Леоне: ресурсите не са съдба",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/somalia-public-authority-does-not-simply-vanish/",
+      "title": "Сомалия: публичната власт не изчезва просто така",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/bosnia-and-herzegovina-ending-violence-and-designing-a-state/",
+      "title": "Босна и Херцеговина: прекратяване на насилието и проектиране на държава",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/nepal-transforming-a-conflict-into-constitutional-politics/",
+      "title": "Непал: превръщане на конфликта в конституционна политика",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/colombia-a-peace-agreement-is-not-the-end-of-all-insecurity/",
+      "title": "Колумбия: мирното споразумение не е краят на всяка несигурност",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/sudan-and-south-sudan-borders-do-not-solve-every-political/",
+      "title": "Судан и Южен Судан: границите не решават всеки политически спор",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/syria-and-myanmar-why-a-countrys-transition-cannot/",
+      "title": "Сирия и Мианмар: защо преходът на една страна не се побира в едно заглавие",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/what-is-lost-when-civilians-flee/",
+      "title": "Какво се губи, когато цивилните бягат?",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/food-health-education-and-the-long-shadow-of-war/",
+      "title": "Храна, здраве, образование и дългата сянка на войната",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/gender-children-and-participation-in-recovery/",
+      "title": "Пол, деца и участие във възстановяването",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/climate-environmental-stress-and-the-temptation-of-one-cause/",
+      "title": "Климат, натиск върху околната среда и изкушението на историите с една причина",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/why-a-ceasefire-is-not-the-same-as-a-peace-settlement/",
+      "title": "Защо примирието не е същото като мирното уреждане",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/the-credible-commitment-problem/",
+      "title": "Проблемът с надеждния ангажимент",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/power-sharing-federalism-and-equal-citizenship/",
+      "title": "Споделяне на властта, федерализъм и равно гражданство",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/international-peacekeeping-and-its-limits/",
+      "title": "Международното поддържане на мира и неговите граници",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/disarmament-demobilization-and-civilian-reintegration/",
+      "title": "Разоръжаване, демобилизация и връщане към цивилния живот",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/transitional-justice-remembering-without-reproducing/",
+      "title": "Преходното правосъдие: помнене, без да се възпроизвежда колективна вина",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/liberia-what-a-completed-international-mission-does-and-does/",
+      "title": "Либерия: какво означава и какво не означава приключилата международна мисия",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/bulgaria-and-the-western-balkans-the-institutional-value/",
+      "title": "България и Западните Балкани: институционалната стойност на мирното несъгласие",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/a-worked-example-what-an-average-hides/",
+      "title": "Решен пример: какво скрива средната стойност",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/a-fictional-peace-commission-turning-promises-into-evidence/",
+      "title": "Измислена мирна комисия: превръщане на обещанията в доказателства",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/what-peace-means-after-the-last-battle/",
+      "title": "Какво означава мир след последната битка",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/summary/",
+      "title": "Основни понятия за запомняне",
+      "kind": "summary",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/connections-across-knowledge-kingdom/",
+      "title": "Връзки в цялото Кралство на знанието",
+      "kind": "section",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/practice/",
+      "title": "Упражнения",
+      "kind": "practice",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/flashcards/",
+      "title": "Карти за учене",
+      "kind": "flashcards",
+      "chapter": 48
+    },
+    {
+      "url": "/048-civil-wars-and-fragile-states/sources/",
+      "title": "Източници и допълнително четене",
+      "kind": "sources",
+      "chapter": 48
     }
   ]
 }

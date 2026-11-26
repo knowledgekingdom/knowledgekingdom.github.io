@@ -12,7 +12,7 @@ standfirstHtml: "Numbers make the world easier to compare—and easier to misund
 openingTitle: "The same town, two completely different headlines"
 description: "Numbers make the world easier to compare—and easier to misunderstand. Statistical literacy is the craft of asking what was measured, what was left out…"
 status: "EXPANDED"
-edition: 41
+edition: 42
 sectionCount: 22
 readingTime: 43
 openingReadingTime: 2

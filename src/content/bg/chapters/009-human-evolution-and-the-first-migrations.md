@@ -12,7 +12,7 @@ standfirstHtml: "Всеки жив човек принадлежи към еди
 openingTitle: "Преди да има държави, е имало стъпки"
 description: "Всеки жив човек принадлежи към един човешки вид, но този вид е оцелелият клон на много по-голямо семейство. За да разберем как човечеството..."
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 17
 readingTime: 43
 openingReadingTime: 2

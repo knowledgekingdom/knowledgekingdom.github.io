@@ -12,7 +12,7 @@ standfirstHtml: "How a dispute about spiritual authority became a family of refo
 openingTitle: "A city hears a new argument"
 description: "How a dispute about spiritual authority became a family of reform movements, reshaped rulers and communities, and helped produce both religious renewal…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 37
 readingTime: 65
 openingReadingTime: 2

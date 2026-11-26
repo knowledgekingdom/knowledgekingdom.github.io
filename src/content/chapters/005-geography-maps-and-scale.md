@@ -12,7 +12,7 @@ standfirstHtml: "The world is not a collection of colored countries. It is a mov
 openingTitle: "A container, a mountain, and an invisible map"
 description: "The world is not a collection of colored countries. It is a moving system of rock, water, air, life, infrastructure, and human choices. Geography teaches…"
 status: "EXPANDED"
-edition: 41
+edition: 42
 sectionCount: 21
 readingTime: 45
 openingReadingTime: 2

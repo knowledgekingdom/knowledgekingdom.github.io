@@ -12,7 +12,7 @@ standfirstHtml: "How medieval Europe's rival political systems, the enduring Rom
 openingTitle: "Three messengers at the edge of an era"
 description: "How medieval Europe's rival political systems, the enduring Roman empire at Constantinople, the kingdoms of the Balkans, and a rising Anatolian dynasty…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 31
 readingTime: 64
 openingReadingTime: 2

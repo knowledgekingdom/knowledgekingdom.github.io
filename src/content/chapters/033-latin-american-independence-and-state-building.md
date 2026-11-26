@@ -12,7 +12,7 @@ standfirstHtml: "How Iberian imperial crises became wars of independence, how di
 openingTitle: "When an empire's king disappeared"
 description: "How Iberian imperial crises became wars of independence, how different societies fought over the meaning of sovereignty, and why founding a country proved…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 39
 openingReadingTime: 2

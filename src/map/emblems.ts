@@ -43,6 +43,16 @@ export const EMBLEMS: Record<string, string> = {
   flag: '<path d="M5 21V3M5 4h13l-2.5 4l2.5 4H5"/><circle class="f" cx="10.5" cy="8" r="1.4"/>',
   bridge: '<path d="M2 15.5h20M2 15.5C5 9.5 8.5 7.5 12 7.5s7 2 10 8M6 15.5v-4.3M12 15.5v-8M18 15.5v-4.3"/><path d="M2 20c2 0 2-1 4-1s2 1 4 1s2-1 4-1s2 1 4 1s2-1 4-1"/>',
   poppy: '<path d="M12 21v-8M12 17.5c-1.6-1.4-3.2-1.6-4.6-.6"/><path d="M12 13c-3.8 0-6-2-6-4.4S8 4 10 5c1-2 3-2 4 0c2-1 4 1.2 4 3.6S15.8 13 12 13z"/><circle class="f" cx="12" cy="8.8" r="1.6"/>',
+  radio: '<rect x="3" y="9" width="18" height="11.5" rx="2"/><path d="M7.5 9l8-6M6 13.5h5M6 16.5h5"/><circle cx="16" cy="15" r="3"/><path d="M16 15l1.6-1.6"/>',
+  memorial: '<path d="M8 21V11.5h8V21M5.5 21h13M10.5 14.5h3M10.5 17.5h3"/><path d="M12 3c1.8 2.2 1.8 4 0 5.6c-1.8-1.6-1.8-3.4 0-5.6z"/>',
+  wall: '<path d="M2 20V8h8.5v12M13.5 20V8H22v12M2 12h8.5M13.5 12H22M2 16h8.5M13.5 16H22M6 8v4M6 16v4M4 12v4M8.5 12v4M17.5 8v4M17.5 16v4M15.5 12v4M20 12v4M1 20.5h22"/>',
+  swords: '<path d="M4 4l11 11M13 17l4-4M15 15l3.6 3.6M20 4L9 15M11 17l-4-4M9 15l-3.6 3.6"/><circle class="f" cx="19.4" cy="19.4" r="1.3"/><circle class="f" cx="4.6" cy="19.4" r="1.3"/>',
+  pass: '<path d="M2 20l6.5-12l3.5 5.5l3-4.5l7 11zM8.5 8l1.8 3M15 9l1.4 2.2M12.5 14c-.4 2.2-1.6 4.4-3.5 6M2 20h20"/>',
+  crates: '<rect x="3" y="12" width="8" height="8"/><rect x="13" y="12" width="8" height="8"/><rect x="8" y="4" width="8" height="8"/><path d="M3 12l8 8M13 12l8 8M8 4l8 8M2 20.5h20"/>',
+  handshake: '<path d="M2 9h3.5v8H2M22 9h-3.5v8H22M5.5 10.5c2-1.6 4.2-1.8 6.5-.3l3.2 2.6c.8.7.1 2-1 1.6l-3.2-1.9M18.5 10.5c-1.6-.3-3.2.2-4.8 1.2M5.5 15.5l3.6 3c.7.6 1.7.5 2.2-.2M8.6 14.8l3.1 2.6c.7.6 1.7.4 2.1-.4M11.4 13.6l2.9 2.4c.8.6 1.8.3 2.1-.6l2.1-.9"/>',
+  gavel: '<path d="M10 7.5l4.5-4.5l6.5 6.5l-4.5 4.5zM12.7 11.3L4 20M3 21.5h9"/>',
+  atom: '<ellipse cx="12" cy="12" rx="9.5" ry="3.8"/><ellipse cx="12" cy="12" rx="9.5" ry="3.8" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="9.5" ry="3.8" transform="rotate(-60 12 12)"/><circle class="f" cx="12" cy="12" r="1.7"/>',
+  rift: '<path d="M3 11l9-7l9 7M5 9.5V20h14V9.5M12 4l-1.2 4l2.2 3l-2.2 3l2.2 3l-1 3M2 20h20"/>',
 };
 
 /**
@@ -55,4 +65,5 @@ export const EMBLEM_MOTION: Record<string, string> = {
   pagoda: 'bob', crown: 'glint', temple: 'rise', arch: 'rise', baobab: 'sway', sun: 'spin', dome: 'glint', camel: 'walk', yurt: 'bob',
   tower: 'rise', press: 'stamp', candle: 'flicker', dhow: 'rock', ship: 'rock', maize: 'sway', chain: 'shake', palace: 'glint',
   telescope: 'sweep', torch: 'flicker', star: 'twinkle', factory: 'puff', map: 'open', flag: 'wave', bridge: 'bob', poppy: 'sway',
+  radio: 'shake', memorial: 'flicker', wall: 'shake', swords: 'tilt', pass: 'rise', crates: 'bob', handshake: 'shake', gavel: 'stamp', atom: 'spin', rift: 'shake',
 };

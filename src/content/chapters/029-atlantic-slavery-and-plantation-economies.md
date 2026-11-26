@@ -12,7 +12,7 @@ standfirstHtml: "How the forced transportation of millions of Africans became ce
 openingTitle: "A ledger that could not record a life"
 description: "How the forced transportation of millions of Africans became central to Atlantic empire, transformed African and American societies, financed commodity…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 39
 openingReadingTime: 2

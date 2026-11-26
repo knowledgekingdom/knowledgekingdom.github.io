@@ -12,7 +12,7 @@ standfirstHtml: "How communities came to imagine themselves as nations, how gove
 openingTitle: "A crowd, a flag and an unfinished country"
 description: "How communities came to imagine themselves as nations, how governments turned national claims into institutions, and why unification and independence…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 40
 openingReadingTime: 2

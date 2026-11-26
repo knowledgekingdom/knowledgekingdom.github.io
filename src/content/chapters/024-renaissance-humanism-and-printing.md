@@ -12,7 +12,7 @@ standfirstHtml: "How city politics, the recovery and criticism of ancient texts,
 openingTitle: "The bookshop, the workshop, and the city"
 description: "How city politics, the recovery and criticism of ancient texts, artistic experiment, global exchanges, and the business of printing reshaped European…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 34
 readingTime: 65
 openingReadingTime: 2

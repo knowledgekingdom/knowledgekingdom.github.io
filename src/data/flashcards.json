@@ -5405,6 +5405,1556 @@
           "back": "The League of Nations."
         }
       ]
+    },
+    "039": {
+      "deck": "The Interwar World",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What years commonly define Europe's interwar era?",
+          "back": "1918–1939."
+        },
+        {
+          "id": 2,
+          "front": "What international institution began in 1920?",
+          "back": "The League of Nations."
+        },
+        {
+          "id": 3,
+          "front": "Which treaty dealt with Bulgaria in 1919?",
+          "back": "The Treaty of Neuilly."
+        },
+        {
+          "id": 4,
+          "front": "Which new state was formed in 1922?",
+          "back": "The Soviet Union (USSR)."
+        },
+        {
+          "id": 5,
+          "front": "Who led Italy's Fascist movement?",
+          "back": "Benito Mussolini."
+        },
+        {
+          "id": 6,
+          "front": "When was Mussolini appointed prime minister?",
+          "back": "October 1922."
+        },
+        {
+          "id": 7,
+          "front": "What was Germany's democratic interwar regime?",
+          "back": "The Weimar Republic."
+        },
+        {
+          "id": 8,
+          "front": "When did Germany experience hyperinflation?",
+          "back": "Especially 1923."
+        },
+        {
+          "id": 9,
+          "front": "What plan helped stabilize reparations in 1924?",
+          "back": "The Dawes Plan."
+        },
+        {
+          "id": 10,
+          "front": "What 1929 event symbolizes the Depression's onset?",
+          "back": "The Wall Street stock-market crash."
+        },
+        {
+          "id": 11,
+          "front": "What international system constrained monetary policy?",
+          "back": "The gold standard."
+        },
+        {
+          "id": 12,
+          "front": "When did Britain leave gold convertibility?",
+          "back": "September 1931."
+        },
+        {
+          "id": 13,
+          "front": "Who launched the U.S. New Deal?",
+          "back": "Franklin D. Roosevelt."
+        },
+        {
+          "id": 14,
+          "front": "When did Roosevelt take office?",
+          "back": "March 1933."
+        },
+        {
+          "id": 15,
+          "front": "What did Stalin impose on agriculture?",
+          "back": "Compulsory collectivization."
+        },
+        {
+          "id": 16,
+          "front": "Which famine struck Ukraine in 1932–33?",
+          "back": "The Holodomor."
+        },
+        {
+          "id": 17,
+          "front": "When was Hitler appointed German chancellor?",
+          "back": "30 January 1933."
+        },
+        {
+          "id": 18,
+          "front": "What law enabled Hitler's cabinet to bypass parliament?",
+          "back": "The Enabling Act, 23 March 1933."
+        },
+        {
+          "id": 19,
+          "front": "What 1935 laws institutionalized Nazi racial exclusion?",
+          "back": "The Nuremberg Laws."
+        },
+        {
+          "id": 20,
+          "front": "When was Kristallnacht?",
+          "back": "9–10 November 1938."
+        },
+        {
+          "id": 21,
+          "front": "When did Japan occupy Manchuria?",
+          "back": "1931."
+        },
+        {
+          "id": 22,
+          "front": "What puppet state arose in Manchuria?",
+          "back": "Manchukuo, 1932."
+        },
+        {
+          "id": 23,
+          "front": "When did the Spanish Civil War occur?",
+          "back": "1936–1939."
+        },
+        {
+          "id": 24,
+          "front": "Which city was bombed in the Spanish Civil War in 1937?",
+          "back": "Guernica (Gernika)."
+        },
+        {
+          "id": 25,
+          "front": "Who headed Bulgaria's agrarian government?",
+          "back": "Aleksandar Stamboliyski."
+        },
+        {
+          "id": 26,
+          "front": "When was Bulgaria's anti-agrarian coup?",
+          "back": "9 June 1923."
+        },
+        {
+          "id": 27,
+          "front": "What Sofia church was bombed in April 1925?",
+          "back": "St Nedelya Church."
+        },
+        {
+          "id": 28,
+          "front": "When did Zveno stage a coup in Bulgaria?",
+          "back": "19 May 1934."
+        },
+        {
+          "id": 29,
+          "front": "What agreement ceded the Sudetenland in 1938?",
+          "back": "The Munich Agreement."
+        },
+        {
+          "id": 30,
+          "front": "When did Germany invade Poland?",
+          "back": "1 September 1939."
+        }
+      ]
+    },
+    "040": {
+      "deck": "World War II and the Holocaust",
+      "cards": [
+        {
+          "id": 1,
+          "front": "When did Germany invade Poland?",
+          "back": "1 September 1939."
+        },
+        {
+          "id": 2,
+          "front": "When did full-scale Sino-Japanese war begin?",
+          "back": "1937."
+        },
+        {
+          "id": 3,
+          "front": "Which agreement enabled German-Soviet partition of Poland?",
+          "back": "Molotov–Ribbentrop Pact, 1939."
+        },
+        {
+          "id": 4,
+          "front": "When did Soviet forces enter eastern Poland?",
+          "back": "17 September 1939."
+        },
+        {
+          "id": 5,
+          "front": "What major evacuation occurred in May–June 1940?",
+          "back": "Dunkirk."
+        },
+        {
+          "id": 6,
+          "front": "What air battle helped prevent a German invasion of Britain?",
+          "back": "The Battle of Britain, 1940."
+        },
+        {
+          "id": 7,
+          "front": "What did Atlantic convoys primarily protect?",
+          "back": "Shipping of essential supplies."
+        },
+        {
+          "id": 8,
+          "front": "When did Germany invade the Soviet Union?",
+          "back": "22 June 1941."
+        },
+        {
+          "id": 9,
+          "front": "What was Operation Barbarossa?",
+          "back": "Germany's 1941 invasion of the USSR."
+        },
+        {
+          "id": 10,
+          "front": "What city endured a devastating 1941–44 siege?",
+          "back": "Leningrad."
+        },
+        {
+          "id": 11,
+          "front": "What 1937 Chinese city suffered a major massacre?",
+          "back": "Nanjing."
+        },
+        {
+          "id": 12,
+          "front": "When was Pearl Harbor attacked?",
+          "back": "7 December 1941."
+        },
+        {
+          "id": 13,
+          "front": "What carrier battle occurred in June 1942?",
+          "back": "Midway."
+        },
+        {
+          "id": 14,
+          "front": "What Soviet victory culminated in early 1943?",
+          "back": "Stalingrad."
+        },
+        {
+          "id": 15,
+          "front": "What Allied North African victory occurred in 1942?",
+          "back": "El Alamein."
+        },
+        {
+          "id": 16,
+          "front": "What was the Holocaust?",
+          "back": "Genocide of about six million European Jews."
+        },
+        {
+          "id": 17,
+          "front": "What were the Einsatzgruppen?",
+          "back": "Nazi mobile mass-shooting units."
+        },
+        {
+          "id": 18,
+          "front": "When was the Wannsee Conference?",
+          "back": "January 1942."
+        },
+        {
+          "id": 19,
+          "front": "What 1943 Jewish uprising occurred in occupied Poland?",
+          "back": "Warsaw Ghetto uprising."
+        },
+        {
+          "id": 20,
+          "front": "What was Auschwitz-Birkenau?",
+          "back": "A major Nazi killing and concentration camp complex."
+        },
+        {
+          "id": 21,
+          "front": "When did Bulgaria join the Axis?",
+          "back": "1 March 1941."
+        },
+        {
+          "id": 22,
+          "front": "How many Jews were deported from Bulgarian-occupied lands in 1943?",
+          "back": "11,343."
+        },
+        {
+          "id": 23,
+          "front": "When did Bulgaria change government and wartime alignment?",
+          "back": "September 1944."
+        },
+        {
+          "id": 24,
+          "front": "When was D-Day in Normandy?",
+          "back": "6 June 1944."
+        },
+        {
+          "id": 25,
+          "front": "What 1944 Soviet offensive devastated Germany's Army Group Centre?",
+          "back": "Operation Bagration."
+        },
+        {
+          "id": 26,
+          "front": "When was Auschwitz liberated?",
+          "back": "27 January 1945."
+        },
+        {
+          "id": 27,
+          "front": "What date is VE Day in western Europe?",
+          "back": "8 May 1945."
+        },
+        {
+          "id": 28,
+          "front": "When were Hiroshima and Nagasaki bombed?",
+          "back": "6 and 9 August 1945."
+        },
+        {
+          "id": 29,
+          "front": "When did Japan formally surrender?",
+          "back": "2 September 1945."
+        },
+        {
+          "id": 30,
+          "front": "When did the UN Charter enter into force?",
+          "back": "24 October 1945."
+        }
+      ]
+    },
+    "041": {
+      "deck": "Cold War, Decolonization, and the Post-1991 World",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What years broadly define the Cold War?",
+          "back": "Late 1940s to 1989–1991."
+        },
+        {
+          "id": 2,
+          "front": "What did containment seek?",
+          "back": "To prevent further Soviet expansion."
+        },
+        {
+          "id": 3,
+          "front": "When did the Truman Doctrine begin?",
+          "back": "1947."
+        },
+        {
+          "id": 4,
+          "front": "When did the Marshall Plan operate?",
+          "back": "From 1948, after its 1947 announcement."
+        },
+        {
+          "id": 5,
+          "front": "When was the Berlin Airlift?",
+          "back": "1948–1949."
+        },
+        {
+          "id": 6,
+          "front": "When was NATO founded?",
+          "back": "1949."
+        },
+        {
+          "id": 7,
+          "front": "When was the Warsaw Pact established?",
+          "back": "1955."
+        },
+        {
+          "id": 8,
+          "front": "What was built in Berlin in 1961?",
+          "back": "The Berlin Wall."
+        },
+        {
+          "id": 9,
+          "front": "When was the People's Republic of China proclaimed?",
+          "back": "1949."
+        },
+        {
+          "id": 10,
+          "front": "When was the Korean War armistice?",
+          "back": "1953."
+        },
+        {
+          "id": 11,
+          "front": "When did India and Pakistan gain independence?",
+          "back": "1947."
+        },
+        {
+          "id": 12,
+          "front": "When did the Bandung Conference meet?",
+          "back": "1955."
+        },
+        {
+          "id": 13,
+          "front": "When was the Non-Aligned Movement founded?",
+          "back": "1961."
+        },
+        {
+          "id": 14,
+          "front": "When did Ghana gain independence?",
+          "back": "1957."
+        },
+        {
+          "id": 15,
+          "front": "What UN anticolonial declaration passed in 1960?",
+          "back": "General Assembly Resolution 1514 (XV)."
+        },
+        {
+          "id": 16,
+          "front": "When did the Congo Crisis begin?",
+          "back": "1960."
+        },
+        {
+          "id": 17,
+          "front": "When was the Cuban Missile Crisis?",
+          "back": "October 1962."
+        },
+        {
+          "id": 18,
+          "front": "When did Saigon fall?",
+          "back": "1975."
+        },
+        {
+          "id": 19,
+          "front": "When did Apollo 11 land on the Moon?",
+          "back": "1969."
+        },
+        {
+          "id": 20,
+          "front": "What year did Bulgarian monarchy end?",
+          "back": "1946."
+        },
+        {
+          "id": 21,
+          "front": "Who ruled communist Bulgaria for decades?",
+          "back": "Todor Zhivkov."
+        },
+        {
+          "id": 22,
+          "front": "What was Bulgaria's 'Revival Process'?",
+          "back": "A coercive assimilation campaign."
+        },
+        {
+          "id": 23,
+          "front": "What 1975 agreement invoked European human rights?",
+          "back": "Helsinki Final Act."
+        },
+        {
+          "id": 24,
+          "front": "When did the Soviet Union invade Afghanistan?",
+          "back": "1979."
+        },
+        {
+          "id": 25,
+          "front": "When did Gorbachev become Soviet leader?",
+          "back": "1985."
+        },
+        {
+          "id": 26,
+          "front": "When did the Berlin Wall open?",
+          "back": "9 November 1989."
+        },
+        {
+          "id": 27,
+          "front": "When was Zhivkov removed as Bulgarian party leader?",
+          "back": "10 November 1989."
+        },
+        {
+          "id": 28,
+          "front": "When did the Soviet Union dissolve?",
+          "back": "December 1991."
+        },
+        {
+          "id": 29,
+          "front": "When did Bulgaria join NATO?",
+          "back": "2004."
+        },
+        {
+          "id": 30,
+          "front": "When did Bulgaria join the European Union?",
+          "back": "2007."
+        }
+      ]
+    },
+    "042": {
+      "deck": "Why Wars Begin",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What is a bargaining range?",
+          "back": "Deals each side prefers to its expected payoff from war."
+        },
+        {
+          "id": 2,
+          "front": "What is private information?",
+          "back": "Relevant facts one party knows but the other cannot verify."
+        },
+        {
+          "id": 3,
+          "front": "What is a costly signal?",
+          "back": "A hard-to-fake action meant to demonstrate commitment."
+        },
+        {
+          "id": 4,
+          "front": "What is a commitment problem?",
+          "back": "Inability to credibly promise future compliance."
+        },
+        {
+          "id": 5,
+          "front": "Preventive war?",
+          "back": "Fighting now to avoid a worse future balance of power."
+        },
+        {
+          "id": 6,
+          "front": "Preemptive strike?",
+          "back": "Attack based on a perceived imminent enemy assault."
+        },
+        {
+          "id": 7,
+          "front": "Security dilemma?",
+          "back": "Defensive steps by one state make another feel less safe."
+        },
+        {
+          "id": 8,
+          "front": "Entrapment?",
+          "back": "Risk of being drawn into an ally's reckless conflict."
+        },
+        {
+          "id": 9,
+          "front": "Abandonment?",
+          "back": "Fear an ally will fail to provide promised support."
+        },
+        {
+          "id": 10,
+          "front": "Power transition?",
+          "back": "A changing distribution of power among states."
+        },
+        {
+          "id": 11,
+          "front": "Offence-defence balance?",
+          "back": "Relative ease of seizing territory versus defending it."
+        },
+        {
+          "id": 12,
+          "front": "Diversionary-war hypothesis?",
+          "back": "Leaders may use external conflict to shift domestic attention."
+        },
+        {
+          "id": 13,
+          "front": "Democratic peace, narrow claim?",
+          "back": "Established democracies rarely fight one another."
+        },
+        {
+          "id": 14,
+          "front": "Indivisibility problem?",
+          "back": "Disputed claims perceived as impossible to split acceptably."
+        },
+        {
+          "id": 15,
+          "front": "Sunk-cost trap in war?",
+          "back": "Continuing because losses already incurred feel too large."
+        },
+        {
+          "id": 16,
+          "front": "War onset versus duration?",
+          "back": "Beginning violence and prolonging it have different causes."
+        },
+        {
+          "id": 17,
+          "front": "Three analysis levels?",
+          "back": "International system, domestic politics, individual leaders."
+        },
+        {
+          "id": 18,
+          "front": "What is deterrence?",
+          "back": "Raising expected costs to discourage an adversary's attack."
+        },
+        {
+          "id": 19,
+          "front": "What is reassurance?",
+          "back": "Showing protective measures are not preparation for conquest."
+        },
+        {
+          "id": 20,
+          "front": "Crisis communication?",
+          "back": "Direct channels to reduce errors and misunderstandings."
+        },
+        {
+          "id": 21,
+          "front": "UCDP state-based threshold?",
+          "back": "At least 25 battle-related deaths in a calendar year."
+        },
+        {
+          "id": 22,
+          "front": "UCDP war threshold?",
+          "back": "At least 1,000 battle-related deaths in a calendar year."
+        },
+        {
+          "id": 23,
+          "front": "July Crisis year?",
+          "back": "1914."
+        },
+        {
+          "id": 24,
+          "front": "Cuban Missile Crisis year?",
+          "back": "1962."
+        },
+        {
+          "id": 25,
+          "front": "Iraq invaded Kuwait in?",
+          "back": "August 1990."
+        },
+        {
+          "id": 26,
+          "front": "U.S.-led Iraq invasion year?",
+          "back": "2003."
+        },
+        {
+          "id": 27,
+          "front": "Civil-war settlement obstacle?",
+          "back": "Fear of betrayal after weapons are surrendered."
+        },
+        {
+          "id": 28,
+          "front": "Spoiler in peace process?",
+          "back": "An actor seeking to undermine a settlement."
+        },
+        {
+          "id": 29,
+          "front": "Why is a national myth not enough?",
+          "back": "It hides political choices and disputed evidence."
+        },
+        {
+          "id": 30,
+          "front": "Core war-diagnosis question?",
+          "back": "What blocked an acceptable, credible alternative to fighting?"
+        }
+      ]
+    },
+    "043": {
+      "deck": "The Geography of Power",
+      "cards": [
+        {
+          "id": 1,
+          "front": "What is effective distance?",
+          "back": "Time, cost and reliability of connecting two places."
+        },
+        {
+          "id": 2,
+          "front": "Physical vs human geography?",
+          "back": "Land and climate versus people, networks and institutions."
+        },
+        {
+          "id": 3,
+          "front": "Strategic depth?",
+          "back": "Capacity and space to absorb or resist attack."
+        },
+        {
+          "id": 4,
+          "front": "What is a corridor?",
+          "back": "A route concentrating travel between places."
+        },
+        {
+          "id": 5,
+          "front": "Mountain military advantage?",
+          "back": "Can channel movement through defensible passes."
+        },
+        {
+          "id": 6,
+          "front": "What makes a river navigable?",
+          "back": "Flow, depth, locks, ports and maintenance."
+        },
+        {
+          "id": 7,
+          "front": "Why is a port more than a coastline?",
+          "back": "It needs facilities and connections to inland markets."
+        },
+        {
+          "id": 8,
+          "front": "Landlocked-state trade constraint?",
+          "back": "Dependence on transit states and border procedures."
+        },
+        {
+          "id": 9,
+          "front": "Maritime chokepoint?",
+          "back": "A narrow route concentrating shipping."
+        },
+        {
+          "id": 10,
+          "front": "Suez Canal connects?",
+          "back": "Mediterranean Sea and Red Sea."
+        },
+        {
+          "id": 11,
+          "front": "Strait of Malacca links?",
+          "back": "Indian Ocean routes and the South China Sea."
+        },
+        {
+          "id": 12,
+          "front": "Strait of Hormuz links?",
+          "back": "Persian Gulf and Gulf of Oman."
+        },
+        {
+          "id": 13,
+          "front": "Two pillars of sea power?",
+          "back": "Fleet capacity plus bases and logistics."
+        },
+        {
+          "id": 14,
+          "front": "Resource curse?",
+          "back": "Resource wealth may promote volatility or elite capture."
+        },
+        {
+          "id": 15,
+          "front": "Agglomeration?",
+          "back": "Economic activity concentrated near other activity."
+        },
+        {
+          "id": 16,
+          "front": "Supply-chain bottleneck?",
+          "back": "A hard-to-replace step affecting many products."
+        },
+        {
+          "id": 17,
+          "front": "UNCLOS territorial sea maximum?",
+          "back": "12 nautical miles."
+        },
+        {
+          "id": 18,
+          "front": "UNCLOS EEZ general maximum?",
+          "back": "200 nautical miles."
+        },
+        {
+          "id": 19,
+          "front": "Climate-security mistake?",
+          "back": "Claiming drought inevitably causes war."
+        },
+        {
+          "id": 20,
+          "front": "Mahan emphasized?",
+          "back": "Sea power, maritime commerce and bases."
+        },
+        {
+          "id": 21,
+          "front": "Mackinder emphasized?",
+          "back": "Eurasian interior and land transport."
+        },
+        {
+          "id": 22,
+          "front": "Spykman emphasized?",
+          "back": "Eurasian coastal rimland."
+        },
+        {
+          "id": 23,
+          "front": "Critical geopolitics studies?",
+          "back": "How power and narratives shape maps and claims."
+        },
+        {
+          "id": 24,
+          "front": "Undersea cable vulnerability?",
+          "back": "Physical landing points and limited alternate routes."
+        },
+        {
+          "id": 25,
+          "front": "Bulgaria’s northern river border?",
+          "back": "The Danube."
+        },
+        {
+          "id": 26,
+          "front": "Bulgaria’s maritime access?",
+          "back": "The Black Sea."
+        },
+        {
+          "id": 27,
+          "front": "Turkish Straits connect?",
+          "back": "Black Sea and Mediterranean maritime systems."
+        },
+        {
+          "id": 28,
+          "front": "Arctic shipping limitation?",
+          "back": "Ice, seasons, rescue capacity and infrastructure."
+        },
+        {
+          "id": 29,
+          "front": "Infrastructure redundancy?",
+          "back": "Alternative routes or capacities when one fails."
+        },
+        {
+          "id": 30,
+          "front": "Main lesson of geography of power?",
+          "back": "Geography shapes options; decisions shape outcomes."
+        }
+      ]
+    },
+    "044": {
+      "deck": "Military Organization and Logistics",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Potential power?",
+          "back": "Underlying population, resources, wealth and skills."
+        },
+        {
+          "id": 2,
+          "front": "Military capability?",
+          "back": "Ability to perform a defined military task."
+        },
+        {
+          "id": 3,
+          "front": "Political power?",
+          "back": "Capacity to influence political outcomes."
+        },
+        {
+          "id": 4,
+          "front": "Strategy?",
+          "back": "Relationship between political aims and means."
+        },
+        {
+          "id": 5,
+          "front": "Operational level?",
+          "back": "Organisation of activities across campaigns or theatres."
+        },
+        {
+          "id": 6,
+          "front": "Tactics?",
+          "back": "Particular military engagements and actions."
+        },
+        {
+          "id": 7,
+          "front": "Rank versus appointment?",
+          "back": "Formal status versus assigned job."
+        },
+        {
+          "id": 8,
+          "front": "Civilian control?",
+          "back": "Military power accountable to lawful civilian authority."
+        },
+        {
+          "id": 9,
+          "front": "Conscription?",
+          "back": "Compulsory military service under law."
+        },
+        {
+          "id": 10,
+          "front": "Reserve?",
+          "back": "Personnel with specified call-up obligations or commitments."
+        },
+        {
+          "id": 11,
+          "front": "Mobilisation?",
+          "back": "Activation of personnel, institutions and resources."
+        },
+        {
+          "id": 12,
+          "front": "Morale?",
+          "back": "Psychological disposition toward circumstances and duties."
+        },
+        {
+          "id": 13,
+          "front": "Cohesion?",
+          "back": "Bonds enabling a group to function together."
+        },
+        {
+          "id": 14,
+          "front": "Logistics?",
+          "back": "Movement and provision of required resources and services."
+        },
+        {
+          "id": 15,
+          "front": "Sustainment?",
+          "back": "Maintaining an organisation and its services over time."
+        },
+        {
+          "id": 16,
+          "front": "Stock?",
+          "back": "Quantity held at a given moment."
+        },
+        {
+          "id": 17,
+          "front": "Flow?",
+          "back": "Quantity entering or leaving over a time interval."
+        },
+        {
+          "id": 18,
+          "front": "Effective distance?",
+          "back": "Distance understood through cost, time and reliability."
+        },
+        {
+          "id": 19,
+          "front": "Acquisition cost?",
+          "back": "Cost of obtaining an asset."
+        },
+        {
+          "id": 20,
+          "front": "Life-cycle cost?",
+          "back": "Total costs over an asset's defined service life."
+        },
+        {
+          "id": 21,
+          "front": "Readiness?",
+          "back": "Ability to meet a specified task standard when required."
+        },
+        {
+          "id": 22,
+          "front": "Intelligence?",
+          "back": "Assessed information relevant to decisions."
+        },
+        {
+          "id": 23,
+          "front": "Joint organisation?",
+          "back": "Cooperation among different military services."
+        },
+        {
+          "id": 24,
+          "front": "Combined arms?",
+          "back": "Integration of different kinds of military capability."
+        },
+        {
+          "id": 25,
+          "front": "Interoperability?",
+          "back": "Ability of organisations to work together effectively."
+        },
+        {
+          "id": 26,
+          "front": "Fiscal-military state?",
+          "back": "State institutions linking war, taxation and borrowing."
+        },
+        {
+          "id": 27,
+          "front": "Napoleon's Russia campaign?",
+          "back": "1812; supply, exhaustion, politics and weather interacted."
+        },
+        {
+          "id": 28,
+          "front": "Berlin Airlift?",
+          "back": "1948–49 provision of West Berlin by air."
+        },
+        {
+          "id": 29,
+          "front": "Bulgaria joined NATO?",
+          "back": "29 March 2004."
+        },
+        {
+          "id": 30,
+          "front": "Military expenditure measures what?",
+          "back": "Financial input, not military or political outcomes."
+        }
+      ]
+    },
+    "045": {
+      "deck": "Diplomacy, Alliances, and Balance of Power",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Foreign policy?",
+          "back": "A government's external goals and choices."
+        },
+        {
+          "id": 2,
+          "front": "Diplomacy?",
+          "back": "Representation, communication and negotiation of international relations."
+        },
+        {
+          "id": 3,
+          "front": "Statecraft?",
+          "back": "Use of the wider instruments of political influence."
+        },
+        {
+          "id": 4,
+          "front": "Sovereignty?",
+          "back": "Authority to govern and international legal standing."
+        },
+        {
+          "id": 5,
+          "front": "International anarchy?",
+          "back": "Absence of a single overarching sovereign; not absence of rules."
+        },
+        {
+          "id": 6,
+          "front": "Embassy?",
+          "back": "Permanent diplomatic mission representing a state."
+        },
+        {
+          "id": 7,
+          "front": "Diplomatic immunity?",
+          "back": "Functional legal protections for diplomatic agents and missions."
+        },
+        {
+          "id": 8,
+          "front": "Persona non grata?",
+          "back": "A representative declared unacceptable by the receiving state."
+        },
+        {
+          "id": 9,
+          "front": "Bilateral diplomacy?",
+          "back": "Diplomacy between two parties."
+        },
+        {
+          "id": 10,
+          "front": "Multilateral diplomacy?",
+          "back": "Diplomacy involving several parties."
+        },
+        {
+          "id": 11,
+          "front": "Track II diplomacy?",
+          "back": "Unofficial dialogue, without authority to bind governments."
+        },
+        {
+          "id": 12,
+          "front": "Position vs interest?",
+          "back": "A stated demand versus the underlying concern."
+        },
+        {
+          "id": 13,
+          "front": "Bargaining range?",
+          "back": "Outcomes preferable to relevant alternatives for all parties."
+        },
+        {
+          "id": 14,
+          "front": "Verification?",
+          "back": "Checking evidence of compliance."
+        },
+        {
+          "id": 15,
+          "front": "Two-level games?",
+          "back": "International bargaining constrained by domestic approval."
+        },
+        {
+          "id": 16,
+          "front": "Mediation?",
+          "back": "Third-party facilitation of a negotiated settlement."
+        },
+        {
+          "id": 17,
+          "front": "Arbitration?",
+          "back": "Submission of a dispute to an agreed decision-making tribunal."
+        },
+        {
+          "id": 18,
+          "front": "Entry into force?",
+          "back": "When an agreement becomes operative under its terms."
+        },
+        {
+          "id": 19,
+          "front": "Alliance?",
+          "back": "Security cooperation commitment between political actors."
+        },
+        {
+          "id": 20,
+          "front": "Internal balancing?",
+          "back": "Building one's own capabilities."
+        },
+        {
+          "id": 21,
+          "front": "External balancing?",
+          "back": "Cooperating with others to offset power or threats."
+        },
+        {
+          "id": 22,
+          "front": "Polarity?",
+          "back": "Number of predominant centres of power."
+        },
+        {
+          "id": 23,
+          "front": "Balance of threat?",
+          "back": "Alignment responding to perceived threats, not only raw power."
+        },
+        {
+          "id": 24,
+          "front": "Bandwagoning?",
+          "back": "Alignment with a stronger or threatening power."
+        },
+        {
+          "id": 25,
+          "front": "Security dilemma?",
+          "back": "Protective actions can create reciprocal insecurity."
+        },
+        {
+          "id": 26,
+          "front": "Abandonment?",
+          "back": "Fear a partner will withhold expected support."
+        },
+        {
+          "id": 27,
+          "front": "Entrapment?",
+          "back": "Fear of being drawn into an unwanted confrontation."
+        },
+        {
+          "id": 28,
+          "front": "Collective defence?",
+          "back": "Mutual assistance against a covered attack."
+        },
+        {
+          "id": 29,
+          "front": "Collective security?",
+          "back": "Common institutional response to threats to peace."
+        },
+        {
+          "id": 30,
+          "front": "Soft power?",
+          "back": "Influence through attraction rather than coercion or payment."
+        }
+      ]
+    },
+    "046": {
+      "deck": "International Law and Armed Conflict",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Treaty?",
+          "back": "Binding international agreement under applicable law."
+        },
+        {
+          "id": 2,
+          "front": "Customary international law?",
+          "back": "General practice accepted as law."
+        },
+        {
+          "id": 3,
+          "front": "Opinio juris?",
+          "back": "Acceptance of a practice as legally required or permitted."
+        },
+        {
+          "id": 4,
+          "front": "Jus cogens?",
+          "back": "Peremptory norm from which derogation is not permitted."
+        },
+        {
+          "id": 5,
+          "front": "Sovereign equality?",
+          "back": "States possess equal legal status, not equal power."
+        },
+        {
+          "id": 6,
+          "front": "Jus ad bellum?",
+          "back": "Law governing resort to interstate force."
+        },
+        {
+          "id": 7,
+          "front": "Jus in bello?",
+          "back": "Law governing conduct during armed conflict."
+        },
+        {
+          "id": 8,
+          "front": "Article 2(4), UN Charter?",
+          "back": "Prohibits unlawful threats or uses of force."
+        },
+        {
+          "id": 9,
+          "front": "Article 51, UN Charter?",
+          "back": "Preserves individual and collective self-defence after armed attack."
+        },
+        {
+          "id": 10,
+          "front": "Chapter VII?",
+          "back": "Security Council framework for collective security measures."
+        },
+        {
+          "id": 11,
+          "front": "Responsibility to protect?",
+          "back": "Commitment to prevent four atrocity categories and respond under the Charter."
+        },
+        {
+          "id": 12,
+          "front": "International armed conflict (IAC)?",
+          "back": "Generally, armed force between states; also qualifying occupation."
+        },
+        {
+          "id": 13,
+          "front": "Non-international armed conflict (NIAC)?",
+          "back": "Sufficiently intense violence involving sufficiently organized parties."
+        },
+        {
+          "id": 14,
+          "front": "Common Article 3?",
+          "back": "Minimum humane treatment and judicial safeguards in NIAC."
+        },
+        {
+          "id": 15,
+          "front": "Distinction?",
+          "back": "Distinguish civilians and civilian objects from lawful military categories."
+        },
+        {
+          "id": 16,
+          "front": "IHL proportionality?",
+          "back": "Prohibition of excessive expected incidental civilian harm relative to anticipated military advantage."
+        },
+        {
+          "id": 17,
+          "front": "Precautions?",
+          "back": "Feasible measures required to spare civilians and minimize incidental harm."
+        },
+        {
+          "id": 18,
+          "front": "Hors de combat?",
+          "back": "Out of combat and protected against attack under applicable conditions."
+        },
+        {
+          "id": 19,
+          "front": "Prisoner of war (POW)?",
+          "back": "Protected captive meeting the relevant IAC status criteria."
+        },
+        {
+          "id": 20,
+          "front": "Occupation?",
+          "back": "Unconsented effective authority over foreign territory, without sovereign title."
+        },
+        {
+          "id": 21,
+          "front": "Humanitarian impartiality?",
+          "back": "Aid according to need, without adverse discrimination."
+        },
+        {
+          "id": 22,
+          "front": "Internally displaced person?",
+          "back": "Forced from home without crossing an internationally recognized state border."
+        },
+        {
+          "id": 23,
+          "front": "Non-refoulement?",
+          "back": "Protection against return to specified serious dangers."
+        },
+        {
+          "id": 24,
+          "front": "State responsibility?",
+          "back": "Legal consequences of an attributable breach by a state."
+        },
+        {
+          "id": 25,
+          "front": "Genocide?",
+          "back": "Specified acts with intent to destroy a protected group, wholly or partly."
+        },
+        {
+          "id": 26,
+          "front": "Crimes against humanity?",
+          "back": "Specified acts within a widespread or systematic attack on civilians, with knowledge."
+        },
+        {
+          "id": 27,
+          "front": "War crime?",
+          "back": "Recognized serious offense linked to armed conflict."
+        },
+        {
+          "id": 28,
+          "front": "ICJ?",
+          "back": "UN court for interstate cases and authorized advisory opinions."
+        },
+        {
+          "id": 29,
+          "front": "ICC?",
+          "back": "International court for individual criminal liability under the Rome Statute."
+        },
+        {
+          "id": 30,
+          "front": "Complementarity?",
+          "back": "ICC supplements genuine national criminal proceedings, subject to statutory rules."
+        }
+      ]
+    },
+    "047": {
+      "deck": "Deterrence and Nuclear Strategy",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Deterrence?",
+          "back": "Influencing another actor not to undertake an action."
+        },
+        {
+          "id": 2,
+          "front": "Compellence?",
+          "back": "Pressure intended to induce action or reversal."
+        },
+        {
+          "id": 3,
+          "front": "Defence?",
+          "back": "Protection against harm if it occurs."
+        },
+        {
+          "id": 4,
+          "front": "Mutually assured destruction (MAD)?",
+          "back": "Mutual vulnerability to catastrophic nuclear harm."
+        },
+        {
+          "id": 5,
+          "front": "Counterfactual?",
+          "back": "An alternative outcome that did not occur."
+        },
+        {
+          "id": 6,
+          "front": "Security dilemma?",
+          "back": "One state's protective measures may increase another's fear."
+        },
+        {
+          "id": 7,
+          "front": "Crisis stability?",
+          "back": "Reduced risk that acute confrontations escalate catastrophically."
+        },
+        {
+          "id": 8,
+          "front": "Arms-race stability?",
+          "back": "Reduced pressures for continuing military competition."
+        },
+        {
+          "id": 9,
+          "front": "Stability–instability paradox?",
+          "back": "High-level restraint may coexist with lower-level conflict."
+        },
+        {
+          "id": 10,
+          "front": "Extended deterrence?",
+          "back": "Security assurances extending to allies."
+        },
+        {
+          "id": 11,
+          "front": "Nuclear umbrella?",
+          "back": "Metaphor for nuclear-related alliance assurances."
+        },
+        {
+          "id": 12,
+          "front": "Cuban Missile Crisis year?",
+          "back": "1962."
+        },
+        {
+          "id": 13,
+          "front": "Nuclear taboo?",
+          "back": "Normative inhibition against nuclear use."
+        },
+        {
+          "id": 14,
+          "front": "Selection bias?",
+          "back": "Differences in selection distort comparisons."
+        },
+        {
+          "id": 15,
+          "front": "Horizontal proliferation?",
+          "back": "Spread to additional possessors."
+        },
+        {
+          "id": 16,
+          "front": "Vertical proliferation?",
+          "back": "Expansion or development of existing arsenals."
+        },
+        {
+          "id": 17,
+          "front": "NPT entry into force?",
+          "back": "1970."
+        },
+        {
+          "id": 18,
+          "front": "NPT three pillars?",
+          "back": "Non-proliferation, peaceful uses, disarmament."
+        },
+        {
+          "id": 19,
+          "front": "NPT Article VI?",
+          "back": "Good-faith negotiations on arms-race cessation and disarmament."
+        },
+        {
+          "id": 20,
+          "front": "IAEA safeguards?",
+          "back": "Verification of relevant non-proliferation commitments."
+        },
+        {
+          "id": 21,
+          "front": "South Africa's public disclosure year?",
+          "back": "1993."
+        },
+        {
+          "id": 22,
+          "front": "Budapest Memorandum year?",
+          "back": "1994."
+        },
+        {
+          "id": 23,
+          "front": "Arms control?",
+          "back": "Agreed measures regulating military competition and risk."
+        },
+        {
+          "id": 24,
+          "front": "Disarmament?",
+          "back": "Reduction or elimination of weapons and capabilities."
+        },
+        {
+          "id": 25,
+          "front": "CTBT?",
+          "back": "Comprehensive Nuclear-Test-Ban Treaty; not yet in force as of Nov. 2026."
+        },
+        {
+          "id": 26,
+          "front": "New START expiry date?",
+          "back": "5 February 2026."
+        },
+        {
+          "id": 27,
+          "front": "Tlatelolco Treaty?",
+          "back": "Nuclear-weapon-free zone in Latin America and the Caribbean."
+        },
+        {
+          "id": 28,
+          "front": "Nuclear winter?",
+          "back": "Potential climate disruption following nuclear conflict."
+        },
+        {
+          "id": 29,
+          "front": "TPNW entry into force?",
+          "back": "22 January 2021."
+        },
+        {
+          "id": 30,
+          "front": "Global externality?",
+          "back": "A cost or effect reaching people outside the decision."
+        }
+      ]
+    },
+    "048": {
+      "deck": "Civil Wars and Fragile States",
+      "cards": [
+        {
+          "id": 1,
+          "front": "Civil war?",
+          "back": "Sustained organized armed conflict within a political community."
+        },
+        {
+          "id": 2,
+          "front": "UCDP armed-conflict threshold?",
+          "back": "25 battle-related deaths in a calendar year, with other criteria met."
+        },
+        {
+          "id": 3,
+          "front": "UCDP war threshold?",
+          "back": "1,000 battle-related deaths in a calendar year."
+        },
+        {
+          "id": 4,
+          "front": "NIAC?",
+          "back": "Non-international armed conflict."
+        },
+        {
+          "id": 5,
+          "front": "Common Article 3?",
+          "back": "Minimum humanitarian protections in non-international armed conflict."
+        },
+        {
+          "id": 6,
+          "front": "State capacity?",
+          "back": "Ability to implement public decisions."
+        },
+        {
+          "id": 7,
+          "front": "Legitimacy?",
+          "back": "Accepted or justified right to govern."
+        },
+        {
+          "id": 8,
+          "front": "Coercion?",
+          "back": "Compelled compliance through force or threats."
+        },
+        {
+          "id": 9,
+          "front": "Fragility?",
+          "back": "Exposure to risk combined with insufficient resilience."
+        },
+        {
+          "id": 10,
+          "front": "Resilience?",
+          "back": "Ability to absorb, adapt to and recover from shocks."
+        },
+        {
+          "id": 11,
+          "front": "Grievance?",
+          "back": "Actual or perceived injustice or exclusion."
+        },
+        {
+          "id": 12,
+          "front": "Horizontal inequality?",
+          "back": "Disparities between socially meaningful groups."
+        },
+        {
+          "id": 13,
+          "front": "Vertical inequality?",
+          "back": "Disparities among individuals or households."
+        },
+        {
+          "id": 14,
+          "front": "Reverse causation?",
+          "back": "Outcome influences a supposed cause."
+        },
+        {
+          "id": 15,
+          "front": "War economy?",
+          "back": "Economic relationships reshaped by ongoing conflict."
+        },
+        {
+          "id": 16,
+          "front": "Internationalized civil war?",
+          "back": "Internal conflict with external involvement; coding criteria vary."
+        },
+        {
+          "id": 17,
+          "front": "Mozambique agreement year?",
+          "back": "1992."
+        },
+        {
+          "id": 18,
+          "front": "Guatemala peace accords year?",
+          "back": "1996."
+        },
+        {
+          "id": 19,
+          "front": "Dayton agreement year?",
+          "back": "1995."
+        },
+        {
+          "id": 20,
+          "front": "Nepal comprehensive peace agreement year?",
+          "back": "2006."
+        },
+        {
+          "id": 21,
+          "front": "Colombia final agreement year?",
+          "back": "2016."
+        },
+        {
+          "id": 22,
+          "front": "IDP?",
+          "back": "Person forcibly displaced within national borders."
+        },
+        {
+          "id": 23,
+          "front": "Refugee?",
+          "back": "Person meeting a relevant protection definition outside their country."
+        },
+        {
+          "id": 24,
+          "front": "Displacement stock?",
+          "back": "Number displaced at a specified point in time."
+        },
+        {
+          "id": 25,
+          "front": "Ceasefire?",
+          "back": "Agreement or arrangement suspending or reducing fighting."
+        },
+        {
+          "id": 26,
+          "front": "Credible commitment problem?",
+          "back": "Uncertainty that promises will be honored later."
+        },
+        {
+          "id": 27,
+          "front": "DDR?",
+          "back": "Disarmament, demobilization and reintegration."
+        },
+        {
+          "id": 28,
+          "front": "Transitional justice?",
+          "back": "Processes addressing serious violations and their legacies."
+        },
+        {
+          "id": 29,
+          "front": "Negative peace?",
+          "back": "Absence of direct violence."
+        },
+        {
+          "id": 30,
+          "front": "Positive peace?",
+          "back": "Broader conditions supporting peaceful, just social relations."
+        }
+      ]
     }
   }
 }

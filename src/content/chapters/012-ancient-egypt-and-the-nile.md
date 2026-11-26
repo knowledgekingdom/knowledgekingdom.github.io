@@ -12,7 +12,7 @@ standfirstHtml: "The river did not build the pyramids. People did—and their de
 openingTitle: "A letter from the river"
 description: "The river did not build the pyramids. People did—and their decisions, institutions, beliefs, and conflicts explain both the achievement and its costs.…"
 status: "LONG-FORM DRAFT"
-edition: 41
+edition: 42
 sectionCount: 23
 readingTime: 44
 openingReadingTime: 2

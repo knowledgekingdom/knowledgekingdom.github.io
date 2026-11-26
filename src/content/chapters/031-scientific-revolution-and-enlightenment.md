@@ -12,7 +12,7 @@ standfirstHtml: "How astronomers, instrument-makers, physicians, philosophers, p
 openingTitle: "Two books, two kinds of ambition"
 description: "How astronomers, instrument-makers, physicians, philosophers, printers, merchants, and public critics changed the ways knowledge was tested and authority…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 38
 openingReadingTime: 2

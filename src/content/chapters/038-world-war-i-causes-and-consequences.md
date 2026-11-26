@@ -12,7 +12,7 @@ standfirstHtml: "How a Balkan assassination became a global war, why industriali
 openingTitle: "A telegram becomes a continental crisis"
 description: "How a Balkan assassination became a global war, why industrialized societies struggled to stop the killing, and how the peace transformed empires…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 37
 openingReadingTime: 1

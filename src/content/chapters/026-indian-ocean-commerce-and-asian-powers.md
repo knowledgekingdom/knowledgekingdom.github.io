@@ -12,7 +12,7 @@ standfirstHtml: "How seasonal winds, coastal societies, inland producers and com
 openingTitle: "A ship waiting for the wind"
 description: "How seasonal winds, coastal societies, inland producers and competing rulers linked East Africa to China—and why Europeans entered an already…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 50
 openingReadingTime: 2

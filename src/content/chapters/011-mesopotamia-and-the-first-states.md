@@ -12,7 +12,7 @@ standfirstHtml: "In the land between two rivers, cities learned to count, govern
 openingTitle: "The missing measure of barley"
 description: "In the land between two rivers, cities learned to count, govern, trade, worship, and fight. The institutions they built changed what it meant to live with…"
 status: "LONG-FORM DRAFT"
-edition: 41
+edition: 42
 sectionCount: 27
 readingTime: 53
 openingReadingTime: 2

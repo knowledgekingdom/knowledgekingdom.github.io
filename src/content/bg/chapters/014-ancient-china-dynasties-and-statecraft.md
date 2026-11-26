@@ -12,7 +12,7 @@ standfirstHtml: "От вписана животинска кост до брон
 openingTitle: "Въпросът в огъня на един цар"
 description: "От вписана животинска кост до бронзов съд, тежащ стотици килограми, най-ранните записи на китайски крале разказват история за сила изградена през..."
 status: "LONG-FORM DRAFT"
-edition: 41
+edition: 42
 sectionCount: 25
 readingTime: 39
 openingReadingTime: 2

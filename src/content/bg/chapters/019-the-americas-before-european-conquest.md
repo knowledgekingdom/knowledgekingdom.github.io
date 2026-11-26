@@ -12,7 +12,7 @@ standfirstHtml: "Много преди европейците да прекос�
 openingTitle: "Град в езерото"
 description: "Много преди европейците да прекосят Атлантическия океан, в Америка имаше фермери и търсачи, градски строители и морски лица, книжници и инженери, малки..."
 status: "LONG-FORM DRAFT"
-edition: 41
+edition: 42
 sectionCount: 28
 readingTime: 52
 openingReadingTime: 2

@@ -12,7 +12,7 @@ standfirstHtml: "Why the world refuses to behave like a row of dominoes: a guide
 openingTitle: "The shop that was busy—and somehow running out of everything"
 description: "Why the world refuses to behave like a row of dominoes: a guide to stocks, flows, feedback, delays, unintended consequences and the structures behind…"
 status: "EXPANDED"
-edition: 41
+edition: 42
 sectionCount: 21
 readingTime: 42
 openingReadingTime: 2

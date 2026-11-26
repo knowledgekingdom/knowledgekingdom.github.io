@@ -119,6 +119,46 @@
     "038": [
       1914,
       1919
+    ],
+    "039": [
+      1921,
+      1939
+    ],
+    "040": [
+      1939,
+      1945
+    ],
+    "041": [
+      1944,
+      2009
+    ],
+    "042": [
+      1914,
+      2003
+    ],
+    "043": [
+      1801,
+      2000
+    ],
+    "044": [
+      1801,
+      2024
+    ],
+    "045": [
+      1814,
+      1978
+    ],
+    "046": [
+      101,
+      2022
+    ],
+    "047": [
+      1945,
+      2024
+    ],
+    "048": [
+      1949,
+      2016
     ]
   },
   "events": [
@@ -847,6 +887,17 @@
       "approx": true,
       "qual": "by",
       "text": "By the second century CE, the citizen body was dispersed across the provinces.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-44ad2b25",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/individual-criminal-responsibility-from-nuremberg-onward/",
+      "start": 101,
+      "end": 200,
+      "approx": false,
+      "qual": "after",
+      "text": "After the Second World War, the Nuremberg and Tokyo tribunals prosecuted individuals for crimes connected with wartime conduct and aggression under their respective charters.",
       "source": "sentence"
     },
     {
@@ -2240,6 +2291,26 @@
       "source": "sentence"
     },
     {
+      "id": "043-b6d33664",
+      "chapter": "043",
+      "url": "/043-the-geography-of-power/technology-changes-the-meaning-of-terrain/",
+      "start": 1801,
+      "end": 1900,
+      "approx": true,
+      "text": "In the nineteenth century, railways altered the speed at which states could supply armies and connect inland industries.",
+      "source": "sentence"
+    },
+    {
+      "id": "044-9b4a9775",
+      "chapter": "044",
+      "url": "/044-military-organization-and-logistics/industrialisation-and-the-first-world-war/",
+      "start": 1801,
+      "end": 1900,
+      "approx": false,
+      "text": "In the nineteenth and early twentieth centuries, railways, telegraphy, factories, mechanised transport and scientific developments also changed warfare.",
+      "source": "sentence"
+    },
+    {
       "id": "029-06c29362",
       "chapter": "029",
       "url": "/029-atlantic-slavery-and-plantation-economies/saint-domingue-and-the-haitian-revolution/",
@@ -2288,6 +2359,16 @@
       "end": 1810,
       "approx": false,
       "text": "In 1810 the priest Miguel Hidalgo y Costilla launched an uprising commonly remembered through the Grito de Dolores.",
+      "source": "sentence"
+    },
+    {
+      "id": "045-b7c68b84",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-congress-of-vienna-a-defeated-power-returns/",
+      "start": 1814,
+      "end": 1815,
+      "approx": false,
+      "text": "In 1814 and 1815, European powers negotiated a settlement after the Napoleonic wars.",
       "source": "sentence"
     },
     {
@@ -2431,6 +2512,16 @@
       "approx": false,
       "text": "In 1859 Moldavia and Wallachia both elected Alexandru Ioan Cuza, creating a de facto political union.",
       "textBg": "През 1859 г. Молдова и Влашко избират един и същ княз, Александру Йоан Куза, и така създават фактически политически съюз.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-0d2f1594",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/solferino-the-red-cross-and-the-geneva-movement/",
+      "start": 1859,
+      "end": 1859,
+      "approx": false,
+      "text": "In 1859 Henry Dunant witnessed the suffering associated with the Battle of Solferino.",
       "source": "sentence"
     },
     {
@@ -2666,6 +2757,37 @@
       "source": "sentence"
     },
     {
+      "id": "045-bca6051e",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/alliances-before-1914-commitments-without-inevitability/",
+      "start": 1901,
+      "end": 1934,
+      "approx": true,
+      "qual": "by",
+      "text": "By the early twentieth century European politics included overlapping agreements and increasingly rival groupings.",
+      "source": "sentence"
+    },
+    {
+      "id": "043-a9a5cd28",
+      "chapter": "043",
+      "url": "/043-the-geography-of-power/technology-changes-the-meaning-of-terrain/",
+      "start": 1901,
+      "end": 2000,
+      "approx": true,
+      "text": "In the twentieth century, aircraft reached across barriers that had constrained armies on foot.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-e6cd8e79",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/the-long-history-of-restraint-in-war/",
+      "start": 1901,
+      "end": 2000,
+      "approx": true,
+      "text": "In the twentieth century, newly independent states participated in their further elaboration.",
+      "source": "sentence"
+    },
+    {
       "id": "035-7c9076fd",
       "chapter": "035",
       "url": "/035-imperialism-and-african-partition/german-south-west-africa-and-genocide/",
@@ -2768,6 +2890,26 @@
       "source": "title"
     },
     {
+      "id": "042-adbcb712",
+      "chapter": "042",
+      "url": "/042-why-wars-begin/case-study-europes-july-crisis-of-1914/",
+      "start": 1914,
+      "end": 1914,
+      "approx": false,
+      "text": "Case study: Europe's July Crisis of 1914",
+      "source": "title"
+    },
+    {
+      "id": "045-4305314e",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/alliances-before-1914-commitments-without-inevitability/",
+      "start": 1914,
+      "end": 1914,
+      "approx": false,
+      "text": "Alliances before 1914: commitments without inevitability",
+      "source": "title"
+    },
+    {
       "id": "038-f1174bd8",
       "chapter": "038",
       "url": "/038-world-war-i-causes-and-consequences/bulgaria-joins-the-central-powers-october-1915/",
@@ -2856,6 +2998,798 @@
       "approx": false,
       "text": "The significance of Harappa and Mohenjo-daro as remains of an ancient urban civilization becomes internationally recognized through archaeological research.",
       "source": "list"
+    },
+    {
+      "id": "039-d021dde9",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/revolutionary-russia-and-the-soviet-alternative/",
+      "start": 1921,
+      "end": 1921,
+      "approx": false,
+      "text": "In 1921 Lenin's New Economic Policy permitted a partial return of markets, especially in small-scale commerce and agriculture, while the ruling party retained the commanding political position.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-280bfd9c",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/hyperinflation-and-the-memory-of-1923/",
+      "start": 1923,
+      "end": 1923,
+      "approx": false,
+      "text": "Hyperinflation and the memory of 1923",
+      "source": "title"
+    },
+    {
+      "id": "039-dd1b20cd",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/bulgarias-1923-coup-and-the-spiral-of-violence/",
+      "start": 1923,
+      "end": 1923,
+      "approx": false,
+      "text": "In September 1923 a communist-led uprising was suppressed with considerable violence.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-ca1400fc",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/italy-the-march-on-rome-and-the-consolidation-of-fascism/",
+      "start": 1924,
+      "end": 1924,
+      "approx": false,
+      "qual": "after",
+      "text": "After the 1924 murder of socialist deputy Giacomo Matteotti, fascist leaders faced a crisis; in 1925–1926 Mussolini dismantled much of the remaining political opposition and free press.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-f052d609",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/1929-a-crash-not-a-complete-explanation/",
+      "start": 1929,
+      "end": 1929,
+      "approx": false,
+      "text": "1929: a crash, not a complete explanation",
+      "source": "title"
+    },
+    {
+      "id": "039-871ef1b0",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/the-road-toward-a-new-general-war/",
+      "start": 1930,
+      "end": 1939,
+      "approx": false,
+      "text": "During the 1930s Nazi Germany pursued revision and conquest, rearmed, and undermined the European security order.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-36b78103",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/japan-and-the-transformation-of-east-asian-security/",
+      "start": 1931,
+      "end": 1931,
+      "approx": false,
+      "text": "In September 1931 Japanese officers engineered an incident on the South Manchurian Railway and used it as a pretext for occupying Manchuria.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-e7ba292c",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/weimars-collapse-was-a-political-process/",
+      "start": 1932,
+      "end": 1932,
+      "approx": false,
+      "qual": "by",
+      "text": "By July 1932 the Nazis were the largest party in the Reichstag, but their roughly 37 percent vote share was not a majority.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-406526cc",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/collectivization-famine-and-the-holodomor/",
+      "start": 1932,
+      "end": 1933,
+      "approx": false,
+      "text": "In 1932–1933 catastrophic famine struck Ukraine and other Soviet regions, including Kazakhstan and parts of Russia.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-beb399be",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/from-appointment-to-dictatorship-in-1933/",
+      "start": 1933,
+      "end": 1933,
+      "approx": false,
+      "text": "From appointment to dictatorship in 1933",
+      "source": "title"
+    },
+    {
+      "id": "039-ab1425c6",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/japan-and-the-transformation-of-east-asian-security/",
+      "start": 1937,
+      "end": 1937,
+      "approx": false,
+      "text": "In 1937 full-scale war broke out between Japan and China following renewed fighting near Beijing.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-a3605b65",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/munich-and-the-failure-of-appeasement/",
+      "start": 1938,
+      "end": 1938,
+      "approx": false,
+      "text": "In March 1938 Germany annexed Austria.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-a00a3a8d",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/synthesis-five-connected-systems/",
+      "start": 1939,
+      "end": 1939,
+      "approx": false,
+      "qual": "by",
+      "text": "By 1939 five major systems had been transformed.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-89fc01c0",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/bulgaria-in-the-1930s-coup-monarchy-and-revisionism/",
+      "start": 1939,
+      "end": 1939,
+      "approx": false,
+      "text": "In 1939 Bulgaria had not yet entered World War II; its later wartime alliance and the experiences of Bulgarian Jews belong to the next chapter.",
+      "source": "sentence"
+    },
+    {
+      "id": "039-ff8b43e1",
+      "chapter": "039",
+      "url": "/039-the-interwar-world/1939-the-end-of-the-interwar-order-and-the-questions/",
+      "start": 1939,
+      "end": 1939,
+      "approx": false,
+      "text": "In August 1939 Germany and the Soviet Union concluded a non-aggression pact with secret protocols dividing spheres of influence in eastern Europe.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-25c99c30",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/poland-september-1939-and-the-destruction-of-a-state/",
+      "start": 1939,
+      "end": 1939,
+      "approx": false,
+      "text": "Poland, September 1939, and the destruction of a state",
+      "source": "title"
+    },
+    {
+      "id": "040-4ed41ebb",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/the-final-solution-and-the-killing-centers/",
+      "start": 1941,
+      "end": 1942,
+      "approx": false,
+      "qual": "by",
+      "text": "By 1941–1942 Nazi leaders had moved to organized, Europe-wide mass murder.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-6a809009",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/the-turning-years-1942-and-1943/",
+      "start": 1942,
+      "end": 1942,
+      "approx": false,
+      "qual": "by",
+      "text": "By late 1942 the Axis powers faced several serious reversals.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-ed9e85fe",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/kursk-italy-and-the-relentless-eastern-front/",
+      "start": 1943,
+      "end": 1943,
+      "approx": false,
+      "text": "In July 1943 Allied forces invaded Sicily.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-ef95b545",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/bulgarias-jews-protection-in-the-old-kingdom-deportation/",
+      "start": 1943,
+      "end": 1943,
+      "approx": false,
+      "text": "In March 1943 Bulgarian police and military authorities rounded up and deported 11,343 Jews from Bulgarian-occupied territories of Vardar Macedonia, Thrace and Pirot.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-2253a3ec",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/okinawa-and-the-final-pacific-campaigns/",
+      "start": 1944,
+      "end": 1944,
+      "approx": false,
+      "qual": "by",
+      "text": "By 1944 the United States and its allies had seized strategically important Pacific positions and could increasingly strike Japan's home islands.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-22715edc",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bulgaria-after-1944-the-communist-state/",
+      "start": 1944,
+      "end": 1944,
+      "approx": false,
+      "text": "In September 1944 Bulgaria changed wartime alignment amid Soviet military entry and a Fatherland Front takeover.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-2ba39402",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/bulgaria-in-1944-1945-changing-sides-and-changing-regimes/",
+      "start": 1944,
+      "end": 1945,
+      "approx": false,
+      "text": "Bulgaria in 1944–1945: changing sides and changing regimes",
+      "source": "title"
+    },
+    {
+      "id": "040-ff202758",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/okinawa-and-the-final-pacific-campaigns/",
+      "start": 1945,
+      "end": 1945,
+      "approx": false,
+      "text": "In 1945 American forces captured Iwo Jima and Okinawa at extraordinarily high cost.",
+      "source": "sentence"
+    },
+    {
+      "id": "040-80112cfd",
+      "chapter": "040",
+      "url": "/040-world-war-ii-and-the-holocaust/the-road-to-1945-in-europe/",
+      "start": 1945,
+      "end": 1945,
+      "approx": false,
+      "text": "In April 1945 Soviet troops fought their way into Berlin.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-7b8f870c",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/decolonization-independence-as-a-world-making-process/",
+      "start": 1945,
+      "end": 1945,
+      "approx": false,
+      "text": "In 1945 hundreds of millions of people lived under colonial rule.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-93d4a79b",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/a-concise-comparative-chronology/",
+      "start": 1945,
+      "end": 1945,
+      "approx": false,
+      "text": "In 1945 the United Nations was founded and wartime empires began to confront stronger independence demands.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-0d02f8c3",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-strange-outcome-of-the-wartime-alliance/",
+      "start": 1945,
+      "end": 1945,
+      "approx": false,
+      "text": "In 1945 the United States possessed unmatched industrial capacity, global military bases, and the only deployed atomic weapons.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-2c9d430b",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/1945-scientific-achievement-and-human-catastrophe/",
+      "start": 1945,
+      "end": 1945,
+      "approx": false,
+      "text": "In August 1945 the United States used nuclear weapons against Hiroshima and Nagasaki.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-818536ee",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/a-concise-comparative-chronology/",
+      "start": 1947,
+      "end": 1949,
+      "approx": false,
+      "text": "During 1947–1949 the Truman Doctrine, Marshall Plan, Berlin blockade, Indian partition, Chinese Revolution and NATO formation created new political realities.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-670c5bc3",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/berlin-germany-and-the-formation-of-opposing-blocs/",
+      "start": 1948,
+      "end": 1948,
+      "approx": false,
+      "text": "In 1948 Soviet authorities blocked most land access to the western sectors of Berlin, which lay inside the Soviet occupation zone.",
+      "source": "sentence"
+    },
+    {
+      "id": "044-3f4cbffc",
+      "chapter": "044",
+      "url": "/044-military-organization-and-logistics/the-berlin-airlift-logistics-as-political-communication/",
+      "start": 1948,
+      "end": 1948,
+      "approx": false,
+      "text": "In 1948 the Soviet Union blocked land access to the western sectors of Berlin.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-976ee0cb",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/from-the-hague-to-the-geneva-conventions/",
+      "start": 1949,
+      "end": 1949,
+      "approx": false,
+      "text": "In 1949 governments adopted four Geneva Conventions.",
+      "source": "sentence"
+    },
+    {
+      "id": "048-0df74746",
+      "chapter": "048",
+      "url": "/048-civil-wars-and-fragile-states/china-revolution-civil-war-and-competing-state-building/",
+      "start": 1949,
+      "end": 1949,
+      "approx": false,
+      "text": "In 1949, the People's Republic of China was proclaimed on the mainland, while the Republic of China government relocated to Taiwan.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-13f76a99",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/culture-memory-and-the-natural-environment/",
+      "start": 1954,
+      "end": 1954,
+      "approx": false,
+      "text": "In 1954 states adopted the Hague Convention for the Protection of Cultural Property in the Event of Armed Conflict.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-9fac30c6",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bandung-and-the-non-aligned-movement/",
+      "start": 1955,
+      "end": 1955,
+      "approx": false,
+      "text": "In April 1955 delegates from twenty-nine Asian and African governments met at Bandung in Indonesia to discuss peace, sovereignty, racism, development and opposition to colonialism.",
+      "source": "sentence"
+    },
+    {
+      "id": "045-84d99b6d",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bandung-and-the-refusal-to-be-treated-as-a-chess-piece/",
+      "start": 1955,
+      "end": 1955,
+      "approx": false,
+      "text": "In April 1955, representatives of twenty-nine Asian and African governments met at Bandung, Indonesia.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-b72d1667",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/africas-diverse-independence-movements/",
+      "start": 1960,
+      "end": 1960,
+      "approx": false,
+      "text": "In 1960 many former French and Belgian territories became sovereign states, a year sometimes called the Year of Africa.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-45f701d7",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/berlin-germany-and-the-formation-of-opposing-blocs/",
+      "start": 1961,
+      "end": 1961,
+      "approx": false,
+      "text": "In 1961 East German authorities erected the Berlin Wall to stem emigration and control movement, turning divided Berlin into a powerful symbol of Europe's political geography.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-2e2e84cb",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-cuban-revolution-and-the-missile-crisis/",
+      "start": 1962,
+      "end": 1962,
+      "approx": false,
+      "text": "In 1962 U.S. reconnaissance revealed Soviet nuclear missiles under construction in Cuba, triggering an exceptionally dangerous confrontation.",
+      "source": "sentence"
+    },
+    {
+      "id": "042-e66bcc42",
+      "chapter": "042",
+      "url": "/042-why-wars-begin/case-study-the-cuban-missile-crisis-1962/",
+      "start": 1962,
+      "end": 1962,
+      "approx": false,
+      "text": "In October 1962 the United States discovered Soviet nuclear missiles being installed in Cuba.",
+      "source": "sentence"
+    },
+    {
+      "id": "045-65cd97dd",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-cuban-missile-crisis-the-value-and-cost-of-communication/",
+      "start": 1962,
+      "end": 1962,
+      "approx": false,
+      "text": "In October 1962, a confrontation between the United States and the Soviet Union over Soviet missiles in Cuba brought the powers into a dangerous crisis.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-9b89c495",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/the-cuban-missile-crisis-the-value-of-diplomacy/",
+      "start": 1962,
+      "end": 1962,
+      "approx": false,
+      "text": "In October 1962, a confrontation involving the United States, Soviet Union and Cuba brought the danger of nuclear war into sharp focus.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-2731e9e6",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/indonesia-and-southeast-asia-independence-and-competing/",
+      "start": 1965,
+      "end": 1966,
+      "approx": false,
+      "text": "In 1965–1966 mass anti-communist killings occurred amid a political transition that elevated Suharto's authoritarian rule.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-9a5c20ca",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/middle-eastern-transformations-independence-oil-and-conflict/",
+      "start": 1970,
+      "end": 1979,
+      "approx": false,
+      "text": "In the 1970s oil price shocks revealed how producers and consumers depended on each other.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-35636653",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/from-the-test-ban-to-superpower-agreements/",
+      "start": 1970,
+      "end": 1979,
+      "approx": false,
+      "text": "During the 1970s, the United States and Soviet Union negotiated the Strategic Arms Limitation Talks, or SALT.",
+      "source": "sentence"
+    },
+    {
+      "id": "045-4187358a",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/rapprochement-across-ideological-divides/",
+      "start": 1972,
+      "end": 1972,
+      "approx": false,
+      "text": "In 1972 US President Richard Nixon visited the People's Republic of China.",
+      "source": "sentence"
+    },
+    {
+      "id": "045-ab73b797",
+      "chapter": "045",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/camp-david-a-durable-agreement-with-unresolved-questions/",
+      "start": 1978,
+      "end": 1978,
+      "approx": false,
+      "text": "In September 1978 Egyptian President Anwar Sadat and Israeli Prime Minister Menachem Begin negotiated with US President Jimmy Carter at Camp David.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-e82a1fcd",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/afghanistan-iran-and-the-renewed-cold-war-of-the-1980s/",
+      "start": 1979,
+      "end": 1979,
+      "approx": false,
+      "text": "In 1979 the Soviet Union intervened militarily in Afghanistan to support a communist government confronting widespread rebellion and internal conflict.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-bb303d0f",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bulgarias-forced-assimilation-campaign-and-1989/",
+      "start": 1980,
+      "end": 1989,
+      "approx": false,
+      "text": "In the 1980s the Bulgarian communist authorities intensified coercive policies toward Turkish and other Muslim communities.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-96150955",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/case-study-nicaragua-and-the-reach-of-customary-law/",
+      "start": 1984,
+      "end": 1984,
+      "approx": false,
+      "text": "In 1984 Nicaragua brought a case against the United States before the ICJ concerning military and paramilitary activities.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-a4b3d083",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/case-study-one-bulgarian-town-across-three-political-systems/",
+      "start": 1985,
+      "end": 1985,
+      "approx": false,
+      "qual": "by",
+      "text": "By 1985 it has apartment blocks, a state factory, trained technicians, a hospital and improved roads, but citizens cannot organize an independent political party and some minority families face forced assimilation.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-aa0f9bac",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/case-study-one-bulgarian-town-across-three-political-systems/",
+      "start": 1989,
+      "end": 1989,
+      "approx": false,
+      "qual": "after",
+      "text": "After 1989 the town gains free elections and commercial choice, while the factory loses markets, unemployment rises and younger people migrate to larger cities or abroad.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-d3359527",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-revolutions-of-1989-and-the-fall-of-the-wall/",
+      "start": 1989,
+      "end": 1989,
+      "approx": false,
+      "text": "In 1989 Polish negotiations enabled partially free elections and the emergence of a non-communist-led government.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-5a9db0d0",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bulgarias-forced-assimilation-campaign-and-1989/",
+      "start": 1989,
+      "end": 1989,
+      "approx": false,
+      "text": "In 1989 the regime pressured and enabled the departure of large numbers of Bulgarian Turks to Turkey, an episode frequently described as the 'Big Excursion' in official euphemism but investigated by scholars as forced displacement and ethnic cleansing.",
+      "source": "sentence"
+    },
+    {
+      "id": "042-38186830",
+      "chapter": "042",
+      "url": "/042-why-wars-begin/case-study-iraq-and-kuwait-1990-1991/",
+      "start": 1990,
+      "end": 1990,
+      "approx": false,
+      "text": "In August 1990 Iraqi forces invaded and occupied Kuwait.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-522ce354",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/globalization-trade-technology-and-uneven-development/",
+      "start": 1991,
+      "end": 1991,
+      "approx": false,
+      "qual": "after",
+      "text": "After 1991 expanding trade, digital networks, container shipping and multinational production connected many economies more tightly.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-c755238d",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/what-changed-by-1991-and-what-did-not/",
+      "start": 1991,
+      "end": 1991,
+      "approx": false,
+      "qual": "by",
+      "text": "By 1991 the European colonial map had been fundamentally transformed, the Soviet-led bloc had collapsed, Germany was unified and the United States occupied an unusually powerful international position.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-1a28009d",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/germany-reunifies-and-the-soviet-union-dissolves/",
+      "start": 1991,
+      "end": 1991,
+      "approx": false,
+      "qual": "by",
+      "text": "By December 1991 the USSR dissolved and its constituent republics became independent states.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-5f5d9ca7",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-balkans-after-1991-yugoslavias-violent-dissolution/",
+      "start": 1991,
+      "end": 1991,
+      "approx": false,
+      "text": "The Balkans after 1991: Yugoslavia's violent dissolution",
+      "source": "title"
+    },
+    {
+      "id": "041-1afe5100",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-post-1991-international-order-and-its-limits/",
+      "start": 1991,
+      "end": 1991,
+      "approx": false,
+      "text": "The post-1991 international order and its limits",
+      "source": "title"
+    },
+    {
+      "id": "047-c911757b",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/south-africa-and-the-possibility-of-reversal/",
+      "start": 1993,
+      "end": 1993,
+      "approx": false,
+      "text": "In 1993 President F.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-f22ee9bd",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/the-npt-an-international-bargain-with-three-pillars/",
+      "start": 1995,
+      "end": 1995,
+      "approx": false,
+      "text": "In 1995 its parties agreed to extend it indefinitely.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-29391271",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-weapons-and-international-law-the-1996-advisory/",
+      "start": 1996,
+      "end": 1996,
+      "approx": false,
+      "text": "In 1996, the International Court of Justice delivered an advisory opinion on the legality of their threat or use, responding to a question from the United Nations General Assembly.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-891351f9",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/case-study-rwanda-bosnia-and-the-different-meanings/",
+      "start": 1998,
+      "end": 1998,
+      "approx": false,
+      "text": "In 1998 the International Criminal Tribunal for Rwanda convicted Jean-Paul Akayesu of genocide and crimes against humanity.",
+      "source": "sentence"
+    },
+    {
+      "id": "041-d6f82da5",
+      "chapter": "041",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/case-study-one-bulgarian-town-across-three-political-systems/",
+      "start": 2000,
+      "end": 2009,
+      "approx": false,
+      "qual": "by",
+      "text": "By the 2000s new investment and EU-linked projects may arrive, but the advantages are distributed unevenly.",
+      "source": "sentence"
+    },
+    {
+      "id": "042-f32e41f6",
+      "chapter": "042",
+      "url": "/042-why-wars-begin/case-study-iraq-in-2003-and-the-problem-of-intelligence/",
+      "start": 2003,
+      "end": 2003,
+      "approx": false,
+      "text": "Case study: Iraq in 2003 and the problem of intelligence",
+      "source": "title"
+    },
+    {
+      "id": "046-877d8bf3",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/humanitarian-intervention-and-responsibility-to-protect/",
+      "start": 2005,
+      "end": 2005,
+      "approx": false,
+      "text": "In 2005 UN members endorsed the responsibility to protect populations from genocide, war crimes, ethnic cleansing and crimes against humanity.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-f0d1a9d7",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/case-study-congo-uganda-and-the-long-journey-to-reparation/",
+      "start": 2005,
+      "end": 2005,
+      "approx": false,
+      "text": "In 2005 the ICJ found that Uganda had breached international obligations in the Democratic Republic of the Congo, including rules on the use of force and obligations arising from its conduct in occupied territory.",
+      "source": "sentence"
+    },
+    {
+      "id": "048-a67a49a4",
+      "chapter": "048",
+      "url": "/048-civil-wars-and-fragile-states/nepal-transforming-a-conflict-into-constitutional-politics/",
+      "start": 2006,
+      "end": 2006,
+      "approx": false,
+      "text": "In November 2006, the government and Communist Party of Nepal (Maoist) concluded a Comprehensive Peace Agreement.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-5f898e4f",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/case-study-rwanda-bosnia-and-the-different-meanings/",
+      "start": 2007,
+      "end": 2007,
+      "approx": false,
+      "text": "In 2007 the ICJ decided Bosnia and Herzegovina's case against Serbia under the Genocide Convention.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-cb60c503",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/culture-memory-and-the-natural-environment/",
+      "start": 2016,
+      "end": 2016,
+      "approx": false,
+      "text": "In 2016 the International Criminal Court convicted Ahmad Al Faqi Al Mahdi for a war crime concerning protected historic and religious monuments in Timbuktu, Mali.",
+      "source": "sentence"
+    },
+    {
+      "id": "048-3b74ad3e",
+      "chapter": "048",
+      "url": "/048-civil-wars-and-fragile-states/colombia-a-peace-agreement-is-not-the-end-of-all-insecurity/",
+      "start": 2016,
+      "end": 2016,
+      "approx": false,
+      "text": "In November 2016, the government and FARC-EP signed a final peace agreement after an earlier version had been rejected in a referendum.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-0d19a994",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/the-treaty-on-the-prohibition-of-nuclear-weapons/",
+      "start": 2017,
+      "end": 2017,
+      "approx": false,
+      "text": "In July 2017, a United Nations conference adopted the Treaty on the Prohibition of Nuclear Weapons, which entered into force on 22 January 2021.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-3d3c4f42",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/case-study-congo-uganda-and-the-long-journey-to-reparation/",
+      "start": 2022,
+      "end": 2022,
+      "approx": false,
+      "text": "In 2022 the Court fixed compensation at a total of US$325 million, divided into $225 million for damage to persons, $40 million for property damage and $60 million concerning natural resources.",
+      "source": "sentence"
+    },
+    {
+      "id": "046-3b90e7ea",
+      "chapter": "046",
+      "url": "/046-international-law-and-armed-conflict/aggression-a-legal-concept-and-a-political-accusation/",
+      "start": 2022,
+      "end": 2022,
+      "approx": false,
+      "text": "In March 2022 the UN General Assembly adopted Resolution ES-11/1 condemning Russia's aggression against Ukraine and demanding withdrawal.",
+      "source": "sentence"
+    },
+    {
+      "id": "044-24b18820",
+      "chapter": "044",
+      "url": "/044-military-organization-and-logistics/maintenance-and-life-cycle-costs/",
+      "start": 2024,
+      "end": 2024,
+      "approx": false,
+      "text": "In 2024 the U.S.",
+      "source": "sentence"
+    },
+    {
+      "id": "047-e4666695",
+      "chapter": "047",
+      "url": "/047-deterrence-and-nuclear-strategy/1945-scientific-achievement-and-human-catastrophe/",
+      "start": 2024,
+      "end": 2024,
+      "approx": false,
+      "text": "In 2024 the Nobel Peace Prize was awarded to Nihon Hidankyo, an organization of Japanese atomic-bomb survivors whose testimony and advocacy helped keep those consequences visible.",
+      "source": "sentence"
     }
   ]
 }

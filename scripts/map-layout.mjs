@@ -118,7 +118,7 @@ for (const p of parts) {
   if (!slot) {
     const prev = regions[regions.length - 1];
     const [minX] = xExtent(rel);
-    slot = [Math.round(prev ? prev.maxX + STRAIT - minX : -minX), chainY(regions.length), r];
+    slot = [Math.round(prev ? prev.maxX + STRAIT - minX : -minX), prev ? prev.cy - chainY(regions.length - 1) + chainY(regions.length) : chainY(0), r];
     saved.regions[p.number] = slot;
   }
   const [cx, cy] = slot;
@@ -168,7 +168,7 @@ for (const p of parts) {
     islets: islets.map((o) => o.outline), first: p.chapters[0], last: p.chapters[p.chapters.length - 1], minX, maxX });
   // Scenery: highlands for Part I, river valleys and desert for Part II, coast, fields and chimneys for Part III,
   // walls and watchtowers for Part IV (war, peace and geopolitics), mixed country after that.
-  const kinds = { 1: ['mountain', 'mountain', 'mountain', 'hill', 'pine', 'pine'], 2: ['dune', 'palm', 'hill', 'reeds', 'mountain'], 3: ['field', 'tree', 'hill', 'chimney', 'tree'] }[p.number]
+  const kinds = { 1: ['mountain', 'mountain', 'mountain', 'hill', 'pine', 'pine'], 2: ['dune', 'palm', 'hill', 'reeds', 'mountain'], 3: ['field', 'tree', 'hill', 'chimney', 'tree'], 4: ['hill', 'fort', 'pine', 'watchtower', 'hill', 'field', 'mountain'] }[p.number]
     ?? ['hill', 'pine', 'mountain', 'field', 'tree', 'hill'];
   for (let k = 0, tries = 0; k < Math.round(r / 4.4) && tries < 5000; tries++) {
     const x = cx + (randDecor() - 0.5) * 2.4 * r, y = cy + (randDecor() - 0.5) * 2 * r * 0.85;

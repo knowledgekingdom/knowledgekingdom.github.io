@@ -103,6 +103,9 @@ const SCENERY: Record<string, [string, string][]> = {
   reeds: [['km-ink', 'M-6 0C-7-8-7-14-5-20M0 0V-24M6 0C7-8 6-14 3-19M-10 1h20'], ['km-ink-fill', 'M-1.5-24h3v7h-3z']],
   field: [['km-f-body', 'M-20 0L-12-14H22L14 0z'], ['km-ink', 'M-20 0L-12-14H22L14 0zM-15-4.5H17M-10-9.5H20']],
   chimney: [['km-c-body', 'M-14 0V-12L-6-7V-12L2-7V-22H7V0z'], ['km-ink', 'M-14 0V-12L-6-7V-12L2-7V-22H7V0zM-17 0H10'], ['km-smoke', 'M4.5-25c-3-3 1-6 4-5c1-4 7-4 8 0c4-1 6 3 3 5']],
+  // Part IV (war, peace and geopolitics): walled keeps and watchtowers.
+  fort: [['km-c-body', 'M-14 0V-16H-10V-19H-6V-16H-2V-19H2V-16H6V-19H10V-16H14V0z'], ['km-ink', 'M-14 0V-16H-10V-19H-6V-16H-2V-19H2V-16H6V-19H10V-16H14V0zM-3 0V-6H3V0M-17 0H17']],
+  watchtower: [['km-c-body', 'M-5 0L-3-21H3L5 0zM-7-21V-28H7V-21z'], ['km-ink', 'M-5 0L-3-21H3L5 0zM-7-21V-28H7V-21zM-7-28V-31M7-28V-31M-1-25H1M-9 0H9']],
 };
 const LAYERS = ['km-m-body', 'km-h-body', 'km-t-body', 'km-d-body', 'km-f-body', 'km-c-body', 'km-m-shade', 'km-m-snow', 'km-ink', 'km-ink-fill', 'km-smoke'];
 

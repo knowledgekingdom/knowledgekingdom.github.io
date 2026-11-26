@@ -12,7 +12,7 @@ standfirstHtml: "Every person alive belongs to a single human species, but that 
 openingTitle: "Before there were countries, there were footsteps"
 description: "Every person alive belongs to a single human species, but that species is the surviving branch of a much larger family. To understand how humanity…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 17
 readingTime: 43
 openingReadingTime: 2

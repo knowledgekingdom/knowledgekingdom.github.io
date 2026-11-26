@@ -89,11 +89,11 @@ function init(root: HTMLElement) {
     const v = (n: string, d: string) => cs.getPropertyValue(n).trim() || d;
     C = { paper: v('--paper', '#f7f3ea'), paper2: v('--paper-2', '#efe9dc'), ink: v('--ink', '#1f2329'), ink2: v('--ink-2', '#444'),
       ink3: v('--ink-3', '#777'), rule: v('--rule', '#ddd'), accent: v('--accent', '#13707a'),
-      p1: v('--part-1', '#13707a'), p2: v('--part-2', '#a0472a'), p3: v('--part-3', '#7a5c10') };
+      p1: v('--part-1', '#13707a'), p2: v('--part-2', '#a0472a'), p3: v('--part-3', '#7a5c10'), p4: v('--part-4', '#3b4e91') };
   };
   new MutationObserver(() => { readColors(); request(); }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme', 'data-palette'] });
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => { readColors(); request(); });
-  const partColor = (p: number | null) => (p === 3 ? C.p3 : p === 1 ? C.p1 : C.p2);
+  const partColor = (p: number | null) => (p === 4 ? C.p4 : p === 3 ? C.p3 : p === 1 ? C.p1 : C.p2);
 
   // A "c." date is drawn as a soft range of ±5% of its age (min 20 years), like the games use.
   const margin = (e: Ev) => (e.approx ? Math.max(20, 0.05 * (2000 - (e.start + e.end) / 2)) : 0);

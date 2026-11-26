@@ -12,7 +12,7 @@ standfirstHtml: "How plants, animals, microorganisms and people crossed the Atla
 openingTitle: "A meal that could not have existed in 1400"
 description: "How plants, animals, microorganisms and people crossed the Atlantic after 1492, transforming ecosystems and diets while epidemics, forced labor and…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 37
 openingReadingTime: 1

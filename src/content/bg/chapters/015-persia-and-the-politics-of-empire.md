@@ -12,7 +12,7 @@ standfirstHtml: "Как царство на иранското плато е и�
 openingTitle: "Империята, която трябваше да пътува"
 description: "Как царство на иранското плато е изградило огромна имперска система и какви пътища, глинени плочи, паметници и врагове могат да ни научат за обещанията..."
 status: "LONG-FORM DRAFT"
-edition: 41
+edition: 42
 sectionCount: 26
 readingTime: 49
 openingReadingTime: 2

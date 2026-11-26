@@ -12,7 +12,7 @@ standfirstHtml: "The past is gone, but it has not vanished without a trace. Hist
 openingTitle: "Four pieces of parchment and a very modern argument"
 description: "The past is gone, but it has not vanished without a trace. History is the disciplined art of asking what those traces can tell us—and what they cannot."
 status: "REVISED DRAFT"
-edition: 41
+edition: 42
 sectionCount: 21
 readingTime: 45
 openingReadingTime: 3

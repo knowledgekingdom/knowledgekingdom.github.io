@@ -12,7 +12,7 @@ standfirstHtml: "Ясното разсъждение не гарантира, ч
 openingTitle: "Прогноза на вечеря"
 description: "Ясното разсъждение не гарантира, че ще бъдете прави. Тя прави нещо по-ценно: тя прави вашите причини видими, грешките си поправими, и..."
 status: "REVISED DRAFT"
-edition: 41
+edition: 42
 sectionCount: 20
 readingTime: 40
 openingReadingTime: 2

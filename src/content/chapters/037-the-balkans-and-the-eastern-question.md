@@ -12,7 +12,7 @@ standfirstHtml: "How Ottoman reform, Balkan national movements and the rival str
 openingTitle: "The same valley, several maps"
 description: "How Ottoman reform, Balkan national movements and the rival strategies of European powers transformed southeastern Europe—and why no diplomatic settlement…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 40
 openingReadingTime: 2

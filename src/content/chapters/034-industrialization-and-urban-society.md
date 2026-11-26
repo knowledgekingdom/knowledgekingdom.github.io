@@ -12,7 +12,7 @@ standfirstHtml: "How the combination of machinery, fossil energy, investment and
 openingTitle: "The sound of a different working day"
 description: "How the combination of machinery, fossil energy, investment and social change reshaped production, moved people into cities, and created both…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 42
 openingReadingTime: 2

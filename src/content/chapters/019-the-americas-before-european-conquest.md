@@ -12,7 +12,7 @@ standfirstHtml: "Long before Europeans crossed the Atlantic, the Americas contai
 openingTitle: "A city in the lake"
 description: "Long before Europeans crossed the Atlantic, the Americas contained farmers and foragers, city-builders and seafarers, scribes and engineers, small…"
 status: "LONG-FORM DRAFT"
-edition: 41
+edition: 42
 sectionCount: 28
 readingTime: 52
 openingReadingTime: 2

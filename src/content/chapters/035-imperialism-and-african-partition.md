@@ -12,7 +12,7 @@ standfirstHtml: "How industrial power, diplomacy, financial interests and milita
 openingTitle: "A border drawn far away"
 description: "How industrial power, diplomacy, financial interests and military conquest transformed Africa's political map, while African peoples defended sovereignty…"
 status: "DRAFT"
-edition: 41
+edition: 42
 sectionCount: 36
 readingTime: 47
 openingReadingTime: 2

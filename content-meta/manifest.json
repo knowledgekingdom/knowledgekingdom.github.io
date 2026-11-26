@@ -684,6 +684,483 @@
         "038|women families and the contested meaning of change"
       ],
       "changed": []
+    },
+    "42": {
+      "date": "November 2026",
+      "firstImported": "2026-11-27",
+      "baseline": false,
+      "counts": {
+        "Parts": 4,
+        "Chapters": 48,
+        "Section pages (incl. special pages)": 1639,
+        "Heading 1": 104,
+        "Heading 2": 1794,
+        "Heading 3": 28,
+        "Figures": 612,
+        "Tables (total in docx)": 50,
+        "Flashcard tables": 48,
+        "Flashcards": 1343,
+        "Source Note paragraphs": 1393,
+        "Numbered sources": 1361,
+        "Exercises": 1320,
+        "Model answers": 1320,
+        "Roadmap chapters": 120,
+        "Timeline events": 356
+      },
+      "new": [
+        "039|1929 a crash not a complete explanation",
+        "039|1939 the end of the interwar order and the questions it leaves",
+        "039|@flashcards",
+        "039|@opening",
+        "039|@practice",
+        "039|@sources",
+        "039|a recovery that rested on unstable foundations",
+        "039|bulgaria after neuilly land grievances and parliamentary tension",
+        "039|bulgaria in the 1930s coup monarchy and revisionism",
+        "039|bulgarias 1923 coup and the spiral of violence",
+        "039|case study did the depression cause hitler",
+        "039|chinas republic revolution and invasion",
+        "039|cities cinema radio and new mass cultures",
+        "039|collectivization famine and the holodomor",
+        "039|democracys responses the new deal and other reforms",
+        "039|from appointment to dictatorship in 1933",
+        "039|germanys weimar republic a democracy under pressure",
+        "039|how a national downturn became a world depression",
+        "039|hyperinflation and the memory of 1923",
+        "039|india africa latin america and the wider interwar world",
+        "039|italy the march on rome and the consolidation of fascism",
+        "039|japan and the transformation of east asian security",
+        "039|manchuria and ethiopia collective security under strain",
+        "039|munich and the failure of appeasement",
+        "039|paris new borders and contested self determination",
+        "039|race antisemitism and the nazi state",
+        "039|revolutionary russia and the soviet alternative",
+        "039|self determination beyond europe",
+        "039|spain a civil war with international consequences",
+        "039|stalins revolution from above",
+        "039|synthesis five connected systems",
+        "039|terror surveillance and the limits of apparent consensus",
+        "039|the fragile financial order left by world war i",
+        "039|the league of nations more than a failed security experiment",
+        "039|the road toward a new general war",
+        "039|the temptation of simple economic explanations",
+        "039|three problems at once security legitimacy and livelihoods",
+        "039|turkey and the end of the ottoman imperial order",
+        "039|unemployment farms and the human experience of collapse",
+        "039|weimars collapse was a political process",
+        "039|what fascism was and what it was not",
+        "039|why some parliamentary systems survived",
+        "040|@flashcards",
+        "040|@opening",
+        "040|@practice",
+        "040|@sources",
+        "040|a new security order and the united nations",
+        "040|auschwitzs liberation and the evidence of genocide",
+        "040|britain air defense and the atlantic supply line",
+        "040|bulgaria and the axis policy territory and responsibility",
+        "040|bulgaria in 1944 1945 changing sides and changing regimes",
+        "040|bulgarias jews protection in the old kingdom deportation from occupied lands",
+        "040|counting the dead without hiding uncertainty",
+        "040|d day liberation of france and competing memories",
+        "040|from antisemitic exclusion to mass murder",
+        "040|from the failed peace to expansionist dictatorships",
+        "040|ghettos deportation and the language of administration",
+        "040|hiroshima nagasaki and the question of surrender",
+        "040|how a coalition sustains a long war",
+        "040|how historians know archives memory and propaganda",
+        "040|japans war in china and asian imperialism",
+        "040|justice after mass atrocity nuremberg and tokyo",
+        "040|kursk italy and the relentless eastern front",
+        "040|life under occupation labor hunger and terror",
+        "040|mass shootings after the invasion of the soviet union",
+        "040|midway guadalcanal and the cost of island warfare",
+        "040|north africa the mediterranean and colonial soldiers",
+        "040|okinawa and the final pacific campaigns",
+        "040|operation barbarossa a war of annihilation",
+        "040|other victims of nazi persecution and murder",
+        "040|pearl harbor and the widening pacific war",
+        "040|poland september 1939 and the destruction of a state",
+        "040|resistance rescue and difficult choices under occupation",
+        "040|scandinavia france and the limits of the early german victories",
+        "040|strategic bombing and the dilemma of civilian targets",
+        "040|synthesis victory catastrophe and unfinished peace",
+        "040|the balkan campaigns and the axis order in southeastern europe",
+        "040|the collapse of empires and the beginning of the cold war",
+        "040|the final solution and the killing centers",
+        "040|the road to 1945 in europe",
+        "040|the siege of leningrad and suffering behind front lines",
+        "040|the turning years 1942 and 1943",
+        "040|wartime displacement and the question of home",
+        "040|what makes a war global",
+        "041|@flashcards",
+        "041|@opening",
+        "041|@practice",
+        "041|@sources",
+        "041|a concise comparative chronology",
+        "041|afghanistan iran and the renewed cold war of the 1980s",
+        "041|africas diverse independence movements",
+        "041|bandung and the non aligned movement",
+        "041|berlin germany and the formation of opposing blocs",
+        "041|bulgaria after 1944 the communist state",
+        "041|bulgarias forced assimilation campaign and 1989",
+        "041|case study one bulgarian town across three political systems",
+        "041|cold war narratives propaganda and contested memory",
+        "041|containment the truman doctrine and the marshall plan",
+        "041|decolonization independence as a world making process",
+        "041|détente and the limits of superpower cooperation",
+        "041|eastern europe control reform and resistance",
+        "041|environment health and global public goods",
+        "041|everyday life and bulgarias economic transformation",
+        "041|germany reunifies and the soviet union dissolves",
+        "041|globalization trade technology and uneven development",
+        "041|gorbachev and reform from within the soviet union",
+        "041|how to read the postwar world without a single storyline",
+        "041|indonesia and southeast asia independence and competing projects",
+        "041|korea local war international escalation",
+        "041|latin america and the cold wars domestic costs",
+        "041|middle eastern transformations independence oil and conflict",
+        "041|nuclear weapons and the logic of deterrence",
+        "041|postcommunist transitions democracy markets and costs",
+        "041|south asia india pakistan and the cost of partition",
+        "041|southern africa angola and the struggle against apartheid",
+        "041|the arms race space race and scientific development",
+        "041|the balkans after 1991 yugoslavias violent dissolution",
+        "041|the chinese revolution and the remaking of east asia",
+        "041|the congo crisis sovereignty under pressure",
+        "041|the cuban revolution and the missile crisis",
+        "041|the european union and nato expand",
+        "041|the post 1991 international order and its limits",
+        "041|the revolutions of 1989 and the fall of the wall",
+        "041|the strange outcome of the wartime alliance",
+        "041|vietnam war nationalism and intervention",
+        "041|what changed by 1991 and what did not",
+        "041|what the term cold war explains and what it hides",
+        "041|why the cold war ended and why historians disagree",
+        "042|@flashcards",
+        "042|@opening",
+        "042|@practice",
+        "042|@sources",
+        "042|a bargaining range worked through",
+        "042|a worked exercise the dam on a contested river",
+        "042|alliances reassurance entrapment and abandonment",
+        "042|balances of power and power transitions",
+        "042|bulgaria and the balkan wars a comparative exercise",
+        "042|case study europes july crisis of 1914",
+        "042|case study iraq and kuwait 1990 1991",
+        "042|case study iraq in 2003 and the problem of intelligence",
+        "042|case study the cuban missile crisis 1962",
+        "042|case study the road to world war ii",
+        "042|civil war bargaining and the problem of disarmament",
+        "042|civil wars different participants overlapping logics",
+        "042|commitment problems the danger of tomorrow",
+        "042|conflict prevention practical instruments and limitations",
+        "042|democracy authoritarianism and conflict",
+        "042|deterrence reassurance and restraint",
+        "042|diversionary war and the risk of convenient stories",
+        "042|economic pressure without economic determinism",
+        "042|ethnic violence communal fear and local agency",
+        "042|evidence uncertainty and the ethics of explanation",
+        "042|fear humiliation honor and emotions",
+        "042|ideology and rival visions of legitimate rule",
+        "042|indivisible issues and the meaning of territory",
+        "042|leaders political survival and unequal costs",
+        "042|miscalculation mobilization and unintended escalation",
+        "042|nationalism historical memory and mass mobilization",
+        "042|offence defence and the power of geography",
+        "042|perception analogy and the human mind",
+        "042|preventive war versus preemptive attack",
+        "042|private information and optimistic expectations",
+        "042|synthesis turning a war story into a causal explanation",
+        "042|territory resources and strategic routes",
+        "042|the puzzle why not settle instead",
+        "042|the security dilemma defence looks like danger",
+        "042|threats bluffs and costly signals",
+        "042|three levels of explanation",
+        "042|trade and economic interdependence",
+        "042|what counts as war and why definitions matter",
+        "042|why some wars keep going",
+        "043|@flashcards",
+        "043|@opening",
+        "043|@practice",
+        "043|@sources",
+        "043|a seven question diagnostic of geographic power",
+        "043|an exercise in comparative power three fictional states",
+        "043|borders are institutions drawn across space",
+        "043|bulgaria a crossroads is not a destiny",
+        "043|bulgarias routes danube black sea and balkan passes",
+        "043|china and east asia coast interior and regional networks",
+        "043|cities and ports as network nodes",
+        "043|classic theories useful questions dangerous shortcuts",
+        "043|climate hazards and environmental security",
+        "043|coastlines and the advantage of sea access",
+        "043|critical geopolitics whose map is being drawn",
+        "043|distance is a cost not just a measurement",
+        "043|egypt and panama infrastructure creates new geography",
+        "043|energy geography fixed deposits and moving systems",
+        "043|food farmland and strategic resilience",
+        "043|geography and the ethics of strategic language",
+        "043|how to read a strategic map without being deceived",
+        "043|islands archipelagos and competing scales",
+        "043|landlocked states and the politics of transit",
+        "043|mapping the supply chain instead of the mine",
+        "043|maritime law territorial waters and economic zones",
+        "043|mountains protection separation and passage",
+        "043|physical geography and human geography belong together",
+        "043|plains and corridors the ease and danger of movement",
+        "043|population geography and the problem of concentrated assets",
+        "043|resources wealth dependency and the resource trap",
+        "043|rivers connect and divide",
+        "043|russia and the problem of distance and access",
+        "043|sea power fleets and the shore",
+        "043|straits canals and maritime chokepoints",
+        "043|strategic vulnerability measuring dependence",
+        "043|technology changes the meaning of terrain",
+        "043|the arctic opportunity hazards and misleading headlines",
+        "043|the geography of information and undersea cables",
+        "043|the mediterranean and its narrow passages",
+        "043|the united states oceans rivers and continental networks",
+        "043|turkey and the straits geography under law and diplomacy",
+        "043|what geographers mean by power",
+        "043|worked case a disputed mountain transit corridor",
+        "044|@flashcards",
+        "044|@opening",
+        "044|@practice",
+        "044|@sources",
+        "044|@summary",
+        "044|a worked case the two emergency service budgets",
+        "044|active service reserves and mobilisation",
+        "044|alliances standardisation and shared responsibility",
+        "044|bulgaria military institutions in constitutional context",
+        "044|civilian control and the purpose of military institutions",
+        "044|civilians forced labour and the moral cost of supply",
+        "044|command staff and accountability",
+        "044|communications and institutional coordination",
+        "044|connections across knowledge kingdom",
+        "044|conscription volunteers and professional forces",
+        "044|corruption procurement and the illusion of modernisation",
+        "044|early modern fiscal and military states",
+        "044|fuel energy and industrial consumption",
+        "044|health sanitation and the limits of the human body",
+        "044|how to read claims about military strength",
+        "044|industrialisation and the first world war",
+        "044|information intelligence and uncertainty",
+        "044|joint institutions and combined arms",
+        "044|limited war and the difficulty of political victory",
+        "044|maintenance and life cycle costs",
+        "044|military expenditure and the economics of security",
+        "044|morale cohesion and legitimacy",
+        "044|napoleon in russia a failure beyond the weather",
+        "044|readiness is not a single number",
+        "044|resources capability and political power",
+        "044|supply is a chain of institutions",
+        "044|synthesis why strength does not guarantee success",
+        "044|technology changes dependencies rather than ending them",
+        "044|the ancient world organising an army before engines",
+        "044|the berlin airlift logistics as political communication",
+        "044|the mongol empire and the ecology of mobility",
+        "044|the second world war as a global institutional struggle",
+        "044|the stock and the flow",
+        "044|the strategic operational and tactical levels",
+        "044|training education and the human institution",
+        "044|transport geography and the meaning of distance",
+        "044|units formations and ranks",
+        "044|what is an armed force",
+        "044|what logistics means",
+        "045|@flashcards",
+        "045|@opening",
+        "045|@practice",
+        "045|@sources",
+        "045|@summary",
+        "045|a worked case a river basin conference",
+        "045|alliances before 1914 commitments without inevitability",
+        "045|balance of power a distribution and a policy",
+        "045|balancing threats not just capabilities",
+        "045|bandung and the refusal to be treated as a chess piece",
+        "045|bandwagoning neutrality and hedging",
+        "045|bargaining ranges and the cost of disagreement",
+        "045|before ambassadors ancient diplomacy",
+        "045|bulgaria diplomacy as a smaller states institution",
+        "045|burden sharing and the problem of common goods",
+        "045|camp david a durable agreement with unresolved questions",
+        "045|collective defence and collective security",
+        "045|connections across knowledge kingdom",
+        "045|diplomacy in unequal worlds",
+        "045|domestic politics negotiating at two tables",
+        "045|economic diplomacy and interdependence",
+        "045|foreign policy diplomacy and statecraft",
+        "045|helsinki managing rivalry without ending it",
+        "045|how to read diplomatic news",
+        "045|information credibility and verification",
+        "045|mediation arbitration and adjudication",
+        "045|nato the warsaw pact and institutional asymmetry",
+        "045|neutrality and the limits of independence",
+        "045|polarity one two or many centres of power",
+        "045|rapprochement across ideological divides",
+        "045|regional institutions beyond the atlantic",
+        "045|sovereignty and the westphalian story",
+        "045|synthesis security is a relationship not an inventory",
+        "045|the alliance dilemma abandonment and entrapment",
+        "045|the concert and the limits of great power management",
+        "045|the congress of vienna a defeated power returns",
+        "045|the cuban missile crisis the value and cost of communication",
+        "045|the difference between a position and an interest",
+        "045|the embassy as an institution",
+        "045|the league of nations a promise and a capacity problem",
+        "045|the many channels of diplomacy",
+        "045|the security dilemma",
+        "045|the united nations law authority and political disagreement",
+        "045|treaties declarations and political commitments",
+        "045|what is an alliance",
+        "046|@flashcards",
+        "046|@opening",
+        "046|@practice",
+        "046|@sources",
+        "046|@summary",
+        "046|a fictional case the river valley and four legal questions",
+        "046|aggression a legal concept and a political accusation",
+        "046|bulgaria and the everyday implementation of international law",
+        "046|captivity and the legal status of prisoners",
+        "046|case study congo uganda and the long journey to reparation",
+        "046|case study nicaragua and the reach of customary law",
+        "046|case study rwanda bosnia and the different meanings of responsibility",
+        "046|children families and people who disappear",
+        "046|collective security and the united nations",
+        "046|common article 3 and the minimum floor of humanity",
+        "046|connections across knowledge kingdom",
+        "046|culture memory and the natural environment",
+        "046|displacement refugees and the right to seek protection",
+        "046|distinction people are not interchangeable with their governments",
+        "046|from the hague to the geneva conventions",
+        "046|how the prohibition on interstate force developed",
+        "046|human rights law does not simply switch off",
+        "046|humanitarian intervention and responsibility to protect",
+        "046|humanitarian relief and the problem of access",
+        "046|individual criminal responsibility from nuremberg onward",
+        "046|is international law really law",
+        "046|necessity humanity and prohibited treatment",
+        "046|new technology arms regulation and old principles",
+        "046|occupation authority without sovereignty",
+        "046|proportionality and precautions why numbers alone cannot decide",
+        "046|proving a crime evidence intent and responsibility",
+        "046|reading judicial documents palestine israel and procedural distinctions",
+        "046|self defence and the difference between fear and entitlement",
+        "046|siege scarcity and the protection of civilian survival",
+        "046|solferino the red cross and the geneva movement",
+        "046|sovereignty consent and the limits of independence",
+        "046|state responsibility who owes what to whom",
+        "046|the international court of justice is not the icc",
+        "046|the international criminal court and the limits of jurisdiction",
+        "046|the long history of restraint in war",
+        "046|the wounded medical services and humanitarian emblems",
+        "046|two legal questions which must not be confused",
+        "046|war crimes crimes against humanity and genocide",
+        "046|when humanitarian law begins to apply",
+        "046|where international rules come from",
+        "046|why law is obeyed why it is broken and why enforcement matters",
+        "047|1945 scientific achievement and human catastrophe",
+        "047|@flashcards",
+        "047|@opening",
+        "047|@practice",
+        "047|@sources",
+        "047|@summary",
+        "047|a fictional summit separating shared interests from unresolved disputes",
+        "047|a numerical exercise in cumulative uncertainty",
+        "047|arms control and disarmament related but distinct",
+        "047|bulgaria nuclear energy alliance membership and international obligations",
+        "047|climate agriculture and the uncertainty of global consequences",
+        "047|communication perception and the role of institutions",
+        "047|connections across knowledge kingdom",
+        "047|deterrence compellence and the limits of coercion",
+        "047|escalation and the difference between intention and outcome",
+        "047|extended deterrence and the nuclear umbrella",
+        "047|from the test ban to superpower agreements",
+        "047|humanitarian consequences beyond the moment of destruction",
+        "047|mutual vulnerability and mutually assured destruction",
+        "047|nato collective defence and an institutional perspective",
+        "047|near misses and organizational fallibility",
+        "047|new start and the consequences of lost transparency",
+        "047|nuclear ambiguity and the difficulty of counting possession",
+        "047|nuclear proliferation more than the spread of technology",
+        "047|nuclear risk new technology and the human decision",
+        "047|nuclear weapons and international law the 1996 advisory opinion",
+        "047|peaceful nuclear energy and international safeguards",
+        "047|reading the global inventory without false precision",
+        "047|regions that have chosen to remain nuclear weapon free",
+        "047|south africa and the possibility of reversal",
+        "047|south asia and the challenge of regional comparison",
+        "047|strategic stability a concept with several meanings",
+        "047|the cold war as an international system",
+        "047|the comprehensive nuclear test ban treaty",
+        "047|the cuban missile crisis the value of diplomacy",
+        "047|the difference between rationality and omniscience",
+        "047|the early monopoly and the end of atomic exclusivity",
+        "047|the ethical question that remains after the strategic argument",
+        "047|the geography of nuclear security is not a map of arsenals",
+        "047|the korean peninsula and the persistence of insecurity",
+        "047|the npt an international bargain with three pillars",
+        "047|the nuclear taboo and the evidence of non use",
+        "047|the people who lived beside nuclear tests",
+        "047|the security dilemma returns",
+        "047|the stability instability paradox",
+        "047|the treaty on the prohibition of nuclear weapons",
+        "047|ukraine kazakhstan and belarus after the soviet collapse",
+        "047|what deterrence means before we mention nuclear weapons",
+        "047|what would count as evidence that deterrence works",
+        "047|why the nuclear age changed the political question",
+        "048|@flashcards",
+        "048|@opening",
+        "048|@practice",
+        "048|@sources",
+        "048|@summary",
+        "048|a fictional peace commission turning promises into evidence",
+        "048|a worked example what an average hides",
+        "048|borders displacement and regional spillovers",
+        "048|bosnia and herzegovina ending violence and designing a state",
+        "048|bulgaria and the western balkans the institutional value of peaceful disagreement",
+        "048|capacity legitimacy and authority are not interchangeable",
+        "048|china revolution civil war and competing state building projects",
+        "048|civil war is a category not an explanation",
+        "048|climate environmental stress and the temptation of one cause stories",
+        "048|colombia a peace agreement is not the end of all insecurity",
+        "048|connections across knowledge kingdom",
+        "048|disarmament demobilization and civilian reintegration",
+        "048|ethnicity nationalism and the politics of exclusion",
+        "048|food health education and the long shadow of war",
+        "048|fragility is not a permanent national identity",
+        "048|gender children and participation in recovery",
+        "048|guatemala exclusion and the meaning of historical truth",
+        "048|how history creates unequal institutions",
+        "048|inequality between individuals and between groups",
+        "048|international peacekeeping and its limits",
+        "048|liberia what a completed international mission does and does not mean",
+        "048|mozambique the long negotiation after independence",
+        "048|nepal transforming a conflict into constitutional politics",
+        "048|opportunity and the limits of statistical prediction",
+        "048|outside powers and the internationalization of civil wars",
+        "048|political transitions and the dangers of uncertainty",
+        "048|power sharing federalism and equal citizenship",
+        "048|repression protest and the difference between sequence and cause",
+        "048|resources dependence and the war economy",
+        "048|sierra leone resources are not destiny",
+        "048|somalia public authority does not simply vanish",
+        "048|sudan and south sudan borders do not solve every political dispute",
+        "048|syria and myanmar why a countrys transition cannot be summarized by one headline",
+        "048|the credible commitment problem",
+        "048|the economic explanation incentives and resources",
+        "048|the english civil wars power before the modern nation state",
+        "048|the everyday economics of institutional collapse",
+        "048|the feedback loop between fragility and violence",
+        "048|the grievance explanation what people believe they have been denied",
+        "048|the law asks a different question",
+        "048|the spanish civil war a national conflict with international dimensions",
+        "048|the united states slavery secession and the constitutional order",
+        "048|transitional justice remembering without reproducing collective blame",
+        "048|what is lost when civilians flee",
+        "048|what makes a state a state",
+        "048|what peace means after the last battle",
+        "048|why a ceasefire is not the same as a peace settlement"
+      ],
+      "changed": []
     }
   },
   "sections": {
@@ -9338,6 +9815,3163 @@
       "url": "/038-world-war-i-causes-and-consequences/women-families-and-the-contested-meaning-of-change/",
       "firstSeen": 41,
       "lastChanged": 41
+    },
+    "039|1929 a crash not a complete explanation": {
+      "hash": "2d00776d3d110e08",
+      "title": "039 · 1929: a crash, not a complete explanation",
+      "url": "/039-the-interwar-world/1929-a-crash-not-a-complete-explanation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|1939 the end of the interwar order and the questions it leaves": {
+      "hash": "59c3939e8e9a64c9",
+      "title": "039 · 1939: the end of the interwar order—and the questions it leaves",
+      "url": "/039-the-interwar-world/1939-the-end-of-the-interwar-order-and-the-questions/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|@flashcards": {
+      "hash": "330c73fb09882eec",
+      "title": "039 · Flashcard prompts",
+      "url": "/039-the-interwar-world/flashcards/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|@opening": {
+      "hash": "d584a83c9dc1b510",
+      "title": "The Interwar World",
+      "url": "/039-the-interwar-world/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|@practice": {
+      "hash": "17d4166ed7f8549f",
+      "title": "039 · Exercises",
+      "url": "/039-the-interwar-world/practice/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|@sources": {
+      "hash": "857e5f80b963599c",
+      "title": "039 · Sources and further reading",
+      "url": "/039-the-interwar-world/sources/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|a recovery that rested on unstable foundations": {
+      "hash": "f2360a521190af98",
+      "title": "039 · A recovery that rested on unstable foundations",
+      "url": "/039-the-interwar-world/a-recovery-that-rested-on-unstable-foundations/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|bulgaria after neuilly land grievances and parliamentary tension": {
+      "hash": "a408c0b1f7fef7d0",
+      "title": "039 · Bulgaria after Neuilly: land, grievances, and parliamentary tension",
+      "url": "/039-the-interwar-world/bulgaria-after-neuilly-land-grievances-and-parliamentary/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|bulgaria in the 1930s coup monarchy and revisionism": {
+      "hash": "6ebdbe35133585ea",
+      "title": "039 · Bulgaria in the 1930s: coup, monarchy, and revisionism",
+      "url": "/039-the-interwar-world/bulgaria-in-the-1930s-coup-monarchy-and-revisionism/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|bulgarias 1923 coup and the spiral of violence": {
+      "hash": "083627cb1bafe337",
+      "title": "039 · Bulgaria's 1923 coup and the spiral of violence",
+      "url": "/039-the-interwar-world/bulgarias-1923-coup-and-the-spiral-of-violence/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|case study did the depression cause hitler": {
+      "hash": "b2e3add887d1fb8a",
+      "title": "039 · Case study: did the Depression cause Hitler?",
+      "url": "/039-the-interwar-world/case-study-did-the-depression-cause-hitler/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|chinas republic revolution and invasion": {
+      "hash": "e6a19fbe9031c34a",
+      "title": "039 · China's republic, revolution, and invasion",
+      "url": "/039-the-interwar-world/chinas-republic-revolution-and-invasion/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|cities cinema radio and new mass cultures": {
+      "hash": "ffc298770aed69e4",
+      "title": "039 · Cities, cinema, radio, and new mass cultures",
+      "url": "/039-the-interwar-world/cities-cinema-radio-and-new-mass-cultures/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|collectivization famine and the holodomor": {
+      "hash": "9cfea24764cc6596",
+      "title": "039 · Collectivization, famine, and the Holodomor",
+      "url": "/039-the-interwar-world/collectivization-famine-and-the-holodomor/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|democracys responses the new deal and other reforms": {
+      "hash": "b1569adcaf19fd97",
+      "title": "039 · Democracy's responses: the New Deal and other reforms",
+      "url": "/039-the-interwar-world/democracys-responses-the-new-deal-and-other-reforms/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|from appointment to dictatorship in 1933": {
+      "hash": "73621cd800815a6b",
+      "title": "039 · From appointment to dictatorship in 1933",
+      "url": "/039-the-interwar-world/from-appointment-to-dictatorship-in-1933/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|germanys weimar republic a democracy under pressure": {
+      "hash": "d57c227374145a08",
+      "title": "039 · Germany's Weimar Republic: a democracy under pressure",
+      "url": "/039-the-interwar-world/germanys-weimar-republic-a-democracy-under-pressure/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|how a national downturn became a world depression": {
+      "hash": "36d18334a3e1b0a8",
+      "title": "039 · How a national downturn became a world depression",
+      "url": "/039-the-interwar-world/how-a-national-downturn-became-a-world-depression/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|hyperinflation and the memory of 1923": {
+      "hash": "fdf9a569a9d02876",
+      "title": "039 · Hyperinflation and the memory of 1923",
+      "url": "/039-the-interwar-world/hyperinflation-and-the-memory-of-1923/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|india africa latin america and the wider interwar world": {
+      "hash": "4146c37a2cbe6622",
+      "title": "039 · India, Africa, Latin America, and the wider interwar world",
+      "url": "/039-the-interwar-world/india-africa-latin-america-and-the-wider-interwar-world/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|italy the march on rome and the consolidation of fascism": {
+      "hash": "b01b37081f321be5",
+      "title": "039 · Italy: the March on Rome and the consolidation of fascism",
+      "url": "/039-the-interwar-world/italy-the-march-on-rome-and-the-consolidation-of-fascism/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|japan and the transformation of east asian security": {
+      "hash": "015f92d6e31c3466",
+      "title": "039 · Japan and the transformation of East Asian security",
+      "url": "/039-the-interwar-world/japan-and-the-transformation-of-east-asian-security/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|manchuria and ethiopia collective security under strain": {
+      "hash": "fa4748e062cdfe86",
+      "title": "039 · Manchuria and Ethiopia: collective security under strain",
+      "url": "/039-the-interwar-world/manchuria-and-ethiopia-collective-security-under-strain/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|munich and the failure of appeasement": {
+      "hash": "eafaa3a5dff1fc0d",
+      "title": "039 · Munich and the failure of appeasement",
+      "url": "/039-the-interwar-world/munich-and-the-failure-of-appeasement/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|paris new borders and contested self determination": {
+      "hash": "45062a5ce02e2cc1",
+      "title": "039 · Paris, new borders, and contested self-determination",
+      "url": "/039-the-interwar-world/paris-new-borders-and-contested-self-determination/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|race antisemitism and the nazi state": {
+      "hash": "45195725f84cea25",
+      "title": "039 · Race, antisemitism, and the Nazi state",
+      "url": "/039-the-interwar-world/race-antisemitism-and-the-nazi-state/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|revolutionary russia and the soviet alternative": {
+      "hash": "fb6ad46390170dda",
+      "title": "039 · Revolutionary Russia and the Soviet alternative",
+      "url": "/039-the-interwar-world/revolutionary-russia-and-the-soviet-alternative/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|self determination beyond europe": {
+      "hash": "554bf5c513c15147",
+      "title": "039 · Self-determination beyond Europe",
+      "url": "/039-the-interwar-world/self-determination-beyond-europe/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|spain a civil war with international consequences": {
+      "hash": "abfd499316376e2d",
+      "title": "039 · Spain: a civil war with international consequences",
+      "url": "/039-the-interwar-world/spain-a-civil-war-with-international-consequences/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|stalins revolution from above": {
+      "hash": "43278e9b52698a0b",
+      "title": "039 · Stalin's revolution from above",
+      "url": "/039-the-interwar-world/stalins-revolution-from-above/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|synthesis five connected systems": {
+      "hash": "63c45e4787f32685",
+      "title": "039 · Synthesis: five connected systems",
+      "url": "/039-the-interwar-world/synthesis-five-connected-systems/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|terror surveillance and the limits of apparent consensus": {
+      "hash": "6f207d45abf26a87",
+      "title": "039 · Terror, surveillance, and the limits of apparent consensus",
+      "url": "/039-the-interwar-world/terror-surveillance-and-the-limits-of-apparent-consensus/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|the fragile financial order left by world war i": {
+      "hash": "ba61d5e9383ba7a0",
+      "title": "039 · The fragile financial order left by World War I",
+      "url": "/039-the-interwar-world/the-fragile-financial-order-left-by-world-war-i/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|the league of nations more than a failed security experiment": {
+      "hash": "2ffb1dbbc7d26166",
+      "title": "039 · The League of Nations: more than a failed security experiment",
+      "url": "/039-the-interwar-world/the-league-of-nations-more-than-a-failed-security-experiment/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|the road toward a new general war": {
+      "hash": "031fcd59ef363b97",
+      "title": "039 · The road toward a new general war",
+      "url": "/039-the-interwar-world/the-road-toward-a-new-general-war/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|the temptation of simple economic explanations": {
+      "hash": "dcf590fc86f52cc5",
+      "title": "039 · The temptation of simple economic explanations",
+      "url": "/039-the-interwar-world/the-temptation-of-simple-economic-explanations/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|three problems at once security legitimacy and livelihoods": {
+      "hash": "adac230685b2af9f",
+      "title": "039 · Three problems at once: security, legitimacy, and livelihoods",
+      "url": "/039-the-interwar-world/three-problems-at-once-security-legitimacy-and-livelihoods/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|turkey and the end of the ottoman imperial order": {
+      "hash": "761b1d6decfa7d08",
+      "title": "039 · Turkey and the end of the Ottoman imperial order",
+      "url": "/039-the-interwar-world/turkey-and-the-end-of-the-ottoman-imperial-order/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|unemployment farms and the human experience of collapse": {
+      "hash": "774894ed23a7e951",
+      "title": "039 · Unemployment, farms, and the human experience of collapse",
+      "url": "/039-the-interwar-world/unemployment-farms-and-the-human-experience-of-collapse/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|weimars collapse was a political process": {
+      "hash": "fdbc57502025c76a",
+      "title": "039 · Weimar's collapse was a political process",
+      "url": "/039-the-interwar-world/weimars-collapse-was-a-political-process/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|what fascism was and what it was not": {
+      "hash": "346b0187090cbfe9",
+      "title": "039 · What fascism was—and what it was not",
+      "url": "/039-the-interwar-world/what-fascism-was-and-what-it-was-not/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "039|why some parliamentary systems survived": {
+      "hash": "20f7e06176147e0b",
+      "title": "039 · Why some parliamentary systems survived",
+      "url": "/039-the-interwar-world/why-some-parliamentary-systems-survived/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|@flashcards": {
+      "hash": "2f3c67c1dd8e552b",
+      "title": "040 · Flashcard prompts",
+      "url": "/040-world-war-ii-and-the-holocaust/flashcards/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|@opening": {
+      "hash": "0ab19e0b66daa97c",
+      "title": "World War II and the Holocaust",
+      "url": "/040-world-war-ii-and-the-holocaust/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|@practice": {
+      "hash": "f50d35e1aa5b412f",
+      "title": "040 · Exercises",
+      "url": "/040-world-war-ii-and-the-holocaust/practice/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|@sources": {
+      "hash": "cdf45f27603ce4d3",
+      "title": "040 · Sources and further reading",
+      "url": "/040-world-war-ii-and-the-holocaust/sources/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|a new security order and the united nations": {
+      "hash": "7c720e6aca102d35",
+      "title": "040 · A new security order and the United Nations",
+      "url": "/040-world-war-ii-and-the-holocaust/a-new-security-order-and-the-united-nations/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|auschwitzs liberation and the evidence of genocide": {
+      "hash": "56b16c59841c22d6",
+      "title": "040 · Auschwitz's liberation and the evidence of genocide",
+      "url": "/040-world-war-ii-and-the-holocaust/auschwitzs-liberation-and-the-evidence-of-genocide/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|britain air defense and the atlantic supply line": {
+      "hash": "d05aeb3c61552d83",
+      "title": "040 · Britain, air defense and the Atlantic supply line",
+      "url": "/040-world-war-ii-and-the-holocaust/britain-air-defense-and-the-atlantic-supply-line/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|bulgaria and the axis policy territory and responsibility": {
+      "hash": "803025de962258fa",
+      "title": "040 · Bulgaria and the Axis: policy, territory and responsibility",
+      "url": "/040-world-war-ii-and-the-holocaust/bulgaria-and-the-axis-policy-territory-and-responsibility/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|bulgaria in 1944 1945 changing sides and changing regimes": {
+      "hash": "bcaeb77d48473fa6",
+      "title": "040 · Bulgaria in 1944–1945: changing sides and changing regimes",
+      "url": "/040-world-war-ii-and-the-holocaust/bulgaria-in-1944-1945-changing-sides-and-changing-regimes/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|bulgarias jews protection in the old kingdom deportation from occupied lands": {
+      "hash": "05654152534ecaa8",
+      "title": "040 · Bulgaria's Jews: protection in the old kingdom, deportation from occupied lands",
+      "url": "/040-world-war-ii-and-the-holocaust/bulgarias-jews-protection-in-the-old-kingdom-deportation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|counting the dead without hiding uncertainty": {
+      "hash": "8f85fa2c3591d086",
+      "title": "040 · Counting the dead without hiding uncertainty",
+      "url": "/040-world-war-ii-and-the-holocaust/counting-the-dead-without-hiding-uncertainty/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|d day liberation of france and competing memories": {
+      "hash": "655f0f654f15a349",
+      "title": "040 · D-Day, liberation of France and competing memories",
+      "url": "/040-world-war-ii-and-the-holocaust/d-day-liberation-of-france-and-competing-memories/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|from antisemitic exclusion to mass murder": {
+      "hash": "b17d85b3307430be",
+      "title": "040 · From antisemitic exclusion to mass murder",
+      "url": "/040-world-war-ii-and-the-holocaust/from-antisemitic-exclusion-to-mass-murder/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|from the failed peace to expansionist dictatorships": {
+      "hash": "851b9e8c4b3510db",
+      "title": "040 · From the failed peace to expansionist dictatorships",
+      "url": "/040-world-war-ii-and-the-holocaust/from-the-failed-peace-to-expansionist-dictatorships/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|ghettos deportation and the language of administration": {
+      "hash": "90f368cb60289578",
+      "title": "040 · Ghettos, deportation and the language of administration",
+      "url": "/040-world-war-ii-and-the-holocaust/ghettos-deportation-and-the-language-of-administration/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|hiroshima nagasaki and the question of surrender": {
+      "hash": "c2ab4b612c68a4b0",
+      "title": "040 · Hiroshima, Nagasaki and the question of surrender",
+      "url": "/040-world-war-ii-and-the-holocaust/hiroshima-nagasaki-and-the-question-of-surrender/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|how a coalition sustains a long war": {
+      "hash": "02e27c4eb5d4528d",
+      "title": "040 · How a coalition sustains a long war",
+      "url": "/040-world-war-ii-and-the-holocaust/how-a-coalition-sustains-a-long-war/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|how historians know archives memory and propaganda": {
+      "hash": "fb283732c48e435f",
+      "title": "040 · How historians know: archives, memory and propaganda",
+      "url": "/040-world-war-ii-and-the-holocaust/how-historians-know-archives-memory-and-propaganda/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|japans war in china and asian imperialism": {
+      "hash": "2e4108ee6728e9fb",
+      "title": "040 · Japan's war in China and Asian imperialism",
+      "url": "/040-world-war-ii-and-the-holocaust/japans-war-in-china-and-asian-imperialism/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|justice after mass atrocity nuremberg and tokyo": {
+      "hash": "1066a677278c51e6",
+      "title": "040 · Justice after mass atrocity: Nuremberg and Tokyo",
+      "url": "/040-world-war-ii-and-the-holocaust/justice-after-mass-atrocity-nuremberg-and-tokyo/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|kursk italy and the relentless eastern front": {
+      "hash": "4b1c6aff7e73fe4e",
+      "title": "040 · Kursk, Italy and the relentless Eastern Front",
+      "url": "/040-world-war-ii-and-the-holocaust/kursk-italy-and-the-relentless-eastern-front/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|life under occupation labor hunger and terror": {
+      "hash": "3bfd4f9e348079d1",
+      "title": "040 · Life under occupation: labor, hunger and terror",
+      "url": "/040-world-war-ii-and-the-holocaust/life-under-occupation-labor-hunger-and-terror/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|mass shootings after the invasion of the soviet union": {
+      "hash": "dedeb7ec0dc4cab2",
+      "title": "040 · Mass shootings after the invasion of the Soviet Union",
+      "url": "/040-world-war-ii-and-the-holocaust/mass-shootings-after-the-invasion-of-the-soviet-union/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|midway guadalcanal and the cost of island warfare": {
+      "hash": "2374f864e7eddb79",
+      "title": "040 · Midway, Guadalcanal and the cost of island warfare",
+      "url": "/040-world-war-ii-and-the-holocaust/midway-guadalcanal-and-the-cost-of-island-warfare/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|north africa the mediterranean and colonial soldiers": {
+      "hash": "1cb346e2392560cc",
+      "title": "040 · North Africa, the Mediterranean and colonial soldiers",
+      "url": "/040-world-war-ii-and-the-holocaust/north-africa-the-mediterranean-and-colonial-soldiers/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|okinawa and the final pacific campaigns": {
+      "hash": "e3ed3123ab6c53eb",
+      "title": "040 · Okinawa and the final Pacific campaigns",
+      "url": "/040-world-war-ii-and-the-holocaust/okinawa-and-the-final-pacific-campaigns/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|operation barbarossa a war of annihilation": {
+      "hash": "9aaa4cb03692f512",
+      "title": "040 · Operation Barbarossa: a war of annihilation",
+      "url": "/040-world-war-ii-and-the-holocaust/operation-barbarossa-a-war-of-annihilation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|other victims of nazi persecution and murder": {
+      "hash": "3447b979223aa434",
+      "title": "040 · Other victims of Nazi persecution and murder",
+      "url": "/040-world-war-ii-and-the-holocaust/other-victims-of-nazi-persecution-and-murder/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|pearl harbor and the widening pacific war": {
+      "hash": "189855910808a4a8",
+      "title": "040 · Pearl Harbor and the widening Pacific War",
+      "url": "/040-world-war-ii-and-the-holocaust/pearl-harbor-and-the-widening-pacific-war/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|poland september 1939 and the destruction of a state": {
+      "hash": "66d3c0722b81bd5b",
+      "title": "040 · Poland, September 1939, and the destruction of a state",
+      "url": "/040-world-war-ii-and-the-holocaust/poland-september-1939-and-the-destruction-of-a-state/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|resistance rescue and difficult choices under occupation": {
+      "hash": "858283333848c5ab",
+      "title": "040 · Resistance, rescue and difficult choices under occupation",
+      "url": "/040-world-war-ii-and-the-holocaust/resistance-rescue-and-difficult-choices-under-occupation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|scandinavia france and the limits of the early german victories": {
+      "hash": "27d8ad22a520aa36",
+      "title": "040 · Scandinavia, France and the limits of the early German victories",
+      "url": "/040-world-war-ii-and-the-holocaust/scandinavia-france-and-the-limits-of-the-early-german/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|strategic bombing and the dilemma of civilian targets": {
+      "hash": "0be143d5a529ee96",
+      "title": "040 · Strategic bombing and the dilemma of civilian targets",
+      "url": "/040-world-war-ii-and-the-holocaust/strategic-bombing-and-the-dilemma-of-civilian-targets/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|synthesis victory catastrophe and unfinished peace": {
+      "hash": "86206082634efcf1",
+      "title": "040 · Synthesis: victory, catastrophe and unfinished peace",
+      "url": "/040-world-war-ii-and-the-holocaust/synthesis-victory-catastrophe-and-unfinished-peace/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|the balkan campaigns and the axis order in southeastern europe": {
+      "hash": "d08c4289da81afd8",
+      "title": "040 · The Balkan campaigns and the Axis order in southeastern Europe",
+      "url": "/040-world-war-ii-and-the-holocaust/the-balkan-campaigns-and-the-axis-order-in-southeastern/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|the collapse of empires and the beginning of the cold war": {
+      "hash": "856220960eaa1b71",
+      "title": "040 · The collapse of empires and the beginning of the Cold War",
+      "url": "/040-world-war-ii-and-the-holocaust/the-collapse-of-empires-and-the-beginning-of-the-cold-war/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|the final solution and the killing centers": {
+      "hash": "b66eade337bea505",
+      "title": "040 · The 'Final Solution' and the killing centers",
+      "url": "/040-world-war-ii-and-the-holocaust/the-final-solution-and-the-killing-centers/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|the road to 1945 in europe": {
+      "hash": "023069be9f37e84b",
+      "title": "040 · The road to 1945 in Europe",
+      "url": "/040-world-war-ii-and-the-holocaust/the-road-to-1945-in-europe/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|the siege of leningrad and suffering behind front lines": {
+      "hash": "b5789727d832af3c",
+      "title": "040 · The siege of Leningrad and suffering behind front lines",
+      "url": "/040-world-war-ii-and-the-holocaust/the-siege-of-leningrad-and-suffering-behind-front-lines/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|the turning years 1942 and 1943": {
+      "hash": "0e81de9eb821eb40",
+      "title": "040 · The turning years: 1942 and 1943",
+      "url": "/040-world-war-ii-and-the-holocaust/the-turning-years-1942-and-1943/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|wartime displacement and the question of home": {
+      "hash": "3009deb292f7cecd",
+      "title": "040 · Wartime displacement and the question of home",
+      "url": "/040-world-war-ii-and-the-holocaust/wartime-displacement-and-the-question-of-home/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "040|what makes a war global": {
+      "hash": "3503c57698017d55",
+      "title": "040 · What makes a war global?",
+      "url": "/040-world-war-ii-and-the-holocaust/what-makes-a-war-global/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|@flashcards": {
+      "hash": "47c67c978d08647e",
+      "title": "041 · Flashcard prompts",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/flashcards/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|@opening": {
+      "hash": "46df2f1905c406f8",
+      "title": "Cold War, Decolonization, and the Post-1991 World",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|@practice": {
+      "hash": "462396e103ba134f",
+      "title": "041 · Exercises",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/practice/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|@sources": {
+      "hash": "33cedd9ea9ab8273",
+      "title": "041 · Sources and further reading",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/sources/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|a concise comparative chronology": {
+      "hash": "f768fcf4f46de918",
+      "title": "041 · A concise comparative chronology",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/a-concise-comparative-chronology/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|afghanistan iran and the renewed cold war of the 1980s": {
+      "hash": "15b1c026bcfef173",
+      "title": "041 · Afghanistan, Iran and the renewed Cold War of the 1980s",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/afghanistan-iran-and-the-renewed-cold-war-of-the-1980s/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|africas diverse independence movements": {
+      "hash": "9d5cb8b8ab9e52d0",
+      "title": "041 · Africa's diverse independence movements",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/africas-diverse-independence-movements/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|bandung and the non aligned movement": {
+      "hash": "2bec27edbc15fa5d",
+      "title": "041 · Bandung and the Non-Aligned Movement",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bandung-and-the-non-aligned-movement/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|berlin germany and the formation of opposing blocs": {
+      "hash": "1174aa4b5aab13c5",
+      "title": "041 · Berlin, Germany and the formation of opposing blocs",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/berlin-germany-and-the-formation-of-opposing-blocs/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|bulgaria after 1944 the communist state": {
+      "hash": "08756e99a2ab927b",
+      "title": "041 · Bulgaria after 1944: the communist state",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bulgaria-after-1944-the-communist-state/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|bulgarias forced assimilation campaign and 1989": {
+      "hash": "d8c3bc4c9e922b4f",
+      "title": "041 · Bulgaria's forced assimilation campaign and 1989",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/bulgarias-forced-assimilation-campaign-and-1989/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|case study one bulgarian town across three political systems": {
+      "hash": "17807d01b69266e5",
+      "title": "041 · Case study: one Bulgarian town across three political systems",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/case-study-one-bulgarian-town-across-three-political-systems/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|cold war narratives propaganda and contested memory": {
+      "hash": "7ec4d7ebee460f43",
+      "title": "041 · Cold War narratives, propaganda and contested memory",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/cold-war-narratives-propaganda-and-contested-memory/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|containment the truman doctrine and the marshall plan": {
+      "hash": "0a34fd325803c3d4",
+      "title": "041 · Containment, the Truman Doctrine and the Marshall Plan",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/containment-the-truman-doctrine-and-the-marshall-plan/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|decolonization independence as a world making process": {
+      "hash": "6fe9f733fd632b16",
+      "title": "041 · Decolonization: independence as a world-making process",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/decolonization-independence-as-a-world-making-process/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|détente and the limits of superpower cooperation": {
+      "hash": "0b417af542e64474",
+      "title": "041 · Détente and the limits of superpower cooperation",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/detente-and-the-limits-of-superpower-cooperation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|eastern europe control reform and resistance": {
+      "hash": "183492c2aa855dd7",
+      "title": "041 · Eastern Europe: control, reform and resistance",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/eastern-europe-control-reform-and-resistance/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|environment health and global public goods": {
+      "hash": "6c852c7e3e511035",
+      "title": "041 · Environment, health and global public goods",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/environment-health-and-global-public-goods/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|everyday life and bulgarias economic transformation": {
+      "hash": "bcc1126b625f91bb",
+      "title": "041 · Everyday life and Bulgaria's economic transformation",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/everyday-life-and-bulgarias-economic-transformation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|germany reunifies and the soviet union dissolves": {
+      "hash": "fb93c521b01f1a35",
+      "title": "041 · Germany reunifies and the Soviet Union dissolves",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/germany-reunifies-and-the-soviet-union-dissolves/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|globalization trade technology and uneven development": {
+      "hash": "3a0f19358030f69f",
+      "title": "041 · Globalization: trade, technology and uneven development",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/globalization-trade-technology-and-uneven-development/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|gorbachev and reform from within the soviet union": {
+      "hash": "529f0aab84b14984",
+      "title": "041 · Gorbachev and reform from within the Soviet Union",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/gorbachev-and-reform-from-within-the-soviet-union/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|how to read the postwar world without a single storyline": {
+      "hash": "f899533cea5d18c2",
+      "title": "041 · How to read the postwar world without a single storyline",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/how-to-read-the-postwar-world-without-a-single-storyline/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|indonesia and southeast asia independence and competing projects": {
+      "hash": "c1b58a61259d08ca",
+      "title": "041 · Indonesia and Southeast Asia: independence and competing projects",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/indonesia-and-southeast-asia-independence-and-competing/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|korea local war international escalation": {
+      "hash": "bedc0a58eac41093",
+      "title": "041 · Korea: local war, international escalation",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/korea-local-war-international-escalation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|latin america and the cold wars domestic costs": {
+      "hash": "948688c1fc1c3fd7",
+      "title": "041 · Latin America and the Cold War's domestic costs",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/latin-america-and-the-cold-wars-domestic-costs/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|middle eastern transformations independence oil and conflict": {
+      "hash": "3564ded3b7c2893a",
+      "title": "041 · Middle Eastern transformations: independence, oil and conflict",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/middle-eastern-transformations-independence-oil-and-conflict/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|nuclear weapons and the logic of deterrence": {
+      "hash": "3c6b21daacf03c09",
+      "title": "041 · Nuclear weapons and the logic of deterrence",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/nuclear-weapons-and-the-logic-of-deterrence/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|postcommunist transitions democracy markets and costs": {
+      "hash": "34c1ca535d4b2090",
+      "title": "041 · Postcommunist transitions: democracy, markets and costs",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/postcommunist-transitions-democracy-markets-and-costs/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|south asia india pakistan and the cost of partition": {
+      "hash": "a94c0e1ebd295ef4",
+      "title": "041 · South Asia: India, Pakistan and the cost of partition",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/south-asia-india-pakistan-and-the-cost-of-partition/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|southern africa angola and the struggle against apartheid": {
+      "hash": "12926a3c6d7d3a70",
+      "title": "041 · Southern Africa, Angola and the struggle against apartheid",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/southern-africa-angola-and-the-struggle-against-apartheid/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|the arms race space race and scientific development": {
+      "hash": "e00e667e8f17bbb7",
+      "title": "041 · The arms race, space race and scientific development",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-arms-race-space-race-and-scientific-development/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|the balkans after 1991 yugoslavias violent dissolution": {
+      "hash": "11bdc4d9f605a18d",
+      "title": "041 · The Balkans after 1991: Yugoslavia's violent dissolution",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-balkans-after-1991-yugoslavias-violent-dissolution/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|the chinese revolution and the remaking of east asia": {
+      "hash": "aca17843be053ca7",
+      "title": "041 · The Chinese Revolution and the remaking of East Asia",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-chinese-revolution-and-the-remaking-of-east-asia/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|the congo crisis sovereignty under pressure": {
+      "hash": "518bdbf6dbd737d8",
+      "title": "041 · The Congo Crisis: sovereignty under pressure",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-congo-crisis-sovereignty-under-pressure/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|the cuban revolution and the missile crisis": {
+      "hash": "5df189853dc206bf",
+      "title": "041 · The Cuban Revolution and the missile crisis",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-cuban-revolution-and-the-missile-crisis/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|the european union and nato expand": {
+      "hash": "86c83e0541257302",
+      "title": "041 · The European Union and NATO expand",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-european-union-and-nato-expand/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|the post 1991 international order and its limits": {
+      "hash": "df5e9414aa6afca9",
+      "title": "041 · The post-1991 international order and its limits",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-post-1991-international-order-and-its-limits/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|the revolutions of 1989 and the fall of the wall": {
+      "hash": "7f730d25bbcaca00",
+      "title": "041 · The revolutions of 1989 and the fall of the Wall",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-revolutions-of-1989-and-the-fall-of-the-wall/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|the strange outcome of the wartime alliance": {
+      "hash": "eb21da6eb4f91279",
+      "title": "041 · The strange outcome of the wartime alliance",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/the-strange-outcome-of-the-wartime-alliance/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|vietnam war nationalism and intervention": {
+      "hash": "bb85a03f196028d3",
+      "title": "041 · Vietnam: war, nationalism and intervention",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/vietnam-war-nationalism-and-intervention/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|what changed by 1991 and what did not": {
+      "hash": "c58f52dc5bc4099f",
+      "title": "041 · What changed by 1991—and what did not",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/what-changed-by-1991-and-what-did-not/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|what the term cold war explains and what it hides": {
+      "hash": "a873050359e3effd",
+      "title": "041 · What the term Cold War explains—and what it hides",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/what-the-term-cold-war-explains-and-what-it-hides/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "041|why the cold war ended and why historians disagree": {
+      "hash": "6ca83a258107066f",
+      "title": "041 · Why the Cold War ended—and why historians disagree",
+      "url": "/041-cold-war-decolonization-and-the-post-1991-world/why-the-cold-war-ended-and-why-historians-disagree/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|@flashcards": {
+      "hash": "84bffb9ff2c2955d",
+      "title": "042 · Flashcard prompts",
+      "url": "/042-why-wars-begin/flashcards/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|@opening": {
+      "hash": "193dc21239e1ff80",
+      "title": "Why Wars Begin",
+      "url": "/042-why-wars-begin/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|@practice": {
+      "hash": "711b4c49d3d48512",
+      "title": "042 · Exercises",
+      "url": "/042-why-wars-begin/practice/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|@sources": {
+      "hash": "b0c0e1f5df810db4",
+      "title": "042 · Sources and further reading",
+      "url": "/042-why-wars-begin/sources/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|a bargaining range worked through": {
+      "hash": "199d45b05592f47a",
+      "title": "042 · A bargaining range, worked through",
+      "url": "/042-why-wars-begin/a-bargaining-range-worked-through/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|a worked exercise the dam on a contested river": {
+      "hash": "29bfc9bb453fed4e",
+      "title": "042 · A worked exercise: the dam on a contested river",
+      "url": "/042-why-wars-begin/a-worked-exercise-the-dam-on-a-contested-river/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|alliances reassurance entrapment and abandonment": {
+      "hash": "10affa3efb90938f",
+      "title": "042 · Alliances: reassurance, entrapment and abandonment",
+      "url": "/042-why-wars-begin/alliances-reassurance-entrapment-and-abandonment/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|balances of power and power transitions": {
+      "hash": "63f6c6eeebf36b00",
+      "title": "042 · Balances of power and power transitions",
+      "url": "/042-why-wars-begin/balances-of-power-and-power-transitions/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|bulgaria and the balkan wars a comparative exercise": {
+      "hash": "18408cea4008b946",
+      "title": "042 · Bulgaria and the Balkan wars: a comparative exercise",
+      "url": "/042-why-wars-begin/bulgaria-and-the-balkan-wars-a-comparative-exercise/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|case study europes july crisis of 1914": {
+      "hash": "9d1adc9e14a9edf4",
+      "title": "042 · Case study: Europe's July Crisis of 1914",
+      "url": "/042-why-wars-begin/case-study-europes-july-crisis-of-1914/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|case study iraq and kuwait 1990 1991": {
+      "hash": "01ad290e2d7253de",
+      "title": "042 · Case study: Iraq and Kuwait, 1990–1991",
+      "url": "/042-why-wars-begin/case-study-iraq-and-kuwait-1990-1991/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|case study iraq in 2003 and the problem of intelligence": {
+      "hash": "be927010493a261d",
+      "title": "042 · Case study: Iraq in 2003 and the problem of intelligence",
+      "url": "/042-why-wars-begin/case-study-iraq-in-2003-and-the-problem-of-intelligence/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|case study the cuban missile crisis 1962": {
+      "hash": "f93c9b53b25ca1e9",
+      "title": "042 · Case study: the Cuban Missile Crisis, 1962",
+      "url": "/042-why-wars-begin/case-study-the-cuban-missile-crisis-1962/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|case study the road to world war ii": {
+      "hash": "a759c90d21951c79",
+      "title": "042 · Case study: the road to World War II",
+      "url": "/042-why-wars-begin/case-study-the-road-to-world-war-ii/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|civil war bargaining and the problem of disarmament": {
+      "hash": "bbe5f8e77cabc46f",
+      "title": "042 · Civil-war bargaining and the problem of disarmament",
+      "url": "/042-why-wars-begin/civil-war-bargaining-and-the-problem-of-disarmament/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|civil wars different participants overlapping logics": {
+      "hash": "5b64c22681e512c3",
+      "title": "042 · Civil wars: different participants, overlapping logics",
+      "url": "/042-why-wars-begin/civil-wars-different-participants-overlapping-logics/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|commitment problems the danger of tomorrow": {
+      "hash": "c9860a904e4bbaa3",
+      "title": "042 · Commitment problems: the danger of tomorrow",
+      "url": "/042-why-wars-begin/commitment-problems-the-danger-of-tomorrow/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|conflict prevention practical instruments and limitations": {
+      "hash": "a702d027819ea25c",
+      "title": "042 · Conflict prevention: practical instruments and limitations",
+      "url": "/042-why-wars-begin/conflict-prevention-practical-instruments-and-limitations/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|democracy authoritarianism and conflict": {
+      "hash": "92a23f5d67773ac0",
+      "title": "042 · Democracy, authoritarianism and conflict",
+      "url": "/042-why-wars-begin/democracy-authoritarianism-and-conflict/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|deterrence reassurance and restraint": {
+      "hash": "815c3946fcd51e8c",
+      "title": "042 · Deterrence, reassurance and restraint",
+      "url": "/042-why-wars-begin/deterrence-reassurance-and-restraint/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|diversionary war and the risk of convenient stories": {
+      "hash": "8ca722c2cfbdd504",
+      "title": "042 · Diversionary war and the risk of convenient stories",
+      "url": "/042-why-wars-begin/diversionary-war-and-the-risk-of-convenient-stories/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|economic pressure without economic determinism": {
+      "hash": "8ec88811b1021ba2",
+      "title": "042 · Economic pressure without economic determinism",
+      "url": "/042-why-wars-begin/economic-pressure-without-economic-determinism/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|ethnic violence communal fear and local agency": {
+      "hash": "4f8fc43873267acd",
+      "title": "042 · Ethnic violence, communal fear and local agency",
+      "url": "/042-why-wars-begin/ethnic-violence-communal-fear-and-local-agency/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|evidence uncertainty and the ethics of explanation": {
+      "hash": "1e61ffc61900d850",
+      "title": "042 · Evidence, uncertainty and the ethics of explanation",
+      "url": "/042-why-wars-begin/evidence-uncertainty-and-the-ethics-of-explanation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|fear humiliation honor and emotions": {
+      "hash": "f3b038a17acc5be5",
+      "title": "042 · Fear, humiliation, honor and emotions",
+      "url": "/042-why-wars-begin/fear-humiliation-honor-and-emotions/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|ideology and rival visions of legitimate rule": {
+      "hash": "a514eda49e4d764c",
+      "title": "042 · Ideology and rival visions of legitimate rule",
+      "url": "/042-why-wars-begin/ideology-and-rival-visions-of-legitimate-rule/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|indivisible issues and the meaning of territory": {
+      "hash": "ffbc35cdc5ae4967",
+      "title": "042 · Indivisible issues and the meaning of territory",
+      "url": "/042-why-wars-begin/indivisible-issues-and-the-meaning-of-territory/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|leaders political survival and unequal costs": {
+      "hash": "4e9e64b32012c977",
+      "title": "042 · Leaders, political survival and unequal costs",
+      "url": "/042-why-wars-begin/leaders-political-survival-and-unequal-costs/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|miscalculation mobilization and unintended escalation": {
+      "hash": "4059a59db5a01f74",
+      "title": "042 · Miscalculation, mobilization and unintended escalation",
+      "url": "/042-why-wars-begin/miscalculation-mobilization-and-unintended-escalation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|nationalism historical memory and mass mobilization": {
+      "hash": "4dfbd654d157c60e",
+      "title": "042 · Nationalism, historical memory and mass mobilization",
+      "url": "/042-why-wars-begin/nationalism-historical-memory-and-mass-mobilization/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|offence defence and the power of geography": {
+      "hash": "64b63e58738a757b",
+      "title": "042 · Offence, defence and the power of geography",
+      "url": "/042-why-wars-begin/offence-defence-and-the-power-of-geography/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|perception analogy and the human mind": {
+      "hash": "d6ce5c8cf4844c38",
+      "title": "042 · Perception, analogy and the human mind",
+      "url": "/042-why-wars-begin/perception-analogy-and-the-human-mind/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|preventive war versus preemptive attack": {
+      "hash": "9d8f895b0bd81417",
+      "title": "042 · Preventive war versus preemptive attack",
+      "url": "/042-why-wars-begin/preventive-war-versus-preemptive-attack/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|private information and optimistic expectations": {
+      "hash": "e23290cb8cf90c9c",
+      "title": "042 · Private information and optimistic expectations",
+      "url": "/042-why-wars-begin/private-information-and-optimistic-expectations/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|synthesis turning a war story into a causal explanation": {
+      "hash": "72237bb346463038",
+      "title": "042 · Synthesis: turning a war story into a causal explanation",
+      "url": "/042-why-wars-begin/synthesis-turning-a-war-story-into-a-causal-explanation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|territory resources and strategic routes": {
+      "hash": "e2327e52b9cacb4c",
+      "title": "042 · Territory, resources and strategic routes",
+      "url": "/042-why-wars-begin/territory-resources-and-strategic-routes/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|the puzzle why not settle instead": {
+      "hash": "83e5a36471950e59",
+      "title": "042 · The puzzle: why not settle instead?",
+      "url": "/042-why-wars-begin/the-puzzle-why-not-settle-instead/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|the security dilemma defence looks like danger": {
+      "hash": "47f1e6e8f24c44dc",
+      "title": "042 · The security dilemma: defence looks like danger",
+      "url": "/042-why-wars-begin/the-security-dilemma-defence-looks-like-danger/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|threats bluffs and costly signals": {
+      "hash": "79a0f5c47c162e2a",
+      "title": "042 · Threats, bluffs and costly signals",
+      "url": "/042-why-wars-begin/threats-bluffs-and-costly-signals/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|three levels of explanation": {
+      "hash": "34cd4341fd586dda",
+      "title": "042 · Three levels of explanation",
+      "url": "/042-why-wars-begin/three-levels-of-explanation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|trade and economic interdependence": {
+      "hash": "242f2b58b37e0ce7",
+      "title": "042 · Trade and economic interdependence",
+      "url": "/042-why-wars-begin/trade-and-economic-interdependence/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|what counts as war and why definitions matter": {
+      "hash": "89265bda3b04b507",
+      "title": "042 · What counts as war, and why definitions matter",
+      "url": "/042-why-wars-begin/what-counts-as-war-and-why-definitions-matter/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "042|why some wars keep going": {
+      "hash": "7e2ecd7e5652ab34",
+      "title": "042 · Why some wars keep going",
+      "url": "/042-why-wars-begin/why-some-wars-keep-going/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|@flashcards": {
+      "hash": "3be81abcf5b500eb",
+      "title": "043 · Flashcard prompts",
+      "url": "/043-the-geography-of-power/flashcards/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|@opening": {
+      "hash": "cc3be01ddea5d4c8",
+      "title": "The Geography of Power",
+      "url": "/043-the-geography-of-power/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|@practice": {
+      "hash": "d092c2b051fcfffc",
+      "title": "043 · Exercises",
+      "url": "/043-the-geography-of-power/practice/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|@sources": {
+      "hash": "f69de22d92099394",
+      "title": "043 · Sources and further reading",
+      "url": "/043-the-geography-of-power/sources/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|a seven question diagnostic of geographic power": {
+      "hash": "6e28dd30d9c79294",
+      "title": "043 · A seven-question diagnostic of geographic power",
+      "url": "/043-the-geography-of-power/a-seven-question-diagnostic-of-geographic-power/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|an exercise in comparative power three fictional states": {
+      "hash": "2411d0e2d1655544",
+      "title": "043 · An exercise in comparative power: three fictional states",
+      "url": "/043-the-geography-of-power/an-exercise-in-comparative-power-three-fictional-states/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|borders are institutions drawn across space": {
+      "hash": "2adc712752cf096f",
+      "title": "043 · Borders are institutions drawn across space",
+      "url": "/043-the-geography-of-power/borders-are-institutions-drawn-across-space/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|bulgaria a crossroads is not a destiny": {
+      "hash": "789105b2a197c248",
+      "title": "043 · Bulgaria: a crossroads is not a destiny",
+      "url": "/043-the-geography-of-power/bulgaria-a-crossroads-is-not-a-destiny/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|bulgarias routes danube black sea and balkan passes": {
+      "hash": "666e38714af34f43",
+      "title": "043 · Bulgaria's routes: Danube, Black Sea and Balkan passes",
+      "url": "/043-the-geography-of-power/bulgarias-routes-danube-black-sea-and-balkan-passes/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|china and east asia coast interior and regional networks": {
+      "hash": "f080777f24ad1039",
+      "title": "043 · China and East Asia: coast, interior and regional networks",
+      "url": "/043-the-geography-of-power/china-and-east-asia-coast-interior-and-regional-networks/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|cities and ports as network nodes": {
+      "hash": "6c0d0c089a6eb20a",
+      "title": "043 · Cities and ports as network nodes",
+      "url": "/043-the-geography-of-power/cities-and-ports-as-network-nodes/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|classic theories useful questions dangerous shortcuts": {
+      "hash": "1d930eb7e81c8303",
+      "title": "043 · Classic theories: useful questions, dangerous shortcuts",
+      "url": "/043-the-geography-of-power/classic-theories-useful-questions-dangerous-shortcuts/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|climate hazards and environmental security": {
+      "hash": "20b46d37c0a47a6c",
+      "title": "043 · Climate, hazards and environmental security",
+      "url": "/043-the-geography-of-power/climate-hazards-and-environmental-security/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|coastlines and the advantage of sea access": {
+      "hash": "ca9aba9e173f31f5",
+      "title": "043 · Coastlines and the advantage of sea access",
+      "url": "/043-the-geography-of-power/coastlines-and-the-advantage-of-sea-access/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|critical geopolitics whose map is being drawn": {
+      "hash": "c11b9efb186f2e7b",
+      "title": "043 · Critical geopolitics: whose map is being drawn?",
+      "url": "/043-the-geography-of-power/critical-geopolitics-whose-map-is-being-drawn/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|distance is a cost not just a measurement": {
+      "hash": "d8086953026ccd58",
+      "title": "043 · Distance is a cost, not just a measurement",
+      "url": "/043-the-geography-of-power/distance-is-a-cost-not-just-a-measurement/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|egypt and panama infrastructure creates new geography": {
+      "hash": "73983d8418445db7",
+      "title": "043 · Egypt and Panama: infrastructure creates new geography",
+      "url": "/043-the-geography-of-power/egypt-and-panama-infrastructure-creates-new-geography/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|energy geography fixed deposits and moving systems": {
+      "hash": "e937d3a789182668",
+      "title": "043 · Energy geography: fixed deposits and moving systems",
+      "url": "/043-the-geography-of-power/energy-geography-fixed-deposits-and-moving-systems/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|food farmland and strategic resilience": {
+      "hash": "d436102987067950",
+      "title": "043 · Food, farmland and strategic resilience",
+      "url": "/043-the-geography-of-power/food-farmland-and-strategic-resilience/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|geography and the ethics of strategic language": {
+      "hash": "6a8680f71996ef4a",
+      "title": "043 · Geography and the ethics of strategic language",
+      "url": "/043-the-geography-of-power/geography-and-the-ethics-of-strategic-language/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|how to read a strategic map without being deceived": {
+      "hash": "602a6e29f02c9f6d",
+      "title": "043 · How to read a strategic map without being deceived",
+      "url": "/043-the-geography-of-power/how-to-read-a-strategic-map-without-being-deceived/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|islands archipelagos and competing scales": {
+      "hash": "0bb328d555eadd1c",
+      "title": "043 · Islands, archipelagos and competing scales",
+      "url": "/043-the-geography-of-power/islands-archipelagos-and-competing-scales/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|landlocked states and the politics of transit": {
+      "hash": "7ac0effccceef49a",
+      "title": "043 · Landlocked states and the politics of transit",
+      "url": "/043-the-geography-of-power/landlocked-states-and-the-politics-of-transit/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|mapping the supply chain instead of the mine": {
+      "hash": "c2ab077332057b9a",
+      "title": "043 · Mapping the supply chain instead of the mine",
+      "url": "/043-the-geography-of-power/mapping-the-supply-chain-instead-of-the-mine/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|maritime law territorial waters and economic zones": {
+      "hash": "7bc197f4341a2f06",
+      "title": "043 · Maritime law: territorial waters and economic zones",
+      "url": "/043-the-geography-of-power/maritime-law-territorial-waters-and-economic-zones/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|mountains protection separation and passage": {
+      "hash": "49ac972616908d9f",
+      "title": "043 · Mountains: protection, separation and passage",
+      "url": "/043-the-geography-of-power/mountains-protection-separation-and-passage/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|physical geography and human geography belong together": {
+      "hash": "0694ab4c8632a6b8",
+      "title": "043 · Physical geography and human geography belong together",
+      "url": "/043-the-geography-of-power/physical-geography-and-human-geography-belong-together/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|plains and corridors the ease and danger of movement": {
+      "hash": "508edba81d62a44f",
+      "title": "043 · Plains and corridors: the ease and danger of movement",
+      "url": "/043-the-geography-of-power/plains-and-corridors-the-ease-and-danger-of-movement/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|population geography and the problem of concentrated assets": {
+      "hash": "6fd8406789a584b8",
+      "title": "043 · Population geography and the problem of concentrated assets",
+      "url": "/043-the-geography-of-power/population-geography-and-the-problem-of-concentrated-assets/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|resources wealth dependency and the resource trap": {
+      "hash": "bb696079c0e0a8f5",
+      "title": "043 · Resources: wealth, dependency and the resource trap",
+      "url": "/043-the-geography-of-power/resources-wealth-dependency-and-the-resource-trap/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|rivers connect and divide": {
+      "hash": "f24adb820407b830",
+      "title": "043 · Rivers connect and divide",
+      "url": "/043-the-geography-of-power/rivers-connect-and-divide/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|russia and the problem of distance and access": {
+      "hash": "5e7e4d987ee61a7a",
+      "title": "043 · Russia and the problem of distance and access",
+      "url": "/043-the-geography-of-power/russia-and-the-problem-of-distance-and-access/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|sea power fleets and the shore": {
+      "hash": "268b086713c7c74e",
+      "title": "043 · Sea power, fleets and the shore",
+      "url": "/043-the-geography-of-power/sea-power-fleets-and-the-shore/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|straits canals and maritime chokepoints": {
+      "hash": "8607d40fe2580dfb",
+      "title": "043 · Straits, canals and maritime chokepoints",
+      "url": "/043-the-geography-of-power/straits-canals-and-maritime-chokepoints/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|strategic vulnerability measuring dependence": {
+      "hash": "8659b23ab7b6ece8",
+      "title": "043 · Strategic vulnerability: measuring dependence",
+      "url": "/043-the-geography-of-power/strategic-vulnerability-measuring-dependence/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|technology changes the meaning of terrain": {
+      "hash": "e6977dc5801fd536",
+      "title": "043 · Technology changes the meaning of terrain",
+      "url": "/043-the-geography-of-power/technology-changes-the-meaning-of-terrain/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|the arctic opportunity hazards and misleading headlines": {
+      "hash": "f18ae662b472a08e",
+      "title": "043 · The Arctic: opportunity, hazards and misleading headlines",
+      "url": "/043-the-geography-of-power/the-arctic-opportunity-hazards-and-misleading-headlines/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|the geography of information and undersea cables": {
+      "hash": "cfbdc09be14f49f0",
+      "title": "043 · The geography of information and undersea cables",
+      "url": "/043-the-geography-of-power/the-geography-of-information-and-undersea-cables/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|the mediterranean and its narrow passages": {
+      "hash": "5856b3f11575cbb4",
+      "title": "043 · The Mediterranean and its narrow passages",
+      "url": "/043-the-geography-of-power/the-mediterranean-and-its-narrow-passages/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|the united states oceans rivers and continental networks": {
+      "hash": "1ff08da56cb69390",
+      "title": "043 · The United States: oceans, rivers and continental networks",
+      "url": "/043-the-geography-of-power/the-united-states-oceans-rivers-and-continental-networks/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|turkey and the straits geography under law and diplomacy": {
+      "hash": "a9255074bea2b4e2",
+      "title": "043 · Turkey and the Straits: geography under law and diplomacy",
+      "url": "/043-the-geography-of-power/turkey-and-the-straits-geography-under-law-and-diplomacy/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|what geographers mean by power": {
+      "hash": "45f9d4986a562284",
+      "title": "043 · What geographers mean by power",
+      "url": "/043-the-geography-of-power/what-geographers-mean-by-power/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "043|worked case a disputed mountain transit corridor": {
+      "hash": "570a88257de18748",
+      "title": "043 · Worked case: a disputed mountain transit corridor",
+      "url": "/043-the-geography-of-power/worked-case-a-disputed-mountain-transit-corridor/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|@flashcards": {
+      "hash": "024fb2092f258ff0",
+      "title": "044 · Flashcard prompts",
+      "url": "/044-military-organization-and-logistics/flashcards/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|@opening": {
+      "hash": "a28859b8f99f3fc7",
+      "title": "Military Organization and Logistics",
+      "url": "/044-military-organization-and-logistics/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|@practice": {
+      "hash": "9d0371a7728856ae",
+      "title": "044 · Exercises",
+      "url": "/044-military-organization-and-logistics/practice/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|@sources": {
+      "hash": "3715936ba0e1f138",
+      "title": "044 · Sources and further reading",
+      "url": "/044-military-organization-and-logistics/sources/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|@summary": {
+      "hash": "387ea86f24575869",
+      "title": "044 · Key concepts to retain",
+      "url": "/044-military-organization-and-logistics/summary/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|a worked case the two emergency service budgets": {
+      "hash": "d43eea1dd1637a98",
+      "title": "044 · A worked case: the two emergency-service budgets",
+      "url": "/044-military-organization-and-logistics/a-worked-case-the-two-emergency-service-budgets/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|active service reserves and mobilisation": {
+      "hash": "d131b46ec4cce936",
+      "title": "044 · Active service, reserves and mobilisation",
+      "url": "/044-military-organization-and-logistics/active-service-reserves-and-mobilisation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|alliances standardisation and shared responsibility": {
+      "hash": "4d6a7463c3ee3fc2",
+      "title": "044 · Alliances, standardisation and shared responsibility",
+      "url": "/044-military-organization-and-logistics/alliances-standardisation-and-shared-responsibility/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|bulgaria military institutions in constitutional context": {
+      "hash": "3c36802df23dbf97",
+      "title": "044 · Bulgaria: military institutions in constitutional context",
+      "url": "/044-military-organization-and-logistics/bulgaria-military-institutions-in-constitutional-context/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|civilian control and the purpose of military institutions": {
+      "hash": "8932d2273adbaa94",
+      "title": "044 · Civilian control and the purpose of military institutions",
+      "url": "/044-military-organization-and-logistics/civilian-control-and-the-purpose-of-military-institutions/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|civilians forced labour and the moral cost of supply": {
+      "hash": "ac758ccd61e5ef0d",
+      "title": "044 · Civilians, forced labour and the moral cost of supply",
+      "url": "/044-military-organization-and-logistics/civilians-forced-labour-and-the-moral-cost-of-supply/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|command staff and accountability": {
+      "hash": "dca42c8a7f1fee14",
+      "title": "044 · Command, staff and accountability",
+      "url": "/044-military-organization-and-logistics/command-staff-and-accountability/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|communications and institutional coordination": {
+      "hash": "e744ac297f78c08d",
+      "title": "044 · Communications and institutional coordination",
+      "url": "/044-military-organization-and-logistics/communications-and-institutional-coordination/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|connections across knowledge kingdom": {
+      "hash": "5ad8ee6d8eaf1d49",
+      "title": "044 · Connections across Knowledge Kingdom",
+      "url": "/044-military-organization-and-logistics/connections-across-knowledge-kingdom/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|conscription volunteers and professional forces": {
+      "hash": "da72eb2ed3876ed5",
+      "title": "044 · Conscription, volunteers and professional forces",
+      "url": "/044-military-organization-and-logistics/conscription-volunteers-and-professional-forces/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|corruption procurement and the illusion of modernisation": {
+      "hash": "fd593935b2093e49",
+      "title": "044 · Corruption, procurement and the illusion of modernisation",
+      "url": "/044-military-organization-and-logistics/corruption-procurement-and-the-illusion-of-modernisation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|early modern fiscal and military states": {
+      "hash": "a6f40a7f47bb865d",
+      "title": "044 · Early modern fiscal and military states",
+      "url": "/044-military-organization-and-logistics/early-modern-fiscal-and-military-states/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|fuel energy and industrial consumption": {
+      "hash": "77d7b0ecb1dc4c6a",
+      "title": "044 · Fuel, energy and industrial consumption",
+      "url": "/044-military-organization-and-logistics/fuel-energy-and-industrial-consumption/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|health sanitation and the limits of the human body": {
+      "hash": "d377880bd41f8618",
+      "title": "044 · Health, sanitation and the limits of the human body",
+      "url": "/044-military-organization-and-logistics/health-sanitation-and-the-limits-of-the-human-body/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|how to read claims about military strength": {
+      "hash": "c696d1f5e13476a5",
+      "title": "044 · How to read claims about military strength",
+      "url": "/044-military-organization-and-logistics/how-to-read-claims-about-military-strength/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|industrialisation and the first world war": {
+      "hash": "6060aab928f800f3",
+      "title": "044 · Industrialisation and the First World War",
+      "url": "/044-military-organization-and-logistics/industrialisation-and-the-first-world-war/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|information intelligence and uncertainty": {
+      "hash": "462acfbd556362d9",
+      "title": "044 · Information, intelligence and uncertainty",
+      "url": "/044-military-organization-and-logistics/information-intelligence-and-uncertainty/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|joint institutions and combined arms": {
+      "hash": "9de727faec1b5208",
+      "title": "044 · Joint institutions and combined arms",
+      "url": "/044-military-organization-and-logistics/joint-institutions-and-combined-arms/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|limited war and the difficulty of political victory": {
+      "hash": "2b2a0bf901c5ec2d",
+      "title": "044 · Limited war and the difficulty of political victory",
+      "url": "/044-military-organization-and-logistics/limited-war-and-the-difficulty-of-political-victory/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|maintenance and life cycle costs": {
+      "hash": "94fb59c55dd91f26",
+      "title": "044 · Maintenance and life-cycle costs",
+      "url": "/044-military-organization-and-logistics/maintenance-and-life-cycle-costs/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|military expenditure and the economics of security": {
+      "hash": "e8d12b69dc90ffda",
+      "title": "044 · Military expenditure and the economics of security",
+      "url": "/044-military-organization-and-logistics/military-expenditure-and-the-economics-of-security/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|morale cohesion and legitimacy": {
+      "hash": "14b8520532353bf4",
+      "title": "044 · Morale, cohesion and legitimacy",
+      "url": "/044-military-organization-and-logistics/morale-cohesion-and-legitimacy/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|napoleon in russia a failure beyond the weather": {
+      "hash": "1d514160261df8b8",
+      "title": "044 · Napoleon in Russia: a failure beyond the weather",
+      "url": "/044-military-organization-and-logistics/napoleon-in-russia-a-failure-beyond-the-weather/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|readiness is not a single number": {
+      "hash": "6f2986933d399d18",
+      "title": "044 · Readiness is not a single number",
+      "url": "/044-military-organization-and-logistics/readiness-is-not-a-single-number/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|resources capability and political power": {
+      "hash": "07fc0b91a13a2da6",
+      "title": "044 · Resources, capability and political power",
+      "url": "/044-military-organization-and-logistics/resources-capability-and-political-power/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|supply is a chain of institutions": {
+      "hash": "a6aa03b0b87d1a7a",
+      "title": "044 · Supply is a chain of institutions",
+      "url": "/044-military-organization-and-logistics/supply-is-a-chain-of-institutions/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|synthesis why strength does not guarantee success": {
+      "hash": "142fb2df6f31ee48",
+      "title": "044 · Synthesis: why strength does not guarantee success",
+      "url": "/044-military-organization-and-logistics/synthesis-why-strength-does-not-guarantee-success/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|technology changes dependencies rather than ending them": {
+      "hash": "c6131bdaae373675",
+      "title": "044 · Technology changes dependencies rather than ending them",
+      "url": "/044-military-organization-and-logistics/technology-changes-dependencies-rather-than-ending-them/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|the ancient world organising an army before engines": {
+      "hash": "8c0a49e49aad7e0c",
+      "title": "044 · The ancient world: organising an army before engines",
+      "url": "/044-military-organization-and-logistics/the-ancient-world-organising-an-army-before-engines/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|the berlin airlift logistics as political communication": {
+      "hash": "a03d5e3e203fed4a",
+      "title": "044 · The Berlin Airlift: logistics as political communication",
+      "url": "/044-military-organization-and-logistics/the-berlin-airlift-logistics-as-political-communication/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|the mongol empire and the ecology of mobility": {
+      "hash": "3830f58372bef470",
+      "title": "044 · The Mongol Empire and the ecology of mobility",
+      "url": "/044-military-organization-and-logistics/the-mongol-empire-and-the-ecology-of-mobility/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|the second world war as a global institutional struggle": {
+      "hash": "ddfae6b69a8296ee",
+      "title": "044 · The Second World War as a global institutional struggle",
+      "url": "/044-military-organization-and-logistics/the-second-world-war-as-a-global-institutional-struggle/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|the stock and the flow": {
+      "hash": "2c21a6b06d5ff354",
+      "title": "044 · The stock and the flow",
+      "url": "/044-military-organization-and-logistics/the-stock-and-the-flow/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|the strategic operational and tactical levels": {
+      "hash": "75698805467743f5",
+      "title": "044 · The strategic, operational and tactical levels",
+      "url": "/044-military-organization-and-logistics/the-strategic-operational-and-tactical-levels/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|training education and the human institution": {
+      "hash": "d6fd7a02ddb33e76",
+      "title": "044 · Training, education and the human institution",
+      "url": "/044-military-organization-and-logistics/training-education-and-the-human-institution/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|transport geography and the meaning of distance": {
+      "hash": "f885b4bec31384da",
+      "title": "044 · Transport, geography and the meaning of distance",
+      "url": "/044-military-organization-and-logistics/transport-geography-and-the-meaning-of-distance/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|units formations and ranks": {
+      "hash": "201b2a38c55e0ead",
+      "title": "044 · Units, formations and ranks",
+      "url": "/044-military-organization-and-logistics/units-formations-and-ranks/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|what is an armed force": {
+      "hash": "1c549316d490029b",
+      "title": "044 · What is an armed force?",
+      "url": "/044-military-organization-and-logistics/what-is-an-armed-force/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "044|what logistics means": {
+      "hash": "5a85906bab75d5e7",
+      "title": "044 · What logistics means",
+      "url": "/044-military-organization-and-logistics/what-logistics-means/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|@flashcards": {
+      "hash": "3d5c56e73e914e67",
+      "title": "045 · Flashcard prompts",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/flashcards/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|@opening": {
+      "hash": "f60df58492bd8550",
+      "title": "Diplomacy, Alliances, and Balance of Power",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|@practice": {
+      "hash": "a0845dcce5ce0c43",
+      "title": "045 · Exercises",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/practice/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|@sources": {
+      "hash": "43c373a4019ac28e",
+      "title": "045 · Sources and further reading",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/sources/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|@summary": {
+      "hash": "3b310db221cadc82",
+      "title": "045 · Key concepts to retain",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/summary/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|a worked case a river basin conference": {
+      "hash": "5d2a30e67a4e7f2d",
+      "title": "045 · A worked case: a river basin conference",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/a-worked-case-a-river-basin-conference/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|alliances before 1914 commitments without inevitability": {
+      "hash": "52c5ce4743deaa47",
+      "title": "045 · Alliances before 1914: commitments without inevitability",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/alliances-before-1914-commitments-without-inevitability/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|balance of power a distribution and a policy": {
+      "hash": "e0312fb95a601b6c",
+      "title": "045 · Balance of power: a distribution and a policy",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/balance-of-power-a-distribution-and-a-policy/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|balancing threats not just capabilities": {
+      "hash": "4d6b40a2f07aab68",
+      "title": "045 · Balancing threats, not just capabilities",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/balancing-threats-not-just-capabilities/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|bandung and the refusal to be treated as a chess piece": {
+      "hash": "51eef50ee2424668",
+      "title": "045 · Bandung and the refusal to be treated as a chess piece",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bandung-and-the-refusal-to-be-treated-as-a-chess-piece/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|bandwagoning neutrality and hedging": {
+      "hash": "9b2ddc2338d4b776",
+      "title": "045 · Bandwagoning, neutrality and hedging",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bandwagoning-neutrality-and-hedging/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|bargaining ranges and the cost of disagreement": {
+      "hash": "ff175456e6870bfa",
+      "title": "045 · Bargaining ranges and the cost of disagreement",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bargaining-ranges-and-the-cost-of-disagreement/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|before ambassadors ancient diplomacy": {
+      "hash": "24bab9dc2f73c4fa",
+      "title": "045 · Before ambassadors: ancient diplomacy",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/before-ambassadors-ancient-diplomacy/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|bulgaria diplomacy as a smaller states institution": {
+      "hash": "f3874b2f0ccd95e2",
+      "title": "045 · Bulgaria: diplomacy as a smaller state's institution",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/bulgaria-diplomacy-as-a-smaller-states-institution/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|burden sharing and the problem of common goods": {
+      "hash": "d3b293e2052e60c4",
+      "title": "045 · Burden-sharing and the problem of common goods",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/burden-sharing-and-the-problem-of-common-goods/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|camp david a durable agreement with unresolved questions": {
+      "hash": "90220abf60b3a2a4",
+      "title": "045 · Camp David: a durable agreement with unresolved questions",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/camp-david-a-durable-agreement-with-unresolved-questions/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|collective defence and collective security": {
+      "hash": "0e155de3e926244e",
+      "title": "045 · Collective defence and collective security",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/collective-defence-and-collective-security/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|connections across knowledge kingdom": {
+      "hash": "318f23695c07537c",
+      "title": "045 · Connections across Knowledge Kingdom",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/connections-across-knowledge-kingdom/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|diplomacy in unequal worlds": {
+      "hash": "09802ce9d4164104",
+      "title": "045 · Diplomacy in unequal worlds",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/diplomacy-in-unequal-worlds/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|domestic politics negotiating at two tables": {
+      "hash": "40acf6c56309c36a",
+      "title": "045 · Domestic politics: negotiating at two tables",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/domestic-politics-negotiating-at-two-tables/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|economic diplomacy and interdependence": {
+      "hash": "a0ddee466bf44a36",
+      "title": "045 · Economic diplomacy and interdependence",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/economic-diplomacy-and-interdependence/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|foreign policy diplomacy and statecraft": {
+      "hash": "e720c7fb9e858ea7",
+      "title": "045 · Foreign policy, diplomacy and statecraft",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/foreign-policy-diplomacy-and-statecraft/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|helsinki managing rivalry without ending it": {
+      "hash": "8dd3dac8503845fb",
+      "title": "045 · Helsinki: managing rivalry without ending it",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/helsinki-managing-rivalry-without-ending-it/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|how to read diplomatic news": {
+      "hash": "8eb321b75f3bb276",
+      "title": "045 · How to read diplomatic news",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/how-to-read-diplomatic-news/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|information credibility and verification": {
+      "hash": "73144acd37ed6d12",
+      "title": "045 · Information, credibility and verification",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/information-credibility-and-verification/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|mediation arbitration and adjudication": {
+      "hash": "a1bcc81a67e02f24",
+      "title": "045 · Mediation, arbitration and adjudication",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/mediation-arbitration-and-adjudication/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|nato the warsaw pact and institutional asymmetry": {
+      "hash": "477acbe675f4fd53",
+      "title": "045 · NATO, the Warsaw Pact and institutional asymmetry",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/nato-the-warsaw-pact-and-institutional-asymmetry/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|neutrality and the limits of independence": {
+      "hash": "889fa4f5782aadc2",
+      "title": "045 · Neutrality and the limits of independence",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/neutrality-and-the-limits-of-independence/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|polarity one two or many centres of power": {
+      "hash": "5f5c83b5cccb8ca4",
+      "title": "045 · Polarity: one, two or many centres of power",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/polarity-one-two-or-many-centres-of-power/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|rapprochement across ideological divides": {
+      "hash": "b2966eb1531da2e7",
+      "title": "045 · Rapprochement across ideological divides",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/rapprochement-across-ideological-divides/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|regional institutions beyond the atlantic": {
+      "hash": "60cbfb34329d2e10",
+      "title": "045 · Regional institutions beyond the Atlantic",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/regional-institutions-beyond-the-atlantic/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|sovereignty and the westphalian story": {
+      "hash": "7ae81de852a2ef10",
+      "title": "045 · Sovereignty and the Westphalian story",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/sovereignty-and-the-westphalian-story/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|synthesis security is a relationship not an inventory": {
+      "hash": "3b8f3ffcda4aaf45",
+      "title": "045 · Synthesis: security is a relationship, not an inventory",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/synthesis-security-is-a-relationship-not-an-inventory/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|the alliance dilemma abandonment and entrapment": {
+      "hash": "9ca42e8e55bdaf53",
+      "title": "045 · The alliance dilemma: abandonment and entrapment",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-alliance-dilemma-abandonment-and-entrapment/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|the concert and the limits of great power management": {
+      "hash": "4edd8893da095351",
+      "title": "045 · The Concert and the limits of great-power management",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-concert-and-the-limits-of-great-power-management/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|the congress of vienna a defeated power returns": {
+      "hash": "3683551e57dbfe68",
+      "title": "045 · The Congress of Vienna: a defeated power returns",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-congress-of-vienna-a-defeated-power-returns/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|the cuban missile crisis the value and cost of communication": {
+      "hash": "27628d8f80abeb07",
+      "title": "045 · The Cuban Missile Crisis: the value and cost of communication",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-cuban-missile-crisis-the-value-and-cost-of-communication/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|the difference between a position and an interest": {
+      "hash": "39e21bdac494522b",
+      "title": "045 · The difference between a position and an interest",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-difference-between-a-position-and-an-interest/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|the embassy as an institution": {
+      "hash": "6fd2d81c5025af4d",
+      "title": "045 · The embassy as an institution",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-embassy-as-an-institution/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|the league of nations a promise and a capacity problem": {
+      "hash": "abb116d7ebf40dd1",
+      "title": "045 · The League of Nations: a promise and a capacity problem",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-league-of-nations-a-promise-and-a-capacity-problem/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|the many channels of diplomacy": {
+      "hash": "ec72f90fb49752f9",
+      "title": "045 · The many channels of diplomacy",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-many-channels-of-diplomacy/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|the security dilemma": {
+      "hash": "222827d21e3deeaf",
+      "title": "045 · The security dilemma",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-security-dilemma/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|the united nations law authority and political disagreement": {
+      "hash": "71ef88de3620659d",
+      "title": "045 · The United Nations: law, authority and political disagreement",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/the-united-nations-law-authority-and-political-disagreement/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|treaties declarations and political commitments": {
+      "hash": "7a9b6b7cc9b44e23",
+      "title": "045 · Treaties, declarations and political commitments",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/treaties-declarations-and-political-commitments/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "045|what is an alliance": {
+      "hash": "3bbe2f4501b9f77b",
+      "title": "045 · What is an alliance?",
+      "url": "/045-diplomacy-alliances-and-balance-of-power/what-is-an-alliance/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|@flashcards": {
+      "hash": "8b766079b409d8ba",
+      "title": "046 · Flashcard prompts",
+      "url": "/046-international-law-and-armed-conflict/flashcards/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|@opening": {
+      "hash": "909ced5e5b313924",
+      "title": "International Law and Armed Conflict",
+      "url": "/046-international-law-and-armed-conflict/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|@practice": {
+      "hash": "c93d763ef33d5915",
+      "title": "046 · Exercises",
+      "url": "/046-international-law-and-armed-conflict/practice/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|@sources": {
+      "hash": "dd6d6f14347e1738",
+      "title": "046 · Sources and further reading",
+      "url": "/046-international-law-and-armed-conflict/sources/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|@summary": {
+      "hash": "d7d0a29faa7f3b93",
+      "title": "046 · Key concepts to retain",
+      "url": "/046-international-law-and-armed-conflict/summary/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|a fictional case the river valley and four legal questions": {
+      "hash": "cc5c85e31ed354bc",
+      "title": "046 · A fictional case: the river valley and four legal questions",
+      "url": "/046-international-law-and-armed-conflict/a-fictional-case-the-river-valley-and-four-legal-questions/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|aggression a legal concept and a political accusation": {
+      "hash": "20f328590763464b",
+      "title": "046 · Aggression: a legal concept and a political accusation",
+      "url": "/046-international-law-and-armed-conflict/aggression-a-legal-concept-and-a-political-accusation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|bulgaria and the everyday implementation of international law": {
+      "hash": "533761309a8d6b57",
+      "title": "046 · Bulgaria and the everyday implementation of international law",
+      "url": "/046-international-law-and-armed-conflict/bulgaria-and-the-everyday-implementation-of-international/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|captivity and the legal status of prisoners": {
+      "hash": "d4b8016ddfd818ff",
+      "title": "046 · Captivity and the legal status of prisoners",
+      "url": "/046-international-law-and-armed-conflict/captivity-and-the-legal-status-of-prisoners/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|case study congo uganda and the long journey to reparation": {
+      "hash": "7d63f2153c41c1dd",
+      "title": "046 · Case study: Congo, Uganda and the long journey to reparation",
+      "url": "/046-international-law-and-armed-conflict/case-study-congo-uganda-and-the-long-journey-to-reparation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|case study nicaragua and the reach of customary law": {
+      "hash": "9f9d567f6af3bad8",
+      "title": "046 · Case study: Nicaragua and the reach of customary law",
+      "url": "/046-international-law-and-armed-conflict/case-study-nicaragua-and-the-reach-of-customary-law/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|case study rwanda bosnia and the different meanings of responsibility": {
+      "hash": "c93918ae51f2757c",
+      "title": "046 · Case study: Rwanda, Bosnia and the different meanings of responsibility",
+      "url": "/046-international-law-and-armed-conflict/case-study-rwanda-bosnia-and-the-different-meanings/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|children families and people who disappear": {
+      "hash": "135b3a6dcef7e018",
+      "title": "046 · Children, families and people who disappear",
+      "url": "/046-international-law-and-armed-conflict/children-families-and-people-who-disappear/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|collective security and the united nations": {
+      "hash": "585175b3bc5fac1f",
+      "title": "046 · Collective security and the United Nations",
+      "url": "/046-international-law-and-armed-conflict/collective-security-and-the-united-nations/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|common article 3 and the minimum floor of humanity": {
+      "hash": "37bd883ed34ef3b2",
+      "title": "046 · Common Article 3 and the minimum floor of humanity",
+      "url": "/046-international-law-and-armed-conflict/common-article-3-and-the-minimum-floor-of-humanity/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|connections across knowledge kingdom": {
+      "hash": "e8aa54f5d76575e5",
+      "title": "046 · Connections across Knowledge Kingdom",
+      "url": "/046-international-law-and-armed-conflict/connections-across-knowledge-kingdom/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|culture memory and the natural environment": {
+      "hash": "edc9fb29464c740d",
+      "title": "046 · Culture, memory and the natural environment",
+      "url": "/046-international-law-and-armed-conflict/culture-memory-and-the-natural-environment/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|displacement refugees and the right to seek protection": {
+      "hash": "06a9e4e822b5254c",
+      "title": "046 · Displacement, refugees and the right to seek protection",
+      "url": "/046-international-law-and-armed-conflict/displacement-refugees-and-the-right-to-seek-protection/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|distinction people are not interchangeable with their governments": {
+      "hash": "2f3d9049f9149010",
+      "title": "046 · Distinction: people are not interchangeable with their governments",
+      "url": "/046-international-law-and-armed-conflict/distinction-people-are-not-interchangeable/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|from the hague to the geneva conventions": {
+      "hash": "04090f8f8902b12a",
+      "title": "046 · From the Hague to the Geneva Conventions",
+      "url": "/046-international-law-and-armed-conflict/from-the-hague-to-the-geneva-conventions/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|how the prohibition on interstate force developed": {
+      "hash": "f5f36b225be4247a",
+      "title": "046 · How the prohibition on interstate force developed",
+      "url": "/046-international-law-and-armed-conflict/how-the-prohibition-on-interstate-force-developed/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|human rights law does not simply switch off": {
+      "hash": "581ac1a867aa4a99",
+      "title": "046 · Human rights law does not simply switch off",
+      "url": "/046-international-law-and-armed-conflict/human-rights-law-does-not-simply-switch-off/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|humanitarian intervention and responsibility to protect": {
+      "hash": "ea64efdb2bb69fbf",
+      "title": "046 · Humanitarian intervention and responsibility to protect",
+      "url": "/046-international-law-and-armed-conflict/humanitarian-intervention-and-responsibility-to-protect/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|humanitarian relief and the problem of access": {
+      "hash": "2c4ef6d4c8953523",
+      "title": "046 · Humanitarian relief and the problem of access",
+      "url": "/046-international-law-and-armed-conflict/humanitarian-relief-and-the-problem-of-access/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|individual criminal responsibility from nuremberg onward": {
+      "hash": "9bde1685b580ffeb",
+      "title": "046 · Individual criminal responsibility: from Nuremberg onward",
+      "url": "/046-international-law-and-armed-conflict/individual-criminal-responsibility-from-nuremberg-onward/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|is international law really law": {
+      "hash": "c18c8016f32eeebe",
+      "title": "046 · Is international law really law?",
+      "url": "/046-international-law-and-armed-conflict/is-international-law-really-law/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|necessity humanity and prohibited treatment": {
+      "hash": "5e6c17b5fdff2a8b",
+      "title": "046 · Necessity, humanity and prohibited treatment",
+      "url": "/046-international-law-and-armed-conflict/necessity-humanity-and-prohibited-treatment/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|new technology arms regulation and old principles": {
+      "hash": "fbe37ce962ea2064",
+      "title": "046 · New technology, arms regulation and old principles",
+      "url": "/046-international-law-and-armed-conflict/new-technology-arms-regulation-and-old-principles/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|occupation authority without sovereignty": {
+      "hash": "8919a07568dcb466",
+      "title": "046 · Occupation: authority without sovereignty",
+      "url": "/046-international-law-and-armed-conflict/occupation-authority-without-sovereignty/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|proportionality and precautions why numbers alone cannot decide": {
+      "hash": "df9aea1d39d331e3",
+      "title": "046 · Proportionality and precautions: why numbers alone cannot decide",
+      "url": "/046-international-law-and-armed-conflict/proportionality-and-precautions-why-numbers-alone-cannot/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|proving a crime evidence intent and responsibility": {
+      "hash": "8d2c8596a9384751",
+      "title": "046 · Proving a crime: evidence, intent and responsibility",
+      "url": "/046-international-law-and-armed-conflict/proving-a-crime-evidence-intent-and-responsibility/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|reading judicial documents palestine israel and procedural distinctions": {
+      "hash": "697ed72c7f88106d",
+      "title": "046 · Reading judicial documents: Palestine, Israel and procedural distinctions",
+      "url": "/046-international-law-and-armed-conflict/reading-judicial-documents-palestine-israel-and-procedural/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|self defence and the difference between fear and entitlement": {
+      "hash": "d0d91cfefe324060",
+      "title": "046 · Self-defence and the difference between fear and entitlement",
+      "url": "/046-international-law-and-armed-conflict/self-defence-and-the-difference-between-fear-and-entitlement/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|siege scarcity and the protection of civilian survival": {
+      "hash": "2386f30f0320c9b9",
+      "title": "046 · Siege, scarcity and the protection of civilian survival",
+      "url": "/046-international-law-and-armed-conflict/siege-scarcity-and-the-protection-of-civilian-survival/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|solferino the red cross and the geneva movement": {
+      "hash": "05d9ae37138fa0ce",
+      "title": "046 · Solferino, the Red Cross and the Geneva movement",
+      "url": "/046-international-law-and-armed-conflict/solferino-the-red-cross-and-the-geneva-movement/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|sovereignty consent and the limits of independence": {
+      "hash": "ec371c04bc2f6f66",
+      "title": "046 · Sovereignty, consent and the limits of independence",
+      "url": "/046-international-law-and-armed-conflict/sovereignty-consent-and-the-limits-of-independence/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|state responsibility who owes what to whom": {
+      "hash": "cf83bd81153d10d4",
+      "title": "046 · State responsibility: who owes what to whom?",
+      "url": "/046-international-law-and-armed-conflict/state-responsibility-who-owes-what-to-whom/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|the international court of justice is not the icc": {
+      "hash": "6c1f089d194b107d",
+      "title": "046 · The International Court of Justice is not the ICC",
+      "url": "/046-international-law-and-armed-conflict/the-international-court-of-justice-is-not-the-icc/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|the international criminal court and the limits of jurisdiction": {
+      "hash": "4339256f83b4af92",
+      "title": "046 · The International Criminal Court and the limits of jurisdiction",
+      "url": "/046-international-law-and-armed-conflict/the-international-criminal-court-and-the-limits/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|the long history of restraint in war": {
+      "hash": "bf557f47a4e2b7a7",
+      "title": "046 · The long history of restraint in war",
+      "url": "/046-international-law-and-armed-conflict/the-long-history-of-restraint-in-war/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|the wounded medical services and humanitarian emblems": {
+      "hash": "02365ec80665a65b",
+      "title": "046 · The wounded, medical services and humanitarian emblems",
+      "url": "/046-international-law-and-armed-conflict/the-wounded-medical-services-and-humanitarian-emblems/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|two legal questions which must not be confused": {
+      "hash": "8a7fd052168e041d",
+      "title": "046 · Two legal questions which must not be confused",
+      "url": "/046-international-law-and-armed-conflict/two-legal-questions-which-must-not-be-confused/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|war crimes crimes against humanity and genocide": {
+      "hash": "a4ad1eaca80f6b20",
+      "title": "046 · War crimes, crimes against humanity and genocide",
+      "url": "/046-international-law-and-armed-conflict/war-crimes-crimes-against-humanity-and-genocide/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|when humanitarian law begins to apply": {
+      "hash": "3c6fb3da9cd08c93",
+      "title": "046 · When humanitarian law begins to apply",
+      "url": "/046-international-law-and-armed-conflict/when-humanitarian-law-begins-to-apply/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|where international rules come from": {
+      "hash": "d30f90dc6dc5f76d",
+      "title": "046 · Where international rules come from",
+      "url": "/046-international-law-and-armed-conflict/where-international-rules-come-from/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "046|why law is obeyed why it is broken and why enforcement matters": {
+      "hash": "048952c27a3c4d3e",
+      "title": "046 · Why law is obeyed, why it is broken and why enforcement matters",
+      "url": "/046-international-law-and-armed-conflict/why-law-is-obeyed-why-it-is-broken-and-why-enforcement/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|1945 scientific achievement and human catastrophe": {
+      "hash": "dc9d6da259e83557",
+      "title": "047 · 1945: scientific achievement and human catastrophe",
+      "url": "/047-deterrence-and-nuclear-strategy/1945-scientific-achievement-and-human-catastrophe/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|@flashcards": {
+      "hash": "0bdafcd6876bbc56",
+      "title": "047 · Flashcard prompts",
+      "url": "/047-deterrence-and-nuclear-strategy/flashcards/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|@opening": {
+      "hash": "d88e4d97f0774060",
+      "title": "Deterrence and Nuclear Strategy",
+      "url": "/047-deterrence-and-nuclear-strategy/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|@practice": {
+      "hash": "cce8d87b935fac62",
+      "title": "047 · Exercises",
+      "url": "/047-deterrence-and-nuclear-strategy/practice/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|@sources": {
+      "hash": "ca179f39c8b8df05",
+      "title": "047 · Sources and further reading",
+      "url": "/047-deterrence-and-nuclear-strategy/sources/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|@summary": {
+      "hash": "f093988466a7b9ac",
+      "title": "047 · Key concepts to retain",
+      "url": "/047-deterrence-and-nuclear-strategy/summary/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|a fictional summit separating shared interests from unresolved disputes": {
+      "hash": "609aa1381e35363a",
+      "title": "047 · A fictional summit: separating shared interests from unresolved disputes",
+      "url": "/047-deterrence-and-nuclear-strategy/a-fictional-summit-separating-shared-interests/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|a numerical exercise in cumulative uncertainty": {
+      "hash": "3f5431fd7921d4c6",
+      "title": "047 · A numerical exercise in cumulative uncertainty",
+      "url": "/047-deterrence-and-nuclear-strategy/a-numerical-exercise-in-cumulative-uncertainty/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|arms control and disarmament related but distinct": {
+      "hash": "ed1369f545558cab",
+      "title": "047 · Arms control and disarmament: related but distinct",
+      "url": "/047-deterrence-and-nuclear-strategy/arms-control-and-disarmament-related-but-distinct/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|bulgaria nuclear energy alliance membership and international obligations": {
+      "hash": "853a8d7cb61769a6",
+      "title": "047 · Bulgaria: nuclear energy, alliance membership and international obligations",
+      "url": "/047-deterrence-and-nuclear-strategy/bulgaria-nuclear-energy-alliance-membership/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|climate agriculture and the uncertainty of global consequences": {
+      "hash": "357500d4b5238320",
+      "title": "047 · Climate, agriculture and the uncertainty of global consequences",
+      "url": "/047-deterrence-and-nuclear-strategy/climate-agriculture-and-the-uncertainty-of-global/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|communication perception and the role of institutions": {
+      "hash": "18e2945667a6309e",
+      "title": "047 · Communication, perception and the role of institutions",
+      "url": "/047-deterrence-and-nuclear-strategy/communication-perception-and-the-role-of-institutions/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|connections across knowledge kingdom": {
+      "hash": "55b20c556be30f93",
+      "title": "047 · Connections across Knowledge Kingdom",
+      "url": "/047-deterrence-and-nuclear-strategy/connections-across-knowledge-kingdom/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|deterrence compellence and the limits of coercion": {
+      "hash": "c85ccf4f58af7184",
+      "title": "047 · Deterrence, compellence and the limits of coercion",
+      "url": "/047-deterrence-and-nuclear-strategy/deterrence-compellence-and-the-limits-of-coercion/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|escalation and the difference between intention and outcome": {
+      "hash": "353392581a1093cb",
+      "title": "047 · Escalation and the difference between intention and outcome",
+      "url": "/047-deterrence-and-nuclear-strategy/escalation-and-the-difference-between-intention-and-outcome/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|extended deterrence and the nuclear umbrella": {
+      "hash": "671ef912ba8a5b27",
+      "title": "047 · Extended deterrence and the nuclear umbrella",
+      "url": "/047-deterrence-and-nuclear-strategy/extended-deterrence-and-the-nuclear-umbrella/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|from the test ban to superpower agreements": {
+      "hash": "9dda559788db24fe",
+      "title": "047 · From the test ban to superpower agreements",
+      "url": "/047-deterrence-and-nuclear-strategy/from-the-test-ban-to-superpower-agreements/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|humanitarian consequences beyond the moment of destruction": {
+      "hash": "45dbf0c0223abcfc",
+      "title": "047 · Humanitarian consequences: beyond the moment of destruction",
+      "url": "/047-deterrence-and-nuclear-strategy/humanitarian-consequences-beyond-the-moment-of-destruction/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|mutual vulnerability and mutually assured destruction": {
+      "hash": "01a460f3f20c081c",
+      "title": "047 · Mutual vulnerability and mutually assured destruction",
+      "url": "/047-deterrence-and-nuclear-strategy/mutual-vulnerability-and-mutually-assured-destruction/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|nato collective defence and an institutional perspective": {
+      "hash": "2a163fcd416516c2",
+      "title": "047 · NATO: collective defence and an institutional perspective",
+      "url": "/047-deterrence-and-nuclear-strategy/nato-collective-defence-and-an-institutional-perspective/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|near misses and organizational fallibility": {
+      "hash": "2d9455587cd37c70",
+      "title": "047 · Near misses and organizational fallibility",
+      "url": "/047-deterrence-and-nuclear-strategy/near-misses-and-organizational-fallibility/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|new start and the consequences of lost transparency": {
+      "hash": "53e6dcbb99340fba",
+      "title": "047 · New START and the consequences of lost transparency",
+      "url": "/047-deterrence-and-nuclear-strategy/new-start-and-the-consequences-of-lost-transparency/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|nuclear ambiguity and the difficulty of counting possession": {
+      "hash": "e81366db15a763a7",
+      "title": "047 · Nuclear ambiguity and the difficulty of counting possession",
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-ambiguity-and-the-difficulty-of-counting-possession/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|nuclear proliferation more than the spread of technology": {
+      "hash": "1ad2c2ee93a52476",
+      "title": "047 · Nuclear proliferation: more than the spread of technology",
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-proliferation-more-than-the-spread-of-technology/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|nuclear risk new technology and the human decision": {
+      "hash": "acd99383da27d0bb",
+      "title": "047 · Nuclear risk, new technology and the human decision",
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-risk-new-technology-and-the-human-decision/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|nuclear weapons and international law the 1996 advisory opinion": {
+      "hash": "50db0d530c870500",
+      "title": "047 · Nuclear weapons and international law: the 1996 advisory opinion",
+      "url": "/047-deterrence-and-nuclear-strategy/nuclear-weapons-and-international-law-the-1996-advisory/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|peaceful nuclear energy and international safeguards": {
+      "hash": "c8fa35a7ad7316d0",
+      "title": "047 · Peaceful nuclear energy and international safeguards",
+      "url": "/047-deterrence-and-nuclear-strategy/peaceful-nuclear-energy-and-international-safeguards/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|reading the global inventory without false precision": {
+      "hash": "a11f21840f597e03",
+      "title": "047 · Reading the global inventory without false precision",
+      "url": "/047-deterrence-and-nuclear-strategy/reading-the-global-inventory-without-false-precision/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|regions that have chosen to remain nuclear weapon free": {
+      "hash": "d1442ed6710cd144",
+      "title": "047 · Regions that have chosen to remain nuclear-weapon-free",
+      "url": "/047-deterrence-and-nuclear-strategy/regions-that-have-chosen-to-remain-nuclear-weapon-free/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|south africa and the possibility of reversal": {
+      "hash": "ad3dff809122364e",
+      "title": "047 · South Africa and the possibility of reversal",
+      "url": "/047-deterrence-and-nuclear-strategy/south-africa-and-the-possibility-of-reversal/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|south asia and the challenge of regional comparison": {
+      "hash": "a96d4682b517bb45",
+      "title": "047 · South Asia and the challenge of regional comparison",
+      "url": "/047-deterrence-and-nuclear-strategy/south-asia-and-the-challenge-of-regional-comparison/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|strategic stability a concept with several meanings": {
+      "hash": "8d811377db725daa",
+      "title": "047 · Strategic stability: a concept with several meanings",
+      "url": "/047-deterrence-and-nuclear-strategy/strategic-stability-a-concept-with-several-meanings/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the cold war as an international system": {
+      "hash": "4e88c74e6f36a024",
+      "title": "047 · The Cold War as an international system",
+      "url": "/047-deterrence-and-nuclear-strategy/the-cold-war-as-an-international-system/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the comprehensive nuclear test ban treaty": {
+      "hash": "e51c8f794a438722",
+      "title": "047 · The Comprehensive Nuclear-Test-Ban Treaty",
+      "url": "/047-deterrence-and-nuclear-strategy/the-comprehensive-nuclear-test-ban-treaty/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the cuban missile crisis the value of diplomacy": {
+      "hash": "c374ca849f7e4a1e",
+      "title": "047 · The Cuban Missile Crisis: the value of diplomacy",
+      "url": "/047-deterrence-and-nuclear-strategy/the-cuban-missile-crisis-the-value-of-diplomacy/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the difference between rationality and omniscience": {
+      "hash": "d7669b41132bdcb5",
+      "title": "047 · The difference between rationality and omniscience",
+      "url": "/047-deterrence-and-nuclear-strategy/the-difference-between-rationality-and-omniscience/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the early monopoly and the end of atomic exclusivity": {
+      "hash": "5ea9c7b317c0c51e",
+      "title": "047 · The early monopoly and the end of atomic exclusivity",
+      "url": "/047-deterrence-and-nuclear-strategy/the-early-monopoly-and-the-end-of-atomic-exclusivity/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the ethical question that remains after the strategic argument": {
+      "hash": "e33fac66f5a3bfe8",
+      "title": "047 · The ethical question that remains after the strategic argument",
+      "url": "/047-deterrence-and-nuclear-strategy/the-ethical-question-that-remains-after-the-strategic/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the geography of nuclear security is not a map of arsenals": {
+      "hash": "4798b50b0581f211",
+      "title": "047 · The geography of nuclear security is not a map of arsenals",
+      "url": "/047-deterrence-and-nuclear-strategy/the-geography-of-nuclear-security-is-not-a-map-of-arsenals/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the korean peninsula and the persistence of insecurity": {
+      "hash": "74f52f51851356b7",
+      "title": "047 · The Korean Peninsula and the persistence of insecurity",
+      "url": "/047-deterrence-and-nuclear-strategy/the-korean-peninsula-and-the-persistence-of-insecurity/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the npt an international bargain with three pillars": {
+      "hash": "65af8993316c514e",
+      "title": "047 · The NPT: an international bargain with three pillars",
+      "url": "/047-deterrence-and-nuclear-strategy/the-npt-an-international-bargain-with-three-pillars/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the nuclear taboo and the evidence of non use": {
+      "hash": "8184ce48c15a654c",
+      "title": "047 · The nuclear taboo and the evidence of non-use",
+      "url": "/047-deterrence-and-nuclear-strategy/the-nuclear-taboo-and-the-evidence-of-non-use/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the people who lived beside nuclear tests": {
+      "hash": "2a70d201094dbe4d",
+      "title": "047 · The people who lived beside nuclear tests",
+      "url": "/047-deterrence-and-nuclear-strategy/the-people-who-lived-beside-nuclear-tests/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the security dilemma returns": {
+      "hash": "c2fbb6a34dbb13d6",
+      "title": "047 · The security dilemma returns",
+      "url": "/047-deterrence-and-nuclear-strategy/the-security-dilemma-returns/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the stability instability paradox": {
+      "hash": "4287324d62a14c5d",
+      "title": "047 · The stability–instability paradox",
+      "url": "/047-deterrence-and-nuclear-strategy/the-stability-instability-paradox/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|the treaty on the prohibition of nuclear weapons": {
+      "hash": "6a92dc4d5a1c2037",
+      "title": "047 · The Treaty on the Prohibition of Nuclear Weapons",
+      "url": "/047-deterrence-and-nuclear-strategy/the-treaty-on-the-prohibition-of-nuclear-weapons/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|ukraine kazakhstan and belarus after the soviet collapse": {
+      "hash": "f38e55e460415ad4",
+      "title": "047 · Ukraine, Kazakhstan and Belarus after the Soviet collapse",
+      "url": "/047-deterrence-and-nuclear-strategy/ukraine-kazakhstan-and-belarus-after-the-soviet-collapse/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|what deterrence means before we mention nuclear weapons": {
+      "hash": "29827c9f16969274",
+      "title": "047 · What deterrence means before we mention nuclear weapons",
+      "url": "/047-deterrence-and-nuclear-strategy/what-deterrence-means-before-we-mention-nuclear-weapons/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|what would count as evidence that deterrence works": {
+      "hash": "0f17000555a729ef",
+      "title": "047 · What would count as evidence that deterrence works?",
+      "url": "/047-deterrence-and-nuclear-strategy/what-would-count-as-evidence-that-deterrence-works/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "047|why the nuclear age changed the political question": {
+      "hash": "14a9be9d53aa7b8a",
+      "title": "047 · Why the nuclear age changed the political question",
+      "url": "/047-deterrence-and-nuclear-strategy/why-the-nuclear-age-changed-the-political-question/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|@flashcards": {
+      "hash": "b260fa0a1b4d23be",
+      "title": "048 · Flashcard prompts",
+      "url": "/048-civil-wars-and-fragile-states/flashcards/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|@opening": {
+      "hash": "c78ed58821c7997d",
+      "title": "Civil Wars and Fragile States",
+      "url": "/048-civil-wars-and-fragile-states/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|@practice": {
+      "hash": "15ea7d9b4c440a22",
+      "title": "048 · Exercises",
+      "url": "/048-civil-wars-and-fragile-states/practice/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|@sources": {
+      "hash": "35cfd2d37f370c73",
+      "title": "048 · Sources and further reading",
+      "url": "/048-civil-wars-and-fragile-states/sources/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|@summary": {
+      "hash": "f2c6aa8fc478e346",
+      "title": "048 · Key concepts to retain",
+      "url": "/048-civil-wars-and-fragile-states/summary/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|a fictional peace commission turning promises into evidence": {
+      "hash": "172d49252932f117",
+      "title": "048 · A fictional peace commission: turning promises into evidence",
+      "url": "/048-civil-wars-and-fragile-states/a-fictional-peace-commission-turning-promises-into-evidence/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|a worked example what an average hides": {
+      "hash": "d65d12da7142531c",
+      "title": "048 · A worked example: what an average hides",
+      "url": "/048-civil-wars-and-fragile-states/a-worked-example-what-an-average-hides/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|borders displacement and regional spillovers": {
+      "hash": "5fad3de731148cde",
+      "title": "048 · Borders, displacement and regional spillovers",
+      "url": "/048-civil-wars-and-fragile-states/borders-displacement-and-regional-spillovers/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|bosnia and herzegovina ending violence and designing a state": {
+      "hash": "b1c9bfb8857c7e94",
+      "title": "048 · Bosnia and Herzegovina: ending violence and designing a state",
+      "url": "/048-civil-wars-and-fragile-states/bosnia-and-herzegovina-ending-violence-and-designing-a-state/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|bulgaria and the western balkans the institutional value of peaceful disagreement": {
+      "hash": "a92ff3a8b553464d",
+      "title": "048 · Bulgaria and the Western Balkans: the institutional value of peaceful disagreement",
+      "url": "/048-civil-wars-and-fragile-states/bulgaria-and-the-western-balkans-the-institutional-value/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|capacity legitimacy and authority are not interchangeable": {
+      "hash": "c00ffc9483cdca00",
+      "title": "048 · Capacity, legitimacy and authority are not interchangeable",
+      "url": "/048-civil-wars-and-fragile-states/capacity-legitimacy-and-authority-are-not-interchangeable/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|china revolution civil war and competing state building projects": {
+      "hash": "3a1708f931a64549",
+      "title": "048 · China: revolution, civil war and competing state-building projects",
+      "url": "/048-civil-wars-and-fragile-states/china-revolution-civil-war-and-competing-state-building/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|civil war is a category not an explanation": {
+      "hash": "a90f7ba82e21bbd9",
+      "title": "048 · Civil war is a category, not an explanation",
+      "url": "/048-civil-wars-and-fragile-states/civil-war-is-a-category-not-an-explanation/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|climate environmental stress and the temptation of one cause stories": {
+      "hash": "19335f8476c59ac4",
+      "title": "048 · Climate, environmental stress and the temptation of one-cause stories",
+      "url": "/048-civil-wars-and-fragile-states/climate-environmental-stress-and-the-temptation-of-one-cause/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|colombia a peace agreement is not the end of all insecurity": {
+      "hash": "f01b33d26cfc92f1",
+      "title": "048 · Colombia: a peace agreement is not the end of all insecurity",
+      "url": "/048-civil-wars-and-fragile-states/colombia-a-peace-agreement-is-not-the-end-of-all-insecurity/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|connections across knowledge kingdom": {
+      "hash": "b4f18e8e1cace137",
+      "title": "048 · Connections across Knowledge Kingdom",
+      "url": "/048-civil-wars-and-fragile-states/connections-across-knowledge-kingdom/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|disarmament demobilization and civilian reintegration": {
+      "hash": "91005b0f5b9a7115",
+      "title": "048 · Disarmament, demobilization and civilian reintegration",
+      "url": "/048-civil-wars-and-fragile-states/disarmament-demobilization-and-civilian-reintegration/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|ethnicity nationalism and the politics of exclusion": {
+      "hash": "0dc3743ae4bbfdee",
+      "title": "048 · Ethnicity, nationalism and the politics of exclusion",
+      "url": "/048-civil-wars-and-fragile-states/ethnicity-nationalism-and-the-politics-of-exclusion/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|food health education and the long shadow of war": {
+      "hash": "2e2355811c627f1e",
+      "title": "048 · Food, health, education and the long shadow of war",
+      "url": "/048-civil-wars-and-fragile-states/food-health-education-and-the-long-shadow-of-war/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|fragility is not a permanent national identity": {
+      "hash": "7637dc90f090e32f",
+      "title": "048 · Fragility is not a permanent national identity",
+      "url": "/048-civil-wars-and-fragile-states/fragility-is-not-a-permanent-national-identity/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|gender children and participation in recovery": {
+      "hash": "295fd606e4388625",
+      "title": "048 · Gender, children and participation in recovery",
+      "url": "/048-civil-wars-and-fragile-states/gender-children-and-participation-in-recovery/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|guatemala exclusion and the meaning of historical truth": {
+      "hash": "7b5344214febf75c",
+      "title": "048 · Guatemala: exclusion and the meaning of historical truth",
+      "url": "/048-civil-wars-and-fragile-states/guatemala-exclusion-and-the-meaning-of-historical-truth/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|how history creates unequal institutions": {
+      "hash": "0a86558d0157cbb9",
+      "title": "048 · How history creates unequal institutions",
+      "url": "/048-civil-wars-and-fragile-states/how-history-creates-unequal-institutions/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|inequality between individuals and between groups": {
+      "hash": "b9fa2fd3ad3979ff",
+      "title": "048 · Inequality between individuals and between groups",
+      "url": "/048-civil-wars-and-fragile-states/inequality-between-individuals-and-between-groups/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|international peacekeeping and its limits": {
+      "hash": "9247eb4a2f34fb64",
+      "title": "048 · International peacekeeping and its limits",
+      "url": "/048-civil-wars-and-fragile-states/international-peacekeeping-and-its-limits/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|liberia what a completed international mission does and does not mean": {
+      "hash": "e7b56d52e1abe079",
+      "title": "048 · Liberia: what a completed international mission does and does not mean",
+      "url": "/048-civil-wars-and-fragile-states/liberia-what-a-completed-international-mission-does-and-does/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|mozambique the long negotiation after independence": {
+      "hash": "68dc2e1adc1918bd",
+      "title": "048 · Mozambique: the long negotiation after independence",
+      "url": "/048-civil-wars-and-fragile-states/mozambique-the-long-negotiation-after-independence/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|nepal transforming a conflict into constitutional politics": {
+      "hash": "c51d7ead3bc5d4c9",
+      "title": "048 · Nepal: transforming a conflict into constitutional politics",
+      "url": "/048-civil-wars-and-fragile-states/nepal-transforming-a-conflict-into-constitutional-politics/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|opportunity and the limits of statistical prediction": {
+      "hash": "c998286f8e0cef89",
+      "title": "048 · Opportunity and the limits of statistical prediction",
+      "url": "/048-civil-wars-and-fragile-states/opportunity-and-the-limits-of-statistical-prediction/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|outside powers and the internationalization of civil wars": {
+      "hash": "ff85f058d42e118b",
+      "title": "048 · Outside powers and the internationalization of civil wars",
+      "url": "/048-civil-wars-and-fragile-states/outside-powers-and-the-internationalization-of-civil-wars/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|political transitions and the dangers of uncertainty": {
+      "hash": "3da3adff06022a24",
+      "title": "048 · Political transitions and the dangers of uncertainty",
+      "url": "/048-civil-wars-and-fragile-states/political-transitions-and-the-dangers-of-uncertainty/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|power sharing federalism and equal citizenship": {
+      "hash": "c57857f4c8c02cab",
+      "title": "048 · Power-sharing, federalism and equal citizenship",
+      "url": "/048-civil-wars-and-fragile-states/power-sharing-federalism-and-equal-citizenship/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|repression protest and the difference between sequence and cause": {
+      "hash": "2957c17bcc08536d",
+      "title": "048 · Repression, protest and the difference between sequence and cause",
+      "url": "/048-civil-wars-and-fragile-states/repression-protest-and-the-difference-between-sequence/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|resources dependence and the war economy": {
+      "hash": "be22980d07160eda",
+      "title": "048 · Resources, dependence and the war economy",
+      "url": "/048-civil-wars-and-fragile-states/resources-dependence-and-the-war-economy/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|sierra leone resources are not destiny": {
+      "hash": "e88acc77c6cfd244",
+      "title": "048 · Sierra Leone: resources are not destiny",
+      "url": "/048-civil-wars-and-fragile-states/sierra-leone-resources-are-not-destiny/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|somalia public authority does not simply vanish": {
+      "hash": "6944fabcc5e6894b",
+      "title": "048 · Somalia: public authority does not simply vanish",
+      "url": "/048-civil-wars-and-fragile-states/somalia-public-authority-does-not-simply-vanish/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|sudan and south sudan borders do not solve every political dispute": {
+      "hash": "29a107c8e4665f3c",
+      "title": "048 · Sudan and South Sudan: borders do not solve every political dispute",
+      "url": "/048-civil-wars-and-fragile-states/sudan-and-south-sudan-borders-do-not-solve-every-political/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|syria and myanmar why a countrys transition cannot be summarized by one headline": {
+      "hash": "e1fabbb65adec395",
+      "title": "048 · Syria and Myanmar: why a country's transition cannot be summarized by one headline",
+      "url": "/048-civil-wars-and-fragile-states/syria-and-myanmar-why-a-countrys-transition-cannot/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|the credible commitment problem": {
+      "hash": "453f1cb928603259",
+      "title": "048 · The credible commitment problem",
+      "url": "/048-civil-wars-and-fragile-states/the-credible-commitment-problem/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|the economic explanation incentives and resources": {
+      "hash": "2121f666b98a8d96",
+      "title": "048 · The economic explanation: incentives and resources",
+      "url": "/048-civil-wars-and-fragile-states/the-economic-explanation-incentives-and-resources/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|the english civil wars power before the modern nation state": {
+      "hash": "9a835a652b5c7014",
+      "title": "048 · The English Civil Wars: power before the modern nation-state",
+      "url": "/048-civil-wars-and-fragile-states/the-english-civil-wars-power-before-the-modern-nation-state/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|the everyday economics of institutional collapse": {
+      "hash": "701ceca29771cfaa",
+      "title": "048 · The everyday economics of institutional collapse",
+      "url": "/048-civil-wars-and-fragile-states/the-everyday-economics-of-institutional-collapse/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|the feedback loop between fragility and violence": {
+      "hash": "9d946f8ad9f733b8",
+      "title": "048 · The feedback loop between fragility and violence",
+      "url": "/048-civil-wars-and-fragile-states/the-feedback-loop-between-fragility-and-violence/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|the grievance explanation what people believe they have been denied": {
+      "hash": "523783bcac20537e",
+      "title": "048 · The grievance explanation: what people believe they have been denied",
+      "url": "/048-civil-wars-and-fragile-states/the-grievance-explanation-what-people-believe-they-have-been/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|the law asks a different question": {
+      "hash": "54d09db20220708b",
+      "title": "048 · The law asks a different question",
+      "url": "/048-civil-wars-and-fragile-states/the-law-asks-a-different-question/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|the spanish civil war a national conflict with international dimensions": {
+      "hash": "2293c8f9b9ce2d6e",
+      "title": "048 · The Spanish Civil War: a national conflict with international dimensions",
+      "url": "/048-civil-wars-and-fragile-states/the-spanish-civil-war-a-national-conflict-with-international/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|the united states slavery secession and the constitutional order": {
+      "hash": "bc24be07fc4c2b9d",
+      "title": "048 · The United States: slavery, secession and the constitutional order",
+      "url": "/048-civil-wars-and-fragile-states/the-united-states-slavery-secession-and-the-constitutional/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|transitional justice remembering without reproducing collective blame": {
+      "hash": "d779b5d509f75a42",
+      "title": "048 · Transitional justice: remembering without reproducing collective blame",
+      "url": "/048-civil-wars-and-fragile-states/transitional-justice-remembering-without-reproducing/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|what is lost when civilians flee": {
+      "hash": "3e227e89bb21547f",
+      "title": "048 · What is lost when civilians flee?",
+      "url": "/048-civil-wars-and-fragile-states/what-is-lost-when-civilians-flee/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|what makes a state a state": {
+      "hash": "80a6e0aaafc36004",
+      "title": "048 · What makes a state a state?",
+      "url": "/048-civil-wars-and-fragile-states/what-makes-a-state-a-state/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|what peace means after the last battle": {
+      "hash": "381dc9f8b406d480",
+      "title": "048 · What peace means after the last battle",
+      "url": "/048-civil-wars-and-fragile-states/what-peace-means-after-the-last-battle/",
+      "firstSeen": 42,
+      "lastChanged": 42
+    },
+    "048|why a ceasefire is not the same as a peace settlement": {
+      "hash": "b22f368f8e2464ea",
+      "title": "048 · Why a ceasefire is not the same as a peace settlement",
+      "url": "/048-civil-wars-and-fragile-states/why-a-ceasefire-is-not-the-same-as-a-peace-settlement/",
+      "firstSeen": 42,
+      "lastChanged": 42
     },
     "@about": {
       "hash": "9f15558d4d3ddb7e",
