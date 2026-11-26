@@ -7,6 +7,7 @@ import { t, langFromPath, localize } from '../i18n/ui';
 import { site } from '../site.config';
 import { features } from '../config/features';
 import '../styles/map.css';
+import '../styles/emblems.css';
 
 const lang = langFromPath(Astro.url.pathname);
 const L = (p: string) => localize(p, lang);
@@ -73,7 +74,7 @@ const recent = (await Promise.all(latestLinks.map(async (l) => {
           <p class="km-loading">{t(lang, 'map.loading')}</p>
         </div>
         <p id="km-help" class="km-help">{t(lang, 'map.help')}</p>
-        <noscript><style>{'.km{display:none}'}</style></noscript>
+        <noscript><style is:inline>.km{display:none}</style></noscript>
       </section>
     )}
 

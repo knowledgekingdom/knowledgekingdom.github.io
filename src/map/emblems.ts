@@ -44,3 +44,15 @@ export const EMBLEMS: Record<string, string> = {
   bridge: '<path d="M2 15.5h20M2 15.5C5 9.5 8.5 7.5 12 7.5s7 2 10 8M6 15.5v-4.3M12 15.5v-8M18 15.5v-4.3"/><path d="M2 20c2 0 2-1 4-1s2 1 4 1s2-1 4-1s2 1 4 1s2-1 4-1"/>',
   poppy: '<path d="M12 21v-8M12 17.5c-1.6-1.4-3.2-1.6-4.6-.6"/><path d="M12 13c-3.8 0-6-2-6-4.4S8 4 10 5c1-2 3-2 4 0c2-1 4 1.2 4 3.6S15.8 13 12 13z"/><circle class="f" cx="12" cy="8.8" r="1.6"/>',
 };
+
+/**
+ * How each emblem moves when it comes alive (src/styles/emblems.css): the scales tip, the dice
+ * tumble, the hourglass turns over, ships rock on the swell, wheat sways, flames flicker…
+ */
+export const EMBLEM_MOTION: Record<string, string> = {
+  banner: 'wave', scaffold: 'rise', lantern: 'flicker', scales: 'tilt', dice: 'tumble', hourglass: 'flip', compass: 'swing',
+  chart: 'grow', loop: 'spin', book: 'open', footprints: 'step', wheat: 'sway', ziggurat: 'rise', pyramid: 'glint', seal: 'stamp',
+  pagoda: 'bob', crown: 'glint', temple: 'rise', arch: 'rise', baobab: 'sway', sun: 'spin', dome: 'glint', camel: 'walk', yurt: 'bob',
+  tower: 'rise', press: 'stamp', candle: 'flicker', dhow: 'rock', ship: 'rock', maize: 'sway', chain: 'shake', palace: 'glint',
+  telescope: 'sweep', torch: 'flicker', star: 'twinkle', factory: 'puff', map: 'open', flag: 'wave', bridge: 'bob', poppy: 'sway',
+};

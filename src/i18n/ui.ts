@@ -477,6 +477,11 @@ const en = {
   'tr.keyTerms': 'Key terms',
   'tr.inChapter': 'In this chapter: {n} sections · {m} min',
   'tr.playAnyway': 'Play the animation anyway',
+  'cel.chapter': 'Chapter {n} complete',
+  'cel.part': 'Part {n} complete',
+  'cel.journey': 'See your journey',
+  'cel.close': 'Close',
+  'cel.next': 'Next chapter',
 };
 
 export type UIKey = keyof typeof en;
@@ -947,6 +952,11 @@ const bg: Record<UIKey, string> = {
   'tr.keyTerms': 'Ключови понятия',
   'tr.inChapter': 'В тази глава: {n} раздела · {m} мин.',
   'tr.playAnyway': 'Пуснете анимацията все пак',
+  'cel.chapter': 'Глава {n} е прочетена',
+  'cel.part': 'Част {n} е завършена',
+  'cel.journey': 'Вижте пътешествието си',
+  'cel.close': 'Затвори',
+  'cel.next': 'Следваща глава',
 };
 
 const dict: Record<Lang, Record<UIKey, string>> = { en, bg };

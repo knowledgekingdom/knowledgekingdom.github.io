@@ -3,7 +3,7 @@
 // Colours and line weights come from CSS (.km-* classes and --km-* custom properties), so the
 // same drawing serves the light parchment and the dark lantern-lit theme. The fog and the sea's
 // watercolour are painted on canvases by textures.ts, above and below this drawing.
-import { EMBLEMS } from './emblems.ts';
+import { EMBLEMS, EMBLEM_MOTION } from './emblems.ts';
 
 export type Pt = [number, number];
 export type Region = { number: number; roman?: string; title: string; titleBg?: string | null; known: boolean; cx: number; cy: number; r: number; outline: Pt[]; first: number; last: number };
@@ -213,7 +213,7 @@ export function renderMap(data: MapData, opts: RenderOptions = {}): string {
       + (relief ? `<ellipse class="km-shadow" cx="5" cy="${f(houseDepth(n) - 4)}" rx="${f(Math.min(60, 30 + n))}" ry="7"/>` : '')
       + `<g class="km-houses">${houses}</g>`
       + `<circle class="km-medal" r="20"/>`
-      + `<g class="km-emblem" transform="translate(-11.5 -11.5) scale(.96)">${EMBLEMS[t.emblem] ?? EMBLEMS.banner}</g>`
+      + `<g class="km-emblem" transform="translate(-11.5 -11.5) scale(.96)"><g class="em em-m-${EMBLEM_MOTION[t.emblem] ?? 'wave'}">${EMBLEMS[t.emblem] ?? EMBLEMS.banner}</g></g>`
       + `<g class="km-flag"${st === 'done' ? '' : ' hidden'}><use href="#km-pennant" x="20" y="-14"/></g>`
       + `<text class="km-name" y="${f(houseDepth(n) + 34)}"><tspan class="km-num">${t.number}</tspan> ${esc(name)}</text>`
       + `</a>`);

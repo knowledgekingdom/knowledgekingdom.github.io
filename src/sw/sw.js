@@ -57,10 +57,10 @@ self.addEventListener('fetch', (e) => {
     e.respondWith((async () => {
       try {
         const res = await Promise.race([fetch(req), new Promise((_, no) => setTimeout(() => no(new Error('slow')), 6000))]);
+        // Hand the page over at once; keep a copy for offline in the background.
         if (res.ok && res.type === 'basic' && !res.redirected) {
-          const c = await caches.open(C.pages);
-          await c.put(url.pathname, res.clone());
-          trim(C.pages, PAGE_LIMIT);
+          const copy = res.clone();
+          e.waitUntil(caches.open(C.pages).then((c) => c.put(url.pathname, copy)).then(() => trim(C.pages, PAGE_LIMIT)));
         }
         return res;
       } catch {

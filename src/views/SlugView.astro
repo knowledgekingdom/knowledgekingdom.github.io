@@ -15,6 +15,9 @@ import { t, langFromPath, localize, formatMinutes, statusText, type UIKey } from
 import { features } from '../config/features';
 import { chapterUrl } from '../lib/book';
 import '../styles/trailer.css';
+import '../styles/emblems.css';
+import { EMBLEMS, EMBLEM_MOTION } from '../map/emblems';
+import mapData from '../data/map.json';
 
 type Props = { kind: 'part'; part: Part } | { kind: 'chapter'; chapter: Chapter };
 const props = Astro.props as Props;
@@ -37,6 +40,7 @@ const regular = secs.filter((s) => s.data.type === 'section');
 const special = secs.filter((s) => s.data.type !== 'section');
 const part = ch ? partByNumber(ch.data.part, lang) : undefined;
 const hasTimeline = ch ? Boolean(getTimeline(lang).chapterSpans[ch.data.label]) : false;
+const emblemId = ch ? (mapData as { towns: { label: string; emblem: string }[] }).towns.find((x) => x.label === ch!.data.label)?.emblem ?? 'banner' : 'banner';
 const trailerStrings = Object.fromEntries(['title', 'play', 'pause', 'close', 'position', 'storyboard', 'start', 'contents', 'again', 'chapterN',
   'when', 'where', 'story', 'keyTerms', 'inChapter', 'playAnyway'].map((k) => [k, t(lang, `tr.${k}` as UIKey)]));
 ---
@@ -62,6 +66,9 @@ const trailerStrings = Object.fromEntries(['title', 'play', 'pause', 'close', 'p
         { label: `${ch.data.label} ${ch.data.title}` },
       ]} />
       <header class="chapter-hero">
+        <span class="chapter-emblem em-once em-draw" aria-hidden="true" style={`view-transition-name: em-${ch.data.label}; view-transition-class: emblem`}>
+          <svg viewBox="0 0 24 24"><g class={`em em-m-${EMBLEM_MOTION[emblemId] ?? 'wave'}`} set:html={EMBLEMS[emblemId] ?? EMBLEMS.banner} /></svg>
+        </span>
         <span class="chapter-number" aria-hidden="true" style={`view-transition-name: ch-${ch.data.label}`}>{ch.data.label}</span>
         <h1 style={`view-transition-name: ch-title-${ch.data.label}`}><span class="visually-hidden">{t(lang, 'chapter', { n: ch.data.label })}: </span>{ch.data.title}</h1>
         <p class="standfirst" set:html={ch.data.standfirstHtml} />

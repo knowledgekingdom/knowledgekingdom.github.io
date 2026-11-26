@@ -5,6 +5,7 @@
 import mapJson from '../data/map.json';
 import { renderMap, renderTop, townStates, partsDone, fogHoles, smooth, type MapData, type Progress, type Town, type TownState } from './render.ts';
 import { paintSea, createFog } from './textures.ts';
+import { EMBLEMS, EMBLEM_MOTION } from './emblems.ts';
 import { store } from '../scripts/reader';
 import { track } from '../lib/analytics';
 
@@ -318,8 +319,26 @@ export async function mount(root: HTMLElement) {
     base.querySelectorAll('.km-town.is-selected').forEach((el) => el.classList.remove('is-selected'));
     if (returnFocus && was) base.querySelector<SVGAElement>(`.km-town[data-ch="${was}"]`)?.focus({ preventScroll: true });
   }
+  // Leaving for a chapter: the town's emblem becomes the thing that flies into the chapter's
+  // header (a view transition with the same name there), and the map zooms in towards the town.
+  function launch(label: string) {
+    const em = base.querySelector<SVGGraphicsElement>(`.km-town[data-ch="${label}"] .km-emblem`);
+    const town = townBy[label];
+    if (!em || !town) return;
+    const r = em.getBoundingClientRect();
+    const ghost = document.createElement('div');
+    ghost.className = 'km-ghost';
+    ghost.setAttribute('aria-hidden', 'true');
+    ghost.style.cssText = `position:fixed;left:${r.left}px;top:${r.top}px;width:${r.width}px;height:${r.height}px;z-index:2;pointer-events:none;view-transition-name:em-${label};view-transition-class:emblem;color:var(--km-accent)`;
+    ghost.innerHTML = `<svg viewBox="0 0 24 24" style="width:100%;height:100%;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><g class="em em-m-${EMBLEM_MOTION[town.emblem] ?? 'wave'}">${EMBLEMS[town.emblem] ?? EMBLEMS.banner}</g></svg>`;
+    document.body.appendChild(ghost);
+    try { sessionStorage.setItem('kk-dive', JSON.stringify({ x: Math.round(r.left + r.width / 2), y: Math.round(r.top + r.height / 2), label, at: Date.now() })); } catch { /* fine */ }
+    addEventListener('pageshow', () => ghost.remove(), { once: true });
+  }
   panel.addEventListener('click', (e) => {
     const el = e.target as HTMLElement;
+    const link = el.closest<HTMLAnchorElement>('a[href]');
+    if (link && selected && !(e as MouseEvent).ctrlKey && !(e as MouseEvent).metaKey && !(e as MouseEvent).shiftKey) launch(selected);
     if (el.closest('[data-close]')) closePanel();
     const go = el.closest<HTMLElement>('[data-goto]');
     if (go) flyToTown(go.dataset.goto!, true);
@@ -517,7 +536,16 @@ export async function mount(root: HTMLElement) {
   drawBase(html);
   applyTilt();
   [cx, cy, s] = homeView();
+  // Back from a chapter: start close over its town and pull back to the whole view.
+  let back: Town | undefined;
+  try {
+    const ref = document.referrer && new URL(document.referrer);
+    if (ref && ref.origin === location.origin) { const path = ref.pathname.replace(/^\/bg(?=\/)/, ''); back = data.towns.find((tw) => !tw.planned && path.startsWith(tw.url)); }
+  } catch { /* no referrer */ }
+  const home = [cx, cy, s] as const;
+  if (back && !calm()) { cx = back.x; cy = back.y; s = Math.min(sMax(), 1.5); }
   applyView(false);
+  if (back && !calm()) setTimeout(() => flyTo(home[0], home[1], home[2], 1900), 450);
   await pause();
   paintFogTexture();
   await pause();

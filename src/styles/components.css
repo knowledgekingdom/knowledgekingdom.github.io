@@ -730,3 +730,25 @@ body.is-listening { padding-bottom: 6rem; }
 .lt-links a { display: inline-block; padding: .2rem 0; min-height: 24px; }
 .lt-links a { color: var(--ink-2); }
 @media (max-width: 640px) { .lt-item { grid-template-columns: 1fr; } .lt-region { text-align: left; } .lt-links { grid-column: 1; } }
+
+/* ---------- Celebrations (Motion & Story, M2; drawing in src/motion/celebrate.ts) ---------- */
+.cel { position: fixed; inset: 0; z-index: 400; display: grid; place-items: center; opacity: 0; transition: opacity .35s ease; font-family: var(--font-sans); }
+.cel.is-on { opacity: 1; }
+.cel.is-leaving { opacity: 0; transition-duration: .4s; }
+.cel-seal-o { background: radial-gradient(70% 65% at 50% 45%, rgb(12 10 8 / .82), rgb(12 10 8 / .6)); -webkit-backdrop-filter: blur(5px) saturate(.7); backdrop-filter: blur(5px) saturate(.7); }
+.cel-fx, .cel-film { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.cel-card { position: relative; display: grid; justify-items: center; text-align: center; padding: 1.5rem; max-width: min(92vw, 30rem); }
+.cel-wax { width: clamp(150px, 34vw, 220px); height: auto; filter: drop-shadow(0 14px 18px rgb(0 0 0 / .45)); }
+.cel-ring { position: absolute; top: 1.5rem; left: 50%; width: clamp(150px, 34vw, 220px); aspect-ratio: 1; margin-left: calc(clamp(150px, 34vw, 220px) / -2); border-radius: 50%; border: 3px solid #ffd27a; opacity: 0; pointer-events: none; }
+.cel-kicker { margin: 1.1rem 0 .2rem; font: 700 .78rem var(--font-sans); letter-spacing: .18em; text-transform: uppercase; color: #ffd27a; text-shadow: 0 1px 6px rgb(0 0 0 / .8); animation: cel-rise .6s .7s both cubic-bezier(.2, .8, .2, 1); }
+.cel-title { margin: 0 0 1rem; font: 650 clamp(1.4rem, 4vw, 2rem)/1.15 var(--font-serif); color: #fff8ea; text-shadow: 0 2px 14px rgb(0 0 0 / .85); animation: cel-rise .6s .85s both cubic-bezier(.2, .8, .2, 1); }
+.cel-actions { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: .6rem; margin: 0; animation: cel-rise .6s 1s both cubic-bezier(.2, .8, .2, 1); }
+.cel-actions .btn-primary { background: #ffc65a; color: #1d1405; border-color: #ffc65a; }
+.cel-actions .btn:not(.btn-primary) { background: rgb(255 255 255 / .12); color: #fff8ea; border-color: rgb(255 255 255 / .3); }
+.cel-close { width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgb(255 255 255 / .3); background: rgb(0 0 0 / .35); color: #fff8ea; font-size: 1.4rem; cursor: pointer; }
+.cel-part-o { background: radial-gradient(80% 70% at 50% 40%, #111b28, #05080d); }
+.cel-part-text { position: absolute; left: 50%; bottom: 12%; transform: translateX(-50%); text-align: center; width: min(92vw, 40rem); }
+.cel-part-o .cel-kicker { animation-delay: 3.4s; } .cel-part-o .cel-title { animation-delay: 3.6s; font-size: clamp(1.7rem, 5vw, 2.8rem); } .cel-part-o .cel-actions { animation-delay: 4s; }
+@keyframes cel-rise { from { opacity: 0; transform: translateY(14px); } }
+@media (prefers-reduced-motion: reduce) { .cel-kicker, .cel-title, .cel-actions { animation: none; } }
+:root[data-motion='reduce'] .cel-kicker, :root[data-motion='reduce'] .cel-title, :root[data-motion='reduce'] .cel-actions { animation: none; }

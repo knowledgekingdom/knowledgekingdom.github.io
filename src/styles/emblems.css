@@ -1,0 +1,82 @@
+/* Living emblems (Motion & Story, M2). Each emblem's motion comes from EMBLEM_MOTION in
+   src/map/emblems.ts. An emblem moves while .em-live is on (hover, focus, selection, a chapter
+   page arriving) and once with .em-once. Never moves for "reduce motion". */
+.em { transform-box: fill-box; transform-origin: 50% 50%; }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em, .em-once .em { animation-duration: var(--em-dur, 2.4s); animation-timing-function: cubic-bezier(.45, .05, .35, 1); animation-iteration-count: infinite; }
+.em-once .em, .em-once.em { animation-iteration-count: 1; }
+
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-tilt, .em-once .em-m-tilt { animation-name: em-tilt; transform-origin: 50% 12%; }
+@keyframes em-tilt { 0%, 100% { transform: rotate(0); } 25% { transform: rotate(-9deg); } 60% { transform: rotate(7deg); } 80% { transform: rotate(-3deg); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-tumble, .em-once .em-m-tumble { animation-name: em-tumble; --em-dur: 1.8s; }
+@keyframes em-tumble { 0% { transform: translateY(0) rotate(0); } 35% { transform: translateY(-22%) rotate(180deg); } 60% { transform: translateY(0) rotate(340deg); } 75% { transform: translateY(-6%) rotate(360deg); } 100% { transform: translateY(0) rotate(360deg); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-flip, .em-once .em-m-flip { animation-name: em-flip; --em-dur: 3s; }
+@keyframes em-flip { 0%, 40% { transform: rotate(0); } 60%, 100% { transform: rotate(180deg); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-swing > :nth-child(n+2), .em-once .em-m-swing > :nth-child(n+2) { transform-box: view-box; transform-origin: 12px 12px; animation: em-swing 3s cubic-bezier(.3, .1, .3, 1) infinite; }
+.em-once .em-m-swing > :nth-child(n+2) { animation-iteration-count: 1; }
+@keyframes em-swing { 0%, 100% { transform: rotate(0); } 20% { transform: rotate(-70deg); } 45% { transform: rotate(40deg); } 65% { transform: rotate(-15deg); } 80% { transform: rotate(6deg); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-grow, .em-once .em-m-grow { animation-name: em-grow; transform-origin: 50% 100%; }
+@keyframes em-grow { 0%, 100% { transform: scaleY(1); } 30% { transform: scaleY(.5); } 65% { transform: scaleY(1.12); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-spin, .em-once .em-m-spin { animation-name: em-spin; --em-dur: 4s; animation-timing-function: linear; }
+@keyframes em-spin { to { transform: rotate(360deg); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-open, .em-once .em-m-open { animation-name: em-open; }
+@keyframes em-open { 0%, 100% { transform: scaleX(1); } 35% { transform: scaleX(.25); } 70% { transform: scaleX(1.08); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-step > :nth-child(odd), .em-once .em-m-step > :nth-child(odd) { animation: em-step-a 1.6s ease-in-out infinite; }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-step > :nth-child(even), .em-once .em-m-step > :nth-child(even) { animation: em-step-b 1.6s ease-in-out infinite; }
+.em-once .em-m-step > * { animation-iteration-count: 1 !important; }
+@keyframes em-step-a { 0%, 100% { transform: translate(0, 0); } 50% { transform: translate(-1px, -2px); } }
+@keyframes em-step-b { 0%, 100% { transform: translate(0, -2px); } 50% { transform: translate(1px, 0); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-sway, .em-once .em-m-sway { animation-name: em-sway; transform-origin: 50% 100%; --em-dur: 3s; }
+@keyframes em-sway { 0%, 100% { transform: skewX(0) rotate(0); } 30% { transform: skewX(-7deg) rotate(-3deg); } 70% { transform: skewX(6deg) rotate(2deg); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-rise, .em-once .em-m-rise { animation-name: em-rise; transform-origin: 50% 100%; }
+@keyframes em-rise { 0% { transform: scaleY(1); } 20% { transform: scaleY(.85) translateY(4%); } 50% { transform: scaleY(1.08) translateY(-6%); } 70%, 100% { transform: none; } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-glint, .em-once .em-m-glint { animation-name: em-glint; }
+@keyframes em-glint { 0%, 100% { transform: scale(1); filter: none; } 45% { transform: scale(1.1); filter: drop-shadow(0 0 2px currentColor) brightness(1.4); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-stamp, .em-once .em-m-stamp { animation-name: em-stamp; --em-dur: 1.8s; }
+@keyframes em-stamp { 0%, 100% { transform: none; } 30% { transform: translateY(-18%) scale(1.06); } 45% { transform: translateY(4%) scale(.92, 1.06); } 60% { transform: none; } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-bob, .em-once .em-m-bob { animation-name: em-bob; }
+@keyframes em-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10%); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-walk, .em-once .em-m-walk { animation-name: em-walk; --em-dur: 1.4s; }
+@keyframes em-walk { 0%, 100% { transform: translate(0, 0) rotate(0); } 25% { transform: translate(3%, -5%) rotate(2deg); } 50% { transform: translate(6%, 0) rotate(0); } 75% { transform: translate(3%, -4%) rotate(-2deg); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-rock, .em-once .em-m-rock { animation-name: em-rock; transform-origin: 50% 85%; --em-dur: 2.8s; }
+@keyframes em-rock { 0%, 100% { transform: rotate(0) translateY(0); } 25% { transform: rotate(-8deg) translateY(-4%); } 75% { transform: rotate(7deg) translateY(3%); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-shake, .em-once .em-m-shake { animation-name: em-shake; --em-dur: 1.2s; }
+@keyframes em-shake { 0%, 100% { transform: none; } 20% { transform: translateX(-6%) rotate(-4deg); } 40% { transform: translateX(6%) rotate(4deg); } 60% { transform: translateX(-3%); } 80% { transform: translateX(2%); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-sweep, .em-once .em-m-sweep { animation-name: em-sweep; transform-origin: 40% 70%; --em-dur: 3.4s; }
+@keyframes em-sweep { 0%, 100% { transform: rotate(0); } 35% { transform: rotate(-18deg); } 70% { transform: rotate(10deg); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-twinkle, .em-once .em-m-twinkle { animation-name: em-twinkle; --em-dur: 2s; }
+@keyframes em-twinkle { 0%, 100% { transform: rotate(0) scale(1); } 40% { transform: rotate(72deg) scale(1.2); filter: drop-shadow(0 0 3px currentColor); } 60% { transform: rotate(72deg) scale(.95); } }
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-wave, .em-once .em-m-wave { animation-name: em-wave; transform-origin: 20% 50%; --em-dur: 1.8s; }
+@keyframes em-wave { 0%, 100% { transform: skewY(0); } 25% { transform: skewY(6deg) scaleX(.96); } 75% { transform: skewY(-5deg); } }
+/* Flames flicker: the last shape of lantern, candle and torch is the flame. */
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-flicker > :last-child, .em-once .em-m-flicker > :last-child { transform-box: fill-box; transform-origin: 50% 100%; animation: em-flicker .9s steps(6, end) infinite; }
+.em-once .em-m-flicker > :last-child { animation-iteration-count: 3; }
+@keyframes em-flicker { 0% { transform: scale(1, 1); } 20% { transform: scale(.85, 1.12) rotate(-4deg); } 45% { transform: scale(1.08, .9); } 70% { transform: scale(.9, 1.15) rotate(3deg); } 100% { transform: scale(1); } }
+/* Factory smoke puffs: its last shape. */
+:is(.em-live, .km-town:hover, .km-town:focus-visible, .km-town.is-selected) .em-m-puff > :last-child, .em-once .em-m-puff > :last-child { transform-box: fill-box; transform-origin: 0 100%; animation: em-puff 1.8s ease-out infinite; }
+.em-once .em-m-puff > :last-child { animation-iteration-count: 2; }
+@keyframes em-puff { 0% { transform: translate(0, 0) scale(.6); opacity: 0; } 30% { opacity: 1; } 100% { transform: translate(10%, -40%) scale(1.5); opacity: 0; } }
+
+/* Drawing itself in: every stroke traces on (used by the chapter header on arrival). */
+.em-draw path, .em-draw circle, .em-draw rect, .em-draw ellipse { stroke-dasharray: 90; stroke-dashoffset: 90; animation: em-draw 1.3s cubic-bezier(.6, .1, .3, 1) forwards; }
+.em-draw :nth-child(2) { animation-delay: .12s; } .em-draw :nth-child(3) { animation-delay: .24s; } .em-draw :nth-child(4) { animation-delay: .36s; }
+.em-draw :nth-child(n+5) { animation-delay: .48s; }
+.em-draw .f { stroke-dasharray: none; stroke-dashoffset: 0; opacity: 0; animation: em-fill .4s .9s forwards; }
+@keyframes em-draw { to { stroke-dashoffset: 0; } }
+@keyframes em-fill { to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .em, .em > *, .em-draw * { animation: none !important; stroke-dashoffset: 0 !important; opacity: 1 !important; }
+}
+:root[data-motion='reduce'] .em, :root[data-motion='reduce'] .em > *, :root[data-motion='reduce'] .em-draw * { animation: none !important; stroke-dashoffset: 0 !important; opacity: 1 !important; }
+
+/* The emblem in a chapter's header: draws itself in on arrival, then comes alive once; again on hover. */
+.chapter-hero { position: relative; }
+.chapter-emblem { position: absolute; right: 0; top: .4rem; display: grid; place-items: center; width: clamp(72px, 15vw, 132px); aspect-ratio: 1; color: var(--accent); }
+.chapter-emblem svg { width: 100%; height: 100%; fill: none; stroke: currentColor; stroke-width: 1.1; stroke-linecap: round; stroke-linejoin: round; overflow: visible; }
+.chapter-emblem .f { fill: currentColor; stroke: none; }
+.chapter-emblem.em-once .em, .chapter-emblem.em-once .em > * { animation-delay: 1.25s; }
+.chapter-emblem:hover { --em-delay: 0s; }
+.chapter-emblem:hover .em { animation-iteration-count: infinite !important; animation-delay: 0s !important; }
+/* Arriving by flight from the map, the emblem lands already drawn. */
+.kk-dived .chapter-emblem.em-draw * { animation: none; stroke-dashoffset: 0; opacity: 1; }
+.kk-dived .chapter-emblem.em-once .em { animation-delay: .9s; }

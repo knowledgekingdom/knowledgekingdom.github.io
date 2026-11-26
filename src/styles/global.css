@@ -538,10 +538,29 @@ main { flex: 1 0 auto; }
 /* Reading in book order: the text column slides like a page turning (forward = to the left).
    With reduced motion --slide is 0, so it simply crossfades. */
 .reading-main { view-transition-name: reading-main; }
-html:active-view-transition-type(forward)::view-transition-old(reading-main) { animation: var(--dur-2) var(--ease-in) both kk-out-left; }
-html:active-view-transition-type(forward)::view-transition-new(reading-main) { animation: var(--dur-3) var(--ease-out) both kk-in-right; }
-html:active-view-transition-type(backward)::view-transition-old(reading-main) { animation: var(--dur-2) var(--ease-in) both kk-out-right; }
-html:active-view-transition-type(backward)::view-transition-new(reading-main) { animation: var(--dur-3) var(--ease-out) both kk-in-left; }
+/* Motion & Story, M2. Diving from a Kingdom Map town into its chapter: the map zooms in towards
+   the town and fades as the chapter rises, while the town's emblem flies into the chapter header. */
+html:active-view-transition-type(dive)::view-transition-old(root) { animation: 700ms cubic-bezier(.55, 0, .8, .2) both kk-dive-out; transform-origin: var(--dive-x, 50%) var(--dive-y, 50%); }
+html:active-view-transition-type(dive)::view-transition-new(root) { animation: 650ms cubic-bezier(.2, .8, .2, 1) 260ms both kk-dive-in; }
+::view-transition-group(*.emblem) { animation-duration: 900ms; animation-timing-function: cubic-bezier(.6, 0, .2, 1); }
+/* Everything on the arriving page waits until the map has zoomed away (the emblem flies meanwhile). */
+html:active-view-transition-type(dive)::view-transition-new(*) { animation: 650ms cubic-bezier(.2, .8, .2, 1) 300ms both kk-dive-in; }
+html:active-view-transition-type(dive)::view-transition-group(*) { animation-duration: 900ms; }
+html:active-view-transition-type(dive)::view-transition-new(*.emblem) { animation: 500ms ease 250ms both kk-fade-in; }
+html:active-view-transition-type(dive)::view-transition-old(*.emblem) { animation: 500ms ease 250ms both kk-fade-out; }
+html:active-view-transition-type(dive)::view-transition-group(*.emblem) { animation-duration: 950ms; animation-timing-function: cubic-bezier(.6, 0, .2, 1); }
+@keyframes kk-fade-in { from { opacity: 0; } }
+@keyframes kk-dive-out { to { transform: scale(3.4); opacity: 0; filter: blur(4px); } }
+@keyframes kk-dive-in { from { transform: scale(.94) translateY(12px); opacity: 0; } }
+/* Turning pages: sections move like leaves of a book (forward and back). */
+html:active-view-transition-type(forward)::view-transition-old(reading-main) { animation: var(--dur-3) cubic-bezier(.5, 0, .75, 0) both kk-turn-out-fwd; transform-origin: 0 50%; }
+html:active-view-transition-type(forward)::view-transition-new(reading-main) { animation: var(--dur-4) cubic-bezier(.2, .8, .2, 1) both kk-turn-in-fwd; transform-origin: 100% 50%; }
+html:active-view-transition-type(backward)::view-transition-old(reading-main) { animation: var(--dur-3) cubic-bezier(.5, 0, .75, 0) both kk-turn-out-back; transform-origin: 100% 50%; }
+html:active-view-transition-type(backward)::view-transition-new(reading-main) { animation: var(--dur-4) cubic-bezier(.2, .8, .2, 1) both kk-turn-in-back; transform-origin: 0 50%; }
+@keyframes kk-turn-out-fwd { to { transform: perspective(1800px) rotateY(16deg) translateX(-10%); opacity: 0; } }
+@keyframes kk-turn-in-fwd { from { transform: perspective(1800px) rotateY(-12deg) translateX(8%); opacity: 0; } }
+@keyframes kk-turn-out-back { to { transform: perspective(1800px) rotateY(-16deg) translateX(10%); opacity: 0; } }
+@keyframes kk-turn-in-back { from { transform: perspective(1800px) rotateY(12deg) translateX(-8%); opacity: 0; } }
 html:active-view-transition-type(forward)::view-transition-group(reading-main),
 html:active-view-transition-type(backward)::view-transition-group(reading-main) { animation: none; }
 @keyframes kk-out-left { to { opacity: 0; translate: calc(var(--slide) * -2) 0; } }

@@ -22,6 +22,8 @@ export const features = {
   kingdomMap: true,
   /** Motion & Story, M1: a short generated film for each chapter ("Watch the trailer"). */
   trailers: true,
+  /** Motion & Story, M2: a wax seal when a chapter is finished, a short film when a Part is. */
+  celebrations: true,
   atlas: true,
   constellation: false,
 } as const;

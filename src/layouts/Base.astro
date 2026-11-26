@@ -15,6 +15,7 @@ import { site, footerText } from '../site.config';
 import { features } from '../config/features';
 import { getBook, getChapters } from '../lib/book';
 import bookSettings from '../../content-meta/book-settings.json';
+import mapData from '../data/map.json';
 import { t, langFromPath, localize, stripLang, htmlLang } from '../i18n/ui';
 
 interface Props {
@@ -51,9 +52,15 @@ const ogImage = new URL(ogImagePath ?? `/og/${chapterLabel ?? 'home'}-${lang}.jp
 const ogLocale = { en: 'en_US', bg: 'bg_BG' } as const;
 // What the badge rules need to know about the book (src/lib/badges.ts), ~2 KB.
 const regions = (bookSettings as { regions?: Record<string, string> }).regions ?? {};
+// Also each chapter's title in this language and its emblem, for the celebrations (Motion & Story, M2).
+const emblemOf = Object.fromEntries((mapData as { towns: { label: string; emblem: string }[] }).towns.map((x) => [x.label, x.emblem]));
+const localTitles = Object.fromEntries((await getChapters(lang)).map((c) => [c.data.label, c.data.title]));
 const bookMeta = features.games ? JSON.stringify({ chapters: (await getChapters('en')).map((c) => ({ path: `/${c.data.slug}/`,
-  label: c.data.label, part: c.data.part, total: c.data.sectionCount, region: regions[c.data.label] ?? null })) }) : '';
+  label: c.data.label, part: c.data.part, total: c.data.sectionCount, region: regions[c.data.label] ?? null,
+  t: localTitles[c.data.label] ?? c.data.title, e: emblemOf[c.data.label] ?? 'banner' })),
+  parts: getBook(lang).parts.map((p) => ({ n: p.number, roman: p.roman, t: p.title })) }) : '';
 const badgeNames = features.games ? JSON.stringify({ toast: t(lang, 'badge.toast'), journey: localize('/journey/', lang),
+  cel: { chapter: t(lang, 'cel.chapter'), part: t(lang, 'cel.part'), journey: t(lang, 'cel.journey'), close: t(lang, 'cel.close'), next: t(lang, 'cel.next') },
   names: Object.fromEntries(['first-page', 'chapter-complete', 'part-1', 'part-2', 'part-3', 'world-reader', 'cards-100', 'cards-1000',
     'mastered-50', 'streak-7', 'streak-30', 'time-keeper', 'fallacy-detective'].map((id) => [id, t(lang, `badge.${id}` as any)])) }) : '';
 ---
@@ -108,6 +115,12 @@ const badgeNames = features.games ? JSON.stringify({ toast: t(lang, 'badge.toast
     {prev && <link rel="prev" href={prev} />}
     {next && <link rel="next" href={next} />}
     {features.pageTransitions && (
+      // The opt-in must be in the page itself: from the cache (and so for every reader the offline
+      // service worker serves) a page can be shown before the stylesheet is applied, and the browser
+      // then skips the transition. The animations themselves stay in global.css.
+      <style is:inline>@view-transition{navigation:auto}</style>
+    )}
+    {features.pageTransitions && (
       <script is:inline>
         // Page transitions follow the book: arriving from the previous page slides forward,
         // from the next page slides back (CSS in global.css). Must run before first render.
@@ -119,6 +132,15 @@ const badgeNames = features.games ? JSON.stringify({ toast: t(lang, 'badge.toast
             const rel = (r) => document.querySelector('link[rel="' + r + '"]')?.getAttribute('href');
             if (p === rel('prev')) e.viewTransition.types.add('forward');
             else if (p === rel('next')) e.viewTransition.types.add('backward');
+            // Arriving from a town on the Kingdom Map: dive into it (Motion & Story, M2).
+            const dive = JSON.parse(sessionStorage.getItem('kk-dive') || 'null');
+            sessionStorage.removeItem('kk-dive');
+            if (dive && Date.now() - dive.at < 8000) {
+              e.viewTransition.types.add('dive');
+              document.documentElement.classList.add('kk-dived');
+              document.documentElement.style.setProperty('--dive-x', dive.x + 'px');
+              document.documentElement.style.setProperty('--dive-y', dive.y + 'px');
+            }
           } catch (err) {}
         });
       </script>
@@ -198,6 +220,7 @@ const badgeNames = features.games ? JSON.stringify({ toast: t(lang, 'badge.toast
       if (features.listen && document.querySelector('[data-listen]')) import('../scripts/listen-button.ts');
       if (features.offline && import.meta.env.PROD) import('../scripts/offline.ts');
       if (features.games && document.getElementById('kk-book')) import('../scripts/badges.ts');
+      if (features.celebrations && document.getElementById('kk-book')) import('../scripts/celebrate.ts');
       if (features.explorables && document.querySelector('script[data-explorables]')) import('../scripts/explorables.ts');
     </script>
     <script>

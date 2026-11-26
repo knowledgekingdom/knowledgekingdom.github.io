@@ -86,7 +86,7 @@ const counts = { places: places.filter((p) => p.type !== 'empire').length, route
       <p class="standfirst">{t(lang, 'atlas.lede', counts)}</p>
     </header>
 
-    <noscript><style>{'.at-explorer{display:none!important}'}</style></noscript>
+    <noscript><style is:inline>.at-explorer{display:none!important}</style></noscript>
     <section class="at-explorer" aria-label={t(lang, 'atlas.mapLabel')}>
       <div class="at-frame" data-frame tabindex="0" role="application" aria-roledescription="map" aria-label={t(lang, 'atlas.mapLabel')} aria-describedby="at-help">
         <canvas data-canvas aria-hidden="true"></canvas>
