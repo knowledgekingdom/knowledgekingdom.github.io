@@ -23,6 +23,7 @@
 .tr-btn { min-width: 44px; height: 44px; border-radius: 22px; border: 1px solid rgb(255 255 255 / .25); background: rgb(0 0 0 / .35); color: #efe4c8; font: 600 1.4rem/1 var(--font-sans); display: grid; place-items: center; cursor: pointer; padding: 0 .8rem; }
 .tr-btn:focus-visible, .tr-scrub:focus-visible { outline: 3px solid #ffc65a; outline-offset: 2px; }
 .tr-btn-text { font-size: .85rem; }
+.tr-btn[hidden] { display: none; }
 .tr-btn[aria-pressed='true'] { background: #ffc65a; color: #1d1405; }
 .tr-i-play { width: 0; height: 0; border-left: 12px solid currentColor; border-top: 8px solid transparent; border-bottom: 8px solid transparent; margin-left: 3px; }
 .tr-i-pause { width: 12px; height: 15px; border-left: 4px solid currentColor; border-right: 4px solid currentColor; }

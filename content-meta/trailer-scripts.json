@@ -1,0 +1,32 @@
+{
+  "_help": "Narration for the chapter trailers, read by the UK English Male voice (src/trailer/player.ts). Per language and chapter: a list of [scene, text]. Scenes, in film order, with roughly how many words fit before the film has to slow down: title (~10), when (~10), where (~6), story (~45), terms (~15), sections (~14), end (~9). A line for a scene the film doesn't have moves to the next one; a scene lasts as long as its line needs. Aim for about 90 words (40 seconds) per chapter.",
+  "en": {
+    "027": [
+      [
+        "title",
+        "European Maritime Expansion. Small ships, and very large consequences."
+      ],
+      [
+        "when",
+        "Between 1415 and 1571, voyages from Portugal and Castile became empires."
+      ],
+      [
+        "where",
+        "Across the Atlantic, and beyond."
+      ],
+      [
+        "story",
+        "Dias rounded Africa. Columbus reached the Caribbean. Magellan's crew crossed the Pacific. Yet these were not empty worlds. Every landing met people with their own rulers, markets and knowledge, and conquest turned on alliances, disease and force, not ships alone."
+      ],
+      [
+        "sections",
+        "Follow the winds, the money, the treaties, and the people on every shore."
+      ],
+      [
+        "end",
+        "Start reading, and see the voyages from every side."
+      ]
+    ]
+  },
+  "bg": {}
+}

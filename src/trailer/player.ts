@@ -4,10 +4,13 @@
 // themselves with ships sailing them, empires bloom, events pulse with captions while a date
 // counter runs → key terms → the sections roll past like credits → "Start reading".
 // Every frame is computed from the clock alone, so the film can be paused and scrubbed freely.
+// A narrator (the UK English Male voice, content-meta/trailer-scripts.json) reads a short script
+// over the film; a scene lasts long enough for its line, and the picture waits for the voice.
 // Reduced motion opens the storyboard (the same story as text) instead.
 import { EMBLEMS } from '../map/emblems';
 import { position } from '../lib/time-scale';
 import { formatDate } from '../lib/time-scale';
+import { narrator } from '../scripts/listen-engine';
 
 type XY = [number, number];
 type Data = {
@@ -19,6 +22,7 @@ type Data = {
   routes: { n: string; from: number | null; to: number | null; pts: XY[] }[];
   empires: { n: string; from: number | null; to: number | null; pts: [number, number, number | null][] }[];
   terms: { t: string; d: string }[];
+  narration: [string, string][];
 };
 type Geo = { edge: number[]; graticule: number[][]; land: number[][]; lakes: number[][]; rivers: number[][] };
 type Beat = { y: number; date: string; label: string; xy: XY | null; t: number };
@@ -69,6 +73,7 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
       <button type="button" class="tr-btn" data-tr-play aria-label="${esc(S.pause)}"><span class="tr-i-pause" aria-hidden="true"></span></button>
       <input type="range" class="tr-scrub" min="0" max="1000" value="0" step="1" aria-label="${esc(S.position)}" data-tr-scrub />
       <span class="tr-time" data-tr-time>0:00</span>
+      <button type="button" class="tr-btn tr-btn-text" data-tr-voice aria-pressed="true" hidden>${esc(S.narration ?? 'Narration')}</button>
       <button type="button" class="tr-btn tr-btn-text" data-tr-board aria-pressed="false">${esc(S.storyboard)}</button>
       <button type="button" class="tr-btn" data-tr-close aria-label="${esc(S.close)}">×</button>
     </div>`;
@@ -94,9 +99,10 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
   addEventListener('resize', resize);
 
   const prefix = lang === 'bg' ? '/bg' : '';
-  const [data, geo] = await Promise.all([
+  const [data, geo, voice] = await Promise.all([
     fetch(`${prefix === '/bg' ? '/trailers/bg' : '/trailers/en'}/${label}.json`).then((r) => r.json() as Promise<Data>),
     fetch('/atlas/geo.json').then((r) => r.json() as Promise<Geo>).catch(() => null),
+    narrator(lang).catch(() => undefined),
   ]);
   (dlg.querySelector('[data-tr-start]') as HTMLAnchorElement).href = data.first ?? data.url;
   (dlg.querySelector('[data-tr-contents]') as HTMLAnchorElement).href = data.url;
@@ -115,11 +121,6 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
   const pts: XY[] = [...data.places.map((p) => p.xy), ...data.events.filter((e) => e.xy).map((e) => e.xy!), ...data.routes.flatMap((r) => r.pts)];
   // A map scene needs somewhere to go: three places, or an event that happened somewhere.
   const hasMap = Boolean(geo) && (data.places.length >= 3 || data.events.some((e) => e.xy));
-  let c = 0;
-  const T: Record<string, [number, number]> = {};
-  T.title = [c, (c += 5.6)];
-  if (hasSpan) T.when = [c, (c += 5.4)];
-  if (hasMap) T.where = [c, (c += 3.6)];
   // Story beats: events, the start of each route and each empire, in date order.
   let beats: Beat[] = [];
   if (hasSpan) {
@@ -133,15 +134,33 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
     ].filter((x) => !eventYears.has(x.y)).map((x) => ({ ...x, date: formatDate({ start: x.y, end: x.y }, lang) }));
     beats = [...eventBeats, ...startBeats].sort((p, q) => p.y - q.y).slice(0, 10).map((x) => ({ ...x, t: 0 }));
   }
+  // The narration: each line belongs to a scene (a line for a scene this film lacks moves on to the
+  // next one), and each scene lasts at least as long as its lines take to say.
+  const ORDER = ['title', 'when', 'where', 'story', 'terms', 'sections', 'end'];
+  const present = new Set(['title', ...(hasSpan ? ['when'] : []), ...(hasMap ? ['where'] : []), ...(beats.length ? ['story'] : []), ...(data.terms.length ? ['terms'] : []), 'sections', 'end']);
+  const sceneFor = (sc: string) => ORDER.slice(Math.max(0, ORDER.indexOf(sc))).find((x) => present.has(x)) ?? 'end';
+  /** Roughly how long a line takes to say, in seconds. */
+  const sayLen = (text: string) => text.split(/\s+/).length / 2.45 + (text.match(/[.!?](\s|$)/g)?.length ?? 1) * 0.35;
+  type Line = { scene: string; text: string; start: number; len: number; state: 'wait' | 'speaking' | 'done' };
+  const lines: Line[] = (data.narration ?? []).map(([sc, text]) => ({ scene: sceneFor(sc), text, start: 0, len: sayLen(text), state: 'wait' }));
+  const voiced = Boolean(voice) && lines.length > 0;
+  const need = (sc: string) => { const l = voiced ? lines.filter((x) => x.scene === sc) : []; return l.length ? 0.9 + l.reduce((n, x) => n + x.len, 0) : 0; };
+  let c = 0;
+  const T: Record<string, [number, number]> = {};
+  T.title = [c, (c += Math.max(5.6, need('title')))];
+  if (hasSpan) T.when = [c, (c += Math.max(5.4, need('when')))];
+  if (hasMap) T.where = [c, (c += Math.max(3.6, need('where')))];
   if (beats.length) {
-    T.story = [c, c + 1.2 + beats.length * 3.4 + 1];
-    beats.forEach((bt, k) => { bt.t = T.story[0] + 1.2 + k * 3.4; });
+    const gap = Math.max(3.4, (need('story') - 2.2) / beats.length);
+    T.story = [c, c + 1.2 + beats.length * gap + 1];
+    beats.forEach((bt, k) => { bt.t = T.story[0] + 1.2 + k * gap; });
     c = T.story[1];
   }
-  if (data.terms.length) T.terms = [c, (c += 1.8 + Math.min(4, data.terms.length) * 1.7)];
-  T.sections = [c, (c += 7)];
-  T.end = [c, (c += 4.5)];
+  if (data.terms.length) T.terms = [c, (c += Math.max(1.8 + Math.min(4, data.terms.length) * 1.7, need('terms')))];
+  T.sections = [c, (c += Math.max(7, need('sections')))];
+  T.end = [c, (c += Math.max(4.5, need('end') + 1))];
   const DUR = c;
+  for (const sc of ORDER) { let at = (T[sc]?.[0] ?? 0) + 0.5; for (const l of lines.filter((x) => x.scene === sc)) { l.start = at; at += l.len; } }
 
   // The date shown at time t during the story: runs from the chapter's start to its end, landing
   // on each beat's year as its caption appears.
@@ -538,6 +557,54 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
   }
   const fmt = (x: number) => `${Math.floor(x / 60)}:${String(Math.floor(x % 60)).padStart(2, '0')}`;
 
+  // ---------- the narrator ----------
+  const synth = window.speechSynthesis;
+  const voiceBtn = dlg.querySelector<HTMLButtonElement>('[data-tr-voice]')!;
+  let narrate = voiced && (() => { try { return localStorage.getItem('kk-tr-narration') !== 'off'; } catch { return true; } })();
+  let holdSince = 0;
+  const keep: SpeechSynthesisUtterance[] = []; // (some browsers lose the end of an utterance nothing refers to)
+  /** Stop the voice; a line cut off mid-way is said again from its start when the film resumes. */
+  const hush = () => { if (!voiced) return; keep.length = 0; synth.cancel(); for (const l of lines) if (l.state === 'speaking') l.state = 'wait'; };
+  /** After a jump in time: lines already past are skipped, the rest wait for their moment. */
+  const resync = () => { hush(); for (const l of lines) l.state = l.start + 0.3 < t ? 'done' : 'wait'; holdSince = 0; };
+  function speakLine(l: Line) {
+    l.state = 'speaking';
+    // One sentence per utterance: long utterances can be cut short by some voices.
+    const parts = l.text.match(/[^.!?]+[.!?]*(\s+|$)/g) ?? [l.text];
+    parts.forEach((part, i) => {
+      const u = new SpeechSynthesisUtterance(part.trim());
+      u.voice = voice!; u.lang = voice!.lang; u.rate = 1;
+      if (i === parts.length - 1) { const end = () => { if (l.state === 'speaking') l.state = 'done'; }; u.onend = end; u.onerror = end; }
+      keep.push(u); synth.speak(u);
+    });
+  }
+  /** Each frame while playing: start the line that is due; true while the picture waits for the voice. */
+  function narrationStep(): boolean {
+    if (!voiced || !narrate) return false;
+    const speaking = lines.some((l) => l.state === 'speaking');
+    const due = lines.find((l) => l.state === 'wait' && l.start <= t);
+    if (due && !speaking) { speakLine(due); holdSince = 0; return false; }
+    if (speaking && (due || t >= DUR - 0.05)) {
+      const now = performance.now(); holdSince ||= now;
+      if (now - holdSince < 6000) return true;
+      for (const l of lines) if (l.state === 'speaking') l.state = 'done'; // a voice that never says it has finished
+    }
+    holdSince = 0;
+    return false;
+  }
+  const showVoice = () => {
+    voiceBtn.hidden = !voiced; voiceBtn.setAttribute('aria-pressed', String(narrate));
+    voiceBtn.setAttribute('aria-label', narrate ? S.narrationOn ?? 'Narration on' : S.narrationOff ?? 'Narration off');
+    dlg.classList.toggle('is-muted', voiced && !narrate);
+  };
+  voiceBtn.addEventListener('click', () => {
+    narrate = !narrate;
+    try { localStorage.setItem('kk-tr-narration', narrate ? 'on' : 'off'); } catch { /* fine */ }
+    if (narrate) resync(); else hush();
+    showVoice(); bumpUi();
+  });
+  showVoice();
+
   // ---------- playing ----------
   let playing = false, last = 0, raf = 0, hideTimer = 0;
   const setPlaying = (on: boolean) => {
@@ -546,36 +613,43 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
     playBtn.firstElementChild!.className = on ? 'tr-i-pause' : 'tr-i-play';
     dlg.classList.toggle('is-playing', on);
     cancelAnimationFrame(raf);
-    if (on) { if (t >= DUR) t = 0; last = performance.now(); raf = requestAnimationFrame(tick); bumpUi(); }
+    if (on) { if (t >= DUR) { t = 0; resync(); } last = performance.now(); raf = requestAnimationFrame(tick); bumpUi(); }
     else frame();
   };
+  /** Play or pause at the reader's request (pausing also stops the voice). */
+  const toggle = () => { if (playing) { setPlaying(false); hush(); } else setPlaying(true); };
+  const jump = (to: number) => { t = clamp(to, 0, DUR); resync(); frame(); };
   function tick(now: number) {
-    t = Math.min(DUR, t + Math.min(0.1, (now - last) / 1000)); last = now;
+    const hold = narrationStep();
+    if (!hold) t = Math.min(DUR, t + Math.min(0.1, (now - last) / 1000));
+    last = now;
     frame();
-    if (t >= DUR) { setPlaying(false); return; }
+    // At the end the picture stops; the last line is allowed to finish.
+    if (t >= DUR && !hold) { setPlaying(false); return; }
     if (playing) raf = requestAnimationFrame(tick);
   }
   const bumpUi = () => { dlg.classList.add('ui-on'); clearTimeout(hideTimer); hideTimer = window.setTimeout(() => { if (playing) dlg.classList.remove('ui-on'); }, 2600); };
   dlg.addEventListener('pointermove', bumpUi);
-  playBtn.addEventListener('click', () => setPlaying(!playing));
-  canvas.addEventListener('click', () => setPlaying(!playing));
-  scrub.addEventListener('input', () => { t = (Number(scrub.value) / 1000) * DUR; frame(); bumpUi(); });
-  dlg.querySelector('[data-tr-again]')!.addEventListener('click', () => { t = 0; setPlaying(true); });
-  const close = () => { cancelAnimationFrame(raf); removeEventListener('resize', resize); document.documentElement.classList.remove('km-lock'); dlg.close(); dlg.remove(); opts && document.querySelector<HTMLElement>('[data-trailer]')?.focus(); };
+  playBtn.addEventListener('click', toggle);
+  canvas.addEventListener('click', toggle);
+  scrub.addEventListener('input', () => { jump((Number(scrub.value) / 1000) * DUR); bumpUi(); });
+  dlg.querySelector('[data-tr-again]')!.addEventListener('click', () => { jump(0); setPlaying(true); });
+  const close = () => { cancelAnimationFrame(raf); hush(); removeEventListener('resize', resize); document.documentElement.classList.remove('km-lock'); dlg.close(); dlg.remove(); opts && document.querySelector<HTMLElement>('[data-trailer]')?.focus(); };
   dlg.querySelector('[data-tr-close]')!.addEventListener('click', close);
   dlg.addEventListener('cancel', (e) => { e.preventDefault(); close(); });
   dlg.addEventListener('keydown', (e) => {
     if ((e.target as HTMLElement).closest('.tr-board') && e.key !== 'Escape') return;
-    if (e.key === ' ' || e.key === 'k') { if ((e.target as HTMLElement).tagName === 'BUTTON' && e.key === ' ') return; e.preventDefault(); setPlaying(!playing); }
-    else if (e.key === 'ArrowRight' && e.target !== scrub) { t = Math.min(DUR, t + 5); frame(); }
-    else if (e.key === 'ArrowLeft' && e.target !== scrub) { t = Math.max(0, t - 5); frame(); }
-    else if (e.key === 'Home') { t = 0; frame(); }
+    if (e.key === ' ' || e.key === 'k') { if ((e.target as HTMLElement).tagName === 'BUTTON' && e.key === ' ') return; e.preventDefault(); toggle(); }
+    else if (e.key === 'ArrowRight' && e.target !== scrub) jump(t + 5);
+    else if (e.key === 'ArrowLeft' && e.target !== scrub) jump(t - 5);
+    else if (e.key === 'Home') jump(0);
   });
 
   // ---------- the storyboard: the same film as text ----------
   board.querySelector('.tr-board-in')!.innerHTML = `
     <h2 id="tr-board-h">${esc(fill(S.chapterN, { n: data.label }))}: ${esc(data.title)}</h2>
     <p class="tr-sf">${esc(data.standfirst)}</p>
+    ${lines.length ? `<h3>${esc(S.narrated ?? 'Narration')}</h3><p class="tr-narration">${lines.map((l) => esc(l.text)).join(' ')}</p>` : ''}
     ${data.spanText ? `<h3>${esc(S.when)}</h3><p>${esc(data.spanText)}</p>` : ''}
     ${data.places.length ? `<h3>${esc(S.where)}</h3><p>${data.places.map((p) => esc(p.n)).join(', ')}</p>` : ''}
     ${beats.length ? `<h3>${esc(S.story)}</h3><ol>${beats.map((b) => `<li><strong>${esc(b.date)}</strong> ${esc(b.label)}</li>`).join('')}</ol>` : ''}
@@ -584,7 +658,7 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
     <p class="tr-board-actions"><a class="btn btn-primary" href="${esc(data.first ?? data.url)}">${esc(S.start)} →</a>${calm ? ` <button type="button" class="btn" data-tr-anyway>${esc(S.playAnyway)}</button>` : ''}</p>`;
   const showBoard = (on: boolean) => {
     board.hidden = !on; boardBtn.setAttribute('aria-pressed', String(on)); dlg.classList.toggle('is-board', on);
-    if (on) { setPlaying(false); board.querySelector<HTMLElement>('h2')!.setAttribute('tabindex', '-1'); board.querySelector<HTMLElement>('h2')!.focus(); }
+    if (on) { setPlaying(false); hush(); board.querySelector<HTMLElement>('h2')!.setAttribute('tabindex', '-1'); board.querySelector<HTMLElement>('h2')!.focus(); }
   };
   boardBtn.addEventListener('click', () => showBoard(board.hidden));
   board.addEventListener('click', (e) => { if ((e.target as HTMLElement).closest('[data-tr-anyway]')) { showBoard(false); setPlaying(true); } });
@@ -593,5 +667,6 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
   dlg.classList.add('is-ready', 'ui-on');
   if (calm) showBoard(true); else setPlaying(true);
   playBtn.focus({ preventScroll: true });
-  Object.assign(dlg, { trSeek: (x: number) => { t = clamp(x, 0, DUR); frame(); }, trState: () => ({ t, DUR, playing, beats: beats.length, scenes: Object.keys(T) }) });
+  Object.assign(dlg, { trSeek: (x: number) => jump(x), trState: () => ({ t, DUR, playing, beats: beats.length, scenes: Object.keys(T),
+    voice: voice?.name ?? null, narrate, lines: lines.map((l) => ({ scene: l.scene, start: +l.start.toFixed(2), state: l.state })) }) });
 }

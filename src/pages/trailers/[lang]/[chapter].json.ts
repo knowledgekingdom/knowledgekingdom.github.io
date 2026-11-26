@@ -9,6 +9,7 @@ import { formatDate } from '../../../lib/time-scale';
 import { knowledge, tx } from '../../../lib/knowledge';
 import { project } from '../../../atlas/projection';
 import mapData from '../../../data/map.json';
+import scripts from '../../../../content-meta/trailer-scripts.json';
 import type { Lang } from '../../../i18n/ui';
 
 export const getStaticPaths = (async () => {
@@ -50,6 +51,8 @@ export const GET: APIRoute = async ({ params }) => {
     spans: Object.entries(spans).map(([l, [a, b]]) => [l, a, b]),
     sections: secs.map((s) => s.data.title), minutes: ch.data.readingTime,
     places, events, routes, empires, terms,
+    // Narration (content-meta/trailer-scripts.json): [scene, text] lines, read aloud during the film.
+    narration: ((scripts as unknown as Record<string, Record<string, [string, string][]>>)[lang] ?? {})[label] ?? [],
   };
   return new Response(JSON.stringify(body), { headers: { 'Content-Type': 'application/json' } });
 };
