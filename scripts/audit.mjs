@@ -7,6 +7,7 @@ import * as chromeLauncher from 'chrome-launcher';
 const base = process.argv[2] || 'http://localhost:4321';
 const pages = [
   '/',
+  '/bg/',
   '/001-how-to-know-what-is-true/',
   '/001-how-to-know-what-is-true/following-a-claim-upstream/',
   '/001-how-to-know-what-is-true/flashcards/',

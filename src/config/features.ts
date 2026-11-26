@@ -19,7 +19,7 @@ export const features = {
   review: true,
   games: true,
   explorables: true,
-  kingdomMap: false,
+  kingdomMap: true,
   atlas: false,
   constellation: false,
 } as const;

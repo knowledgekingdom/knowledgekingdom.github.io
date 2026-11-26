@@ -6,6 +6,7 @@ import { getBook, getRoadmap, getFlashcards, updates, figures, getChapters, getS
 import { t, langFromPath, localize } from '../i18n/ui';
 import { site } from '../site.config';
 import { features } from '../config/features';
+import '../styles/map.css';
 
 const lang = langFromPath(Astro.url.pathname);
 const L = (p: string) => localize(p, lang);
@@ -33,6 +34,12 @@ const latestLinks = latest
       ...latest.changed.map((l) => ({ ...l, kind: 'revised', isChapter: false })),
     ].slice(0, 8)
   : [];
+// Kingdom Map: its interface text, handed to the map script.
+const mapKeys = ['title', 'part', 'partN', 'chapter', 'chapterN', 'comingSoon', 'chapters', 'sectionsRead', 'finished', 'league', 'planned', 'plannedNote',
+  'flyTo', 'choose', 'zoom', 'zoomIn', 'zoomOut', 'whereIAm', 'wholeMap', 'full', 'close', 'start', 'continue', 'readAgain', 'seeRoadmap',
+  'contents', 'flashcards', 'bridges', 'bannerToast', 'bannersToast', 'crestToast', 'welcomeToast', 'wheelHint'] as const;
+const mapStrings = Object.fromEntries(mapKeys.map((k) => [k, t(lang, `map.${k}`)]));
+mapStrings.map = mapStrings.title;
 const recent = (await Promise.all(latestLinks.map(async (l) => {
   const info = await pageInfo(l.url, lang);
   return info && { ...info, kind: l.kind, isChapter: l.isChapter };
@@ -55,7 +62,22 @@ const recent = (await Promise.all(latestLinks.map(async (l) => {
       </div>
     </section>
 
-    <div class="container">
+    {features.kingdomMap && (
+      <section class="km" data-kingdom-map data-lang={lang} data-strings={JSON.stringify(mapStrings)} aria-labelledby="km-h">
+        <div class="container km-head">
+          <h2 id="km-h">{t(lang, 'map.title')}</h2>
+          <a class="km-skip" href="#chapters">{t(lang, 'map.skip')}</a>
+          <p class="km-lede">{t(lang, 'map.lede')}</p>
+        </div>
+        <div class="km-frame" tabindex="0" role="region" aria-roledescription="map" aria-label={t(lang, 'map.title')} aria-describedby="km-help" data-failed={t(lang, 'map.failed')}>
+          <p class="km-loading">{t(lang, 'map.loading')}</p>
+        </div>
+        <p id="km-help" class="km-help">{t(lang, 'map.help')}</p>
+        <noscript><style>{'.km{display:none}'}</style></noscript>
+      </section>
+    )}
+
+    <div class="container" id="chapters">
       <div class="stats" role="list" aria-label={t(lang, 'home.stats')}>
         <div role="listitem"><strong>{chapters.length}</strong><span>{t(lang, 'home.chapters')}</span></div>
         <div role="listitem"><strong>{sectionCount}</strong><span>{t(lang, 'home.sections')}</span></div>
@@ -146,3 +168,8 @@ const recent = (await Promise.all(latestLinks.map(async (l) => {
     </div>
   </main>
 </Base>
+
+<script>
+  // Does nothing unless the map section is on the page (features.kingdomMap).
+  import '../scripts/kingdom-map.ts';
+</script>

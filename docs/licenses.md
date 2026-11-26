@@ -9,6 +9,7 @@ CC BY-SA) or non-commercial (CC BY-NC) material without asking Semir first.
 | Source Serif 4 (Adobe), via @fontsource-variable | body and headings | SIL Open Font License 1.1 | no (licence file shipped with the package) |
 | Inter (Rasmus Andersson), via @fontsource-variable | interface text | SIL Open Font License 1.1 | no |
 | Icons in `src/components/Icon.astro` | interface | drawn for this site | — |
+| Kingdom Map drawing, emblems, scenery and textures (`src/map/`) | homepage map | drawn and generated for this site | — |
 | App icons (`public/icons/`) and link-preview cards | install icon, share images | drawn for this site with Source Serif 4 / Inter (OFL) | — |
 | OPUS-MT en→bg model (Tiedemann & Thottingal), packaged by Argos Translate | draft Bulgarian translation (offline, at build time only) | CC BY 4.0 | yes: in the footer of every Bulgarian page, and in the README |
 | Astro, Pagefind, yaml and other npm packages | building the site | MIT / ISC (permissive) | no |
