@@ -118,6 +118,10 @@ When the importer itself changes an address (it did once, in November 2026, for 
 - **Explorable diagrams:** 13 interactive versions of figures (fraud alarm and base rates, compounding, expected value, streaks, a cropped axis, a hidden third variable, feedback loops, the delayed-delivery shop, Mercator, the Persian relay, trade risk, Mongol forage, three million years in a month). Each sits right after its static figure (which stays, for print and without JavaScript), starts from the book's own numbers, and loads only when it scrolls into view. Which figure gets which diagram is set in **`content-meta/explorables.yaml`** (with the English and Bulgarian title, instruction and "What to notice" text); the code is in `src/explorables/`. To switch them all off: `explorables: false` in `src/config/features.ts`.
 - **Print / Save as PDF** on every section: the printout drops the navigation, uses black on white even in dark mode, opens all model answers, and prints flashcards as a list.
 
+## Security
+
+See [SECURITY.md](SECURITY.md): how to report a problem privately, and what protects the site (a Content Security Policy on every page, no scripts from other sites, pinned build tools, a protected `main` branch, secret scanning).
+
 ## Improving the Bulgarian translation
 
 The book text is machine-translated, and those pages show a small notice saying so. Titles and the interface were translated by hand. To correct any sentence or title, add it to **`content-meta/translations/bg-overrides.json`**:

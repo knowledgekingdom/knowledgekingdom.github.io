@@ -12,7 +12,7 @@
     "predev": "node scripts/windows-wasm-fallback.mjs && node scripts/knowledge.mjs check && node scripts/games.mjs check && node scripts/explorables.mjs check && node scripts/map-layout.mjs",
     "dev": "astro dev",
     "prebuild": "node scripts/windows-wasm-fallback.mjs && node scripts/knowledge.mjs check && node scripts/games.mjs check && node scripts/explorables.mjs check && node scripts/map-layout.mjs",
-    "build": "astro build && node scripts/eager-first-figure.mjs && pagefind --site dist && node scripts/build-sw.mjs",
+    "build": "astro build && node scripts/eager-first-figure.mjs && pagefind --site dist && node scripts/csp.mjs && node scripts/build-sw.mjs",
     "preview": "astro preview",
     "precheck": "node scripts/windows-wasm-fallback.mjs && node scripts/knowledge.mjs check && node scripts/games.mjs check && node scripts/explorables.mjs check && node scripts/map-layout.mjs",
     "check": "astro check",

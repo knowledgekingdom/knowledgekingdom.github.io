@@ -1,0 +1,15 @@
+# Dependabot keeps the build's tools up to date (free on GitHub).
+# - GitHub Actions: once a month, one pull request with any new versions of the pinned actions.
+# - npm packages: security fixes only, opened automatically when a vulnerability is published
+#   (turned on in the repository's security settings), so there is no monthly noise.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]
+    commit-message:
+      prefix: "Build tools"

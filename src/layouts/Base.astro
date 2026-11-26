@@ -146,7 +146,7 @@ const badgeNames = features.games ? JSON.stringify({ toast: t(lang, 'badge.toast
       </script>
     )}
     {site.goatcounter && import.meta.env.PROD && (
-      <script is:inline async data-goatcounter={`https://${site.goatcounter}.goatcounter.com/count`} src="https://gc.zgo.at/count.js"></script>
+      <script is:inline async data-goatcounter={`https://${site.goatcounter}.goatcounter.com/count`} src="/vendor/goatcounter-count.js"></script>
     )}
   </head>
   <body data-part={part ?? undefined} data-pv={features.previews ? JSON.stringify({
