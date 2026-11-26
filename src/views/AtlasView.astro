@@ -1,0 +1,186 @@
+---
+// /atlas/: the Atlas (v2 Phase 6), a world map with a time slider. Places, routes and empires come
+// from the knowledge layer (content-meta/knowledge/places.yaml and routes.yaml; approved entries
+// only on the live site). The map (src/atlas/app.ts, base map from Natural Earth) and the list
+// below show the same places; the list works without JavaScript and is the accessible way through.
+// Empires are never drawn as precise borders: a soft area around the key cities the book names.
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { getChapters, pageInfo } from '../lib/book';
+import { getTimeline } from '../lib/timeline';
+import { formatDate } from '../lib/time-scale';
+import { knowledge, tx, citeUrl } from '../lib/knowledge';
+import { project } from '../atlas/projection';
+import { t, langFromPath, localize } from '../i18n/ui';
+import '../styles/atlas.css';
+
+const lang = langFromPath(Astro.url.pathname);
+const L = (p: string) => localize(p, lang);
+const chapters = new Map((await getChapters(lang)).map((c) => [c.data.label, c]));
+const spans = getTimeline(lang).chapterSpans;
+const REGIONS = ['africa', 'west-asia', 'mediterranean-europe', 'central-asia-steppe', 'south-asia', 'southeast-asia',
+  'east-asia', 'oceania', 'americas', 'global'] as const;
+const regionName = (r: string) => t(lang, `region.${r}` as any);
+const typeName = (ty: string) => t(lang, `atlas.type.${ty}` as any);
+const dateText = (a: number, b: number) => formatDate({ start: a, end: b, approx: false }, lang);
+
+// When an entry is shown on the time slider: its own dates when the book gives them, otherwise
+// the time span of the chapters that discuss it.
+const chapterWindow = (cites: { id: string }[]) => {
+  const ws = [...new Set(cites.map((c) => c.id.slice(0, 3)))].map((l) => spans[l]).filter(Boolean);
+  return ws.length ? [Math.min(...ws.map((w) => w[0])), Math.max(...ws.map((w) => w[1]))] as [number, number] : null;
+};
+const windowOf = (active: { from: number | null; to: number | null } | null, cites: { id: string }[]) => {
+  const cw = chapterWindow(cites);
+  if (!active) return cw ? { w: cw, own: false, open: false } : null;
+  return { w: [active.from ?? cw?.[0] ?? -3000, active.to ?? cw?.[1] ?? 1920] as [number, number], own: true, open: active.to === null };
+};
+const links = (cites: { id: string; url: string }[]) => Promise.all(cites.map(async (s) => {
+  const info = await pageInfo(s.url, lang);
+  return { href: citeUrl(s, lang), title: info ? `${info.chapterLabel} · ${info.title}` : s.id };
+}));
+
+const placeIndex = new Map(knowledge.places.map((p, i) => [p.id, i]));
+const events = knowledge.events.filter((e) => e.place && placeIndex.has(e.place));
+const places = await Promise.all(knowledge.places.map(async (p) => {
+  const [x, y] = project(p.lat, p.lon);
+  const win = windowOf(p.active, p.sections);
+  const evs = events.filter((e) => e.place === p.id).sort((a, b) => a.start - b.start);
+  return {
+    id: p.id, name: tx(p.name, lang), type: p.type, region: p.region ?? 'global', x, y, win,
+    // Empire extent: [x, y, from-year or null] for each key city (cities can join at a year the book gives).
+    extent: p.extent?.map((x) => { const [id, y] = x.split('@'); const q = knowledge.places.find((r) => r.id === id); return q ? [...project(q.lat, q.lon), y ? Number(y) : null] as [number, number, number | null] : null; })
+      .filter((q) => q !== null) ?? null,
+    links: await links(p.sections),
+    events: evs.map((e) => ({ id: e.id, label: tx(e.label, lang), date: formatDate({ start: e.start, end: e.end, approx: e.precision === 'approximate' }, lang), start: e.start, end: e.end })),
+  };
+}));
+const routes = await Promise.all(knowledge.routes.map(async (r) => ({
+  id: r.id, name: tx(r.name, lang), win: windowOf(r.active, r.sections),
+  stops: r.places.map((id) => places.find((p) => p.id === id)).filter((p) => p !== undefined).map((p) => ({ id: p!.id, name: p!.name })),
+  pts: r.places.map((id) => places.find((p) => p.id === id)).filter((p) => p !== undefined).map((p) => [p!.x, p!.y]),
+  links: await links(r.sections),
+})));
+const byName = (a: { name: string }, b: { name: string }) => a.name.localeCompare(b.name, lang);
+const groups = REGIONS.map((r) => ({ id: r, name: regionName(r), items: places.filter((p) => p.region === r).sort(byName) })).filter((g) => g.items.length);
+const years = places.flatMap((p) => p.win?.w ?? []).concat(routes.flatMap((r) => r.win?.w ?? []));
+const range = years.length ? [Math.min(...years), Math.max(1919, ...years)] : [-3000, 1919];
+const timelineHref = (w: [number, number]) => L(`/timeline/?from=${Math.round(w[0] - Math.max(20, (w[1] - w[0]) * 0.1))}&to=${Math.round(w[1] + Math.max(20, (w[1] - w[0]) * 0.1))}`);
+
+// What the map script needs (the texts it shows in the panel come from the list below).
+const payload = {
+  range,
+  places: places.map((p) => ({ id: p.id, n: p.name, t: p.type, r: p.region, x: p.x, y: p.y, w: p.win?.w ?? null, k: p.links.length,
+    ex: p.extent, ev: p.events.map((e) => [e.start, e.end, e.label, e.date]) })),
+  routes: routes.map((r) => ({ id: r.id, n: r.name, w: r.win?.w ?? null, pts: r.pts })),
+};
+const strings = Object.fromEntries(['year', 'play', 'pause', 'approx', 'zoomIn', 'zoomOut', 'whole', 'full', 'close', 'nothing', 'showing',
+  'wheelHint', 'mapLabel', 'yearsAgo', 'bce', 'ce'].map((k) => [k, t(lang, `atlas.${k}` as any)]));
+const counts = { places: places.filter((p) => p.type !== 'empire').length, routes: routes.length, empires: places.filter((p) => p.type === 'empire').length };
+---
+<Base title={t(lang, 'atlas.title')} description={t(lang, 'atlas.lede', counts)}>
+  <main id="main" class="atlas" data-part="2" data-atlas data-lang={lang} data-strings={JSON.stringify(strings)}>
+    <header class="page-head container">
+      <span class="kicker">{t(lang, 'atlas.kicker')}</span>
+      <h1>{t(lang, 'atlas.title')}</h1>
+      <p class="standfirst">{t(lang, 'atlas.lede', counts)}</p>
+    </header>
+
+    <noscript><style>{'.at-explorer{display:none!important}'}</style></noscript>
+    <section class="at-explorer" aria-label={t(lang, 'atlas.mapLabel')}>
+      <div class="at-frame" data-frame tabindex="0" role="application" aria-roledescription="map" aria-label={t(lang, 'atlas.mapLabel')} aria-describedby="at-help">
+        <canvas data-canvas aria-hidden="true"></canvas>
+        <div class="at-year" aria-live="polite"><span data-year-label></span><small data-year-count></small></div>
+        <div class="at-ui">
+          <div class="at-zoom" role="group" aria-label={t(lang, 'atlas.zoom')}>
+            <button type="button" data-zoom="in" aria-label={t(lang, 'atlas.zoomIn')} title={t(lang, 'atlas.zoomIn')}>+</button>
+            <button type="button" data-zoom="out" aria-label={t(lang, 'atlas.zoomOut')} title={t(lang, 'atlas.zoomOut')}>−</button>
+            <button type="button" data-zoom="all" aria-label={t(lang, 'atlas.whole')} title={t(lang, 'atlas.whole')}><Icon name="globe" /></button>
+            <button type="button" data-full aria-pressed="false" aria-label={t(lang, 'atlas.full')} title={t(lang, 'atlas.full')}>⛶</button>
+          </div>
+        </div>
+        <div class="at-hint" aria-hidden="true"></div>
+        <aside class="at-panel" data-panel hidden aria-labelledby="at-panel-title">
+          <button type="button" class="at-close" data-close aria-label={t(lang, 'atlas.close')}>×</button>
+          <div data-panel-body></div>
+        </aside>
+        <p class="at-loading">{t(lang, 'atlas.loading')}</p>
+      </div>
+      <div class="at-controls container">
+        <button type="button" class="btn at-play" data-play aria-pressed="false"><span data-play-label>{t(lang, 'atlas.play')}</span></button>
+        <label class="at-slider"><span class="visually-hidden">{t(lang, 'atlas.year')}</span>
+          <input type="range" min="0" max="1000" step="1" value="1000" data-slider aria-valuetext="" />
+        </label>
+        <fieldset class="at-layers">
+          <legend class="visually-hidden">{t(lang, 'atlas.layers')}</legend>
+          {['places', 'routes', 'empires', 'events'].map((l) => <label><input type="checkbox" value={l} checked data-layer /> <span>{t(lang, `atlas.layer.${l}` as any)}</span></label>)}
+          <label><input type="checkbox" value="all-times" data-all-times /> <span>{t(lang, 'atlas.allTimes')}</span></label>
+        </fieldset>
+      </div>
+      <p class="meta at-help container" id="at-help">{t(lang, 'atlas.help')}</p>
+    </section>
+
+    <section class="at-list-section container" aria-labelledby="at-list-h">
+      <h2 id="at-list-h">{t(lang, 'atlas.listTitle')}</h2>
+      <div class="at-filters">
+        <label class="at-search"><span>{t(lang, 'atlas.find')}</span> <input type="search" data-at-search placeholder={t(lang, 'atlas.findPlaceholder')} autocomplete="off" /></label>
+        <span class="meta" data-at-status role="status"></span>
+      </div>
+      {groups.map((g) => (
+        <section class="at-group" data-group>
+          <h3>{g.name} <span class="meta">{g.items.length}</span></h3>
+          <ul class="at-list">
+            {g.items.map((p) => (
+              <li class="at-item" id={`at-${p.id}`} data-id={p.id} data-name={p.name.toLowerCase()}>
+                <div class="at-body">
+                  <p class="at-kicker">{typeName(p.type)}{p.type === 'empire' && <> · <strong>{t(lang, 'atlas.approxShort')}</strong></>}</p>
+                  <h4 class="at-name">{p.name}</h4>
+                  {p.win && <p class="at-when">{t(lang, p.win.own ? (p.win.open ? 'atlas.activeFrom' : 'atlas.active') : 'atlas.discussed', { span: p.win.open ? dateText(p.win.w[0], p.win.w[0]) : dateText(p.win.w[0], p.win.w[1]) })}</p>}
+                  {p.type === 'empire' && <p class="at-note">{t(lang, 'atlas.approx')}</p>}
+                  {p.events.length > 0 && (
+                    <div class="at-events"><p class="at-sub">{t(lang, 'atlas.eventsHere')}</p>
+                      <ul>{p.events.map((e) => <li><span class="at-date">{e.date}</span> {e.label}</li>)}</ul></div>
+                  )}
+                  <p class="at-sub">{t(lang, 'atlas.mentioned', { n: p.links.length })}</p>
+                  <ul class="at-links">{p.links.map((l) => <li><a href={l.href}>{l.title}</a></li>)}</ul>
+                  <p class="at-actions">
+                    <button type="button" class="btn btn-quiet at-show" data-show={p.id}><Icon name="globe" /> {t(lang, 'atlas.showOnMap')}</button>
+                    {p.win && <a class="more-link" href={timelineHref(p.win.w)}>{t(lang, 'atlas.showOnTimeline')} <Icon name="arrowRight" class="arrow" /></a>}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+      {routes.length > 0 && (
+        <section class="at-group" data-group>
+          <h3>{t(lang, 'atlas.routes')} <span class="meta">{routes.length}</span></h3>
+          <ul class="at-list">
+            {routes.sort(byName).map((r) => (
+              <li class="at-item" id={`at-${r.id}`} data-id={r.id} data-route data-name={r.name.toLowerCase()}>
+                <div class="at-body">
+                  <p class="at-kicker">{t(lang, 'atlas.route')}</p>
+                  <h4 class="at-name">{r.name}</h4>
+                  {r.win && <p class="at-when">{t(lang, r.win.own ? (r.win.open ? 'atlas.activeFrom' : 'atlas.active') : 'atlas.discussed', { span: r.win.open ? dateText(r.win.w[0], r.win.w[0]) : dateText(r.win.w[0], r.win.w[1]) })}</p>}
+                  <p class="at-stops">{r.stops.map((s, i) => <>{i > 0 && ' → '}<a href={`#at-${s.id}`}>{s.name}</a></>)}</p>
+                  <p class="at-note">{t(lang, 'atlas.routeNote')}</p>
+                  <ul class="at-links">{r.links.map((l) => <li><a href={l.href}>{l.title}</a></li>)}</ul>
+                  <p class="at-actions">
+                    <button type="button" class="btn btn-quiet at-show" data-show={r.id}><Icon name="globe" /> {t(lang, 'atlas.showOnMap')}</button>
+                    {r.win && <a class="more-link" href={timelineHref(r.win.w)}>{t(lang, 'atlas.showOnTimeline')} <Icon name="arrowRight" class="arrow" /></a>}
+                  </p>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+      <p class="meta at-credit">{t(lang, 'atlas.credit')}</p>
+    </section>
+    <script type="application/json" id="atlas-data" set:html={JSON.stringify(payload)} />
+  </main>
+</Base>
+<script>
+  import '../scripts/atlas.ts';
+</script>

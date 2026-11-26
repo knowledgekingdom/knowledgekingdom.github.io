@@ -15,7 +15,8 @@ CC BY-SA) or non-commercial (CC BY-NC) material without asking Semir first.
 | Astro, Pagefind, yaml and other npm packages | building the site | MIT / ISC (permissive) | no |
 | ts-fsrs 6.0.0 (open-spaced-repetition) | scheduling the daily review | MIT | no |
 | GoatCounter (hosted, free plan) | visitor counts | service terms; script is EUPL-1.2 but only loaded, not modified or distributed | no |
-| Wikidata coordinates (`content-meta/knowledge/places.yaml`, `source: wikidata:Q…`) | map positions of places | CC0 (public domain) | no |
+| Wikidata coordinates and Bulgarian place names (`content-meta/knowledge/places.yaml`, `source: wikidata:Q…`) | map positions of places | CC0 (public domain) | no |
+| Natural Earth 1:50m land, lakes and rivers (`public/atlas/geo.json`, built by `scripts/atlas-geo.mjs`) | Atlas base map | public domain | no (credited on the Atlas page anyway) |
+| Atlas drawing, symbols and styles (`src/scripts/atlas.ts`, `src/styles/atlas.css`) | Atlas | drawn for this site | — |
 
-When a later phase adds map data (Natural Earth, public domain) or libraries (e.g. `ts-fsrs`, MIT),
-add a row here in the same commit.
+When a later phase adds data or libraries, add a row here in the same commit.

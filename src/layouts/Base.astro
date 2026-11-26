@@ -144,6 +144,7 @@ const badgeNames = features.games ? JSON.stringify({ toast: t(lang, 'badge.toast
           <a class="hide-sm" href={L('/about/')} aria-current={stripLang(path) === '/about/' ? 'page' : undefined}>{t(lang, 'nav.about')}</a>
           <a class="hide-sm" href={L('/roadmap/')} aria-current={stripLang(path) === '/roadmap/' ? 'page' : undefined}>{t(lang, 'nav.roadmap')}</a>
           <a class="hide-sm" href={L('/timeline/')} aria-current={stripLang(path) === '/timeline/' ? 'page' : undefined}>{t(lang, 'nav.timeline')}</a>
+          {features.atlas && <a class="hide-sm hide-md" href={L('/atlas/')} aria-current={stripLang(path) === '/atlas/' ? 'page' : undefined}>{t(lang, 'nav.atlas')}</a>}
           {features.games
             ? <a class="hide-sm" href={L('/play/')} aria-current={stripLang(path).startsWith('/play/') ? 'page' : undefined}>{t(lang, 'nav.play')}</a>
             : <a class="hide-sm hide-md" href={L('/random/')}>{t(lang, 'nav.random')}</a>}
@@ -171,6 +172,7 @@ const badgeNames = features.games ? JSON.stringify({ toast: t(lang, 'badge.toast
           <a href={L('/roadmap/')}>{t(lang, 'nav.roadmap')}</a>
           <a href={L('/updates/')}>{t(lang, 'nav.updates')}</a>
           <a href={L('/timeline/')}>{t(lang, 'nav.timeline')}</a>
+          {features.atlas && <a href={L('/atlas/')}>{t(lang, 'nav.atlas')}</a>}
           <a href={L('/random/')}>{t(lang, 'nav.random')}</a>
           <a href={L('/bookmarks/')}>{t(lang, 'bookmarks.title')}</a>
           {features.games && <a href={L('/play/')}>{t(lang, 'play.nav')}</a>}

@@ -314,6 +314,7 @@
   region: west-asia
   sections: [ 015/cyrus-from-regional-ruler-to-imperial-founder ]
   status: approved
+  place: babylon
 - id: darius-crisis-522
   label: "The crisis that brings Darius to power"
   bg: "Кризата, която довежда Дарий на власт"
@@ -338,6 +339,7 @@
   region: mediterranean-europe
   sections: [ 016/cleisthenes-and-a-new-political-structure ]
   status: approved
+  place: athens
 - id: battle-of-marathon
   label: "Battle of Marathon"
   bg: "Битката при Маратон"
@@ -346,6 +348,7 @@
   region: mediterranean-europe
   sections: [ 016/the-persian-wars-shared-danger-divided-greece ]
   status: approved
+  place: marathon
 - id: xerxes-invades-greece
   label: "Xerxes invades Greece: Thermopylae and Salamis"
   bg: "Ксеркс нахлува в Гърция: Термопилите и Саламин"
@@ -362,6 +365,7 @@
   region: mediterranean-europe
   sections: [ 016/socrates-on-trial-democracy-religion-and-public-fear ]
   status: approved
+  place: athens
 - id: rome-becomes-republic
   label: "Rome moves from kings to a republic"
   bg: "Рим преминава от царе към република"
@@ -370,6 +374,7 @@
   region: mediterranean-europe
   sections: [ 017/from-kings-to-republic-what-changed-around-509-bce ]
   status: approved
+  place: rome
 - id: caesar-assassinated
   label: "Julius Caesar is assassinated"
   bg: "Юлий Цезар е убит"
@@ -378,6 +383,7 @@
   region: mediterranean-europe
   sections: [ 017/caesar-pompey-and-the-civil-wars ]
   status: approved
+  place: rome
 - id: octavian-becomes-augustus
   label: "Octavian receives the name Augustus"
   bg: "Октавиан получава името Август"
@@ -386,6 +392,7 @@
   region: mediterranean-europe
   sections: [ 017/augustus-monarchy-in-republican-clothing ]
   status: approved
+  place: rome
 - id: edict-of-milan
   label: "The Edict of Milan"
   bg: "Миланският едикт"
@@ -394,6 +401,7 @@
   region: mediterranean-europe
   sections: [ 017/belief-violence-and-the-rise-of-christianity ]
   status: approved
+  place: milan
 - id: mansa-musa-pilgrimage
   label: "Mansa Musa's pilgrimage to Mecca"
   bg: "Поклонението на Манса Муса до Мека"
@@ -418,6 +426,7 @@
   region: africa
   sections: [ 018/benin-court-institutions-brass-and-historical-memory ]
   status: approved
+  place: benin-city
 - id: cahokia-major-center
   label: "Cahokia becomes a major center"
   bg: "Кахокия става голям център"
@@ -426,6 +435,7 @@
   region: americas
   sections: [ 019/the-mississippi-basin-poverty-point-and-cahokia ]
   status: approved
+  place: cahokia
 - id: tenochtitlan-founded
   label: "The Mexica found Tenochtitlan"
   bg: "Мексиките основават Теночтитлан"
@@ -434,6 +444,7 @@
   region: americas
   sections: [ 019/tenochtitlan-and-the-triple-alliance ]
   status: approved
+  place: tenochtitlan
 - id: fall-of-tenochtitlan
   label: "The fall of Tenochtitlan"
   bg: "Падането на Теночтитлан"
@@ -442,6 +453,7 @@
   region: americas
   sections: [ 019/contact-conquest-and-indigenous-agency ]
   status: approved
+  place: tenochtitlan
 - id: the-hijra
   label: "The Hijra"
   bg: "Хиджра"
@@ -450,6 +462,7 @@
   region: west-asia
   sections: [ 020/the-hijra-of-622-a-new-political-setting ]
   status: approved
+  place: medina
 - id: abbasid-revolution
   label: "The Abbasids overthrow the Umayyads"
   bg: "Абасидите свалят Омаядите"
@@ -466,6 +479,7 @@
   region: west-asia
   sections: [ 020/the-abbasid-revolution-and-a-new-capital ]
   status: approved
+  place: baghdad
 - id: first-turkic-khaganate
   label: "The First Turkic Khaganate emerges"
   bg: "Възниква Първият тюркски каганат"
@@ -482,6 +496,7 @@
   region: southeast-asia
   sections: [ 021/srivijaya-and-southeast-asia-sea-lanes-created-regional ]
   status: approved
+  place: srivijaya
 - id: chinggis-khan-acclaimed
   label: "Temüjin is acclaimed Chinggis Khan"
   bg: "Темуджин е провъзгласен за Чингис хан"
@@ -498,6 +513,7 @@
   region: mediterranean-europe
   sections: [ 022/the-european-campaigns-rus-poland-hungary-and-beyond ]
   status: approved
+  place: legnica
 - id: mongols-take-baghdad
   label: "The Mongols capture Baghdad"
   bg: "Монголите превземат Багдад"
@@ -506,6 +522,7 @@
   region: west-asia
   sections: [ 022/the-fall-of-baghdad-and-the-ilkhanate ]
   status: approved
+  place: baghdad
 - id: battle-of-manzikert
   label: "Battle of Manzikert"
   bg: "Битката при Манцикерт"
@@ -514,6 +531,7 @@
   region: west-asia
   sections: [ 023/manzikert-a-turning-point-that-needs-an-explanation ]
   status: approved
+  place: manzikert
 - id: urban-ii-crusade-call
   label: "Urban II calls for a crusade"
   bg: "Урбан II призовава към кръстоносен поход"
@@ -530,6 +548,7 @@
   region: mediterranean-europe
   sections: [ 023/the-fourth-crusade-and-the-disaster-of-1204 ]
   status: approved
+  place: constantinople
 - id: siege-of-constantinople-1453
   label: "Mehmed II besieges Constantinople"
   bg: "Мехмед II обсажда Константинопол"
@@ -538,6 +557,7 @@
   region: mediterranean-europe
   sections: [ 023/the-siege-of-1453-why-the-city-fell-and-what-survived ]
   status: approved
+  place: constantinople
 - id: oldest-metal-type-book
   label: "The oldest surviving book printed with movable metal type (Korea)"
   bg: "Най-старата запазена книга, отпечатана с подвижни метални букви (Корея)"
@@ -554,6 +574,7 @@
   region: mediterranean-europe
   sections: [ 024/brunelleschis-dome-innovation-under-practical-constraints ]
   status: approved
+  place: florence
 - id: gutenberg-bible
   label: "The Gutenberg Bible"
   bg: "Библията на Гутенберг"
@@ -562,6 +583,7 @@
   region: mediterranean-europe
   sections: [ 024/gutenbergs-breakthrough-a-system-not-a-single-machine ]
   status: approved
+  place: mainz
 - id: luther-excommunicated
   label: "Martin Luther is excommunicated"
   bg: "Мартин Лутер е отлъчен"
@@ -602,6 +624,7 @@
   region: south-asia
   sections: [ 026/a-chronology-of-connection-and-contest ]
   status: approved
+  place: calicut
 - id: portuguese-take-melaka
   label: "The Portuguese capture Melaka"
   bg: "Португалците превземат Малака"
@@ -610,6 +633,7 @@
   region: southeast-asia
   sections: [ 026/melaka-the-port-that-organized-a-crossing ]
   status: approved
+  place: melaka
 - id: portugal-takes-ceuta
   label: "Portugal takes Ceuta"
   bg: "Португалия превзема Сеута"
@@ -618,6 +642,7 @@
   region: africa
   sections: [ 027/a-chronology-of-voyages-and-changing-power ]
   status: approved
+  place: ceuta
 - id: dias-rounds-africa
   label: "Bartolomeu Dias rounds southern Africa"
   bg: "Бартоломеу Диаш заобикаля Южна Африка"
@@ -626,6 +651,7 @@
   region: africa
   sections: [ 027/bartolomeu-dias-and-the-african-cape ]
   status: approved
+  place: cape-of-good-hope
 - id: columbus-reaches-bahamas
   label: "Columbus's ships reach the Bahamas"
   bg: "Корабите на Колумб достигат Бахамите"
@@ -634,6 +660,7 @@
   region: americas
   sections: [ 027/columbuss-westward-wager ]
   status: approved
+  place: san-salvador-island
 - id: magellan-sets-out
   label: "Magellan's expedition sets out"
   bg: "Експедицията на Магелан потегля"
@@ -650,6 +677,7 @@
   region: americas
   sections: [ 029/saint-domingue-and-the-haitian-revolution ]
   status: approved
+  place: saint-domingue
 - id: britain-bans-slave-trade
   label: "Britain bans its slave trade"
   bg: "Великобритания забранява своята търговия с роби"
@@ -674,6 +702,7 @@
   region: south-asia
   sections: [ 030/the-mughal-foundation-babur-and-humayun ]
   status: approved
+  place: panipat
 - id: battle-of-mohacs
   label: "Battle of Mohács"
   bg: "Битката при Мохач"
@@ -682,6 +711,7 @@
   region: mediterranean-europe
   sections: [ 030/ottoman-expansion-and-imperial-consolidation ]
   status: approved
+  place: mohacs
 - id: qing-enter-beijing
   label: "Qing forces enter Beijing"
   bg: "Силите на Цин влизат в Пекин"
@@ -690,6 +720,7 @@
   region: east-asia
   sections: [ 030/the-manchu-rise-and-the-banners ]
   status: approved
+  place: beijing
 - id: copernicus-publishes
   label: "Copernicus publishes On the Revolutions"
   bg: "Коперник публикува „За въртенето на небесните сфери“"
@@ -722,6 +753,7 @@
   region: mediterranean-europe
   sections: [ 032/from-estates-general-to-national-assembly ]
   status: approved
+  place: versailles
 - id: france-abolishes-slavery
   label: "France abolishes slavery in its colonies"
   bg: "Франция премахва робството в колониите си"
@@ -738,6 +770,7 @@
   region: mediterranean-europe
   sections: [ 032/terror-emergency-power-and-the-limits-of-revolutionary ]
   status: approved
+  place: paris
 - id: hidalgo-uprising
   label: "Hidalgo's uprising begins in Mexico"
   bg: "Въстанието на Идалго започва в Мексико"
@@ -746,6 +779,7 @@
   region: americas
   sections: [ 033/mexican-independence-began-as-a-social-crisis ]
   status: approved
+  place: dolores-hidalgo
 - id: bolivar-andes-campaign
   label: "Bolívar crosses the Andes into New Granada"
   bg: "Боливар пресича Андите към Нова Гранада"
@@ -754,6 +788,7 @@
   region: americas
   sections: [ 033/northern-south-america-and-the-andes-crossing ]
   status: approved
+  place: boyaca
 - id: congress-of-panama
   label: "The Congress of Panama"
   bg: "Конгресът в Панама"
@@ -762,6 +797,7 @@
   region: americas
   sections: [ 033/the-congress-of-panama-and-bolivars-continental-vision ]
   status: approved
+  place: panama-city
 - id: watt-condenser-patent
   label: "James Watt patents the separate condenser"
   bg: "Джеймс Ват патентова отделния кондензатор"
@@ -778,6 +814,7 @@
   region: mediterranean-europe
   sections: [ 034/railways-and-the-compression-of-distance ]
   status: approved
+  place: stockton-on-tees
 - id: snow-cholera-pump
   label: "John Snow traces cholera to a water pump"
   bg: "Джон Сноу проследява холерата до водна помпа"
@@ -786,6 +823,7 @@
   region: mediterranean-europe
   sections: [ 034/housing-sanitation-and-the-urban-disease-burden ]
   status: approved
+  place: london
 - id: meiji-restoration
   label: "The Meiji Restoration in Japan"
   bg: "Реставрацията Мейджи в Япония"
@@ -802,6 +840,7 @@
   region: africa
   sections: [ 035/southern-africa-settler-conquest-and-african-states ]
   status: approved
+  place: isandlwana
 - id: berlin-conference
   label: "The Berlin Conference"
   bg: "Берлинската конференция"
@@ -810,6 +849,7 @@
   region: africa
   sections: [ 035/berlin-1884-1885-what-the-conference-actually-did ]
   status: approved
+  place: berlin
 - id: battle-of-omdurman
   label: "Battle of Omdurman"
   bg: "Битката при Омдурман"
@@ -818,6 +858,7 @@
   region: africa
   sections: [ 035/the-nile-the-mahdist-state-and-the-fashoda-crisis ]
   status: approved
+  place: omdurman
 - id: revolutions-of-1848
   label: "Revolutionary wave across Europe"
   bg: "Революционна вълна в Европа"
@@ -858,6 +899,7 @@
   region: mediterranean-europe
   sections: [ 037/eastern-rumelia-and-the-unification-of-1885 ]
   status: approved
+  place: plovdiv
 - id: bulgarian-independence
   label: "The Young Turk Revolution and Bulgarian independence"
   bg: "Младотурската революция и независимостта на България"
@@ -882,6 +924,7 @@
   region: mediterranean-europe
   sections: [ 037/bosnia-herzegovina-occupation-reform-and-annexation ]
   status: approved
+  place: sarajevo
 - id: bulgaria-joins-central-powers
   label: "Bulgaria joins the Central Powers"
   bg: "България се присъединява към Централните сили"
@@ -906,3 +949,4 @@
   region: global
   sections: [ 038/neuilly-bulgarias-peace-settlement-november-1919 ]
   status: approved
+  place: neuilly

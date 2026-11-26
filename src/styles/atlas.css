@@ -1,0 +1,90 @@
+/* The Atlas (/atlas/, v2 Phase 6): a world map with a time slider, in the Kingdom Map's
+   illustrated style. Drawing: src/scripts/atlas.ts (canvas; colours are read from these tokens). */
+.atlas {
+  --at-paper: #f1ead9; --at-sea: #d9e4dd; --at-sea-line: #6f8f88; --at-land: #efe2c0; --at-ink: #3b2f22; --at-coast: #4a3a28;
+  --at-river: #5e8fa3; --at-grat: rgb(80 110 105 / .22); --at-label: #2f261b; --at-halo: rgb(246 240 226 / .92); --at-accent: #a8441f;
+  --at-route: #8a3c8a; --at-empire: #b5532a; --at-event: #b0261f;
+  --at-ui: var(--card, #fffaf0);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .atlas {
+    --at-paper: #0c1219; --at-sea: #0f1822; --at-sea-line: #34506a; --at-land: #2a2722; --at-ink: #d7c495; --at-coast: #c9b483;
+    --at-river: #3d6b86; --at-grat: rgb(120 150 190 / .14); --at-label: #e8dcc0; --at-halo: rgb(12 16 22 / .9); --at-accent: #ffc25a;
+    --at-route: #c99be6; --at-empire: #ffb15a; --at-event: #ff7a6b;
+  }
+}
+:root[data-theme='dark'] .atlas {
+  --at-paper: #0c1219; --at-sea: #0f1822; --at-sea-line: #34506a; --at-land: #2a2722; --at-ink: #d7c495; --at-coast: #c9b483;
+  --at-river: #3d6b86; --at-grat: rgb(120 150 190 / .14); --at-label: #e8dcc0; --at-halo: rgb(12 16 22 / .9); --at-accent: #ffc25a;
+  --at-route: #c99be6; --at-empire: #ffb15a; --at-event: #ff7a6b;
+}
+
+.at-frame { position: relative; height: min(76vh, 760px); min-height: 380px; max-width: 1440px; margin: 0 auto; overflow: hidden; background: var(--at-paper);
+  border-block: 1px solid var(--rule); touch-action: pan-y; cursor: grab; outline: none; user-select: none; -webkit-user-select: none; }
+@media (min-width: 900px) { .at-frame { border: 1px solid var(--rule); border-radius: 16px; width: calc(100% - 3rem); } }
+.at-frame:focus-visible { box-shadow: inset 0 0 0 3px var(--accent); }
+.at-frame.is-grabbing { cursor: grabbing; }
+.at-frame canvas { position: absolute; inset: 0; display: block; }
+.at-loading { position: absolute; inset: 0; display: grid; place-items: center; margin: 0; font-family: var(--font-sans); font-size: .9rem; color: var(--ink-3); pointer-events: none; }
+.atlas.is-ready .at-loading { display: none; }
+.atlas.at-is-full .at-frame { position: fixed; inset: 0; z-index: 300; height: auto; max-width: none; width: auto; margin: 0; border: 0; border-radius: 0; touch-action: none; }
+.at-year { position: absolute; left: 14px; top: 12px; z-index: 3; pointer-events: none; font: 650 clamp(1.4rem, 3vw, 2.1rem)/1.1 var(--font-serif); color: var(--at-label);
+  text-shadow: 0 0 6px var(--at-halo), 0 0 2px var(--at-halo); }
+.at-year small { font: 500 .8rem var(--font-sans); color: var(--ink-3); text-shadow: none; }
+.at-ui { position: absolute; top: 12px; right: 12px; z-index: 4; }
+.at-zoom { display: flex; flex-direction: column; border-radius: 10px; overflow: hidden; background: var(--at-ui); box-shadow: 0 2px 10px rgb(0 0 0 / .18); border: 1px solid var(--rule); }
+.at-zoom button { width: 44px; height: 44px; display: grid; place-items: center; border: 0; border-bottom: 1px solid var(--rule); background: none; color: var(--ink); font: 500 22px/1 var(--font-sans); cursor: pointer; }
+.at-zoom button:last-child { border-bottom: 0; font-size: 18px; }
+.at-zoom button:hover { background: var(--paper-2, rgb(0 0 0 / .04)); }
+.at-zoom button:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+.at-zoom svg { width: 20px; height: 20px; }
+.at-hint { position: absolute; left: 50%; top: 50%; z-index: 5; transform: translate(-50%, 8px); opacity: 0; pointer-events: none; transition: opacity var(--dur-2, .2s), transform var(--dur-2, .2s);
+  background: rgb(20 18 14 / .82); color: #fff; font: 500 .85rem/1.35 var(--font-sans); padding: .55rem .9rem; border-radius: 10px; }
+.at-hint.is-on { opacity: 1; transform: translate(-50%, 0); }
+
+/* Panel: docked on the right on wide screens, a bottom sheet on phones. */
+.at-panel { position: absolute; top: 12px; right: 68px; bottom: 12px; z-index: 6; width: 340px; overflow: auto; background: var(--at-ui); color: var(--ink);
+  border: 1px solid var(--rule); border-radius: 14px; padding: 16px 18px; box-shadow: 0 12px 36px rgb(0 0 0 / .25); cursor: auto; user-select: text; -webkit-user-select: text;
+  opacity: 0; transform: translateX(10px); transition: opacity var(--dur-2, .2s), transform var(--dur-3, .3s) var(--ease-out, ease); font-family: var(--font-sans); }
+.at-panel.is-open { opacity: 1; transform: none; }
+.at-close { position: absolute; top: 8px; right: 8px; width: 40px; height: 40px; border: 0; border-radius: 50%; background: none; color: var(--ink-3); font-size: 24px; cursor: pointer; }
+.at-close:hover { background: var(--paper-2, rgb(0 0 0 / .05)); color: var(--ink); }
+@media (max-width: 899px) {
+  .at-panel { top: auto; left: 0; right: 0; bottom: 0; width: auto; max-height: 60%; border-radius: 18px 18px 0 0; border-bottom: 0; padding-top: 22px; transform: translateY(100%); }
+  .at-panel::before { content: ''; position: absolute; top: 8px; left: 50%; width: 40px; height: 4px; margin-left: -20px; border-radius: 2px; background: var(--rule-strong, var(--rule)); }
+}
+
+/* Slider and layers */
+.at-controls { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; margin-top: .9rem; font-family: var(--font-sans); }
+.at-play { min-width: 6rem; justify-content: center; }
+.at-slider { flex: 1 1 18rem; display: flex; }
+.at-slider input { width: 100%; accent-color: var(--accent); height: 44px; }
+.at-layers { display: flex; flex-wrap: wrap; gap: .3rem .9rem; border: 0; padding: 0; margin: 0; font-size: .88rem; }
+.at-layers label { display: inline-flex; align-items: center; gap: .35rem; min-height: 32px; cursor: pointer; }
+.at-help { margin-top: .4rem; }
+
+/* The list */
+.at-list-section { margin-top: 2.5rem; }
+.at-filters { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; margin-bottom: 1rem; font-family: var(--font-sans); }
+.at-search { display: flex; align-items: center; gap: .5rem; font-size: .9rem; }
+.at-search input { font: inherit; padding: .5rem .7rem; border: 1px solid var(--rule-strong, var(--rule)); border-radius: 8px; background: var(--card, var(--paper)); color: var(--ink); min-width: 15rem; min-height: 44px; }
+.at-group h3 { font-family: var(--font-sans); font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); margin: 1.6rem 0 .6rem; }
+.at-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: .8rem; }
+.at-item { border: 1px solid var(--rule); border-radius: 12px; padding: .8rem 1rem; background: var(--card, var(--paper)); scroll-margin-top: calc(var(--header-h, 4rem) + 1rem); }
+.at-item:target { box-shadow: 0 0 0 2px var(--accent); }
+.at-kicker { margin: 0; font: 600 .7rem var(--font-sans); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); }
+.at-name { margin: .15rem 0 .3rem; font: 650 1.1rem/1.2 var(--font-serif); }
+.at-panel .at-name { font-size: 1.35rem; margin-right: 2rem; outline: none; }
+.at-when, .at-note, .at-stops { margin: 0 0 .4rem; font: .82rem/1.45 var(--font-sans); color: var(--ink-2); }
+.at-note { color: var(--ink-3); font-style: italic; }
+.at-sub { margin: .5rem 0 .25rem; font: 600 .75rem var(--font-sans); color: var(--ink-3); }
+.at-events ul, .at-links { margin: 0; padding-left: 1.1rem; font: .85rem/1.45 var(--font-sans); }
+.at-links li { margin: .15rem 0; }
+.at-links a { padding: .1rem 0; }
+.at-date { font-weight: 650; }
+.at-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; margin: .6rem 0 0; font: .85rem var(--font-sans); }
+.at-show { min-height: 40px; }
+.at-credit { margin-top: 2rem; }
+@media print { .at-explorer { display: none; } }
+/* Full screen locks the page behind the map (same class as the Kingdom Map). */
+.km-lock, .km-lock body { overflow: hidden; }

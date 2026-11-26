@@ -19,7 +19,9 @@ const FILES = ['events', 'places', 'routes', 'concepts'];
 // Timeline lanes (v2 plan, Phase 4), plus Southeast Asia and Oceania, which the book covers too.
 export const REGIONS = ['africa', 'west-asia', 'mediterranean-europe', 'south-asia', 'east-asia', 'southeast-asia',
   'central-asia-steppe', 'americas', 'oceania', 'global'];
-const PLACE_TYPES = ['city', 'region', 'river', 'site', 'route-point', 'sea', 'mountain'];
+// empire: a power the book discusses, drawn on the Atlas as a soft, approximate area around the key
+// cities it controlled (`extent`), never as a precise border.
+const PLACE_TYPES = ['city', 'region', 'river', 'site', 'route-point', 'sea', 'mountain', 'empire'];
 const PRECISIONS = ['day', 'month', 'year', 'decade', 'century', 'millennium', 'approximate'];
 const STATUSES = ['proposed', 'approved'];
 
@@ -163,6 +165,16 @@ export function validate(data, index = sectionIndex()) {
         if (!e.source) errors.push(`${at}: needs a source for its coordinates (e.g. wikidata:Q123)`);
         if (e.region && !REGIONS.includes(e.region)) errors.push(`${at}: region must be one of ${REGIONS.join(', ')}`);
         if (e.active) { dateField(e.active.from, 'active.from'); dateField(e.active.to, 'active.to'); }
+        if (e.type === 'empire') {
+          // extent: place ids, optionally "id@year" for a city the book says came under it in that year.
+          if (!Array.isArray(e.extent) || !e.extent.length) errors.push(`${at}: an empire needs extent: the key cities it controlled (place ids)`);
+          for (const x of e.extent ?? []) {
+            const [p, y] = String(x).split('@');
+            if (!placeIds.has(p)) errors.push(`${at}: extent place “${p}” isn't in places.yaml`);
+            if (y !== undefined && !parseDate(y)) errors.push(`${at}: “${x}”: the year after @ isn't a date this script understands`);
+          }
+          if (!e.active?.from) errors.push(`${at}: an empire needs active.from, as the book dates it`);
+        } else if (e.extent) errors.push(`${at}: only an empire has an extent`);
       }
       if (file === 'routes') {
         if (!e.name) errors.push(`${at}: needs a name`);
@@ -201,7 +213,9 @@ function compile(data, index) {
         sections: sec(e.sections), status: e.status };
     }),
     places: data.places.map((p) => ({ id: p.id, name: { en: p.name, bg: p.bg ?? null }, lat: p.lat, lon: p.lon, type: p.type,
-      region: p.region ?? null, active: span(p.active), chapter: chapterOf(p.sections), sections: sec(p.sections), status: p.status })),
+      region: p.region ?? null, active: span(p.active),
+      // "city@year" as written (e.g. "sardis@546 BCE") becomes "city@-546" for the site.
+      extent: p.extent?.map((x) => { const [id, y] = String(x).split('@'); return y === undefined ? id : `${id}@${parseDate(y).start}`; }) ?? null, chapter: chapterOf(p.sections), sections: sec(p.sections), status: p.status })),
     routes: data.routes.map((r) => ({ id: r.id, name: { en: r.name, bg: r.bg ?? null }, places: r.places, active: span(r.active),
       chapter: chapterOf(r.sections), sections: sec(r.sections), status: r.status })),
     concepts: data.concepts.map((c) => ({ id: c.id, term: { en: c.term, bg: c.bg ?? null },
@@ -247,7 +261,7 @@ function review(data, index) {
         counts[e.status] = (counts[e.status] ?? 0) + 1;
         const mark = e.status === 'approved' ? '✅' : '⬜';
         if (kind === 'Event') out.push(`- ${mark} **${e.date}** · ${e.label} — *${e.bg ?? 'BG missing'}* · ${e.region}, ${e.precision} · ${e.sections.map(link).join(', ')}`);
-        if (kind === 'Place') out.push(`- ${mark} **${e.name}** (*${e.bg ?? 'BG missing'}*) · ${e.type} · ${e.lat}, ${e.lon} · ${e.source}${e.active ? ` · active ${e.active.from ?? '?'} – ${e.active.to ?? '?'}` : ''} · ${e.sections.map(link).join(', ')}`);
+        if (kind === 'Place') out.push(`- ${mark} **${e.name}** (*${e.bg ?? 'BG missing'}*) · ${e.type} · ${e.type === 'empire' ? `around ${e.extent.join(', ')}` : `${e.lat}, ${e.lon} · ${e.source}`}${e.active ? ` · active ${e.active.from ?? '?'} – ${e.active.to ?? 'open'}` : ''} · ${e.sections.map(link).join(', ')}`);
         if (kind === 'Route') out.push(`- ${mark} **${e.name}** (*${e.bg ?? 'BG missing'}*) · ${e.places.join(' → ')} · ${e.sections.map(link).join(', ')}`);
         if (kind === 'Concept') out.push(`- ${mark} **${e.term}** (*${e.bg ?? 'BG missing'}*): ${e.definition}${e.definitionBg ? `<br>*${e.definitionBg}*` : ''} · defined in ${link(e.defined)}${e.related?.length ? ` · related: ${e.related.join(', ')}` : ''}`);
       }

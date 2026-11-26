@@ -13,7 +13,7 @@ export type KEvent = { id: string; label: Text; date: { en: string }; start: num
   precision: 'day' | 'month' | 'year' | 'decade' | 'century' | 'millennium' | 'approximate';
   region: string; place: string | null; chapter: string | null; sections: Cite[]; status: Status };
 export type KPlace = { id: string; name: Text; lat: number; lon: number; type: string; region: string | null;
-  active: { from: number | null; to: number | null } | null; chapter: string | null; sections: Cite[]; status: Status };
+  active: { from: number | null; to: number | null } | null; extent: string[] | null; chapter: string | null; sections: Cite[]; status: Status };
 export type KRoute = { id: string; name: Text; places: string[]; active: KPlace['active']; chapter: string | null;
   sections: Cite[]; status: Status };
 export type KConcept = { id: string; term: Text; definition: Text; defined: Cite; related: string[];

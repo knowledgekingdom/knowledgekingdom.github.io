@@ -12,6 +12,8 @@ const pages = [
   '/001-how-to-know-what-is-true/following-a-claim-upstream/',
   '/001-how-to-know-what-is-true/flashcards/',
   '/timeline/',
+  '/atlas/',
+  '/bg/atlas/',
   '/bg/timeline/',
   '/003-probability-risk-and-everyday-numbers/the-fraud-alarm-counted-properly/',
   '/009-human-evolution-and-the-first-migrations/a-timeline-that-changes-the-scale-of-everything/',

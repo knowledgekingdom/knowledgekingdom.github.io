@@ -8,4 +8,65 @@
 #
 # Chapters 001-011 describe no specific routes; the first ones come with Persia (015) and the
 # Silk Roads (021).
-[]
+- id: route-mansa-musa
+  name: "Mansa Musa's pilgrimage"
+  bg: "Поклонението на Манса Муса"
+  places: [ mali-empire, cairo, mecca ]
+  active: { from: "1324", to: "1325" }
+  sections: [ 018/mansa-musa-and-the-danger-of-dramatic-numbers ]
+  status: proposed
+- id: route-zheng-he
+  name: "Zheng He's voyages"
+  bg: "Плаванията на Джън Хъ"
+  places: [ south-china-sea, persian-gulf, swahili-coast ]
+  active: { from: "1405", to: "1433" }
+  sections: [ 026/zheng-hes-voyages-diplomacy-power-and-spectacle ]
+  status: proposed
+- id: columbus-1492
+  name: "Columbus's first crossing"
+  bg: "Първото плаване на Колумб"
+  places: [ canary-islands, san-salvador-island ]
+  active: { from: "1492", to: "1492" }
+  sections: [ 027/a-chronology-of-voyages-and-changing-power ]
+  status: proposed
+- id: da-gama-1498
+  name: "Vasco da Gama's route to India"
+  bg: "Пътят на Васко да Гама до Индия"
+  places: [ cape-of-good-hope, calicut ]
+  active: { from: "1498", to: "1498" }
+  sections: [ 026/a-chronology-of-connection-and-contest ]
+  status: proposed
+- id: manila-galleons
+  name: "Manila–Acapulco galleons"
+  bg: "Галеоните Манила–Акапулко"
+  places: [ manila, acapulco ]
+  active: { from: "1565" }
+  sections: [ 027/a-chronology-of-voyages-and-changing-power ]
+  status: proposed
+- id: bahia-luanda
+  name: "Bahia–Luanda slave-trade circuit"
+  bg: "Робският маршрут Баия–Луанда"
+  places: [ salvador-bahia, luanda ]
+  sections: [ 029/case-study-was-the-atlantic-trade-truly-triangular ]
+  status: proposed
+- id: route-stockton-darlington
+  name: "Stockton and Darlington Railway"
+  bg: "Железницата Стоктън–Дарлингтън"
+  places: [ stockton-on-tees, darlington ]
+  active: { from: "1825" }
+  sections: [ 034/railways-and-the-compression-of-distance ]
+  status: proposed
+- id: liverpool-manchester-railway
+  name: "Liverpool and Manchester Railway"
+  bg: "Железницата Ливърпул–Манчестър"
+  places: [ liverpool, manchester ]
+  active: { from: "1830" }
+  sections: [ 034/railways-and-the-compression-of-distance ]
+  status: proposed
+- id: bolivar-1819
+  name: "Bolívar's 1819 campaign"
+  bg: "Походът на Боливар през 1819 г."
+  places: [ boyaca, bogota ]
+  active: { from: "1819", to: "1819" }
+  sections: [ 033/northern-south-america-and-the-andes-crossing ]
+  status: proposed

@@ -10,7 +10,7 @@ import { store } from './reader';
 
 type Link = { href: string; title: string; path: string };
 type Ev = { id: string; label: string; date: string; start: number; end: number; approx: boolean; region: string;
-  chapter: string; part: number | null; links: Link[] };
+  chapter: string; part: number | null; links: Link[]; map?: string | null };
 type Span = { label: string; title: string; part: number | null; start: number; end: number };
 type Region = { id: string; name: string };
 
@@ -338,7 +338,7 @@ function init(root: HTMLElement) {
     const region = regions.find((r) => r.id === e.region)?.name ?? '';
     card.innerHTML = `<button type="button" class="lt-card-close icon-btn" aria-label="${esc(S.close)}">×</button>
       <p class="lt-card-meta">${esc(region)} · ${esc(e.date)}</p><h3>${esc(e.label)}</h3>
-      <ul>${e.links.map((l) => `<li><a href="${esc(l.href)}">${esc(S.read)}: ${esc(l.title)} →</a></li>`).join('')}</ul>
+      <ul>${e.links.map((l) => `<li><a href="${esc(l.href)}">${esc(S.read)}: ${esc(l.title)} →</a></li>`).join('')}${e.map ? `<li><a href="${esc(e.map)}">${esc(S.showOnMap)}</a></li>` : ''}</ul>
       <button type="button" class="btn btn-quiet" data-mw>${esc(S.meanwhile)}</button>`;
     card.hidden = false;
     const w = card.offsetWidth, hgt = card.offsetHeight;

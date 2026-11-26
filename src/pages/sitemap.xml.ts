@@ -8,7 +8,7 @@ export const GET: APIRoute = async ({ site }) => {
   const chapters = await getChapters('en');
   const sections = await getSections('en');
   const paths = [
-    '/', '/about/', '/roadmap/', '/updates/', '/timeline/', '/play/', '/play/which-came-first/', '/play/fallacy-detective/',
+    '/', '/about/', '/roadmap/', '/updates/', '/timeline/', '/atlas/', '/play/', '/play/which-came-first/', '/play/fallacy-detective/',
     ...book.parts.map((p) => `/${p.slug}/`),
     ...chapters.map((c) => `/${c.data.slug}/`),
     ...sections.map((s) => `/${s.data.chapterSlug}/${s.data.slug}/`),

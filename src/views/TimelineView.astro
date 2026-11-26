@@ -9,6 +9,7 @@ import { getChapters, pageInfo } from '../lib/book';
 import { getTimeline } from '../lib/timeline';
 import { formatDate, position } from '../lib/time-scale';
 import { knowledge, tx, citeUrl } from '../lib/knowledge';
+import { features } from '../config/features';
 import { t, langFromPath, localize } from '../i18n/ui';
 
 const lang = langFromPath(Astro.url.pathname);
@@ -23,6 +24,7 @@ const events = (await Promise.all(knowledge.events.map(async (e) => {
   return {
     id: e.id, label: tx(e.label, lang), date: formatDate({ start: e.start, end: e.end, approx }, lang),
     start: e.start, end: e.end, approx, region: e.region, chapter: e.chapter ?? '',
+    map: features.atlas && e.place && knowledge.places.some((p) => p.id === e.place) ? localize(`/atlas/?place=${e.place}&year=${Math.round((e.start + e.end) / 2)}`, lang) : null,
     part: chapters.get(e.chapter ?? '')?.data.part ?? null,
     links: await Promise.all(e.sections.map(async (s) => {
       const info = await pageInfo(s.url, lang);
@@ -48,7 +50,7 @@ for (const sp of spans) {
 const canvasHeight = bandRows.length * 12 + 8 + 28 + regions.length * 46 + 4;
 const chapterOptions = [...new Set(events.map((e) => e.chapter))].sort().map((l) => chapters.get(l)).filter((c) => c !== undefined);
 const strings = Object.fromEntries(['read', 'meanwhile', 'meanwhileAt', 'around', 'nothing', 'close', 'showing', 'cluster',
-  'readCount', 'compressed', 'canvasLabel', 'inView'].map((k) => [k, t(lang, `lt.${k}` as any)]));
+  'readCount', 'compressed', 'canvasLabel', 'inView', 'showOnMap'].map((k) => [k, t(lang, `lt.${k}` as any)]));
 ---
 <Base title={t(lang, 'timeline.title')} description={t(lang, 'lt.lede', { n: events.length })}>
   <main id="main" class="container living-timeline" data-part="2" data-lt
@@ -101,7 +103,7 @@ const strings = Object.fromEntries(['read', 'meanwhile', 'meanwhileAt', 'around'
             <span class="lt-date">{e.date}</span>
             <span class="lt-label">{e.label}</span>
             <span class="lt-region">{regionName(e.region)}</span>
-            <span class="lt-links">{e.links.map((l) => <a href={l.href}>{l.title}</a>)}</span>
+            <span class="lt-links">{e.links.map((l) => <a href={l.href}>{l.title}</a>)}{e.map && <a class="lt-map" href={e.map}>{t(lang, 'lt.showOnMap')}</a>}</span>
           </li>
         ))}
       </ol>

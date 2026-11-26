@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "import": "python importer/import_manuscript.py && node scripts/knowledge.mjs check && node scripts/knowledge.mjs changed",
+    "import": "python importer/import_manuscript.py && node scripts/knowledge.mjs check && node scripts/games.mjs check && node scripts/explorables.mjs check && node scripts/map-layout.mjs && node scripts/knowledge.mjs changed",
     "translate": "node scripts/translate.mjs",
     "update": "npm run import && npm run translate && npm run og && npm run backup",
     "backup": "node scripts/backup-manuscript.mjs",

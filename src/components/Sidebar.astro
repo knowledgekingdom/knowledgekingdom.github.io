@@ -1,4 +1,5 @@
 ---
+import { features } from '../config/features';
 // Parts → Chapters only. Only the current chapter's sections are expanded,
 // so page weight stays flat as the book grows to thousands of sections.
 import { getBook, getChapters, sectionsOf, sectionUrl, chapterUrl, type Section } from '../lib/book';
@@ -55,6 +56,7 @@ const special = current.filter((s) => s.data.type !== 'section');
       <a href={localize('/about/', lang)}>{t(lang, 'nav.aboutBook')}</a>
       <a href={localize('/roadmap/', lang)}>{t(lang, 'nav.comingChapters')}</a>
       <a href={localize('/timeline/', lang)}>{t(lang, 'nav.timeline')}</a>
+      {features.atlas && <a href={localize('/atlas/', lang)}>{t(lang, 'nav.atlas')}</a>}
       <a href={localize('/play/', lang)}>{t(lang, 'play.title')}</a>
     </div>
   </div>
