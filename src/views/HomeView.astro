@@ -38,7 +38,8 @@ const latestLinks = latest
 // Kingdom Map: its interface text, handed to the map script.
 const mapKeys = ['title', 'part', 'partN', 'chapter', 'chapterN', 'comingSoon', 'chapters', 'sectionsRead', 'finished', 'league', 'planned', 'plannedNote',
   'flyTo', 'choose', 'zoom', 'zoomIn', 'zoomOut', 'whereIAm', 'wholeMap', 'full', 'close', 'start', 'continue', 'readAgain', 'seeRoadmap',
-  'contents', 'flashcards', 'bridges', 'bannerToast', 'bannersToast', 'crestToast', 'welcomeToast', 'wheelHint'] as const;
+  'contents', 'flashcards', 'bridges', 'bannerToast', 'bannersToast', 'crestToast', 'welcomeToast', 'wheelHint',
+  'time_dawn', 'time_day', 'time_dusk', 'time_night', 'timeLabel', 'timeHint', 'skipIntro'] as const;
 const mapStrings = Object.fromEntries(mapKeys.map((k) => [k, t(lang, `map.${k}`)]));
 mapStrings.map = mapStrings.title;
 const recent = (await Promise.all(latestLinks.map(async (l) => {

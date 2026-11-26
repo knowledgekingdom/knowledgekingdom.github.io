@@ -158,7 +158,7 @@ export async function mount(root: HTMLElement) {
     const newBanners = doneTowns.filter((t) => !ex[`map:ch-${t.label}`]);
     const parts = partsDone(data, states);
     const newCrests = parts.filter((n) => !ex[`map:part-${n}`]);
-    const anyBefore = Object.keys(ex).some((k) => k.startsWith('map:'));
+    const anyBefore = Object.keys(ex).some((k) => k.startsWith('map:') && k !== 'map:awakened');
     for (const t of newBanners) base.querySelector(`.km-town[data-ch="${t.label}"]`)?.classList.add('is-raising');
     for (const n of newCrests) base.querySelector(`.km-crest[data-part="${n}"]`)?.classList.add('is-new');
     if (newCrests.length) {
@@ -186,6 +186,7 @@ export async function mount(root: HTMLElement) {
   let baseTilt = fw < 700 ? 9 : 14;
   let tx = baseTilt, ty = 0, wantX = baseTilt, wantY = 0;
   let Hinv = [1, 0, 0, 0, 1, 0, 0, 0, 1];
+  let tiltM = new DOMMatrix();
   const sMin = () => Math.min(fw / W, fh / H) * 0.92;
   const sMax = () => (fw < 700 ? 2.6 : 2.2);
 
@@ -193,6 +194,7 @@ export async function mount(root: HTMLElement) {
     const persp = new DOMMatrix(); persp.m34 = -1 / 1700;
     const m = new DOMMatrix().translate(fw / 2, fh / 2).multiply(persp).rotate(tx, ty, 0).scale(1.07).translate(-fw / 2, -fh / 2);
     tilt.style.transform = m.toString();
+    tiltM = m;
     Hinv = inv3([m.m11, m.m21, m.m41, m.m12, m.m22, m.m42, m.m14, m.m24, m.m44]);
   }
   /** Screen point → point on the flat (untilted) plane, in frame pixels. */
@@ -528,6 +530,44 @@ export async function mount(root: HTMLElement) {
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', retheme);
   store.subscribe(() => { if (JSON.stringify(progressOf(store.state.read)) !== signature) draw(); });
 
+  // ---------- "The Kingdom awakens" ----------
+  // The map unrolls like a scroll while the camera settles onto it from high above; the fog parts
+  // (its first reveal), the compass spins in and the crests are stamped. Any tap or key skips it.
+  function awaken(): Promise<void> {
+    return new Promise((done) => {
+      frame.classList.add('is-awakening');
+      const rolls = ['km-roll km-roll-l', 'km-roll km-roll-r'].map((c) => { const d = document.createElement('div'); d.className = c; d.setAttribute('aria-hidden', 'true'); frame.appendChild(d); return d; });
+      const skipBtn = document.createElement('button');
+      skipBtn.type = 'button'; skipBtn.className = 'km-skip-intro'; skipBtn.textContent = S.skipIntro ?? 'Skip';
+      frame.appendChild(skipBtn);
+      const end = { tx: baseTilt, s, cx, cy };
+      const from = { tx: 0, s: s * 0.7 };
+      const t0 = performance.now(), dur = 2900;
+      let skip = false;
+      const stop = () => { skip = true; };
+      skipBtn.addEventListener('click', stop);
+      frame.addEventListener('pointerdown', stop, { once: true });
+      addEventListener('keydown', stop, { once: true });
+      frame.addEventListener('wheel', stop, { once: true, passive: true });
+      const ease3 = (x: number) => 1 - (1 - clamp(x, 0, 1)) ** 3;
+      const step = (now: number) => {
+        const e = skip ? 1 : ease3((now - t0) / dur);
+        tx = wantX = from.tx + (end.tx - from.tx) * e;
+        s = Math.exp(Math.log(from.s) + (Math.log(end.s) - Math.log(from.s)) * e);
+        cx = end.cx; cy = end.cy;
+        applyTilt(); applyView();
+        if (e < 1) { requestAnimationFrame(step); return; }
+        frame.classList.remove('is-awakening');
+        rolls.forEach((r) => r.remove()); skipBtn.remove();
+        removeEventListener('keydown', stop);
+        const at = Math.floor(Date.now() / 1000);
+        store.update((st) => { st.explored ??= {}; st.explored['map:awakened'] ??= at; });
+        done();
+      };
+      requestAnimationFrame(step);
+    });
+  }
+
   // ---------- go: in short steps, so no single task holds up the page ----------
   const pause = () => new Promise<void>((r) => setTimeout(r, 0));
   paintSeaTexture();
@@ -549,12 +589,25 @@ export async function mount(root: HTMLElement) {
   await pause();
   paintFogTexture();
   await pause();
+  // "The Kingdom awakens" on a reader's first visit (not when coming back from a chapter).
+  const firstVisit = !back && !calm() && !(store.state.explored ?? {})['map:awakened'];
+  const awakening = firstVisit ? awaken() : Promise.resolve();
   drawRest(true);
   root.classList.add('is-ready');
+  // The life on the map: time of day, weather, birds (a separate download, after the map is up).
+  let atmo: { redraw: () => void; phase: () => string; setPhase: (p: null | 'dawn' | 'day' | 'dusk' | 'night') => void } | null = null;
+  import('./atmosphere.ts').then((m) => {
+    atmo = m.startAtmosphere({ frame, data, lang, strings: S, calm, dark: isDark,
+      view: () => ({ cx, cy, s, fw, fh, m: tiltM }),
+      lit: () => data.towns.filter((tw) => states[tw.label] === 'done' || states[tw.label] === 'started') });
+  });
+  void awakening;
   performance.measure('km-mount', 'km-start');
   // Test hook (used by the browser checks): the view, and a map point → screen point.
   Object.assign(root, {
     kmView: () => ({ cx, cy, s, tilt: [tx, ty], selected, current, states }),
+    kmPhase: (p?: null | 'dawn' | 'day' | 'dusk' | 'night') => { if (p !== undefined) atmo?.setPhase(p); return atmo?.phase() ?? null; },
+    kmAwake: () => !frame.classList.contains('is-awakening'),
     kmScreen: (x: number, y: number) => {
       const fx = fw / 2 + (x - cx) * s, fy = fh / 2 + (y - cy) * s;
       const m = new DOMMatrix(tilt.style.transform), p = m.transformPoint(new DOMPoint(fx, fy, 0, 1)), r = frame.getBoundingClientRect();

@@ -250,11 +250,11 @@ export function renderTop(data: MapData, opts: RenderOptions = {}): string {
     out.push(`<text class="km-island-name" x="${r.cx}" y="${r.cy - 8}" text-anchor="middle">${esc(`${s.chapters} ${pad(r.first)}–${pad(r.last)}`)}</text><text class="km-soon" x="${r.cx}" y="${r.cy + 28}" text-anchor="middle">${esc(s.comingSoon)}</text>`);
   }
   const cx = W - 170, cy = H * 0.5;
-  out.push(`<g class="km-compass" transform="translate(${cx} ${cy})"><circle r="92"/><circle r="74" class="km-compass-in"/>`
+  out.push(`<g class="km-compass" transform="translate(${cx} ${cy})"><g class="km-compass-g"><circle r="92"/><circle r="74" class="km-compass-in"/>`
     + `<path class="km-compass-dark" d="M0-112L13-13L0 0zM0 112L-13 13L0 0zM112 0L13 13L0 0zM-112 0L-13-13L0 0z"/>`
     + `<path class="km-compass-light" d="M0-112L-13-13L0 0zM0 112L13 13L0 0zM112 0L13-13L0 0zM-112 0L-13 13L0 0z"/>`
     + `<path class="km-compass-light" d="M0-62L7-7L0 0zM62 0L7 7L0 0zM0 62L-7 7L0 0zM-62 0L-7-7L0 0z" transform="rotate(45)"/>`
-    + `<text y="-122" text-anchor="middle">N</text></g>`);
+    + `<text y="-122" text-anchor="middle">N</text></g></g>`);
   // One league is the average road distance between neighbouring towns.
   const gaps = data.towns.slice(1).map((t, i) => [t, data.towns[i]] as const).filter(([a, b]) => a.part === b.part).map(([a, b]) => Math.hypot(a.x - b.x, a.y - b.y));
   const league = Math.round(gaps.reduce((a, b) => a + b, 0) / Math.max(1, gaps.length));

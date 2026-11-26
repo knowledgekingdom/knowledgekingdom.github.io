@@ -20,5 +20,6 @@ CC BY-SA) or non-commercial (CC BY-NC) material without asking Semir first.
 | Atlas drawing, symbols and styles (`src/scripts/atlas.ts`, `src/styles/atlas.css`) | Atlas | drawn for this site | — |
 | Chapter trailer player, film grain and ship (`src/trailer/player.ts`) | chapter trailers | made for this site; uses the Natural Earth base map above | — |
 | Emblem motions, wax seal and Part film (`src/styles/emblems.css`, `src/motion/celebrate.ts`) | celebrations | made for this site | — |
+| Map atmosphere: light of the hour, lanterns, mist, birds, smoke, glints and the awakening (`src/map/atmosphere.ts`, `src/styles/map.css`) | Kingdom Map | made for this site; no images or libraries | — |
 
 When a later phase adds data or libraries, add a row here in the same commit.

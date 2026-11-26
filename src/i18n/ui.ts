@@ -482,6 +482,13 @@ const en = {
   'cel.journey': 'See your journey',
   'cel.close': 'Close',
   'cel.next': 'Next chapter',
+  'map.time_dawn': 'Dawn in the Kingdom',
+  'map.time_day': 'Day in the Kingdom',
+  'map.time_dusk': 'Dusk in the Kingdom',
+  'map.time_night': 'Night in the Kingdom',
+  'map.timeLabel': 'Time of day on the map',
+  'map.timeHint': 'Press to see the map at another hour.',
+  'map.skipIntro': 'Skip',
 };
 
 export type UIKey = keyof typeof en;
@@ -957,6 +964,13 @@ const bg: Record<UIKey, string> = {
   'cel.journey': 'Вижте пътешествието си',
   'cel.close': 'Затвори',
   'cel.next': 'Следваща глава',
+  'map.time_dawn': 'Зазоряване в Кралството',
+  'map.time_day': 'Ден в Кралството',
+  'map.time_dusk': 'Здрач в Кралството',
+  'map.time_night': 'Нощ в Кралството',
+  'map.timeLabel': 'Час от денонощието на картата',
+  'map.timeHint': 'Натиснете, за да видите картата в друг час.',
+  'map.skipIntro': 'Пропусни',
 };
 
 const dict: Record<Lang, Record<UIKey, string>> = { en, bg };
