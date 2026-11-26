@@ -87,6 +87,13 @@
 .at-date { font-weight: 650; }
 .at-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; margin: .6rem 0 0; font: .85rem var(--font-sans); }
 .at-show { min-height: 40px; }
+/* The list's icons are drawn by CSS (one rule, not an inline SVG in each of hundreds of entries). */
+.at-ico { display: inline-block; width: 1rem; height: 1rem; flex: none; background: currentColor; vertical-align: -.15em;
+  -webkit-mask: var(--ico) center / contain no-repeat; mask: var(--ico) center / contain no-repeat; }
+.at-ico-globe { --ico: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18'/%3E%3C/svg%3E"); }
+.at-ico-arrow { --ico: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12h14M13 6l6 6-6 6'/%3E%3C/svg%3E"); }
+/* Hundreds of entries: the browser lays out and paints only the groups near the screen. */
+.at-group { content-visibility: auto; contain-intrinsic-size: auto 2400px; }
 .at-credit { margin-top: 2rem; }
 @media print { .at-explorer { display: none; } }
 /* Full screen locks the page behind the map (same class as the Kingdom Map). */

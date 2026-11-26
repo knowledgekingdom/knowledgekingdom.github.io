@@ -52,8 +52,13 @@ function start(root: HTMLElement) {
     return Math.round(year / step) * step;
   }
   const yearText = (y: number) => formatDate({ start: y, end: y }, lang);
+  // Events at the slider's year pulse for a few seconds after the year changes, then hold still
+  // (a constant pulse would redraw the whole map many times a second for as long as the page is open).
+  // Not on arrival: the page opens on still rings, and they pulse once the reader moves through time.
+  let pulseUntil = 0, arrived = false;
   function setU(nu: number, fromSlider = false) {
     u = clamp(nu, U0, U1);
+    if (arrived) pulseUntil = performance.now() + 4200;
     const y = Math.round(yearAt(u));
     if (!fromSlider) slider.value = String(Math.round(((u - U0) / (U1 - U0)) * 1000));
     const label = yearText(y);
@@ -164,6 +169,7 @@ function start(root: HTMLElement) {
     return path;
   }
   const routePath = new Map<string, Path2D>();
+  const widths = new Map<string, number>(); // measured label widths, by font and text
   function routeLine(r: Route): Path2D {
     let p = routePath.get(r.id);
     if (p) return p;
@@ -273,7 +279,7 @@ function start(root: HTMLElement) {
         hits.push({ kind: 'place', id: p.id, x: sx, y: sy, r: 14, alpha });
       }
       if (ev) {
-        const pulse = calm() ? 0.5 : (now / 1400) % 1;
+        const pulse = calm() || now > pulseUntil ? 0.35 : (now / 1400) % 1;
         ctx.globalAlpha = 1 - pulse; ctx.strokeStyle = col.event; ctx.lineWidth = 2;
         ctx.beginPath(); ctx.arc(sx, sy, 6 + pulse * 16, 0, 6.283); ctx.stroke();
         labels.push({ x: sx + 8, y: sy + 15, text: `${ev[3]}: ${ev[2]}`, pri: 200, font: `600 12px ${sans}`, colour: col.event, alpha: 1, kind: 'event' });
@@ -286,8 +292,11 @@ function start(root: HTMLElement) {
     const placed: [number, number, number, number][] = [];
     ctx.textBaseline = 'middle';
     for (const l of labels) {
+      const mk = l.font + '|' + l.text;
+      let w = widths.get(mk);
       ctx.font = l.font;
-      const w = ctx.measureText(l.text).width, h = 15;
+      if (w === undefined) { w = ctx.measureText(l.text).width; widths.set(mk, w); }
+      const h = 15;
       const centre = l.kind !== 'place' && l.kind !== 'event';
       const x0 = centre ? l.x - w / 2 : l.x;
       const box: [number, number, number, number] = [x0 - 2, l.y - h / 2, x0 + w + 2, l.y + h / 2];
@@ -302,7 +311,7 @@ function start(root: HTMLElement) {
     frameMs = performance.now() - t0;
     root.dataset.frameMs = frameMs.toFixed(1);
     // Keep pulsing while an event is shown.
-    if (!calm() && labels.some((l) => l.kind === 'event')) setTimeout(schedule, 60);
+    if (!calm() && now < pulseUntil && labels.some((l) => l.kind === "event")) setTimeout(schedule, Math.min(60, pulseUntil - now + 5));
   }
 
   // ---------- picking and the panel ----------
@@ -501,6 +510,7 @@ function start(root: HTMLElement) {
   const params = new URLSearchParams(location.search);
   const y0 = params.get('year');
   setU(y0 !== null && !Number.isNaN(Number(y0)) ? position(Number(y0)) : position(1450));
+  arrived = true;
   fetch('/atlas/geo.json').then((r) => r.json()).then((g: Geo) => {
     geo = g; buildPaths(g);
     root.classList.add('is-ready');

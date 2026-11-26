@@ -161,11 +161,17 @@ export function startAtmosphere(o: Opts) {
       if (p.t > 5) { smoke.splice(i, 1); continue; }
       const [x, y, k] = project(v, p.x + p.t * 9, p.y - p.t * 14);
       const r = (6 + p.t * 7) * k;
+      if (x < -r || y < -r || x > W + r || y > H + r) continue;
       ctx.globalAlpha = (dark ? 0.25 : 0.32) * (1 - p.t / 5);
       ctx.drawImage(blob, x - r, y - r, r * 2, r * 2);
     }
     // Glints on the water (by day, or by the moon).
-    if (glints.length < 14 * quality && rand() < 0.25) { const w = data.waves[Math.floor(rand() * data.waves.length)]; if (w) glints.push({ x: w[0] + (rand() - 0.5) * 80, y: w[1] + (rand() - 0.5) * 40, t: 0 }); }
+    // (a glint is only struck on water that is on screen: the sea is far larger than the view)
+    if (glints.length < 14 * quality && rand() < 0.25) {
+      const w = data.waves[Math.floor(rand() * data.waves.length)];
+      const [x, y] = w ? project(v, w[0], w[1]) : [-1, -1];
+      if (w && x > 0 && y > 0 && x < W && y < H) glints.push({ x: w[0] + (rand() - 0.5) * 80, y: w[1] + (rand() - 0.5) * 40, t: 0 });
+    }
     ctx.strokeStyle = phase === 'night' || dark ? 'rgba(210,225,255,1)' : 'rgba(255,255,255,1)'; ctx.lineCap = 'round';
     for (let i = glints.length - 1; i >= 0; i--) {
       const g = glints[i]; g.t += dt;

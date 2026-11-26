@@ -144,8 +144,8 @@ const counts = { places: places.filter((p) => p.type !== 'empire').length, route
                   <p class="at-sub">{t(lang, 'atlas.mentioned', { n: p.links.length })}</p>
                   <ul class="at-links">{p.links.map((l) => <li><a href={l.href}>{l.title}</a></li>)}</ul>
                   <p class="at-actions">
-                    <button type="button" class="btn btn-quiet at-show" data-show={p.id}><Icon name="globe" /> {t(lang, 'atlas.showOnMap')}</button>
-                    {p.win && <a class="more-link" href={timelineHref(p.win.w)}>{t(lang, 'atlas.showOnTimeline')} <Icon name="arrowRight" class="arrow" /></a>}
+                    <button type="button" class="btn btn-quiet at-show" data-show={p.id}><span class="at-ico at-ico-globe" aria-hidden="true"></span> {t(lang, 'atlas.showOnMap')}</button>
+                    {p.win && <a class="more-link" href={timelineHref(p.win.w)}>{t(lang, 'atlas.showOnTimeline')} <span class="at-ico at-ico-arrow arrow" aria-hidden="true"></span></a>}
                   </p>
                 </div>
               </li>
@@ -167,8 +167,8 @@ const counts = { places: places.filter((p) => p.type !== 'empire').length, route
                   <p class="at-note">{t(lang, 'atlas.routeNote')}</p>
                   <ul class="at-links">{r.links.map((l) => <li><a href={l.href}>{l.title}</a></li>)}</ul>
                   <p class="at-actions">
-                    <button type="button" class="btn btn-quiet at-show" data-show={r.id}><Icon name="globe" /> {t(lang, 'atlas.showOnMap')}</button>
-                    {r.win && <a class="more-link" href={timelineHref(r.win.w)}>{t(lang, 'atlas.showOnTimeline')} <Icon name="arrowRight" class="arrow" /></a>}
+                    <button type="button" class="btn btn-quiet at-show" data-show={r.id}><span class="at-ico at-ico-globe" aria-hidden="true"></span> {t(lang, 'atlas.showOnMap')}</button>
+                    {r.win && <a class="more-link" href={timelineHref(r.win.w)}>{t(lang, 'atlas.showOnTimeline')} <span class="at-ico at-ico-arrow arrow" aria-hidden="true"></span></a>}
                   </p>
                 </div>
               </li>

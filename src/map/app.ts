@@ -253,6 +253,12 @@ export async function mount(root: HTMLElement) {
     anim = requestAnimationFrame(step);
   }
   function regionBox(n: number) {
+    // Frame a Part by its towns, its name and its crest (its land runs on beyond them to the coast).
+    const ts = data.towns.filter((t) => t.part === n);
+    if (ts.length) {
+      const xs = ts.map((t) => t.x), ys = ts.map((t) => t.y);
+      return { x0: Math.min(...xs) - 230, x1: Math.max(...xs) + 230, y0: Math.min(...ys) - 330, y1: Math.max(...ys) + 190 };
+    }
     const r = data.regions.find((q) => q.number === n)!;
     const xs = r.outline.map((p) => p[0]), ys = r.outline.map((p) => p[1]);
     return { x0: Math.min(...xs), x1: Math.max(...xs), y0: Math.min(...ys) - 90, y1: Math.max(...ys) };
@@ -272,9 +278,12 @@ export async function mount(root: HTMLElement) {
   function flyToTown(label: string, open = false) {
     const t = townBy[label];
     if (!t) return;
-    const ts = Math.max(s, fw < 700 ? 0.55 : 0.6);
-    // On phones the panel covers the bottom of the map: aim a little lower so the town sits above it.
-    flyTo(t.x, t.y + (fw < 700 && open ? 120 / ts : 0), ts);
+    // Close enough to see the town's buildings (one per section).
+    const ts = Math.max(s, fw < 700 ? 1.1 : 1.2);
+    // The panel covers part of the map: on phones the bottom (aim lower so the town sits above it),
+    // on wider screens the right-hand side (aim right so the town sits in the open part).
+    const dx = open && fw >= 700 ? 176 / ts : 0, dy = open && fw < 700 ? (fh * 0.24) / ts : 0;
+    flyTo(t.x + dx, t.y + dy, ts);
     if (open) openTown(label);
   }
 
@@ -349,7 +358,7 @@ export async function mount(root: HTMLElement) {
   // ---------- mini-map ----------
   function drawMini() {
     const k = (n: number) => Math.round(n);
-    mini.innerHTML = `<svg viewBox="0 0 ${W} ${H}">${data.regions.map((r) => `<path class="${r.known ? 'k' : 'f'}" d="${smooth(r.outline, true)}"/>`).join('')}`
+    mini.innerHTML = `<svg viewBox="0 0 ${W} ${H}">${data.regions.map((r) => `<path class="${r.known ? 'k' : 'f'}" d="${smooth(r.outline.filter((_, i) => i % 3 === 0), true)}"/>`).join('')}`
       + data.towns.map((t) => `<circle class="t is-${states[t.label]}" cx="${k(t.x)}" cy="${k(t.y)}" r="34"/>`).join('')
       + `<path class="v" d=""/></svg>`;
     drawMiniView();

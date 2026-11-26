@@ -27,7 +27,9 @@ export function noise(w: number, h: number, seed: number, octaves = 5, base = 6)
   return out;
 }
 
-const RES = 16; // one texture pixel per 16 map units (the canvas is smoothed when stretched)
+// One texture pixel per 16 map units or more: the textures stay about 50,000 pixels however large
+// the world grows (the canvas is smoothed when stretched, and the mottle is soft anyway).
+const resFor = (W: number, H: number) => Math.max(16, Math.ceil(Math.sqrt((W * H) / 50000)));
 const cache: Record<string, Float32Array> = {};
 function field(key: string, w: number, h: number, seed: number, octaves: number, base: number) {
   return (cache[key] ??= noise(w, h, seed, octaves, base));
@@ -41,7 +43,7 @@ function tint(ctx: CanvasRenderingContext2D, n: Float32Array, w: number, h: numb
 
 /** The sea: its colour with a faint watercolour mottle. */
 export function paintSea(canvas: HTMLCanvasElement, W: number, H: number, colour: string, dark: boolean) {
-  const w = Math.ceil(W / RES), h = Math.ceil(H / RES);
+  const RES = resFor(W, H), w = Math.ceil(W / RES), h = Math.ceil(H / RES);
   canvas.width = w; canvas.height = h;
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
@@ -59,7 +61,7 @@ export type Hole = { label: string; x: number; y: number; r: number };
  * open up gradually (the fog clearing), unless motion is reduced.
  */
 export function createFog(canvas: HTMLCanvasElement, W: number, H: number) {
-  const w = Math.ceil(W / RES), h = Math.ceil(H / RES);
+  const RES = resFor(W, H), w = Math.ceil(W / RES), h = Math.ceil(H / RES);
   canvas.width = w; canvas.height = h;
   const ctx = canvas.getContext('2d');
   const base = document.createElement('canvas');

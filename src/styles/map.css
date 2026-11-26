@@ -3,7 +3,7 @@
    behaviour: src/map/app.ts. */
 .km {
   --km-sea: #d9e4dd; --km-wave: #7f9c95; --km-ripple: #7f9c95; --km-island: #e6dcc6; --km-ink: #3b2f22; --km-halo-text: #f1e7cf;
-  --km-land-1: #eadcb6; --km-land-2: #efd9a8; --km-land-3: #dbe2bd; --km-rim-1: #c9a96a; --km-rim-2: #d6a85b; --km-rim-3: #9fb07a;
+  --km-land-1: #eadcb6; --km-land-2: #efd9a8; --km-land-3: #dbe2bd; --km-land-4: #e2d6d2; --km-rim-1: #c9a96a; --km-rim-2: #d6a85b; --km-rim-3: #9fb07a; --km-rim-4: #a98d85;
   --km-river: #7fa6b4; --km-mount: #e6d2a4; --km-mount-shade: #b8976a; --km-snow: #fbf7ec; --km-hill: #d9c792; --km-tree: #a9b878;
   --km-dune: #e8c98b; --km-field: #d7d48c; --km-cliff: #b89466; --km-shadow: rgb(70 45 15 / .16);
   --km-road: #6d4f2f; --km-road-walked: #a8441f; --km-bridge: #7a5aa0; --km-house: #efe4cb; --km-lit: #e0a33a;
@@ -15,7 +15,7 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) .km {
     --km-sea: #0f1822; --km-wave: #2f4a5e; --km-ripple: #34506a; --km-island: #1c2531; --km-ink: #d7c495; --km-halo-text: #121820;
-    --km-land-1: #2a2925; --km-land-2: #302a21; --km-land-3: #232a24; --km-rim-1: #4b4232; --km-rim-2: #5a4628; --km-rim-3: #364532;
+    --km-land-1: #2a2925; --km-land-2: #302a21; --km-land-3: #232a24; --km-land-4: #2b2527; --km-rim-1: #4b4232; --km-rim-2: #5a4628; --km-rim-3: #364532; --km-rim-4: #4d3c3d;
     --km-river: #3d6b86; --km-mount: #3b3729; --km-mount-shade: #26241c; --km-snow: #8f8a78; --km-hill: #39352a; --km-tree: #2e3a2a;
     --km-dune: #4a3f2a; --km-field: #3a3d27; --km-cliff: #17140f; --km-shadow: rgb(0 0 0 / .35);
     --km-road: #8c7a55; --km-road-walked: #ffc25a; --km-bridge: #a28cd1; --km-house: #3a362c; --km-lit: #ffc65a;
@@ -25,7 +25,7 @@
 }
 :root[data-theme='dark'] .km {
   --km-sea: #0f1822; --km-wave: #2f4a5e; --km-ripple: #34506a; --km-island: #1c2531; --km-ink: #d7c495; --km-halo-text: #121820;
-  --km-land-1: #2a2925; --km-land-2: #302a21; --km-land-3: #232a24; --km-rim-1: #4b4232; --km-rim-2: #5a4628; --km-rim-3: #364532;
+  --km-land-1: #2a2925; --km-land-2: #302a21; --km-land-3: #232a24; --km-land-4: #2b2527; --km-rim-1: #4b4232; --km-rim-2: #5a4628; --km-rim-3: #364532; --km-rim-4: #4d3c3d;
   --km-river: #3d6b86; --km-mount: #3b3729; --km-mount-shade: #26241c; --km-snow: #8f8a78; --km-hill: #39352a; --km-tree: #2e3a2a;
   --km-dune: #4a3f2a; --km-field: #3a3d27; --km-cliff: #17140f; --km-shadow: rgb(0 0 0 / .35);
   --km-road: #8c7a55; --km-road-walked: #ffc25a; --km-bridge: #a28cd1; --km-house: #3a362c; --km-lit: #ffc65a;
@@ -130,13 +130,13 @@
 .km-ripple { fill: none; stroke: var(--km-ripple); stroke-width: 2; }
 .km-ripple-1 { opacity: .6; } .km-ripple-2 { opacity: .3; }
 .km-island { fill: var(--km-island); stroke: var(--km-ink); stroke-width: 2.5; stroke-dasharray: 2 9; stroke-linecap: round; }
-.km-cliff path { fill: var(--km-cliff); stroke: var(--km-ink); stroke-width: 3; }
+.km-cliff > * { fill: var(--km-cliff); stroke: var(--km-ink); stroke-width: 3; }
 .km-cliff .km-cliff-hatch { fill: url(#km-hatch); stroke: none; }
 .km-hatch-line { stroke: var(--km-ink); stroke-width: 1.3; opacity: .35; }
-.km-coast path { fill: none; stroke: var(--km-ink); stroke-width: 6; stroke-linejoin: round; }
-.km-land-1 { fill: var(--km-land-1); } .km-land-2 { fill: var(--km-land-2); } .km-land-3 { fill: var(--km-land-3); }
+.km-coast > * { fill: none; stroke: var(--km-ink); stroke-width: 6; stroke-linejoin: round; }
+.km-land-1 { fill: var(--km-land-1); } .km-land-2 { fill: var(--km-land-2); } .km-land-3 { fill: var(--km-land-3); } .km-land-4 { fill: var(--km-land-4); }
 .km-rim { fill: none; stroke-width: 34; opacity: .5; }
-.km-rim-1 { stroke: var(--km-rim-1); } .km-rim-2 { stroke: var(--km-rim-2); } .km-rim-3 { stroke: var(--km-rim-3); }
+.km-rim-1 { stroke: var(--km-rim-1); } .km-rim-2 { stroke: var(--km-rim-2); } .km-rim-3 { stroke: var(--km-rim-3); } .km-rim-4 { stroke: var(--km-rim-4); }
 .km-borders path { fill: none; stroke: var(--km-ink); stroke-width: 2.4; stroke-dasharray: 14 7 3 7; opacity: .7; }
 .km-rivers path { fill: none; stroke: var(--km-river); stroke-width: 6; stroke-linecap: round; }
 .km-ink { fill: none; stroke: var(--km-ink); stroke-width: 1.6; stroke-linejoin: round; stroke-linecap: round; }
@@ -149,6 +149,10 @@
 .km-road { fill: none; stroke: var(--km-road); stroke-width: 5; stroke-dasharray: 2 11; stroke-linecap: round; }
 .km-road-walked { stroke: var(--km-road-walked); stroke-dasharray: none; stroke-width: 6; }
 .km-bridge { fill: none; stroke: var(--km-bridge); stroke-width: 2.5; stroke-dasharray: 10 8; opacity: .75; }
+/* Sea lanes: the road crossing a strait, and the uncharted way on to the next land. */
+.km-lane { fill: none; stroke: var(--km-road); stroke-width: 4; stroke-dasharray: 16 12; stroke-linecap: round; opacity: .7; }
+.km-lane.is-walked { stroke: var(--km-road-walked); opacity: 1; stroke-width: 5; }
+.km-lane.is-uncharted { stroke: var(--km-ink); stroke-width: 3; stroke-dasharray: 3 16; opacity: .45; }
 .km-town { cursor: pointer; outline: none; }
 .km-hit { fill: transparent; }
 .km-house { fill: var(--km-house); stroke: var(--km-ink); stroke-width: 1; }
@@ -162,19 +166,26 @@
 .km-name { font-style: italic; font-size: calc(25px * var(--km-ls, 1)); font-weight: 560; fill: var(--km-ink); text-anchor: middle; paint-order: stroke; stroke: var(--km-halo-text); stroke-width: calc(6px * var(--km-ls, 1)); stroke-linejoin: round; }
 .km-num { font-family: var(--font-sans); font-style: normal; font-weight: 700; font-size: .72em; opacity: .65; }
 .km-frame.is-far .km-name { display: none; }
+/* From far away: a land's name across it, above the fog (the arc name gives way to it). */
+.km-far { transform: scale(var(--km-far, 1)); opacity: 0; transition: opacity var(--dur-3, .3s); pointer-events: none; }
+.km-far-part { font: 650 34px var(--font-serif); letter-spacing: .3em; text-transform: uppercase; fill: var(--km-ink); paint-order: stroke; stroke: var(--km-halo-text); stroke-width: 8px; stroke-linejoin: round; }
+.km-far-title { font: italic 600 40px var(--font-serif); fill: var(--km-ink); paint-order: stroke; stroke: var(--km-halo-text); stroke-width: 8px; stroke-linejoin: round; }
+.km-frame.is-far .km-far { opacity: .92; }
+.km-frame.is-far .km-region-name { opacity: 0; }
 .km-pennant-flag { fill: var(--km-accent); }
 .km-town:hover .km-medal { stroke-width: 4; }
 .km-town:focus-visible .km-medal { stroke: var(--accent); stroke-width: 7; }
 .km-town.is-selected .km-medal { stroke: var(--km-accent); stroke-width: 6; }
 .km-town.is-next .km-medal { stroke-dasharray: 5 4; }
 .km-town.is-planned { opacity: .85; }
-.km-region-name { font-size: calc(30px * var(--km-rs, 1)); font-weight: 650; letter-spacing: .22em; text-transform: uppercase; fill: var(--km-ink); opacity: .78; }
+.km-region-name { font-size: calc(30px * min(var(--km-rs, 1), var(--km-rs-max, 4.5))); font-weight: 650; letter-spacing: .22em; text-transform: uppercase; fill: var(--km-ink); opacity: .78; }
 .km-arc { fill: none; }
 .km-crest path { fill: var(--km-medal); stroke: var(--km-ink); stroke-width: 2.4; }
 .km-crest .km-crest-band { fill: none; }
 .km-crest text { font-size: 15px; font-weight: 700; fill: var(--km-ink); }
 .km-crest.is-done path { fill: var(--km-accent); }
 .km-crest.is-done text { fill: var(--km-medal); }
+.km-island-label { transform: scale(min(var(--km-rs, 1), 3)); }
 .km-island-name { font-size: 30px; font-style: italic; fill: var(--km-ink); opacity: .75; }
 .km-soon { font: 600 15px var(--font-sans); letter-spacing: .2em; text-transform: uppercase; fill: var(--km-ink); opacity: .6; }
 .km-compass circle { fill: none; stroke: var(--km-ink); stroke-width: 2; }

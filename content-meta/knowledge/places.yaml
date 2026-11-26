@@ -424,7 +424,7 @@
   region: africa
   sections: [ 012/the-middle-kingdom-reunification-and-a-different-political ]
   source: "wikidata:Q5715"
-  status: proposed
+  status: approved
 - id: thebes-egypt
   name: "Thebes"
   bg: "Тива"
@@ -434,7 +434,7 @@
   region: africa
   sections: [ 012/a-village-where-workmen-left-records, 012/the-middle-kingdom-reunification-and-a-different-political ]
   source: "wikidata:Q101583"
-  status: proposed
+  status: approved
 - id: giza
   name: "Giza"
   bg: "Гиза"
@@ -444,7 +444,7 @@
   region: africa
   sections: [ 012/summary, 012/the-old-kingdom-durable-stone-and-fragile-politics ]
   source: "wikidata:Q12508"
-  status: proposed
+  status: approved
 - id: saqqara
   name: "Saqqara"
   bg: "Сакара"
@@ -454,7 +454,7 @@
   region: africa
   sections: [ 012/summary, 012/the-old-kingdom-durable-stone-and-fragile-politics ]
   source: "wikidata:Q192134"
-  status: proposed
+  status: approved
 - id: amarna
   name: "Amarna"
   bg: "Амарна (Ахетатон)"
@@ -464,7 +464,7 @@
   region: africa
   sections: [ 012/a-new-kingdom-that-looked-outward, 012/amarna-when-a-ruler-tried-to-change-the-gods, 012/summary ]
   source: "wikidata:Q5736"
-  status: proposed
+  status: approved
 - id: deir-el-medina
   name: "Deir el-Medina"
   bg: "Дейр ел-Медина"
@@ -474,7 +474,7 @@
   region: africa
   sections: [ 012/a-village-where-workmen-left-records, 012/summary ]
   source: "wikidata:Q750212"
-  status: proposed
+  status: approved
 - id: abydos-egypt
   name: "Abydos"
   bg: "Абидос"
@@ -484,7 +484,7 @@
   region: africa
   sections: [ 012/before-the-pharaohs-the-valley-was-already-changing ]
   source: "wikidata:Q192268"
-  status: proposed
+  status: approved
 - id: naqada
   name: "Naqada"
   bg: "Накада"
@@ -494,7 +494,7 @@
   region: africa
   sections: [ 012/before-the-pharaohs-the-valley-was-already-changing, 012/summary ]
   source: "wikidata:Q959859"
-  status: proposed
+  status: approved
 - id: hierakonpolis
   name: "Hierakonpolis"
   bg: "Йераконполис (Нехен)"
@@ -504,7 +504,7 @@
   region: africa
   sections: [ 012/before-the-pharaohs-the-valley-was-already-changing ]
   source: "wikidata:Q278988"
-  status: proposed
+  status: approved
 - id: kerma
   name: "Kerma"
   bg: "Керма"
@@ -514,7 +514,7 @@
   region: africa
   sections: [ 012/nubia-was-not-egypts-passive-southern-backdrop, 012/summary, 012/the-middle-kingdom-reunification-and-a-different-political, 018/the-nile-south-of-egypt-kerma-kush-and-changing-power ]
   source: "wikidata:Q1107569"
-  status: proposed
+  status: approved
 - id: meroe
   name: "Meroë"
   bg: "Мерое"
@@ -524,7 +524,7 @@
   region: africa
   sections: [ 018/the-nile-south-of-egypt-kerma-kush-and-changing-power ]
   source: "wikidata:Q5780"
-  status: proposed
+  status: approved
 - id: napata
   name: "Napata"
   bg: "Напата"
@@ -534,7 +534,7 @@
   region: africa
   sections: [ 018/the-nile-south-of-egypt-kerma-kush-and-changing-power ]
   source: "wikidata:Q743282"
-  status: proposed
+  status: approved
 - id: nubia
   name: "Nubia"
   bg: "Нубия"
@@ -544,7 +544,7 @@
   region: africa
   sections: [ 012/a-new-kingdom-that-looked-outward, 012/a-river-flowing-toward-the-north, 012/nubia-was-not-egypts-passive-southern-backdrop, 012/the-middle-kingdom-reunification-and-a-different-political, 012/why-ancient-egypt-matters-beyond-the-pyramids, 018/religion-scholarship-and-multiple-traditions ]
   source: "wikidata:Q135028"
-  status: proposed
+  status: approved
 - id: kadesh
   name: "Kadesh"
   bg: "Кадеш"
@@ -554,7 +554,7 @@
   region: west-asia
   sections: [ 012/ramesses-ii-kadesh-and-what-victory-looks-like, 012/summary ]
   source: "wikidata:Q690035"
-  status: proposed
+  status: approved
 - id: nile-delta
   name: "Nile Delta"
   bg: "Делта на Нил"
@@ -564,7 +564,7 @@
   region: africa
   sections: [ 012/a-river-flowing-toward-the-north, 012/summary, 012/the-middle-kingdom-reunification-and-a-different-political ]
   source: "wikidata:Q179528"
-  status: proposed
+  status: approved
 - id: alexandria
   name: "Alexandria"
   bg: "Александрия"
@@ -574,7 +574,7 @@
   region: africa
   sections: [ 017/the-hellenistic-bridge-the-mediterranean-after-alexander, 020/umar-and-the-astonishing-conquests ]
   source: "wikidata:Q87"
-  status: proposed
+  status: approved
 - id: harappa
   name: "Harappa"
   bg: "Харапа"
@@ -584,7 +584,7 @@
   region: south-asia
   sections: [ 013/craftspeople-materials-and-technical-intelligence, 013/discovering-a-civilization-twice, 013/essential-timeline-chapter-013, 013/harappa-a-city-that-grew-in-stages, 013/the-dates-development-rather-than-a-sudden-birth, 013/was-there-a-king-a-council-or-something-else ]
   source: "wikidata:Q185562"
-  status: proposed
+  status: approved
 - id: mohenjo-daro
   name: "Mohenjo-daro"
   bg: "Мохенджо-Даро"
@@ -594,7 +594,7 @@
   region: south-asia
   sections: [ 013/dholavira-another-way-to-build-a-city, 013/discovering-a-civilization-twice, 013/essential-timeline-chapter-013, 013/identity-belief-and-ritual-what-artifacts-can-and-cannot-say, 013/mohenjo-daro-a-city-built-around-water, 013/summary ]
   source: "wikidata:Q5725"
-  status: proposed
+  status: approved
 - id: dholavira
   name: "Dholavira"
   bg: "Дхолавира"
@@ -604,7 +604,7 @@
   region: south-asia
   sections: [ 013/dholavira-another-way-to-build-a-city, 013/discovering-a-civilization-twice, 013/essential-timeline-chapter-013, 013/summary, 013/was-there-a-king-a-council-or-something-else ]
   source: "wikidata:Q9468"
-  status: proposed
+  status: approved
 - id: rakhigarhi
   name: "Rakhigarhi"
   bg: "Ракхигархи"
@@ -614,7 +614,7 @@
   region: south-asia
   sections: [ 013/ancient-dna-powerful-evidence-with-careful-limits, 013/discovering-a-civilization-twice, 013/summary ]
   source: "wikidata:Q3418050"
-  status: proposed
+  status: approved
 - id: mehrgarh
   name: "Mehrgarh"
   bg: "Мехргарх"
@@ -624,7 +624,7 @@
   region: south-asia
   sections: [ 013/essential-timeline-chapter-013, 013/summary, 013/the-dates-development-rather-than-a-sudden-birth ]
   source: "wikidata:Q242148"
-  status: proposed
+  status: approved
 - id: indus-river
   name: "Indus"
   bg: "Инд"
@@ -634,7 +634,7 @@
   region: south-asia
   sections: [ 013/ancient-dna-powerful-evidence-with-careful-limits, 013/begin-with-a-map-not-a-legend, 013/compare-three-urban-civilizations-without-ranking-them, 013/dholavira-another-way-to-build-a-city, 013/the-seals-small-objects-with-large-questions, 013/the-temptation-of-the-peaceful-civilization, 013/trade-overland-and-across-the-sea, 011/trade-a-city-cannot-eat-clay, 011/was-mesopotamia-the-cradle-of-civilization, 014/three-early-civilizations-three-kinds-of-evidence ]
   source: "wikidata:Q7348"
-  status: proposed
+  status: approved
 - id: ghaggar-hakra
   name: "Ghaggar-Hakra"
   bg: "Гхагар-Хакра"
@@ -644,7 +644,7 @@
   region: south-asia
   sections: [ 013/begin-with-a-map-not-a-legend, 013/rivers-move-monsoons-vary-societies-respond, 013/summary ]
   source: "wikidata:Q798422"
-  status: proposed
+  status: approved
 - id: punjab
   name: "Punjab"
   bg: "Пенджаб"
@@ -654,7 +654,7 @@
   region: south-asia
   sections: [ 013/begin-with-a-map-not-a-legend, 013/harappa-a-city-that-grew-in-stages, 013/summary, 030/a-map-of-three-political-ecologies ]
   source: "wikidata:Q169132"
-  status: proposed
+  status: approved
 - id: anyang
   name: "Anyang (Yinxu)"
   bg: "Анян (Инсю)"
@@ -664,7 +664,7 @@
   region: east-asia
   sections: [ 014/anyang-where-archaeology-meets-writing, 014/beyond-the-capital-sanxingdui-and-the-many-bronze-age-worlds, 014/dates-dynasties-and-the-limits-of-a-familiar-timeline, 014/fu-hao-a-woman-visible-in-an-unusually-rich-record, 014/how-to-recognize-exaggeration-about-ancient-china, 014/shang-power-a-king-among-other-powers ]
   source: "wikidata:Q464904"
-  status: proposed
+  status: approved
 - id: erlitou
   name: "Erlitou"
   bg: "Ерлитоу"
@@ -674,7 +674,7 @@
   region: east-asia
   sections: [ 014/dates-dynasties-and-the-limits-of-a-familiar-timeline, 014/erlitou-a-city-without-an-identified-king, 014/how-to-recognize-exaggeration-about-ancient-china ]
   source: "wikidata:Q1051663"
-  status: proposed
+  status: approved
 - id: liangzhu
   name: "Liangzhu"
   bg: "Лянджу"
@@ -684,7 +684,7 @@
   region: east-asia
   sections: [ 014/farmers-potters-and-the-beginnings-of-complex-societies, 014/how-to-recognize-exaggeration-about-ancient-china, 014/liangzhu-another-route-to-complexity ]
   source: "wikidata:Q1204909"
-  status: proposed
+  status: approved
 - id: sanxingdui
   name: "Sanxingdui"
   bg: "Сансиндуй"
@@ -694,7 +694,7 @@
   region: east-asia
   sections: [ 014/beyond-the-capital-sanxingdui-and-the-many-bronze-age-worlds ]
   source: "wikidata:Q929072"
-  status: proposed
+  status: approved
 - id: yellow-river
   name: "Yellow River"
   bg: "Хуанхъ"
@@ -704,7 +704,7 @@
   region: east-asia
   sections: [ 014/dates-dynasties-and-the-limits-of-a-familiar-timeline, 014/shang-power-a-king-among-other-powers, 014/start-with-geography-more-than-one-river-valley, 022/environmental-and-economic-limits-of-imperial-reach ]
   source: "wikidata:Q7355"
-  status: proposed
+  status: approved
 - id: changan
   name: "Chang'an (Xi'an)"
   bg: "Чан’ан (Си’ан)"
@@ -714,7 +714,7 @@
   region: east-asia
   sections: [ 021/a-caravan-of-religions-diversity-without-a-single-verdict, 021/sui-and-tang-china-reunification-and-cosmopolitan-exchange, 021/the-sogdians-intermediaries-who-made-a-network-work ]
   source: "wikidata:Q6501000"
-  status: proposed
+  status: approved
 - id: persepolis
   name: "Persepolis"
   bg: "Персеполис"
@@ -724,7 +724,7 @@
   region: west-asia
   sections: [ 015/a-source-workshop-hearing-four-different-voices, 015/alexanders-conquest-military-victory-and-administrative, 015/clay-tablets-below-the-monuments-seeing-the-empire-at-work, 015/many-languages-one-political-order, 015/the-many-royal-centers-pasargadae-susa-babylon, 015/the-question-that-travels-forward ]
   source: "wikidata:Q129072"
-  status: proposed
+  status: approved
 - id: pasargadae
   name: "Pasargadae"
   bg: "Пасаргадае"
@@ -734,7 +734,7 @@
   region: west-asia
   sections: [ 015/the-many-royal-centers-pasargadae-susa-babylon ]
   source: "wikidata:Q230025"
-  status: proposed
+  status: approved
 - id: behistun
   name: "Behistun"
   bg: "Бехистун"
@@ -744,7 +744,7 @@
   region: west-asia
   sections: [ 015/a-source-workshop-hearing-four-different-voices, 015/many-languages-one-political-order, 015/religion-and-kingship-ahuramazda-without-anachronism, 015/the-crisis-of-522-bce-and-dariuss-account-of-legitimacy ]
   source: "wikidata:Q180012"
-  status: proposed
+  status: approved
 - id: sardis
   name: "Sardis"
   bg: "Сарди"
@@ -754,7 +754,7 @@
   region: west-asia
   sections: [ 015/lydia-croesus-and-the-dangers-of-a-perfect-story, 015/roads-messengers-and-the-speed-of-decisions ]
   source: "wikidata:Q232615"
-  status: proposed
+  status: approved
 - id: anatolia
   name: "Anatolia"
   bg: "Анатолия (Мала Азия)"
@@ -764,7 +764,7 @@
   region: west-asia
   sections: [ 015/a-new-dynasty-built-on-older-imperial-worlds, 015/conquest-accommodation-and-the-myth-of-complete-tolerance, 015/lydia-croesus-and-the-dangers-of-a-perfect-story, 015/the-greek-wars-a-frontier-becomes-the-famous-story, 015/the-question-that-travels-forward, 005/regional-case-study-bulgaria-and-the-balkans, 010/southwest-asia-an-early-complicated-transition, 010/toward-europe-the-aegean-the-balkans-and-the-danube, 010/why-did-people-begin-farming-five-explanations-that-interact, 016/a-sea-of-communities-not-one-greek-nation-state, 016/the-persian-wars-shared-danger-divided-greece, 021/byzantium-the-caucasus-and-the-western-ends-of-the-networks, 023/anatolia-before-the-ottomans-a-landscape-of-many-rulers, 023/crossing-into-europe-and-building-a-balkan-power, 023/manzikert-a-turning-point-that-needs-an-explanation, 023/the-ottoman-reversal-of-1402-and-the-recovery-that-followed, 023/what-and-where-was-medieval-europe, 030/ottoman-expansion-and-imperial-consolidation, 030/taxation-provinces-and-negotiation-in-ottoman-government, 038/other-settlements-the-middle-east-and-the-mandates, 038/the-europe-of-rival-empires ]
   source: "wikidata:Q51614"
-  status: proposed
+  status: approved
 - id: levant
   name: "Levant"
   bg: "Левант"
@@ -774,7 +774,7 @@
   region: west-asia
   sections: [ 012/a-new-kingdom-that-looked-outward, 012/ramesses-ii-kadesh-and-what-victory-looks-like, 009/the-expanding-human-world-migration-as-a-process, 010/southwest-asia-an-early-complicated-transition, 011/a-landscape-that-demanded-ingenuity, 015/a-new-dynasty-built-on-older-imperial-worlds, 015/religion-and-kingship-ahuramazda-without-anachronism ]
   source: "wikidata:Q81483"
-  status: proposed
+  status: approved
 - id: gaugamela
   name: "Gaugamela"
   bg: "Гавгамела"
@@ -784,7 +784,7 @@
   region: west-asia
   sections: [ 015/alexanders-conquest-military-victory-and-administrative ]
   source: "wikidata:Q179670"
-  status: proposed
+  status: approved
 - id: athens
   name: "Athens"
   bg: "Атина"
@@ -794,7 +794,7 @@
   region: mediterranean-europe
   sections: [ 016/a-sea-of-communities-not-one-greek-nation-state, 016/athens-before-democracy-land-debt-and-solons-reforms, 016/beyond-athens-versus-sparta-corinth-thebes-and-macedonia, 016/comparison-three-answers-to-the-problem-of-government, 016/how-athenian-democracy-worked-in-practice, 016/mytilene-and-melos-what-an-empire-says-about-justice, 016/oligarchic-coups-defeat-and-democratic-restoration, 016/ostracism-public-opinion-and-the-dangers-of-popular-power, 016/overseas-settlements-movement-trade-and-conflict, 016/pericles-public-buildings-and-political-choices, 016/religion-theater-and-the-public-imagination, 016/socrates-on-trial-democracy-religion-and-public-fear, 016/spartas-government-was-not-simply-one-man-rule, 016/spartas-social-bargain-citizenship-supported-by-dependency, 016/the-argument-that-survived-the-city-state, 016/the-delian-league-an-alliance-becoming-an-empire, 016/the-peloponnesian-war-a-conflict-that-consumed-a-generation, 016/the-persian-wars-shared-danger-divided-greece, 016/the-sicilian-expedition-when-confidence-overwhelms-judgment, 016/who-was-left-outside-the-assembly, 016/work-households-slavery-and-economic-power, 015/the-greek-wars-a-frontier-becomes-the-famous-story, 017/rome-in-comparison-what-can-empire-teach-us, 017/the-hellenistic-bridge-the-mediterranean-after-alexander ]
   source: "wikidata:Q1524"
-  status: proposed
+  status: approved
 - id: sparta
   name: "Sparta"
   bg: "Спарта"
@@ -804,7 +804,7 @@
   region: mediterranean-europe
   sections: [ 016/a-sea-of-communities-not-one-greek-nation-state, 016/beyond-athens-versus-sparta-corinth-thebes-and-macedonia, 016/comparison-three-answers-to-the-problem-of-government, 016/oligarchic-coups-defeat-and-democratic-restoration, 016/spartas-government-was-not-simply-one-man-rule, 016/spartas-social-bargain-citizenship-supported-by-dependency, 016/the-argument-that-survived-the-city-state, 016/the-peloponnesian-war-a-conflict-that-consumed-a-generation, 016/the-persian-wars-shared-danger-divided-greece, 016/the-sicilian-expedition-when-confidence-overwhelms-judgment, 016/work-households-slavery-and-economic-power, 017/the-hellenistic-bridge-the-mediterranean-after-alexander ]
   source: "wikidata:Q5690"
-  status: proposed
+  status: approved
 - id: corinth
   name: "Corinth"
   bg: "Коринт"
@@ -814,7 +814,7 @@
   region: mediterranean-europe
   sections: [ 016/the-argument-that-survived-the-city-state, 016/the-peloponnesian-war-a-conflict-that-consumed-a-generation, 017/the-hellenistic-bridge-the-mediterranean-after-alexander ]
   source: "wikidata:Q1363688"
-  status: proposed
+  status: approved
 - id: marathon
   name: "Marathon"
   bg: "Маратон"
@@ -824,7 +824,7 @@
   region: mediterranean-europe
   sections: [ 015/the-greek-wars-a-frontier-becomes-the-famous-story, 016/the-persian-wars-shared-danger-divided-greece ]
   source: "wikidata:Q212150"
-  status: proposed
+  status: approved
 - id: thermopylae
   name: "Thermopylae"
   bg: "Термопили"
@@ -834,7 +834,7 @@
   region: mediterranean-europe
   sections: [ 015/the-greek-wars-a-frontier-becomes-the-famous-story, 016/the-persian-wars-shared-danger-divided-greece ]
   source: "wikidata:Q194450"
-  status: proposed
+  status: approved
 - id: salamis
   name: "Salamis"
   bg: "Саламина"
@@ -844,7 +844,7 @@
   region: mediterranean-europe
   sections: [ 015/the-greek-wars-a-frontier-becomes-the-famous-story, 016/the-persian-wars-shared-danger-divided-greece ]
   source: "wikidata:Q202422"
-  status: proposed
+  status: approved
 - id: syracuse
   name: "Syracuse"
   bg: "Сиракуза"
@@ -854,7 +854,7 @@
   region: mediterranean-europe
   sections: [ 016/overseas-settlements-movement-trade-and-conflict, 016/the-sicilian-expedition-when-confidence-overwhelms-judgment ]
   source: "wikidata:Q13670"
-  status: proposed
+  status: approved
 - id: miletus
   name: "Miletus"
   bg: "Милет"
@@ -864,7 +864,7 @@
   region: mediterranean-europe
   sections: [ 016/philosophers-and-teachers-argument-becomes-a-public-craft ]
   source: "wikidata:Q169460"
-  status: proposed
+  status: approved
 - id: aegean-sea
   name: "Aegean Sea"
   bg: "Егейско (Бяло) море"
@@ -874,7 +874,7 @@
   region: mediterranean-europe
   sections: [ 015/cyrus-from-regional-ruler-to-imperial-founder, 015/lydia-croesus-and-the-dangers-of-a-perfect-story, 015/the-greek-wars-a-frontier-becomes-the-famous-story, 005/oceans-the-great-highways-and-climate-engines, 005/regional-case-study-bulgaria-and-the-balkans, 010/a-timeline-without-false-precision, 010/toward-europe-the-aegean-the-balkans-and-the-danube, 016/a-sea-of-communities-not-one-greek-nation-state, 016/overseas-settlements-movement-trade-and-conflict, 016/the-persian-wars-shared-danger-divided-greece, 023/the-fourth-crusade-and-the-disaster-of-1204, 030/a-map-of-three-political-ecologies, 037/geography-mountains-rivers-and-the-maritime-gateways, 037/greece-independence-and-international-intervention, 037/the-balkan-league-and-the-first-balkan-war-1912-1913, 038/neuilly-bulgarias-peace-settlement-november-1919 ]
   source: "wikidata:Q34575"
-  status: proposed
+  status: approved
 - id: sicily
   name: "Sicily"
   bg: "Сицилия"
@@ -884,7 +884,7 @@
   region: mediterranean-europe
   sections: [ 016/a-sea-of-communities-not-one-greek-nation-state, 016/overseas-settlements-movement-trade-and-conflict, 016/the-argument-that-survived-the-city-state, 016/the-sicilian-expedition-when-confidence-overwhelms-judgment, 017/carthage-and-the-punic-wars-the-cost-of-mediterranean, 017/italy-before-roman-supremacy, 017/the-economy-grain-money-taxes-and-unequal-opportunity, 036/garibaldi-1860-and-the-kingdom-of-italy ]
   source: "wikidata:Q1460"
-  status: proposed
+  status: approved
 - id: rome
   name: "Rome"
   bg: "Рим"
@@ -894,7 +894,7 @@
   region: mediterranean-europe
   sections: [ 017/an-alliance-system-became-a-path-to-domination, 017/augustus-monarchy-in-republican-clothing, 017/carthage-and-the-punic-wars-the-cost-of-mediterranean, 017/citizenship-as-a-changing-imperial-policy, 017/conquest-land-and-the-pressures-of-imperial-wealth, 017/foundation-stories-and-the-problem-of-early-evidence, 017/italy-before-roman-supremacy, 017/law-household-power-and-civic-obligation, 017/rome-in-comparison-what-can-empire-teach-us, 017/social-worlds-citizenship-slavery-women-and-religious, 017/soldiers-generals-and-the-failure-of-republican-restraint, 017/the-balkans-inside-roman-history, 017/the-economy-grain-money-taxes-and-unequal-opportunity, 017/the-hellenistic-bridge-the-mediterranean-after-alexander, 017/the-historians-verdict-not-one-rise-and-one-fall, 017/the-third-century-crisis-and-the-problem-of-resilience, 004/primary-source-is-a-relationship-to-a-question, 011/why-empires-fracture-the-end-of-akkadian-rule, 018/songhai-administration-and-the-fragility-of-empires, 018/why-the-continents-histories-are-not-a-ladder-of-development, 019/political-systems-compared-an-empire-is-not-a-civilization, 019/the-main-argument-many-routes-to-complexity, 020/the-empire-reaches-spain-and-central-asia, 021/the-historians-final-map-a-connected-world-with-changing, 024/the-high-renaissance-and-the-danger-of-a-golden-age-story, 024/why-the-italian-city-states-mattered, 025/before-the-reformation-a-church-with-many-communities, 025/england-dynastic-rupture-and-religious-restructuring, 025/indulgences-money-and-authority, 025/the-ninety-five-theses-and-a-rapidly-changing-dispute, 025/the-swiss-reformations-zurich-and-competing-visions, 036/garibaldi-1860-and-the-kingdom-of-italy ]
   source: "wikidata:Q220"
-  status: proposed
+  status: approved
 - id: carthage
   name: "Carthage"
   bg: "Картаген"
@@ -904,7 +904,7 @@
   region: africa
   sections: [ 017/carthage-and-the-punic-wars-the-cost-of-mediterranean, 018/a-historians-map-environments-as-connections-and-constraints ]
   source: "wikidata:Q6343"
-  status: proposed
+  status: approved
 - id: actium
   name: "Actium"
   bg: "Акциум"
@@ -914,7 +914,7 @@
   region: mediterranean-europe
   sections: [ 017/caesar-pompey-and-the-civil-wars, 017/the-hellenistic-bridge-the-mediterranean-after-alexander ]
   source: "wikidata:Q160387"
-  status: proposed
+  status: approved
 - id: vindolanda
   name: "Vindolanda"
   bg: "Виндоланда"
@@ -924,7 +924,7 @@
   region: mediterranean-europe
   sections: [ 017/roads-armies-frontiers-and-the-scale-of-empire, 017/roman-evidence-what-survives-and-who-produced-it ]
   source: "wikidata:Q1233131"
-  status: proposed
+  status: approved
 - id: pompeii
   name: "Pompeii"
   bg: "Помпей"
@@ -934,7 +934,7 @@
   region: mediterranean-europe
   sections: [ 017/roman-evidence-what-survives-and-who-produced-it ]
   source: "wikidata:Q43332"
-  status: proposed
+  status: approved
 - id: dacia
   name: "Dacia"
   bg: "Дакия"
@@ -944,7 +944,7 @@
   region: mediterranean-europe
   sections: [ 017/the-balkans-inside-roman-history, 017/the-emperors-and-the-problem-of-succession ]
   source: "wikidata:Q173082"
-  status: proposed
+  status: approved
 - id: hadrians-wall
   name: "Hadrian's Wall"
   bg: "Адрианов вал"
@@ -954,7 +954,7 @@
   region: mediterranean-europe
   sections: [ 017/roads-armies-frontiers-and-the-scale-of-empire ]
   source: "wikidata:Q57357"
-  status: proposed
+  status: approved
 - id: aksum
   name: "Aksum"
   bg: "Аксум"
@@ -964,7 +964,7 @@
   region: africa
   sections: [ 018/aksum-highlands-coins-and-the-red-sea, 018/ethiopian-christian-kingdoms-and-lalibela, 018/religion-scholarship-and-multiple-traditions, 018/songhai-administration-and-the-fragility-of-empires, 018/why-the-continents-histories-are-not-a-ladder-of-development, 020/muhammad-before-the-hijra-mecca-and-the-first-revelations ]
   source: "wikidata:Q5832"
-  status: proposed
+  status: approved
 - id: lalibela
   name: "Lalibela"
   bg: "Лалибела"
@@ -974,7 +974,7 @@
   region: africa
   sections: [ 018/ethiopian-christian-kingdoms-and-lalibela ]
   source: "wikidata:Q207590"
-  status: proposed
+  status: approved
 - id: timbuktu
   name: "Timbuktu"
   bg: "Тимбукту"
@@ -984,7 +984,7 @@
   region: africa
   sections: [ 018/timbuktu-and-djenne-cities-of-commerce-and-learning ]
   source: "wikidata:Q9427"
-  status: proposed
+  status: approved
 - id: djenne
   name: "Djenné"
   bg: "Джене"
@@ -994,7 +994,7 @@
   region: africa
   sections: [ 018/timbuktu-and-djenne-cities-of-commerce-and-learning ]
   source: "wikidata:Q213507"
-  status: proposed
+  status: approved
 - id: benin-city
   name: "Benin City"
   bg: "Бенин Сити"
@@ -1004,7 +1004,7 @@
   region: africa
   sections: [ 018/benin-court-institutions-brass-and-historical-memory ]
   source: "wikidata:Q320704"
-  status: proposed
+  status: approved
 - id: kilwa
   name: "Kilwa Kisiwani"
   bg: "Килуа"
@@ -1014,7 +1014,7 @@
   region: africa
   sections: [ 018/kilwa-and-the-networks-behind-stone-houses, 018/the-swahili-coast-african-cities-on-the-indian-ocean, 026/the-swahili-coast-african-cities-in-an-oceanic-world ]
   source: "wikidata:Q1741475"
-  status: proposed
+  status: approved
 - id: mombasa
   name: "Mombasa"
   bg: "Момбаса"
@@ -1024,7 +1024,7 @@
   region: africa
   sections: [ 018/the-swahili-coast-african-cities-on-the-indian-ocean, 026/the-swahili-coast-african-cities-in-an-oceanic-world ]
   source: "wikidata:Q225641"
-  status: proposed
+  status: approved
 - id: malindi
   name: "Malindi"
   bg: "Малинди"
@@ -1034,7 +1034,7 @@
   region: africa
   sections: [ 018/the-swahili-coast-african-cities-on-the-indian-ocean, 026/the-swahili-coast-african-cities-in-an-oceanic-world ]
   source: "wikidata:Q271411"
-  status: proposed
+  status: approved
 - id: niger-river
   name: "Niger"
   bg: "Нигер"
@@ -1044,7 +1044,7 @@
   region: africa
   sections: [ 018/a-historians-map-environments-as-connections-and-constraints, 018/mali-sundiata-and-the-making-of-imperial-authority, 018/songhai-administration-and-the-fragility-of-empires, 018/timbuktu-and-djenne-cities-of-commerce-and-learning, 018/west-africa-before-the-great-sahelian-empires, 035/africa-before-the-partition-no-empty-continent, 035/west-africa-rivalry-conquest-and-commercial-reorganization ]
   source: "wikidata:Q3542"
-  status: proposed
+  status: approved
 - id: mapungubwe
   name: "Mapungubwe"
   bg: "Мапунгубве"
@@ -1054,7 +1054,7 @@
   region: africa
   sections: [ 018/southern-africa-mapungubwe-and-great-zimbabwe ]
   source: "wikidata:Q1892156"
-  status: proposed
+  status: approved
 - id: ile-ife
   name: "Ile-Ife"
   bg: "Ифе"
@@ -1064,7 +1064,7 @@
   region: africa
   sections: [ 018/ife-artistry-authority-and-the-yoruba-world ]
   source: "wikidata:Q180084"
-  status: proposed
+  status: approved
 - id: tenochtitlan
   name: "Tenochtitlan"
   bg: "Теночтитлан"
@@ -1074,7 +1074,7 @@
   region: americas
   sections: [ 019/contact-conquest-and-indigenous-agency, 019/how-do-we-know-stones-inscriptions-and-living-knowledge, 019/tenochtitlan-and-the-triple-alliance, 019/teotihuacan-a-planned-metropolis-with-unanswered-questions, 027/a-chronology-of-voyages-and-changing-power, 027/conquest-in-mesoamerica-why-a-few-hundred-europeans, 027/conquest-in-the-andes-civil-war-alliances-and-coercion ]
   source: "wikidata:Q13695"
-  status: proposed
+  status: approved
 - id: tlatelolco
   name: "Tlatelolco"
   bg: "Тлателолко"
@@ -1084,7 +1084,7 @@
   region: americas
   sections: [ 019/how-do-we-know-stones-inscriptions-and-living-knowledge, 019/tenochtitlan-and-the-triple-alliance ]
   source: "wikidata:Q796925"
-  status: proposed
+  status: approved
 - id: teotihuacan
   name: "Teotihuacan"
   bg: "Теотиуакан"
@@ -1094,7 +1094,7 @@
   region: americas
   sections: [ 019/a-hemisphere-of-contrasting-environments, 019/central-mexico-after-teotihuacan-changing-centers-of-power, 019/forests-coasts-and-political-diversity-beyond-the-famous, 019/teotihuacan-a-planned-metropolis-with-unanswered-questions, 019/why-cities-and-political-orders-changed ]
   source: "wikidata:Q172613"
-  status: proposed
+  status: approved
 - id: cusco
   name: "Cusco"
   bg: "Куско"
@@ -1104,7 +1104,7 @@
   region: americas
   sections: [ 019/a-hemisphere-of-contrasting-environments, 019/forests-coasts-and-political-diversity-beyond-the-famous, 019/the-inka-a-rapidly-expanding-empire, 019/the-road-and-the-storehouse-infrastructure-as-government, 027/conquest-in-the-andes-civil-war-alliances-and-coercion ]
   source: "wikidata:Q5582862"
-  status: proposed
+  status: approved
 - id: caral
   name: "Caral"
   bg: "Карал"
@@ -1114,7 +1114,7 @@
   region: americas
   sections: [ 019/a-hemisphere-of-contrasting-environments, 019/caral-supe-an-early-center-in-coastal-peru, 019/chavin-moche-and-nazca-no-single-andean-template, 019/farmers-towns-and-the-long-invention-of-complexity ]
   source: "wikidata:Q219279"
-  status: proposed
+  status: approved
 - id: cahokia
   name: "Cahokia"
   bg: "Кахокия"
@@ -1124,7 +1124,7 @@
   region: americas
   sections: [ 019/a-hemisphere-of-contrasting-environments, 019/political-systems-compared-an-empire-is-not-a-civilization, 019/the-mississippi-basin-poverty-point-and-cahokia, 019/why-cities-and-political-orders-changed ]
   source: "wikidata:Q333661"
-  status: proposed
+  status: approved
 - id: chaco-canyon
   name: "Chaco Canyon"
   bg: "Каньонът Чако"
@@ -1134,7 +1134,7 @@
   region: americas
   sections: [ 019/the-north-american-southwest-chaco-and-ancestral-pueblo ]
   source: "wikidata:Q732463"
-  status: proposed
+  status: approved
 - id: tikal
   name: "Tikal"
   bg: "Тикал"
@@ -1144,7 +1144,7 @@
   region: americas
   sections: [ 019/the-maya-many-kingdoms-one-remarkable-cultural-world ]
   source: "wikidata:Q181172"
-  status: proposed
+  status: approved
 - id: casarabe
   name: "Casarabe sites"
   bg: "Обектите на Касарабе"
@@ -1154,7 +1154,7 @@
   region: americas
   sections: [ 019/amazonia-the-rainforest-was-not-an-untouched-blank, 019/the-main-argument-many-routes-to-complexity ]
   source: "wikidata:Q106092963"
-  status: proposed
+  status: approved
 - id: poverty-point
   name: "Poverty Point"
   bg: "Повърти Пойнт"
@@ -1164,7 +1164,7 @@
   region: americas
   sections: [ 019/farmers-towns-and-the-long-invention-of-complexity, 019/the-mississippi-basin-poverty-point-and-cahokia ]
   source: "wikidata:Q964745"
-  status: proposed
+  status: approved
 - id: cajamarca
   name: "Cajamarca"
   bg: "Кахамарка"
@@ -1174,7 +1174,7 @@
   region: americas
   sections: [ 027/conquest-in-the-andes-civil-war-alliances-and-coercion ]
   source: "wikidata:Q205119"
-  status: proposed
+  status: approved
 - id: mesoamerica
   name: "Mesoamerica"
   bg: "Мезоамерика"
@@ -1184,7 +1184,7 @@
   region: americas
   sections: [ 028/a-regional-comparison-mesoamerica-and-the-andes, 028/cacao-tobacco-and-a-world-of-contested-consumption, 028/cattle-sheep-pigs-and-goats-animals-as-ecological-agents, 028/maize-and-the-global-remaking-of-farming, 010/the-americas-maize-squash-potatoes-and-varied-histories, 019/a-hemisphere-of-contrasting-environments, 019/farmers-towns-and-the-long-invention-of-complexity ]
   source: "wikidata:Q13703"
-  status: proposed
+  status: approved
 - id: caribbean-sea
   name: "Caribbean"
   bg: "Карибско море"
@@ -1194,7 +1194,7 @@
   region: americas
   sections: [ 029/african-knowledge-and-the-making-of-new-cultures, 029/british-abolition-movement-law-and-limitation, 029/case-study-was-the-atlantic-trade-truly-triangular, 029/case-study-what-does-an-abolition-law-actually-end, 029/how-historians-count-voyages-and-people, 029/misconceptions-and-contested-interpretations, 029/sugar-land-mills-capital-and-coercion, 029/the-triangle-is-a-teaching-device-not-a-complete-route-map, 029/tobacco-coffee-rice-and-indigo, 029/what-emancipation-changed-and-what-it-did-not, 029/where-captives-were-sent-beyond-a-north-american-story, 019/contact-conquest-and-indigenous-agency, 019/exchange-movement-and-the-limits-of-isolation, 019/the-caribbean-and-circum-caribbean-worlds, 027/a-chronology-of-voyages-and-changing-power, 027/caribbean-communities-and-the-first-colonial-confrontations, 027/columbuss-westward-wager, 028/regional-chronology-no-single-epidemic-timeline, 028/sugar-labor-and-the-ecological-footprint-of-plantations, 028/what-crossed-westward-wheat-rice-and-sugarcane, 032/another-revolution-was-taking-shape-in-spanish-america, 032/what-did-haitian-independence-mean-to-the-atlantic-world, 032/what-makes-a-revolution-atlantic, 032/why-the-seven-years-war-mattered, 033/cuba-puerto-rico-and-the-uneven-boundaries-of-independence, 033/latin-america-was-not-one-colony ]
   source: "wikidata:Q1247"
-  status: proposed
+  status: approved
 - id: mecca
   name: "Mecca"
   bg: "Мека"
@@ -1204,7 +1204,7 @@
   region: west-asia
   sections: [ 020/a-politically-fragmented-but-connected-muslim-world, 020/arabia-was-connected-not-isolated, 020/conflict-diplomacy-and-the-growth-of-the-community, 020/muhammad-before-the-hijra-mecca-and-the-first-revelations, 020/the-central-argument-faith-institutions-and-a-connected, 020/the-hijra-of-622-a-new-political-setting, 020/worship-and-ethical-life-more-than-the-history-of-rulers, 018/mansa-musa-and-the-danger-of-dramatic-numbers, 026/arabia-the-red-sea-and-egypt-markets ]
   source: "wikidata:Q5806"
-  status: proposed
+  status: approved
 - id: medina
   name: "Medina"
   bg: "Медина"
@@ -1214,7 +1214,7 @@
   region: west-asia
   sections: [ 020/arabia-was-connected-not-isolated, 020/conflict-diplomacy-and-the-growth-of-the-community, 020/the-central-argument-faith-institutions-and-a-connected, 020/the-hijra-of-622-a-new-political-setting, 020/the-succession-problem-after-632, 020/the-umayyad-dynasty-an-empire-ruled-from-damascus, 026/arabia-the-red-sea-and-egypt-markets ]
   source: "wikidata:Q35484"
-  status: proposed
+  status: approved
 - id: damascus
   name: "Damascus"
   bg: "Дамаск"
@@ -1224,7 +1224,7 @@
   region: west-asia
   sections: [ 020/architecture-literature-and-a-changing-cultural-world, 020/from-regional-rule-to-imperial-institutions, 020/the-umayyad-dynasty-an-empire-ruled-from-damascus, 030/ottoman-towns-commerce-and-cultural-production ]
   source: "wikidata:Q3766"
-  status: proposed
+  status: approved
 - id: baghdad
   name: "Baghdad"
   bg: "Багдад"
@@ -1234,7 +1234,7 @@
   region: west-asia
   sections: [ 020/the-abbasid-economy-networks-rather-than-a-single-market, 020/the-abbasid-revolution-and-a-new-capital, 020/translation-mathematics-and-the-making-of-knowledge, 021/the-indian-ocean-a-second-map-of-medieval-connectivity, 021/the-islamic-world-as-a-bridge-and-a-set-of-regions, 022/the-fall-of-baghdad-and-the-ilkhanate ]
   source: "wikidata:Q1530"
-  status: proposed
+  status: approved
 - id: jerusalem
   name: "Jerusalem"
   bg: "Йерусалим"
@@ -1244,7 +1244,7 @@
   region: west-asia
   sections: [ 015/the-cyrus-cylinder-what-it-says-and-what-it-does-not, 018/ethiopian-christian-kingdoms-and-lalibela, 020/from-regional-rule-to-imperial-institutions, 023/crusading-a-movement-larger-than-a-single-expedition ]
   source: "wikidata:Q1218"
-  status: proposed
+  status: approved
 - id: cordoba
   name: "Córdoba"
   bg: "Кордоба"
@@ -1254,7 +1254,7 @@
   region: mediterranean-europe
   sections: [ 020/a-politically-fragmented-but-connected-muslim-world ]
   source: "wikidata:Q5818"
-  status: proposed
+  status: approved
 - id: karbala
   name: "Karbala"
   bg: "Кербала"
@@ -1264,7 +1264,7 @@
   region: west-asia
   sections: [ 020/sunni-and-shia-histories-the-need-for-precision ]
   source: "wikidata:Q199909"
-  status: proposed
+  status: approved
 - id: kufa
   name: "Kufa"
   bg: "Куфа"
@@ -1274,7 +1274,7 @@
   region: west-asia
   sections: [ 020/governing-conquest-garrisons-taxes-and-continuity ]
   source: "wikidata:Q186234"
-  status: proposed
+  status: approved
 - id: cairo
   name: "Cairo"
   bg: "Кайро"
@@ -1284,7 +1284,7 @@
   region: africa
   sections: [ 018/mansa-musa-and-the-danger-of-dramatic-numbers, 020/a-politically-fragmented-but-connected-muslim-world, 021/the-islamic-world-as-a-bridge-and-a-set-of-regions, 030/ottoman-towns-commerce-and-cultural-production ]
   source: "wikidata:Q85"
-  status: proposed
+  status: approved
 - id: iberia
   name: "Iberia"
   bg: "Пиренейски полуостров"
@@ -1294,7 +1294,7 @@
   region: mediterranean-europe
   sections: [ 023/crusading-a-movement-larger-than-a-single-expedition, 023/learning-manuscripts-and-universities, 023/what-and-where-was-medieval-europe, 017/carthage-and-the-punic-wars-the-cost-of-mediterranean, 020/a-politically-fragmented-but-connected-muslim-world, 020/the-empire-reaches-spain-and-central-asia, 024/beyond-italy-exchange-without-a-single-european-pattern, 024/the-medieval-foundations-of-innovation, 024/the-northern-renaissance-new-media-different-priorities, 025/jews-muslims-and-the-boundaries-of-christian-europe, 028/a-food-revolution-beyond-the-atlantic ]
   source: "wikidata:Q12837"
-  status: proposed
+  status: approved
 - id: samarkand
   name: "Samarkand"
   bg: "Самарканд"
@@ -1304,7 +1304,7 @@
   region: central-asia-steppe
   sections: [ 021/samarkand-bukhara-and-merv-cities-built, 021/technology-transfer-paper-printing-and-the-problem, 021/the-geography-of-exchange-why-roads-followed-constraints, 021/the-islamic-world-as-a-bridge-and-a-set-of-regions, 021/the-sogdians-intermediaries-who-made-a-network-work, 022/the-khwarazmian-campaign-how-a-frontier-dispute-became ]
   source: "wikidata:Q5753"
-  status: proposed
+  status: approved
 - id: bukhara
   name: "Bukhara"
   bg: "Бухара"
@@ -1314,7 +1314,7 @@
   region: central-asia-steppe
   sections: [ 021/samarkand-bukhara-and-merv-cities-built, 021/the-geography-of-exchange-why-roads-followed-constraints, 021/the-islamic-world-as-a-bridge-and-a-set-of-regions, 022/the-khwarazmian-campaign-how-a-frontier-dispute-became ]
   source: "wikidata:Q5764"
-  status: proposed
+  status: approved
 - id: merv
   name: "Merv"
   bg: "Мерв"
@@ -1324,7 +1324,7 @@
   region: central-asia-steppe
   sections: [ 021/samarkand-bukhara-and-merv-cities-built, 021/the-geography-of-exchange-why-roads-followed-constraints, 021/the-islamic-world-as-a-bridge-and-a-set-of-regions ]
   source: "wikidata:Q193325"
-  status: proposed
+  status: approved
 - id: dunhuang
   name: "Dunhuang"
   bg: "Дунхуан"
@@ -1334,7 +1334,7 @@
   region: east-asia
   sections: [ 021/buddhism-as-a-network-of-teachers-patrons-and-texts, 021/how-historians-reconstruct-a-world-that-left-scattered, 021/oasis-towns-small-patches-of-water-with-large-consequences, 021/the-historians-final-map-a-connected-world-with-changing, 021/tibet-and-the-struggle-for-the-high-corridors ]
   source: "wikidata:Q319114"
-  status: proposed
+  status: approved
 - id: tarim-basin
   name: "Tarim Basin"
   bg: "Таримски басейн"
@@ -1344,7 +1344,7 @@
   region: central-asia-steppe
   sections: [ 021/buddhism-as-a-network-of-teachers-patrons-and-texts, 021/sui-and-tang-china-reunification-and-cosmopolitan-exchange, 021/tibet-and-the-struggle-for-the-high-corridors ]
   source: "wikidata:Q216622"
-  status: proposed
+  status: approved
 - id: talas
   name: "Talas"
   bg: "Талас"
@@ -1354,7 +1354,7 @@
   region: central-asia-steppe
   sections: [ 021/knowledge-traveled-in-books-people-and-arguments, 021/technology-transfer-paper-printing-and-the-problem ]
   source: "wikidata:Q492415"
-  status: proposed
+  status: approved
 - id: quanzhou
   name: "Quanzhou"
   bg: "Цюанджоу"
@@ -1364,7 +1364,7 @@
   region: east-asia
   sections: [ 026/ming-chinas-oceanic-world-before-the-europeans ]
   source: "wikidata:Q68695"
-  status: proposed
+  status: approved
 - id: srivijaya
   name: "Palembang (Srivijaya)"
   bg: "Палембанг (Шривиджая)"
@@ -1374,7 +1374,7 @@
   region: southeast-asia
   sections: [ 021/srivijaya-and-southeast-asia-sea-lanes-created-regional ]
   source: "wikidata:Q8131"
-  status: proposed
+  status: approved
 - id: karakorum
   name: "Karakorum"
   bg: "Каракорум"
@@ -1384,7 +1384,7 @@
   region: central-asia-steppe
   sections: [ 022/after-1227-the-empire-was-a-family-arrangement ]
   source: "wikidata:Q62677"
-  status: proposed
+  status: approved
 - id: legnica
   name: "Legnica"
   bg: "Легница"
@@ -1394,7 +1394,7 @@
   region: mediterranean-europe
   sections: [ 022/the-european-campaigns-rus-poland-hungary-and-beyond ]
   source: "wikidata:Q106274"
-  status: proposed
+  status: approved
 - id: mohi
   name: "Mohi"
   bg: "Мохи"
@@ -1404,7 +1404,7 @@
   region: mediterranean-europe
   sections: [ 022/the-european-campaigns-rus-poland-hungary-and-beyond ]
   source: "wikidata:Q705874"
-  status: proposed
+  status: approved
 - id: volga
   name: "Volga"
   bg: "Волга"
@@ -1414,7 +1414,7 @@
   region: central-asia-steppe
   sections: [ 022/the-connected-world-after-the-khans, 022/the-european-campaigns-rus-poland-hungary-and-beyond, 022/the-golden-horde-and-the-question-of-indirect-rule ]
   source: "wikidata:Q626"
-  status: proposed
+  status: approved
 - id: ain-jalut
   name: "Ain Jalut"
   bg: "Айн Джалут"
@@ -1424,7 +1424,7 @@
   region: west-asia
   sections: [ 022/the-fall-of-baghdad-and-the-ilkhanate ]
   source: "wikidata:Q244356"
-  status: proposed
+  status: approved
 - id: kyiv
   name: "Kyiv"
   bg: "Киев"
@@ -1434,7 +1434,7 @@
   region: mediterranean-europe
   sections: [ 021/rus-rivers-and-the-black-sea-baltic-connection, 022/the-european-campaigns-rus-poland-hungary-and-beyond ]
   source: "wikidata:Q1899"
-  status: proposed
+  status: approved
 - id: constantinople
   name: "Constantinople (Istanbul)"
   bg: "Константинопол (Истанбул)"
@@ -1444,7 +1444,7 @@
   region: mediterranean-europe
   sections: [ 023/bulgaria-and-byzantium-before-the-new-bulgarian-kingdom, 023/byzantium-was-the-roman-empire-not-an-empire-beside-rome, 023/case-study-three-records-three-viewpoints-on-1453, 023/christianity-and-rival-forms-of-authority, 023/eastern-and-western-christianity-division-without-a-single, 023/from-a-divided-medieval-world-toward-an-early-modern-one, 023/the-fourth-crusade-and-the-disaster-of-1204, 023/the-ottoman-reversal-of-1402-and-the-recovery-that-followed, 023/the-second-bulgarian-empire-a-new-center-at-tarnovo, 023/the-siege-of-1453-why-the-city-fell-and-what-survived, 023/what-and-where-was-medieval-europe, 017/the-eastern-roman-empire-and-the-afterlife-of-rome, 017/the-third-century-crisis-and-the-problem-of-resilience, 021/byzantium-the-caucasus-and-the-western-ends-of-the-networks, 021/rus-rivers-and-the-black-sea-baltic-connection, 024/the-medieval-foundations-of-innovation, 030/ottoman-expansion-and-imperial-consolidation, 030/ottoman-towns-commerce-and-cultural-production, 030/taxation-provinces-and-negotiation-in-ottoman-government, 030/the-balkans-inside-the-ottoman-world, 037/bulgarias-national-revival-before-a-bulgarian-state, 037/commerce-railways-and-the-economic-eastern-question, 037/geography-mountains-rivers-and-the-maritime-gateways, 037/salonika-constantinople-and-life-beyond-diplomatic, 037/the-road-from-constantinople-diplomacy-to-war, 037/the-romanian-principalities-and-the-danubian-question, 037/the-russo-turkish-war-battle-volunteers-and-civilian ]
   source: "wikidata:Q16869"
-  status: proposed
+  status: approved
 - id: adrianople
   name: "Adrianople (Edirne)"
   bg: "Одрин (Адрианопол)"
@@ -1454,7 +1454,7 @@
   region: mediterranean-europe
   sections: [ 023/case-study-three-records-three-viewpoints-on-1453, 023/crossing-into-europe-and-building-a-balkan-power, 023/the-second-bulgarian-empire-a-new-center-at-tarnovo, 037/geography-mountains-rivers-and-the-maritime-gateways, 037/the-second-balkan-war-and-the-borders-of-1913 ]
   source: "wikidata:Q43387"
-  status: proposed
+  status: approved
 - id: manzikert
   name: "Manzikert"
   bg: "Манцикерт"
@@ -1464,7 +1464,7 @@
   region: west-asia
   sections: [ 023/case-study-three-records-three-viewpoints-on-1453, 023/manzikert-a-turning-point-that-needs-an-explanation ]
   source: "wikidata:Q200032"
-  status: proposed
+  status: approved
 - id: kosovo-polje
   name: "Kosovo Field"
   bg: "Косово поле"
@@ -1474,7 +1474,7 @@
   region: mediterranean-europe
   sections: [ 023/case-study-three-records-three-viewpoints-on-1453, 023/serbia-and-the-politics-of-a-shifting-balkan-frontier, 023/the-ottoman-reversal-of-1402-and-the-recovery-that-followed, 037/serbia-revolts-autonomy-and-changing-political-status ]
   source: "wikidata:Q179288"
-  status: proposed
+  status: approved
 - id: tarnovo
   name: "Tarnovo"
   bg: "Велико Търново"
@@ -1484,7 +1484,7 @@
   region: mediterranean-europe
   sections: [ 023/bulgaria-under-pressure-fragmentation-conquest, 023/culture-religious-institutions-and-memories-in-medieval, 023/the-second-bulgarian-empire-a-new-center-at-tarnovo, 004/case-study-how-bulgaria-became-independent, 037/a-bulgarian-principality-constitution-power-and-dependency ]
   source: "wikidata:Q173474"
-  status: proposed
+  status: approved
 - id: nicaea
   name: "Nicaea"
   bg: "Никея"
@@ -1494,7 +1494,7 @@
   region: mediterranean-europe
   sections: [ 023/orhan-bursa-and-a-government-that-could-grow, 023/the-fourth-crusade-and-the-disaster-of-1204 ]
   source: "wikidata:Q739037"
-  status: proposed
+  status: approved
 - id: kleidion
   name: "Kleidion"
   bg: "Ключ (Беласица)"
@@ -1504,7 +1504,7 @@
   region: mediterranean-europe
   sections: [ 023/bulgaria-and-byzantium-before-the-new-bulgarian-kingdom, 023/case-study-three-records-three-viewpoints-on-1453 ]
   source: "wikidata:Q584047"
-  status: proposed
+  status: approved
 - id: bursa
   name: "Bursa"
   bg: "Бурса"
@@ -1514,7 +1514,7 @@
   region: mediterranean-europe
   sections: [ 023/orhan-bursa-and-a-government-that-could-grow, 030/ottoman-towns-commerce-and-cultural-production ]
   source: "wikidata:Q40738"
-  status: proposed
+  status: approved
 - id: gallipoli
   name: "Gallipoli"
   bg: "Галиполи"
@@ -1524,7 +1524,7 @@
   region: mediterranean-europe
   sections: [ 023/crossing-into-europe-and-building-a-balkan-power, 038/the-ottoman-empire-and-the-war-beyond-europe ]
   source: "wikidata:Q192860"
-  status: proposed
+  status: approved
 - id: varna
   name: "Varna"
   bg: "Варна"
@@ -1534,7 +1534,7 @@
   region: mediterranean-europe
   sections: [ 023/the-ottoman-reversal-of-1402-and-the-recovery-that-followed ]
   source: "wikidata:Q32832"
-  status: proposed
+  status: approved
 - id: florence
   name: "Florence"
   bg: "Флоренция"
@@ -1544,7 +1544,7 @@
   region: mediterranean-europe
   sections: [ 024/beyond-italy-exchange-without-a-single-european-pattern, 024/brunelleschis-dome-innovation-under-practical-constraints, 024/civic-humanism-learning-and-political-participation, 024/florence-families-guilds-and-competing-ambitions, 024/the-high-renaissance-and-the-danger-of-a-golden-age-story, 024/timeline-people-and-concepts-to-retain, 024/why-the-italian-city-states-mattered, 023/eastern-and-western-christianity-division-without-a-single ]
   source: "wikidata:Q2044"
-  status: proposed
+  status: approved
 - id: venice
   name: "Venice"
   bg: "Венеция"
@@ -1554,7 +1554,7 @@
   region: mediterranean-europe
   sections: [ 023/the-fourth-crusade-and-the-disaster-of-1204, 023/the-komnenian-recovery-and-the-problem-of-allies, 023/towns-craft-associations-and-the-return-of-dense-commerce, 024/case-study-reconstructing-a-printed-books-journey, 024/from-mainz-to-a-european-network, 024/why-the-italian-city-states-mattered, 026/the-spice-islands-scarcity-was-geographic-and-political ]
   source: "wikidata:Q641"
-  status: proposed
+  status: approved
 - id: mainz
   name: "Mainz"
   bg: "Майнц"
@@ -1564,7 +1564,7 @@
   region: mediterranean-europe
   sections: [ 024/gutenbergs-breakthrough-a-system-not-a-single-machine, 025/the-ninety-five-theses-and-a-rapidly-changing-dispute ]
   source: "wikidata:Q1720"
-  status: proposed
+  status: approved
 - id: krakow
   name: "Kraków"
   bg: "Краков"
@@ -1574,7 +1574,7 @@
   region: mediterranean-europe
   sections: [ 024/beyond-italy-exchange-without-a-single-european-pattern, 024/scripts-and-languages-what-got-printed-and-for-whom, 025/the-council-of-trent-doctrine-and-discipline ]
   source: "wikidata:Q31487"
-  status: proposed
+  status: approved
 - id: milan
   name: "Milan"
   bg: "Милано"
@@ -1584,7 +1584,7 @@
   region: mediterranean-europe
   sections: [ 017/belief-violence-and-the-rise-of-christianity, 024/why-the-italian-city-states-mattered, 037/the-serbo-bulgarian-war-and-the-danger-of-comparison ]
   source: "wikidata:Q490"
-  status: proposed
+  status: approved
 - id: genoa
   name: "Genoa"
   bg: "Генуа"
@@ -1594,7 +1594,7 @@
   region: mediterranean-europe
   sections: [ 023/towns-craft-associations-and-the-return-of-dense-commerce, 024/why-the-italian-city-states-mattered ]
   source: "wikidata:Q1449"
-  status: proposed
+  status: approved
 - id: wittenberg
   name: "Wittenberg"
   bg: "Витенберг"
@@ -1604,7 +1604,7 @@
   region: mediterranean-europe
   sections: [ 025/case-study-three-councils-confronted-with-one-pamphlet, 025/indulgences-money-and-authority, 025/the-orthodox-balkans-and-the-ottoman-context ]
   source: "wikidata:Q6837"
-  status: proposed
+  status: approved
 - id: zurich
   name: "Zurich"
   bg: "Цюрих"
@@ -1614,7 +1614,7 @@
   region: mediterranean-europe
   sections: [ 025/case-study-three-councils-confronted-with-one-pamphlet, 025/the-swiss-reformations-zurich-and-competing-visions ]
   source: "wikidata:Q72"
-  status: proposed
+  status: approved
 - id: geneva
   name: "Geneva"
   bg: "Женева"
@@ -1624,7 +1624,7 @@
   region: mediterranean-europe
   sections: [ 025/calvin-geneva-and-the-international-reformed-churches ]
   source: "wikidata:Q71"
-  status: proposed
+  status: approved
 - id: strasbourg
   name: "Strasbourg"
   bg: "Страсбург"
@@ -1634,7 +1634,7 @@
   region: mediterranean-europe
   sections: [ 025/case-study-three-councils-confronted-with-one-pamphlet, 025/women-families-and-the-social-geography-of-reform ]
   source: "wikidata:Q6602"
-  status: proposed
+  status: approved
 - id: munster
   name: "Münster"
   bg: "Мюнстер"
@@ -1644,7 +1644,7 @@
   region: mediterranean-europe
   sections: [ 025/radical-reform-and-the-anabaptist-challenge, 025/westphalia-and-the-myths-of-modern-sovereignty ]
   source: "wikidata:Q2742"
-  status: proposed
+  status: approved
 - id: worms
   name: "Worms"
   bg: "Вормс"
@@ -1654,7 +1654,7 @@
   region: mediterranean-europe
   sections: [ 025/from-theological-debate-to-political-rupture ]
   source: "wikidata:Q3852"
-  status: proposed
+  status: approved
 - id: augsburg
   name: "Augsburg"
   bg: "Аугсбург"
@@ -1664,7 +1664,7 @@
   region: mediterranean-europe
   sections: [ 025/the-schmalkaldic-war-and-the-peace-of-augsburg ]
   source: "wikidata:Q2749"
-  status: proposed
+  status: approved
 - id: prague
   name: "Prague"
   bg: "Прага"
@@ -1674,7 +1674,7 @@
   region: mediterranean-europe
   sections: [ 024/beyond-italy-exchange-without-a-single-european-pattern, 025/the-thirty-years-war-from-bohemia-to-europe ]
   source: "wikidata:Q1085"
-  status: proposed
+  status: approved
 - id: trent
   name: "Trent"
   bg: "Тренто"
@@ -1684,7 +1684,7 @@
   region: mediterranean-europe
   sections: [ 025/the-council-of-trent-doctrine-and-discipline ]
   source: "wikidata:Q3376"
-  status: proposed
+  status: approved
 - id: melaka
   name: "Melaka"
   bg: "Малака"
@@ -1694,7 +1694,7 @@
   region: southeast-asia
   sections: [ 026/a-chronology-of-connection-and-contest, 026/aceh-johor-and-the-competition-after-melaka, 026/case-study-follow-one-piece-of-cotton-cloth, 026/melaka-the-port-that-organized-a-crossing, 026/portuguese-forts-fleets-and-the-cartaz, 026/religion-traveled-but-not-on-a-single-merchants-command, 026/the-ocean-was-a-system-of-connected-seas, 026/the-persian-gulf-hormuz-and-overlapping-sovereignties, 005/oceans-the-great-highways-and-climate-engines, 005/regional-case-study-southeast-asias-waterways ]
   source: "wikidata:Q61089"
-  status: proposed
+  status: approved
 - id: goa
   name: "Goa"
   bg: "Гоа"
@@ -1704,7 +1704,7 @@
   region: south-asia
   sections: [ 026/a-chronology-of-connection-and-contest, 026/cochin-calicut-and-the-price-of-alliances, 026/portuguese-forts-fleets-and-the-cartaz, 026/the-persian-gulf-hormuz-and-overlapping-sovereignties ]
   source: "wikidata:Q553907"
-  status: proposed
+  status: approved
 - id: hormuz
   name: "Hormuz"
   bg: "Хормуз"
@@ -1714,7 +1714,7 @@
   region: west-asia
   sections: [ 026/a-chronology-of-connection-and-contest, 026/portuguese-forts-fleets-and-the-cartaz, 026/the-persian-gulf-hormuz-and-overlapping-sovereignties ]
   source: "wikidata:Q695265"
-  status: proposed
+  status: approved
 - id: diu
   name: "Diu"
   bg: "Диу"
@@ -1724,7 +1724,7 @@
   region: south-asia
   sections: [ 026/a-chronology-of-connection-and-contest, 026/diu-ottoman-responses-and-western-ocean-politics ]
   source: "wikidata:Q631849"
-  status: proposed
+  status: approved
 - id: cochin
   name: "Cochin"
   bg: "Кочин"
@@ -1734,7 +1734,7 @@
   region: south-asia
   sections: [ 026/cochin-calicut-and-the-price-of-alliances, 026/malabar-pepper-ports-and-competing-rulers ]
   source: "wikidata:Q1800"
-  status: proposed
+  status: approved
 - id: calicut
   name: "Calicut"
   bg: "Кожикод"
@@ -1744,7 +1744,7 @@
   region: south-asia
   sections: [ 026/1498-vasco-da-gama-reaches-a-world-already-trading, 026/cochin-calicut-and-the-price-of-alliances, 026/malabar-pepper-ports-and-competing-rulers, 027/a-chronology-of-voyages-and-changing-power, 027/vasco-da-gama-and-the-entrance-into-an-established-indian ]
   source: "wikidata:Q28729"
-  status: proposed
+  status: approved
 - id: aceh
   name: "Aceh"
   bg: "Ачех"
@@ -1754,7 +1754,7 @@
   region: southeast-asia
   sections: [ 026/a-chronology-of-connection-and-contest, 026/aceh-johor-and-the-competition-after-melaka, 026/diu-ottoman-responses-and-western-ocean-politics, 026/melaka-the-port-that-organized-a-crossing, 026/religion-traveled-but-not-on-a-single-merchants-command ]
   source: "wikidata:Q5779"
-  status: proposed
+  status: approved
 - id: banda-islands
   name: "Banda Islands"
   bg: "Острови Банда"
@@ -1764,7 +1764,7 @@
   region: southeast-asia
   sections: [ 026/the-spice-islands-scarcity-was-geographic-and-political ]
   source: "wikidata:Q739411"
-  status: proposed
+  status: approved
 - id: gujarat
   name: "Gujarat"
   bg: "Гуджарат"
@@ -1774,7 +1774,7 @@
   region: south-asia
   sections: [ 026/a-chronology-of-connection-and-contest, 026/diu-ottoman-responses-and-western-ocean-politics, 026/gujarat-an-industrial-and-commercial-coast, 026/the-mughal-empire-and-commercial-worlds-it-did-not-invent, 026/the-ocean-was-a-system-of-connected-seas, 013/dholavira-another-way-to-build-a-city ]
   source: "wikidata:Q1061"
-  status: proposed
+  status: approved
 - id: malabar-coast
   name: "Malabar Coast"
   bg: "Малабарски бряг"
@@ -1784,7 +1784,7 @@
   region: south-asia
   sections: [ 026/1498-vasco-da-gama-reaches-a-world-already-trading, 026/a-chronology-of-connection-and-contest, 026/cochin-calicut-and-the-price-of-alliances, 026/malabar-pepper-ports-and-competing-rulers, 027/vasco-da-gama-and-the-entrance-into-an-established-indian ]
   source: "wikidata:Q473181"
-  status: proposed
+  status: approved
 - id: bay-of-bengal
   name: "Bay of Bengal"
   bg: "Бенгалски залив"
@@ -1794,7 +1794,7 @@
   region: south-asia
   sections: [ 026/the-coromandel-coast-bengal-and-sri-lanka, 026/the-ocean-was-a-system-of-connected-seas, 021/the-indian-ocean-a-second-map-of-medieval-connectivity ]
   source: "wikidata:Q38684"
-  status: proposed
+  status: approved
 - id: sri-lanka
   name: "Sri Lanka"
   bg: "Шри Ланка"
@@ -1804,7 +1804,7 @@
   region: south-asia
   sections: [ 026/the-coromandel-coast-bengal-and-sri-lanka, 026/the-spice-islands-scarcity-was-geographic-and-political ]
   source: "wikidata:Q854"
-  status: proposed
+  status: approved
 - id: persian-gulf
   name: "Persian Gulf"
   bg: "Персийски залив"
@@ -1814,7 +1814,7 @@
   region: west-asia
   sections: [ 026/gujarat-an-industrial-and-commercial-coast, 026/the-ocean-was-a-system-of-connected-seas, 026/the-persian-gulf-hormuz-and-overlapping-sovereignties, 026/zheng-hes-voyages-diplomacy-power-and-spectacle, 020/the-abbasid-economy-networks-rather-than-a-single-market, 021/the-indian-ocean-a-second-map-of-medieval-connectivity, 027/vasco-da-gama-and-the-entrance-into-an-established-indian ]
   source: "wikidata:Q34675"
-  status: proposed
+  status: approved
 - id: south-china-sea
   name: "South China Sea"
   bg: "Южнокитайско море"
@@ -1824,7 +1824,7 @@
   region: southeast-asia
   sections: [ 026/melaka-the-port-that-organized-a-crossing, 026/the-ocean-was-a-system-of-connected-seas, 021/the-indian-ocean-a-second-map-of-medieval-connectivity ]
   source: "wikidata:Q37660"
-  status: proposed
+  status: approved
 - id: johor
   name: "Johor"
   bg: "Джохор"
@@ -1834,7 +1834,7 @@
   region: southeast-asia
   sections: [ 026/a-chronology-of-connection-and-contest, 026/aceh-johor-and-the-competition-after-melaka, 026/melaka-the-port-that-organized-a-crossing ]
   source: "wikidata:Q183032"
-  status: proposed
+  status: approved
 - id: batavia
   name: "Batavia (Jakarta)"
   bg: "Батавия"
@@ -1844,7 +1844,7 @@
   region: southeast-asia
   sections: [ 026/a-chronology-of-connection-and-contest, 026/the-dutch-and-english-companies-enter-the-picture ]
   source: "wikidata:Q1199713"
-  status: proposed
+  status: approved
 - id: swahili-coast
   name: "Swahili coast"
   bg: "Суахилийско крайбрежие"
@@ -1854,7 +1854,7 @@
   region: africa
   sections: [ 018/religion-scholarship-and-multiple-traditions, 018/why-the-continents-histories-are-not-a-ladder-of-development, 026/the-ocean-was-a-system-of-connected-seas ]
   source: "wikidata:Q2739014"
-  status: proposed
+  status: approved
 - id: lisbon
   name: "Lisbon"
   bg: "Лисабон"
@@ -1864,7 +1864,7 @@
   region: mediterranean-europe
   sections: [ 025/the-council-of-trent-doctrine-and-discipline, 026/the-spice-islands-scarcity-was-geographic-and-political, 027/before-the-atlantic-voyages-an-already-connected-world, 033/brazil-a-monarchy-crosses-the-atlantic ]
   source: "wikidata:Q597"
-  status: proposed
+  status: approved
 - id: ceuta
   name: "Ceuta"
   bg: "Сеута"
@@ -1874,7 +1874,7 @@
   region: africa
   sections: [ 027/a-chronology-of-voyages-and-changing-power, 027/atlantic-islands-settlement-before-continental-empire ]
   source: "wikidata:Q5823"
-  status: proposed
+  status: approved
 - id: elmina
   name: "Elmina"
   bg: "Елмина"
@@ -1884,7 +1884,7 @@
   region: africa
   sections: [ 027/a-chronology-of-voyages-and-changing-power, 027/gold-elmina-and-the-limits-of-a-coastal-fort, 029/ports-forts-and-the-long-journey-before-embarkation ]
   source: "wikidata:Q55264655"
-  status: proposed
+  status: approved
 - id: madeira
   name: "Madeira"
   bg: "Мадейра"
@@ -1894,7 +1894,7 @@
   region: africa
   sections: [ 027/a-chronology-of-voyages-and-changing-power, 027/atlantic-islands-settlement-before-continental-empire ]
   source: "wikidata:Q26253"
-  status: proposed
+  status: approved
 - id: azores
   name: "Azores"
   bg: "Азорски острови"
@@ -1904,7 +1904,7 @@
   region: mediterranean-europe
   sections: [ 027/a-chronology-of-voyages-and-changing-power, 027/atlantic-islands-settlement-before-continental-empire ]
   source: "wikidata:Q25263"
-  status: proposed
+  status: approved
 - id: canary-islands
   name: "Canary Islands"
   bg: "Канарски острови"
@@ -1914,7 +1914,7 @@
   region: africa
   sections: [ 027/atlantic-islands-settlement-before-continental-empire, 027/columbuss-westward-wager ]
   source: "wikidata:Q5813"
-  status: proposed
+  status: approved
 - id: cape-of-good-hope
   name: "Cape of Good Hope"
   bg: "Нос Добра надежда"
@@ -1924,7 +1924,7 @@
   region: africa
   sections: [ 026/1498-vasco-da-gama-reaches-a-world-already-trading ]
   source: "wikidata:Q4092"
-  status: proposed
+  status: approved
 - id: tordesillas
   name: "Tordesillas"
   bg: "Тордесилас"
@@ -1934,7 +1934,7 @@
   region: mediterranean-europe
   sections: [ 027/a-chronology-of-voyages-and-changing-power, 027/case-study-compare-three-maps-of-the-same-ocean, 027/concepts-worth-retaining-and-the-bridge-to-chapter-28, 027/treaties-and-papal-bulls-dividing-claims-without-consulting ]
   source: "wikidata:Q286004"
-  status: proposed
+  status: approved
 - id: san-salvador-island
   name: "Guanahani (San Salvador)"
   bg: "Гуанахани (Сан Салвадор)"
@@ -1944,7 +1944,7 @@
   region: americas
   sections: [ 027/columbuss-westward-wager ]
   source: "wikidata:Q845540"
-  status: proposed
+  status: approved
 - id: hispaniola
   name: "Hispaniola"
   bg: "Испаньола"
@@ -1954,7 +1954,7 @@
   region: americas
   sections: [ 032/why-the-caribbean-belongs-at-the-center-of-the-story ]
   source: "wikidata:Q25277"
-  status: proposed
+  status: approved
 - id: philippines
   name: "Philippines"
   bg: "Филипини"
@@ -1964,7 +1964,7 @@
   region: southeast-asia
   sections: [ 027/the-first-circumnavigation-magellan-elcano-and-the-pacific, 027/the-pacific-was-a-world-of-its-own ]
   source: "wikidata:Q928"
-  status: proposed
+  status: approved
 - id: manila
   name: "Manila"
   bg: "Манила"
@@ -1974,7 +1974,7 @@
   region: southeast-asia
   sections: [ 027/a-chronology-of-voyages-and-changing-power, 027/the-pacific-was-a-world-of-its-own, 030/before-the-qing-the-late-ming-world ]
   source: "wikidata:Q1461"
-  status: proposed
+  status: approved
 - id: potosi
   name: "Potosí"
   bg: "Потоси"
@@ -1984,7 +1984,7 @@
   region: americas
   sections: [ 033/bolivia-and-the-difficult-borders-of-new-republics ]
   source: "wikidata:Q35045"
-  status: proposed
+  status: approved
 - id: acapulco
   name: "Acapulco"
   bg: "Акапулко"
@@ -1994,7 +1994,7 @@
   region: americas
   sections: [ 027/the-pacific-was-a-world-of-its-own ]
   source: "wikidata:Q81398"
-  status: proposed
+  status: approved
 - id: sao-tome
   name: "São Tomé"
   bg: "Сао Томе"
@@ -2004,7 +2004,7 @@
   region: africa
   sections: [ 027/atlantic-islands-settlement-before-continental-empire ]
   source: "wikidata:Q233124"
-  status: proposed
+  status: approved
 - id: luanda
   name: "Luanda"
   bg: "Луанда"
@@ -2014,7 +2014,7 @@
   region: africa
   sections: [ 029/case-study-was-the-atlantic-trade-truly-triangular, 029/central-africa-kongo-ndongo-and-angola ]
   source: "wikidata:Q3897"
-  status: proposed
+  status: approved
 - id: bight-of-benin
   name: "Bight of Benin"
   bg: "Залив Бенин"
@@ -2024,7 +2024,7 @@
   region: africa
   sections: [ 029/africa-was-not-one-country-or-one-position-in-the-trade, 029/western-africa-states-war-and-the-politics-of-captive-supply ]
   source: "wikidata:Q47530"
-  status: proposed
+  status: approved
 - id: salvador-bahia
   name: "Salvador (Bahia)"
   bg: "Салвадор (Баия)"
@@ -2034,7 +2034,7 @@
   region: americas
   sections: [ 029/case-study-was-the-atlantic-trade-truly-triangular, 033/brazil-a-monarchy-crosses-the-atlantic ]
   source: "wikidata:Q36947"
-  status: proposed
+  status: approved
 - id: rio-de-janeiro
   name: "Rio de Janeiro"
   bg: "Рио де Жанейро"
@@ -2044,7 +2044,7 @@
   region: americas
   sections: [ 033/brazil-a-monarchy-crosses-the-atlantic ]
   source: "wikidata:Q8678"
-  status: proposed
+  status: approved
 - id: saint-domingue
   name: "Saint-Domingue (Haiti)"
   bg: "Сен Доминг (Хаити)"
@@ -2054,7 +2054,7 @@
   region: americas
   sections: [ 032/a-comparative-case-study-what-does-citizenship-buy-you, 032/emancipation-was-won-and-contested-1793-1794, 032/how-revolutionary-ideas-actually-traveled, 032/napoleons-expedition-and-haitian-independence, 032/property-debt-and-the-economic-costs-of-revolution, 032/subjects-citizens-and-the-political-vocabulary-of-freedom, 032/the-history-to-retain-and-the-questions-that-remain-open, 032/the-uprising-of-1791-changed-the-terms-of-debate, 032/three-revolutions-three-definitions-of-the-people, 032/toussaint-louverture-and-the-problem-of-autonomy, 032/what-did-haitian-independence-mean-to-the-atlantic-world, 032/why-the-caribbean-belongs-at-the-center-of-the-story, 029/case-study-the-haitian-revolution-as-a-problem-of-causation, 029/saint-domingue-and-the-haitian-revolution, 033/haitis-influence-and-the-question-of-emancipation, 033/the-atlantic-revolutionary-environment ]
   source: "wikidata:Q861551"
-  status: proposed
+  status: approved
 - id: jamaica
   name: "Jamaica"
   bg: "Ямайка"
@@ -2064,7 +2064,7 @@
   region: americas
   sections: [ 029/case-study-was-the-atlantic-trade-truly-triangular, 029/resistance-in-daily-life-and-at-sea, 033/bolivar-ideas-campaigns-and-political-dilemmas ]
   source: "wikidata:Q766"
-  status: proposed
+  status: approved
 - id: cuba
   name: "Cuba"
   bg: "Куба"
@@ -2074,7 +2074,7 @@
   region: americas
   sections: [ 029/abolition-and-empire-patrols-and-contradictions, 029/brazil-cuba-and-the-long-nineteenth-century, 029/case-study-what-does-an-abolition-law-actually-end, 033/cuba-puerto-rico-and-the-uneven-boundaries-of-independence, 033/haitis-influence-and-the-question-of-emancipation, 033/slavery-abolition-and-the-limits-of-republican-freedom ]
   source: "wikidata:Q241"
-  status: proposed
+  status: approved
 - id: gold-coast
   name: "Gold Coast"
   bg: "Златен бряг"
@@ -2084,7 +2084,7 @@
   region: africa
   sections: [ 029/africa-was-not-one-country-or-one-position-in-the-trade, 029/western-africa-states-war-and-the-politics-of-captive-supply, 027/gold-elmina-and-the-limits-of-a-coastal-fort ]
   source: "wikidata:Q1535868"
-  status: proposed
+  status: approved
 - id: delhi
   name: "Delhi"
   bg: "Делхи"
@@ -2094,7 +2094,7 @@
   region: south-asia
   sections: [ 030/mughal-cities-and-indian-ocean-commerce, 030/mughal-fragmentation-and-powerful-regional-successors, 030/the-mughal-foundation-babur-and-humayun ]
   source: "wikidata:Q1353"
-  status: proposed
+  status: approved
 - id: agra
   name: "Agra"
   bg: "Агра"
@@ -2104,7 +2104,7 @@
   region: south-asia
   sections: [ 030/jahangir-and-shah-jahan-courts-of-power-and-representation, 030/mughal-cities-and-indian-ocean-commerce ]
   source: "wikidata:Q42941"
-  status: proposed
+  status: approved
 - id: fatehpur-sikri
   name: "Fatehpur Sikri"
   bg: "Фатехпур Сикри"
@@ -2114,7 +2114,7 @@
   region: south-asia
   sections: [ 030/akbar-military-success-political-bargaining-and-legitimacy ]
   source: "wikidata:Q179046"
-  status: proposed
+  status: approved
 - id: panipat
   name: "Panipat"
   bg: "Панипат"
@@ -2124,7 +2124,7 @@
   region: south-asia
   sections: [ 030/the-mughal-foundation-babur-and-humayun ]
   source: "wikidata:Q605321"
-  status: proposed
+  status: approved
 - id: mohacs
   name: "Mohács"
   bg: "Мохач"
@@ -2134,7 +2134,7 @@
   region: mediterranean-europe
   sections: [ 030/ottoman-expansion-and-imperial-consolidation ]
   source: "wikidata:Q178510"
-  status: proposed
+  status: approved
 - id: beijing
   name: "Beijing"
   bg: "Пекин"
@@ -2144,7 +2144,7 @@
   region: east-asia
   sections: [ 030/before-the-qing-the-late-ming-world, 030/the-manchu-rise-and-the-banners, 022/kublai-khan-and-the-yuan-a-dynasty-ruling-china ]
   source: "wikidata:Q956"
-  status: proposed
+  status: approved
 - id: vienna
   name: "Vienna"
   bg: "Виена"
@@ -2154,7 +2154,7 @@
   region: mediterranean-europe
   sections: [ 036/a-short-chronology-of-nationalist-transformations, 036/the-congress-of-vienna-and-the-restoration-settlement, 036/the-habsburg-monarchy-and-the-challenge-of-plurality, 030/ottoman-expansion-and-imperial-consolidation, 037/serbia-and-montenegro-after-independence, 037/the-romanian-principalities-and-the-danubian-question, 038/the-july-crisis-ultimatum-and-decision, 038/who-was-responsible-a-historical-debate ]
   source: "wikidata:Q1741"
-  status: proposed
+  status: approved
 - id: bengal
   name: "Bengal"
   bg: "Бенгал"
@@ -2164,7 +2164,7 @@
   region: south-asia
   sections: [ 030/european-powers-were-participants-not-immediate-masters, 030/mughal-fragmentation-and-powerful-regional-successors, 030/the-east-india-company-and-the-changing-balance-of-power, 021/the-indian-ocean-a-second-map-of-medieval-connectivity, 026/the-coromandel-coast-bengal-and-sri-lanka, 026/the-ocean-was-a-system-of-connected-seas ]
   source: "wikidata:Q80338"
-  status: proposed
+  status: approved
 - id: deccan
   name: "Deccan"
   bg: "Декан"
@@ -2174,7 +2174,7 @@
   region: south-asia
   sections: [ 030/a-map-of-three-political-ecologies, 030/aurangzeb-and-the-limits-of-mughal-expansion, 030/war-was-costly-even-when-the-empire-won, 005/a-mental-atlas-regions-that-connect-the-global-story ]
   source: "wikidata:Q169966"
-  status: proposed
+  status: approved
 - id: xinjiang
   name: "Xinjiang"
   bg: "Синдзян"
@@ -2184,7 +2184,7 @@
   region: central-asia-steppe
   sections: [ 030/frontiers-ethnicity-and-the-meaning-of-china, 030/kangxi-yongzheng-and-qianlong-consolidation-and-expansion ]
   source: "wikidata:Q34800"
-  status: proposed
+  status: approved
 - id: tibet
   name: "Tibet"
   bg: "Тибет"
@@ -2194,7 +2194,7 @@
   region: east-asia
   sections: [ 030/frontiers-ethnicity-and-the-meaning-of-china ]
   source: "wikidata:Q17252"
-  status: proposed
+  status: approved
 - id: canton
   name: "Canton (Guangzhou)"
   bg: "Гуанджоу"
@@ -2204,7 +2204,7 @@
   region: east-asia
   sections: [ 030/european-powers-were-participants-not-immediate-masters, 030/the-qing-economy-farming-craft-production-and-global-silver ]
   source: "wikidata:Q16572"
-  status: proposed
+  status: approved
 - id: paris
   name: "Paris"
   bg: "Париж"
@@ -2214,7 +2214,7 @@
   region: mediterranean-europe
   sections: [ 032/another-revolution-was-taking-shape-in-spanish-america, 032/bastille-rural-upheaval-and-the-end-of-privilege, 032/emancipation-was-won-and-contested-1793-1794, 032/from-estates-general-to-national-assembly, 032/saint-domingue-inequality-built-into-law-and-labor, 032/why-the-caribbean-belongs-at-the-center-of-the-story, 032/winning-independence-required-diplomacy, 032/women-marched-wrote-and-challenged-exclusion, 023/learning-manuscripts-and-universities, 025/the-french-wars-of-religion-civil-war-and-massacre, 031/a-connected-europe-the-balkans-and-ottoman-borderlands, 031/hume-smith-and-difficult-questions-about-human-nature, 031/the-republic-of-letters-institutions-and-correspondence, 035/colonial-administrations-direct-indirect-and-negotiated-rule, 037/the-crimean-war-and-the-limits-of-russian-predominance, 038/the-paris-peace-conference-and-its-competing-principles ]
   source: "wikidata:Q90"
-  status: proposed
+  status: approved
 - id: london
   name: "London"
   bg: "Лондон"
@@ -2224,7 +2224,7 @@
   region: mediterranean-europe
   sections: [ 034/housing-sanitation-and-the-urban-disease-burden, 034/why-cities-grew-and-why-they-struggled, 025/scotland-and-ireland-linked-islands-different-stories, 031/the-republic-of-letters-institutions-and-correspondence, 035/colonial-administrations-direct-indirect-and-negotiated-rule, 036/ireland-constitutional-politics-famine-and-national-memory, 037/the-albanian-national-movement-and-1912-independence, 037/the-balkan-league-and-the-first-balkan-war-1912-1913 ]
   source: "wikidata:Q84"
-  status: proposed
+  status: approved
 - id: boston
   name: "Boston"
   bg: "Бостън"
@@ -2234,7 +2234,7 @@
   region: americas
   sections: [ 032/a-comparative-case-study-what-does-citizenship-buy-you, 032/taxation-protest-and-a-crisis-of-authority ]
   source: "wikidata:Q100"
-  status: proposed
+  status: approved
 - id: philadelphia
   name: "Philadelphia"
   bg: "Филаделфия"
@@ -2244,7 +2244,7 @@
   region: americas
   sections: [ 032/another-revolution-was-taking-shape-in-spanish-america, 032/building-a-republic-constitutions-compromises-and-limits ]
   source: "wikidata:Q1345"
-  status: proposed
+  status: approved
 - id: versailles
   name: "Versailles"
   bg: "Версай"
@@ -2254,7 +2254,7 @@
   region: mediterranean-europe
   sections: [ 032/from-estates-general-to-national-assembly, 032/women-marched-wrote-and-challenged-exclusion, 036/bismarck-and-the-sequence-of-unification-wars, 038/versailles-and-the-german-settlement ]
   source: "wikidata:Q621"
-  status: proposed
+  status: approved
 - id: bogota
   name: "Bogotá"
   bg: "Богота"
@@ -2264,7 +2264,7 @@
   region: americas
   sections: [ 033/northern-south-america-and-the-andes-crossing, 033/why-gran-colombia-fragmented ]
   source: "wikidata:Q2841"
-  status: proposed
+  status: approved
 - id: quito
   name: "Quito"
   bg: "Кито"
@@ -2274,7 +2274,7 @@
   region: americas
   sections: [ 033/northern-south-america-and-the-andes-crossing, 033/why-gran-colombia-fragmented ]
   source: "wikidata:Q2900"
-  status: proposed
+  status: approved
 - id: caracas
   name: "Caracas"
   bg: "Каракас"
@@ -2284,7 +2284,7 @@
   region: americas
   sections: [ 033/bolivar-ideas-campaigns-and-political-dilemmas, 033/why-gran-colombia-fragmented ]
   source: "wikidata:Q1533"
-  status: proposed
+  status: approved
 - id: lima
   name: "Lima"
   bg: "Лима"
@@ -2294,7 +2294,7 @@
   region: americas
   sections: [ 033/why-peru-was-not-simply-liberated-from-outside ]
   source: "wikidata:Q2868"
-  status: proposed
+  status: approved
 - id: ayacucho
   name: "Ayacucho"
   bg: "Аякучо"
@@ -2304,7 +2304,7 @@
   region: americas
   sections: [ 033/cuba-puerto-rico-and-the-uneven-boundaries-of-independence, 033/why-peru-was-not-simply-liberated-from-outside ]
   source: "wikidata:Q934157"
-  status: proposed
+  status: approved
 - id: panama-city
   name: "Panama City"
   bg: "Панама (град)"
@@ -2314,7 +2314,7 @@
   region: americas
   sections: [ 033/the-congress-of-panama-and-bolivars-continental-vision ]
   source: "wikidata:Q3306"
-  status: proposed
+  status: approved
 - id: dolores-hidalgo
   name: "Dolores"
   bg: "Долорес"
@@ -2324,7 +2324,7 @@
   region: americas
   sections: [ 033/mexican-independence-began-as-a-social-crisis ]
   source: "wikidata:Q17487868"
-  status: proposed
+  status: approved
 - id: buenos-aires
   name: "Buenos Aires"
   bg: "Буенос Айрес"
@@ -2334,7 +2334,7 @@
   region: americas
   sections: [ 033/the-rio-de-la-plata-revolution-without-a-ready-made-nation ]
   source: "wikidata:Q1486"
-  status: proposed
+  status: approved
 - id: boyaca
   name: "Boyacá"
   bg: "Бояка"
@@ -2344,7 +2344,7 @@
   region: americas
   sections: [ 033/northern-south-america-and-the-andes-crossing ]
   source: "wikidata:Q1150410"
-  status: proposed
+  status: approved
 - id: manchester
   name: "Manchester"
   bg: "Манчестър"
@@ -2354,7 +2354,7 @@
   region: mediterranean-europe
   sections: [ 034/canals-roads-and-the-transport-revolution, 034/railways-and-the-compression-of-distance, 034/southeastern-europe-and-the-balkans, 034/why-cities-grew-and-why-they-struggled ]
   source: "wikidata:Q18125"
-  status: proposed
+  status: approved
 - id: liverpool
   name: "Liverpool"
   bg: "Ливърпул"
@@ -2364,7 +2364,7 @@
   region: mediterranean-europe
   sections: [ 034/railways-and-the-compression-of-distance, 034/why-cities-grew-and-why-they-struggled, 029/case-study-was-the-atlantic-trade-truly-triangular ]
   source: "wikidata:Q24826"
-  status: proposed
+  status: approved
 - id: stockton-on-tees
   name: "Stockton"
   bg: "Стоктън"
@@ -2374,7 +2374,7 @@
   region: mediterranean-europe
   sections: [ 034/railways-and-the-compression-of-distance ]
   source: "wikidata:Q989418"
-  status: proposed
+  status: approved
 - id: darlington
   name: "Darlington"
   bg: "Дарлингтън"
@@ -2384,7 +2384,7 @@
   region: mediterranean-europe
   sections: [ 034/railways-and-the-compression-of-distance ]
   source: "wikidata:Q213181"
-  status: proposed
+  status: approved
 - id: birmingham
   name: "Birmingham"
   bg: "Бирмингам"
@@ -2394,7 +2394,7 @@
   region: mediterranean-europe
   sections: [ 020/the-reign-of-uthman-expansion-and-accusations-of-favoritism, 034/why-cities-grew-and-why-they-struggled ]
   source: "wikidata:Q2256"
-  status: proposed
+  status: approved
 - id: lowell
   name: "Lowell"
   bg: "Лоуъл"
@@ -2404,7 +2404,7 @@
   region: americas
   sections: [ 034/the-united-states-northern-mills-and-southern-cotton ]
   source: "wikidata:Q49162"
-  status: proposed
+  status: approved
 - id: berlin
   name: "Berlin"
   bg: "Берлин"
@@ -2414,7 +2414,7 @@
   region: mediterranean-europe
   sections: [ 037/albania-regional-identities-and-fears-of-partition, 037/bosnia-herzegovina-occupation-reform-and-annexation, 037/eastern-rumelia-and-the-unification-of-1885, 037/herzegovina-bosnia-and-the-crisis-of-1875, 037/san-stefano-a-dramatic-but-provisional-settlement, 037/serbia-revolts-autonomy-and-changing-political-status, 037/the-romanian-principalities-and-the-danubian-question, 037/the-treaty-of-berlin-what-changed-on-the-map, 037/the-young-turk-revolution-and-bulgarian-independence-1908, 037/why-the-great-powers-met-in-berlin, 004/case-study-how-bulgaria-became-independent, 031/hume-smith-and-difficult-questions-about-human-nature, 035/berlin-1884-1885-what-the-conference-actually-did, 035/borders-states-and-the-long-legacy-of-partition, 035/case-study-was-the-berlin-conference-a-carving-up-meeting, 035/leopold-ii-and-the-congo-free-state, 035/the-chapters-central-argument-conquest-was-a-process, 036/a-short-chronology-of-nationalist-transformations, 036/bulgarias-national-revival-schools-church-and-revolution, 036/greece-serbia-and-the-balkan-beginnings ]
   source: "wikidata:Q64"
-  status: proposed
+  status: approved
 - id: isandlwana
   name: "Isandlwana"
   bg: "Исандлуана"
@@ -2424,7 +2424,7 @@
   region: africa
   sections: [ 035/southern-africa-settler-conquest-and-african-states, 035/three-explanations-for-african-defeat-and-their-limits ]
   source: "wikidata:Q747589"
-  status: proposed
+  status: approved
 - id: omdurman
   name: "Omdurman"
   bg: "Омдурман"
@@ -2434,7 +2434,7 @@
   region: africa
   sections: [ 035/the-nile-the-mahdist-state-and-the-fashoda-crisis ]
   source: "wikidata:Q1137302"
-  status: proposed
+  status: approved
 - id: adwa
   name: "Adwa"
   bg: "Адуа"
@@ -2444,7 +2444,7 @@
   region: africa
   sections: [ 035/ethiopia-and-adwa-a-conquest-that-failed, 035/three-explanations-for-african-defeat-and-their-limits ]
   source: "wikidata:Q302519"
-  status: proposed
+  status: approved
 - id: sokoto
   name: "Sokoto"
   bg: "Сокото"
@@ -2454,7 +2454,7 @@
   region: africa
   sections: [ 035/africa-before-the-partition-no-empty-continent, 035/west-africa-rivalry-conquest-and-commercial-reorganization ]
   source: "wikidata:Q336350"
-  status: proposed
+  status: approved
 - id: congo-river
   name: "Congo"
   bg: "Конго"
@@ -2464,7 +2464,7 @@
   region: africa
   sections: [ 018/languages-farming-and-the-long-bantu-expansions, 005/a-mental-atlas-regions-that-connect-the-global-story, 005/regional-case-study-the-sahel-the-sahara-and-transitions, 035/leopold-ii-and-the-congo-free-state ]
   source: "wikidata:Q3503"
-  status: proposed
+  status: approved
 - id: khartoum
   name: "Khartoum"
   bg: "Хартум"
@@ -2474,7 +2474,7 @@
   region: africa
   sections: [ 035/the-nile-the-mahdist-state-and-the-fashoda-crisis ]
   source: "wikidata:Q1963"
-  status: proposed
+  status: approved
 - id: fashoda
   name: "Fashoda"
   bg: "Фашода"
@@ -2484,7 +2484,7 @@
   region: africa
   sections: [ 035/the-nile-the-mahdist-state-and-the-fashoda-crisis ]
   source: "wikidata:Q1888763"
-  status: proposed
+  status: approved
 - id: frankfurt
   name: "Frankfurt"
   bg: "Франкфурт"
@@ -2494,7 +2494,7 @@
   region: mediterranean-europe
   sections: [ 036/frankfurt-a-parliament-without-sufficient-power ]
   source: "wikidata:Q1794"
-  status: proposed
+  status: approved
 - id: warsaw
   name: "Warsaw"
   bg: "Варшава"
@@ -2504,7 +2504,7 @@
   region: mediterranean-europe
   sections: [ 025/central-europe-poland-lithuania-bohemia-and-habsburg-lands ]
   source: "wikidata:Q270"
-  status: proposed
+  status: approved
 - id: thessaloniki
   name: "Thessaloniki (Salonika)"
   bg: "Солун"
@@ -2514,7 +2514,7 @@
   region: mediterranean-europe
   sections: [ 037/commerce-railways-and-the-economic-eastern-question, 037/geography-mountains-rivers-and-the-maritime-gateways, 037/macedonia-a-region-many-claims-and-uncertain-categories, 037/salonika-constantinople-and-life-beyond-diplomatic, 037/the-balkan-league-and-the-first-balkan-war-1912-1913, 037/the-second-balkan-war-and-the-borders-of-1913, 038/dobro-pole-and-bulgarias-withdrawal-september-1918, 038/the-macedonian-or-salonika-front ]
   source: "wikidata:Q17151"
-  status: proposed
+  status: approved
 - id: sarajevo
   name: "Sarajevo"
   bg: "Сараево"
@@ -2524,7 +2524,7 @@
   region: mediterranean-europe
   sections: [ 037/bosnia-herzegovina-occupation-reform-and-annexation, 037/the-eastern-question-was-never-merely-a-question-of-decline, 002/from-one-cause-to-a-chain-of-causes, 004/historical-causes-sparks-structures-and-choices, 008/spacing-forgetting-a-little-can-help-you-learn-more, 038/the-july-crisis-ultimatum-and-decision, 038/what-actually-needs-explaining ]
   source: "wikidata:Q11194"
-  status: proposed
+  status: approved
 - id: plovdiv
   name: "Plovdiv"
   bg: "Пловдив"
@@ -2534,7 +2534,7 @@
   region: mediterranean-europe
   sections: [ 017/the-balkans-inside-roman-history, 037/eastern-rumelia-and-the-unification-of-1885 ]
   source: "wikidata:Q459"
-  status: proposed
+  status: approved
 - id: san-stefano
   name: "San Stefano"
   bg: "Сан Стефано"
@@ -2544,7 +2544,7 @@
   region: mediterranean-europe
   sections: [ 037/san-stefano-a-dramatic-but-provisional-settlement, 037/the-treaty-of-berlin-what-changed-on-the-map, 037/why-the-great-powers-met-in-berlin, 004/case-study-how-bulgaria-became-independent, 036/bulgarias-national-revival-schools-church-and-revolution ]
   source: "wikidata:Q1010949"
-  status: proposed
+  status: approved
 - id: pleven
   name: "Plevna (Pleven)"
   bg: "Плевен"
@@ -2554,7 +2554,7 @@
   region: mediterranean-europe
   sections: [ 037/the-road-from-constantinople-diplomacy-to-war, 037/the-russo-turkish-war-battle-volunteers-and-civilian ]
   source: "wikidata:Q165420"
-  status: proposed
+  status: approved
 - id: sofia
   name: "Sofia"
   bg: "София"
@@ -2564,7 +2564,7 @@
   region: mediterranean-europe
   sections: [ 017/the-balkans-inside-roman-history, 001/what-does-it-mean-to-know-something ]
   source: "wikidata:Q472"
-  status: proposed
+  status: approved
 - id: belgrade
   name: "Belgrade"
   bg: "Белград"
@@ -2574,7 +2574,7 @@
   region: mediterranean-europe
   sections: [ 037/bulgarias-national-revival-before-a-bulgarian-state, 038/the-july-crisis-ultimatum-and-decision ]
   source: "wikidata:Q3711"
-  status: proposed
+  status: approved
 - id: bucharest
   name: "Bucharest"
   bg: "Букурещ"
@@ -2584,7 +2584,7 @@
   region: mediterranean-europe
   sections: [ 037/bulgarias-national-revival-before-a-bulgarian-state, 037/the-second-balkan-war-and-the-borders-of-1913 ]
   source: "wikidata:Q19660"
-  status: proposed
+  status: approved
 - id: batak
   name: "Batak"
   bg: "Батак"
@@ -2594,7 +2594,7 @@
   region: mediterranean-europe
   sections: [ 037/april-1876-uprising-repression-and-evidence ]
   source: "wikidata:Q1756874"
-  status: proposed
+  status: approved
 - id: shipka-pass
   name: "Shipka Pass"
   bg: "Шипченски проход"
@@ -2604,7 +2604,7 @@
   region: mediterranean-europe
   sections: [ 037/the-russo-turkish-war-battle-volunteers-and-civilian ]
   source: "wikidata:Q1333807"
-  status: proposed
+  status: approved
 - id: dobruja
   name: "Dobruja"
   bg: "Добруджа"
@@ -2614,7 +2614,7 @@
   region: mediterranean-europe
   sections: [ 037/romanias-independence-and-the-dobruja-settlement, 037/the-romanian-principalities-and-the-danubian-question, 037/the-second-balkan-war-and-the-borders-of-1913, 038/bulgaria-in-1914-wounded-ambitions-and-neutrality, 038/neuilly-bulgarias-peace-settlement-november-1919, 038/romania-dobruja-and-bulgarias-second-war-theater ]
   source: "wikidata:Q182660"
-  status: proposed
+  status: approved
 - id: thrace
   name: "Thrace"
   bg: "Тракия"
@@ -2624,7 +2624,7 @@
   region: mediterranean-europe
   sections: [ 037/san-stefano-a-dramatic-but-provisional-settlement, 037/the-balkan-league-and-the-first-balkan-war-1912-1913, 037/the-eastern-question-was-never-merely-a-question-of-decline, 037/the-second-balkan-war-and-the-borders-of-1913, 037/the-treaty-of-berlin-what-changed-on-the-map, 038/neuilly-bulgarias-peace-settlement-november-1919 ]
   source: "wikidata:Q41741"
-  status: proposed
+  status: approved
 - id: macedonia-region
   name: "Macedonia"
   bg: "Македония"
@@ -2634,7 +2634,7 @@
   region: mediterranean-europe
   sections: [ 037/greece-independence-and-international-intervention, 037/macedonia-a-region-many-claims-and-uncertain-categories, 037/san-stefano-a-dramatic-but-provisional-settlement, 037/serbia-revolts-autonomy-and-changing-political-status, 037/the-balkan-league-and-the-first-balkan-war-1912-1913, 037/the-second-balkan-war-and-the-borders-of-1913, 037/the-serbo-bulgarian-war-and-the-danger-of-comparison, 037/the-treaty-of-berlin-what-changed-on-the-map, 016/beyond-athens-versus-sparta-corinth-thebes-and-macedonia, 017/the-balkans-inside-roman-history, 030/the-balkans-inside-the-ottoman-world, 038/bulgaria-in-1914-wounded-ambitions-and-neutrality, 038/bulgaria-joins-the-central-powers-october-1915, 038/neuilly-bulgarias-peace-settlement-november-1919, 038/romania-dobruja-and-bulgarias-second-war-theater, 038/the-europe-of-rival-empires, 038/the-macedonian-or-salonika-front ]
   source: "wikidata:Q103251"
-  status: proposed
+  status: approved
 - id: bosnia
   name: "Bosnia and Herzegovina"
   bg: "Босна и Херцеговина"
@@ -2644,7 +2644,7 @@
   region: mediterranean-europe
   sections: [ 037/bosnia-herzegovina-occupation-reform-and-annexation, 037/geography-mountains-rivers-and-the-maritime-gateways, 037/herzegovina-bosnia-and-the-crisis-of-1875, 037/serbia-revolts-autonomy-and-changing-political-status, 037/the-treaty-of-berlin-what-changed-on-the-map, 037/the-young-turk-revolution-and-bulgarian-independence-1908, 030/the-balkans-inside-the-ottoman-world, 038/sarajevo-people-and-institutions-behind-the-attack, 038/what-actually-needs-explaining ]
   source: "wikidata:Q225"
-  status: proposed
+  status: approved
 - id: bessarabia
   name: "Bessarabia"
   bg: "Бесарабия"
@@ -2654,7 +2654,7 @@
   region: mediterranean-europe
   sections: [ 037/romanias-independence-and-the-dobruja-settlement, 037/the-romanian-principalities-and-the-danubian-question ]
   source: "wikidata:Q174994"
-  status: proposed
+  status: approved
 - id: balkan-mountains
   name: "Balkan Mountains"
   bg: "Стара планина"
@@ -2664,7 +2664,7 @@
   region: mediterranean-europe
   sections: [ 037/geography-mountains-rivers-and-the-maritime-gateways, 037/the-russo-turkish-war-battle-volunteers-and-civilian, 005/regional-case-study-bulgaria-and-the-balkans ]
   source: "wikidata:Q170427"
-  status: proposed
+  status: approved
 - id: bosphorus
   name: "Bosphorus (the Straits)"
   bg: "Босфор"
@@ -2674,7 +2674,7 @@
   region: mediterranean-europe
   sections: [ 023/crossing-into-europe-and-building-a-balkan-power, 030/a-map-of-three-political-ecologies, 037/geography-mountains-rivers-and-the-maritime-gateways, 038/the-ottoman-empire-and-the-war-beyond-europe ]
   source: "wikidata:Q35958"
-  status: proposed
+  status: approved
 - id: doiran
   name: "Doiran"
   bg: "Дойран"
@@ -2684,7 +2684,7 @@
   region: mediterranean-europe
   sections: [ 038/dobro-pole-and-bulgarias-withdrawal-september-1918, 038/how-to-explain-a-war-without-making-it-inevitable, 038/the-macedonian-or-salonika-front ]
   source: "wikidata:Q956963"
-  status: proposed
+  status: approved
 - id: dobro-pole
   name: "Dobro Pole"
   bg: "Добро поле"
@@ -2694,7 +2694,7 @@
   region: mediterranean-europe
   sections: [ 038/dobro-pole-and-bulgarias-withdrawal-september-1918, 038/how-to-explain-a-war-without-making-it-inevitable ]
   source: "wikidata:Q506916"
-  status: proposed
+  status: approved
 - id: neuilly
   name: "Neuilly-sur-Seine"
   bg: "Ньой сюр Сен"
@@ -2704,7 +2704,7 @@
   region: mediterranean-europe
   sections: [ 038/memory-myths-and-the-next-crises, 038/neuilly-bulgarias-peace-settlement-november-1919, 038/other-settlements-the-middle-east-and-the-mandates ]
   source: "wikidata:Q48958"
-  status: proposed
+  status: approved
 - id: verdun
   name: "Verdun"
   bg: "Вердюн"
@@ -2714,7 +2714,7 @@
   region: mediterranean-europe
   sections: [ 038/the-somme-and-verdun-measuring-the-cost ]
   source: "wikidata:Q154748"
-  status: proposed
+  status: approved
 - id: somme
   name: "Somme"
   bg: "Сома"
@@ -2724,7 +2724,7 @@
   region: mediterranean-europe
   sections: [ 038/the-somme-and-verdun-measuring-the-cost ]
   source: "wikidata:Q132568"
-  status: proposed
+  status: approved
 - id: marne
   name: "Marne"
   bg: "Марна"
@@ -2734,7 +2734,7 @@
   region: mediterranean-europe
   sections: [ 038/1914-plans-collide-with-geography ]
   source: "wikidata:Q190712"
-  status: proposed
+  status: approved
 - id: tannenberg
   name: "Tannenberg"
   bg: "Таненберг"
@@ -2744,7 +2744,7 @@
   region: mediterranean-europe
   sections: [ 038/1914-plans-collide-with-geography ]
   source: "wikidata:Q153858"
-  status: proposed
+  status: approved
 - id: belgium
   name: "Belgium"
   bg: "Белгия"
@@ -2754,7 +2754,7 @@
   region: mediterranean-europe
   sections: [ 038/1914-plans-collide-with-geography, 038/eastern-europe-movement-occupation-and-revolution, 038/the-july-crisis-ultimatum-and-decision, 038/what-actually-needs-explaining, 038/who-was-responsible-a-historical-debate, 025/the-dutch-revolt-religion-and-resistance-to-empire, 034/industrialization-spreads-unevenly-across-europe, 035/leopold-ii-and-the-congo-free-state, 035/why-the-late-nineteenth-century-multiple-engines ]
   source: "wikidata:Q31"
-  status: proposed
+  status: approved
 - id: achaemenid-empire
   name: "Achaemenid Persian Empire"
   bg: "Ахеменидска Персийска империя"
@@ -2766,7 +2766,7 @@
   extent: [ persepolis, pasargadae, susa, babylon, sardis, behistun, memphis-egypt ]
   sections: [ 015/the-iranian-plateau-geography-without-destiny ]
   source: "centre of its extent cities"
-  status: proposed
+  status: approved
 - id: roman-empire
   name: "Roman Empire"
   bg: "Римска империя"
@@ -2778,7 +2778,7 @@
   extent: [ rome, carthage, alexandria, athens, corinth, jerusalem, vindolanda, dacia, milan, constantinople@330 ]
   sections: [ 017/augustus-monarchy-in-republican-clothing, 017/why-the-western-imperial-court-disappeared ]
   source: "centre of its extent cities"
-  status: proposed
+  status: approved
 - id: byzantine-empire
   name: "Eastern Roman (Byzantine) Empire"
   bg: "Източна Римска (Византийска) империя"
@@ -2790,7 +2790,7 @@
   extent: [ constantinople, nicaea, thessaloniki, adrianople ]
   sections: [ 017/the-third-century-crisis-and-the-problem-of-resilience, 017/the-eastern-roman-empire-and-the-afterlife-of-rome ]
   source: "centre of its extent cities"
-  status: proposed
+  status: approved
 - id: umayyad-caliphate
   name: "Umayyad Caliphate"
   bg: "Омаядски халифат"
@@ -2802,7 +2802,7 @@
   extent: [ damascus, jerusalem, mecca, medina, kufa ]
   sections: [ 020/the-umayyad-dynasty-an-empire-ruled-from-damascus ]
   source: "centre of its extent cities"
-  status: proposed
+  status: approved
 - id: abbasid-caliphate
   name: "Abbasid Caliphate"
   bg: "Абасидски халифат"
@@ -2814,7 +2814,7 @@
   extent: [ baghdad, kufa, mecca, medina, damascus ]
   sections: [ 020/the-abbasid-revolution-and-a-new-capital ]
   source: "centre of its extent cities"
-  status: proposed
+  status: approved
 - id: tang-china
   name: "Tang China"
   bg: "Китай при династията Тан"
@@ -2826,7 +2826,7 @@
   extent: [ changan, dunhuang ]
   sections: [ 021/sui-and-tang-china-reunification-and-cosmopolitan-exchange ]
   source: "centre of its extent cities"
-  status: proposed
+  status: approved
 - id: mali-empire
   name: "Mali Empire"
   bg: "Империя Мали"
@@ -2838,7 +2838,7 @@
   extent: [ timbuktu, djenne ]
   sections: [ 018/mali-sundiata-and-the-making-of-imperial-authority, 018/mansa-musa-and-the-danger-of-dramatic-numbers ]
   source: "centre of its extent cities"
-  status: proposed
+  status: approved
 - id: mongol-empire
   name: "Mongol Empire and its successor khanates"
   bg: "Монголската империя и наследилите я ханства"
@@ -2850,7 +2850,7 @@
   extent: [ karakorum, beijing, samarkand, bukhara, baghdad@1258, kyiv ]
   sections: [ 022/the-assembly-of-1206-founding-a-new-order, 022/why-the-empire-fragmented ]
   source: "centre of its extent cities"
-  status: proposed
+  status: approved
 - id: ottoman-empire
   name: "Ottoman Empire"
   bg: "Османска империя"
@@ -2862,7 +2862,7 @@
   extent: [ bursa, gallipoli@1354, tarnovo@1393, constantinople@1453, cairo@1517 ]
   sections: [ 023/orhan-bursa-and-a-government-that-could-grow, 023/crossing-into-europe-and-building-a-balkan-power, 023/bulgaria-under-pressure-fragmentation-conquest, 026/a-chronology-of-connection-and-contest, 037/the-balkan-league-and-the-first-balkan-war-1912-1913 ]
   source: "centre of its extent cities"
-  status: proposed
+  status: approved
 - id: mughal-empire
   name: "Mughal Empire"
   bg: "Моголска империя"
@@ -2874,7 +2874,7 @@
   extent: [ panipat, delhi, agra, fatehpur-sikri ]
   sections: [ 026/the-mughal-empire-and-commercial-worlds-it-did-not-invent ]
   source: "centre of its extent cities"
-  status: proposed
+  status: approved
 - id: qing-empire
   name: "Qing Empire"
   bg: "Империя Цин"
@@ -2886,4 +2886,4 @@
   extent: [ beijing, canton, xinjiang, tibet ]
   sections: [ 030/the-manchu-rise-and-the-banners, 030/kangxi-yongzheng-and-qianlong-consolidation-and-expansion ]
   source: "centre of its extent cities"
-  status: proposed
+  status: approved

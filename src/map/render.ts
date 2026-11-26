@@ -6,7 +6,7 @@
 import { EMBLEMS, EMBLEM_MOTION } from './emblems.ts';
 
 export type Pt = [number, number];
-export type Region = { number: number; roman?: string; title: string; titleBg?: string | null; known: boolean; cx: number; cy: number; r: number; outline: Pt[]; first: number; last: number };
+export type Region = { number: number; roman?: string; title: string; titleBg?: string | null; known: boolean; cx: number; cy: number; r: number; outline: Pt[]; first: number; last: number; next?: boolean; islets?: Pt[][] };
 export type Town = { label: string; number: number; part: number; x: number; y: number; planned: boolean; url: string; sections: number; emblem: string; title: string; titleBg?: string | null; name: string; nameBg?: string | null };
 export type Bridge = { a: string; b: string; n: number };
 export type MapData = { width: number; height: number; regions: Region[]; towns: Town[]; rivers: Pt[][]; bridges: Bridge[]; decor: { kind: string; part: number; x: number; y: number; s: number }[]; waves: Pt[] };
@@ -24,6 +24,8 @@ const pad = (n: number) => String(n).padStart(3, '0');
 /** Catmull-Rom spline through the points, as an SVG path. */
 export function smooth(pts: Pt[], closed = false, tension = 0.5): string {
   if (pts.length < 2) return '';
+  // Whole map units are fine enough for curves on a map thousands of units wide.
+  const f = Math.round;
   const n = pts.length;
   const at = (i: number): Pt => closed ? pts[(i + n) % n] : pts[Math.max(0, Math.min(n - 1, i))];
   let d = `M${f(pts[0][0])} ${f(pts[0][1])}`;
@@ -68,8 +70,8 @@ export function partsDone(data: MapData, states: Record<string, TownState>): num
 /** The fog's clear patches: soft circles around every town the reader has reached. */
 export function fogHoles(data: MapData, states: Record<string, TownState>): { label: string; x: number; y: number; r: number }[] {
   const holes = data.towns.filter((t) => ['done', 'started', 'next'].includes(states[t.label]))
-    .map((t) => ({ label: t.label, x: t.x, y: t.y, r: states[t.label] === 'next' ? 210 : states[t.label] === 'started' ? 290 : 330 }));
-  if (!holes.length && data.towns[0]) holes.push({ label: data.towns[0].label, x: data.towns[0].x, y: data.towns[0].y, r: 230 });
+    .map((t) => ({ label: t.label, x: t.x, y: t.y, r: states[t.label] === 'next' ? 250 : states[t.label] === 'started' ? 350 : 410 }));
+  if (!holes.length && data.towns[0]) holes.push({ label: data.towns[0].label, x: data.towns[0].x, y: data.towns[0].y, r: 270 });
   return holes;
 }
 
@@ -152,28 +154,33 @@ export function renderMap(data: MapData, opts: RenderOptions = {}): string {
   const done = new Set(partsDone(data, states));
   const known = data.regions.filter((r) => r.known);
   const islands = data.regions.filter((r) => !r.known);
+  // Each land's shape is written once (in <defs>) and every layer that needs it refers to it.
   const paths = Object.fromEntries(data.regions.map((r) => [r.number, smooth(r.outline, true)]));
+  const isletPaths = Object.fromEntries(known.map((r) => [r.number, (r.islets ?? []).map((o) => smooth(o, true)).join('')]));
   const townsByLabel = Object.fromEntries(data.towns.map((t) => [t.label, t]));
   const out: string[] = [];
+  const use = (id: string, attrs = '') => `<use href="#${id}"${attrs}/>`;
 
   out.push(`<svg class="km-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="group" aria-label="${esc(s.map)}">`);
   out.push(`<defs>${symbols()}`);
-  known.forEach((r) => out.push(`<clipPath id="km-clip-${r.number}"><path d="${paths[r.number]}"/></clipPath>`));
-  // Borders: each region's edge where it runs over the regions drawn before it.
-  known.forEach((r, i) => { if (i) out.push(`<clipPath id="km-under-${r.number}">${known.slice(0, i).map((q) => `<path d="${paths[q.number]}"/>`).join('')}</clipPath>`); });
+  // km-o-N: the coast alone (for the ripples); km-l-N: the land with its islets.
+  data.regions.forEach((r) => out.push(`<path id="km-o-${r.number}" d="${paths[r.number]}"/>`));
+  known.forEach((r) => out.push(`<path id="km-l-${r.number}" d="${paths[r.number]}${isletPaths[r.number]}"/>`));
+  known.forEach((r) => out.push(`<clipPath id="km-clip-${r.number}">${use(`km-l-${r.number}`)}</clipPath>`));
   out.push(`</defs>`);
 
   out.push(`<g class="km-waves"><path d="${data.waves.map(([x, y], i) => `M${x - 14} ${y}c5-6 9-6 14 0s9 6 14 0${i % 3 ? '' : `M${x - 4} ${y + 9}c4-4 7-4 10 0`}`).join('')}"/></g>`);
-  // Engraved ripples round every coast.
-  out.push(`<g class="km-ripples">${data.regions.map((r) => [1.05, 1.1, 1.17].map((k, i) => `<path class="km-ripple km-ripple-${i}" d="${smooth(scaled(r.outline, r.cx, r.cy, k), true)}"/>`).join('')).join('')}</g>`);
-  out.push(`<g class="km-islands">${islands.map((r) => `<path class="km-island" d="${paths[r.number]}"/>`).join('')}</g>`);
-  // Relief: the continent stands on a cliff, drawn below and offset downwards, hatched like an engraving.
-  if (relief) out.push(`<g class="km-cliff" transform="translate(0 30)">${known.map((r) => `<path d="${paths[r.number]}"/>`).join('')}${known.map((r) => `<path class="km-cliff-hatch" d="${paths[r.number]}"/>`).join('')}</g>`);
-  // Continent: ink outline first, fills on top, so only the outer coast stays inked.
-  out.push(`<g class="km-coast">${known.map((r) => `<path d="${paths[r.number]}"/>`).join('')}</g>`);
-  out.push(`<g class="km-land">${known.map((r) => `<path class="km-land-${r.number}" d="${paths[r.number]}"/>`).join('')}</g>`);
-  out.push(`<g class="km-rims">${known.map((r) => `<path class="km-rim km-rim-${r.number}" clip-path="url(#km-clip-${r.number})" d="${paths[r.number]}"/>`).join('')}</g>`);
-  out.push(`<g class="km-borders">${known.slice(1).map((r) => `<path clip-path="url(#km-under-${r.number})" d="${paths[r.number]}"/>`).join('')}</g>`);
+  // Engraved ripples round every coast (the coast itself, scaled out from the land's middle).
+  const grow = (k: number, cx: number, cy: number) => ` transform="matrix(${k} 0 0 ${k} ${f(cx * (1 - k))} ${f(cy * (1 - k))})"`;
+  out.push(`<g class="km-ripples">${data.regions.map((r) => [1.05, 1.1, 1.17].map((k, i) => use(`km-o-${r.number}`, ` class="km-ripple km-ripple-${i}"${grow(k, r.cx, r.cy)}`)).join('')
+    + (r.islets ?? []).map((o) => { const c = o.reduce((a, p) => [a[0] + p[0] / o.length, a[1] + p[1] / o.length], [0, 0]); return `<path class="km-ripple km-ripple-0" d="${smooth(scaled(o, c[0], c[1], 1.25), true)}"/>`; }).join('')).join('')}</g>`);
+  out.push(`<g class="km-islands">${islands.map((r) => use(`km-o-${r.number}`, ' class="km-island"')).join('')}</g>`);
+  // Relief: each land stands on a cliff, drawn below and offset downwards, hatched like an engraving.
+  if (relief) out.push(`<g class="km-cliff" transform="translate(0 30)">${known.map((r) => use(`km-l-${r.number}`)).join('')}${known.map((r) => use(`km-l-${r.number}`, ' class="km-cliff-hatch"')).join('')}</g>`);
+  // Land: ink outline first, fills on top, so only the outer coast stays inked; then a soft rim inside the coast.
+  out.push(`<g class="km-coast">${known.map((r) => use(`km-l-${r.number}`)).join('')}</g>`);
+  out.push(`<g class="km-land">${known.map((r) => use(`km-l-${r.number}`, ` class="km-land-${r.number}"`)).join('')}</g>`);
+  out.push(`<g class="km-rims">${known.map((r) => use(`km-l-${r.number}`, ` class="km-rim km-rim-${r.number}" clip-path="url(#km-clip-${r.number})"`)).join('')}</g>`);
   out.push(`<g class="km-rivers">${data.rivers.map((pts) => `<path d="${smooth(pts)}"/>`).join('')}</g>`);
   // Scenery, back to front, each on its own small shadow.
   const decor = [...data.decor].sort((a, b) => a.y - b.y);
@@ -183,10 +190,29 @@ export function renderMap(data: MapData, opts: RenderOptions = {}): string {
   for (const d of decor) for (const [cls, path] of SCENERY[d.kind] ?? []) (layers[cls] ??= []).push(movePath(path, d.x, d.y, d.s));
   out.push(`<g class="km-decor">${LAYERS.filter((c) => layers[c]).map((c) => `<path class="${c}" d="${layers[c].join('')}"/>`).join('')}</g>`);
 
-  // The road in reading order (the walked part drawn over it), and bridges between related chapters.
-  const road = data.towns.map((t) => [t.x, t.y] as Pt);
+  // The road in reading order (the walked part drawn over it): over land within each Part, by a sea
+  // lane across each strait, and an uncharted lane on to the next land still to be written.
   const walked = data.towns.reduce((n, t, i) => (states[t.label] === 'done' || states[t.label] === 'started' ? i : n), -1);
-  out.push(`<g class="km-roads"><path class="km-road" d="${smooth(road)}"/>${walked > 0 ? `<path class="km-road km-road-walked" d="${smooth(road.slice(0, walked + 1))}"/>` : ''}</g>`);
+  const roads: string[] = [], lanes: string[] = [];
+  const lane = (a: Pt, b: Pt) => {
+    const dx = b[0] - a[0], dy = b[1] - a[1], len = Math.hypot(dx, dy) || 1, bend = Math.min(140, len * 0.12);
+    return `M${f(a[0])} ${f(a[1])}Q${f((a[0] + b[0]) / 2 + (dy / len) * bend)} ${f((a[1] + b[1]) / 2 - (dx / len) * bend)} ${f(b[0])} ${f(b[1])}`;
+  };
+  let from = 0;
+  data.towns.forEach((t, i) => {
+    const next = data.towns[i + 1];
+    if (next && next.part === t.part) return;
+    const seg = data.towns.slice(from, i + 1).map((q) => [q.x, q.y] as Pt);
+    if (seg.length > 1) {
+      roads.push(`<path class="km-road" d="${smooth(seg)}"/>`);
+      if (walked > from) roads.push(`<path class="km-road km-road-walked" d="${smooth(seg.slice(0, walked - from + 1))}"/>`);
+    }
+    if (next) lanes.push(`<path class="km-lane${walked > i ? ' is-walked' : ''}" d="${lane([t.x, t.y], [next.x, next.y])}"/>`);
+    from = i + 1;
+  });
+  const ahead = islands.find((r) => r.next), lastTown = data.towns[data.towns.length - 1];
+  if (ahead && lastTown) lanes.push(`<path class="km-lane is-uncharted" d="${lane([lastTown.x, lastTown.y], [ahead.cx, ahead.cy + 60])}"/>`);
+  out.push(`<g class="km-lanes">${lanes.join('')}</g><g class="km-roads">${roads.join('')}</g>`);
   out.push(`<g class="km-bridges">${data.bridges.map(({ a, b }) => {
     const A = townsByLabel[a], B = townsByLabel[b];
     if (!A || !B) return '';
@@ -225,9 +251,12 @@ export function renderMap(data: MapData, opts: RenderOptions = {}): string {
   for (const r of known) {
     const title = lang === 'bg' ? r.titleBg ?? r.title : r.title;
     const top = Math.min(...data.towns.filter((t) => t.part === r.number).map((t) => t.y));
-    const y0 = Math.max(r.cy - r.r * 0.74, top - 120), x0 = r.cx - r.r * 0.8, x1 = r.cx + r.r * 0.8;
+    const y0 = Math.max(r.cy - r.r * 0.74, top - 120), x0 = r.cx - r.r * 0.9, x1 = r.cx + r.r * 0.9;
+    const text = `${s.part} ${r.roman ?? r.number} · ${title}`;
+    // The name grows as the map zooms out, but only as far as its arc is long (about 27 units a letter).
+    const fit = Math.max(1, (r.r * 1.8 * 1.04 * 0.94) / (text.length * 27));
     out.push(`<path id="km-arc-${r.number}" class="km-arc" d="M${f(x0)} ${f(y0 + 40)}Q${r.cx} ${f(y0 - 50)} ${f(x1)} ${f(y0 + 40)}"/>`);
-    out.push(`<text class="km-region-name"><textPath href="#km-arc-${r.number}" startOffset="50%" text-anchor="middle">${esc(`${s.part} ${r.roman ?? r.number} · ${title}`)}</textPath></text>`);
+    out.push(`<text class="km-region-name" style="--km-rs-max:${fit.toFixed(2)}"><textPath href="#km-arc-${r.number}" startOffset="50%" text-anchor="middle">${esc(text)}</textPath></text>`);
     out.push(crest(r.cx, y0 - 66, done.has(r.number), r.roman ?? String(r.number), r.number));
   }
   out.push(`</g>`);
@@ -246,10 +275,17 @@ export function renderTop(data: MapData, opts: RenderOptions = {}): string {
   const s = { ...EN, ...opts.strings };
   const { width: W, height: H } = data;
   const out: string[] = [`<svg class="km-svg km-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" aria-hidden="true">`];
-  for (const r of data.regions.filter((q) => !q.known)) {
-    out.push(`<text class="km-island-name" x="${r.cx}" y="${r.cy - 8}" text-anchor="middle">${esc(`${s.chapters} ${pad(r.first)}–${pad(r.last)}`)}</text><text class="km-soon" x="${r.cx}" y="${r.cy + 28}" text-anchor="middle">${esc(s.comingSoon)}</text>`);
+  // Seen from far away, each land carries its name across it in large letters.
+  for (const r of data.regions.filter((q) => q.known)) {
+    const title = opts.lang === 'bg' ? r.titleBg ?? r.title : r.title;
+    const fit = Math.min(4.5, (r.r * 2) / Math.max(10, title.length * 19));
+    out.push(`<g transform="translate(${r.cx} ${r.cy})"><g class="km-far" style="--km-far:${fit.toFixed(2)}"><text class="km-far-part" y="-34" text-anchor="middle">${esc(`${s.part} ${r.roman ?? r.number}`)}</text><text class="km-far-title" y="30" text-anchor="middle">${esc(title)}</text></g></g>`);
   }
-  const cx = W - 170, cy = H * 0.5;
+  for (const r of data.regions.filter((q) => !q.known)) {
+    out.push(`<g transform="translate(${r.cx} ${r.cy})"><g class="km-island-label"><text class="km-island-name" y="-8" text-anchor="middle">${esc(`${s.chapters} ${pad(r.first)}–${pad(r.last)}`)}</text><text class="km-soon" y="28" text-anchor="middle">${esc(s.comingSoon)}</text></g></g>`);
+  }
+  // Compass and scale bar in the open sea of the south-east corner.
+  const cx = W - 230, cy = H - 420;
   out.push(`<g class="km-compass" transform="translate(${cx} ${cy})"><g class="km-compass-g"><circle r="92"/><circle r="74" class="km-compass-in"/>`
     + `<path class="km-compass-dark" d="M0-112L13-13L0 0zM0 112L-13 13L0 0zM112 0L13 13L0 0zM-112 0L-13-13L0 0z"/>`
     + `<path class="km-compass-light" d="M0-112L-13-13L0 0zM0 112L13 13L0 0zM112 0L13-13L0 0zM-112 0L-13 13L0 0z"/>`
@@ -258,7 +294,7 @@ export function renderTop(data: MapData, opts: RenderOptions = {}): string {
   // One league is the average road distance between neighbouring towns.
   const gaps = data.towns.slice(1).map((t, i) => [t, data.towns[i]] as const).filter(([a, b]) => a.part === b.part).map(([a, b]) => Math.hypot(a.x - b.x, a.y - b.y));
   const league = Math.round(gaps.reduce((a, b) => a + b, 0) / Math.max(1, gaps.length));
-  out.push(`<g class="km-scale" transform="translate(${W - 60 - league * 3} ${cy + 230})"><path d="M0 0H${league * 3}M0-8V8M${league}-8V8M${league * 2}-8V8M${league * 3}-8V8"/><path class="km-scale-fill" d="M0-5H${league}V5H0zM${league * 2}-5H${league * 3}V5H${league * 2}z"/><text x="${league * 1.5}" y="-20" text-anchor="middle">${esc(s.league)}</text></g>`);
+  out.push(`<g class="km-scale" transform="translate(${W - 90 - league * 3} ${cy + 220})"><path d="M0 0H${league * 3}M0-8V8M${league}-8V8M${league * 2}-8V8M${league * 3}-8V8"/><path class="km-scale-fill" d="M0-5H${league}V5H0zM${league * 2}-5H${league * 3}V5H${league * 2}z"/><text x="${league * 1.5}" y="-20" text-anchor="middle">${esc(s.league)}</text></g>`);
   out.push(`</svg>`);
   return out.join('');
 }
