@@ -170,7 +170,14 @@ function start(root: HTMLElement) {
     p = new Path2D();
     r.pts.forEach(([x, y], i) => {
       if (!i) { p!.moveTo(x, y); return; }
-      const [px, py] = r.pts[i - 1], dx = x - px, dy = y - py, len = Math.hypot(dx, dy) || 1, bend = Math.min(160, len * 0.18);
+      const [px, py] = r.pts[i - 1];
+      // Crossing the Pacific: off one edge of the flat map, back on at the other.
+      if (Math.abs(x - px) > 2740) {
+        const dir = x < px ? 1 : -1, x2 = x + dir * 5480, k = ((dir > 0 ? 5480 : 0) - px) / (x2 - px), ym = py + (y - py) * k;
+        p!.lineTo(dir > 0 ? 5480 : 0, ym); p!.moveTo(dir > 0 ? 0 : 5480, ym); p!.lineTo(x, y);
+        return;
+      }
+      const dx = x - px, dy = y - py, len = Math.hypot(dx, dy) || 1, bend = Math.min(160, len * 0.18);
       p!.quadraticCurveTo((px + x) / 2 - (dy / len) * bend, (py + y) / 2 + (dx / len) * bend, x, y);
     });
     routePath.set(r.id, p);
@@ -198,7 +205,7 @@ function start(root: HTMLElement) {
     ctx.lineWidth = 0.7 / s; ctx.strokeStyle = col.grat; ctx.stroke(P2D.graticule);
     // Engraved coast: soft rings of sea-ink round the land, then the land, then the ink line.
     if (!lowFi) {
-      ctx.strokeStyle = col['sea-line']; ctx.globalAlpha = 0.22; ctx.lineWidth = 11 / s; ctx.stroke(P2D.land);
+      ctx.lineJoin = 'round'; ctx.strokeStyle = col['sea-line']; ctx.globalAlpha = 0.22; ctx.lineWidth = 11 / s; ctx.stroke(P2D.land);
       ctx.globalAlpha = 0.35; ctx.lineWidth = 5 / s; ctx.stroke(P2D.land); ctx.globalAlpha = 1;
     }
     ctx.fillStyle = col.land; ctx.fill(P2D.land);

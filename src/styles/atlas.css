@@ -79,8 +79,11 @@
 .at-note { color: var(--ink-3); font-style: italic; }
 .at-sub { margin: .5rem 0 .25rem; font: 600 .75rem var(--font-sans); color: var(--ink-3); }
 .at-events ul, .at-links { margin: 0; padding-left: 1.1rem; font: .85rem/1.45 var(--font-sans); }
-.at-links li { margin: .15rem 0; }
-.at-links a { padding: .1rem 0; }
+/* Links as full-width blocks: tall enough to tap, with the bullet beside the first line. */
+.at-links { list-style: none; padding-left: 0; }
+.at-links li { margin: 0; }
+.at-links a { display: block; position: relative; padding: .3rem 0 .3rem 1rem; }
+.at-links a::before { content: '•'; position: absolute; left: .15rem; color: var(--ink-3); }
 .at-date { font-weight: 650; }
 .at-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; margin: .6rem 0 0; font: .85rem var(--font-sans); }
 .at-show { min-height: 40px; }

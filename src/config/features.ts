@@ -20,6 +20,8 @@ export const features = {
   games: true,
   explorables: true,
   kingdomMap: true,
+  /** Motion & Story, M1: a short generated film for each chapter ("Watch the trailer"). */
+  trailers: true,
   atlas: true,
   constellation: false,
 } as const;

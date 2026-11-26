@@ -1,0 +1,44 @@
+/* Chapter Trailers (Motion & Story, M1): the player is a full-screen dark room. Drawing:
+   src/trailer/player.ts. */
+.trailer-btn { display: inline-flex; align-items: center; gap: .55rem; margin-top: 1rem; }
+.trailer-btn .tr-play-icon { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--accent); color: var(--paper); }
+.trailer-btn .tr-play-icon svg { width: 14px; height: 14px; margin-left: 2px; fill: currentColor; }
+.trailer-btn:hover .tr-play-icon { transform: scale(1.08); transition: transform var(--dur-2, .2s) var(--ease-out, ease); }
+
+.tr { position: fixed; inset: 0; width: 100vw; height: 100dvh; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: #070c13; color: #efe4c8; overflow: hidden; }
+.tr::backdrop { background: #000; }
+.tr-canvas { position: absolute; inset: 0; display: block; cursor: pointer; }
+.tr-cap { position: absolute; left: 50%; bottom: 14%; z-index: 2; transform: translate(-50%, 12px); margin: 0; max-width: min(92vw, 46rem); text-align: center; opacity: 0;
+  transition: opacity .45s ease, transform .45s cubic-bezier(.2, .8, .2, 1); pointer-events: none; font-family: var(--font-serif); text-shadow: 0 2px 14px rgb(0 0 0 / .9); }
+.tr-cap.is-on { opacity: 1; transform: translate(-50%, 0); }
+.tr-cap-date { display: block; font: 700 .8rem var(--font-sans); letter-spacing: .2em; color: #ffc65a; margin-bottom: .3rem; }
+.tr-cap-text { font-size: clamp(1.15rem, 2.6vw, 1.8rem); line-height: 1.25; font-weight: 560; }
+.tr-end { position: absolute; left: 50%; top: 64%; transform: translateX(-50%); z-index: 3; display: flex; flex-wrap: wrap; justify-content: center; gap: .7rem; width: min(92vw, 36rem); animation: tr-rise .6s cubic-bezier(.2, .8, .2, 1) both; }
+.tr-end .btn { min-height: 46px; }
+.tr-end .btn:not(.btn-primary) { background: rgb(255 255 255 / .08); color: #efe4c8; border-color: rgb(255 255 255 / .25); }
+@keyframes tr-rise { from { opacity: 0; transform: translate(-50%, 14px); } }
+.tr-bar { position: absolute; left: 0; right: 0; bottom: 0; z-index: 4; display: flex; align-items: center; gap: .6rem; padding: 14px max(14px, env(safe-area-inset-right)) max(14px, env(safe-area-inset-bottom)) max(14px, env(safe-area-inset-left));
+  background: linear-gradient(transparent, rgb(0 0 0 / .7)); opacity: 0; transition: opacity .35s ease; font-family: var(--font-sans); }
+.tr.ui-on .tr-bar, .tr:not(.is-playing) .tr-bar, .tr:focus-within .tr-bar { opacity: 1; }
+.tr-btn { min-width: 44px; height: 44px; border-radius: 22px; border: 1px solid rgb(255 255 255 / .25); background: rgb(0 0 0 / .35); color: #efe4c8; font: 600 1.4rem/1 var(--font-sans); display: grid; place-items: center; cursor: pointer; padding: 0 .8rem; }
+.tr-btn:focus-visible, .tr-scrub:focus-visible { outline: 3px solid #ffc65a; outline-offset: 2px; }
+.tr-btn-text { font-size: .85rem; }
+.tr-btn[aria-pressed='true'] { background: #ffc65a; color: #1d1405; }
+.tr-i-play { width: 0; height: 0; border-left: 12px solid currentColor; border-top: 8px solid transparent; border-bottom: 8px solid transparent; margin-left: 3px; }
+.tr-i-pause { width: 12px; height: 15px; border-left: 4px solid currentColor; border-right: 4px solid currentColor; }
+.tr-scrub { flex: 1; accent-color: #ffc65a; height: 44px; min-width: 60px; }
+.tr-time { font-size: .8rem; font-variant-numeric: tabular-nums; color: rgb(239 228 200 / .8); min-width: 5.6rem; text-align: right; }
+@media (max-width: 520px) { .tr-time { display: none; } }
+.tr-board { position: absolute; inset: 0; z-index: 5; overflow: auto; background: rgb(7 12 19 / .96); padding: clamp(1.2rem, 5vw, 3.5rem) 1.2rem 6rem; }
+.tr-board-in { max-width: 42rem; margin: 0 auto; font-family: var(--font-sans); line-height: 1.55; }
+.tr-board h2 { font: 650 clamp(1.5rem, 4vw, 2.2rem)/1.15 var(--font-serif); margin: 0 0 .6rem; color: #efe4c8; outline: none; }
+.tr-board h3 { font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: #ffc65a; margin: 1.6rem 0 .4rem; }
+.tr-board .tr-sf { font: italic 1.05rem/1.55 var(--font-serif); color: rgb(239 228 200 / .8); }
+.tr-board ol, .tr-board dl { margin: 0; padding-left: 1.3rem; }
+.tr-board dd { margin: 0 0 .5rem; color: rgb(239 228 200 / .75); }
+.tr-board dt { font-weight: 650; }
+.tr-board-actions { margin-top: 2rem; display: flex; gap: .7rem; flex-wrap: wrap; }
+.tr-board .btn:not(.btn-primary) { background: rgb(255 255 255 / .08); color: #efe4c8; }
+.tr-end .btn-primary { background: #ffc65a; color: #1d1405; border-color: #ffc65a; }
+/* The page behind the player doesn't scroll. */
+.km-lock, .km-lock body { overflow: hidden; }
