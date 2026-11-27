@@ -553,31 +553,90 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
   let narrate = voiced && (() => { try { return localStorage.getItem('kk-tr-narration') !== 'off'; } catch { return true; } })();
   let holdSince = 0;
   const keep: SpeechSynthesisUtterance[] = []; // (some browsers lose the end of an utterance nothing refers to)
-  /** Stop the voice; a line cut off mid-way is said again from its start when the film resumes. */
-  const hush = () => { if (!voiced) return; keep.length = 0; synth.cancel(); for (const l of lines) if (l.state === 'speaking') l.state = 'wait'; };
+  // The line being said: its sentences, the one sounding now, and the film time each one began.
+  type Cur = { line: Line; parts: string[]; i: number; at: number[] };
+  let cur: Cur | null = null;
+  let gen = 0; // events from utterances spoken before the last cancel are ignored
+  // While paused: 'paused' = the voice itself is paused and resumes mid-sentence; 'cut' = it had to be
+  // stopped (a voice that can't pause, or a long pause), so on play the film steps back to the start of
+  // that sentence and picture and voice start again together.
+  type Held = { mode: 'paused' | 'cut'; since: number; confirmed: boolean };
+  let held: Held | null = null;
+  let waitResume = 0; // the picture waits (until this time) for a resumed voice to say it is back
+  const partsOf = (text: string) => (text.match(/[^.!?]+[.!?]*(\s+|$)/g) ?? [text]).map((x) => x.trim()).filter(Boolean);
+  const stopSynth = () => { gen++; keep.length = 0; synth.cancel(); if (synth.paused) synth.resume(); };
+  /** Stop the voice for good (a jump in time, closing, narration off): an unfinished line waits again. */
+  const hush = () => {
+    if (!voiced) return;
+    stopSynth(); held = null; waitResume = 0; cur = null;
+    for (const l of lines) if (l.state === 'speaking') l.state = 'wait';
+  };
   /** After a jump in time: lines already past are skipped, the rest wait for their moment. */
   const resync = () => { hush(); for (const l of lines) l.state = l.start + 0.3 < t ? 'done' : 'wait'; holdSince = 0; };
-  function speakLine(l: Line) {
+  /** When sentence i of the current line should begin, if the voice never said. */
+  const sentenceAt = (c: Cur, i: number) => c.at[i] ?? c.line.start + c.parts.slice(0, i).reduce((n, x) => n + sayLen(x), 0);
+  function speakFrom(l: Line, from: number) {
+    const g = ++gen;
     l.state = 'speaking';
+    const c: Cur = cur?.line === l ? cur : { line: l, parts: partsOf(l.text), i: 0, at: [] };
+    cur = c; c.i = from;
     // One sentence per utterance: long utterances can be cut short by some voices.
-    const parts = l.text.match(/[^.!?]+[.!?]*(\s+|$)/g) ?? [l.text];
-    parts.forEach((part, i) => {
-      const u = new SpeechSynthesisUtterance(part.trim());
+    for (let i = from; i < c.parts.length; i++) {
+      const u = new SpeechSynthesisUtterance(c.parts[i]);
       u.voice = voice!; u.lang = voice!.lang; u.rate = 1;
-      if (i === parts.length - 1) { const end = () => { if (l.state === 'speaking') l.state = 'done'; }; u.onend = end; u.onerror = end; }
+      u.onstart = () => { if (g === gen) { c.i = i; c.at[i] = t; } };
+      u.onpause = () => { if (g === gen && held) held.confirmed = true; };
+      u.onresume = () => { if (g === gen) waitResume = 0; };
+      const last = i === c.parts.length - 1;
+      const end = () => {
+        if (g !== gen) return;
+        if (last) { if (l.state === 'speaking') { l.state = 'done'; cur = null; } }
+        else if (c.i === i) { c.i = i + 1; c.at[i + 1] ??= t; }
+      };
+      u.onend = end; if (last) u.onerror = end;
       keep.push(u); synth.speak(u);
-    });
+    }
   }
+  /** Pause: the voice pauses with the picture; one that doesn't confirm within a moment is stopped. */
+  const pauseVoice = () => {
+    if (!voiced || !cur || held) return;
+    const h: Held = { mode: 'paused', since: performance.now(), confirmed: false }; held = h;
+    try { synth.pause(); } catch { /* treated as a voice that can't pause */ }
+    setTimeout(() => { if (held === h && !h.confirmed) { h.mode = 'cut'; stopSynth(); } }, 250);
+  };
+  /** Back to the start of the sentence that was sounding, picture and voice together. */
+  const restartSentence = () => {
+    const c = cur; waitResume = 0;
+    if (!c) return;
+    stopSynth();
+    const i = Math.min(c.i, c.parts.length - 1);
+    t = clamp(sentenceAt(c, i), 0, DUR);
+    speakFrom(c.line, i);
+    frame();
+  };
+  /** Play after a pause: resume the voice where it stopped (the picture waits for it), or restart the sentence. */
+  const resumeVoice = () => {
+    const h = held; held = null;
+    if (!h || !cur) return;
+    if (h.mode === 'paused' && performance.now() - h.since < 10000) {
+      try { synth.resume(); } catch { /* falls back below */ }
+      const g = gen;
+      waitResume = performance.now() + 450;
+      setTimeout(() => { if (waitResume && g === gen) restartSentence(); }, 500);
+    } else restartSentence(); // (some voices go quiet for good after a long pause)
+  };
   /** Each frame while playing: start the line that is due; true while the picture waits for the voice. */
   function narrationStep(): boolean {
     if (!voiced || !narrate) return false;
+    if (waitResume) { if (performance.now() < waitResume + 300) return true; waitResume = 0; }
     const speaking = lines.some((l) => l.state === 'speaking');
     const due = lines.find((l) => l.state === 'wait' && l.start <= t);
-    if (due && !speaking) { speakLine(due); holdSince = 0; return false; }
+    if (due && !speaking) { speakFrom(due, 0); holdSince = 0; return false; }
     if (speaking && (due || t >= DUR - 0.05)) {
       const now = performance.now(); holdSince ||= now;
       if (now - holdSince < 6000) return true;
       for (const l of lines) if (l.state === 'speaking') l.state = 'done'; // a voice that never says it has finished
+      cur = null;
     }
     holdSince = 0;
     return false;
@@ -603,11 +662,11 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
     playBtn.firstElementChild!.className = on ? 'tr-i-pause' : 'tr-i-play';
     dlg.classList.toggle('is-playing', on);
     cancelAnimationFrame(raf);
-    if (on) { if (t >= DUR) { t = 0; resync(); } last = performance.now(); raf = requestAnimationFrame(tick); bumpUi(); }
+    if (on) { if (t >= DUR) { t = 0; resync(); } else resumeVoice(); last = performance.now(); raf = requestAnimationFrame(tick); bumpUi(); }
     else frame();
   };
-  /** Play or pause at the reader's request (pausing also stops the voice). */
-  const toggle = () => { if (playing) { setPlaying(false); hush(); } else setPlaying(true); };
+  /** Play or pause at the reader's request: the voice pauses and plays with the picture. */
+  const toggle = () => { if (playing) { setPlaying(false); pauseVoice(); } else setPlaying(true); };
   const jump = (to: number) => { t = clamp(to, 0, DUR); resync(); frame(); };
   function tick(now: number) {
     const hold = narrationStep();
@@ -648,7 +707,7 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
     <p class="tr-board-actions"><a class="btn btn-primary" href="${esc(data.first ?? data.url)}">${esc(S.start)} →</a>${calm ? ` <button type="button" class="btn" data-tr-anyway>${esc(S.playAnyway)}</button>` : ''}</p>`;
   const showBoard = (on: boolean) => {
     board.hidden = !on; boardBtn.setAttribute('aria-pressed', String(on)); dlg.classList.toggle('is-board', on);
-    if (on) { setPlaying(false); hush(); board.querySelector<HTMLElement>('h2')!.setAttribute('tabindex', '-1'); board.querySelector<HTMLElement>('h2')!.focus(); }
+    if (on) { setPlaying(false); pauseVoice(); board.querySelector<HTMLElement>('h2')!.setAttribute('tabindex', '-1'); board.querySelector<HTMLElement>('h2')!.focus(); }
   };
   boardBtn.addEventListener('click', () => showBoard(board.hidden));
   board.addEventListener('click', (e) => { if ((e.target as HTMLElement).closest('[data-tr-anyway]')) { showBoard(false); setPlaying(true); } });
