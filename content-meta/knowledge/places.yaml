@@ -2898,7 +2898,7 @@
   region: mediterranean-europe
   sections: [ 039/munich-and-the-failure-of-appeasement, 040/from-the-failed-peace-to-expansionist-dictatorships ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: moscow
   name: "Moscow"
   bg: "Москва"
@@ -2908,7 +2908,7 @@
   region: mediterranean-europe
   sections: [ 040/bulgaria-and-the-axis-policy-territory-and-responsibility, 040/operation-barbarossa-a-war-of-annihilation, 041/decolonization-independence-as-a-world-making-process, 041/eastern-europe-control-reform-and-resistance, 041/the-chinese-revolution-and-the-remaking-of-east-asia, 041/the-strange-outcome-of-the-wartime-alliance ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: new-york
   name: "New York"
   bg: "Ню Йорк"
@@ -2918,7 +2918,7 @@
   region: americas
   sections: [ 039/1929-a-crash-not-a-complete-explanation, 039/cities-cinema-radio-and-new-mass-cultures, 039/the-fragile-financial-order-left-by-world-war-i ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: guernica
   name: "Guernica"
   bg: "Герника"
@@ -2928,7 +2928,7 @@
   region: mediterranean-europe
   sections: [ 039/spain-a-civil-war-with-international-consequences ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: addis-ababa
   name: "Addis Ababa"
   bg: "Адис Абеба"
@@ -2938,7 +2938,7 @@
   region: africa
   sections: [ 039/manchuria-and-ethiopia-collective-security-under-strain, 039/the-road-toward-a-new-general-war ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: mukden
   name: "Mukden (Shenyang)"
   bg: "Мукден (Шънян)"
@@ -2948,7 +2948,7 @@
   region: east-asia
   sections: [ 039/japan-and-the-transformation-of-east-asian-security, 039/manchuria-and-ethiopia-collective-security-under-strain, 040/hiroshima-nagasaki-and-the-question-of-surrender, 040/japans-war-in-china-and-asian-imperialism ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: nanjing
   name: "Nanjing"
   bg: "Нанкин"
@@ -2958,7 +2958,7 @@
   region: east-asia
   sections: [ 039/japan-and-the-transformation-of-east-asian-security, 040/japans-war-in-china-and-asian-imperialism ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: leningrad
   name: "Leningrad (St Petersburg)"
   bg: "Ленинград (Санкт Петербург)"
@@ -2968,7 +2968,7 @@
   region: mediterranean-europe
   sections: [ 040/the-siege-of-leningrad-and-suffering-behind-front-lines ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: stalingrad
   name: "Stalingrad (Volgograd)"
   bg: "Сталинград (Волгоград)"
@@ -2978,7 +2978,7 @@
   region: mediterranean-europe
   sections: [ 040/kursk-italy-and-the-relentless-eastern-front, 040/the-turning-years-1942-and-1943 ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: kursk
   name: "Kursk"
   bg: "Курск"
@@ -2988,7 +2988,7 @@
   region: mediterranean-europe
   sections: [ 040/kursk-italy-and-the-relentless-eastern-front ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: dunkirk
   name: "Dunkirk"
   bg: "Дюнкерк"
@@ -2998,7 +2998,7 @@
   region: mediterranean-europe
   sections: [ 040/scandinavia-france-and-the-limits-of-the-early-german ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: el-alamein
   name: "El Alamein"
   bg: "Ел Аламейн"
@@ -3008,7 +3008,7 @@
   region: africa
   sections: [ 040/north-africa-the-mediterranean-and-colonial-soldiers, 040/the-turning-years-1942-and-1943 ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: normandy
   name: "Normandy"
   bg: "Нормандия"
@@ -3018,7 +3018,7 @@
   region: mediterranean-europe
   sections: [ 040/d-day-liberation-of-france-and-competing-memories ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: auschwitz
   name: "Auschwitz-Birkenau"
   bg: "Аушвиц-Биркенау"
@@ -3028,7 +3028,7 @@
   region: mediterranean-europe
   sections: [ 040/auschwitzs-liberation-and-the-evidence-of-genocide, 040/mass-shootings-after-the-invasion-of-the-soviet-union, 040/the-final-solution-and-the-killing-centers ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: treblinka
   name: "Treblinka"
   bg: "Треблинка"
@@ -3038,7 +3038,7 @@
   region: mediterranean-europe
   sections: [ 040/bulgarias-jews-protection-in-the-old-kingdom-deportation, 040/the-final-solution-and-the-killing-centers ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: skopje
   name: "Skopje"
   bg: "Скопие"
@@ -3048,7 +3048,7 @@
   region: mediterranean-europe
   sections: [ 040/bulgaria-and-the-axis-policy-territory-and-responsibility, 040/bulgarias-jews-protection-in-the-old-kingdom-deportation, 040/the-balkan-campaigns-and-the-axis-order-in-southeastern ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: pearl-harbor
   name: "Pearl Harbor"
   bg: "Пърл Харбър"
@@ -3058,7 +3058,7 @@
   region: oceania
   sections: [ 040/pearl-harbor-and-the-widening-pacific-war ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: midway-atoll
   name: "Midway"
   bg: "Мидуей"
@@ -3068,7 +3068,7 @@
   region: oceania
   sections: [ 040/midway-guadalcanal-and-the-cost-of-island-warfare, 040/the-turning-years-1942-and-1943 ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: guadalcanal
   name: "Guadalcanal"
   bg: "Гуадалканал"
@@ -3078,7 +3078,7 @@
   region: oceania
   sections: [ 040/midway-guadalcanal-and-the-cost-of-island-warfare, 040/the-turning-years-1942-and-1943 ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: okinawa
   name: "Okinawa"
   bg: "Окинава"
@@ -3088,7 +3088,7 @@
   region: east-asia
   sections: [ 040/midway-guadalcanal-and-the-cost-of-island-warfare, 040/okinawa-and-the-final-pacific-campaigns ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: hiroshima
   name: "Hiroshima"
   bg: "Хирошима"
@@ -3098,7 +3098,7 @@
   region: east-asia
   sections: [ 040/hiroshima-nagasaki-and-the-question-of-surrender, 047/1945-scientific-achievement-and-human-catastrophe, 047/the-nuclear-taboo-and-the-evidence-of-non-use ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: nagasaki
   name: "Nagasaki"
   bg: "Нагасаки"
@@ -3108,7 +3108,7 @@
   region: east-asia
   sections: [ 040/hiroshima-nagasaki-and-the-question-of-surrender, 047/1945-scientific-achievement-and-human-catastrophe, 047/the-nuclear-taboo-and-the-evidence-of-non-use ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: tokyo
   name: "Tokyo"
   bg: "Токио"
@@ -3118,7 +3118,7 @@
   region: east-asia
   sections: [ 040/justice-after-mass-atrocity-nuremberg-and-tokyo, 040/okinawa-and-the-final-pacific-campaigns ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: nuremberg
   name: "Nuremberg"
   bg: "Нюрнберг"
@@ -3128,7 +3128,7 @@
   region: mediterranean-europe
   sections: [ 040/from-antisemitic-exclusion-to-mass-murder, 040/justice-after-mass-atrocity-nuremberg-and-tokyo, 046/individual-criminal-responsibility-from-nuremberg-onward ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: san-francisco
   name: "San Francisco"
   bg: "Сан Франциско"
@@ -3138,7 +3138,7 @@
   region: americas
   sections: [ 040/a-new-security-order-and-the-united-nations ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: bandung
   name: "Bandung"
   bg: "Бандунг"
@@ -3148,7 +3148,7 @@
   region: southeast-asia
   sections: [ 041/a-concise-comparative-chronology, 041/bandung-and-the-non-aligned-movement, 045/bandung-and-the-refusal-to-be-treated-as-a-chess-piece ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: havana
   name: "Havana"
   bg: "Хавана"
@@ -3158,7 +3158,7 @@
   region: americas
   sections: [ 041/detente-and-the-limits-of-superpower-cooperation, 041/southern-africa-angola-and-the-struggle-against-apartheid, 041/the-cuban-revolution-and-the-missile-crisis, 042/case-study-the-cuban-missile-crisis-1962, 045/the-cuban-missile-crisis-the-value-and-cost-of-communication, 047/the-cuban-missile-crisis-the-value-of-diplomacy ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: seoul
   name: "Seoul"
   bg: "Сеул"
@@ -3168,7 +3168,7 @@
   region: east-asia
   sections: [ 041/a-concise-comparative-chronology, 041/korea-local-war-international-escalation, 041/the-chinese-revolution-and-the-remaking-of-east-asia, 041/what-the-term-cold-war-explains-and-what-it-hides, 047/the-early-monopoly-and-the-end-of-atomic-exclusivity, 047/the-korean-peninsula-and-the-persistence-of-insecurity ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: kinshasa
   name: "Léopoldville (Kinshasa)"
   bg: "Леополдвил (Киншаса)"
@@ -3178,7 +3178,7 @@
   region: africa
   sections: [ 041/the-congo-crisis-sovereignty-under-pressure ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: helsinki
   name: "Helsinki"
   bg: "Хелзинки"
@@ -3188,7 +3188,7 @@
   region: mediterranean-europe
   sections: [ 041/detente-and-the-limits-of-superpower-cooperation, 045/helsinki-managing-rivalry-without-ending-it ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: kabul
   name: "Kabul"
   bg: "Кабул"
@@ -3198,7 +3198,7 @@
   region: south-asia
   sections: [ 041/afghanistan-iran-and-the-renewed-cold-war-of-the-1980s, 041/the-post-1991-international-order-and-its-limits, 041/what-the-term-cold-war-explains-and-what-it-hides ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: tehran
   name: "Tehran"
   bg: "Техеран"
@@ -3208,7 +3208,7 @@
   region: west-asia
   sections: [ 041/afghanistan-iran-and-the-renewed-cold-war-of-the-1980s, 041/middle-eastern-transformations-independence-oil-and-conflict ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: hanoi
   name: "Hanoi"
   bg: "Ханой"
@@ -3218,7 +3218,7 @@
   region: southeast-asia
   sections: [ 041/a-concise-comparative-chronology, 041/indonesia-and-southeast-asia-independence-and-competing, 041/vietnam-war-nationalism-and-intervention, 041/what-the-term-cold-war-explains-and-what-it-hides ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: jakarta
   name: "Jakarta"
   bg: "Джакарта"
@@ -3228,7 +3228,7 @@
   region: southeast-asia
   sections: [ 041/bandung-and-the-non-aligned-movement, 041/indonesia-and-southeast-asia-independence-and-competing ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: brussels
   name: "Brussels"
   bg: "Брюксел"
@@ -3238,7 +3238,7 @@
   region: mediterranean-europe
   sections: [ 041/a-concise-comparative-chronology, 041/berlin-germany-and-the-formation-of-opposing-blocs, 041/postcommunist-transitions-democracy-markets-and-costs, 041/the-european-union-and-nato-expand, 045/bulgaria-diplomacy-as-a-smaller-states-institution, 045/nato-the-warsaw-pact-and-institutional-asymmetry ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: kuwait-city
   name: "Kuwait City"
   bg: "Кувейт"
@@ -3248,7 +3248,7 @@
   region: west-asia
   sections: [ 042/case-study-iraq-and-kuwait-1990-1991 ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: strait-of-hormuz
   name: "Strait of Hormuz"
   bg: "Ормузки проток"
@@ -3258,7 +3258,7 @@
   region: west-asia
   sections: [ 043/straits-canals-and-maritime-chokepoints ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: camp-david
   name: "Camp David"
   bg: "Кемп Дейвид"
@@ -3268,7 +3268,7 @@
   region: americas
   sections: [ 045/camp-david-a-durable-agreement-with-unresolved-questions ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: solferino
   name: "Solferino"
   bg: "Солферино"
@@ -3278,7 +3278,7 @@
   region: mediterranean-europe
   sections: [ 046/solferino-the-red-cross-and-the-geneva-movement ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: the-hague
   name: "The Hague"
   bg: "Хага"
@@ -3288,7 +3288,7 @@
   region: mediterranean-europe
   sections: [ 046/case-study-congo-uganda-and-the-long-journey-to-reparation, 046/from-the-hague-to-the-geneva-conventions, 046/occupation-authority-without-sovereignty, 046/self-defence-and-the-difference-between-fear-and-entitlement, 046/the-international-court-of-justice-is-not-the-icc, 046/where-international-rules-come-from ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: kigali
   name: "Kigali"
   bg: "Кигали"
@@ -3298,7 +3298,7 @@
   region: africa
   sections: [ 046/case-study-rwanda-bosnia-and-the-different-meanings, 046/individual-criminal-responsibility-from-nuremberg-onward ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: srebrenica
   name: "Srebrenica"
   bg: "Сребреница"
@@ -3308,7 +3308,7 @@
   region: mediterranean-europe
   sections: [ 041/the-balkans-after-1991-yugoslavias-violent-dissolution, 046/case-study-rwanda-bosnia-and-the-different-meanings, 048/bosnia-and-herzegovina-ending-violence-and-designing-a-state ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: semipalatinsk
   name: "Semipalatinsk test site"
   bg: "Полигонът край Семипалатинск"
@@ -3318,7 +3318,7 @@
   region: central-asia-steppe
   sections: [ 047/regions-that-have-chosen-to-remain-nuclear-weapon-free, 047/the-people-who-lived-beside-nuclear-tests, 047/ukraine-kazakhstan-and-belarus-after-the-soviet-collapse ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: bikini-atoll
   name: "Bikini Atoll"
   bg: "Атолът Бикини"
@@ -3328,7 +3328,7 @@
   region: oceania
   sections: [ 047/the-people-who-lived-beside-nuclear-tests ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: budapest
   name: "Budapest"
   bg: "Будапеща"
@@ -3338,7 +3338,7 @@
   region: mediterranean-europe
   sections: [ 047/ukraine-kazakhstan-and-belarus-after-the-soviet-collapse ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: maputo
   name: "Maputo"
   bg: "Мапуто"
@@ -3348,7 +3348,7 @@
   region: africa
   sections: [ 048/mozambique-the-long-negotiation-after-independence ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: guatemala-city
   name: "Guatemala City"
   bg: "Гватемала"
@@ -3358,7 +3358,7 @@
   region: americas
   sections: [ 048/guatemala-exclusion-and-the-meaning-of-historical-truth ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: freetown
   name: "Freetown"
   bg: "Фрийтаун"
@@ -3368,7 +3368,7 @@
   region: africa
   sections: [ 048/sierra-leone-resources-are-not-destiny ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: mogadishu
   name: "Mogadishu"
   bg: "Могадишу"
@@ -3378,7 +3378,7 @@
   region: africa
   sections: [ 048/somalia-public-authority-does-not-simply-vanish ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: dayton
   name: "Dayton"
   bg: "Дейтън"
@@ -3388,7 +3388,7 @@
   region: americas
   sections: [ 048/bosnia-and-herzegovina-ending-violence-and-designing-a-state ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: kathmandu
   name: "Kathmandu"
   bg: "Катманду"
@@ -3398,7 +3398,7 @@
   region: south-asia
   sections: [ 048/nepal-transforming-a-conflict-into-constitutional-politics ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: juba
   name: "Juba"
   bg: "Джуба"
@@ -3408,7 +3408,7 @@
   region: africa
   sections: [ 048/sudan-and-south-sudan-borders-do-not-solve-every-political ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: monrovia
   name: "Monrovia"
   bg: "Монровия"
@@ -3418,7 +3418,7 @@
   region: africa
   sections: [ 048/liberia-what-a-completed-international-mission-does-and-does, 048/sierra-leone-resources-are-not-destiny ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved
 - id: fort-sumter
   name: "Fort Sumter"
   bg: "Форт Съмтър"
@@ -3428,4 +3428,4 @@
   region: americas
   sections: [ 048/civil-war-is-a-category-not-an-explanation, 048/sudan-and-south-sudan-borders-do-not-solve-every-political, 048/the-united-states-slavery-secession-and-the-constitutional ]
   source: "hand-entered coordinates (approximate)"
-  status: proposed
+  status: approved

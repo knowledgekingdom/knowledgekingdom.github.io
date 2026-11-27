@@ -16,7 +16,7 @@ const ordinal = (n: number) => {
 /** Whole centuries: 1401..1500 is the 15th century; -2700..-2101 is 27th–22nd centuries BCE. */
 function centuries(start: number, end: number): [number, number] | null {
   if (start > 0 && start % 100 === 1 && end % 100 === 0) return [(start + 99) / 100, end / 100];
-  if (end < 0 && start % 100 === 0 && (end - 1) % 100 === 0) return [-start / 100, (-end + 99) / 100];
+  if (end < 0 && start % 100 === 0 && (end + 1) % 100 === 0) return [-start / 100, (-end + 99) / 100];
   return null;
 }
 
@@ -41,7 +41,7 @@ export function formatDate(e: DateLike, lang: Lang): string {
 
   const bce = e.end < 0;
   // Whole millennia: -3000..-2001 is the 3rd millennium BCE.
-  const mil = bce && e.start % 1000 === 0 && (e.end - 1) % 1000 === 0 ? [-e.start / 1000, (-e.end + 999) / 1000]
+  const mil = bce && e.start % 1000 === 0 && (e.end + 1) % 1000 === 0 ? [-e.start / 1000, (-e.end + 999) / 1000]
     : !bce && e.start > 0 && e.start % 1000 === 1 && e.end % 1000 === 0 ? [(e.start + 999) / 1000, e.end / 1000] : null;
   if (mil) {
     const [a, b] = mil;

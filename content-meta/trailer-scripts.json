@@ -1,31 +1,344 @@
 {
-  "_help": "Narration for the chapter trailers, read by the UK English Male voice (src/trailer/player.ts). Per language and chapter: a list of [scene, text]. Scenes, in film order, with roughly how many words fit before the film has to slow down: title (~10), when (~10), where (~6), story (~45), terms (~15), sections (~14), end (~9). A line for a scene the film doesn't have moves to the next one; a scene lasts as long as its line needs. Aim for about 90 words (40 seconds) per chapter.",
+  "_help": "Narration for the chapter trailers, read by the UK English Male voice (src/trailer/player.ts). Per language and chapter: a list of [scene, text]. Scenes, in film order, with roughly how many words fit before the film has to slow down: title (~10), when (~10), where (~6), story (~45), terms (~15), end (~20). A line for a scene the film doesn't have moves to the next scene (or back to the one before, when only the end card is left); a terms line is dropped when the film shows no key terms. A scene lasts as long as its line needs. Aim for about 90 words (40 seconds) per chapter. Keep facts to what the chapter says. Bulgarian trailers stay silent (no bg scripts).",
   "en": {
+    "001": [
+      ["title", "How to Know What Is True. A guide for an age of confident claims."],
+      ["story", "An educated mind does not hold a confident opinion about everything. It knows what deserves confidence, what remains uncertain, and how to tell the difference. Follow a claim upstream. Read a research headline without being fooled. Learn when to trust experts, and when to question them."],
+      ["terms", "Along the way: provenance, corroboration, and lateral reading."],
+      ["end", "One habit of mind, for every chapter that follows. Start reading, and check before you believe."]
+    ],
+    "002": [
+      ["title", "Logic, Arguments, and Common Fallacies. How to make your reasons visible."],
+      ["story", "Clear reasoning does not guarantee that you will be right. It does something more valuable. It makes your mistakes correctable, and your disagreements worth having. Learn why valid is not the same as true, how straw men and false choices win arguments they should lose, and why spotting a fallacy is not the end of the conversation."],
+      ["terms", "Validity, soundness, and the humble counterexample."],
+      ["end", "Start reading, and argue better, not louder."]
+    ],
+    "003": [
+      ["title", "Probability, Risk, and Everyday Numbers. Uncertainty is not ignorance."],
+      ["story", "The world does not promise certainty. But once we learn to count outcomes, compare baselines and weigh consequences, better decisions become possible. Count a fraud alarm properly. See why sensible people buy insurance, why small samples produce streaks, and why time multiplies small differences."],
+      ["terms", "Watch for base rates, false positives, and the difference between absolute and relative risk."],
+      ["end", "Start reading, and let the numbers speak plainly."]
+    ],
+    "004": [
+      ["title", "Historical Time and the Problem of Sources. The past is gone, but not without a trace."],
+      ["where", "From Great Zimbabwe to Tarnovo, place is evidence too."],
+      ["story", "History is the disciplined art of asking what traces can tell us, and what they cannot. Eyewitnesses misremember. Archives have makers, and absences. A translation can polish a sentence into something it never said. And historians disagree, without everything becoming opinion."],
+      ["terms", "Learn how layers of soil, tree rings and radiocarbon put dates on the past."],
+      ["end", "Start reading, and learn to read the past like a historian."]
+    ],
+    "005": [
+      ["title", "Geography, Maps, and Scale. The map is not the territory."],
+      ["where", "From the Andes to the Strait of Malacca."],
+      ["story", "The world is not a collection of colored countries. It is a moving system of rock, water, air, life, infrastructure and human choices. Plates raise mountains. Oceans are highways and climate engines. And a small map can hide very big things."],
+      ["terms", "Every flat map makes a choice: Mercator, or equal area."],
+      ["end", "Start reading, and see the connections behind the colors."]
+    ],
+    "006": [
+      ["title", "Reading Data, Charts, and Statistics. Every number is an answer to a question."],
+      ["story", "Numbers make the world easier to compare, and easier to misunderstand. Ask what was measured, and what was left out. Find the missing denominator. Notice when a graph's starting point becomes the story, and when every subgroup tells the opposite story to the whole."],
+      ["terms", "Meet the sampling frame, the outlier, and the weighted mean."],
+      ["end", "Start reading, and audit any statistic in seven minutes."]
+    ],
+    "007": [
+      ["title", "Systems Thinking and Feedback Loops. Why the world is not a row of dominoes."],
+      ["story", "Beneath every headline sits a structure: stocks that fill and drain, flows that change them, and feedback that feeds change or pushes back. Delays turn sensible corrections into oscillations. Thresholds turn small pushes into tipping points. From epidemics to economies, the same patterns return."],
+      ["terms", "Start with the bathtub: a stock, a flow, and a buffer."],
+      ["end", "Start reading. The world reacts to our attempts to change it."]
+    ],
+    "008": [
+      ["title", "How to Learn and Remember. Knowledge is what you can recover with the book closed."],
+      ["story", "A short chapter, and a toolkit for every other one. Rereading can create an illusion of mastery. Forgetting a little, then remembering, helps you learn more. Mix topics for a reason, explain ideas aloud, and turn every error into information. And make room for rest, sleep, and enjoyment."],
+      ["terms", "Four tools to carry: retrieval, spacing, interleaving, and self-explanation."],
+      ["end", "Start reading, and plan your first ninety days."]
+    ],
+    "009": [
+      ["title", "Human Evolution and the First Migrations. The story of everyone alive."],
+      ["when", "Nearly four million years, read from scattered bones and stones."],
+      ["where", "Out of Africa, and across the world."],
+      ["story", "Footprints at Laetoli. Stone tools at Lomekwi, three point three million years old. Early Homo sapiens at Jebel Irhoud. Then people crossed water to Sahul, met Neanderthals and Denisovans, and moved toward the Americas by ice and coast. Much of it is still debated, and the chapter says so."],
+      ["terms", "Key ideas: bipedalism, introgression, and Beringia."],
+      ["end", "Start reading, and meet your oldest relatives."]
+    ],
+    "010": [
+      ["title", "The Agricultural Revolution. Not one invention, but a patchwork of experiments."],
+      ["when", "Over thousands of years, people began to shape what fed them."],
+      ["where", "From Anatolia to New Guinea."],
+      ["story", "Foragers were already managing their world. Then large villages like Çatalhöyük took shape. Farming spread across the Aegean and into the Balkans. In New Guinea, wetland gardens flourished without fields of grain. And at Varna, richly furnished burials hint at new kinds of wealth, and of inequality."],
+      ["terms", "Watch a single seed change: the nonshattering grain."],
+      ["end", "Start reading, and ask what farming cost, and what it gave."]
+    ],
+    "011": [
+      ["title", "Mesopotamia and the First States. Learning to live with strangers."],
+      ["when", "From the Ubaid villages to the reign of Hammurabi."],
+      ["where", "Between the Tigris and the Euphrates."],
+      ["story", "Uruk grew into something larger than a town. Scribes pressed the first accounts into clay. Rival city-states argued over water, and went to war, until Akkad ruled a regional empire. The kings of Ur counted almost everything. And in Babylon, Hammurabi's famous laws tell us less, and more, than we expect."],
+      ["terms", "Key ideas: the city-state, the cylinder seal, and cuneiform."],
+      ["end", "Start reading, and meet the first institutions."]
+    ],
+    "012": [
+      ["title", "Ancient Egypt and the Nile. The river did not build the pyramids. People did."],
+      ["when", "Three thousand years, from unification to Roman rule."],
+      ["where", "Along the Nile, from the Delta to Nubia."],
+      ["story", "Early rulers unified the valley. The Old Kingdom raised the great pyramids, then fragmented. The New Kingdom looked outward, to Kadesh and beyond. Hatshepsut ruled. At Amarna, a king tried to change the gods. And at Deir el-Medina, ordinary workmen left records of their own."],
+      ["end", "A story of continuity without permanence. Start reading."]
+    ],
+    "013": [
+      ["title", "The Indus Valley Civilization. Great cities, and a script no one can read."],
+      ["when", "Two thousand years of development, not a sudden birth."],
+      ["where", "Across the Indus plains, from Punjab to Gujarat."],
+      ["story", "Harappa grew in stages. Mohenjo-daro was built around water. Dholavira found another way to build a city. Standard weights and beautiful seals reveal a society of trust and skill. Yet we cannot read its writing, or prove that kings ruled it. After 1900 BCE, the cities did not vanish. They transformed."],
+      ["end", "Start reading, and learn what silence can teach."]
+    ],
+    "014": [
+      ["title", "Ancient China: Dynasties and Statecraft. Power built from farming, ritual, war and memory."],
+      ["when", "From the first complex societies to the unification of 221 BCE."],
+      ["where", "Along the Yellow River, and far beyond it."],
+      ["story", "At Liangzhu and Erlitou, complex societies rose before any king we can name. Shang rulers questioned their ancestors on oracle bones, and turned bronze into authority. Then the Zhou defeated the Shang, and claimed the Mandate of Heaven: legitimacy, with conditions. Far to the west, Sanxingdui reveals other Bronze Age worlds."],
+      ["end", "Not one civilization, but many. Start reading."]
+    ],
+    "015": [
+      ["title", "Persia and the Politics of Empire. An empire run on roads and clay tablets."],
+      ["when", "Two centuries, from Cyrus to Alexander."],
+      ["where", "From the Iranian plateau to Egypt and the Aegean."],
+      ["story", "Cyrus took Babylon, and his famous cylinder told a story worth testing. After the crisis of 522 BCE, Darius explained why the throne was his. Satraps ruled across vast distances. Royal roads carried messengers, and tablets at Persepolis show the empire at work. Then Alexander crossed into Asia, and inherited it."],
+      ["end", "Start reading, and weigh the promises and costs of power."]
+    ],
+    "016": [
+      ["title", "The Greek World and Its Political Experiments. Who should rule, and for whose benefit?"],
+      ["when", "Four centuries of fiercely independent city-states."],
+      ["where", "Across the Aegean, from Sicily to Anatolia."],
+      ["story", "Sparta built citizenship on dependency. Athens tried democracy, after Cleisthenes redrew its politics. Greeks stood together, briefly, against Persia at Marathon and Salamis. Then an alliance became an empire, a war consumed a generation, and in 399 BCE, Athens put Socrates on trial."],
+      ["end", "Start reading. The argument outlived the city-state."]
+    ],
+    "017": [
+      ["title", "Rome: Republic, Empire, and Afterlives. Not one rise, and not one fall."],
+      ["when", "Nearly a thousand years, from kings to the last western emperor."],
+      ["where", "From Hadrian's Wall to Alexandria."],
+      ["story", "Rome traded its kings for a republic, then won a Mediterranean. Generals outgrew the rules, and Caesar was assassinated. Augustus built a monarchy in republican clothing. Roads, armies and citizenship held the provinces together. Christianity rose. And when the western court disappeared, Rome lived on in Constantinople."],
+      ["end", "Start reading, and ask what makes a state endure."]
+    ],
+    "018": [
+      ["title", "Africa: Kingdoms, Networks, and Cities. Many ways of building power."],
+      ["when", "More than two and a half thousand years of African history."],
+      ["where", "From Meroë to Kilwa, Timbuktu to Great Zimbabwe."],
+      ["story", "Kush ruled the Nile's south. Aksum minted coins beside the Red Sea. Merchants crossed the Sahara to Mali, whose ruler Mansa Musa traveled to Mecca. Swahili cities faced the Indian Ocean. Stone walls rose at Great Zimbabwe. And Benin's court built institutions in brass and memory, until British forces invaded in 1897."],
+      ["end", "Not a ladder of development, but many histories. Start reading."]
+    ],
+    "019": [
+      ["title", "The Americas Before European Conquest. Many routes to complexity."],
+      ["when", "Four and a half thousand years before the Europeans came."],
+      ["where", "From Cahokia to Cusco."],
+      ["story", "At Caral, monuments rose on the coast of Peru. Teotihuacan became a planned metropolis. Maya kingdoms kept writing and calendars. Cahokia grew beside the Mississippi, and the Mexica founded Tenochtitlan. The Inka ruled through roads, storehouses and knotted-cord records. Many histories, never a single march toward conquest."],
+      ["end", "Start reading, and see a hemisphere of many worlds."]
+    ],
+    "020": [
+      ["title", "The Rise of Islam and the Caliphates. Revelation, community, and empire."],
+      ["when", "From the seventh century to the tenth."],
+      ["where", "From Mecca to Spain and Central Asia."],
+      ["story", "Arabia was connected, not isolated. In 622, the Hijra gave a young community a new political home in Medina. After 632, the question of succession divided it. Conquests reached Spain and Central Asia. The Abbasids built Baghdad, where scholars translated, calculated and argued, making knowledge for a connected world."],
+      ["end", "Start reading, and follow the struggle over legitimate authority."]
+    ],
+    "021": [
+      ["title", "Medieval Eurasia and the Silk Roads. A web of routes, not a single highway."],
+      ["when", "Six centuries before the Mongol age."],
+      ["where", "From Chang'an to Constantinople, and across the sea."],
+      ["story", "Sogdian merchants made the networks work. Oasis towns turned scarce water into crossroads. Steppe powers like the Turkic Khaganate were never empty space between civilizations. Buddhism traveled with teachers, patrons and texts. And at sea, Srivijaya and the Chola contested the lanes of a second map of connection."],
+      ["end", "Start reading, and follow the goods, and the ideas."]
+    ],
+    "022": [
+      ["title", "The Mongols and the Connected World. The largest contiguous land empire in history."],
+      ["when", "From 1206 to the end of the fourteenth century."],
+      ["where", "From China to the Mediterranean."],
+      ["story", "In 1206, an assembly acclaimed Temüjin as Chinggis Khan. His armies shattered kingdoms and cities, from Khwarazm to Hungary, and in 1258, Baghdad fell. Then the empire became a family contest of four great realms. Relay riders and merchants knitted them together, and the same network carried the Black Death."],
+      ["end", "Start reading, and ask what the conquests changed."]
+    ],
+    "023": [
+      ["title", "Europe, Byzantium, and the Ottoman Emergence. Rival worlds, reshaping one another."],
+      ["when", "Five and a half centuries, ending in 1453."],
+      ["where", "From Iberia to Anatolia, with the Balkans between."],
+      ["story", "Byzantium was still the Roman Empire. It lost at Manzikert in 1071, and in 1204, crusaders sacked its capital. A new Bulgarian kingdom rose at Tarnovo. In Anatolia, Osman's dynasty grew from a frontier power into a Balkan one. And in 1453, Mehmed the Second took Constantinople."],
+      ["end", "Start reading, and see medieval Europe from the east."]
+    ],
+    "024": [
+      ["title", "Renaissance, Humanism, and Printing. A revival with medieval roots."],
+      ["when", "From Petrarch's lifetime to the eve of the Reformation."],
+      ["where", "From Florence to Mainz, and beyond Italy."],
+      ["story", "Humanists hunted for ancient voices, and learned to judge a text. In Florence, Brunelleschi raised a dome under hard practical limits. In Korea, a book was printed with movable metal type in 1377. Gutenberg's breakthrough in Mainz was a system, not a single machine, and print spread across a European network."],
+      ["end", "Start reading, and ask what changed, and for whom."]
+    ],
+    "025": [
+      ["title", "Reformation and Religious Conflict. A dispute about authority that remade Europe."],
+      ["when", "More than a century and a half of reform and war."],
+      ["where", "From Wittenberg and Geneva to Rome and Trent."],
+      ["story", "Reform did not begin in 1517, but the Ninety-Five Theses changed the dispute fast. Print and preaching spread it. Peasants, Anabaptists, Zurich and Geneva offered rival visions, while Catholic renewal reshaped Rome. Then came wars: in France, in the Netherlands, and from Bohemia across Europe in the Thirty Years' War."],
+      ["end", "Renewal, and devastation. Start reading."]
+    ],
+    "026": [
+      ["title", "Indian Ocean Commerce and Asian Powers. An ocean already trading."],
+      ["when", "Two centuries of winds, ports and rulers."],
+      ["where", "From East Africa to China."],
+      ["story", "The monsoon was a commercial calendar. Gujarat made cloth for distant markets, Malabar grew pepper, and Melaka organized the crossing to the east. Zheng He's fleets sailed from Ming China. When Vasco da Gama reached Malabar in 1498, he entered a sophisticated world. The Portuguese took Melaka, but never the whole ocean."],
+      ["end", "Start reading, and follow one piece of cotton cloth."]
+    ],
     "027": [
-      [
-        "title",
-        "European Maritime Expansion. Small ships, and very large consequences."
-      ],
-      [
-        "when",
-        "Between 1415 and 1571, voyages from Portugal and Castile became empires."
-      ],
-      [
-        "where",
-        "Across the Atlantic, and beyond."
-      ],
-      [
-        "story",
-        "Dias rounded Africa. Columbus reached the Caribbean. Magellan's crew crossed the Pacific. Yet these were not empty worlds. Every landing met people with their own rulers, markets and knowledge, and conquest turned on alliances, disease and force, not ships alone."
-      ],
-      [
-        "sections",
-        "Follow the winds, the money, the treaties, and the people on every shore."
-      ],
-      [
-        "end",
-        "Start reading, and see the voyages from every side."
-      ]
+      ["title", "European Maritime Expansion. Small ships, and very large consequences."],
+      ["when", "Between 1415 and 1571, voyages from Portugal and Castile became empires."],
+      ["where", "Across the Atlantic, and beyond."],
+      ["story", "Dias rounded Africa. Columbus reached the Caribbean. Magellan's crew crossed the Pacific. Yet these were not empty worlds. Every landing met people with their own rulers, markets and knowledge, and conquest turned on alliances, disease and force, not ships alone."],
+      ["end", "Follow the winds, the money, the treaties, and the people on every shore."],
+      ["end", "Start reading, and see the voyages from every side."]
+    ],
+    "028": [
+      ["title", "The Columbian Exchange. After 1492, the world's living things changed places."],
+      ["when", "Four centuries, from 1492 to 1900."],
+      ["where", "Across the Atlantic, in both directions. Maize, potatoes and cassava fed people far from the Americas. Wheat, sugarcane, cattle and horses remade American landscapes. But the most devastating movement was disease. Epidemics, forced labor and colonization devastated many Indigenous societies, and biology alone does not explain why."],
+      ["end", "Was it good or bad? Start reading, and decide carefully."]
+    ],
+    "029": [
+      ["title", "Atlantic Slavery and Plantation Economies. The forced migration at the center of empire."],
+      ["when", "Four centuries of bondage, and of resistance."],
+      ["where", "From Luanda and Elmina to Bahia and Jamaica."],
+      ["story", "Millions of Africans were forced across the Atlantic, most of them not to North America, but to Brazil and the Caribbean. Sugar and credit built a plantation world on coercion. Yet the enslaved made new cultures, and resisted, at sea, at Palmares, and in Saint-Domingue, where Haiti declared independence in 1804. Brazil ended slavery only in 1888."],
+      ["end", "Start reading, and read the records against the grain."]
+    ],
+    "030": [
+      ["title", "The Qing, Mughal, and Ottoman Worlds. Three empires, three ways to rule."],
+      ["when", "From the founding of the Ming to 1757."],
+      ["where", "From the Balkans to Bengal and Beijing."],
+      ["story", "In 1526, Babur won at Panipat, and the Ottomans won at Mohács. In 1644, Qing forces entered Beijing. Each empire bargained with elites, taxed farmers, and made authority visible through art and ceremony. None of them simply declined. And European companies arrived as participants, not yet as masters."],
+      ["end", "Start reading, and compare them carefully."]
+    ],
+    "031": [
+      ["title", "Scientific Revolution and Enlightenment. New ways to test knowledge, and to challenge authority."],
+      ["when", "From Copernicus to the end of the eighteenth century."],
+      ["where", "In letters between Europe's cities."],
+      ["story", "Copernicus rearranged the cosmos. Galileo turned a telescope to the sky. Newton joined motion and gravity in one system. Then philosophers turned the same questions on society: Locke on consent, Montesquieu on power, Voltaire on toleration. Yet the Enlightenment had its exclusions, and reason did not triumph overnight."],
+      ["end", "There was no single method. Start reading."]
+    ],
+    "032": [
+      ["title", "Atlantic Revolutions and Citizenship. Liberty, but for whom?"],
+      ["when", "From the Seven Years' War to Napoleon."],
+      ["where", "Boston, Paris, and Saint-Domingue."],
+      ["story", "British colonists declared independence, though not freedom for everyone. In 1789, France's Third Estate declared itself the National Assembly. Rights were proclaimed, the monarchy broke, and terror followed. In Saint-Domingue, enslaved people rose up in 1791, and France abolished slavery in 1794. In 1799, Napoleon seized power."],
+      ["end", "Three revolutions, three definitions of the people. Start reading."]
+    ],
+    "033": [
+      ["title", "Latin American Independence and State Building. Declaring a country was the easy part."],
+      ["when", "Two decades, from the shock of 1808."],
+      ["where", "From Mexico to the Río de la Plata."],
+      ["story", "In 1808, Napoleon's interventions shook the Spanish monarchy, and juntas formed. Hidalgo's uprising began in Mexico in 1810. Bolívar crossed the Andes in 1819, and San Martín carried the war through Chile. Brazil's royal court crossed the Atlantic. But Gran Colombia broke apart, treasuries emptied, and slavery outlived the new republics' promises."],
+      ["end", "Start reading, and see why founding was so hard."]
+    ],
+    "034": [
+      ["title", "Industrialization and Urban Society. Machines, coal, and crowded cities."],
+      ["when", "A century, from Watt's condenser onward."],
+      ["where", "From Manchester to Lowell, and beyond."],
+      ["story", "Spinning machines broke one bottleneck, and created another. Steam and coal released new energy. In 1825, the Stockton and Darlington Railway opened, and distance began to shrink. Cities grew faster than their drains, until John Snow traced cholera to a water pump. Wealth rose, and so did inequality."],
+      ["end", "Start reading. The revolution took generations."]
+    ],
+    "035": [
+      ["title", "Imperialism and African Partition. Conquest was a process, not a map."],
+      ["when", "The nineteenth century, to 1914."],
+      ["where", "From the Niger to the Nile."],
+      ["story", "Africa was no empty continent. In 1879, the Zulu kingdom defeated British troops at Isandlwana. The Berlin Conference of 1884 did not draw every border. Heavy firepower won at Omdurman, but at Adwa, Ethiopia defeated Italy's invasion. And under colonial rule, African peoples kept negotiating, resisting, and remaking their lives."],
+      ["end", "Start reading, and see what remained African."]
+    ],
+    "036": [
+      ["title", "Nationalism and the Nineteenth-Century Nation-State. How people came to imagine nations."],
+      ["when", "From the French Revolution to 1914."],
+      ["where", "From Frankfurt to Sicily."],
+      ["story", "Schools, newspapers and revived languages taught people to belong. In 1848, revolutions swept Europe, and the Frankfurt parliament found it lacked power. Garibaldi and Piedmont made a kingdom of Italy. Bismarck's wars made a German empire. Bulgaria's National Revival built schools, a church, and a revolution. And every new border left minorities behind it."],
+      ["end", "A promise, and a contradiction. Start reading."]
+    ],
+    "037": [
+      ["title", "The Balkans and the Eastern Question. A question no treaty could settle."],
+      ["when", "A century of reform, revolt and diplomacy."],
+      ["where", "Southeastern Europe, between Vienna and Constantinople."],
+      ["story", "Ottoman reformers, national movements and great powers all wanted different things. In April 1876, a Bulgarian uprising was crushed, and the world read about it. San Stefano drew a large Bulgaria. Berlin redrew it. In 1885, Bulgaria united at Plovdiv, and in 1908 it declared independence. Then came the Balkan Wars, and in 1914, Sarajevo."],
+      ["end", "Not merely a story of decline. Start reading."]
+    ],
+    "038": [
+      ["title", "World War I: Causes and Consequences. How an assassination became a world war."],
+      ["when", "Five years of war, and a peace that remade the map."],
+      ["where", "From the Western Front to Macedonia."],
+      ["story", "A shot in Sarajevo, a July crisis, and a web of alliances turned a Balkan killing into a global war. Trenches locked the Western Front, and industry multiplied the dead. In 1915, Bulgaria joined the Central Powers, and fought on the Salonika Front until Dobro Pole. The peace, at Versailles and Neuilly, transformed empires and borders."],
+      ["end", "Start reading. Nothing about it was inevitable."]
+    ],
+    "039": [
+      ["title", "The Interwar World. A peace that could not hold."],
+      ["when", "Twenty years between two world wars."],
+      ["where", "From Paris to Manchuria."],
+      ["story", "The League of Nations promised collective security. Fascists marched on Rome. Germany's currency collapsed in 1923, the year of Bulgaria's coup. In 1929, Wall Street crashed, and a downturn became a world depression. Hitler came to power. Famine struck Ukraine. Japan seized Manchuria, Italy invaded Ethiopia, and after Munich, Germany invaded Poland."],
+      ["end", "Start reading, and see how five systems failed together."]
+    ],
+    "040": [
+      ["title", "World War II and the Holocaust. A global catastrophe, and a genocide."],
+      ["when", "From the invasion of Poland to 1945."],
+      ["where", "From the Atlantic to the Pacific."],
+      ["story", "Germany conquered Poland and France, then invaded the Soviet Union in a war of annihilation. Japan widened its war at Pearl Harbor. Nazi Germany murdered about six million Jews. Bulgaria protected the Jews of its old kingdom, but deported those of the lands it occupied. Stalingrad and Kursk turned the war. It ended with Auschwitz liberated, and atomic bombs over Hiroshima and Nagasaki."],
+      ["end", "Victory, catastrophe, and an unfinished peace. Start reading."]
+    ],
+    "041": [
+      ["title", "Cold War, Decolonization, and the Post-1991 World. Allies became adversaries."],
+      ["when", "Six and a half decades, from 1944."],
+      ["where", "From Berlin to Bandung, Havana to Hanoi."],
+      ["story", "Berlin was blockaded, and NATO was founded. India and Pakistan won independence, at the cost of partition. At Bandung, new states sought their own path. In 1962, missiles in Cuba revealed the nuclear danger. Then in 1989, the Berlin Wall fell. The Soviet Union dissolved, Yugoslavia broke apart in violence, and Bulgaria joined NATO and the European Union."],
+      ["end", "Start reading, without a single storyline."]
+    ],
+    "042": [
+      ["title", "Why Wars Begin. If war is so costly, why not settle instead?"],
+      ["when", "From the July Crisis to Iraq in 2003."],
+      ["where", "From Sarajevo to the Gulf."],
+      ["story", "Fear, bargaining, power and judgment turn disputes into wars. Leaders bluff, and hide what they know. They fear what a stronger rival may do tomorrow. In 1962, over Cuba, both sides found a way back. In 1990, Iraq invaded Kuwait. In 2003, a war was justified by intelligence later found to be badly flawed."],
+      ["terms", "Key ideas: the bargaining range, the costly signal, and the commitment problem."],
+      ["end", "Start reading, and turn war stories into explanations."]
+    ],
+    "043": [
+      ["title", "The Geography of Power. Geography shapes possibilities. It does not dictate decisions."],
+      ["when", "Two centuries of straits, canals and chokepoints."],
+      ["where", "Mountains protect, and separate. Rivers connect, and divide. Straits like the Bosphorus and Hormuz, and canals at Suez and Panama, turn narrow water into leverage. Distance is a cost, not just a measurement. And Bulgaria, between the Danube, the Black Sea and the Balkan passes, is a crossroads, not a destiny."],
+      ["terms", "Key ideas: strategic depth, the corridor, and the resource curse."],
+      ["end", "Start reading, and read a strategic map without being deceived."]
+    ],
+    "044": [
+      ["title", "Military Organization and Logistics. Strength is not the same as success."],
+      ["when", "From Napoleon's wars to today."],
+      ["where", "From the road to Moscow to the skies over Berlin."],
+      ["story", "States turn people, money and industry into military capacity. But an army is a chain of institutions: fuel, food, maintenance, medicine and messages. In 1812, Napoleon's invasion of Russia failed for reasons beyond the weather. In 1948, the Berlin Airlift turned logistics itself into a political message."],
+      ["terms", "Key ideas: potential power, the operational level, and civilian control."],
+      ["end", "Start reading, and learn how to judge claims of military strength."]
+    ],
+    "045": [
+      ["title", "Diplomacy, Alliances, and Balance of Power. Cooperation need not mean friendship."],
+      ["when", "From the Congress of Vienna to Camp David."],
+      ["where", "From Vienna to Helsinki, and Bandung."],
+      ["story", "At Vienna, a defeated France took part in the settlement, and soon returned among the powers. The League of Nations promised more than it could deliver. The United Nations and NATO built new institutions. Over Cuba, communication mattered. At Helsinki, rivals agreed to manage their rivalry. And at Camp David, enemies signed a durable agreement."],
+      ["terms", "Key ideas: statecraft, sovereignty, and international anarchy."],
+      ["end", "Security is a relationship, not an inventory. Start reading."]
+    ],
+    "046": [
+      ["title", "International Law and Armed Conflict. Law, in a world without a supreme government."],
+      ["when", "From ancient restraints in war to 2022."],
+      ["where", "From Solferino and Geneva to The Hague."],
+      ["story", "After the slaughter at Solferino, the first Geneva Convention protected the wounded. The United Nations Charter restricted force. Nuremberg judged individuals, not only states. In 1949, four Geneva Conventions set a floor of humanity. And after the genocide against the Tutsi in Rwanda, the Rome Statute created an International Criminal Court."],
+      ["terms", "Two questions never to confuse: the right to go to war, and the law within it."],
+      ["end", "Start reading, and see why law is obeyed, and broken."]
+    ],
+    "047": [
+      ["title", "Deterrence and Nuclear Strategy. Can fear keep the peace?"],
+      ["when", "From Hiroshima to today."],
+      ["where", "From Hiroshima to Semipalatinsk and Bikini Atoll."],
+      ["story", "In 1945, two cities were destroyed. Soon two superpowers could destroy each other, and deterrence rested on mutual vulnerability. Near misses showed how fallible organizations are. The Non-Proliferation Treaty set a bargain. After the Soviet collapse, the weapons left in Ukraine went to Russia, and the Budapest Memorandum recorded security assurances. And people who lived beside the tests still bear the cost."],
+      ["terms", "Key ideas: compellence, crisis stability, and extended deterrence."],
+      ["end", "Start reading. The ethical question remains."]
+    ],
+    "048": [
+      ["title", "Civil Wars and Fragile States. When disagreement becomes war, and how it stops."],
+      ["when", "Wars within states, and the peace that follows."],
+      ["where", "From Mozambique to Nepal and Colombia."],
+      ["story", "England fought its civil wars, and America fought over slavery and secession. Later wars ended at the table: Mozambique in 1992, Bosnia at Dayton, then Guatemala, Nepal, and Colombia in 2016. But a ceasefire is not a peace settlement. Institutions must earn legitimacy, fighters must trust each other to disarm, and fragility is never a permanent identity."],
+      ["terms", "Key ideas: state capacity, legitimacy, and horizontal inequality."],
+      ["end", "Start reading, and ask what peace means after the last battle."]
     ]
   },
   "bg": {}

@@ -2,7 +2,7 @@
 // Title card (the emblem draws itself, the title is set letter by letter) → the timeline zooms to
 // the chapter's time → the camera flies over the Atlas's world → places appear, routes draw
 // themselves with ships sailing them, empires bloom, events pulse with captions while a date
-// counter runs → key terms → the sections roll past like credits → "Start reading".
+// counter runs → key terms → the end card (the chapter's size, "Start reading").
 // Every frame is computed from the clock alone, so the film can be paused and scrubbed freely.
 // A narrator (the UK English Male voice, content-meta/trailer-scripts.json) reads a short script
 // over the film; a scene lasts long enough for its line, and the picture waits for the voice.
@@ -134,15 +134,22 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
     ].filter((x) => !eventYears.has(x.y)).map((x) => ({ ...x, date: formatDate({ start: x.y, end: x.y }, lang) }));
     beats = [...eventBeats, ...startBeats].sort((p, q) => p.y - q.y).slice(0, 10).map((x) => ({ ...x, t: 0 }));
   }
-  // The narration: each line belongs to a scene (a line for a scene this film lacks moves on to the
-  // next one), and each scene lasts at least as long as its lines take to say.
-  const ORDER = ['title', 'when', 'where', 'story', 'terms', 'sections', 'end'];
-  const present = new Set(['title', ...(hasSpan ? ['when'] : []), ...(hasMap ? ['where'] : []), ...(beats.length ? ['story'] : []), ...(data.terms.length ? ['terms'] : []), 'sections', 'end']);
-  const sceneFor = (sc: string) => ORDER.slice(Math.max(0, ORDER.indexOf(sc))).find((x) => present.has(x)) ?? 'end';
+  // The narration: each line belongs to a scene, and each scene lasts at least as long as its lines
+  // take to say. A line for a scene this film lacks moves on to the next scene, or back to the one
+  // before when only the end card is left; a key-terms line is dropped when no terms are shown (it
+  // would name things nobody sees). "sections" is the old name of the end card's first line.
+  const ORDER = ['title', 'when', 'where', 'story', 'terms', 'end'];
+  const present = new Set(['title', ...(hasSpan ? ['when'] : []), ...(hasMap ? ['where'] : []), ...(beats.length ? ['story'] : []), ...(data.terms.length ? ['terms'] : []), 'end']);
+  const sceneFor = (sc: string): string | null => {
+    if (sc === 'sections' || sc === 'end') return 'end';
+    if (sc === 'terms' && !present.has('terms')) return null;
+    const i = Math.max(0, ORDER.indexOf(sc));
+    return ORDER.slice(i, -1).find((x) => present.has(x)) ?? ORDER.slice(0, i).reverse().find((x) => present.has(x)) ?? 'end';
+  };
   /** Roughly how long a line takes to say, in seconds. */
   const sayLen = (text: string) => text.split(/\s+/).length / 2.45 + (text.match(/[.!?](\s|$)/g)?.length ?? 1) * 0.35;
   type Line = { scene: string; text: string; start: number; len: number; state: 'wait' | 'speaking' | 'done' };
-  const lines: Line[] = (data.narration ?? []).map(([sc, text]) => ({ scene: sceneFor(sc), text, start: 0, len: sayLen(text), state: 'wait' }));
+  const lines: Line[] = (data.narration ?? []).flatMap(([sc, text]) => { const scene = sceneFor(sc); return scene ? [{ scene, text, start: 0, len: sayLen(text), state: 'wait' as const }] : []; });
   const voiced = Boolean(voice) && lines.length > 0;
   const need = (sc: string) => { const l = voiced ? lines.filter((x) => x.scene === sc) : []; return l.length ? 0.9 + l.reduce((n, x) => n + x.len, 0) : 0; };
   let c = 0;
@@ -157,7 +164,6 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
     c = T.story[1];
   }
   if (data.terms.length) T.terms = [c, (c += Math.max(1.8 + Math.min(4, data.terms.length) * 1.7, need('terms')))];
-  T.sections = [c, (c += Math.max(7, need('sections')))];
   T.end = [c, (c += Math.max(4.5, need('end') + 1))];
   const DUR = c;
   for (const sc of ORDER) { let at = (T[sc]?.[0] ?? 0) + 0.5; for (const l of lines.filter((x) => x.scene === sc)) { l.start = at; at += l.len; } }
@@ -203,7 +209,7 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
       keys.push([bt.t - 0.9, k], [bt.t + 1.9, k]);
     }
     if (T.story) keys.push([T.story[1], R]);
-    keys.push([T.sections[1], { ...R, z: R.z * 1.25 }], [DUR + 10, { ...R, z: R.z * 1.32 }]);
+    keys.push([T.end[0] + 1, { ...R, z: R.z * 1.25 }], [DUR + 10, { ...R, z: R.z * 1.32 }]);
     if (!keys.length || t <= keys[0][0]) return keys[0]?.[1] ?? world;
     for (let i = 1; i < keys.length; i++) {
       const [t0, a] = keys[i - 1], [t1, b] = keys[i];
@@ -232,7 +238,7 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
     const big = clamp(unit / 18, 22, 54);
 
     // The map (from "where" to the end).
-    const mapA = T.where ? clamp((t - T.where[0] + 0.4) / 1.4) * (1 - 0.72 * clamp((t - (T.terms?.[0] ?? T.sections[0])) / 1.2)) : 0;
+    const mapA = T.where ? clamp((t - T.where[0] + 0.4) / 1.4) * (1 - 0.72 * clamp((t - (T.terms?.[0] ?? T.end[0])) / 1.2)) : 0;
     const year = yearAtT(t);
     if (mapA > 0.01 && geo) {
       const cam = camAt(t), s = unit / cam.z;
@@ -472,31 +478,11 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
         ctx.globalAlpha = a; ctx.font = `650 ${clamp(big * 0.62, 18, 32)}px ${serif}`; ctx.fillStyle = C.gold;
         ctx.fillText(term.t, W / 2, y + rise);
         ctx.font = `400 ${clamp(big * 0.32, 12, 16)}px ${sans}`; ctx.fillStyle = C.dim;
-        ctx.fillText(wrap(term.d, Math.min(W * 0.8, 640))[0] ?? '', W / 2, y + rise + clamp(big * 0.5, 16, 26));
+        { const dl = wrap(term.d, Math.min(W * 0.8, 640)); ctx.fillText((dl[0] ?? '') + (dl.length > 1 ? ' …' : ''), W / 2, y + rise + clamp(big * 0.5, 16, 26)); }
       });
       const ha = win(t, T.terms[0], T.terms[1], 0.5, 0.6);
       ctx.globalAlpha = ha; ctx.font = `600 ${clamp(big * 0.3, 11, 15)}px ${sans}`; ctx.fillStyle = C.dim;
       ctx.fillText(S.keyTerms.toUpperCase(), W / 2, H * 0.22); ctx.globalAlpha = 1;
-    }
-    // The sections roll past like credits.
-    {
-      const [s0, s1] = T.sections;
-      const a = win(t, s0, s1 + 0.6, 0.6, 0.9);
-      if (a > 0) {
-        ctx.globalAlpha = a;
-        ctx.font = `600 ${clamp(big * 0.3, 11, 15)}px ${sans}`; ctx.fillStyle = C.gold;
-        ctx.fillText(fill(S.inChapter, { n: data.sections.length, m: data.minutes }).toUpperCase(), W / 2, H * 0.16);
-        const lh = clamp(unit / 22, 24, 40), speed = (data.sections.length * lh + H * 0.6) / (s1 - s0 + 0.5);
-        ctx.font = `500 ${clamp(big * 0.5, 15, 26)}px ${serif}`;
-        data.sections.forEach((title, i) => {
-          const y = H * 0.95 + i * lh - (t - s0) * speed;
-          if (y < H * 0.2 || y > H) return;
-          const edge = Math.min((y - H * 0.2) / (H * 0.15), (H - y) / (H * 0.15));
-          ctx.globalAlpha = a * clamp(edge); ctx.fillStyle = C.ink;
-          ctx.fillText(title, W / 2, y);
-        });
-        ctx.globalAlpha = 1;
-      }
     }
     // End card: the emblem settles above the buttons.
     {
@@ -508,7 +494,11 @@ export async function openTrailer(opts: { label: string; lang: 'en' | 'bg'; stri
         emblem.forEach(({ p, fill: f }) => { ctx.stroke(p); if (f) ctx.fill(p); });
         ctx.restore();
         ctx.globalAlpha = a; ctx.font = `650 ${clamp(big * 0.8, 22, 42)}px ${serif}`; ctx.fillStyle = C.ink;
-        wrap(data.title, W * 0.86).forEach((line, i) => ctx.fillText(line, W / 2, cy + size * 0.95 + i * big * 0.9));
+        const tl = wrap(data.title, W * 0.86);
+        tl.forEach((line, i) => ctx.fillText(line, W / 2, cy + size * 0.95 + i * big * 0.9));
+        // The chapter's size, quietly, under its name (the sections themselves are in the storyboard).
+        ctx.globalAlpha = a * 0.9; ctx.font = `600 ${clamp(big * 0.3, 11, 15)}px ${sans}`; ctx.fillStyle = C.gold;
+        ctx.fillText(fill(S.inChapter, { n: data.sections.length, m: data.minutes }).toUpperCase(), W / 2, cy + size * 0.95 + (tl.length - 1) * big * 0.9 + clamp(big * 0.8, 22, 40));
         ctx.globalAlpha = 1;
       }
     }

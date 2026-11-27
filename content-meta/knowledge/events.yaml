@@ -959,7 +959,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 039/chinas-republic-revolution-and-invasion, 039/paris-new-borders-and-contested-self-determination ]
-  status: proposed
+  status: approved
   place: paris
 - id: league-of-nations-founded
   label: "The League of Nations is founded"
@@ -968,7 +968,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 039/a-recovery-that-rested-on-unstable-foundations, 039/the-league-of-nations-more-than-a-failed-security-experiment, 045/the-league-of-nations-a-promise-and-a-capacity-problem ]
-  status: proposed
+  status: approved
   place: geneva
 - id: march-on-rome
   label: "The March on Rome"
@@ -977,7 +977,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 039/italy-the-march-on-rome-and-the-consolidation-of-fascism ]
-  status: proposed
+  status: approved
   place: rome
 - id: german-hyperinflation
   label: "Hyperinflation in Germany"
@@ -986,7 +986,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 039/hyperinflation-and-the-memory-of-1923 ]
-  status: proposed
+  status: approved
   place: berlin
 - id: bulgarian-coup-1923
   label: "The coup of 9 June in Bulgaria"
@@ -995,7 +995,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 039/bulgaria-in-the-1930s-coup-monarchy-and-revisionism, 039/bulgarias-1923-coup-and-the-spiral-of-violence ]
-  status: proposed
+  status: approved
   place: sofia
 - id: republic-of-turkey
   label: "The Republic of Turkey is proclaimed"
@@ -1004,7 +1004,7 @@
   precision: year
   region: global
   sections: [ 039/paris-new-borders-and-contested-self-determination, 039/turkey-and-the-end-of-the-ottoman-imperial-order ]
-  status: proposed
+  status: approved
 - id: wall-street-crash
   label: "The Wall Street Crash"
   bg: "Крахът на Уолстрийт"
@@ -1012,7 +1012,7 @@
   precision: year
   region: americas
   sections: [ 039/1929-a-crash-not-a-complete-explanation, 039/case-study-did-the-depression-cause-hitler, 039/how-a-national-downturn-became-a-world-depression ]
-  status: proposed
+  status: approved
   place: new-york
 - id: holodomor
   label: "The Holodomor famine in Ukraine"
@@ -1021,7 +1021,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 039/collectivization-famine-and-the-holodomor ]
-  status: proposed
+  status: approved
   place: kyiv
 - id: hitler-chancellor
   label: "Hitler becomes chancellor"
@@ -1030,7 +1030,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 039/case-study-did-the-depression-cause-hitler, 039/weimars-collapse-was-a-political-process ]
-  status: proposed
+  status: approved
   place: berlin
 - id: mukden-incident
   label: "Japan seizes Manchuria"
@@ -1039,7 +1039,7 @@
   precision: year
   region: east-asia
   sections: [ 039/japan-and-the-transformation-of-east-asian-security, 039/manchuria-and-ethiopia-collective-security-under-strain ]
-  status: proposed
+  status: approved
   place: mukden
 - id: bulgarian-coup-1934
   label: "The coup of 19 May in Bulgaria"
@@ -1048,7 +1048,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 039/bulgaria-in-the-1930s-coup-monarchy-and-revisionism, 039/bulgarias-1923-coup-and-the-spiral-of-violence ]
-  status: proposed
+  status: approved
   place: sofia
 - id: italy-invades-ethiopia
   label: "Italy invades Ethiopia"
@@ -1057,7 +1057,7 @@
   precision: year
   region: africa
   sections: [ 039/manchuria-and-ethiopia-collective-security-under-strain, 039/the-road-toward-a-new-general-war ]
-  status: proposed
+  status: approved
   place: addis-ababa
 - id: spanish-civil-war
   label: "The Spanish Civil War"
@@ -1066,7 +1066,7 @@
   precision: year
   region: global
   sections: [ 039/spain-a-civil-war-with-international-consequences, 039/the-road-toward-a-new-general-war, 048/the-spanish-civil-war-a-national-conflict-with-international ]
-  status: proposed
+  status: approved
 - id: munich-agreement
   label: "The Munich Agreement"
   bg: "Мюнхенското споразумение"
@@ -1074,7 +1074,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 039/munich-and-the-failure-of-appeasement, 040/from-the-failed-peace-to-expansionist-dictatorships ]
-  status: proposed
+  status: approved
   place: munich
 - id: invasion-of-poland
   label: "Germany invades Poland"
@@ -1083,7 +1083,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 039/1939-the-end-of-the-interwar-order-and-the-questions, 040/poland-september-1939-and-the-destruction-of-a-state ]
-  status: proposed
+  status: approved
   place: warsaw
 - id: fall-of-france
   label: "The fall of France"
@@ -1092,7 +1092,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 040/d-day-liberation-of-france-and-competing-memories, 040/poland-september-1939-and-the-destruction-of-a-state, 040/scandinavia-france-and-the-limits-of-the-early-german ]
-  status: proposed
+  status: approved
   place: paris
 - id: operation-barbarossa
   label: "Operation Barbarossa"
@@ -1101,7 +1101,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 040/operation-barbarossa-a-war-of-annihilation ]
-  status: proposed
+  status: approved
   place: moscow
 - id: siege-of-leningrad
   label: "The siege of Leningrad"
@@ -1110,7 +1110,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 040/the-siege-of-leningrad-and-suffering-behind-front-lines ]
-  status: proposed
+  status: approved
   place: leningrad
 - id: pearl-harbor-attack
   label: "The attack on Pearl Harbor"
@@ -1119,7 +1119,7 @@
   precision: year
   region: oceania
   sections: [ 040/pearl-harbor-and-the-widening-pacific-war ]
-  status: proposed
+  status: approved
   place: pearl-harbor
 - id: battle-of-midway
   label: "The Battle of Midway"
@@ -1128,7 +1128,7 @@
   precision: year
   region: oceania
   sections: [ 040/midway-guadalcanal-and-the-cost-of-island-warfare, 040/the-turning-years-1942-and-1943 ]
-  status: proposed
+  status: approved
   place: midway-atoll
 - id: battle-of-stalingrad
   label: "The Battle of Stalingrad"
@@ -1137,7 +1137,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 040/kursk-italy-and-the-relentless-eastern-front, 040/the-turning-years-1942-and-1943 ]
-  status: proposed
+  status: approved
   place: stalingrad
 - id: bulgarian-jews-1943
   label: "Deportation of Bulgaria's Jews is halted; Jews from occupied lands are deported"
@@ -1146,7 +1146,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 040/bulgarias-jews-protection-in-the-old-kingdom-deportation, 040/ghettos-deportation-and-the-language-of-administration, 040/resistance-rescue-and-difficult-choices-under-occupation ]
-  status: proposed
+  status: approved
   place: sofia
 - id: battle-of-kursk
   label: "The Battle of Kursk"
@@ -1155,7 +1155,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 040/kursk-italy-and-the-relentless-eastern-front ]
-  status: proposed
+  status: approved
   place: kursk
 - id: d-day
   label: "D-Day: the Normandy landings"
@@ -1164,7 +1164,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 040/d-day-liberation-of-france-and-competing-memories ]
-  status: proposed
+  status: approved
   place: normandy
 - id: bulgaria-changes-sides-1944
   label: "Bulgaria changes sides; the Fatherland Front takes power"
@@ -1173,7 +1173,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 040/bulgaria-in-1944-1945-changing-sides-and-changing-regimes, 041/bulgaria-after-1944-the-communist-state ]
-  status: proposed
+  status: approved
   place: sofia
 - id: auschwitz-liberated
   label: "Auschwitz is liberated"
@@ -1182,7 +1182,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 040/auschwitzs-liberation-and-the-evidence-of-genocide ]
-  status: proposed
+  status: approved
   place: auschwitz
 - id: hiroshima-nagasaki
   label: "Atomic bombings of Hiroshima and Nagasaki"
@@ -1191,7 +1191,7 @@
   precision: year
   region: east-asia
   sections: [ 040/hiroshima-nagasaki-and-the-question-of-surrender, 047/1945-scientific-achievement-and-human-catastrophe, 047/the-nuclear-taboo-and-the-evidence-of-non-use ]
-  status: proposed
+  status: approved
   place: hiroshima
 - id: un-charter
   label: "The United Nations Charter is signed"
@@ -1200,7 +1200,7 @@
   precision: year
   region: americas
   sections: [ 040/a-new-security-order-and-the-united-nations, 045/the-united-nations-law-authority-and-political-disagreement, 046/collective-security-and-the-united-nations ]
-  status: proposed
+  status: approved
   place: san-francisco
 - id: nuremberg-trials
   label: "The Nuremberg trials"
@@ -1209,7 +1209,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 040/justice-after-mass-atrocity-nuremberg-and-tokyo, 046/individual-criminal-responsibility-from-nuremberg-onward ]
-  status: proposed
+  status: approved
   place: nuremberg
 - id: truman-doctrine
   label: "The Truman Doctrine"
@@ -1218,7 +1218,7 @@
   precision: year
   region: global
   sections: [ 041/a-concise-comparative-chronology, 041/containment-the-truman-doctrine-and-the-marshall-plan ]
-  status: proposed
+  status: approved
 - id: partition-of-india
   label: "Independence and partition of India and Pakistan"
   bg: "Независимост и разделяне на Индия и Пакистан"
@@ -1226,7 +1226,7 @@
   precision: year
   region: south-asia
   sections: [ 041/a-concise-comparative-chronology, 041/south-asia-india-pakistan-and-the-cost-of-partition ]
-  status: proposed
+  status: approved
   place: delhi
 - id: berlin-airlift
   label: "The Berlin Blockade and Airlift"
@@ -1235,7 +1235,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 041/berlin-germany-and-the-formation-of-opposing-blocs, 044/the-berlin-airlift-logistics-as-political-communication ]
-  status: proposed
+  status: approved
   place: berlin
 - id: nato-founded
   label: "NATO is founded"
@@ -1244,7 +1244,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 041/the-european-union-and-nato-expand, 045/nato-the-warsaw-pact-and-institutional-asymmetry, 047/nato-collective-defence-and-an-institutional-perspective ]
-  status: proposed
+  status: approved
   place: brussels
 - id: peoples-republic-of-china
   label: "The People's Republic of China is proclaimed"
@@ -1253,7 +1253,7 @@
   precision: year
   region: east-asia
   sections: [ 041/bulgaria-after-1944-the-communist-state, 041/postcommunist-transitions-democracy-markets-and-costs, 041/the-chinese-revolution-and-the-remaking-of-east-asia ]
-  status: proposed
+  status: approved
   place: beijing
 - id: korean-war
   label: "The Korean War"
@@ -1262,7 +1262,7 @@
   precision: year
   region: east-asia
   sections: [ 041/a-concise-comparative-chronology, 041/korea-local-war-international-escalation, 041/the-chinese-revolution-and-the-remaking-of-east-asia ]
-  status: proposed
+  status: approved
   place: seoul
 - id: bandung-conference
   label: "The Bandung Conference"
@@ -1271,7 +1271,7 @@
   precision: year
   region: southeast-asia
   sections: [ 041/a-concise-comparative-chronology, 041/bandung-and-the-non-aligned-movement, 045/bandung-and-the-refusal-to-be-treated-as-a-chess-piece ]
-  status: proposed
+  status: approved
   place: bandung
 - id: congo-independence
   label: "Congo becomes independent; the Congo Crisis begins"
@@ -1280,7 +1280,7 @@
   precision: year
   region: africa
   sections: [ 041/the-congo-crisis-sovereignty-under-pressure ]
-  status: proposed
+  status: approved
   place: kinshasa
 - id: cuban-missile-crisis
   label: "The Cuban Missile Crisis"
@@ -1289,7 +1289,7 @@
   precision: year
   region: americas
   sections: [ 041/the-cuban-revolution-and-the-missile-crisis, 042/case-study-the-cuban-missile-crisis-1962, 045/the-cuban-missile-crisis-the-value-and-cost-of-communication ]
-  status: proposed
+  status: approved
   place: havana
 - id: npt-signed
   label: "The Nuclear Non-Proliferation Treaty"
@@ -1298,7 +1298,7 @@
   precision: year
   region: global
   sections: [ 047/the-npt-an-international-bargain-with-three-pillars ]
-  status: proposed
+  status: approved
 - id: helsinki-final-act
   label: "The Helsinki Final Act"
   bg: "Заключителният акт от Хелзинки"
@@ -1306,7 +1306,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 041/detente-and-the-limits-of-superpower-cooperation, 045/helsinki-managing-rivalry-without-ending-it ]
-  status: proposed
+  status: approved
   place: helsinki
 - id: camp-david-accords
   label: "The Camp David Accords"
@@ -1315,7 +1315,7 @@
   precision: year
   region: americas
   sections: [ 045/camp-david-a-durable-agreement-with-unresolved-questions ]
-  status: proposed
+  status: approved
   place: camp-david
 - id: soviet-afghan-war
   label: "The Soviet invasion of Afghanistan"
@@ -1324,7 +1324,7 @@
   precision: year
   region: south-asia
   sections: [ 041/afghanistan-iran-and-the-renewed-cold-war-of-the-1980s ]
-  status: proposed
+  status: approved
   place: kabul
 - id: iranian-revolution
   label: "The Iranian Revolution"
@@ -1333,7 +1333,7 @@
   precision: year
   region: west-asia
   sections: [ 041/afghanistan-iran-and-the-renewed-cold-war-of-the-1980s, 041/middle-eastern-transformations-independence-oil-and-conflict ]
-  status: proposed
+  status: approved
   place: tehran
 - id: bulgarian-revival-process
   label: "Bulgaria's forced renaming campaign against Turks and Muslims"
@@ -1342,7 +1342,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 041/bulgarias-forced-assimilation-campaign-and-1989, 041/case-study-one-bulgarian-town-across-three-political-systems ]
-  status: proposed
+  status: approved
   place: sofia
 - id: fall-of-the-berlin-wall
   label: "The fall of the Berlin Wall"
@@ -1351,7 +1351,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 041/a-concise-comparative-chronology, 041/the-revolutions-of-1989-and-the-fall-of-the-wall ]
-  status: proposed
+  status: approved
   place: berlin
 - id: iraq-invades-kuwait
   label: "Iraq invades Kuwait"
@@ -1360,7 +1360,7 @@
   precision: year
   region: west-asia
   sections: [ 042/case-study-iraq-and-kuwait-1990-1991 ]
-  status: proposed
+  status: approved
   place: kuwait-city
 - id: dissolution-of-ussr
   label: "The Soviet Union dissolves"
@@ -1369,7 +1369,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 041/germany-reunifies-and-the-soviet-union-dissolves, 041/gorbachev-and-reform-from-within-the-soviet-union, 041/what-the-term-cold-war-explains-and-what-it-hides ]
-  status: proposed
+  status: approved
   place: moscow
 - id: mozambique-peace
   label: "The Rome General Peace Accords end Mozambique's civil war"
@@ -1378,7 +1378,7 @@
   precision: year
   region: africa
   sections: [ 048/mozambique-the-long-negotiation-after-independence ]
-  status: proposed
+  status: approved
   place: maputo
 - id: budapest-memorandum
   label: "The Budapest Memorandum"
@@ -1387,7 +1387,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 047/ukraine-kazakhstan-and-belarus-after-the-soviet-collapse ]
-  status: proposed
+  status: approved
   place: budapest
 - id: rwandan-genocide
   label: "The genocide against the Tutsi in Rwanda"
@@ -1396,7 +1396,7 @@
   precision: year
   region: africa
   sections: [ 046/case-study-rwanda-bosnia-and-the-different-meanings ]
-  status: proposed
+  status: approved
   place: kigali
 - id: srebrenica-genocide
   label: "The Srebrenica genocide"
@@ -1405,7 +1405,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 041/the-balkans-after-1991-yugoslavias-violent-dissolution, 048/bosnia-and-herzegovina-ending-violence-and-designing-a-state ]
-  status: proposed
+  status: approved
   place: srebrenica
 - id: dayton-agreement
   label: "The Dayton Agreement"
@@ -1414,7 +1414,7 @@
   precision: year
   region: americas
   sections: [ 048/bosnia-and-herzegovina-ending-violence-and-designing-a-state ]
-  status: proposed
+  status: approved
   place: dayton
 - id: guatemala-peace-accords
   label: "The Guatemalan peace accords"
@@ -1423,7 +1423,7 @@
   precision: year
   region: americas
   sections: [ 048/guatemala-exclusion-and-the-meaning-of-historical-truth ]
-  status: proposed
+  status: approved
   place: guatemala-city
 - id: ctbt-opened
   label: "The Comprehensive Nuclear-Test-Ban Treaty opens for signature"
@@ -1432,7 +1432,7 @@
   precision: year
   region: global
   sections: [ 047/the-comprehensive-nuclear-test-ban-treaty ]
-  status: proposed
+  status: approved
 - id: icj-nuclear-opinion
   label: "The ICJ advisory opinion on nuclear weapons"
   bg: "Консултативното мнение на Международния съд за ядреното оръжие"
@@ -1440,7 +1440,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 047/nuclear-weapons-and-international-law-the-1996-advisory ]
-  status: proposed
+  status: approved
   place: the-hague
 - id: rome-statute
   label: "The Rome Statute of the International Criminal Court"
@@ -1449,7 +1449,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 046/the-international-criminal-court-and-the-limits ]
-  status: proposed
+  status: approved
   place: rome
 - id: sierra-leone-war-ends
   label: "Sierra Leone's civil war ends"
@@ -1458,7 +1458,7 @@
   precision: year
   region: africa
   sections: [ 048/sierra-leone-resources-are-not-destiny ]
-  status: proposed
+  status: approved
   place: freetown
 - id: iraq-war-2003
   label: "The US-led invasion of Iraq"
@@ -1467,7 +1467,7 @@
   precision: year
   region: west-asia
   sections: [ 042/case-study-iraq-and-kuwait-1990-1991, 042/case-study-iraq-in-2003-and-the-problem-of-intelligence ]
-  status: proposed
+  status: approved
   place: baghdad
 - id: bulgaria-joins-nato
   label: "Bulgaria joins NATO"
@@ -1476,7 +1476,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 041/a-concise-comparative-chronology, 041/the-european-union-and-nato-expand, 045/nato-the-warsaw-pact-and-institutional-asymmetry ]
-  status: proposed
+  status: approved
   place: sofia
 - id: nepal-peace-agreement
   label: "Nepal's Comprehensive Peace Agreement"
@@ -1485,7 +1485,7 @@
   precision: year
   region: south-asia
   sections: [ 048/nepal-transforming-a-conflict-into-constitutional-politics ]
-  status: proposed
+  status: approved
   place: kathmandu
 - id: bulgaria-joins-eu
   label: "Bulgaria joins the European Union"
@@ -1494,7 +1494,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 041/a-concise-comparative-chronology, 041/postcommunist-transitions-democracy-markets-and-costs, 041/the-european-union-and-nato-expand ]
-  status: proposed
+  status: approved
   place: sofia
 - id: new-start-signed
   label: "New START is signed"
@@ -1503,7 +1503,7 @@
   precision: year
   region: global
   sections: [ 047/new-start-and-the-consequences-of-lost-transparency ]
-  status: proposed
+  status: approved
 - id: south-sudan-independence
   label: "South Sudan becomes independent"
   bg: "Южен Судан става независим"
@@ -1511,7 +1511,7 @@
   precision: year
   region: africa
   sections: [ 048/sudan-and-south-sudan-borders-do-not-solve-every-political ]
-  status: proposed
+  status: approved
   place: juba
 - id: colombia-peace-agreement
   label: "Colombia's final peace agreement"
@@ -1520,7 +1520,7 @@
   precision: year
   region: americas
   sections: [ 048/colombia-a-peace-agreement-is-not-the-end-of-all-insecurity ]
-  status: proposed
+  status: approved
   place: bogota
 - id: tpnw-in-force
   label: "The Treaty on the Prohibition of Nuclear Weapons enters into force"
@@ -1529,7 +1529,7 @@
   precision: year
   region: global
   sections: [ 047/the-treaty-on-the-prohibition-of-nuclear-weapons ]
-  status: proposed
+  status: approved
 - id: solferino-battle
   label: "The Battle of Solferino"
   bg: "Битката при Солферино"
@@ -1537,7 +1537,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 046/solferino-the-red-cross-and-the-geneva-movement ]
-  status: proposed
+  status: approved
   place: solferino
 - id: first-geneva-convention
   label: "The first Geneva Convention"
@@ -1546,7 +1546,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 046/from-the-hague-to-the-geneva-conventions, 046/solferino-the-red-cross-and-the-geneva-movement ]
-  status: proposed
+  status: approved
   place: geneva
 - id: geneva-conventions-1949
   label: "The four Geneva Conventions"
@@ -1555,7 +1555,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 046/common-article-3-and-the-minimum-floor-of-humanity, 046/from-the-hague-to-the-geneva-conventions ]
-  status: proposed
+  status: approved
   place: geneva
 - id: napoleon-in-russia
   label: "Napoleon's invasion of Russia"
@@ -1564,7 +1564,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 044/napoleon-in-russia-a-failure-beyond-the-weather ]
-  status: proposed
+  status: approved
   place: moscow
 - id: congress-of-vienna
   label: "The Congress of Vienna"
@@ -1573,7 +1573,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 045/the-concert-and-the-limits-of-great-power-management, 045/the-congress-of-vienna-a-defeated-power-returns ]
-  status: proposed
+  status: approved
   place: vienna
 - id: english-civil-wars
   label: "The English Civil Wars"
@@ -1582,7 +1582,7 @@
   precision: year
   region: mediterranean-europe
   sections: [ 048/the-english-civil-wars-power-before-the-modern-nation-state ]
-  status: proposed
+  status: approved
   place: london
 - id: american-civil-war
   label: "The American Civil War"
@@ -1591,5 +1591,5 @@
   precision: year
   region: americas
   sections: [ 048/the-united-states-slavery-secession-and-the-constitutional ]
-  status: proposed
+  status: approved
   place: fort-sumter
