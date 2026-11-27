@@ -16,6 +16,8 @@ import { features } from '../config/features';
 import { chapterUrl } from '../lib/book';
 import '../styles/trailer.css';
 import '../styles/emblems.css';
+import '../styles/plate.css';
+import OpeningPlate from '../components/OpeningPlate.astro';
 import { EMBLEMS, EMBLEM_MOTION } from '../map/emblems';
 import mapData from '../data/map.json';
 
@@ -41,6 +43,8 @@ const special = secs.filter((s) => s.data.type !== 'section');
 const part = ch ? partByNumber(ch.data.part, lang) : undefined;
 const hasTimeline = ch ? Boolean(getTimeline(lang).chapterSpans[ch.data.label]) : false;
 const emblemId = ch ? (mapData as { towns: { label: string; emblem: string }[] }).towns.find((x) => x.label === ch!.data.label)?.emblem ?? 'banner' : 'banner';
+// The title set like movable type (M4): letters numbered for their stagger, words for their press.
+const typeset = ch ? (() => { let i = 0; return ch!.data.title.split(' ').map((w) => ({ at: i, letters: Array.from(w).map((c) => ({ c, i: i++ })) })); })() : [];
 const trailerStrings = Object.fromEntries(['title', 'play', 'pause', 'close', 'position', 'storyboard', 'start', 'contents', 'again', 'chapterN',
   'when', 'where', 'story', 'keyTerms', 'inChapter', 'playAnyway', 'narration', 'narrationOn', 'narrationOff', 'narrated'].map((k) => [k, t(lang, `tr.${k}` as UIKey)]));
 ---
@@ -70,7 +74,9 @@ const trailerStrings = Object.fromEntries(['title', 'play', 'pause', 'close', 'p
           <svg viewBox="0 0 24 24"><g class={`em em-m-${EMBLEM_MOTION[emblemId] ?? 'wave'}`} set:html={EMBLEMS[emblemId] ?? EMBLEMS.banner} /></svg>
         </span>
         <span class="chapter-number" aria-hidden="true" style={`view-transition-name: ch-${ch.data.label}`}>{ch.data.label}</span>
-        <h1 style={`view-transition-name: ch-title-${ch.data.label}`}><span class="visually-hidden">{t(lang, 'chapter', { n: ch.data.label })}: </span>{ch.data.title}</h1>
+        <h1 class="typeset" style={`view-transition-name: ch-title-${ch.data.label}`}><span class="visually-hidden">{t(lang, 'chapter', { n: ch.data.label })}: {ch.data.title}</span><span class="ts" aria-hidden="true" data-pagefind-ignore>{typeset.map((word, k) => (
+          <>{k > 0 && ' '}<span class="ts-w" style={`--w:${word.at}`}>{word.letters.map((l) => <span class="ts-l" style={`--i:${l.i}`}>{l.c}</span>)}</span></>
+        ))}</span></h1>
         <p class="standfirst" set:html={ch.data.standfirstHtml} />
         <div class="chapter-meta" data-pagefind-ignore>
           {ch.data.status && <span class="badge">{statusText(lang, ch.data.status)} · {t(lang, 'edition', { n: ch.data.edition ?? '' })}</span>}
@@ -89,6 +95,7 @@ const trailerStrings = Object.fromEntries(['title', 'play', 'pause', 'close', 'p
             <button class="tool-btn" type="button" aria-pressed="false"><Icon name="offline" /><span data-offline-label>{t(lang, 'offline.save')}</span></button>
           </div>
         )}
+        <OpeningPlate label={ch.data.label} lang={lang} />
       </header>
       <MtNotice show={isTranslated(ch)} />
 

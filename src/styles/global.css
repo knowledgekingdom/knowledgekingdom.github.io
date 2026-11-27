@@ -36,7 +36,7 @@
   --dur-2: 200ms;
   --dur-3: 320ms;
   --dur-4: 600ms;
-  --ease-out: var(--ease-out);   /* things arriving or settling */
+  --ease-out: cubic-bezier(.2, .75, .2, 1);   /* things arriving or settling */
   --ease-in: cubic-bezier(.5, 0, .75, 0);     /* things leaving */
   --ease-in-out: cubic-bezier(.65, 0, .35, 1); /* things moving from A to B */
   --stagger: 60ms;   /* delay between items entering one after another */
@@ -585,13 +585,18 @@ html:active-view-transition-type(backward)::view-transition-group(reading-main) 
 .chapter-hero > :not(.chapter-number), .section-head > *, .page-head > * { animation: kk-rise var(--dur-4) var(--ease-out) both; }
 .chapter-hero > :nth-child(3), .section-head > :nth-child(2) { animation-delay: calc(var(--stagger) * .8); }
 .chapter-hero > :nth-child(4), .section-head > :nth-child(3) { animation-delay: calc(var(--stagger) * 1.6); }
+/* A page's title and lede are its largest paint: like the home page's, they slide in without starting invisible. */
+.chapter-hero > .standfirst, .section-head > :is(h1, p), .page-head > :is(h1, p) { animation-name: kk-slide; }
 
 /* Reveal on scroll (scroll-driven animations; no JS). Uses `translate` so it
    never fights the hover lift, which uses `transform`. */
 @supports (animation-timeline: view()) {
   .chapter-card, .part-head, .study-card, .prose figure.figure, .roadmap-group, .stats, .roadmap-teaser, .pager a {
+    /* (The timeline goes through a variable: the CSS minifier would otherwise fold it into the
+       `animation` shorthand, which browsers reject, and nothing would animate.) */
+    --tl: view();
     animation: kk-reveal linear both;
-    animation-timeline: view();
+    animation-timeline: var(--tl);
     animation-range: entry 0% entry 40%;
   }
   @keyframes kk-reveal { from { opacity: 0; translate: 0 var(--slide); } }
@@ -604,7 +609,7 @@ html:active-view-transition-type(backward)::view-transition-group(reading-main) 
   background: var(--accent); transform-origin: 0 50%; transform: scaleX(0); pointer-events: none; display: none;
 }
 @supports (animation-timeline: scroll()) {
-  .reading-progress { display: block; animation: kk-progress linear both; animation-timeline: scroll(root); }
+  .reading-progress { display: block; --tl: scroll(root); animation: kk-progress linear both; animation-timeline: var(--tl); }
   @keyframes kk-progress { to { transform: scaleX(1); } }
 }
 

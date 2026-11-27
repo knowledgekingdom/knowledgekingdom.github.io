@@ -43,8 +43,13 @@ const { prev, next } = neighbours(url, lang);
     <button class="lightbox-close icon-btn" type="button" data-lightbox-close>
       <Icon name="close" /><span class="visually-hidden">{t(lang, 'figure.close')}</span>
     </button>
+    <div class="lightbox-tools" role="group" aria-label={t(lang, 'figure.zoom')}>
+      <button class="icon-btn" type="button" data-zoom="out" aria-label={t(lang, 'figure.zoomOut')}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12" /></svg></button>
+      <button class="lightbox-level" type="button" data-zoom="fit" aria-label={t(lang, 'figure.zoomFit')}>100%</button>
+      <button class="icon-btn" type="button" data-zoom="in" aria-label={t(lang, 'figure.zoomIn')}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 12h12M12 6v12" /></svg></button>
+    </div>
     <figure>
-      <img alt="" data-lightbox-img />
+      <div class="lightbox-stage" data-lightbox-stage title={t(lang, 'figure.zoomHint')}><img alt="" data-lightbox-img /></div>
       <figcaption data-lightbox-caption></figcaption>
     </figure>
   </dialog>
@@ -53,6 +58,7 @@ const { prev, next } = neighbours(url, lang);
     window.__kkEnlarge = enlargeLabel;
   </script>
   <script>
+    import { zoomable } from '../scripts/lightbox-zoom';
     // Highlight the current H3 in the on-page TOC.
     const links = [...document.querySelectorAll<HTMLAnchorElement>('.toc a')];
     if (links.length && 'IntersectionObserver' in window) {
@@ -74,6 +80,14 @@ const { prev, next } = neighbours(url, lang);
     const big = dialog?.querySelector<HTMLImageElement>('[data-lightbox-img]');
     const cap = dialog?.querySelector<HTMLElement>('[data-lightbox-caption]');
     let opener: HTMLElement | null = null;
+    // Zoom and pan (M4): the level shows on the middle button, which fits the figure again.
+    const stage = dialog?.querySelector<HTMLElement>('[data-lightbox-stage]');
+    const level = dialog?.querySelector<HTMLElement>('.lightbox-level');
+    const zoom = stage && big ? zoomable(stage, big, (s) => { if (level) level.textContent = `${Math.round(s * 100)}%`; }) : null;
+    dialog?.querySelectorAll<HTMLButtonElement>('[data-zoom]').forEach((b) => b.addEventListener('click', () => {
+      const k = b.dataset.zoom; if (k === 'in') zoom?.zoomBy(1.5); else if (k === 'out') zoom?.zoomBy(1 / 1.5); else zoom?.reset();
+    }));
+    dialog?.addEventListener('keydown', (e) => { if (!(e.target as HTMLElement).closest('button') || e.key !== 'Enter') if (zoom?.handleKey(e)) e.preventDefault(); });
 
     const largest = (img: HTMLImageElement) => {
       const cands = (img.srcset || '').split(',').map((s) => s.trim().split(/\s+/))
@@ -88,6 +102,7 @@ const { prev, next } = neighbours(url, lang);
       const fc = img.closest('figure')?.querySelector('figcaption');
       cap.innerHTML = fc ? fc.innerHTML : '';
       cap.querySelector('.figure-anchor')?.remove();
+      zoom?.reset(true);
       morph(img, big, () => dialog.showModal());
     };
     // The picture grows out of the figure (a same-page View Transition); a plain open
@@ -107,6 +122,7 @@ const { prev, next } = neighbours(url, lang);
     };
     const close = () => {
       if (!dialog?.open) return;
+      zoom?.reset(true);
       if (big && opener) morph(big, opener, () => dialog.close()); else dialog.close();
     };
     document.querySelectorAll<HTMLImageElement>('.prose figure.figure img').forEach((img) => {

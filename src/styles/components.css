@@ -182,6 +182,23 @@ kbd {
   position: absolute; top: .6rem; right: .6rem; z-index: 1;
   background: var(--card) !important; border: 1px solid var(--rule) !important; border-radius: 999px !important;
 }
+/* Zoom and pan (M4): the figure moves inside its stage; the tools sit beside the close button. */
+.lightbox-stage { overflow: hidden; border-radius: 8px; touch-action: none; cursor: zoom-in; display: grid; place-items: center; }
+.lightbox-stage.is-zoomed { cursor: grab; }
+.lightbox-stage.is-dragging { cursor: grabbing; }
+.lightbox-stage img { transform-origin: 50% 50%; will-change: transform; user-select: none; -webkit-user-drag: none; }
+/* (Below the figure, on the right, so they never cover it.) */
+.lightbox[open] { display: flex; flex-direction: column; }
+.lightbox-tools {
+  order: 2; align-self: flex-end; margin-top: .6rem; display: flex; align-items: center; gap: .1rem;
+  padding: .1rem; background: var(--card); border: 1px solid var(--rule); border-radius: 999px;
+}
+.lightbox-tools .icon-btn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+.lightbox-level {
+  min-width: 3.6rem; min-height: 2.25rem; border: 0; background: none; color: var(--ink-2); cursor: pointer;
+  font: 600 .78rem/1 var(--font-sans); font-variant-numeric: tabular-nums; border-radius: 999px;
+}
+.lightbox-level:hover { color: var(--ink); background: var(--paper-2); }
 
 /* Elements hidden with the hidden attribute stay hidden even when a class sets display */
 [hidden] { display: none !important; }

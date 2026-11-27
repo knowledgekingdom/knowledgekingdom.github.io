@@ -1,0 +1,45 @@
+/* The ink-and-paper motion language (Motion & Story, M4), site-wide:
+   - text links (the book's text, sources, About, the footer on hover) get a hand-drawn ink underline in their own colour (a CSS mask over a
+     band below the text, so it follows the palette, the theme and line breaks); hovering darkens it
+     and lets the ink run along the line;
+   - headings (in the text, the chapter's contents, related reading, sources, the home page) settle in as they scroll into view (scroll-driven, no JavaScript).
+   Reduce motion keeps the underline and drops the movement. */
+@supports ((mask-composite: add) or (-webkit-mask-composite: source-over)) {
+  :is(.prose, .ref-text, .sources-intro, .support-note) a:not(.cite, .figure-anchor, .btn, .more-link), .site-footer nav a {
+    --squiggle: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='8' viewBox='0 0 96 8'%3E%3Cpath d='M1 4.6C9 3.3 17 5.5 27 4.3S44 3.1 53 4.5S70 5.7 80 4.2S90 3.9 95 4.6' fill='none' stroke='%23000' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E");
+    text-decoration: none;
+    padding: .12em 0 .3em;
+    background: linear-gradient(color-mix(in srgb, currentColor 55%, transparent) 0 0) 0 100% / 100% .3em no-repeat;
+    -webkit-mask: linear-gradient(#000 0 0) 0 0 / 100% calc(100% - .3em) no-repeat, var(--squiggle) 0 100% / 3.2em .3em repeat-x;
+    mask: linear-gradient(#000 0 0) 0 0 / 100% calc(100% - .3em) no-repeat, var(--squiggle) 0 100% / 3.2em .3em repeat-x;
+    -webkit-mask-composite: source-over; mask-composite: add;
+    -webkit-box-decoration-break: clone; box-decoration-break: clone;
+    transition: background-color var(--dur-2) ease;
+  }
+  /* In the footer the ink appears only on hover. */
+  .site-footer nav a { background-size: 0 .3em; transition: background-size var(--dur-3) var(--ease-out); }
+  .site-footer nav a:hover { text-decoration: none; background-size: 100% .3em; }
+  :is(.prose, .ref-text, .sources-intro, .support-note) a:not(.cite, .figure-anchor, .btn, .more-link):hover, .site-footer nav a:hover {
+    background-image: linear-gradient(currentColor 0 0);
+    animation: ink-run 1.1s linear infinite;
+  }
+  @keyframes ink-run { to { -webkit-mask-position: 0 0, 3.2em 100%; mask-position: 0 0, 3.2em 100%; } }
+  :is(.prose, .ref-text, .sources-intro, .support-note) a:not(.cite, .figure-anchor, .btn, .more-link):focus-visible, .site-footer nav a:focus-visible { -webkit-mask: none; mask: none; text-decoration: underline; background: none; }
+  @media (forced-colors: active), print {
+    :is(.prose, .ref-text, .sources-intro, .support-note) a, .site-footer nav a { -webkit-mask: none; mask: none; background: none; text-decoration: underline; padding: 0; }
+  }
+}
+
+@supports (animation-timeline: view()) {
+  .prose :is(h2, h3), .opening-title, .contents > h2, .related > h2, .sources h2, .home-section h2 {
+    --tl: view(); animation: ink-settle linear both; animation-timeline: var(--tl); animation-range: entry 10% entry 70%;
+  }
+  /* (Movement only: a heading is never drawn faint, so its contrast is always full.) */
+  @keyframes ink-settle { from { translate: 0 .55em; } }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-motion='auto']) :is(.prose, .ref-text, .sources-intro, .support-note, .site-footer) a:hover { animation: none !important; }
+  :root:not([data-motion='auto']) :is(.prose h2, .prose h3, .opening-title, .contents > h2, .related > h2, .sources h2, .home-section h2) { animation: none !important; }
+}
+:root[data-motion='reduce'] :is(.prose, .ref-text, .sources-intro, .support-note, .site-footer) a:hover, :root[data-motion='reduce'] :is(.prose h2, .prose h3, .opening-title, .contents > h2, .related > h2, .sources h2, .home-section h2) { animation: none !important; }

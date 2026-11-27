@@ -115,6 +115,11 @@ const en = {
   // Figures
   'figure.close': 'Close',
   'figure.enlarge': 'Enlarge figure',
+  'figure.zoom': 'Zoom',
+  'figure.zoomIn': 'Zoom in',
+  'figure.zoomOut': 'Zoom out',
+  'figure.zoomFit': 'Fit the figure to the screen',
+  'figure.zoomHint': 'Scroll or pinch to zoom, double-click to zoom in, drag to move',
   // Machine translation
   'mt.note': '',
   'mt.link': '',
@@ -604,6 +609,11 @@ const bg: Record<UIKey, string> = {
   'sources.backToTop': 'Към началото',
   'figure.close': 'Затвори',
   'figure.enlarge': 'Увеличи фигурата',
+  'figure.zoom': 'Мащаб',
+  'figure.zoomIn': 'Приближи',
+  'figure.zoomOut': 'Отдалечи',
+  'figure.zoomFit': 'Покажи цялата фигура',
+  'figure.zoomHint': 'Превъртете или разтворете с два пръста за мащаб, щракнете два пъти за приближаване, плъзнете за преместване',
   'mt.note': 'Този текст е преведен автоматично от английски и може да съдържа неточности.',
   'mt.link': 'Прочетете оригинала',
   'mt.credit': 'Първоначален машинен превод:',

@@ -236,7 +236,8 @@ export function renderMap(data: MapData, opts: RenderOptions = {}): string {
     const slots = houseSlots(n);
     const house = ([x, y]: Pt) => `M${f(x - 3.6)} ${f(y)}v-4.6l3.6-3.2l3.6 3.2v4.6z`;
     const houses = `<path class="km-house" d="${slots.slice(read).map(house).join('')}"/>` + (read ? `<path class="km-house on" data-lit="${read}" d="${slots.slice(0, read).map(house).join('')}"/>` : '');
-    const label = `${s.chapter} ${t.number}: ${title}` + (t.planned ? ` (${s.planned})` : ` — ${s.sectionsRead.replace('{n}', String(read)).replace('{t}', String(t.sections))}`);
+    // (It begins with the town's visible name, so the words on the map are the words a screen reader says.)
+    const label = `${t.number} ${name} — ${s.chapter} ${t.number}: ${title}` + (t.planned ? ` (${s.planned})` : ` — ${s.sectionsRead.replace('{n}', String(read)).replace('{t}', String(t.sections))}`);
     out.push(`<a class="km-town is-${st}" href="${esc(prefix + t.url)}" data-ch="${t.label}" aria-label="${esc(label)}" transform="translate(${t.x} ${t.y})">`
       + `<circle class="km-hit" r="58"/>`
       + (relief ? `<ellipse class="km-shadow" cx="5" cy="${f(houseDepth(n) - 4)}" rx="${f(Math.min(60, 30 + n))}" ry="7"/>` : '')

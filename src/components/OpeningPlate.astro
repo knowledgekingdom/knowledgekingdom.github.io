@@ -1,0 +1,37 @@
+---
+// The chapter's opening plate (Motion & Story, M4): see src/lib/plate.ts for what is drawn and
+// src/styles/plate.css for how it moves. Decorative only (the same facts are in the chapter's
+// text, timeline and Atlas), so it is hidden from assistive technology and from search.
+import { buildPlate } from '../lib/plate';
+import type { Lang } from '../i18n/ui';
+interface Props { label: string; lang: Lang }
+const { label, lang } = Astro.props;
+const p = buildPlate(label, lang);
+---
+<div class={`plate plate-${p.mode}`} aria-hidden="true" data-pagefind-ignore>
+  <svg class="plate-far" viewBox={`0 0 ${p.w} ${p.h}`} preserveAspectRatio="xMidYMid slice" focusable="false">
+    {p.grid && <path class="pl-grid" d={p.grid} pathLength="1" />}
+    {p.far && <path class="pl-coast" d={p.far} pathLength="1" />}
+    {p.rose && <path class="pl-rose" d={p.rose} />}
+  </svg>
+  <svg class="plate-mid" viewBox={`0 0 ${p.w} ${p.h}`} preserveAspectRatio="xMidYMid slice" focusable="false">
+    {p.routes.map((d, i) => <path class="pl-route" d={d} pathLength="1" style={`--i:${i}`} />)}
+    {p.places.map((pl, i) => (
+      <g class="pl-place" style={`--i:${i}`} transform={`translate(${pl.x} ${pl.y})`}>
+        <circle r={pl.r} />
+        <circle class="pl-ring" r={pl.r + 4.5} />
+        {pl.label && <text x={pl.anchor === 'end' ? -12 : 12} y="4" text-anchor={pl.anchor}>{pl.label}</text>}
+      </g>
+    ))}
+  </svg>
+</div>
+{p.ruler && (
+  <div class="plate-ruler" aria-hidden="true" data-pagefind-ignore>
+    <span>{p.ruler.from}</span>
+    <svg viewBox="0 0 1000 16" preserveAspectRatio="none" focusable="false">
+      <path class="pr-line" d="M0 8H1000" pathLength="1" />
+      {p.ruler.ticks.map((f, i) => <path class="pr-tick" d={`M${Math.round(f * 1000)} 2V14`} style={`--i:${i}`} />)}
+    </svg>
+    <span>{p.ruler.to}</span>
+  </div>
+)}
